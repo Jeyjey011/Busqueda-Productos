@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Hombre",
-      "concepto": "La línea para hombre de MAGNIFICA: una cápsula al día para desinflamar la próstata, orinar mejor y levantarse menos de noche.",
-      "eslogan": "Orina mejor, duerme de corrido.",
-      "publico": "Hombres de 40 a 65 años y sus parejas, que ya compran MAGNIFICA para ellas",
-      "tono": "confiable, directo, sobrio",
-      "color": "#0B3C5D",
-      "color2": "#F2A900"
-    },
-    {
       "nombre": "CUCHO",
-      "concepto": "Marca chistosa paisa-rolo para el papá que se levanta cinco veces a orinar: el regalo que los hijos le compran por TikTok para que duerma toda la noche.",
       "eslogan": "El cucho ya no se levanta a orinar.",
-      "publico": "Hijos de 20 a 35 años que compran para su papá, y hombres de 45 o más con sentido del humor",
-      "tono": "parcero, cariñoso, chistoso",
-      "color": "#E63946",
-      "color2": "#1D3557"
+      "publico": "Hijos de 20 a 35 años que compran para su papá, y hombres de 45 o más con sentido del humor"
     },
     {
       "nombre": "ROBLE",
-      "concepto": "Línea premium natural con saw palmetto, semilla de calabaza y granada para desinflamar la próstata y orinar con chorro fuerte.",
       "eslogan": "Próstata desinflamada, noches enteras.",
-      "publico": "Hombres de 45 a 65 años, estratos 4 a 6, que prefieren ingredientes de origen natural",
-      "tono": "sereno, natural, premium",
-      "color": "#2D6A4F",
-      "color2": "#C9A227"
+      "publico": "Hombres de 45 a 65 años, estratos 4 a 6, que prefieren ingredientes de origen natural"
+    },
+    {
+      "nombre": "Pepita",
+      "eslogan": "Aceite de pepa de ahuyama con saw palmetto para orinar mejor y desinflamar la próstata.",
+      "publico": "Hombres de 45 a 70 años, compra por WhatsApp y droguería de barrio"
     }
   ],
   "angulo_venta": "Una cápsula diaria para el hombre de 40 o más que se levanta varias veces de noche a orinar: saw palmetto, semilla de calabaza y beta-sitosterol para desinflamar la próstata, orinar con buen chorro, vaciar bien y dormir de corrido. Venderlo como el regalo para el papá que ya no duerme por ir al baño.",
@@ -46,5 +34,5 @@
     "Lo que mi cucho se toma para desinflamar la próstata y orinar mejor."
   ],
   "precio_cop": "$89.900 - $119.900",
-  "estrategia_registro": "Un registro (F61) para las 3 marcas: MAGNIFICA Hombre, CUCHO y ROBLE."
+  "estrategia_registro": "Un registro (F61) para las 3 marcas: CUCHO, ROBLE y Pepita."
 }

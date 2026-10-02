@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Digest",
-      "concepto": "La cápsula de MAGNIFICA para desinflamar la barriga y digerir bien. Para toda la familia.",
-      "eslogan": "Chao barriga inflada.",
-      "publico": "Mujeres y hombres de 30 a 55 años que ya compran MAGNIFICA por WhatsApp.",
-      "tono": "Cercano, confiable, claro",
-      "color": "#2E7D5B",
-      "color2": "#F2E8CF"
-    },
-    {
       "nombre": "GUTI",
-      "concepto": "Marca joven y chistosa para los que viven con gases y la barriga inflada después de comer.",
       "eslogan": "Desínflate ya.",
-      "publico": "Jóvenes de 18 a 30 años que ven TikTok y comen por fuera.",
-      "tono": "Divertido, desparpajado, amigable",
-      "color": "#FF7A59",
-      "color2": "#FFE066"
+      "publico": "Jóvenes de 18 a 30 años que ven TikTok y comen por fuera."
     },
     {
       "nombre": "BIOMÍA",
-      "concepto": "Marca natural y premium para tener el vientre plano y el intestino al día.",
       "eslogan": "Vientre plano, digestión ligera.",
-      "publico": "Mujeres de 28 a 50 años, estrato medio-alto, que compran en tiendas naturistas.",
-      "tono": "Sereno, natural, experto",
-      "color": "#5B7F6B",
-      "color2": "#EDE6DA"
+      "publico": "Mujeres de 28 a 50 años, estrato medio-alto, que compran en tiendas naturistas."
+    },
+    {
+      "nombre": "Desinflao",
+      "eslogan": "Chao gases y barriga inflada después de cada comida.",
+      "publico": "Adultos de 30 a 55 años que comen pesado y compran por Dropi"
     }
   ],
   "angulo_venta": "Una cápsula con el almuerzo y se acaba la barriga inflada. Menos gases, menos pesadez y mejor digestión desde la primera semana. Vientre plano después de comer.",
@@ -46,5 +34,5 @@
     "Gases, pesadez y barriga de embarazada: esto me lo quitó"
   ],
   "precio_cop": "$79.900 - $99.900",
-  "estrategia_registro": "Un registro (F03) para las 3 marcas: MAGNIFICA Digest, GUTI y BIOMÍA."
+  "estrategia_registro": "Un registro (F03) para las 3 marcas: GUTI, BIOMÍA y Desinflao."
 }

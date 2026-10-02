@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Enfoque",
-      "concepto": "Las gotas de MAGNIFICA para tener energía y concentración en los días largos de trabajo o estudio.",
-      "eslogan": "Energía y foco todo el día.",
-      "publico": "Adultos de 25 a 45 años que trabajan, estudian o hacen ambas cosas",
-      "tono": "práctico, claro, confiable",
-      "color": "#5A189A",
-      "color2": "#00B4D8"
-    },
-    {
       "nombre": "PILAS",
-      "concepto": "Marca juvenil del '¡pilas!' colombiano: gotas para concentrarse en parciales, el preicfes o horas de streaming.",
       "eslogan": "Ponte las pilas, gota a gota.",
-      "publico": "Universitarios, preicfes, gamers y creadores de contenido de 17 a 28 años",
-      "tono": "parcero, enérgico, divertido",
-      "color": "#FFD60A",
-      "color2": "#111111"
+      "publico": "Universitarios, preicfes, gamers y creadores de contenido de 17 a 28 años"
     },
     {
       "nombre": "LÚCIDA",
-      "concepto": "Gotas premium para la concentración y la memoria, con metilfolato, metilcobalamina, L-teanina y ginkgo, en frasco de vidrio minimalista.",
       "eslogan": "Mente clara, cero distracción.",
-      "publico": "Profesionales de 30 a 50 años, estratos 4 a 6, que cuidan su rutina y pagan por calidad",
-      "tono": "elegante, sereno, preciso",
-      "color": "#1B4965",
-      "color2": "#3A86FF"
+      "publico": "Profesionales de 30 a 50 años, estratos 4 a 6, que cuidan su rutina y pagan por calidad"
+    },
+    {
+      "nombre": "Arranque",
+      "eslogan": "Gotas de energía para arrancar el día sin cansancio y con la cabeza clara.",
+      "publico": "Trabajadores y madrugadores de 25 a 55 años que compran por Dropi"
     }
   ],
   "angulo_venta": "1 mL en la mañana para quien estudia o trabaja todo el día: L-teanina y cafeína natural para concentrarse y tener energía, y ginkgo, metilfolato y B12 para la memoria y la mente clara. Mostrarlo junto al tinto, el computador y la agenda: menos cansancio, más foco.",
@@ -46,5 +34,5 @@
     "Cambié la tercera lata energizante por estas gotas de concentración."
   ],
   "precio_cop": "$49.900 - $69.900",
-  "estrategia_registro": "Un registro para las 3 marcas: MAGNIFICA Enfoque, PILAS y LÚCIDA."
+  "estrategia_registro": "Un registro (F20) para las 3 marcas: PILAS, LÚCIDA y Arranque."
 }

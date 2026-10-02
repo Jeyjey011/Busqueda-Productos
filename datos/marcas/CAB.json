@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Bella",
-      "concepto": "Las gomitas de MAGNIFICA para que el pelo crezca, deje de caerse y las uñas no se quiebren. Combina con su colágeno.",
-      "eslogan": "Pelo largo, uñas fuertes.",
-      "publico": "Mujeres de 25 a 45 años, clientas de MAGNIFICA Piel.",
-      "tono": "Femenino, confiable, alegre",
-      "color": "#D63384",
-      "color2": "#FFE5F1"
-    },
-    {
       "nombre": "MELENA",
-      "concepto": "Gomitas juveniles para hacer crecer el pelo rápido y lucir una melena larga y con volumen.",
       "eslogan": "Haz crecer tu melena.",
-      "publico": "Mujeres de 18 a 30 años que hacen contenido de cabello en TikTok.",
-      "tono": "Atrevido, divertido, auténtico",
-      "color": "#7B2CBF",
-      "color2": "#F9C80E"
+      "publico": "Mujeres de 18 a 30 años que hacen contenido de cabello en TikTok."
     },
     {
       "nombre": "TRENZA",
-      "concepto": "Gomitas premium para cabello largo o rizado: frenan la caída y hacen crecer el pelo fuerte hasta las puntas.",
       "eslogan": "Pelo que crece hasta las puntas.",
-      "publico": "Mujeres de 28 a 50 años con cabello largo o rizado que buscan lo natural.",
-      "tono": "Cálido, artesanal, sereno",
-      "color": "#6D4C41",
-      "color2": "#EFE3D3"
+      "publico": "Mujeres de 28 a 50 años con cabello largo o rizado que buscan lo natural."
+    },
+    {
+      "nombre": "Crespita",
+      "eslogan": "Gomita de biotina para pelo largo, piel bonita y uñas que no se parten.",
+      "publico": "Mujeres de 20 a 45 años de estrato popular que compran por WhatsApp"
     }
   ],
   "angulo_venta": "Dos gomitas al día para que el pelo crezca más rápido, deje de caerse y brille, y para que las uñas dejen de quebrarse. Biotina alta, zinc y vitaminas.",
@@ -46,5 +34,5 @@
     "Las gomitas de biotina que hacen crecer el pelo"
   ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un registro (F21) para las 3 marcas: MAGNIFICA Bella, MELENA y TRENZA."
+  "estrategia_registro": "Un registro (F21) para las 3 marcas: MELENA, TRENZA y Crespita."
 }

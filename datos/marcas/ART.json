@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Movi",
-      "concepto": "La línea de MAGNIFICA para quitar el dolor de rodillas: una cápsula con glucosamina, condroitina, cúrcuma y vitaminas D3 y K2.",
-      "eslogan": "Rodillas que no duelen.",
-      "publico": "Mujeres y hombres de 40 a 65 años que caminan, bailan o hacen ejercicio suave",
-      "tono": "cálido, activo, confiable",
-      "color": "#F77F00",
-      "color2": "#003049"
-    },
-    {
       "nombre": "PA'LANTE",
-      "concepto": "Marca alegre y criolla para los que no quieren que el dolor los deje quietos: deportistas de fin de semana, salseros y caminantes.",
       "eslogan": "Pa'lante, que las rodillas ya no duelen.",
-      "publico": "Adultos de 30 a 55 años activos en redes, e hijos que compran para sus papás",
-      "tono": "alegre, enérgico, criollo",
-      "color": "#EF233C",
-      "color2": "#FFB703"
+      "publico": "Adultos de 30 a 55 años activos en redes, e hijos que compran para sus papás"
     },
     {
       "nombre": "SOLMAR",
-      "concepto": "Marca premium natural con vitamina D3, cúrcuma y glucosamina para desinflamar las articulaciones y fortalecer los huesos.",
       "eslogan": "Articulaciones desinflamadas, huesos fuertes.",
-      "publico": "Adultos de 45 a 65 años, estratos 4 a 6, enfocados en envejecer activos",
-      "tono": "sereno, natural, premium",
-      "color": "#0077B6",
-      "color2": "#F4A261"
+      "publico": "Adultos de 45 a 65 años, estratos 4 a 6, enfocados en envejecer activos"
+    },
+    {
+      "nombre": "Rodi",
+      "eslogan": "Cápsula con calcio, glucosamina y condroitina que quita el dolor de rodilla para volver a entrenar.",
+      "publico": "Jóvenes de 20 a 35 años que hacen gym, fútbol o running, audiencia de TikTok"
     }
   ],
   "angulo_venta": "Adultos de 40 o más que antes no podían subir escaleras y ahora caminan y bailan: glucosamina, condroitina y cúrcuma para desinflamar y quitar el dolor de rodillas y articulaciones, y vitaminas D3 y K2 para huesos fuertes. Hablar del dolor que se va y de volver a moverse.",
@@ -46,5 +34,5 @@
     "Lo que mi mamá toma para quitarse el dolor de rodillas."
   ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un registro (F49) para las 3 marcas: MAGNIFICA Movi, PA'LANTE y SOLMAR."
+  "estrategia_registro": "Un registro (F49) para las 3 marcas: PA'LANTE, SOLMAR y Rodi."
 }

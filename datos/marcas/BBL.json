@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Tono",
-      "concepto": "El batido de MAGNIFICA con creatina, colágeno y aguaje para crecer nalgas y aumentar curvas mientras entrenas.",
-      "eslogan": "Más glúteo, más curvas.",
-      "publico": "Mujeres de 25 a 45 años que van al gimnasio y ya compran colágeno MAGNIFICA",
-      "tono": "femenino, seguro, motivador",
-      "color": "#D81B60",
-      "color2": "#FF8FAB"
-    },
-    {
       "nombre": "FIERA",
-      "concepto": "Marca juvenil para la chica que entrena pesado y quiere crecer nalgas: creatina rosada que no infla, aumenta glúteos.",
       "eslogan": "Glúteos de fiera.",
-      "publico": "Mujeres de 18 a 30 años, gym girls y creadoras de contenido fitness",
-      "tono": "atrevido, divertido, empoderado",
-      "color": "#FF006E",
-      "color2": "#8338EC"
+      "publico": "Mujeres de 18 a 30 años, gym girls y creadoras de contenido fitness"
     },
     {
       "nombre": "VALKIRIA",
-      "concepto": "Línea premium de creatina pura y colágeno, cero azúcar, para levantar y aumentar glúteos y curvas, en tarro elegante y sticks.",
       "eslogan": "Curvas que se notan.",
-      "publico": "Mujeres de 28 a 45 años, estratos 4 a 6, que hacen pesas, crossfit o pilates",
-      "tono": "sofisticado, fuerte, sereno",
-      "color": "#7B2CBF",
-      "color2": "#C9A227"
+      "publico": "Mujeres de 28 a 45 años, estratos 4 a 6, que hacen pesas, crossfit o pilates"
+    },
+    {
+      "nombre": "Caderona",
+      "eslogan": "Crece glúteos y tonifica piernas con creatina y colágeno.",
+      "publico": "Mujeres de 20 a 40 años de estrato popular que entrenan en casa o en gimnasio de barrio"
     }
   ],
   "angulo_venta": "Batido después del gimnasio para crecer nalgas y aumentar curvas: creatina y BCAA para que el glúteo crezca más rápido con el entreno, aguaje, fenogreco y maca para aumentar caderas y curvas, y colágeno con ácido hialurónico para la piel. Mostrar el antes y después de los glúteos.",
@@ -46,5 +34,5 @@
     "Tres meses con mi creatina rosada: así me crecieron los glúteos."
   ],
   "precio_cop": "$99.900 - $129.900",
-  "estrategia_registro": "Un registro para las 3 marcas: MAGNIFICA Tono, FIERA y VALKIRIA."
+  "estrategia_registro": "Un registro (F04) para las 3 marcas: FIERA, VALKIRIA y Caderona."
 }

@@ -1,0 +1,422 @@
+[
+  {
+    "registro": "F01",
+    "marcas": [
+      {
+        "nombre": "Dormilona",
+        "idea": "Magnesio que te tumba a dormir y te quita los calambres de la noche.",
+        "publico": "Jóvenes de 18 a 30 años en TikTok que duermen mal"
+      },
+      {
+        "nombre": "Arrullo",
+        "idea": "Magnesio completo para dormir profundo y despertar sin calambres ni tensión.",
+        "publico": "Adultos de 30 a 55 años, estrato medio-alto, que buscan lo natural"
+      },
+      {
+        "nombre": "Chao Calambre",
+        "idea": "Se acabaron los calambres en las piernas y las noches en vela.",
+        "publico": "Adultos de 40 a 65 años, compradores por WhatsApp y Dropi"
+      }
+    ]
+  },
+  {
+    "registro": "F02",
+    "marcas": [
+      {
+        "nombre": "FRESITA",
+        "idea": "Olor íntimo controlado.",
+        "publico": "Mujeres de 18 a 30 años, universitarias y creadoras de TikTok."
+      },
+      {
+        "nombre": "FLORELA",
+        "idea": "pH vaginal en equilibrio.",
+        "publico": "Mujeres de 28 a 50 años, interesadas en lo natural y lo orgánico."
+      },
+      {
+        "nombre": "Coquetica",
+        "idea": "Gomita para estar fresquita, sin olor íntimo y con el pH en orden.",
+        "publico": "Mujeres de 25 a 45 años de estrato popular que compran por WhatsApp"
+      }
+    ]
+  },
+  {
+    "registro": "F03",
+    "marcas": [
+      {
+        "nombre": "GUTI",
+        "idea": "Desínflate ya.",
+        "publico": "Jóvenes de 18 a 30 años que ven TikTok y comen por fuera."
+      },
+      {
+        "nombre": "BIOMÍA",
+        "idea": "Vientre plano, digestión ligera.",
+        "publico": "Mujeres de 28 a 50 años, estrato medio-alto, que compran en tiendas naturistas."
+      },
+      {
+        "nombre": "Desinflao",
+        "idea": "Chao gases y barriga inflada después de cada comida.",
+        "publico": "Adultos de 30 a 55 años que comen pesado y compran por Dropi"
+      }
+    ]
+  },
+  {
+    "registro": "F04",
+    "marcas": [
+      {
+        "nombre": "FIERA",
+        "idea": "Glúteos de fiera.",
+        "publico": "Mujeres de 18 a 30 años, gym girls y creadoras de contenido fitness"
+      },
+      {
+        "nombre": "VALKIRIA",
+        "idea": "Curvas que se notan.",
+        "publico": "Mujeres de 28 a 45 años, estratos 4 a 6, que hacen pesas, crossfit o pilates"
+      },
+      {
+        "nombre": "Caderona",
+        "idea": "Crece glúteos y tonifica piernas con creatina y colágeno.",
+        "publico": "Mujeres de 20 a 40 años de estrato popular que entrenan en casa o en gimnasio de barrio"
+      }
+    ]
+  },
+  {
+    "registro": "F05",
+    "marcas": [
+      {
+        "nombre": "VOLTIO",
+        "idea": "Crece en cada entreno.",
+        "publico": "Jóvenes de 18 a 28 años, gym bros y gym girls de TikTok."
+      },
+      {
+        "nombre": "TEMPLE",
+        "idea": "Músculo que se nota.",
+        "publico": "Deportistas de 25 a 45 años que leen etiquetas y pagan por pureza."
+      },
+      {
+        "nombre": "Berraco",
+        "idea": "Más fuerza y más músculo para el que entrena y camella duro.",
+        "publico": "Hombres de 18 a 40 años de gimnasio de barrio y trabajo pesado"
+      }
+    ]
+  },
+  {
+    "registro": "F06",
+    "marcas": [
+      {
+        "nombre": "GLOWI",
+        "idea": "Piel que brilla, pelo que crece.",
+        "publico": "Mujeres de 20 a 30 años que siguen rutinas de skincare en TikTok."
+      },
+      {
+        "nombre": "TERSA",
+        "idea": "Rejuvenece tu piel.",
+        "publico": "Mujeres de 35 a 55 años, estrato medio-alto, que comparan ingredientes."
+      },
+      {
+        "nombre": "Bonitica",
+        "idea": "Colágeno para piel firme, sin arrugas y con rodillas que no suenan.",
+        "publico": "Mujeres de 35 a 60 años que compran por WhatsApp y catálogo"
+      }
+    ]
+  },
+  {
+    "registro": "F07",
+    "marcas": [
+      {
+        "nombre": "PIJAMA",
+        "idea": "Cae dormida en minutos.",
+        "publico": "Jóvenes de 18 a 32 años, estudiantes y home office, muy de TikTok."
+      },
+      {
+        "nombre": "VELADA",
+        "idea": "Menos estrés, sueño profundo.",
+        "publico": "Adultos de 30 a 55 años, estrato medio-alto, que pagan por calidad."
+      },
+      {
+        "nombre": "Cobijita",
+        "idea": "La bebida tibia que baja el estrés y te pone a dormir como un bebé.",
+        "publico": "Mamás y trabajadoras de 28 a 55 años con días pesados"
+      }
+    ]
+  },
+  {
+    "registro": "F08",
+    "marcas": [
+      {
+        "nombre": "Cutie",
+        "idea": "Cápsula de colágeno y biotina para piel glow, pelo largo y uñas fuertes.",
+        "publico": "Mujeres de 18 a 30 años que siguen skincare en TikTok"
+      },
+      {
+        "nombre": "Alba",
+        "idea": "Colágeno de varios tipos con biotina para una belleza que se nota desde adentro.",
+        "publico": "Mujeres de 30 a 50 años, estrato medio-alto, que comparan ingredientes"
+      },
+      {
+        "nombre": "Divina",
+        "idea": "Piel, pelo y uñas divinas con una cápsula al día.",
+        "publico": "Mujeres de 25 a 55 años que compran por WhatsApp y Dropi"
+      }
+    ]
+  },
+  {
+    "registro": "F09",
+    "marcas": [
+      {
+        "nombre": "Drenaya",
+        "idea": "Gotas que desinflan y sacan el líquido retenido en días.",
+        "publico": "Mujeres de 18 a 32 años que hacen contenido de antes y después en TikTok"
+      },
+      {
+        "nombre": "Cauce",
+        "idea": "Drenaje linfático natural para desinflamar piernas, cara y abdomen.",
+        "publico": "Mujeres de 30 a 55 años, estrato medio-alto, de spa y tiendas naturistas"
+      },
+      {
+        "nombre": "Bota Agua",
+        "idea": "Bota el agua retenida y deshincha piernas y barriga.",
+        "publico": "Mujeres de 30 a 60 años que se hinchan por el calor o por estar de pie"
+      }
+    ]
+  },
+  {
+    "registro": "F10",
+    "marcas": [
+      {
+        "nombre": "CHISPA",
+        "idea": "Quema grasa con chispa.",
+        "publico": "Jóvenes de 20 a 32 años que siguen rutinas de hábitos y fitness en TikTok."
+      },
+      {
+        "nombre": "CEILÁ",
+        "idea": "Baja de peso con raíz natural.",
+        "publico": "Adultos de 30 a 55 años, estrato medio-alto, que prefieren ingredientes botánicos."
+      },
+      {
+        "nombre": "Baja Talla",
+        "idea": "Bebida con berberina que quema grasa y te baja una talla.",
+        "publico": "Mujeres de 25 a 55 años de estrato popular que quieren bajar de peso rápido"
+      }
+    ]
+  },
+  {
+    "registro": "F11",
+    "marcas": [
+      {
+        "nombre": "Beetz",
+        "idea": "Más aguante, cero sabor a tierra.",
+        "publico": "Jóvenes de 18 a 35 años que van al gimnasio, hacen ciclismo urbano o siguen contenido fitness en TikTok"
+      },
+      {
+        "nombre": "Granate",
+        "idea": "Corazón fuerte, sangre que fluye.",
+        "publico": "Profesionales de 35 a 60 años que cuidan su alimentación y compran en tiendas de bienestar"
+      },
+      {
+        "nombre": "Aguante",
+        "idea": "Más circulación y erecciones firmes que duran toda la noche.",
+        "publico": "Hombres de 30 a 60 años que compran por WhatsApp y Dropi"
+      }
+    ]
+  },
+  {
+    "registro": "F12",
+    "marcas": [
+      {
+        "nombre": "Ácida",
+        "idea": "Gomita de vinagre de manzana que quita los antojos y te ayuda a adelgazar.",
+        "publico": "Jóvenes de 18 a 30 años que siguen tendencias de pérdida de peso en TikTok"
+      },
+      {
+        "nombre": "Edén",
+        "idea": "Vinagre de manzana con B12 en gomita para bajar de peso de forma natural.",
+        "publico": "Mujeres de 30 a 50 años, estrato medio-alto, que buscan lo natural"
+      },
+      {
+        "nombre": "Boca Cerrada",
+        "idea": "Ciérrale la boca al antojo y baja de peso sin aguantar hambre.",
+        "publico": "Adultos de 30 a 60 años que pican entre comidas y compran por WhatsApp"
+      }
+    ]
+  },
+  {
+    "registro": "F13",
+    "marcas": [
+      {
+        "nombre": "Berbi",
+        "idea": "La berberina viral que quema grasa y frena los picos de azúcar.",
+        "publico": "Jóvenes de 20 a 35 años que ven la berberina en TikTok"
+      },
+      {
+        "nombre": "Ámbar",
+        "idea": "Berberina con canela de Ceilán y cúrcuma para bajar de peso y controlar el azúcar.",
+        "publico": "Adultos de 35 a 60 años, estrato medio-alto, que cuidan el azúcar"
+      },
+      {
+        "nombre": "Doña Canela",
+        "idea": "Baja de peso y pone el azúcar en su sitio, como lo haría la abuela.",
+        "publico": "Adultos de 40 a 65 años con prediabetes o barriga que compran por WhatsApp"
+      }
+    ]
+  },
+  {
+    "registro": "F14",
+    "marcas": [
+      {
+        "nombre": "Cortizero",
+        "idea": "Baja el cortisol y desinfla la barriga del estrés.",
+        "publico": "Mujeres de 20 a 35 años que siguen la tendencia del cortisol en TikTok"
+      },
+      {
+        "nombre": "Equilibria",
+        "idea": "Myo-inositol y ashwagandha para equilibrar hormonas, cortisol y peso.",
+        "publico": "Mujeres de 30 a 50 años, estrato medio-alto, con estrés u ovario poliquístico"
+      },
+      {
+        "nombre": "Bájele",
+        "idea": "Bájele al estrés y a la barriga con una cápsula al día.",
+        "publico": "Mujeres y hombres de 30 a 55 años con trabajo pesado que compran por Dropi"
+      }
+    ]
+  },
+  {
+    "registro": "F15",
+    "marcas": [
+      {
+        "nombre": "Solazo",
+        "idea": "El sol que te falta, en una cápsula.",
+        "publico": "Jóvenes de 20 a 35 años, teletrabajadores, estudiantes y gamers en TikTok"
+      },
+      {
+        "nombre": "Abisal",
+        "idea": "Del mar profundo a tu corazón.",
+        "publico": "Profesionales de 35 a 60 años, deportistas recreativos y compradores de tiendas naturistas y de bienestar"
+      },
+      {
+        "nombre": "Bien Parao",
+        "idea": "Huesos fuertes y defensas altas para seguir bien parado.",
+        "publico": "Adultos de 45 a 70 años e hijos que les compran por WhatsApp"
+      }
+    ]
+  },
+  {
+    "registro": "F16",
+    "marcas": [
+      {
+        "nombre": "Arrunchis",
+        "idea": "Gomita de magnesio que te pone a dormir arrunchado y sin ansiedad.",
+        "publico": "Jóvenes de 18 a 30 años, estudiantes y home office, en TikTok"
+      },
+      {
+        "nombre": "Ensueño",
+        "idea": "Magnesio y L-teanina en gomita para un sueño profundo y tranquilo.",
+        "publico": "Adultos de 30 a 55 años, estrato medio-alto, que no quieren pastillas"
+      },
+      {
+        "nombre": "Bostezo",
+        "idea": "Una gomita y a bostezar: duerme rápido y despierta descansado.",
+        "publico": "Mamás, papás y trabajadores de 25 a 55 años que compran por WhatsApp"
+      }
+    ]
+  },
+  {
+    "registro": "F17",
+    "marcas": [
+      {
+        "nombre": "Chapuzón",
+        "idea": "Hidratación rápida en stick para el gym, el calor y la rumba.",
+        "publico": "Jóvenes de 18 a 30 años que entrenan y salen de fiesta"
+      },
+      {
+        "nombre": "Coral",
+        "idea": "Electrolitos minerales limpios para hidratarte rápido sin azúcar de más.",
+        "publico": "Deportistas de 25 a 50 años, estrato medio-alto, runners y ciclistas"
+      },
+      {
+        "nombre": "Enguayabao",
+        "idea": "Levanta al enguayabado y rehidrata en minutos.",
+        "publico": "Adultos de 20 a 45 años de rumba de fin de semana y trabajos al sol"
+      }
+    ]
+  },
+  {
+    "registro": "F18",
+    "marcas": [
+      {
+        "nombre": "Colita",
+        "idea": "Biotina líquida para que el pelo crezca hasta para hacerse colita.",
+        "publico": "Mujeres de 18 a 30 años que hacen retos de crecimiento de cabello en TikTok"
+      },
+      {
+        "nombre": "Ébano",
+        "idea": "Biotina líquida para un cabello largo, grueso y brillante.",
+        "publico": "Mujeres de 30 a 50 años, estrato medio-alto, que cuidan su cabello"
+      },
+      {
+        "nombre": "Crece Crece",
+        "idea": "Gotas que hacen crecer el pelo y frenan la caída.",
+        "publico": "Mujeres de 25 a 55 años que compran por WhatsApp y catálogo"
+      }
+    ]
+  },
+  {
+    "registro": "F19",
+    "marcas": [
+      {
+        "nombre": "Copete",
+        "idea": "Cápsula que hace crecer el pelo y rellena las entradas.",
+        "publico": "Jóvenes de 18 a 32 años, hombres y mujeres, preocupados por la caída"
+      },
+      {
+        "nombre": "Bambú",
+        "idea": "Biotina, saw palmetto, colágeno y queratina para un cabello fuerte que crece rápido.",
+        "publico": "Adultos de 30 a 55 años, estrato medio-alto, que buscan ingredientes naturales"
+      },
+      {
+        "nombre": "Despeinao",
+        "idea": "Pelo abundante hasta para despeinarse: chao caída y entradas.",
+        "publico": "Hombres y mujeres de 30 a 60 años que compran por WhatsApp y Dropi"
+      }
+    ]
+  },
+  {
+    "registro": "F20",
+    "marcas": [
+      {
+        "nombre": "PILAS",
+        "idea": "Ponte las pilas, gota a gota.",
+        "publico": "Universitarios, preicfes, gamers y creadores de contenido de 17 a 28 años"
+      },
+      {
+        "nombre": "LÚCIDA",
+        "idea": "Mente clara, cero distracción.",
+        "publico": "Profesionales de 30 a 50 años, estratos 4 a 6, que cuidan su rutina y pagan por calidad"
+      },
+      {
+        "nombre": "Arranque",
+        "idea": "Gotas de energía para arrancar el día sin cansancio y con la cabeza clara.",
+        "publico": "Trabajadores y madrugadores de 25 a 55 años que compran por Dropi"
+      }
+    ]
+  },
+  {
+    "registro": "F21",
+    "marcas": [
+      {
+        "nombre": "MELENA",
+        "idea": "Haz crecer tu melena.",
+        "publico": "Mujeres de 18 a 30 años que hacen contenido de cabello en TikTok."
+      },
+      {
+        "nombre": "TRENZA",
+        "idea": "Pelo que crece hasta las puntas.",
+        "publico": "Mujeres de 28 a 50 años con cabello largo o rizado que buscan lo natural."
+      },
+      {
+        "nombre": "Crespita",
+        "idea": "Gomita de biotina para pelo largo, piel bonita y uñas que no se parten.",
+        "publico": "Mujeres de 20 a 45 años de estrato popular que compran por WhatsApp"
+      }
+    ]
+  }
+]

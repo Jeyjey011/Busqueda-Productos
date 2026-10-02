@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Noche",
-      "concepto": "La bebida de MAGNIFICA para dormir bien y soltar el estrés del día.",
-      "eslogan": "Duerme profundo esta noche.",
-      "publico": "Mujeres de 28 a 50 años, mamás y trabajadoras con días largos.",
-      "tono": "Cálido, sereno, confiable",
-      "color": "#3B3A6B",
-      "color2": "#E9D8A6"
-    },
-    {
       "nombre": "PIJAMA",
-      "concepto": "Marca juvenil para los que no pueden dormir por estrés o por el celular.",
       "eslogan": "Cae dormida en minutos.",
-      "publico": "Jóvenes de 18 a 32 años, estudiantes y home office, muy de TikTok.",
-      "tono": "Tierno, juguetón, acogedor",
-      "color": "#9B8AFB",
-      "color2": "#FDE2E4"
+      "publico": "Jóvenes de 18 a 32 años, estudiantes y home office, muy de TikTok."
     },
     {
       "nombre": "VELADA",
-      "concepto": "Marca premium para dormir profundo y bajar el cortisol.",
       "eslogan": "Menos estrés, sueño profundo.",
-      "publico": "Adultos de 30 a 55 años, estrato medio-alto, que pagan por calidad.",
-      "tono": "Elegante, pausado, sofisticado",
-      "color": "#1F2A44",
-      "color2": "#C8A96A"
+      "publico": "Adultos de 30 a 55 años, estrato medio-alto, que pagan por calidad."
+    },
+    {
+      "nombre": "Cobijita",
+      "eslogan": "La bebida tibia que baja el estrés y te pone a dormir como un bebé.",
+      "publico": "Mamás y trabajadoras de 28 a 55 años con días pesados"
     }
   ],
   "angulo_venta": "Un stick en agua tibia antes de acostarse: te quita el estrés, calma la ansiedad y te duermes rápido. Duermes de corrido y te levantas descansada.",
@@ -46,5 +34,5 @@
     "Magnesio con ashwagandha: se acabó el insomnio"
   ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un registro (F07) para las 3 marcas: MAGNIFICA Noche, PIJAMA y VELADA."
+  "estrategia_registro": "Un registro (F07) para las 3 marcas: PIJAMA, VELADA y Cobijita."
 }

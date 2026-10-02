@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Andino",
-      "concepto": "El potenciador sexual de MAGNIFICA: maca con tongkat ali para más testosterona, más libido y erecciones firmes.",
-      "eslogan": "Potencia andina en la cama.",
-      "publico": "Hombres de 30 a 55 años, trabajadores y padres de familia que ya confían en MAGNIFICA",
-      "tono": "Sólido, honesto, cercano",
-      "color": "#1F4E79",
-      "color2": "#D98E04"
-    },
-    {
       "nombre": "Camello",
-      "concepto": "Para el que camella todo el día y aun así quiere rendir en la cama: energía, libido y erecciones firmes.",
       "eslogan": "Camellas duro, rindes duro.",
-      "publico": "Hombres de 20 a 35 años, emprendedores, domiciliarios y estudiantes que trabajan, audiencia de TikTok",
-      "tono": "Parcero, motivador, auténtico",
-      "color": "#E85D04",
-      "color2": "#14213D"
+      "publico": "Hombres de 20 a 35 años, emprendedores, domiciliarios y estudiantes que trabajan, audiencia de TikTok"
     },
     {
       "nombre": "Puna",
-      "concepto": "Potenciador sexual natural y premium con maca y shilajit del altiplano: más testosterona, más deseo y erecciones firmes.",
       "eslogan": "La fuerza de la altura, también en la cama.",
-      "publico": "Hombres de 35 a 60 años, profesionales que buscan ingredientes naturales y compran en tiendas de bienestar",
-      "tono": "Sereno, natural, premium",
-      "color": "#5C3D2E",
-      "color2": "#8DB596"
+      "publico": "Hombres de 35 a 60 años, profesionales que buscan ingredientes naturales y compran en tiendas de bienestar"
+    },
+    {
+      "nombre": "Garrote",
+      "eslogan": "Potencia sexual a lo bien: maca, tongkat ali y shilajit para erecciones firmes y más aguante.",
+      "publico": "Hombres de 30 a 55 de estrato popular, venta por WhatsApp y tienda"
     }
   ],
   "angulo_venta": "Hablarle claro al hombre: más testosterona, más libido, erecciones más firmes y más aguante en la cama. Maca, tongkat ali y shilajit suben la testosterona; la arginina y la citrulina llevan más sangre al pene.",
@@ -46,5 +34,5 @@
     "Si a los 40 ya no es igual en la cama, mira esto"
   ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un registro (F24) para las 3 marcas: MAGNIFICA Andino, Camello y Puna."
+  "estrategia_registro": "Un registro (F24) para las 3 marcas: Camello, Puna y Garrote."
 }

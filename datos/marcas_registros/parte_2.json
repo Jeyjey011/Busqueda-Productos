@@ -1,0 +1,402 @@
+[
+  {
+    "registro": "F22",
+    "marcas": [
+      {
+        "nombre": "Jalón",
+        "idea": "Aminoácidos en tableta para el que entrena duro: más músculo y recuperación rápida sin quedar molido.",
+        "publico": "Jóvenes de 18 a 30 que van al gimnasio, audiencia TikTok"
+      },
+      {
+        "nombre": "Linaje",
+        "idea": "Aminoácidos esenciales premium para construir músculo limpio y recuperarse como atleta.",
+        "publico": "Deportistas de 28 a 45 con buen poder adquisitivo"
+      },
+      {
+        "nombre": "Ladrillo",
+        "idea": "Aminoácidos para ir armando músculo ladrillo a ladrillo y no perder lo ganado.",
+        "publico": "Hombres trabajadores de barrio que entrenan en gimnasio popular"
+      }
+    ]
+  },
+  {
+    "registro": "F23",
+    "marcas": [
+      {
+        "nombre": "Gymazo",
+        "idea": "Proteína whey con colágeno para crecer músculo y cuidar las articulaciones en un solo batido.",
+        "publico": "Jóvenes de 18 a 30 fitness, audiencia TikTok"
+      },
+      {
+        "nombre": "Hebra",
+        "idea": "Whey con colágeno premium: músculo firme, piel y articulaciones fuertes.",
+        "publico": "Mujeres y hombres de 28 a 45 que cuidan su cuerpo y pagan calidad"
+      },
+      {
+        "nombre": "Fortacho",
+        "idea": "El batido para ponerse fortacho: más músculo y más fuerza con proteína de verdad.",
+        "publico": "Hombres de barrio que entrenan y trabajan duro"
+      }
+    ]
+  },
+  {
+    "registro": "F24",
+    "marcas": [
+      {
+        "nombre": "Camello",
+        "idea": "Camellas duro, rindes duro.",
+        "publico": "Hombres de 20 a 35 años, emprendedores, domiciliarios y estudiantes que trabajan, audiencia de TikTok"
+      },
+      {
+        "nombre": "Puna",
+        "idea": "La fuerza de la altura, también en la cama.",
+        "publico": "Hombres de 35 a 60 años, profesionales que buscan ingredientes naturales y compran en tiendas de bienestar"
+      },
+      {
+        "nombre": "Garrote",
+        "idea": "Potencia sexual a lo bien: maca, tongkat ali y shilajit para erecciones firmes y más aguante.",
+        "publico": "Hombres de 30 a 55 de estrato popular, venta por WhatsApp y tienda"
+      }
+    ]
+  },
+  {
+    "registro": "F25",
+    "marcas": [
+      {
+        "nombre": "Lumi",
+        "idea": "Glutatión liposomal para aclarar la piel, quitar manchas y brillar en cámara.",
+        "publico": "Mujeres de 18 a 30, audiencia TikTok y beauty"
+      },
+      {
+        "nombre": "Jazmín",
+        "idea": "Glutatión liposomal premium para una piel más clara, pareja y sin manchas desde adentro.",
+        "publico": "Mujeres de 28 a 50 que invierten en cuidado de piel"
+      },
+      {
+        "nombre": "Lucerito",
+        "idea": "Aclara la piel y borra manchas para que se te vea la cara limpiecita.",
+        "publico": "Mujeres de barrio de 25 a 50, venta por catálogo"
+      }
+    ]
+  },
+  {
+    "registro": "F26",
+    "marcas": [
+      {
+        "nombre": "Kloro",
+        "idea": "Moringa en cápsula: energía verde y nutrición diaria para rendir todo el día.",
+        "publico": "Jóvenes de 18 a 30 saludables, audiencia TikTok"
+      },
+      {
+        "nombre": "Frondosa",
+        "idea": "Moringa pura y natural para nutrirte a diario y tener energía sin químicos.",
+        "publico": "Adultos de 30 a 55 que compran productos naturales"
+      },
+      {
+        "nombre": "Hojita",
+        "idea": "La hojita milagrosa: energía, vitaminas y defensas en una cápsula diaria.",
+        "publico": "Familias de barrio y adultos mayores"
+      }
+    ]
+  },
+  {
+    "registro": "F27",
+    "marcas": [
+      {
+        "nombre": "Inmunazo",
+        "idea": "Orégano y semilla negra para subir defensas y limpiar el intestino de una.",
+        "publico": "Jóvenes de 18 a 35, audiencia TikTok"
+      },
+      {
+        "nombre": "Habba",
+        "idea": "Aceite de orégano y semilla negra premium: defensas fuertes e intestino limpio.",
+        "publico": "Adultos de 30 a 55 de bienestar natural"
+      },
+      {
+        "nombre": "Fortín",
+        "idea": "Las defensas como un fuerte: no más gripas ni barriga revuelta.",
+        "publico": "Familias y adultos mayores de barrio"
+      }
+    ]
+  },
+  {
+    "registro": "F28",
+    "marcas": [
+      {
+        "nombre": "Gainy",
+        "idea": "Creatina en gomita para ganar músculo y fuerza sin batir polvos.",
+        "publico": "Jóvenes de 18 a 30 de gimnasio, audiencia TikTok"
+      },
+      {
+        "nombre": "Ímpetu",
+        "idea": "Creatina premium en gomita: más fuerza, más repeticiones, más músculo.",
+        "publico": "Deportistas de 25 a 45 que pagan calidad"
+      },
+      {
+        "nombre": "Fierro",
+        "idea": "Gomitas de creatina para levantar más fierro y crecer más rápido.",
+        "publico": "Hombres de barrio que entrenan en gimnasio popular"
+      }
+    ]
+  },
+  {
+    "registro": "F30",
+    "marcas": [
+      {
+        "nombre": "Lila",
+        "idea": "Probiótico íntimo con arándano para tener el pH en orden y decirle adiós a las infecciones.",
+        "publico": "Mujeres de 18 a 30, audiencia TikTok"
+      },
+      {
+        "nombre": "Iris",
+        "idea": "Probiótico vaginal y urinario premium con arándano: flora sana, sin olor ni ardor.",
+        "publico": "Mujeres de 28 a 50 que cuidan su salud íntima"
+      },
+      {
+        "nombre": "Limpiecita",
+        "idea": "Para estar fresca y sin infecciones urinarias: probiótico con arándano todos los días.",
+        "publico": "Mujeres de barrio de 25 a 55"
+      }
+    ]
+  },
+  {
+    "registro": "F31",
+    "marcas": [
+      {
+        "nombre": "Kissy",
+        "idea": "Probiótico para el mal aliento: boca fresca de verdad, lista para el beso.",
+        "publico": "Jóvenes de 18 a 30, audiencia TikTok"
+      },
+      {
+        "nombre": "Hálito",
+        "idea": "Probiótico L. reuteri con zinc que quita el mal aliento desde la raíz.",
+        "publico": "Profesionales de 28 a 50 que hablan con clientes"
+      },
+      {
+        "nombre": "Jeta Fresca",
+        "idea": "Chao mal aliento: tableta que deja la boca fresca todo el día.",
+        "publico": "Adultos de barrio, venta en tienda y droguería"
+      }
+    ]
+  },
+  {
+    "registro": "F32",
+    "marcas": [
+      {
+        "nombre": "Fluye",
+        "idea": "Drenaje linfático en stick: desinflama y saca el líquido retenido en días.",
+        "publico": "Mujeres de 18 a 30, audiencia TikTok"
+      },
+      {
+        "nombre": "Linfa",
+        "idea": "Stick de drenaje linfático premium para desinflamar piernas, abdomen y cara.",
+        "publico": "Mujeres de 28 a 50 que cuidan su figura"
+      },
+      {
+        "nombre": "Ligerita",
+        "idea": "Te deja ligerita: elimina la hinchazón y el líquido que te sobra.",
+        "publico": "Mujeres de barrio de 25 a 55"
+      }
+    ]
+  },
+  {
+    "registro": "F33",
+    "marcas": [
+      {
+        "nombre": "FitDren",
+        "idea": "Drenaje linfático en cápsula: deshincha y marca la figura sin esfuerzo.",
+        "publico": "Mujeres de 18 a 30 fitness, audiencia TikTok"
+      },
+      {
+        "nombre": "Ingrávida",
+        "idea": "Cápsula de drenaje premium para sentir el cuerpo liviano y desinflamado.",
+        "publico": "Mujeres de 30 a 50 de estrato medio y alto"
+      },
+      {
+        "nombre": "Kilo Menos",
+        "idea": "Bota el líquido retenido y se nota el kilo menos en la báscula.",
+        "publico": "Mujeres y hombres de barrio que quieren bajar de peso"
+      }
+    ]
+  },
+  {
+    "registro": "F34",
+    "marcas": [
+      {
+        "nombre": "Gula Off",
+        "idea": "Bebida tipo GLP-1 que apaga los antojos y te ayuda a bajar de peso.",
+        "publico": "Jóvenes de 18 a 35, audiencia TikTok"
+      },
+      {
+        "nombre": "Gracia",
+        "idea": "Berberina y akkermansia en stick: baja de peso con control del apetito, sin rebote.",
+        "publico": "Mujeres de 28 a 50 que pagan calidad"
+      },
+      {
+        "nombre": "Fajita",
+        "idea": "La que te ajusta la cintura: quita el hambre y baja de peso tomándola en agua.",
+        "publico": "Mujeres de barrio de 25 a 55"
+      }
+    ]
+  },
+  {
+    "registro": "F35",
+    "marcas": [
+      {
+        "nombre": "Kardi",
+        "idea": "Remolacha en tableta para buena circulación y energía sin cansancio.",
+        "publico": "Jóvenes de 20 a 35 activos, audiencia TikTok"
+      },
+      {
+        "nombre": "Latido",
+        "idea": "Remolacha premium para bajar la presión y cuidar el corazón de forma natural.",
+        "publico": "Adultos de 40 a 65 que cuidan su salud"
+      },
+      {
+        "nombre": "La Rojita",
+        "idea": "La tabletica de remolacha que ayuda a bajar la presión y mejora la circulación.",
+        "publico": "Adultos mayores y familias de barrio"
+      }
+    ]
+  },
+  {
+    "registro": "F36",
+    "marcas": [
+      {
+        "nombre": "Fucsia",
+        "idea": "Gomitas de remolacha que activan la circulación y te dan energía.",
+        "publico": "Jóvenes de 18 a 30, audiencia TikTok"
+      },
+      {
+        "nombre": "Huerta Roja",
+        "idea": "Remolacha natural en gomita para una circulación sana y energía diaria.",
+        "publico": "Adultos de 30 a 55 de bienestar natural"
+      },
+      {
+        "nombre": "Ganas",
+        "idea": "Gomita de remolacha para tener ganas y energía todo el día.",
+        "publico": "Trabajadores y amas de casa de barrio"
+      }
+    ]
+  },
+  {
+    "registro": "F37",
+    "marcas": [
+      {
+        "nombre": "Full Pump",
+        "idea": "Remolacha en polvo para más bombeo, más aire y más rendimiento en el entreno.",
+        "publico": "Jóvenes de 18 a 30 deportistas, audiencia TikTok"
+      },
+      {
+        "nombre": "Kora",
+        "idea": "Polvo de remolacha premium para circulación, presión sana y rendimiento.",
+        "publico": "Deportistas y adultos de 30 a 55 que pagan calidad"
+      },
+      {
+        "nombre": "Guarapo Rojo",
+        "idea": "El jugo de remolacha de siempre, en polvo: circulación y energía para el día.",
+        "publico": "Familias y adultos mayores de barrio"
+      }
+    ]
+  },
+  {
+    "registro": "F38",
+    "marcas": [
+      {
+        "nombre": "Flujo",
+        "idea": "Cayena, espino y berberina para que la sangre fluya y la presión se controle.",
+        "publico": "Adultos jóvenes de 25 a 40, audiencia TikTok"
+      },
+      {
+        "nombre": "Kordial",
+        "idea": "Fórmula premium para el corazón: circulación, presión y colesterol bajo control.",
+        "publico": "Adultos de 40 a 65 que cuidan su corazón"
+      },
+      {
+        "nombre": "Jefazo",
+        "idea": "Para el jefe de la casa: corazón fuerte y presión controlada.",
+        "publico": "Hombres de 45 a 70 de barrio"
+      }
+    ]
+  },
+  {
+    "registro": "F39",
+    "marcas": [
+      {
+        "nombre": "Lava",
+        "idea": "Cayena en cápsula que acelera el metabolismo y quema grasa a fuego.",
+        "publico": "Jóvenes de 18 a 30, audiencia TikTok"
+      },
+      {
+        "nombre": "Guindilla",
+        "idea": "Pimienta de cayena pura para activar el metabolismo de forma natural.",
+        "publico": "Adultos de 28 a 50 de bienestar natural"
+      },
+      {
+        "nombre": "Fogón",
+        "idea": "Prende el fogón por dentro y quema la grasa que sobra.",
+        "publico": "Hombres y mujeres de barrio que quieren bajar barriga"
+      }
+    ]
+  },
+  {
+    "registro": "F40",
+    "marcas": [
+      {
+        "nombre": "Gomiflow",
+        "idea": "Gomita de fibra para ir al baño todos los días sin sufrir.",
+        "publico": "Jóvenes de 18 a 30, audiencia TikTok"
+      },
+      {
+        "nombre": "Liviana",
+        "idea": "Fibra prebiótica premium en gomita: intestino al día y barriga liviana.",
+        "publico": "Mujeres de 28 a 50 que cuidan su digestión"
+      },
+      {
+        "nombre": "Hágale",
+        "idea": "Hágale al baño todos los días: chao estreñimiento.",
+        "publico": "Familias y adultos de barrio"
+      }
+    ]
+  },
+  {
+    "registro": "F41",
+    "marcas": [
+      {
+        "nombre": "Ketazo",
+        "idea": "Quemador keto con cafeína que derrite la grasa y te da energía.",
+        "publico": "Jóvenes de 18 a 35, audiencia TikTok"
+      },
+      {
+        "nombre": "Lumbre",
+        "idea": "Quemador premium con cetonas de frambuesa y mango africano para bajar de peso.",
+        "publico": "Mujeres y hombres de 28 a 50 que pagan calidad"
+      },
+      {
+        "nombre": "Hachazo",
+        "idea": "El hachazo a la grasa: quema barriga y baja de peso rápido.",
+        "publico": "Adultos de barrio de 25 a 55"
+      }
+    ]
+  },
+  {
+    "registro": "F42",
+    "marcas": [
+      {
+        "nombre": "Glucool",
+        "idea": "Cápsula para controlar el azúcar en la sangre y no vivir con antojos de dulce.",
+        "publico": "Adultos jóvenes de 25 a 40, audiencia TikTok"
+      },
+      {
+        "nombre": "Ínsula",
+        "idea": "Cromo, gymnema, melón amargo y ALA: control premium del azúcar en la sangre.",
+        "publico": "Adultos de 40 a 65 con prediabetes que pagan calidad"
+      },
+      {
+        "nombre": "Juiciosa",
+        "idea": "Para tener el azúcar juiciosa: control diario de la glucosa.",
+        "publico": "Adultos mayores y familias de barrio"
+      }
+    ]
+  }
+]

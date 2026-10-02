@@ -75,13 +75,12 @@ for (const p of prod.values()) { p.c = clasif.get(p.id) || {}; p.tend = tendenci
 
 const familias = planWeb ? planWeb.registros : plan.familias.map((f) => ({ id: f.familia_id, nombre: f.nombre, categoria: f.categoria, presentacion: PRESENTACION[f.vehiculo] || f.vehiculo, formula: f.formula_base }));
 // Marcas propuestas por registro (datos/marcas/<COD>.json)
-const DIR_MARCAS = path.join(RAIZ, 'datos', 'marcas');
+const DIR_MARCAS = path.join(RAIZ, 'datos', 'marcas_registros');
 const marcasPorReg = {};
 if (fs.existsSync(DIR_MARCAS)) for (const fm of fs.readdirSync(DIR_MARCAS).filter((x) => x.endsWith('.json'))) {
-  const m = JSON.parse(fs.readFileSync(path.join(DIR_MARCAS, fm), 'utf8'));
-  marcasPorReg[m.producto.registro_base] = m.marcas.map((b) => b.nombre);
+  for (const r of JSON.parse(fs.readFileSync(path.join(DIR_MARCAS, fm), 'utf8'))) marcasPorReg[r.registro] = r.marcas.map((b) => b.nombre);
 }
-const marcasDe = (id) => (marcasPorReg[id] ? marcasPorReg[id].join(String.fromCharCode(10)) : 'MAGNIFICA + 2 marcas');
+const marcasDe = (id) => (marcasPorReg[id] ? marcasPorReg[id].join(String.fromCharCode(10)) : '3 marcas');
 const famPorId = new Map(familias.map((f) => [f.id, f]));
 for (const f of familias) {
   const m = [...prod.values()].filter((p) => p.fam === f.id);
@@ -182,7 +181,7 @@ wb.creator = 'Claude (proyecto INVIMA)';
     { h: 'Tendencia vs. agosto', w: 13, k: (f) => f._tend, tend: true },
     { h: 'Marcas en el registro', w: 22, k: (f) => marcasDe(f.id), wrap: true, centro: true },
   ];
-  encabezado(ws, 'Registros INVIMA a sacar', 'Cada fila es UN registro sanitario (una fórmula en una presentación) y sirve para hasta 3 marcas: MAGNIFICA + 2. Todos se sacan de una vez. Ventas de septiembre de 2026 en TikTok Shop según FastMoss.', cols.length);
+  encabezado(ws, 'Registros INVIMA a sacar', 'Cada fila es UN registro sanitario (una fórmula en una presentación) y sirve para hasta 3 marcas. Todos se sacan de una vez. Ventas de septiembre de 2026 en TikTok Shop según FastMoss.', cols.length);
   ws.mergeCells(3, 1, 3, cols.length);
   ws.getCell(3, 1).value = `Total: ${familias.length} registros. Tendencia: ▲ subiendo (+10 % o más) · ● estable · ▼ bajando (−15 % o menos), comparando septiembre con agosto.`;
   ws.getCell(3, 1).font = { size: 10, bold: true, color: { argb: C.azul } };
@@ -203,25 +202,45 @@ wb.creator = 'Claude (proyecto INVIMA)';
 }
 
 // Hojas por categoría: productos agrupados por presentación
-const ingeribles = [...prod.values()].filter((p) => p.c.categoria && p.c.categoria !== 'EXC' && p.c.es_ingerible !== false);
+// Une las publicaciones duplicadas (datos/duplicados.json): una fila por producto, con las ventas sumadas
+const dupGrupos = fs.existsSync(path.join(RAIZ, 'datos', 'duplicados.json')) ? leer('datos/duplicados.json').grupos : [];
+const canonDe = new Map();
+for (const g of dupGrupos) for (const id of g.ids) canonDe.set(String(id), { canon: String(g.canonico), g });
+const ingeribles = [];
+for (const p of prod.values()) {
+  if (!p.c.categoria || p.c.categoria === 'EXC' || p.c.es_ingerible === false) continue;
+  const d = canonDe.get(p.id);
+  if (d && d.canon !== p.id) continue; // se suma en el canónico
+  if (d) {
+    const lista = d.g.ids.map((id) => prod.get(String(id))).filter(Boolean);
+    const conMes = lista.filter((x) => x.unid != null);
+    Object.assign(p, {
+      unid: conMes.length ? conMes.reduce((s, x) => s + x.unid, 0) : p.unid,
+      sem: lista.some((x) => x.sem != null) ? lista.reduce((s, x) => s + (x.sem || 0), 0) : p.sem,
+      paises: [...new Set(lista.map((x) => x.region))], pubs: lista.length, nombreGrupo: d.g.nombre,
+    });
+  }
+  ingeribles.push(p);
+}
 const totalCat = (cat) => ingeribles.filter((p) => p.c.categoria === cat).reduce((s, p) => s + (p.unid || 0), 0);
 const cats = Object.keys(CATEGORIAS).filter((c) => ingeribles.some((p) => p.c.categoria === c)).sort((a, b) => totalCat(b) - totalCat(a));
 for (const cat of cats) {
   const ws = wb.addWorksheet(CATEGORIAS[cat], { views: [{ state: 'frozen', ySplit: 4, showGridLines: false }] });
   const cols = [
     { h: 'Imagen', w: 13, k: () => null },
-    { h: 'Producto', w: 40, k: (p) => nombre(p), wrap: true, negrita: true },
+    { h: 'Producto', w: 40, k: (p) => (p.nombreGrupo || nombre(p)) + (p.pubs > 1 ? `\n(${p.pubs} publicaciones unidas)` : ''), wrap: true, negrita: true },
     { h: 'Marca', w: 18, k: (p) => p.c.marca || p.tienda, wrap: true },
-    { h: 'País', w: 9, k: (p) => pais(p.region), centro: true },
+    { h: 'País', w: 9, k: (p) => (p.paises || [p.region]).map(pais).join(' y '), centro: true, wrap: true },
     { h: 'Para qué sirve', w: 34, k: (p) => p.c.beneficio || p.c.para_que_sirve || '', wrap: true },
     { h: 'Ventas sep (unidades)', w: 12, k: (p) => p.unid ?? null, fmt: '#,##0' },
     { h: 'Ventas semana 21-27 sep', w: 12, k: (p) => p.sem ?? null, fmt: '#,##0' },
     { h: 'Tendencia', w: 13, k: (p) => p.tend, tend: true },
     { h: 'Registro', w: 28, k: (p) => { const f = famPorId.get(p.fam); return f ? `${f.id} · ${f.nombre}` : ''; }, wrap: true },
+    { h: 'Marcas propuestas', w: 20, k: (p) => (famPorId.get(p.fam) ? marcasDe(p.fam) : ''), wrap: true, negrita: true },
     { h: 'Ver', w: 10, k: (p) => (p.url ? { text: 'FastMoss', hyperlink: p.url } : null), centro: true },
   ];
   const lista = ingeribles.filter((p) => p.c.categoria === cat);
-  encabezado(ws, `${CATEGORIAS[cat]} · ${lista.length} productos virales`, 'Productos más vendidos de TikTok Shop EE. UU. y México (FastMoss), agrupados por presentación y ordenados por ventas de septiembre de 2026. "¿Lo sacamos?" dice en qué registro entra cada producto.', cols.length);
+  encabezado(ws, `${CATEGORIAS[cat]} · ${lista.length} productos virales`, 'Productos más vendidos de TikTok Shop EE. UU. y México (FastMoss), agrupados por presentación y ordenados por ventas de septiembre de 2026. Los productos repetidos en varias publicaciones se unieron en una sola fila. "Registro" dice en qué registro entra y "Marcas propuestas", con qué marcas saldría.', cols.length);
   cabeceras(ws, 4, cols);
   let r = 5;
   const porPres = {};

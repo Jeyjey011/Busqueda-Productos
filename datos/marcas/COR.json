@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Raíz",
-      "concepto": "La remolacha de MAGNIFICA para el adulto que quiere mejor circulación, la presión controlada y energía para moverse.",
-      "eslogan": "Mejor circulación desde la raíz.",
-      "publico": "Adultos de 35 a 60 años que caminan, trotan o quieren retomar la actividad física",
-      "tono": "Confiable, vital, sencillo",
-      "color": "#A3123A",
-      "color2": "#2E7D32"
-    },
-    {
       "nombre": "Beetz",
-      "concepto": "Remolacha en cápsula para el que entrena: más bombeo, más aguante y cero sabor a tierra.",
       "eslogan": "Más aguante, cero sabor a tierra.",
-      "publico": "Jóvenes de 18 a 35 años que van al gimnasio, hacen ciclismo urbano o siguen contenido fitness en TikTok",
-      "tono": "Enérgico, urbano, divertido",
-      "color": "#D6006F",
-      "color2": "#1A1A2E"
+      "publico": "Jóvenes de 18 a 35 años que van al gimnasio, hacen ciclismo urbano o siguen contenido fitness en TikTok"
     },
     {
       "nombre": "Granate",
-      "concepto": "Remolacha premium con aminoácidos para cuidar el corazón, bajar la presión y mejorar la circulación.",
       "eslogan": "Corazón fuerte, sangre que fluye.",
-      "publico": "Profesionales de 35 a 60 años que cuidan su alimentación y compran en tiendas de bienestar",
-      "tono": "Elegante, natural, sereno",
-      "color": "#7B1E3A",
-      "color2": "#C9A227"
+      "publico": "Profesionales de 35 a 60 años que cuidan su alimentación y compran en tiendas de bienestar"
+    },
+    {
+      "nombre": "Aguante",
+      "eslogan": "Más circulación y erecciones firmes que duran toda la noche.",
+      "publico": "Hombres de 30 a 60 años que compran por WhatsApp y Dropi"
     }
   ],
   "angulo_venta": "La remolacha de siempre, en cápsula y con citrulina y arginina para subir el óxido nítrico: mejor circulación, presión más baja, piernas menos pesadas y más aguante en el ejercicio.",
@@ -46,5 +34,5 @@
     "Piernas pesadas y manos frías: así mejoré la circulación"
   ],
   "precio_cop": "$74.900 - $94.900",
-  "estrategia_registro": "Un registro (F11) para las 3 marcas: MAGNIFICA Raíz, Beetz y Granate."
+  "estrategia_registro": "Un registro (F11) para las 3 marcas: Beetz, Granate y Aguante."
 }

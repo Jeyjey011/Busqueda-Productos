@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Piel",
-      "concepto": "El colágeno de MAGNIFICA para quitar arrugas y verse más joven.",
-      "eslogan": "Menos arrugas, piel firme.",
-      "publico": "Mujeres de 30 a 55 años, compradoras habituales por WhatsApp y Dropi.",
-      "tono": "Femenino, confiable, cálido",
-      "color": "#C8577A",
-      "color2": "#F8E1E7"
-    },
-    {
       "nombre": "GLOWI",
-      "concepto": "Marca juvenil para tener la piel brillante, el pelo largo y las uñas fuertes.",
       "eslogan": "Piel que brilla, pelo que crece.",
-      "publico": "Mujeres de 20 a 30 años que siguen rutinas de skincare en TikTok.",
-      "tono": "Fresco, brillante, juguetón",
-      "color": "#FF8FB1",
-      "color2": "#FFF3B0"
+      "publico": "Mujeres de 20 a 30 años que siguen rutinas de skincare en TikTok."
     },
     {
       "nombre": "TERSA",
-      "concepto": "Marca premium antiedad para tensar la piel y borrar arrugas.",
       "eslogan": "Rejuvenece tu piel.",
-      "publico": "Mujeres de 35 a 55 años, estrato medio-alto, que comparan ingredientes.",
-      "tono": "Elegante, sobrio, experto",
-      "color": "#B08968",
-      "color2": "#F5EFE6"
+      "publico": "Mujeres de 35 a 55 años, estrato medio-alto, que comparan ingredientes."
+    },
+    {
+      "nombre": "Bonitica",
+      "eslogan": "Colágeno para piel firme, sin arrugas y con rodillas que no suenan.",
+      "publico": "Mujeres de 35 a 60 años que compran por WhatsApp y catálogo"
     }
   ],
   "angulo_venta": "Una cucharada en el café cada mañana: menos arrugas, piel firme y luminosa, cabello que deja de caerse y uñas duras. Te ves más joven.",
@@ -46,5 +34,5 @@
     "Tengo 45 y me dicen que parezco de 35: esto tomo"
   ],
   "precio_cop": "$89.900 - $119.900",
-  "estrategia_registro": "Un registro (F06) para las 3 marcas: MAGNIFICA Piel, GLOWI y TERSA."
+  "estrategia_registro": "Un registro (F06) para las 3 marcas: GLOWI, TERSA y Bonitica."
 }

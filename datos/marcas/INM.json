@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Sol",
-      "concepto": "La vitamina del sol de MAGNIFICA: una cápsula al día para subir las defensas, tener energía y huesos fuertes.",
-      "eslogan": "Más defensas con tu dosis de sol.",
-      "publico": "Adultos de 30 a 55 años que ya conocen MAGNIFICA y trabajan en oficina o en casa",
-      "tono": "Confiable, cálido, cercano",
-      "color": "#F5A300",
-      "color2": "#0B4F8A"
-    },
-    {
       "nombre": "Solazo",
-      "concepto": "Para el que vive encerrado frente al computador y no ve el sol: repone la vitamina D, sube las defensas y quita el cansancio.",
       "eslogan": "El sol que te falta, en una cápsula.",
-      "publico": "Jóvenes de 20 a 35 años, teletrabajadores, estudiantes y gamers en TikTok",
-      "tono": "Divertido, fresco, irreverente",
-      "color": "#FF6B1A",
-      "color2": "#FFE14D"
+      "publico": "Jóvenes de 20 a 35 años, teletrabajadores, estudiantes y gamers en TikTok"
     },
     {
       "nombre": "Abisal",
-      "concepto": "Omega 3 marino premium con D3 y K2 para el corazón, las defensas y los huesos.",
       "eslogan": "Del mar profundo a tu corazón.",
-      "publico": "Profesionales de 35 a 60 años, deportistas recreativos y compradores de tiendas naturistas y de bienestar",
-      "tono": "Sobrio, experto, natural",
-      "color": "#0A3D62",
-      "color2": "#3EC1D3"
+      "publico": "Profesionales de 35 a 60 años, deportistas recreativos y compradores de tiendas naturistas y de bienestar"
+    },
+    {
+      "nombre": "Bien Parao",
+      "eslogan": "Huesos fuertes y defensas altas para seguir bien parado.",
+      "publico": "Adultos de 45 a 70 años e hijos que les compran por WhatsApp"
     }
   ],
   "angulo_venta": "Mostrar la vida real encerrado (oficina, trancón, pantalla) y vender una sola cápsula al día que repone la vitamina D: sube las defensas, quita el cansancio y fortalece los huesos. El omega 3 cuida el corazón y la K2 lleva el calcio a los huesos.",
@@ -46,5 +34,5 @@
     "Vives en Colombia y te falta sol: por eso andas cansado"
   ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un registro (F15) para las 3 marcas: MAGNIFICA Sol, Solazo y Abisal."
+  "estrategia_registro": "Un registro (F15) para las 3 marcas: Solazo, Abisal y Bien Parao."
 }

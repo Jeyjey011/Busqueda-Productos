@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNÍFICO Fuerza",
-      "concepto": "La creatina de MAGNIFICA para ganar músculo y fuerza en el gimnasio.",
-      "eslogan": "Más fuerza, más músculo.",
-      "publico": "Hombres y mujeres de 20 a 40 años que entrenan 3 o más veces por semana.",
-      "tono": "Directo, sólido, motivador",
-      "color": "#111111",
-      "color2": "#D4AF37"
-    },
-    {
       "nombre": "VOLTIO",
-      "concepto": "Marca juvenil para crecer rápido y levantar más en el gym.",
       "eslogan": "Crece en cada entreno.",
-      "publico": "Jóvenes de 18 a 28 años, gym bros y gym girls de TikTok.",
-      "tono": "Enérgico, atrevido, urbano",
-      "color": "#00E0FF",
-      "color2": "#1A1A2E"
+      "publico": "Jóvenes de 18 a 28 años, gym bros y gym girls de TikTok."
     },
     {
       "nombre": "TEMPLE",
-      "concepto": "Marca premium de creatina pura para ganar masa muscular y rendir más.",
       "eslogan": "Músculo que se nota.",
-      "publico": "Deportistas de 25 a 45 años que leen etiquetas y pagan por pureza.",
-      "tono": "Sobrio, disciplinado, premium",
-      "color": "#2B2D42",
-      "color2": "#EDF2F4"
+      "publico": "Deportistas de 25 a 45 años que leen etiquetas y pagan por pureza."
+    },
+    {
+      "nombre": "Berraco",
+      "eslogan": "Más fuerza y más músculo para el que entrena y camella duro.",
+      "publico": "Hombres de 18 a 40 años de gimnasio de barrio y trabajo pesado"
     }
   ],
   "angulo_venta": "Una cucharada de 5 g al día y levantas más peso, ganas músculo más rápido y te recuperas mejor. El cambio en el cuerpo se nota.",
@@ -46,5 +34,5 @@
     "Levanto más peso desde que tomo 5 gramos al día"
   ],
   "precio_cop": "$79.900 - $109.900",
-  "estrategia_registro": "Un registro (F05) para las 3 marcas: MAGNÍFICO Fuerza, VOLTIO y TEMPLE."
+  "estrategia_registro": "Un registro (F05) para las 3 marcas: VOLTIO, TEMPLE y Berraco."
 }

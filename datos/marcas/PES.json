@@ -12,31 +12,19 @@
   },
   "marcas": [
     {
-      "nombre": "MAGNIFICA Ritmo",
-      "concepto": "La bebida de MAGNIFICA para bajar de peso: un sobre en la mañana para quemar grasa y comer menos.",
-      "eslogan": "Quema grasa a tu ritmo.",
-      "publico": "Mujeres de 28 a 50 años que hacen dieta o retoman el ejercicio.",
-      "tono": "Positivo, motivador, cercano",
-      "color": "#F28C28",
-      "color2": "#FFF1DC"
-    },
-    {
       "nombre": "CHISPA",
-      "concepto": "Bebida juvenil para quemar grasa, arrancar el día con energía y dejar de picar entre comidas.",
       "eslogan": "Quema grasa con chispa.",
-      "publico": "Jóvenes de 20 a 32 años que siguen rutinas de hábitos y fitness en TikTok.",
-      "tono": "Alegre, enérgico, desenfadado",
-      "color": "#FF5E5B",
-      "color2": "#FFED66"
+      "publico": "Jóvenes de 20 a 32 años que siguen rutinas de hábitos y fitness en TikTok."
     },
     {
       "nombre": "CEILÁ",
-      "concepto": "Bebida premium con canela de Ceilán para bajar de peso, controlar el azúcar y quitar los antojos.",
       "eslogan": "Baja de peso con raíz natural.",
-      "publico": "Adultos de 30 a 55 años, estrato medio-alto, que prefieren ingredientes botánicos.",
-      "tono": "Cálido, natural, sofisticado",
-      "color": "#8B4513",
-      "color2": "#F4E1C1"
+      "publico": "Adultos de 30 a 55 años, estrato medio-alto, que prefieren ingredientes botánicos."
+    },
+    {
+      "nombre": "Baja Talla",
+      "eslogan": "Bebida con berberina que quema grasa y te baja una talla.",
+      "publico": "Mujeres de 25 a 55 años de estrato popular que quieren bajar de peso rápido"
     }
   ],
   "angulo_venta": "Un sobre en agua cada mañana para quemar grasa, bajar de peso y quitar la ansiedad por comer. La berberina y el cromo controlan el azúcar y los antojos. La L-carnitina y el té verde aceleran el metabolismo y queman grasa.",
@@ -46,5 +34,5 @@
     "Ya no pico a las cuatro de la tarde gracias a esto"
   ],
   "precio_cop": "$79.900 - $99.900",
-  "estrategia_registro": "Un registro (F10) para las 3 marcas: MAGNIFICA Ritmo, CHISPA y CEILÁ."
+  "estrategia_registro": "Un registro (F10) para las 3 marcas: CHISPA, CEILÁ y Baja Talla."
 }
