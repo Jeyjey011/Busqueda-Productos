@@ -74,6 +74,15 @@ const asignacion = planWeb ? planWeb.asignacion : plan.asignacion;
 for (const p of prod.values()) { p.c = clasif.get(p.id) || {}; p.tend = tendencia(p); p.fam = asignacion[p.id]; }
 
 const familias = planWeb ? planWeb.registros : plan.familias.map((f) => ({ id: f.familia_id, nombre: f.nombre, categoria: f.categoria, presentacion: PRESENTACION[f.vehiculo] || f.vehiculo, formula: f.formula_base }));
+// Marcas propuestas por registro (datos/marcas/<COD>.json)
+const DIR_MARCAS = path.join(RAIZ, 'datos', 'marcas');
+const marcasPorReg = {};
+if (fs.existsSync(DIR_MARCAS)) for (const fm of fs.readdirSync(DIR_MARCAS).filter((x) => x.endsWith('.json'))) {
+  const m = JSON.parse(fs.readFileSync(path.join(DIR_MARCAS, fm), 'utf8'));
+  marcasPorReg[m.producto.registro_base] = m.marcas.map((b) => b.nombre);
+}
+const marcasDe = (id) => (marcasPorReg[id] ? marcasPorReg[id].join('
+') : 'MAGNIFICA + 2 marcas');
 const famPorId = new Map(familias.map((f) => [f.id, f]));
 for (const f of familias) {
   const m = [...prod.values()].filter((p) => p.fam === f.id);
@@ -172,7 +181,7 @@ wb.creator = 'Claude (proyecto INVIMA)';
     { h: 'Ventas sep EE. UU. (unidades)', w: 13, k: (f) => f._us, fmt: '#,##0' },
     { h: 'Ventas sep México (unidades)', w: 13, k: (f) => f._mx, fmt: '#,##0' },
     { h: 'Tendencia vs. agosto', w: 13, k: (f) => f._tend, tend: true },
-    { h: 'Marcas en el registro', w: 18, k: () => 'MAGNIFICA + 2 marcas', wrap: true, centro: true },
+    { h: 'Marcas en el registro', w: 22, k: (f) => marcasDe(f.id), wrap: true, centro: true },
   ];
   encabezado(ws, 'Registros INVIMA a sacar', 'Cada fila es UN registro sanitario (una fórmula en una presentación) y sirve para hasta 3 marcas: MAGNIFICA + 2. Todos se sacan de una vez. Ventas de septiembre de 2026 en TikTok Shop según FastMoss.', cols.length);
   ws.mergeCells(3, 1, 3, cols.length);
