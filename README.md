@@ -4,9 +4,12 @@ Investigación de suplementos ingeribles virales en TikTok Shop de EE. UU. y Mé
 
 **Estado (2 de octubre de 2026):** datos de FastMoss extraídos, productos clasificados, plan de registros armado y Excel final generado.
 
-## Entregable
+## Entregables
 
-`salida/Plan_registros_INVIMA_FastMoss_oct2026.xlsx` (para Guillermo). Tiene estas hojas:
+**Para Guillermo (versión simple):** `salida/Productos_a_registrar_Guillermo.xlsx`. La hoja "Registros a sacar" lista los registros agrupados por categoría (cuáles van ya y cuáles después), y hay una pestaña por categoría con los productos virales agrupados por presentación, su tendencia (subiendo, estable, bajando o quemado) y si entran en algún registro. Se regenera con `node scripts/construir_excel_simple.js`, después de `construir_excel.js`, que deja las imágenes en caché.
+
+**Detalle técnico (para el asesor regulatorio):** 
+`salida/Plan_registros_INVIMA_FastMoss_oct2026.xlsx`. Tiene estas hojas:
 - Resumen
 - Plan de registros
 - Catálogo clasificado (con imágenes)
