@@ -77,7 +77,7 @@ main{padding-block:28px 80px}
 .sec-h{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:20px}
 .sec-h h2{font-size:clamp(26px,3vw,36px)}
 .sec-h p{color:var(--muted);max-width:58ch}
-.pasos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pasos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
 .paso{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px;text-align:left;display:grid;gap:10px;align-content:start;transition:transform .25s,box-shadow .25s,border-color .25s}
 .paso:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--accent)}
 .paso .n{width:38px;height:38px;border-radius:12px;background:var(--accent);color:var(--surface);display:grid;place-items:center;font:800 18px var(--display)}
@@ -136,6 +136,19 @@ main{padding-block:28px 80px}
 .reg .ventas b{color:var(--ink);font-family:var(--mono)}
 .reg .ver{color:var(--accent);font-weight:700;font-size:14px}
 .lbl{font:700 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+
+/* marcas */
+.buscar{width:100%;max-width:420px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:12px 16px;font:inherit}
+.mreg{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:16px;display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center}
+.mreg > .foto{width:120px;height:120px;border-radius:16px;border:1px solid var(--line)}
+.mreg .arriba{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.mreg h3{font-size:19px;margin:8px 0}
+.mlist{display:grid;gap:12px}
+.mreg .mcards{margin-top:10px}
+.mreg .mcard{background:var(--surface2);border:0}
+.mreg .mcard .nm{font-size:24px}
+mark.hl{background:var(--mark);color:var(--mark-ink);border-radius:4px}
+@media (max-width:860px){.mreg{grid-template-columns:1fr}.mreg > .foto{width:100%;height:180px;object-fit:contain}}
 
 /* productos */
 .cat-head{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px;margin-top:16px;display:grid;gap:12px}
@@ -209,6 +222,7 @@ footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);fo
   .hero{grid-template-columns:1fr}.stamp{justify-self:start}
   .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(2){border-right:0}.kpi:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .pasos,.mcards,.dos{grid-template-columns:1fr}
+  .guia .mcards{grid-template-columns:repeat(3,minmax(0,1fr))}
   .barra{grid-template-columns:1fr 70px}.barra .t{grid-column:1/-1;grid-row:2}
   .item{grid-template-columns:64px 1fr;grid-template-areas:"img nom" "img u" "reg reg"}
   .item .foto{grid-area:img;width:64px;height:64px}.item .n1{grid-area:nom}.item .u{grid-area:u}.item .tcol{display:none}.item .reg-link{grid-area:reg}
@@ -224,6 +238,7 @@ footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);fo
     <nav class="tabs" role="tablist" aria-label="Secciones">
       <button class="tab" role="tab" data-tab="inicio" id="t-inicio">Inicio</button>
       <button class="tab" role="tab" data-tab="registros" id="t-registros">Registros</button>
+      <button class="tab" role="tab" data-tab="marcas" id="t-marcas">Marcas</button>
       <button class="tab" role="tab" data-tab="productos" id="t-productos">Productos virales</button>
     </nav>
     <button class="guia-btn" id="abrir-guia">? Guía</button>
@@ -252,7 +267,7 @@ const foto = (id, alt = '', estilo = '') => (D.imgs[id] ? `<img class="foto" ${e
 const marcasHtml = (ms) => `<div class="marcas">${ms.map((b) => `<span class="marca">${esc(b.nombre)}</span>`).join('')}</div>`;
 const PLURAL = { 'Cápsula': 'Cápsulas', 'Cápsula blanda': 'Cápsulas blandas', 'Tableta': 'Tabletas', 'Gomita': 'Gomitas', 'Polvo': 'Polvos', 'Líquido': 'Líquidos', 'Gotas': 'Gotas', 'Sobre / stick': 'Sobres y sticks', 'Té': 'Tés', 'Otro': 'Otros' };
 
-const estado = { tab: 'inicio', catReg: D.categorias.find((c) => c.nr).cod, catProd: D.categorias[0].cod, sinQuemados: false };
+const estado = { tab: 'inicio', catMarca: D.categorias.find((c) => c.nr).cod, q: '', catReg: D.categorias.find((c) => c.nr).cod, catProd: D.categorias[0].cod, sinQuemados: false };
 const leerG = () => { try { return JSON.parse(localStorage.getItem('planinvima2') || '{}'); } catch (e) { return {}; } };
 estado.sinQuemados = !!leerG().sinQuemados;
 const guardar = (extra = {}) => { try { localStorage.setItem('planinvima2', JSON.stringify({ ...leerG(), sinQuemados: estado.sinQuemados, ...extra })); } catch (e) {} };
@@ -274,11 +289,12 @@ function vistaInicio() {
       .map(([v, l], i) => `<div class="kpi" style="--i:${i}"><div class="v mono" data-cuenta="${v}">${fmt(v)}</div><div class="l">${l}</div></div>`).join('')}
   </section>
   <section class="sec">
-    <div class="sec-h"><h2>Cómo usar esta página</h2><p>Son dos secciones. Toque una para entrar.</p></div>
+    <div class="sec-h"><h2>Cómo usar esta página</h2><p>Son tres secciones. Toque una para entrar.</p></div>
     <div class="pasos stag">
       <button class="paso" data-ir="registros" style="--i:0"><span class="n">1</span><h3>Registros</h3><p>Lo que hay que registrar: para qué es cada producto, sus ingredientes, la presentación y las 3 marcas propuestas.</p><span class="ir">Ver los ${k.registros} registros →</span></button>
-      <button class="paso" data-ir="productos" style="--i:1"><span class="n">2</span><h3>Productos virales</h3><p>Lo que más se vende hoy en TikTok Shop, por categoría y presentación, con su tendencia y el registro en el que entra.</p><span class="ir">Ver los ${k.productos} productos →</span></button>
-      <button class="paso" data-guia style="--i:2"><span class="n">?</span><h3>Fotos y guía</h3><p>Toque cualquier foto para verla en grande. Si se pierde, el botón "Guía" de arriba explica todo paso a paso.</p><span class="ir">Abrir la guía →</span></button>
+      <button class="paso" data-ir="marcas" style="--i:1"><span class="n">2</span><h3>Marcas</h3><p>Las ${k.marcas} marcas propuestas, 3 por registro, con la foto del producto real y un buscador por nombre.</p><span class="ir">Ver las marcas →</span></button>
+      <button class="paso" data-ir="productos" style="--i:2"><span class="n">3</span><h3>Productos virales</h3><p>Lo que más se vende hoy en TikTok Shop, por categoría y presentación, con su tendencia y el registro en el que entra.</p><span class="ir">Ver los ${k.productos} productos →</span></button>
+      <button class="paso" data-guia style="--i:3"><span class="n">?</span><h3>Fotos y guía</h3><p>Toque cualquier foto para verla en grande. Si se pierde, el botón "Guía" de arriba explica todo paso a paso.</p><span class="ir">Abrir la guía →</span></button>
     </div>
   </section>
   <section class="sec">
@@ -342,6 +358,31 @@ function abrirRegistro(id) {
   dlg.scrollTop = 0;
 }
 
+/* ---------- MARCAS ---------- */
+function vistaMarcas() {
+  const q = (estado.q || '').trim().toLowerCase();
+  const cats = D.categorias.filter((c) => c.nr);
+  const sel = estado.catMarca;
+  const hl = (s) => { const x = esc(s); if (!q) return x; const i = x.toLowerCase().indexOf(q); return i < 0 ? x : x.slice(0, i) + '<mark class="hl">' + x.slice(i, i + q.length) + '</mark>' + x.slice(i + q.length); };
+  const coincide = (r) => !q || r.marcas.some((b) => b.nombre.toLowerCase().includes(q)) || r.n.toLowerCase().includes(q);
+  const lista = cats.filter((c) => q || sel === 'todas' || c.cod === sel);
+  const bloques = lista.map((c) => {
+    const rs = D.registros.filter((r) => r.cat === c.cod && coincide(r));
+    if (!rs.length) return '';
+    return `<div class="cat-titulo"><h3>${esc(c.n)}</h3><span>${rs.length * 3} marcas en ${rs.length} ${rs.length === 1 ? 'registro' : 'registros'}</span></div>
+      <div class="mlist stag">${rs.map((r, i) => `<div class="mreg" style="--i:${i}">${foto(r.refs[0], prodPorId[r.refs[0]]?.n || '')}
+        <div><div class="arriba"><span class="cod">${r.id}</span><span class="pill">${esc(r.pres)}</span>${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}</div>
+          <h3>${hl(r.n)}</h3>
+          <div class="mcards">${r.marcas.map((b) => `<div class="mcard"><span class="nm">${hl(b.nombre)}</span><p>${esc(b.idea || '')}</p>${b.publico ? `<small>Para: ${esc(b.publico)}</small>` : ''}</div>`).join('')}</div>
+          <button class="link" data-reg="${r.id}" style="margin-top:10px">Ver ingredientes y productos de este registro →</button></div></div>`).join('')}</div>`;
+  }).join('');
+  return `<div class="sec-h"><div><p class="eyebrow">${D.kpi.marcas} marcas propuestas · 3 por registro</p><h2 style="margin-top:8px">Las marcas, registro por registro</h2></div></div>
+    <p class="nota">Cada registro sanitario sirve para 3 marcas. Aquí están las 3 propuestas de cada uno, con la foto del producto real en el que se basa. Busque una marca por su nombre o filtre por categoría.</p>
+    <div style="margin-top:16px"><input class="buscar" id="buscar-marca" type="search" placeholder="Buscar marca o registro…" value="${esc(estado.q || '')}" aria-label="Buscar marca"></div>
+    <div class="chips" role="group" aria-label="Categoría" style="margin-top:14px"><button class="chip" data-catmarca="todas" aria-pressed="${sel === 'todas' && !q}">Todas<small>${D.kpi.marcas}</small></button>${cats.map((c) => `<button class="chip" data-catmarca="${c.cod}" aria-pressed="${sel === c.cod && !q}">${esc(c.n)}<small>${c.nr * 3}</small></button>`).join('')}</div>
+    <div id="marcas-lista">${bloques || '<p class="nota" style="margin-top:24px">No hay marcas con ese nombre.</p>'}</div>`;
+}
+
 /* ---------- PRODUCTOS ---------- */
 function vistaProductos() {
   const cat = D.categorias.find((c) => c.cod === estado.catProd) || D.categorias[0];
@@ -377,7 +418,8 @@ const PASOS = [
   { t: 'Bienvenido. Esto es lo que va a ver', p: `Analizamos los suplementos más vendidos de TikTok Shop en EE. UU. y México y los agrupamos en ${D.kpi.registros} registros sanitarios para sacar de una vez.`, ilus: `<div class="fila"><span class="cod">1 registro</span> = <span class="pill">1 fórmula</span> + <span class="pill">1 presentación</span> = <span class="marca">3 marcas</span></div><p class="nota">Una misma fórmula en cápsula y en gomita son dos registros distintos.</p>` },
   { t: 'Paso 1: Registros', p: 'Cada tarjeta es un registro. Arriba ve fotos de productos reales que ya se venden con esa fórmula. Debajo: para qué es, la presentación, los ingredientes y las 3 marcas propuestas.', ilus: `<div class="fila"><span class="cod">${r0.id}</span><b>${esc(r0.n)}</b></div><div class="fila"><span class="ben">${esc(r0.ben)}</span><span class="pill">${esc(r0.pres)}</span></div>${marcasHtml(r0.marcas)}` },
   { t: 'Toque "Ver todo el registro"', p: 'Se abre la ficha completa: la lista de ingredientes con dosis típicas, las 3 marcas con su idea, los productos reales en los que se basa y cuánto venden.', ilus: `<ul class="check">${r0.ing.slice(0, 4).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` },
-  { t: 'Paso 2: Productos virales', p: 'Lo que más se vende hoy, por categoría y por presentación (cápsulas, gomitas, polvos…). Cada producto dice para qué es, si va subiendo o bajando y en qué registro entra.', ilus: `<div class="fila">${tend('sube', 34)}${tend('estable', null)}${tend('baja', -18)}${tend('quemado', -31)}${tend('nuevo', null)}</div><p class="nota">"Quemado" = vende cada vez menos y ya lleva más de un año. Mejor no inspirarse en esos.</p>` },
+  { t: 'Paso 2: Marcas', p: 'Todas las marcas propuestas, 3 por cada registro, con la foto del producto real. Puede buscar una marca por su nombre o filtrar por categoría.', ilus: `<div class="mcards">${r0.marcas.map((b) => `<div class="mcard"><span class="nm" style="font-size:17px">${esc(b.nombre)}</span></div>`).join('')}</div>` },
+  { t: 'Paso 3: Productos virales', p: 'Lo que más se vende hoy, por categoría y por presentación (cápsulas, gomitas, polvos…). Cada producto dice para qué es, si va subiendo o bajando y en qué registro entra.', ilus: `<div class="fila">${tend('sube', 34)}${tend('estable', null)}${tend('baja', -18)}${tend('quemado', -31)}${tend('nuevo', null)}</div><p class="nota">"Quemado" = vende cada vez menos y ya lleva más de un año. Mejor no inspirarse en esos.</p>` },
   { t: 'Las fotos se amplían', p: 'Toque cualquier foto para verla en grande. Toque otra vez (o fuera de la foto) para cerrarla. Puede volver a esta guía cuando quiera con el botón "Guía" de arriba.', ilus: `<div class="fila">${r0.refs.slice(0, 3).map((id) => foto(id, prodPorId[id].n, 'width:96px;height:96px;border-radius:14px')).join('')}</div>` },
 ];
 let pasoGuia = 0;
@@ -405,7 +447,7 @@ function ampliar(id) {
 /* ---------- navegación ---------- */
 function pintar() {
   document.querySelectorAll('.tab').forEach((t) => t.setAttribute('aria-selected', t.dataset.tab === estado.tab));
-  $('#app').innerHTML = `<div class="view">${{ inicio: vistaInicio, registros: vistaRegistros, productos: vistaProductos }[estado.tab]()}</div>`;
+  $('#app').innerHTML = `<div class="view">${{ inicio: vistaInicio, registros: vistaRegistros, marcas: vistaMarcas, productos: vistaProductos }[estado.tab]()}</div>`;
   if (!reducido) contar();
 }
 function ir(tab, extra = {}) {
@@ -434,14 +476,21 @@ document.addEventListener('click', (e) => {
   if (t.dataset.ir) return ir(t.dataset.ir);
   if (t.dataset.reg) { if ($('#guia').open) $('#guia').close(); return abrirRegistro(t.dataset.reg); }
   if (t.dataset.catreg) return ir('registros', { catReg: t.dataset.catreg });
+  if (t.dataset.catmarca) return ir('marcas', { catMarca: t.dataset.catmarca, q: '' });
   if (t.dataset.catprod) { if ($('#modal').open) $('#modal').close(); return ir('productos', { catProd: t.dataset.catprod }); }
 }, true);
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#zoom').hidden) { e.preventDefault(); cerrarZoom(); } });
+document.addEventListener('input', (e) => {
+  if (e.target.id !== 'buscar-marca') return;
+  estado.q = e.target.value;
+  const tmp = document.createElement('div'); tmp.innerHTML = vistaMarcas();
+  $('#marcas-lista').replaceWith(tmp.querySelector('#marcas-lista'));
+});
 document.addEventListener('change', (e) => { if (e.target.id === 'sin-quemados') { estado.sinQuemados = e.target.checked; guardar(); pintar(); } });
 $('#modal').addEventListener('click', (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
 $('#guia').addEventListener('click', (e) => { if (e.target === e.currentTarget) { guardar({ guiaVista: true }); e.currentTarget.close(); } });
 const inicial = (location.hash || '').slice(1);
-if (['inicio', 'registros', 'productos'].includes(inicial)) estado.tab = inicial;
+if (['inicio', 'registros', 'marcas', 'productos'].includes(inicial)) estado.tab = inicial;
 $('#pie').innerHTML = `Datos de ventas: FastMoss (TikTok Shop EE. UU. y México), ${esc(D.corte)}. Fórmulas con dosis típicas del mercado. Nombres de marca propuestos: verificar disponibilidad en la SIC antes de registrarlos.`;
 pintar();
 if (!leerG().guiaVista) setTimeout(abrirGuia, 600);
