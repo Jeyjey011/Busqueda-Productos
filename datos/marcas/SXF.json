@@ -3,11 +3,11 @@
   "nombre_categoria": "Salud femenina",
   "problema": "Muchas mujeres sienten que su bienestar íntimo es un tema del que da pena hablar y buscan algo discreto, rico y fácil de tomar todos los días. En TikTok Shop las gomitas de probióticos femeninos son el grupo más vendido de toda la muestra, con más de 142.000 unidades en septiembre de 2026 entre EE. UU. y México (FastMoss, datos del proyecto).",
   "producto": {
-    "nombre_generico": "Gomita probiótica femenina con prebiótico y vitamina C",
+    "nombre_generico": "Gomita probiótica femenina con olmo resbaladizo y prebiótico XOS",
     "registro_base": "F02",
     "presentacion": "Gomita",
-    "formula_corta": "Bacillus coagulans 1.000-2.000 millones de UFC + inulina o XOS + olmo resbaladizo + vitamina C, baja en azúcar",
-    "porque_en_colombia": "La gomita convierte un tema incómodo en un antojo diario y es el formato que llevó esta categoría a la cima en TikTok; el Bacillus coagulans es estable en gomita y está aceptado como probiótico."
+    "formula_corta": "Probióticos Lactobacillus 5.000 millones de UFC (L. acidophilus, L. rhamnosus, L. reuteri, L. fermentum) + Bacillus coagulans + olmo resbaladizo + prebiótico XOS + piña en polvo + vitamina C y D, sabor fresa y baja en azúcar",
+    "porque_en_colombia": "La gomita convierte un tema incómodo en un antojo diario y es el formato que llevó esta categoría a la cima en TikTok; la fórmula con Lactobacillus, olmo resbaladizo y XOS es la de las gomitas femeninas más vendidas."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#F3E9F1"
     }
   ],
-  "angulo_venta": "Autocuidado femenino diario en forma de gomita rica, con la declaración aceptada de probióticos (normalizar las funciones digestivas) y la vitamina C para el sistema inmunitario.",
+  "angulo_venta": "Autocuidado femenino diario en forma de gomita rica: probióticos, prebióticos y vitamina C para sentirte fresca, cómoda y segura todos los días.",
   "ganchos_tiktok": [
     "La gomita que se volvió mi hábito de autocuidado",
     "Cosas de chicas que deberíamos hablar sin pena",
     "Probióticos que saben a fresa: mi nuevo antojo diario"
   ],
-  "no_decir": [
-    "Equilibra el pH vaginal",
-    "Elimina el mal olor",
-    "Previene infecciones o candidiasis",
-    "Juicy o te deja jugosa",
-    "Regula las hormonas"
-  ],
   "precio_cop": "$79.900 - $99.900",
-  "estrategia_registro": "Un solo registro SD de la familia F02 (gomita, con sabores declarados) ampara las 3 marcas: MAGNIFICA Flora, FRESITA y FLORELA."
+  "estrategia_registro": "Un registro (F02) para las 3 marcas: MAGNIFICA Flora, FRESITA y FLORELA."
 }

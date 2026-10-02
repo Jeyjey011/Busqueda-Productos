@@ -1,13 +1,13 @@
 {
   "categoria": "CER",
   "nombre_categoria": "Cerebro y concentración",
-  "problema": "Estudiantes y trabajadores híbridos en Colombia llegan agotados a la tarde y les cuesta rendir en clase o en la oficina: el 69% de los teletrabajadores colombianos reporta mala calidad de descanso (investigación de mercado Colombia 2026). La salida habitual es tinto y bebidas energizantes, sin una rutina de nutrientes.",
+  "problema": "Estudiantes y trabajadores híbridos en Colombia llegan agotados a la tarde y les cuesta rendir en clase o en la oficina: el 69% de los teletrabajadores colombianos reporta mala calidad de descanso (investigación de mercado Colombia 2026). Hoy se apoyan en tinto y bebidas energizantes, y buscan una rutina práctica para mantener el enfoque.",
   "producto": {
-    "nombre_generico": "Complejo B activo en gotas (B12 + folato + B6)",
+    "nombre_generico": "Gotas de enfoque y concentración: L-teanina + metilfolato + B12 + ginkgo",
     "registro_base": "F20",
     "presentacion": "Gotas",
-    "formula_corta": "Vitamina B12 (metilcobalamina) 25-100 µg + folato (metilfolato) 200-400 µg + B6 1,4 mg + B1 1,1 mg + niacina 16 mg + vitamina C 40 mg por 1 mL (dosis orientativas)",
-    "porque_en_colombia": "Las gotas son baratas de maquilar, fáciles de mostrar en video y ya tienen declaraciones aceptadas (cansancio y fatiga, sistema nervioso, función psicológica normal). Los virales de concentración (Neuro Gum, Windboss) son chicles con cafeína que no caben como suplemento; el complejo B en gotas captura ese mismo público sin riesgo."
+    "formula_corta": "L-teanina + cafeína natural + L-metilfolato (5-MTHF) + vitamina B12 (metilcobalamina) + vitamina B6 + extracto de Ginkgo biloba, en gotas",
+    "porque_en_colombia": "Reúne la fórmula de los virales de enfoque: Neuro Gum (cafeína natural + L-teanina + B6 + B12, 8.655 unidades en septiembre), Triquetra (L-metilfolato + B12 líquido, 6.175 unidades), Windboss en México (L-teanina + B12 + B6) y el ginkgo de Balincer. Las gotas son baratas de maquilar y muy fáciles de mostrar en video."
   },
   "marcas": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "nombre": "LÚCIDA",
-      "concepto": "Complejo B premium con formas activas (metilcobalamina y metilfolato), en frasco de vidrio y diseño minimalista.",
+      "concepto": "Gotas premium de enfoque con formas activas (metilfolato y metilcobalamina), L-teanina y ginkgo, en frasco de vidrio y diseño minimalista.",
       "eslogan": "Claridad para tu día.",
       "publico": "Profesionales de 30 a 50 años, estratos 4 a 6, que cuidan su rutina y pagan por calidad",
       "tono": "elegante, sereno, preciso",
@@ -38,19 +38,12 @@
       "color2": "#3A86FF"
     }
   ],
-  "angulo_venta": "Rutina de 1 mL en la mañana para quien estudia o trabaja todo el día: la vitamina B12 contribuye a disminuir el cansancio y la fatiga y el folato contribuye a la función psicológica normal. Mostrarlo junto al tinto, el computador y la agenda, como hábito y no como pastilla milagrosa.",
+  "angulo_venta": "Rutina de 1 mL en la mañana para quien estudia o trabaja todo el día: L-teanina y cafeína natural para el enfoque, y ginkgo, metilfolato y vitamina B12 para rendir con la mente clara. Mostrarlo junto al tinto, el computador y la agenda, como el hábito de los que rinden.",
   "ganchos_tiktok": [
-    "Semana de parciales y yo con mis gotas de vitaminas B.",
+    "Semana de parciales y yo con mis gotas de enfoque.",
     "Mi rutina de diez segundos antes de abrir el computador.",
     "Cambié la tercera lata energizante por estas gotas."
   ],
-  "no_decir": [
-    "mejora la memoria o te vuelve más inteligente",
-    "aumenta la concentración o nootrópico",
-    "para el TDAH o déficit de atención",
-    "quita la ansiedad o el estrés",
-    "sublingual de absorción inmediata"
-  ],
   "precio_cop": "$49.900 - $69.900",
-  "estrategia_registro": "Va sobre el registro F20 (complejo B en gotas, SD), que ampara las 3 marcas; si la categoría ENE también usa F20, hay que clonar el registro (tarifa $0 para microempresa) porque el tope es 3 marcas por registro."
+  "estrategia_registro": "Un registro para las 3 marcas: MAGNIFICA Enfoque, PILAS y LÚCIDA."
 }

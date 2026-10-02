@@ -1,13 +1,13 @@
 {
   "categoria": "SXM",
   "nombre_categoria": "Masculino",
-  "problema": "El hombre colombiano de 25 a 50 años vive del rebusque y de jornadas largas: 7 de cada 10 nuevos empleos son por cuenta propia y el cansancio diario es la queja de siempre. Además, lo que le ofrecen en redes 'para hombre' son potenciadores sin registro, la categoría con más alertas de INVIMA (sildenafilo oculto, alerta URODOC 277-2026).",
+  "problema": "El hombre colombiano de 25 a 50 años vive del rebusque y de jornadas largas: 7 de cada 10 nuevos empleos son por cuenta propia y el cansancio diario es la queja de siempre. Busca algo natural que le dé energía, vitalidad y aguante para todo el día.",
   "producto": {
-    "nombre_generico": "Maca andina + zinc + selenio + vitamina B12 en cápsula (energía y vitalidad)",
+    "nombre_generico": "Maca con tongkat ali, ashwagandha y shilajit",
     "registro_base": "F24",
     "presentacion": "Cápsula",
-    "formula_corta": "Maca 1.000 mg + zinc 10 mg + selenio 55 µg + vitamina B12 2,5 µg + L-arginina 500 mg por porción de 2-3 cápsulas",
-    "porque_en_colombia": "La maca es conocida y ya tiene antecedentes de registro como suplemento dietario en Colombia, y hay un hueco para un producto masculino serio, con registro y sin promesas sexuales, en un mercado lleno de productos fraudulentos. El ángulo de energía para el que trabaja duro conecta con el rebusque."
+    "formula_corta": "Maca andina + tongkat ali + ashwagandha + shilajit + ginseng + L-arginina + L-citrulina + zinc + selenio + vitamina B12, en cápsula",
+    "porque_en_colombia": "La maca es conocida y querida en Colombia, y la combinación viral de EE. UU. (maca, tongkat ali, ashwagandha y shilajit) todavía no tiene una marca local fuerte. El ángulo de energía y vitalidad para el que trabaja duro conecta con el rebusque."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#8DB596"
     }
   ],
-  "angulo_venta": "Hablarle al hombre trabajador desde el cansancio de la jornada, nunca desde la cama: maca andina con nutrientes que tienen declaraciones aceptadas como 'la vitamina B12 contribuye a disminuir el cansancio y la fatiga' y 'el zinc contribuye al metabolismo normal de los macronutrientes' (verificar textos en el listado INVIMA), y destacar que tiene registro sanitario frente a los productos piratas.",
+  "angulo_venta": "Hablarle al hombre trabajador desde la energía y la vitalidad: maca andina con tongkat ali, ashwagandha y shilajit para llegar entero al final de la jornada y con ganas de todo.",
   "ganchos_tiktok": [
     "Día de doce horas en la moto y así llego",
     "Lo que tomo antes de abrir el negocio a las seis",
-    "Maca andina con registro INVIMA, sin cuentos raros"
-  ],
-  "no_decir": [
-    "Potencia sexual, libido, erección o rendimiento en la cama",
-    "Sube la testosterona o equilibra las hormonas",
-    "Cuida la próstata",
-    "Viagra natural o potenciador masculino",
-    "Más vigor y aguante"
+    "Maca, tongkat ali y shilajit: el combo viral para hombres"
   ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un registro SD de la familia F24 (prioridad 3, reformulada solo con maca, zinc, selenio, B12 y arginina) que ampara las 3 marcas; como una medida sanitaria contagia a todas las marcas del registro, se recomienda lanzar primero Camello y Puna y sumar MAGNIFICA Andino solo con piezas publicitarias aprobadas por INVIMA."
+  "estrategia_registro": "Un registro (F24) para las 3 marcas: MAGNIFICA Andino, Camello y Puna."
 }

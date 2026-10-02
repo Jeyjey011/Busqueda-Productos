@@ -298,30 +298,30 @@ function mock(pres, c1 = '#0A7A5F', c2 = '#E3F26B', nombre = '', sub = '', cls =
 function vistaInicio() {
   const k = D.kpi;
   const max = Math.max(...D.categorias.map((c) => c.total));
-  const ya = D.registros.filter((r) => r.ya);
+  const top = [...D.registros].sort((a, b) => (b.us + b.mx) - (a.us + a.mx)).slice(0, 8);
   return `<section class="hero">
     <div>
       <p class="eyebrow">Suplementos virales · TikTok Shop EE. UU. y México · ${esc(D.corte)}</p>
-      <h1 style="margin-top:16px"><mark>${k.ya} registros</mark> para empezar. Hasta 3 marcas en cada uno.</h1>
-      <p class="lead">Revisamos los suplementos más vendidos de septiembre y los agrupamos por fórmula. Cada grupo es un registro INVIMA que puede salir al mercado con MAGNIFICA y dos marcas más.</p>
+      <h1 style="margin-top:16px"><mark>${k.registros} registros</mark> para sacar de una vez. Hasta 3 marcas en cada uno.</h1>
+      <p class="lead">Revisamos los suplementos más vendidos de septiembre y los agrupamos por fórmula y presentación. Cada grupo es un registro INVIMA que puede salir al mercado con MAGNIFICA y dos marcas más.</p>
     </div>
     <div class="stamp" aria-hidden="true"><span>REGISTRO SANITARIO</span><b>SD2026-<br>0000000</b><span>1 FÓRMULA · 1 PRESENTACIÓN · 3 MARCAS</span></div>
   </section>
   <section class="kpis stag">
-    ${[[k.publicaciones, 'productos virales analizados'], [k.unidades, 'unidades vendidas en septiembre'], [k.ya, 'registros para sacar ya'], [k.ya + k.despues, 'registros en total (ya + después)']]
+    ${[[k.publicaciones, 'productos virales analizados'], [k.unidades, 'unidades vendidas en septiembre'], [k.registros, 'registros a sacar'], [k.marcas, 'marcas propuestas']]
       .map(([v, l], i) => `<div class="kpi" style="--i:${i}"><div class="v mono" data-cuenta="${v}">${fmt(v)}</div><div class="l">${l}</div></div>`).join('')}
   </section>
   <section class="sec">
     <div class="sec-h"><h2>Cómo funciona</h2><p>Un registro de suplemento dietario ampara una fórmula en una presentación (cápsula, gomita, polvo…) y hasta tres marcas.</p></div>
     <div class="pasos stag">
-      <div class="paso" style="--i:0"><div class="n">PASO 1</div><h3>Elegir la fórmula</h3><p>Tomamos lo que ya se vende en TikTok Shop y lo dejamos con ingredientes permitidos en Colombia.</p></div>
+      <div class="paso" style="--i:0"><div class="n">PASO 1</div><h3>Elegir la fórmula</h3><p>Tomamos la fórmula de lo que ya se vende en TikTok Shop, con sus mismos ingredientes.</p></div>
       <div class="paso" style="--i:1"><div class="n">PASO 2</div><h3>Radicar ante INVIMA</h3><p>Entre 2 y 6 meses según las fuentes consultadas. Si la empresa es microempresa, la tarifa de INVIMA es $0.</p></div>
       <div class="paso" style="--i:2"><div class="n">PASO 3</div><h3>Lanzar hasta 3 marcas</h3><p>MAGNIFICA más dos marcas propias sobre el mismo registro. Una cuarta marca necesita otro registro.</p></div>
     </div>
   </section>
   <section class="sec">
-    <div class="sec-h"><h2>Los ${ya.length} registros para sacar ya</h2><button class="link" data-ir="registros">Ver los ${D.registros.length} registros</button></div>
-    <div class="grid stag">${ya.map((r, i) => tarjetaRegistro(r, i)).join('')}</div>
+    <div class="sec-h"><h2>Los 8 registros con más demanda</h2><button class="link" data-ir="registros">Ver los ${D.registros.length} registros</button></div>
+    <div class="grid stag">${top.map((r, i) => tarjetaRegistro(r, i)).join('')}</div>
   </section>
   <section class="sec">
     <div class="sec-h"><h2>Dónde está la demanda</h2><p>Unidades vendidas en septiembre de 2026 por categoría (EE. UU. + México). Toque una categoría para ver sus productos.</p></div>
@@ -332,7 +332,7 @@ function vistaInicio() {
 function tarjetaRegistro(r, i = 0) {
   const max = Math.max(...D.registros.map((x) => Math.max(x.us, x.mx)));
   return `<button class="reg" data-reg="${r.id}" style="--i:${i}">
-    <div class="fila"><div class="fotos">${r.refs.slice(0, 3).map((id) => img(id)).join('')}</div>${r.ya ? '<span class="ya">YA</span>' : '<span class="despues">DESPUÉS</span>'}</div>
+    <div class="fila"><div class="fotos">${r.refs.slice(0, 3).map((id) => img(id)).join('')}</div><span class="despues">${r.id}</span></div>
     <div><p class="eyebrow">${esc(catNombre(r.cat))}</p><h3 style="margin-top:6px">${esc(r.n)}</h3></div>
     <div class="meta"><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
     <div class="mini"><span>EE. UU.</span><span class="t"><i style="--w:${(r.us / max * 100).toFixed(1)}%"></i></span><span class="mono">${fmt(r.us)}</span>
@@ -341,13 +341,10 @@ function tarjetaRegistro(r, i = 0) {
 }
 
 function vistaRegistros() {
-  const lista = D.registros.filter((r) => estado.orden === 'todos' || (estado.orden === 'ya') === r.ya);
-  const cats = [...new Set(lista.map((r) => r.cat))].sort((a, b) => Math.min(...lista.filter((r) => r.cat === a).map((r) => (r.ya ? 0 : 1))) - Math.min(...lista.filter((r) => r.cat === b).map((r) => (r.ya ? 0 : 1))) || D.categorias.findIndex((c) => c.cod === a) - D.categorias.findIndex((c) => c.cod === b));
-  return `<div class="sec-h"><div><p class="eyebrow">Registros INVIMA</p><h2 style="margin-top:8px">Qué registrar, agrupado por categoría</h2></div>
-    <div class="chips" role="group" aria-label="Filtrar">
-      ${[['todos', 'Todos', D.registros.length], ['ya', 'Sacar ya', D.kpi.ya], ['despues', 'Después', D.kpi.despues]].map(([v, l, n]) => `<button class="chip" data-orden="${v}" aria-pressed="${estado.orden === v}">${l}<small>${n}</small></button>`).join('')}
-    </div></div>
-    <p class="nota">Toque un registro para ver la fórmula, los productos virales en los que se basa y lo que sí se puede decir en la publicidad.</p>
+  const lista = D.registros;
+  const cats = [...new Set(lista.map((r) => r.cat))].sort((a, b) => D.categorias.findIndex((c) => c.cod === a) - D.categorias.findIndex((c) => c.cod === b));
+  return `<div class="sec-h"><div><p class="eyebrow">Registros INVIMA · ${lista.length} en total</p><h2 style="margin-top:8px">Qué registrar, agrupado por categoría</h2></div></div>
+    <p class="nota">Toque un registro para ver la fórmula, los productos virales en los que se basa y las marcas que pueden salir con él.</p>
     ${cats.map((cod) => { const rs = lista.filter((r) => r.cat === cod); return `<div class="cat-titulo"><h3>${esc(catNombre(cod))}</h3><span>${rs.length} ${rs.length === 1 ? 'registro' : 'registros'}</span></div><div class="grid stag">${rs.map((r, i) => tarjetaRegistro(r, i)).join('')}</div>`; }).join('')}`;
 }
 
@@ -384,7 +381,7 @@ function vistaCategorias() {
           <div class="pais sub">${pais(p.r)}</div>
           <div class="u"><span class="mono">${p.u != null ? fmt(p.u) + ' u.' : p.w != null ? fmt(p.w) + ' u./sem' : '—'}</span><span class="t"><i style="--w:${((p.u || 0) / maxU * 100).toFixed(1)}%"></i></span></div>
           <div class="tcol">${tend(p.t, p.c)}</div>
-          <div class="sale ${r ? 'si' : 'no'}">${r ? `${r.ya ? '<span class="ya">YA</span>' : '<span class="despues">DESPUÉS</span>'} <button class="link" data-reg="${r.id}">${esc(r.n)}</button>` : 'No entra en un registro'}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">FastMoss</a>` : ''}</div>
+          <div class="sale ${r ? 'si' : 'no'}">${r ? `Registro <button class="link" data-reg="${r.id}">${esc(r.n)}</button>` : ''}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">FastMoss</a>` : ''}</div>
         </div>`; }).join('')}</div></div>`).join('')}`;
 }
 
@@ -415,12 +412,11 @@ function vistaMarcas() {
         <p>${esc(b.concepto)}</p>
         <div class="dos"><div class="bloque"><h4>Le habla a</h4><p>${esc(b.publico)}</p></div><div class="bloque"><h4>Tono</h4><p>${esc(b.tono)}</p></div></div>
         <div class="bloque"><h4>El producto</h4><p><b>${esc(m.producto.nombre_generico)}</b> · ${esc(m.producto.presentacion)}</p><p style="margin-top:6px">${esc(m.producto.formula_corta)}</p>
-          <p class="nota" style="margin-top:8px">${reg ? `${m.producto.segundo_registro ? 'Segundo registro con la misma fórmula de' : 'Registro base:'} <button class="link" data-reg="${reg.id}">${esc(reg.n)}</button> (${reg.ya ? 'sacar ya' : 'después'}).` : 'Necesita un registro nuevo.'} ${esc(m.estrategia_registro || '')}</p></div>
+          <p class="nota" style="margin-top:8px">${reg ? `${m.producto.segundo_registro ? 'Segundo registro con la misma fórmula de' : 'Registro:'} <button class="link" data-reg="${reg.id}">${esc(reg.n)}</button>.` : 'Registro propio.'} ${esc(m.estrategia_registro || '')}</p></div>
         <div class="bloque"><h4>El problema en Colombia</h4><p>${esc(m.problema)}</p><p style="margin-top:8px">${esc(m.producto.porque_en_colombia)}</p></div>
         <div class="bloque"><h4>Cómo venderlo</h4><p>${esc(m.angulo_venta)}</p></div>
         <div class="dos"><div class="bloque"><h4>Ganchos para TikTok</h4><ul>${(m.ganchos_tiktok || []).map((g) => `<li>${esc(g)}</li>`).join('')}</ul></div>
           <div class="bloque"><h4>Precio sugerido</h4><p class="precio">${esc(m.precio_cop)}</p><p class="nota" style="margin-top:6px">por unidad, en Colombia</p></div></div>
-        <div class="bloque"><h4>No decir en la publicidad</h4><div class="nodecir">${(m.no_decir || []).map((x) => `<span>${esc(x)}</span>`).join('')}</div></div>
       </div>
     </div>`;
 }
@@ -430,13 +426,12 @@ function abrirRegistro(id) {
   const marcasAqui = D.marcas.filter((m) => m.producto.registro_base === id && !m.producto.segundo_registro);
   const dlg = $('#modal');
   dlg.innerHTML = `<div class="modal"><button class="cerrar" aria-label="Cerrar" data-cerrar>×</button>
-    <div><div class="meta" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">${r.ya ? '<span class="ya">SACAR YA</span>' : '<span class="despues">DESPUÉS</span>'}<span class="pill">${esc(catNombre(r.cat))}</span><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
+    <div><div class="meta" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><span class="despues">${r.id}</span><span class="pill">${esc(catNombre(r.cat))}</span><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
       <h2 id="modal-titulo" style="margin-top:14px">${esc(r.n)}</h2></div>
-    <div class="bloque"><h4>Fórmula (lo que lleva)</h4><p>${esc(r.formula)}</p><p class="nota" style="margin-top:8px">Dosis orientativas: el maquilador y el asesor regulatorio fijan las definitivas.</p></div>
+    <div class="bloque"><h4>Fórmula (lo que lleva)</h4><p>${esc(r.formula)}</p>${r.desc ? `<p class="nota" style="margin-top:8px">${esc(r.desc)}</p>` : ''}</div>
     <div class="dos"><div class="bloque"><h4>Ventas en septiembre</h4><p><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.us)}</span> EE. UU.<br><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.mx)}</span> México</p></div>
       <div class="bloque"><h4>Marcas en este registro</h4><p>MAGNIFICA + 2 marcas.${marcasAqui.length ? ' Propuestas: ' + marcasAqui.flatMap((m) => m.marcas.map((b) => `<b>${esc(b.nombre)}</b>`)).join(', ') + '.' : ''}</p></div></div>
     <div><h4 class="eyebrow" style="margin-bottom:12px">Se parece a estos productos virales</h4><div class="refs">${r.refs.map((pid) => { const p = prodPorId[pid]; return `<div class="ref">${img(pid, p.n)}<b>${esc(p.n)}</b><span>${pais(p.r)} · <span class="mono">${fmt(p.u)}</span> u. en sep</span></div>`; }).join('')}</div></div>
-    <div class="bloque"><h4>Lo que sí se puede decir</h4><p>${esc(r.decir)}</p></div>
   </div>`;
   dlg.showModal();
 }

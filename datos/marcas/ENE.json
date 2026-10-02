@@ -1,13 +1,13 @@
 {
   "categoria": "ENE",
   "nombre_categoria": "Energía y gym",
-  "problema": "El gimnasio se volvió parte de la identidad de los jóvenes colombianos, pero la creatina importada es cara y en marketplaces circulan productos sin registro o falsificados. INVIMA sancionó en 2026 creatinas y proteínas registradas como alimento y vendidas con claims deportivos (alerta 267-2026), lo que abre espacio a una marca local bien registrada.",
+  "problema": "El gimnasio se volvió parte de la identidad de los jóvenes colombianos, pero la creatina importada es cara y difícil de conseguir original. Hay espacio para una marca local, confiable y a buen precio que acompañe la rutina diaria de entreno.",
   "producto": {
-    "nombre_generico": "Creatina monohidrato micronizada",
+    "nombre_generico": "Creatina monohidrato micronizada 5 g con colágeno y BCAA",
     "registro_base": "F05",
     "presentacion": "Polvo",
-    "formula_corta": "Creatina monohidrato micronizada 3 g por porción, sin sabor y con sabores como variedades",
-    "porque_en_colombia": "Es el suplemento de gimnasio con más búsqueda y recompra, de un solo activo y fácil de maquilar; el polvo en tarro es el formato que el gimnasio colombiano reconoce. Con 3 g por porción y registro SD propio puede usar la declaración de rendimiento sin el riesgo de las creatinas registradas como alimento."
+    "formula_corta": "Creatina monohidrato micronizada 5 g + colágeno hidrolizado 5 g + BCAA 2:1:1 2 g + myo-inositol 500 mg + maca + vitamina D3, sin sabor y con sabores como variedades",
+    "porque_en_colombia": "Es el suplemento de gimnasio con más búsqueda y recompra, y las versiones con colágeno, BCAA y maca son las que hoy explotan en TikTok Shop; el polvo en tarro es el formato que el gimnasio colombiano reconoce y es fácil de maquilar."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#EDF2F4"
     }
   ],
-  "angulo_venta": "Una cucharada de 3 g al día, todos los días, con la declaración aceptada: la creatina aumenta el rendimiento físico en series sucesivas de ejercicios breves de alta intensidad.",
+  "angulo_venta": "Una cucharada de 5 g al día, todos los días, para más fuerza en cada serie, mejor recuperación y un cuerpo que se nota entreno tras entreno.",
   "ganchos_tiktok": [
-    "Creatina con registro INVIMA: así se verifica en dos minutos",
+    "Creatina original y a buen precio: así la reconoces en dos minutos",
     "Lo que nadie te dice de cargar creatina: no hace falta",
-    "Mi única regla con la creatina: todos los días, 3 gramos"
-  ],
-  "no_decir": [
-    "Te pone grande en 30 días",
-    "Quema grasa",
-    "5 g por porción",
-    "Esteroide natural",
-    "Aumenta la testosterona"
+    "Mi única regla con la creatina: todos los días, 5 gramos"
   ],
   "precio_cop": "$79.900 - $109.900",
-  "estrategia_registro": "Un solo registro SD de la familia F05 (polvo, tarro y sticks, con sabores declarados desde el inicio) ampara las 3 marcas: MAGNÍFICO Fuerza, VOLTIO y TEMPLE."
+  "estrategia_registro": "Un registro (F05) para las 3 marcas: MAGNÍFICO Fuerza, VOLTIO y TEMPLE."
 }

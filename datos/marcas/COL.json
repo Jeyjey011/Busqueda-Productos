@@ -3,11 +3,11 @@
   "nombre_categoria": "Colágeno y antiedad",
   "problema": "La colombiana quiere verse bien y con la piel cuidada, pero una cita con el dermatólogo o una limpieza facial cuesta mucho y la EPS no lo cubre. El sector de belleza en Colombia movió unos USD 3.500 millones en 2025 y belleza y bienestar son el 14,4 % de las tiendas online, con ticket promedio de $139.205 (Tiendanube, NubeCommerce 2026).",
   "producto": {
-    "nombre_generico": "Colágeno hidrolizado en polvo con vitamina C, ácido hialurónico y biotina",
+    "nombre_generico": "Multicolágeno hidrolizado con ácido hialurónico, biotina y vitamina C",
     "registro_base": "F06",
     "presentacion": "Polvo",
-    "formula_corta": "Colágeno hidrolizado tipo I y III 10 g + vitamina C + ácido hialurónico + biotina, sin sabor y con sabores",
-    "porque_en_colombia": "El colágeno en polvo ya es un hábito en Colombia, sobre todo en mujeres de 30 años en adelante; registrarlo como SD con vitamina C y biotina permite usar declaraciones de piel que los colágenos registrados como alimento no pueden usar."
+    "formula_corta": "Colágeno hidrolizado multitipo (I, II, III, V y X) 10-20 g + ácido hialurónico + biotina + vitamina C + glutatión, sin sabor y con sabores",
+    "porque_en_colombia": "El colágeno en polvo ya es un hábito en Colombia, sobre todo en mujeres de 30 años en adelante; la versión multicolágeno con ácido hialurónico, biotina y vitamina C es la que más vende en TikTok Shop y se disuelve fácil en el café de la mañana."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#F5EFE6"
     }
   ],
-  "angulo_venta": "Una cucharada en el café o el jugo de la mañana como ritual de belleza, con la declaración aceptada: la vitamina C contribuye a la formación normal de colágeno para el funcionamiento normal de la piel.",
+  "angulo_venta": "Una cucharada en el café o el jugo de la mañana como ritual de belleza: piel luminosa, cabello y uñas fuertes, desde adentro.",
   "ganchos_tiktok": [
     "Así meto el colágeno en mi café sin que sepa a nada",
-    "Colágeno de alimento vs. suplemento: lee bien la etiqueta",
+    "Colágeno con biotina y ácido hialurónico: por qué lo cambié",
     "Mi rutina de skincare empieza en la cocina, no en el baño"
   ],
-  "no_decir": [
-    "Borra las arrugas",
-    "Rejuvenece 10 años",
-    "Antiedad celular",
-    "Aclara la piel",
-    "Imágenes de famosas o el claim de la famosa X lo toma"
-  ],
   "precio_cop": "$89.900 - $119.900",
-  "estrategia_registro": "Un solo registro SD de la familia F06 (polvo, tarro y sticks, con sabores) ampara las 3 marcas: MAGNIFICA Piel, GLOWI y TERSA; se registra como SD y no como alimento para poder usar declaraciones."
+  "estrategia_registro": "Un registro (F06) para las 3 marcas: MAGNIFICA Piel, GLOWI y TERSA."
 }

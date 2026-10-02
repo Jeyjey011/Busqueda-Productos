@@ -1,13 +1,13 @@
 {
   "categoria": "PES",
   "nombre_categoria": "Peso y metabolismo",
-  "problema": "Más de la mitad de los adultos colombianos tiene exceso de peso (56,4 %, ENSIN 2015) y mucha gente cae en quemadores sin registro que prometen milagros. INVIMA emitió en febrero de 2026 alertas contra suplementos y quemadores sin registro, así que hay demanda de una opción legal que acompañe los hábitos.",
+  "problema": "Más de la mitad de los adultos colombianos tiene exceso de peso (56,4 %, ENSIN 2015) y busca una forma práctica de acompañar la dieta y el ejercicio. Las bebidas metabólicas son la tendencia número uno de TikTok Shop en EE. UU. y en Colombia todavía casi no hay marcas propias que las ofrezcan.",
   "producto": {
-    "nombre_generico": "Bebida metabólica en polvo con cromo, L-carnitina y té verde",
+    "nombre_generico": "Bebida metabólica con berberina",
     "registro_base": "F10",
     "presentacion": "Sobre / stick",
-    "formula_corta": "Polinicotinato de cromo + L-carnitina tartrato + extracto de té verde (EGCG controlado) + canela de Ceilán + inulina + magnesio",
-    "porque_en_colombia": "El stick para mezclar en agua replica el formato viral de las bebidas metabólicas de EE. UU. sin berberina ni ingredientes rojos, y se presta para el video de la botella de la mañana. Un sobre por día da un tratamiento mensual fácil de vender en combo."
+    "formula_corta": "Berberina + picolinato de cromo + L-carnitina + extracto de té verde + yerba mate + 5-HTP + ashwagandha + canela de Ceilán + jengibre + citrato de magnesio + FOS prebiótico, en stick para mezclar en agua",
+    "porque_en_colombia": "El stick para mezclar en agua replica la fórmula viral de las bebidas metabólicas de EE. UU. (berberina, cromo, L-carnitina y té verde) y se presta para el video de la botella de la mañana. Un sobre por día da un tratamiento mensual fácil de vender en combo."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#F4E1C1"
     }
   ],
-  "angulo_venta": "La botella de la mañana como parte de un plan de hábitos (comer mejor y moverse), con la declaración aceptada del cromo sobre niveles normales de glucosa en sangre y la del magnesio sobre el metabolismo energético normal.",
+  "angulo_venta": "La botella de la mañana con berberina, cromo y té verde como el ritual que acompaña el cambio de hábitos: menos antojos, más energía para moverse y la sensación de tener el metabolismo de tu lado.",
   "ganchos_tiktok": [
-    "Mi botella de la mañana antes de salir a caminar",
-    "Revisé la etiqueta de mi bebida: cromo, té verde y canela",
-    "Hábitos que sí me funcionan: agua, caminar y esta bebida"
-  ],
-  "no_decir": [
-    "Quema grasa",
-    "Baja de peso o adelgaza",
-    "Ozempic natural o GLP-1",
-    "Quita el hambre o la ansiedad por comer",
-    "Controla la diabetes"
+    "Mi botella metabólica de la mañana antes de salir a caminar",
+    "La bebida con berberina que se volvió viral en EE. UU., ya en Colombia",
+    "Hábitos que sí me funcionan: agua, caminar y mi bebida metabólica"
   ],
   "precio_cop": "$79.900 - $99.900",
-  "estrategia_registro": "Un solo registro SD de la familia F10 (polvo en sticks y tarro, con sabores) ampara las 3 marcas: MAGNIFICA Ritmo, CHISPA y CEILÁ."
+  "estrategia_registro": "Un registro (F10) para las 3 marcas: MAGNIFICA Ritmo, CHISPA y CEILÁ."
 }

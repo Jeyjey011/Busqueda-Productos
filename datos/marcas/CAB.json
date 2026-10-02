@@ -3,11 +3,11 @@
   "nombre_categoria": "Cabello, piel y uñas",
   "problema": "El cabello débil y las uñas que se quiebran son una preocupación diaria, sobre todo en mujeres que se planchan, se tinturan y se alisan, y la consulta dermatológica es cara o demora en la EPS. Belleza y bienestar son ya el 14,4 % de las tiendas online del país (Tiendanube, NubeCommerce 2026).",
   "producto": {
-    "nombre_generico": "Gomita de biotina, zinc y vitaminas",
+    "nombre_generico": "Gomitas de biotina para cabello, piel y uñas",
     "registro_base": "F21",
     "presentacion": "Gomita",
-    "formula_corta": "Biotina + zinc + vitamina C + vitamina E + ácido fólico, en dosis dentro del límite aceptado por INVIMA",
-    "porque_en_colombia": "La gomita es el formato de belleza que más se comparte en TikTok y el que la mujer joven sí se toma todos los días. Es fórmula Verde, sin ingredientes que haya que quitar."
+    "formula_corta": "Biotina 5.000 mcg + zinc + vitamina C + vitamina E + selenio + ácido fólico, en gomita de sabor",
+    "porque_en_colombia": "La gomita de biotina es el formato de belleza que más se comparte en TikTok y el que la mujer joven sí se toma todos los días. Replica la fórmula de las gomitas más vendidas de EE. UU. (biotina alta con zinc y vitaminas C y E)."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#EFE3D3"
     }
   ],
-  "angulo_venta": "Dos gomitas al día como parte de la rutina de cabello, con las declaraciones aceptadas: la biotina contribuye al mantenimiento del cabello en condiciones normales y el zinc al de las uñas.",
+  "angulo_venta": "Dos gomitas al día como el paso de la rutina de cabello que se come: biotina y zinc para lucir un pelo más fuerte y brillante y unas uñas que no se quiebran.",
   "ganchos_tiktok": [
     "Mi rutina de cabello tiene un paso que se come",
     "Plancha, tinte y alisado: así cuido mi pelo por dentro",
-    "Gomitas de biotina: lo que dice de verdad la etiqueta"
-  ],
-  "no_decir": [
-    "Detiene la caída del cabello",
-    "Hace crecer el pelo",
-    "Cura la alopecia",
-    "Resultados en 7 días",
-    "Anticaída"
+    "Las gomitas de biotina que todas están comprando en TikTok"
   ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un solo registro SD de la familia F21 (gomita, con sabores declarados) ampara las 3 marcas: MAGNIFICA Bella, MELENA y TRENZA; incluir en el rótulo la advertencia de biotina y exámenes de laboratorio."
+  "estrategia_registro": "Un registro (F21) para las 3 marcas: MAGNIFICA Bella, MELENA y TRENZA."
 }

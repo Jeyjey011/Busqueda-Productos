@@ -3,11 +3,11 @@
   "nombre_categoria": "Digestión",
   "problema": "El colombiano come pesado, a deshoras y con estrés, y vive con la sensación de llenura y pesadez después de comer. Un estudio poblacional en Bucaramanga encontró síntomas compatibles con colon irritable en el 19,9 % de los adultos, una de las cifras más altas de América Latina (Roma III, Rev. Esp. Enferm. Dig.), y la Liga Colombiana contra el Cáncer reporta molestias gástricas en 8 de cada 10 personas.",
   "producto": {
-    "nombre_generico": "Probióticos multicepa + enzimas digestivas",
+    "nombre_generico": "Probióticos 60 mil millones + 16 enzimas digestivas",
     "registro_base": "F03",
     "presentacion": "Cápsula",
-    "formula_corta": "L. acidophilus, L. rhamnosus, L. plantarum y B. lactis (10.000-20.000 millones de UFC) + amilasa, proteasa, lipasa, lactasa, bromelina y papaína + inulina",
-    "porque_en_colombia": "Une los dos productos digestivos que más se buscan (probiótico y enzima) en una sola cápsula diaria, fácil de maquilar y de enviar por Dropi. La cápsula da sensación de producto serio y permite un precio de rango medio con buen margen."
+    "formula_corta": "Probióticos multicepa 60.000 millones de UFC (10 cepas: L. acidophilus, L. rhamnosus, L. plantarum, B. lactis y otras) + 16 enzimas digestivas (proteasa, amilasa, lipasa, lactasa, bromelina, papaína, alfa-galactosidasa) + fibra prebiótica (inulina) + jengibre y hoja de menta",
+    "porque_en_colombia": "Une los dos productos digestivos que más se buscan (probiótico y enzima) en una sola cápsula diaria, igual que los más vendidos de TikTok Shop, fácil de maquilar y de enviar por Dropi. La cápsula da sensación de producto serio y permite un precio de rango medio con buen margen."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#EDE6DA"
     }
   ],
-  "angulo_venta": "Ritual de una cápsula con el almuerzo para sentir la digestión ligera, apoyado en la declaración aceptada: una adecuada alimentación y el consumo regular de probióticos puede ayudar a normalizar las funciones digestivas.",
+  "angulo_venta": "Ritual de una cápsula con el almuerzo para sentir la barriga liviana y seguir el día con energía: probióticos, enzimas, jengibre y menta en un solo paso.",
   "ganchos_tiktok": [
     "Lo que tomo después del corrientazo para seguir trabajando liviana",
     "Mi barriga y yo hicimos las paces con esta cápsula",
     "Probióticos y enzimas en una sola cápsula: te explico por qué"
   ],
-  "no_decir": [
-    "Desinflama el abdomen",
-    "Detox o limpia el colon",
-    "Cura la gastritis o el colon irritable",
-    "Adiós al estreñimiento",
-    "Elimina parásitos"
-  ],
   "precio_cop": "$79.900 - $99.900",
-  "estrategia_registro": "Un solo registro SD de la familia F03 (cápsula) ampara las 3 marcas: MAGNIFICA Digest, GUTI y BIOMÍA."
+  "estrategia_registro": "Un registro (F03) para las 3 marcas: MAGNIFICA Digest, GUTI y BIOMÍA."
 }

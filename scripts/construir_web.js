@@ -57,13 +57,16 @@ function tendencia(p) {
   return 'estable';
 }
 
-const familias = plan.familias.filter((f) => f.prioridad <= 2);
-const famIds = new Set(familias.map((f) => f.familia_id));
+// Registros: datos/plan_web.json (todos los productos clasificados, fórmula viral completa); si no existe, el plan original
+const planWeb = fs.existsSync(path.join(RAIZ, 'datos', 'plan_web.json')) ? leer('datos/plan_web.json') : null;
+const familias = planWeb ? planWeb.registros : plan.familias.map((f) => ({ id: f.familia_id, nombre: f.nombre, categoria: f.categoria, presentacion: PRES[f.vehiculo] || f.vehiculo, formula: f.formula_base, descripcion: '' }));
+const asignacion = planWeb ? planWeb.asignacion : plan.asignacion;
+const famIds = new Set(familias.map((f) => f.id));
 const productos = [];
 for (const p of prod.values()) {
   const c = clasif.get(p.id) || {};
   if (!c.categoria || c.categoria === 'EXC' || c.es_ingerible === false) continue;
-  const fam = plan.asignacion[p.id];
+  const fam = asignacion[p.id];
   productos.push({
     id: p.id, n: c.nombre_corto || p.titulo, m: c.marca || p.tienda, r: p.region, cat: c.categoria,
     v: PRES[c.vehiculo] || c.vehiculo || 'Otro', s: c.para_que_sirve || '', u: p.unid ?? null, w: p.sem ?? null,
@@ -71,21 +74,21 @@ for (const p of prod.values()) {
   });
 }
 
-// Registros (familias de prioridad 1 y 2)
 const registros = familias.map((f) => {
-  const m = productos.filter((p) => p.f === f.familia_id);
+  const m = productos.filter((p) => p.f === f.id);
   const conMes = m.filter((p) => p.u != null);
   const us = conMes.filter((p) => p.r === 'US').reduce((s, p) => s + p.u, 0);
   const mx = conMes.filter((p) => p.r === 'MX').reduce((s, p) => s + p.u, 0);
   const antes = conMes.reduce((s, p) => s + p.u / (1 + (p.c || 0) / 100), 0);
   const crec = antes ? ((us + mx) / antes - 1) * 100 : null;
   const vistos = new Set();
-  const refs = conMes.filter((p) => p.t !== 'quemado').sort((a, b) => b.u - a.u)
+  const vivos = conMes.filter((p) => p.t !== 'quemado');
+  const base = vivos.length ? vivos : conMes.length ? conMes : m;
+  const refs = [...base].sort((a, b) => (b.u ?? b.w ?? 0) - (a.u ?? a.w ?? 0))
     .filter((p) => { const k = p.n.toLowerCase(); if (vistos.has(k)) return false; vistos.add(k); return true; }).slice(0, 4).map((p) => p.id);
   return {
-    id: f.familia_id, n: f.nombre.replace(/\s*\(antes .*?\)/, ''), cat: f.categoria, pres: PRES[f.vehiculo] || f.vehiculo,
-    ya: f.prioridad === 1, formula: f.formula_propuesta_colombia.replace(/\s*\((?:dosis )?orientativas?\)/gi, '').replace(/\.\s*,/g, ',').replace(/\.\./g, '.'),
-    decir: f.declaraciones_sugeridas, us, mx, crec: crec == null ? null : Math.round(crec),
+    id: f.id, n: f.nombre, cat: f.categoria, pres: PRES[f.presentacion] || f.presentacion, formula: f.formula, desc: f.descripcion || '',
+    us, mx, crec: crec == null ? null : Math.round(crec),
     t: crec == null ? 'sindato' : crec >= 10 ? 'sube' : crec <= -15 ? 'baja' : 'estable', refs, nprod: m.length,
   };
 });
@@ -104,13 +107,14 @@ for (const p of productos) {
 }
 
 const ordenCat = categorias.map((c) => c.cod);
+registros.sort((a, b) => ordenCat.indexOf(a.cat) - ordenCat.indexOf(b.cat) || (b.us + b.mx) - (a.us + a.mx));
 marcas.sort((a, b) => (ordenCat.indexOf(a.categoria) + 99) % 99 - (ordenCat.indexOf(b.categoria) + 99) % 99);
 
 const DATA = {
   corte: '2 de octubre de 2026',
   kpi: {
     publicaciones: prod.size, unidades: usMes.reduce((s, p) => s + p.unidades_periodo, 0) + mxMes.reduce((s, p) => s + p.unidades_periodo, 0),
-    ya: registros.filter((r) => r.ya).length, despues: registros.filter((r) => !r.ya).length,
+    registros: registros.length, marcas: marcas.reduce((s, m) => s + m.marcas.length, 0),
     quemados: productos.filter((p) => p.t === 'quemado').length, categorias: categorias.length,
   },
   categorias, registros, productos, marcas, imgs,

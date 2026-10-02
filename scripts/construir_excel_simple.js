@@ -68,12 +68,15 @@ function tendencia(p) {
   if (p.crec <= -15) return 'Bajando';
   return 'Estable';
 }
-for (const p of prod.values()) { p.c = clasif.get(p.id) || {}; p.tend = tendencia(p); p.fam = plan.asignacion[p.id]; }
+// Registros: datos/plan_web.json (todos los productos clasificados, fórmula viral completa)
+const planWeb = fs.existsSync(path.join(RAIZ, 'datos', 'plan_web.json')) ? leer('datos/plan_web.json') : null;
+const asignacion = planWeb ? planWeb.asignacion : plan.asignacion;
+for (const p of prod.values()) { p.c = clasif.get(p.id) || {}; p.tend = tendencia(p); p.fam = asignacion[p.id]; }
 
-const familias = plan.familias.filter((f) => f.prioridad <= 2);
-const famPorId = new Map(familias.map((f) => [f.familia_id, f]));
+const familias = planWeb ? planWeb.registros : plan.familias.map((f) => ({ id: f.familia_id, nombre: f.nombre, categoria: f.categoria, presentacion: PRESENTACION[f.vehiculo] || f.vehiculo, formula: f.formula_base }));
+const famPorId = new Map(familias.map((f) => [f.id, f]));
 for (const f of familias) {
-  const m = [...prod.values()].filter((p) => p.fam === f.familia_id);
+  const m = [...prod.values()].filter((p) => p.fam === f.id);
   const conMes = m.filter((p) => p.unid != null);
   f._us = conMes.filter((p) => p.region === 'US').reduce((s, p) => s + p.unid, 0);
   f._mx = conMes.filter((p) => p.region === 'MX').reduce((s, p) => s + p.unid, 0);
@@ -82,7 +85,8 @@ for (const f of familias) {
   f._tend = f._crec == null ? 'Sin dato' : f._crec >= 10 ? 'Subiendo' : f._crec <= -15 ? 'Bajando' : 'Estable';
   // productos de referencia: los que más venden, sin quemados y sin repetir nombre
   const vistos = new Set();
-  f._refs = conMes.filter((p) => p.tend !== 'Quemado').sort((a, b) => b.unid - a.unid)
+  const base = conMes.filter((p) => p.tend !== 'Quemado').length ? conMes.filter((p) => p.tend !== 'Quemado') : (conMes.length ? conMes : m);
+  f._refs = [...base].sort((a, b) => (b.unid ?? b.sem ?? 0) - (a.unid ?? a.sem ?? 0))
     .filter((p) => { const k = (p.c.nombre_corto || p.titulo).toLowerCase(); if (vistos.has(k)) return false; vistos.add(k); return true; });
   f._img = f._refs[0] || m[0];
 }
@@ -159,30 +163,30 @@ wb.creator = 'Claude (proyecto INVIMA)';
   const ws = wb.addWorksheet('Registros a sacar', { properties: { tabColor: { argb: C.verde } }, views: [{ state: 'frozen', ySplit: 5, showGridLines: false }] });
   const cols = [
     { h: 'Imagen', w: 13, k: () => null },
-    { h: 'Orden', w: 9, k: (f) => (f.prioridad === 1 ? 'YA' : 'Después'), centro: true, negrita: true },
-    { h: 'Qué registrar', w: 30, k: (f) => f.nombre.replace(/\s*\(antes .*?\)/, ''), wrap: true, negrita: true },
-    { h: 'Presentación', w: 14, k: (f) => pres(f.vehiculo), centro: true },
-    { h: 'Fórmula (lo que lleva)', w: 48, k: (f) => f.formula_propuesta_colombia.replace(/\s*\((?:dosis )?orientativas?\)/gi, '').replace(/\.\s*,/g, ',').replace(/\.\./g, '.'), wrap: true },
+    { h: 'Registro', w: 9, k: (f) => f.id, centro: true, negrita: true },
+    { h: 'Qué registrar', w: 30, k: (f) => f.nombre, wrap: true, negrita: true },
+    { h: 'Presentación', w: 14, k: (f) => pres(f.presentacion), centro: true },
+    { h: 'Fórmula (lo que lleva)', w: 48, k: (f) => f.formula, wrap: true },
     { h: 'Se parece a estos productos virales', w: 40, k: (f) => f._refs.slice(0, 3).map((p) => `• ${nombre(p)} (${pais(p.region)})`).join('\n'), wrap: true },
     { h: 'Ventas sep EE. UU. (unidades)', w: 13, k: (f) => f._us, fmt: '#,##0' },
     { h: 'Ventas sep México (unidades)', w: 13, k: (f) => f._mx, fmt: '#,##0' },
     { h: 'Tendencia vs. agosto', w: 13, k: (f) => f._tend, tend: true },
     { h: 'Marcas en el registro', w: 18, k: () => 'MAGNIFICA + 2 marcas', wrap: true, centro: true },
   ];
-  encabezado(ws, 'Registros INVIMA a sacar', 'Cada fila es UN registro sanitario (una fórmula en una presentación) y sirve para hasta 3 marcas: MAGNIFICA + 2. "YA" = sacar primero; "Después" = segunda tanda. Ventas de septiembre de 2026 en TikTok Shop según FastMoss.', cols.length);
+  encabezado(ws, 'Registros INVIMA a sacar', 'Cada fila es UN registro sanitario (una fórmula en una presentación) y sirve para hasta 3 marcas: MAGNIFICA + 2. Todos se sacan de una vez. Ventas de septiembre de 2026 en TikTok Shop según FastMoss.', cols.length);
   ws.mergeCells(3, 1, 3, cols.length);
-  ws.getCell(3, 1).value = `Total: ${familias.filter((f) => f.prioridad === 1).length} registros para sacar ya y ${familias.filter((f) => f.prioridad === 2).length} para después. Tendencia: ▲ subiendo (+10 % o más) · ● estable · ▼ bajando (−15 % o menos), comparando septiembre con agosto.`;
+  ws.getCell(3, 1).value = `Total: ${familias.length} registros. Tendencia: ▲ subiendo (+10 % o más) · ● estable · ▼ bajando (−15 % o menos), comparando septiembre con agosto.`;
   ws.getCell(3, 1).font = { size: 10, bold: true, color: { argb: C.azul } };
   ws.getCell(3, 1).alignment = { indent: 1, vertical: 'middle', wrapText: true };
   ws.getRow(3).height = 22;
   cabeceras(ws, 5, cols);
   const porCat = {};
   for (const f of familias) (porCat[f.categoria] ||= []).push(f);
-  const catsOrden = Object.keys(porCat).sort((a, b) => Math.min(...porCat[a].map((f) => f.prioridad)) - Math.min(...porCat[b].map((f) => f.prioridad))
-    || porCat[b].reduce((s, f) => s + f._us + f._mx, 0) - porCat[a].reduce((s, f) => s + f._us + f._mx, 0));
+  const catsOrden = Object.keys(porCat).sort((a, b) =>
+    porCat[b].reduce((s, f) => s + f._us + f._mx, 0) - porCat[a].reduce((s, f) => s + f._us + f._mx, 0));
   let r = 6;
   for (const cat of catsOrden) {
-    const lista = porCat[cat].sort((a, b) => a.prioridad - b.prioridad || (b._us + b._mx) - (a._us + a._mx));
+    const lista = porCat[cat].sort((a, b) => (b._us + b._mx) - (a._us + a._mx));
     seccion(ws, r++, `${CATEGORIAS[cat] || cat}  ·  ${lista.length} ${lista.length === 1 ? 'registro' : 'registros'}`, cols.length);
     lista.forEach((f, n) => fila(ws, r++, cols, f, n, wb, f._img?.id));
   }
@@ -204,7 +208,7 @@ for (const cat of cats) {
     { h: 'Ventas sep (unidades)', w: 12, k: (p) => p.unid ?? null, fmt: '#,##0' },
     { h: 'Ventas semana 21-27 sep', w: 12, k: (p) => p.sem ?? null, fmt: '#,##0' },
     { h: 'Tendencia', w: 13, k: (p) => p.tend, tend: true },
-    { h: '¿Lo sacamos?', w: 28, k: (p) => { const f = famPorId.get(p.fam); return f ? `${f.prioridad === 1 ? 'SÍ, YA' : 'Sí, después'}: ${f.nombre.replace(/\s*\(antes .*?\)/, '')}` : 'No'; }, wrap: true },
+    { h: 'Registro', w: 28, k: (p) => { const f = famPorId.get(p.fam); return f ? `${f.id} · ${f.nombre}` : ''; }, wrap: true },
     { h: 'Ver', w: 10, k: (p) => (p.url ? { text: 'FastMoss', hyperlink: p.url } : null), centro: true },
   ];
   const lista = ingeribles.filter((p) => p.c.categoria === cat);

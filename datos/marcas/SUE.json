@@ -3,11 +3,11 @@
   "nombre_categoria": "Sueño y estrés",
   "problema": "El rebusque, el trabajo remoto y el trancón dejan a la gente prendida hasta tarde y sin un momento para desconectarse. El 69 % de los teletrabajadores colombianos reporta mala calidad del sueño y el 66,3 % de los colombianos ha tenido algún problema de salud mental (Encuesta Nacional de Salud Mental; reportes de prensa 2025-2026).",
   "producto": {
-    "nombre_generico": "Bebida en polvo de magnesio + L-teanina",
+    "nombre_generico": "Bebida en polvo de magnesio + ashwagandha + L-teanina para la noche",
     "registro_base": "F07",
     "presentacion": "Sobre / stick",
-    "formula_corta": "Magnesio (citrato + bisglicinato, unos 250 mg elementales) + L-teanina 200 mg + vitamina B6 + vitamina D3, con sabores como variedades",
-    "porque_en_colombia": "El colombiano ya conoce el magnesio, pero casi todo lo que hay en Dropi es cápsula; un stick de bebida tibia crea un ritual nocturno muy grabable en video y se diferencia de la competencia. Ya existe un precedente colombiano de magnesio + L-teanina registrado como SD."
+    "formula_corta": "Complejo de magnesio (glicinato, bisglicinato, citrato, malato y taurato; unos 350 mg elementales) + ashwagandha KSM-66 + L-teanina 200 mg + vitamina B6 + vitamina D3 + zinc, con sabores como variedades",
+    "porque_en_colombia": "El colombiano ya conoce el magnesio, pero casi todo lo que hay en Dropi es cápsula; un stick de bebida tibia con ashwagandha y L-teanina, la combinación de los más vendidos en TikTok Shop, crea un ritual nocturno muy grabable en video y se diferencia de la competencia."
   },
   "marcas": [
     {
@@ -38,19 +38,12 @@
       "color2": "#C8A96A"
     }
   ],
-  "angulo_venta": "Rutina de la noche: un stick en agua tibia al apagar el computador, con la declaración aceptada de que el magnesio y la vitamina B6 contribuyen al funcionamiento normal del sistema nervioso.",
+  "angulo_venta": "Rutina de la noche: un stick en agua tibia al apagar el computador para relajarse, soltar el estrés del día y dormir mejor, con magnesio, ashwagandha y L-teanina.",
   "ganchos_tiktok": [
     "Mi ritual de las 9 p. m. cuando cierro el computador",
     "Lo que tomo para desconectarme del trabajo cada noche",
     "Magnesio en bebida tibia: así se ve mi noche ahora"
   ],
-  "no_decir": [
-    "Para dormir o induce el sueño",
-    "Quita la ansiedad",
-    "Cura el insomnio",
-    "Baja el cortisol",
-    "Reemplaza la melatonina"
-  ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un solo registro SD de la familia F07 (polvo, en sticks y tarro como presentaciones) ampara las 3 marcas: MAGNIFICA Noche, PIJAMA y VELADA."
+  "estrategia_registro": "Un registro (F07) para las 3 marcas: MAGNIFICA Noche, PIJAMA y VELADA."
 }

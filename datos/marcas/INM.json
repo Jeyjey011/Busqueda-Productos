@@ -3,10 +3,10 @@
   "nombre_categoria": "Inmunidad y vitaminas",
   "problema": "Aunque Colombia es un país tropical, buena parte de la gente vive en oficina, en carro o en ciudades nubladas y casi no recibe sol: hasta el 60 % de la población tendría niveles bajos de vitamina D (Universidad Nacional, citado por Infobae 2024). Además, el pescado azul casi no está en la dieta diaria, así que el omega 3 también queda corto y la gente compra tres frascos separados sin saber cuál tomar.",
   "producto": {
-    "nombre_generico": "Vitamina D3 + K2 + omega 3 en cápsula blanda (3 en 1)",
+    "nombre_generico": "Vitamina D3 + K2 + omega 3 (3 en 1)",
     "registro_base": "F15",
     "presentacion": "Cápsula blanda",
-    "formula_corta": "Vitamina D3 1.000-2.000 UI + vitamina K2 MK-7 75-100 µg + aceite de pescado con 250-500 mg de EPA + DHA por porción de 1-2 cápsulas blandas",
+    "formula_corta": "Vitamina D3 + vitamina K2 MK-7 + omega 3 (EPA + DHA) en aceite MCT, en cápsula blanda",
     "porque_en_colombia": "Une en un solo frasco dos compras que el colombiano ya hace por separado (vitamina D y omega 3), con un mensaje simple de 'tu vitamina del sol en una cápsula'. La cápsula blanda es fácil de tragar y se ve premium en video."
   },
   "marcas": [
@@ -38,19 +38,12 @@
       "color2": "#3EC1D3"
     }
   ],
-  "angulo_venta": "Mostrar la vida real sin sol (oficina, trancón, pantalla) y presentar una sola cápsula al día que reúne vitamina D, K2 y omega 3, apoyado en declaraciones aceptadas como 'la vitamina D contribuye al funcionamiento normal del sistema inmunitario' y 'al mantenimiento de los huesos en condiciones normales' (verificar textos en el listado INVIMA).",
+  "angulo_venta": "Mostrar la vida real sin sol (oficina, trancón, pantalla) y presentar una sola cápsula al día que reúne vitamina D, K2 y omega 3 para sentirse con energía, defensas en forma y huesos fuertes.",
   "ganchos_tiktok": [
     "¿Cuántas horas de sol te dio hoy tu oficina?",
     "Tres frascos en uno: lo que llevo en mi rutina diaria",
     "Vives en Colombia y aun así te falta sol, te explico"
   ],
-  "no_decir": [
-    "Sube las defensas o refuerza el sistema inmune",
-    "Previene gripas, virus o enfermedades",
-    "Cura la deficiencia de vitamina D",
-    "Protege el corazón o baja el colesterol",
-    "Megadosis de 10.000 UI"
-  ],
   "precio_cop": "$69.900 - $89.900",
-  "estrategia_registro": "Un registro SD de la familia F15 (cápsula blanda) que ampara las 3 marcas: MAGNIFICA Sol, Solazo y Abisal, con frascos de 30 y 60 cápsulas declarados desde la solicitud."
+  "estrategia_registro": "Un registro (F15) para las 3 marcas: MAGNIFICA Sol, Solazo y Abisal."
 }

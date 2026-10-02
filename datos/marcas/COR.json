@@ -3,10 +3,10 @@
   "nombre_categoria": "Corazón y circulación",
   "problema": "Las enfermedades isquémicas del corazón son la primera causa de muerte en Colombia, con el 17,2 % de las defunciones en 2025 (DANE, cifras preliminares), y el colombiano adulto vive con trancón, sedentarismo y poco tiempo para entrenar. Mucha gente quiere sentirse con más energía para moverse y volver a la actividad física, pero la remolacha natural no le gusta por su sabor a tierra.",
   "producto": {
-    "nombre_generico": "Remolacha + L-citrulina + L-arginina en cápsula",
+    "nombre_generico": "Remolacha con óxido nítrico (citrulina y arginina)",
     "registro_base": "F11",
     "presentacion": "Cápsula",
-    "formula_corta": "Extracto de raíz de remolacha 500 mg + L-citrulina 500 mg + L-arginina 500 mg + vitamina C 80 mg + niacina 16 mg por porción de 3 cápsulas",
+    "formula_corta": "Raíz de remolacha (fuente de nitratos) + L-citrulina + L-arginina + vitamina C + niacina, en cápsula",
     "porque_en_colombia": "La remolacha ya es un alimento familiar y bien visto en Colombia (jugos, ensaladas), así que el producto se entiende al instante. En cápsula elimina el sabor que nadie quiere y encaja con el auge de caminar, trotar y montar bici en las ciudades."
   },
   "marcas": [
@@ -38,19 +38,12 @@
       "color2": "#C9A227"
     }
   ],
-  "angulo_venta": "Vender la remolacha como el superalimento rojo de siempre, ahora en cápsula y sin sabor, para acompañar un estilo de vida activo; el respaldo es 'la niacina contribuye a disminuir el cansancio y la fatiga' y 'la vitamina C contribuye al metabolismo energético normal'.",
+  "angulo_venta": "Vender la remolacha como el superalimento rojo de siempre, ahora en cápsula y sin sabor, con citrulina y arginina para sentirse con más energía, mejor circulación y más ganas de moverse.",
   "ganchos_tiktok": [
     "Odio el jugo de remolacha, así que hice esto",
     "Mi rutina antes de salir a montar bici a las cinco",
     "El superalimento rojo de la abuela, versión cápsula"
   ],
-  "no_decir": [
-    "Baja la presión arterial o controla la hipertensión",
-    "Mejora la circulación o destapa las arterias",
-    "Cuida o protege el corazón",
-    "Óxido nítrico para más pump o rendimiento sexual",
-    "Aumenta el rendimiento deportivo"
-  ],
   "precio_cop": "$74.900 - $94.900",
-  "estrategia_registro": "Un registro SD de la familia F11 (cápsula, ola 2) que ampara las 3 marcas: MAGNIFICA Raíz, Beetz y Granate, validando antes con el maquilador las dosis de arginina y citrulina aceptadas."
+  "estrategia_registro": "Un registro (F11) para las 3 marcas: MAGNIFICA Raíz, Beetz y Granate."
 }

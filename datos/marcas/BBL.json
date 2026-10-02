@@ -1,18 +1,18 @@
 {
   "categoria": "BBL",
   "nombre_categoria": "Curvas (tonificación con ejercicio)",
-  "problema": "Muchas colombianas entrenan para tonificar y terminan comprando productos fraudulentos que prometen cambiar partes del cuerpo, como los de la alerta INVIMA KDROPS GLUTEX o la alerta de mayo de 2026 por un suplemento que prometía 'crecimiento'. Al mismo tiempo, la creatina se sigue viendo como 'cosa de hombres' y falta una opción femenina, rica y legal para acompañar el gimnasio.",
+  "problema": "Muchas colombianas entrenan para tonificar glúteos y piernas y buscan un suplemento que las acompañe en el gimnasio. La creatina se sigue viendo como 'cosa de hombres' y falta una opción femenina, rica y pensada para las curvas.",
   "producto": {
-    "nombre_generico": "Creatina + colágeno para mujer en polvo",
+    "nombre_generico": "Fórmula curvas y glúteos para mujer: creatina + colágeno + aguaje + fenogreco",
     "registro_base": "F04",
     "presentacion": "Polvo",
-    "formula_corta": "Creatina monohidrato 3 g + colágeno hidrolizado 5 g + vitamina C 40-80 mg + vitamina D3 5-10 µg por porción, en tarro y sticks, con sabores como variedades (dosis orientativas)",
-    "porque_en_colombia": "En EE. UU. la creatina + colágeno para mujer vendió 78.044 unidades en septiembre (lidera YESNAP PeachPout) con ticket alto, y el boom del gimnasio femenino en Colombia es enorme. Se comunica como fuerza, entrenamiento y piel, sin prometer cambios en zonas del cuerpo."
+    "formula_corta": "Creatina monohidrato + colágeno hidrolizado + aguaje (Mauritia flexuosa) + fenogreco + maca + myo-inositol + BCAA + ácido hialurónico + vitamina D3, en polvo (tarro y sticks)",
+    "porque_en_colombia": "Une los virales de curvas y gimnasio femenino: YESNAP PeachPout (creatina + colágeno + myo-inositol + BCAA + maca + ácido hialurónico + D3, 32.537 unidades en septiembre), Clean Nutra, Bold Buns y NeoCell (creatina + colágeno), y Beyond Vitamins en México (aguaje + fenogreco, 1.313 unidades). El boom del gimnasio femenino en Colombia es enorme."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Tono",
-      "concepto": "El batido de colágeno + creatina de MAGNIFICA para la mujer que entrena y quiere tonificar con su rutina de ejercicio.",
+      "concepto": "El batido de creatina + colágeno + aguaje de MAGNIFICA para la mujer que entrena y quiere tonificar sus curvas.",
       "eslogan": "Entrena, tonifica, brilla.",
       "publico": "Mujeres de 25 a 45 años que van al gimnasio y ya compran colágeno MAGNIFICA",
       "tono": "femenino, seguro, motivador",
@@ -38,19 +38,12 @@
       "color2": "#C9A227"
     }
   ],
-  "angulo_venta": "Batido post-entreno para mujeres que hacen pesas: creatina 3 g y colágeno, con vitamina D, que contribuye al mantenimiento de la función muscular normal, y vitamina C, que contribuye a la formación normal de colágeno. Mostrar progreso en el gimnasio (más repeticiones, más peso) y nunca medidas ni zonas del cuerpo.",
+  "angulo_venta": "Batido post-entreno para mujeres que hacen pesas y trabajan glúteo: creatina y BCAA para entrenar más fuerte, colágeno y ácido hialurónico para la piel, y aguaje, fenogreco y maca, los ingredientes favoritos para las curvas. Mostrar el progreso en el gimnasio y el antes y después de la rutina.",
   "ganchos_tiktok": [
-    "Creatina para mujer: no te vas a inflar, vas a entrenar mejor.",
-    "Mi batido de después del gym sabe a fresa y tiene colágeno.",
-    "Tres meses entrenando con mi creatina rosada: así subí mis pesos."
-  ],
-  "no_decir": [
-    "glúteos, cola, pompis o levanta la cola",
-    "curvas, BBL o shelf builder",
-    "aumenta el busto o las caderas",
-    "quema grasa o elimina la celulitis",
-    "crecimiento garantizado de una zona del cuerpo"
+    "Creatina para mujer: no te vas a inflar, vas a marcar tus curvas.",
+    "Mi batido de después del gym sabe a fresa y tiene colágeno y aguaje.",
+    "Tres meses entrenando glúteo con mi creatina rosada."
   ],
   "precio_cop": "$99.900 - $129.900",
-  "estrategia_registro": "Usa el registro F04 (creatina + colágeno para mujer en polvo, SD) con tarro y sticks como presentaciones y sabores como variedades para las 3 marcas; si la categoría ENE también usa F04, clonar el registro (tarifa $0 para microempresa)."
+  "estrategia_registro": "Un registro para las 3 marcas: MAGNIFICA Tono, FIERA y VALKIRIA."
 }
