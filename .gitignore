@@ -1,0 +1,4 @@
+node_modules/
+scripts/node_modules/
+salida/cache_imagenes/
+~$*.xlsx

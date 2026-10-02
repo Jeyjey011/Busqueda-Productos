@@ -1,31 +1,48 @@
 # Búsqueda de productos para registros INVIMA
 
-Investigación de productos de bienestar ingeribles virales en EE. UU. y México, para agruparlos por fórmula y sacar registros sanitarios INVIMA en Colombia que amparen varias marcas (incluida MAGNIFICA).
+Investigación de suplementos ingeribles virales en TikTok Shop de EE. UU. y México, para agruparlos por fórmula y sacar registros sanitarios INVIMA en Colombia que amparen varias marcas (incluida MAGNIFICA).
 
-**Estado: respaldo preliminar (2 de octubre de 2026).** Estos datos NO salen de FastMoss. Se guardan para cruzarlos con FastMoss en la siguiente sesión.
+**Estado (2 de octubre de 2026):** datos de FastMoss extraídos, productos clasificados, plan de registros armado y Excel final generado.
+
+## Entregable
+
+`salida/Plan_registros_INVIMA_FastMoss_oct2026.xlsx` (para Guillermo). Tiene estas hojas:
+- Resumen
+- Plan de registros
+- Catálogo clasificado (con imágenes)
+- Top EE. UU. sep-2026
+- Top México sep-2026
+- Tendencia semana 39
+- Lanzamientos nuevos EE. UU.
+- Ingredientes Colombia
+- Guía INVIMA
+- Anexo Ecom Magic
+- Fuentes y método
+
+Para regenerarlo:
+
+```bash
+cd scripts && npm install && cd .. && node scripts/construir_excel.js
+```
 
 ## Contenido
 
 | Ruta | Qué es |
 |---|---|
-| `datos/tiktok_shop/*.json` | 173 productos (156 únicos) de TikTok Shop US y MX, por grupo de categorías |
-| `datos/productos_consolidados.csv` | Los mismos 173 productos en una sola tabla (separador `;`, abre en Excel). La columna `duplicado_de_otro_archivo` marca repetidos |
-| `datos/brief_agentes.md` | Instrucciones y definición de campos usadas por los agentes |
-| `regulatorio/regulatorio_invima.md` | Informe sobre registros INVIMA: marcas por registro, costos, tiempos, claims, rotulado |
-| `regulatorio/ingredientes_estatus_colombia.json` | 30 ingredientes con su estatus en Colombia |
+| `datos/fastmoss/us_mensual_2026-09.json`, `mx_mensual_2026-09.json` | Top 100 de Food Supplements (id 700646) de septiembre de 2026, EE. UU. y México, según FastMoss |
+| `datos/fastmoss/semanal_2026-W39.json` | Top 50 por país de la semana 39 (21–27 sep) |
+| `datos/fastmoss/nuevos_us_2026-09.json` | Top 30 de productos nuevos (menos de 30 días) en EE. UU. |
+| `datos/fastmoss/clasificado_lote_*.json` | Clasificación de los 230 productos únicos: categoría, vehículo, fórmula base, ingredientes, semáforo INVIMA y adaptación |
+| `datos/plan_registros.json` | 29 familias de registro (fórmula + vehículo) con prioridad, fórmula propuesta para Colombia y claims sugeridos |
+| `datos/brief_clasificacion.md`, `datos/brief_plan_registros.md` | Instrucciones que siguieron los agentes |
+| `datos/auditoria_excel.md` | Auditoría del Excel final |
+| `datos/productos_consolidados.csv`, `datos/tiktok_shop/*.json` | Investigación previa con Ecom Magic (anexo) |
+| `regulatorio/regulatorio_invima.md`, `regulatorio/ingredientes_estatus_colombia.json` | Informe regulatorio y estatus de 30 ingredientes |
+| `scripts/` | `unir_fastmoss.js` (une rankings y arma lotes), `resumen_para_plan.js`, `construir_excel.js` |
 
-## De dónde salen los datos y qué tan confiables son
+## Confiabilidad
 
-- **Ventas, GMV, precio, reseñas e imagen:** TikTok Shop, consultado el 2 de octubre de 2026 con la herramienta "spy TikTok Shop" de Ecom Magic. Son datos reales de esa fuente, pero **no son FastMoss** y no se han cruzado con FastMoss.
-- **Precios de México:** en algunos listings la herramienta mezcla USD y MXN; cada caso está explicado en el campo `notas`.
-- **Ingredientes y dosis:** varios **no se confirmaron contra la etiqueta**, porque se agotó el cupo de búsquedas web. Cada caso está indicado en `notas`.
-- **Regulatorio INVIMA:** sale de extractos de búsqueda web; no se pudieron leer los textos completos de las normas porque la red los bloqueó. Cada dato está marcado como `[CONFIRMADO]`, `[INFERENCIA]` o `[POR CONFIRMAR]`. **Hay que validarlo con un asesor regulatorio antes de radicar.**
-- **Semáforo INVIMA por producto** (Verde/Amarillo/Rojo): es una clasificación preliminar de los agentes, no un concepto regulatorio.
-- **Categorías incompletas:** inmunidad, articulaciones, corazón y niños (INM/ART/COR/NIN) se pararon antes de terminar y tienen pocos productos.
-
-## Siguiente paso
-
-1. Sacar los rankings de bienestar o salud de FastMoss (EE. UU. y México): en una sesión local con el navegador o exportándolos a Excel.
-2. Cruzarlos con estos datos.
-3. Agrupar por familia de registro, es decir, fórmula base + vehículo. Un registro de suplemento dietario ampara hasta 3 marcas (Decreto 3863 de 2008, por confirmar).
-4. Armar el Excel final.
+- **Ventas, GMV, precios e imágenes:** API de FastMoss (MCP oficial), consultada el 2 de octubre de 2026. Los números se copian tal cual.
+- **Clasificación, fórmulas y semáforo:** hechos por agentes de IA a partir del título, la investigación previa y búsquedas web puntuales. Cada producto indica la confianza y la fuente de sus ingredientes.
+- **Regulatorio:** sale de extractos de búsqueda web (no se pudieron leer las normas completas). Hay que **validarlo con un asesor regulatorio antes de radicar**.
+- **Criterio de semáforo:** manda `ingredientes_estatus_colombia.json`. Ashwagandha, garcinia y tribulus están en Rojo porque figuran en el listado INVIMA de plantas tóxicas de marzo de 2025.

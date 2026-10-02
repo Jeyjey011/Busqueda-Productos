@@ -208,5 +208,19 @@
     "limite_o_condicion": "Hasta el UL o el nivel aceptado por INVIMA",
     "nota": "Ingrediente de uso común en SD de 'cabello, piel y uñas'. Claim tipo 'contribuye al mantenimiento del cabello en condiciones normales' si está en el listado de declaraciones (POR CONFIRMAR el texto exacto)",
     "fuente": "https://www.invima.gov.co/biblioteca/download/144191"
+  },
+  {
+    "ingrediente": "NAC (N-acetilcisteína)",
+    "estatus_colombia": "Medicamento",
+    "limite_o_condicion": "No usar en suplemento dietario",
+    "nota": "En Colombia la acetilcisteína se comercializa como medicamento (mucolítico). [INFERENCIA] Confirmar en las normas farmacológicas vigentes.",
+    "fuente": "Práctica de mercado colombiano (productos con registro de medicamento); por confirmar con asesor regulatorio"
+  },
+  {
+    "ingrediente": "Kava (Piper methysticum)",
+    "estatus_colombia": "No recomendado (precaución)",
+    "limite_o_condicion": "No usar hasta confirmar",
+    "nota": "No se encontró su estatus en Colombia. Se trata como Rojo por precaución: tiene antecedentes de hepatotoxicidad y está restringida en varios países. [POR CONFIRMAR]",
+    "fuente": "Sin fuente colombiana; criterio de precaución del proyecto"
   }
 ]
