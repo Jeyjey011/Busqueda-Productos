@@ -1,0 +1,178 @@
+[
+  {
+    "clave": "melatonina_gomita",
+    "producto": "Gomitas de melatonina + magnesio para adultos",
+    "presentacion": "Gomita",
+    "para_que": "Dormirse rápido y dormir de corrido",
+    "porcion": "2 gomitas (de unos 3 a 4 g cada una)",
+    "envase": "Frasco de 60 gomitas (30 porciones, 1 mes)",
+    "ingredientes": [
+      { "nombre": "Melatonina", "dosis": "5 mg por porción (2,5 mg por gomita)", "por_que": "Es el punto medio entre los líderes (Natural Vitality 3 mg, Lemme 5 mg, OLLY Max y Natrol 10 mg); llega al pico en sangre entre 20 y 60 minutos después de tomarla, y con 2,5 mg por gomita la persona puede tomar solo una si le basta." },
+      { "nombre": "Magnesio (como bisglicinato o citrato)", "dosis": "50 mg de magnesio elemental por porción (25 mg por gomita, unos 250 a 280 mg de bisglicinato)", "por_que": "Relaja los músculos y calma; no caben más de 25 a 50 mg elementales por gomita sin que se vuelva grande y amarga (Natural Vitality usa 50 mg y Lemme 20 mg). El bisglicinato cae mejor al estómago que el óxido." },
+      { "nombre": "L-teanina", "dosis": "100 mg por porción", "por_que": "Baja la ansiedad y la 'cabeza acelerada' sin sedar; los líderes usan de 50 a 200 mg (Natural Vitality y Lemme 50 mg, Nature Made 200 mg)." },
+      { "nombre": "Extracto de pasiflora (opcional) o mezcla de manzanilla y bálsamo de limón", "dosis": "50 mg por porción", "por_que": "Refuerzo herbal relajante que usan OLLY y Lemme; sirve para diferenciarse en la etiqueta." },
+      { "nombre": "Vitamina B6 (piridoxina)", "dosis": "1,5 a 2 mg por porción", "por_que": "Cofactor en la producción natural de serotonina y melatonina; es barata y suma en la etiqueta." }
+    ],
+    "como_se_toma": "Masticar 2 gomitas de 30 a 60 minutos antes de acostarse; empezar con 1 la primera noche.",
+    "referencias": [
+      "Natural Vitality Calm Sleep: 3 mg melatonina + 50 mg magnesio + 50 mg L-teanina por porción",
+      "Lemme Sleep: 5 mg melatonina + 20 mg magnesio (citrato) + 50 mg L-teanina por 2 gomitas",
+      "Nature Made Wellblends Sleep & Recover: 3 mg melatonina + 200 mg L-teanina + 100 mg citrato de magnesio por 2 gomitas",
+      "OLLY Maximum Strength Sleep: 10 mg melatonina + L-teanina + pasiflora, manzanilla y bálsamo de limón por 2 gomitas",
+      "Natrol Melatonin 10 mg gummies: frasco de 90",
+      "OJO REGULATORIO: el INVIMA ha emitido alertas contra 'Melatonina Magnesio Somnio' (237-2024) y 'Melatonin 10 mg' (40-2026) vendidos como suplemento sin registro. Antes de maquilar, confirma con el INVIMA o con tu asesor regulatorio si la melatonina se puede registrar como suplemento dietario o si exige registro de medicamento."
+    ],
+    "fuentes": [
+      "https://lemmelive.com/products/sleep",
+      "https://www.vitacost.com/natural-vitality-calm-sleep-magnesium-melatonin-l-theanine-blueberry-pomegranate",
+      "https://www.walmart.com/ip/270030438",
+      "https://www.olly.com/products/maximum-strength-sleep",
+      "https://epsilonlife.com/do-magnesium-gummies-work/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11456059/",
+      "https://www.invima.gov.co/biblioteca/alerta-sanitaria-237-2024-melatonina-magnesio-somnio",
+      "https://www.invima.gov.co/alertas-sanitarias/melatonin-10mg"
+    ]
+  },
+  {
+    "clave": "melatonina_gotas",
+    "producto": "Melatonina en gotas para adultos",
+    "presentacion": "Gotas",
+    "para_que": "Dormirse rápido; hace efecto más rápido que la pastilla",
+    "porcion": "1 mL (1 gotero lleno) = 1 mg de melatonina; se puede subir a 3 mL (3 mg)",
+    "envase": "Frasco gotero de vidrio ámbar de 60 mL (2 fl oz): de 20 a 60 tomas según la dosis",
+    "ingredientes": [
+      { "nombre": "Melatonina", "dosis": "1 mg por mL (concentración); toma recomendada de 1 a 3 mL (1 a 3 mg)", "por_que": "La forma líquida llega antes al pico en sangre: en un estudio con melatonina líquida en spray, el pico llegó en unos 23 minutos frente a unos 64 con tableta, y con el doble de concentración máxima. Con 1 a 3 mg basta para la mayoría." },
+      { "nombre": "Base: agua purificada + glicerina vegetal", "dosis": "Cantidad suficiente para 1 mL (glicerina del 20 al 40 %)", "por_que": "La glicerina disuelve la melatonina y da cuerpo y dulzor; evita usar alcohol (Natrol usa agua y alcohol etílico) para que sea más fácil registrarla y que la gente la acepte." },
+      { "nombre": "Sabor natural de frutos rojos o maracuyá + stevia (rebaudiósido A)", "dosis": "Cantidad suficiente", "por_que": "Disimula el sabor amargo, sin azúcar; Natrol usa sabor a frutos rojos y stevia." },
+      { "nombre": "Ácido cítrico + sorbato de potasio", "dosis": "Cantidad suficiente (pH de 3,5 a 4,5)", "por_que": "Conservan el líquido una vez abierto el frasco." }
+    ],
+    "como_se_toma": "Agitar; tomar de 1 a 3 mL directo en la boca o en un poco de agua, de 20 a 30 minutos antes de acostarse.",
+    "referencias": [
+      "Natrol Liquid Melatonin 1 mg, frutos rojos: 60 mL; Natrol indica 4 mL = 1 mg (0,25 mg/mL); 15 porciones; agua, alcohol etílico, sabor natural, stevia y ácido cítrico",
+      "La propuesta es más concentrada (1 mg/mL) para ofrecer más tomas por frasco y dosificar con un solo gotero",
+      "OJO REGULATORIO: el mismo riesgo con el INVIMA sobre la melatonina que en las gomitas"
+    ],
+    "fuentes": [
+      "https://dsld.od.nih.gov/label/332276",
+      "https://www.natrol.com/products/melatonin-liquid-sleep-support-berry-1mg",
+      "https://www.researchgate.net/publication/233757025_Bioavailability_of_a_New_Oral_Spray_Melatonin_Emulsion_Compared_with_a_Standard_Oral_Formulation_in_Healthy_Volunteers",
+      "https://link.springer.com/article/10.1186/s40360-016-0052-2"
+    ]
+  },
+  {
+    "clave": "te_laxante",
+    "producto": "Té laxante para soltar el estómago (té de sen con hierbas)",
+    "presentacion": "Té",
+    "para_que": "Ir al baño cuando hay estreñimiento ocasional y deshincharse",
+    "porcion": "1 bolsita de 2 g en una taza de agua caliente",
+    "envase": "Caja de 20 o 30 bolsitas en sobres individuales",
+    "ingredientes": [
+      { "nombre": "Hoja de sen (Cassia angustifolia / Senna alexandrina)", "dosis": "1.000 a 1.100 mg por bolsita (unos 15 a 20 mg de senósidos)", "por_que": "Es lo que de verdad hace ir al baño: estimula el movimiento del colon. Smooth Move usa 1.080 mg (20 mg de senósidos) y un té registrado en el INVIMA usa 1.100 mg." },
+      { "nombre": "Cáscara sagrada o corteza de frángula", "dosis": "150 a 200 mg por bolsita", "por_que": "Laxante del mismo tipo que el sen que refuerza el efecto; el té registrado en el INVIMA usa 180 mg de frángula. Se puede quitar si se quiere una versión suave." },
+      { "nombre": "Raíz de jengibre", "dosis": "200 mg", "por_que": "Reduce los cólicos y las náuseas que da el sen y aporta sabor." },
+      { "nombre": "Semilla de hinojo", "dosis": "200 mg", "por_que": "Quita gases y cólicos; es clásico en los tés para la digestión." },
+      { "nombre": "Hoja de menta (hierbabuena)", "dosis": "200 mg", "por_que": "Relaja el intestino, da un sabor fresco y tapa el amargo del sen." },
+      { "nombre": "Raíz u hoja de diente de león", "dosis": "150 mg", "por_que": "Diurético suave que da la sensación de 'deshincharse' o 'detox'." },
+      { "nombre": "Canela + hoja de stevia", "dosis": "100 mg + 100 mg", "por_que": "Sabor y dulzor sin azúcar; el té registrado en el INVIMA usa canela y stevia." }
+    ],
+    "como_se_toma": "Dejar reposar la bolsita de 5 a 10 minutos en agua caliente y tomar en la noche; hace efecto en 6 a 12 horas (va al baño en la mañana). No usarlo más de 1 a 2 semanas seguidas.",
+    "referencias": [
+      "Traditional Medicinals Smooth Move: 1.080 mg de hoja de sen por bolsita, 20 mg de senósidos, efecto en 6 a 12 horas, caja de 16",
+      "Té registrado en el INVIMA (acta SEPFSD 13/2019): 1.100 mg de sen + 180 mg de frángula + stevia 216 mg + canela 210 mg + jengibre por sobre",
+      "Tés de sen genéricos (Zokiva y otros): 30 bolsitas de unos 2 g",
+      "OJO: el ruibarbo no hace falta (es otro laxante del mismo tipo y aumenta el riesgo de cólicos). En Colombia un té con sen se registra como fitoterapéutico, no como alimento ni aromática, y lleva advertencias: no usar en embarazo, lactancia ni en menores de 12 años, ni por más de 2 semanas."
+    ],
+    "fuentes": [
+      "https://www.traditionalmedicinals.com/products/smooth-move-tea",
+      "https://www.invima.gov.co/invima_website/static/attachments/medicamentos_sala_especializada_fitoterapicos_homeopaticos_suplementos/Acta_No_13_de_2_de_diciembre_de_2019-SEPFSD.pdf",
+      "https://www.amazon.com/-/es/Zokiva-Nutritionals-Senna-Tea-estre%C3%B1imiento/dp/B013TN8BIM",
+      "https://www.oemsupplementmaker.com/industry-news-insights/cascara-sagrada-vs-senna-leaf-safe-constipation-relief.html"
+    ]
+  },
+  {
+    "clave": "colageno",
+    "producto": "Colágeno hidrolizado con vitamina C, ácido hialurónico y biotina",
+    "presentacion": "Polvo (principal) | Cápsula (secundaria)",
+    "para_que": "Piel más firme e hidratada, uñas y cabello más fuertes, y articulaciones",
+    "porcion": "Polvo: 1 cucharada (10 g de colágeno + activos, unos 11 g en total). Cápsula: 4 cápsulas (unos 2 g de colágeno).",
+    "envase": "Polvo: tarro de 330 g (30 porciones). Cápsulas: frasco de 120 (30 días).",
+    "ingredientes": [
+      { "nombre": "Péptidos de colágeno hidrolizado tipos I y III (bovino o marino)", "dosis": "10 g por porción en polvo; 2 g por porción en cápsulas", "por_que": "Los estudios que muestran mejoras en la firmeza y la hidratación de la piel usan 10 g al día durante 8 semanas (los péptidos bioactivos funcionan desde 2,5 a 5 g). La cápsula no alcanza esa dosis: véndela como complemento." },
+      { "nombre": "Vitamina C (ácido ascórbico o acerola)", "dosis": "60 a 90 mg por porción", "por_que": "El cuerpo la necesita para formar colágeno; Left Coast usa 60 mg y PEScience el 100 % del valor diario (90 mg)." },
+      { "nombre": "Ácido hialurónico", "dosis": "50 a 100 mg por porción", "por_que": "Ayuda a la hidratación de la piel y las articulaciones; Kobho usa 100 mg y Left Coast 90 mg." },
+      { "nombre": "Biotina", "dosis": "2.500 a 5.000 mcg por porción", "por_que": "Suma el beneficio para el cabello y las uñas en la etiqueta; Left Coast usa 4.500 mcg." },
+      { "nombre": "Saborizante (opcional: limón, frutos rojos o sin sabor)", "dosis": "Cantidad suficiente", "por_que": "En Colombia se vende mucho la versión sin sabor para mezclar en el café o el jugo." }
+    ],
+    "como_se_toma": "Disolver 1 cucharada (11 g) en agua, jugo o café una vez al día, todos los días durante mínimo 8 a 12 semanas.",
+    "referencias": [
+      "Left Coast Performance Multi Collagen: 10 g de colágeno + 4.500 mcg de biotina + 60 mg de vitamina C + 90 mg de ácido hialurónico",
+      "PEScience Collagen Peptides: 10 g de tipos I y III + 100 % del valor diario de vitamina C, 30 porciones",
+      "Kobho Labs (vial): 10 g de péptidos + 100 mg de ácido hialurónico + vitamina C",
+      "Vidanat (México): colágeno + biotina + ácido hialurónico, 20 g al día, 300 g",
+      "Codeage Marine Collagen: cápsulas de tipos I y III + biotina + vitaminas C y E + ácido hialurónico, 120 cápsulas"
+    ],
+    "fuentes": [
+      "https://www.amazon.com/Collagen-Hyaluronic-Vitamin-Hydrolyzed-Supplement/dp/B082WKM8MY",
+      "https://pescience.com/products/collagen-peptides",
+      "https://www.codeage.com/products/wild-caught-marine-collagen-biotin-vitamins-hyaluronic-acid",
+      "https://www.amazon.com.mx/Col%C3%A1geno-Hidrolizado-Biotina-Hialur%C3%B3nico-Vidanat/dp/B07JZVW2VP",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6073484/",
+      "https://stevia.com.co/blogs/noticias/mejores-colagenos-hidrolizados-en-colombia"
+    ]
+  },
+  {
+    "clave": "biotina_cabello",
+    "producto": "Cápsulas para el cabello con biotina, zinc y selenio (tipo Vitybell)",
+    "presentacion": "Cápsula",
+    "para_que": "Frenar la caída del cabello y tener uñas fuertes",
+    "porcion": "1 cápsula blanda al día",
+    "envase": "Caja o frasco de 30 cápsulas (1 mes) o de 60 (2 meses)",
+    "ingredientes": [
+      { "nombre": "Biotina (vitamina B7)", "dosis": "5.000 mcg por cápsula (también se puede hacer una versión 'máxima' de 10.000 mcg)", "por_que": "Es la dosis estándar de los líderes en EE. UU. (Nature's Bounty, de 5.000 a 6.000 mcg) y da un mensaje más fuerte que los 900 mcg de Vitybell; ayuda a formar la queratina. Advertencia obligatoria: interfiere con exámenes de laboratorio (tiroides y troponina)." },
+      { "nombre": "Zinc (sulfato o gluconato)", "dosis": "15 a 20 mg", "por_que": "Su deficiencia causa caída del cabello; Vitybell usa 20 mg." },
+      { "nombre": "Selenio (L-selenometionina)", "dosis": "55 a 100 mcg", "por_que": "Antioxidante para el folículo; Vitybell usa 200 mcg, pero lo prudente es no pasar de 100 mcg en un producto de uso diario." },
+      { "nombre": "Cobre (sulfato)", "dosis": "0,5 a 1 mg", "por_que": "Ayuda a la pigmentación del cabello y equilibra el zinc; Vitybell usa 0,1 mg." },
+      { "nombre": "Niacinamida (B3)", "dosis": "16 a 18 mg", "por_que": "Circulación y salud del cuero cabelludo; Vitybell usa 17,5 mg." },
+      { "nombre": "Ácido pantoténico (B5, pantotenato de calcio)", "dosis": "5 mg", "por_que": "Clásico de las fórmulas para el cabello; Vitybell usa 3 mg." },
+      { "nombre": "Riboflavina (B2) + piridoxina (B6)", "dosis": "1,1 mg + 1,3 mg", "por_que": "Completan el complejo B de Vitybell (0,8 mg y 1 mg)." },
+      { "nombre": "Vitaminas C, E y A + ácido fólico", "dosis": "C 60 mg, E 10 mg, A 300 mcg (como betacaroteno), ácido fólico 200 mcg", "por_que": "Antioxidantes y apoyo a la multiplicación de las células del folículo, igual que Nature's Bounty Hair, Skin & Nails." }
+    ],
+    "como_se_toma": "1 cápsula al día con el desayuno, durante mínimo 3 meses (el cabello crece unos 1 cm al mes).",
+    "referencias": [
+      "Vitybell (Procaps, Colombia), que es el 'Vitabel' que buscan: 900 mcg de biotina, 20 mg de zinc, 200 mcg de selenio, 0,1 mg de cobre, 17,5 mg de niacinamida, 3 mg de B5, 0,8 mg de B2 y 1 mg de B6 por cápsula blanda; caja de 30",
+      "Nature's Bounty Extra Strength Hair, Skin & Nails: 5.000 mcg de biotina + vitaminas A, C y E + ácido hialurónico (cápsula blanda)",
+      "Nature's Bounty Advanced Hair, Skin & Nails en gomitas: 6.000 mcg de biotina + 18 mg de vitamina C + 8,1 mg de vitamina E",
+      "OJO: confirma con el maquilador el tope de biotina permitido para un suplemento dietario en Colombia (Resolución 3096 de 2007) antes de fijar 5.000 o 10.000 mcg"
+    ],
+    "fuentes": [
+      "https://drogueriasunoa.com/products/vitybell-30-capsulas-blandas",
+      "https://dermasupport.com.co/vitybell-x-30-capsulas-procaps/8277/0",
+      "https://www.mercadolibre.com.mx/blog/guia-compra-pastillas-para-cabello-vitybell",
+      "https://naturesbounty.com/products/extra-strength-hair-skin-and-nails-5000-mcg-of-biotin-150-rapid-releaseliquid-softgels",
+      "https://naturesbounty.com/products/advanced-hair-skin-and-nails-pectin-gummies"
+    ]
+  },
+  {
+    "clave": "magnesio_ninos_gotas",
+    "producto": "Magnesio en gotas para niños",
+    "presentacion": "Gotas",
+    "para_que": "Calma, buen sueño y evitar los calambres en niños",
+    "porcion": "Según la edad (concentración de 50 mg de magnesio elemental por mL): 1 a 3 años, 1 mL (50 mg); 4 a 8 años, 2 mL (100 mg); 9 a 13 años, 3 mL (150 mg)",
+    "envase": "Frasco gotero de 60 mL con jeringa dosificadora",
+    "ingredientes": [
+      { "nombre": "Magnesio (como bisglicinato o citrato)", "dosis": "50 mg elementales por mL", "por_que": "Las dosis por edad quedan por debajo del máximo de magnesio en suplemento (65 mg de 1 a 3 años, 110 mg de 4 a 8 años y 350 mg desde los 9). El glicinato cae bien al estómago y no suelta el estómago." },
+      { "nombre": "Base de agua + glicerina vegetal, sabor a fresa y stevia", "dosis": "Cantidad suficiente", "por_que": "Sabor aceptable para los niños y sin azúcar." },
+      { "nombre": "Sorbato de potasio + ácido cítrico", "dosis": "Cantidad suficiente", "por_que": "Conservantes." }
+    ],
+    "como_se_toma": "Medir con la jeringa la dosis según la edad y mezclarla en jugo o agua, una vez al día, en la tarde o la noche. A menores de 4 años, solo por indicación del pediatra.",
+    "referencias": [
+      "Requerimiento diario total: 80 mg de 1 a 3 años y 130 mg de 4 a 8 años; máximo en suplemento: 65 mg y 110 mg",
+      "Gotas de magnesio glicinato para niños en Amazon: 2 fl oz (60 mL), sabor a fresa"
+    ],
+    "fuentes": [
+      "https://www.beginhealth.com/blogs/learn/what-s-the-safe-daily-amount-of-magnesium-for-kids",
+      "https://vitagene.com/blog/is-magnesium-glycinate-safe-for-kids/",
+      "https://www.amazon.com/Magnesium-Glycinate-Liquid-Kids-L-Theanine/dp/B0DS5QHQFW"
+    ]
+  }
+]

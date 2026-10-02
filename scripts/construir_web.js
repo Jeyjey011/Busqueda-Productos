@@ -91,6 +91,28 @@ for (const [canon, lista] of grupos) {
   });
 }
 
+const yaManejaExtra = {};
+// ---------- Productos extra (búsquedas de FastMoss para la línea propia; ventas de 28 días) ----------
+const regNuevos = existe('datos/registros_nuevos.json') ? leer('datos/registros_nuevos.json') : [];
+const extra = existe('datos/fastmoss/extra_mandar.json') ? leer('datos/fastmoss/extra_mandar.json') : [];
+const BUSQUEDA = {
+  'melatonin gummies': ['SUE', 'Gomita'], 'melatonina gomitas': ['SUE', 'Gomita'], 'liquid melatonin drops': ['SUE', 'Gotas'],
+  'laxative tea': ['DIG', 'Té'], 'kids magnesium gummies': ['NIN', 'Gomita'], 'biotin hair gummies': ['CAB', 'Gomita'],
+};
+const yaEsta = new Set(productos.map((p) => p.id));
+for (const e of extra) {
+  const id = String(e.product_id); const tipo = BUSQUEDA[e.busqueda];
+  if (!tipo || yaEsta.has(id) || canonDe.has(id)) continue;
+  const regs = regNuevos.filter((n) => n.refs.includes(id));
+  const reg = regs.find((n) => n.presentacion === tipo[1]) || regs[0];
+  if (!reg) continue;
+  yaEsta.add(id);
+  productos.push({
+    id, n: e.titulo.split(/[|–-]/)[0].trim().slice(0, 70), m: e.tienda, paises: [e.region], cat: tipo[0], v: tipo[1],
+    s: reg.beneficio, u: e.unidades_28d ?? null, w: null, c: null, t: 'sindato', f: reg.id, pubs: 1, url: e.url_fastmoss, periodo: '28 días',
+  });
+}
+
 // ---------- Ingredientes: parte la fórmula en "+", ";" o "," de primer nivel ----------
 function ingredientes(formula) {
   const partes = []; let nivel = 0, actual = '';
@@ -127,13 +149,67 @@ const registros = planWeb.registros.map((f) => {
   };
 });
 
+// ---------- Registros nuevos de la línea propia (N1, N2…) ----------
+const formulas = existe('datos/formulas_mandar_a_hacer.json') ? leer('datos/formulas_mandar_a_hacer.json') : [];
+const formulaDe = (clave) => formulas.find((x) => x.clave === clave);
+const ingDe = (fx) => fx.ingredientes.map((i) => `${i.nombre}: ${i.dosis}`);
+const ventasRefs = (ids, region) => ids.map((id) => productos.find((p) => p.id === id)).filter((p) => p && p.paises.includes(region)).reduce((s, p) => s + (p.u || 0), 0);
+for (const n of regNuevos) {
+  const fx = n.clave ? formulaDe(n.clave) : null;
+  const refs = n.refs.filter((id) => productos.some((p) => p.id === id));
+  registros.push({
+    id: n.id, n: n.nombre, cat: n.categoria, pres: n.presentacion, ben: n.beneficio, desc: n.descripcion,
+    ing: fx ? ingDe(fx) : ingredientes(n.formula), formula: fx ? ingDe(fx).join(' + ') : n.formula,
+    us: ventasRefs(refs, 'US'), mx: ventasRefs(refs, 'MX'), crec: null, t: 'sindato', periodo: '28 días',
+    refs: refs.slice(0, 4), nprod: productos.filter((p) => p.f === n.id).length, marcas: n.marcas, extra: null, nuevo: true,
+  });
+  if (n.maneja) yaManejaExtra[n.id] = n.maneja;
+}
+
 const categorias = Object.keys(CATEGORIAS).map((cod) => {
   const ps = productos.filter((p) => p.cat === cod);
   const rs = registros.filter((r) => r.cat === cod);
   return { cod, n: CATEGORIAS[cod], total: ps.reduce((s, p) => s + (p.u || 0), 0), np: ps.length, nr: rs.length, problema: categoriaConcepto[cod]?.problema || '' };
 }).filter((c) => c.np > 0 || c.nr > 0).sort((a, b) => b.total - a.total);
 const orden = categorias.map((c) => c.cod);
-registros.sort((a, b) => orden.indexOf(a.cat) - orden.indexOf(b.cat) || (b.us + b.mx) - (a.us + a.mx));
+// ---------- Prioridad: primero lo que más podría venderse, al final quemados y lo que ya manejan ----------
+const yaLoManejan = { ...(existe('datos/ya_lo_manejan.json') ? leer('datos/ya_lo_manejan.json').registros : {}), ...yaManejaExtra };
+const FACTOR = { sube: 1.35, nuevo: 1.3, estable: 1, sindato: 0.9, baja: 0.75, quemado: 0.4 };
+for (const p of productos) {
+  const ventas = p.u ?? (p.w != null ? p.w * 4 : 0);
+  p.score = Math.round(ventas * (FACTOR[p.t] ?? 1));
+  p.nivel = p.t === 'quemado' ? 2 : 0; // los quemados van al final
+}
+for (const r of registros) {
+  const m = productos.filter((p) => p.f === r.id);
+  const total = m.reduce((s, p) => s + (p.u || 0), 0);
+  const quemado = m.filter((p) => p.t === 'quemado').reduce((s, p) => s + (p.u || 0), 0);
+  r.quem = total > 0 && quemado / total >= 0.5; // más de la mitad de sus ventas vienen de productos quemados
+  r.maneja = yaLoManejan[r.id] || '';
+  r.score = Math.round((r.us + r.mx) * (FACTOR[r.t] ?? 1));
+  r.nivel = r.maneja ? 3 : r.quem ? 2 : 0;
+}
+const porPrioridad = (a, b) => a.nivel - b.nivel || b.score - a.score;
+registros.sort((a, b) => orden.indexOf(a.cat) - orden.indexOf(b.cat) || porPrioridad(a, b));
+
+// ---------- Pestaña "Para mandar a hacer" ----------
+// Línea propia: los productos que el cliente ya conoce (fórmulas investigadas) + lo que ya manejan.
+const LINEA = [['N1', 'melatonina_gomita'], ['N2', 'melatonina_gotas'], ['N3', 'te_laxante'], ['F06', 'colageno'], ['N4', 'biotina_cabello'], ['N5', 'magnesio_ninos_gotas'], ['N6', null], ['F01', null]];
+const regMap = Object.fromEntries(registros.map((r) => [r.id, r]));
+const itemMandar = (id, clave) => {
+  const r = regMap[id]; if (!r) return null;
+  const fx = clave ? formulaDe(clave) : null;
+  return {
+    reg: id, estado: r.maneja ? 'Ya lo manejan' : clave ? 'Línea propia' : 'Del ranking',
+    ing: fx ? fx.ingredientes.map((i) => ({ n: i.nombre, d: i.dosis })) : r.ing.map((x) => ({ n: x, d: '' })),
+    porcion: fx?.porcion || '', envase: fx?.envase || '', como: fx?.como_se_toma || '',
+  };
+};
+const mandar = {
+  linea: LINEA.map(([id, clave]) => itemMandar(id, clave)).filter(Boolean)
+    .sort((a, b) => (regMap[a.reg].maneja ? 1 : 0) - (regMap[b.reg].maneja ? 1 : 0) || regMap[b.reg].score - regMap[a.reg].score),
+  top: registros.filter((r) => r.nivel === 0 && !LINEA.some(([id]) => id === r.id)).sort((a, b) => b.score - a.score).slice(0, 15).map((r) => itemMandar(r.id, null)),
+};
 
 // ---------- Imágenes (data URI) ----------
 // Fotos medianas en la página; las grandes van en archivos aparte (grandes_*.json) que se cargan al ampliar.
@@ -174,8 +250,10 @@ const DATA = {
     marcas: registros.reduce((s, r) => s + r.marcas.length, 0),
     unidades: usMes.reduce((s, p) => s + p.unidades_periodo, 0) + mxMes.reduce((s, p) => s + p.unidades_periodo, 0),
   },
-  categorias, registros, productos, imgs, emp,
+  categorias, registros, productos, imgs, emp, mandar,
 };
+// Datos sin imágenes para el Excel (mismo orden y prioridad que la web)
+fs.writeFileSync(path.join(RAIZ, 'datos', 'web_datos.json'), JSON.stringify({ ...DATA, imgs: undefined, emp: undefined }, null, 1), 'utf8');
 let html = fs.readFileSync(PLANTILLA, 'utf8').replace('/*__DATA__*/null', JSON.stringify(DATA).replace(/</g, '\\u003c'));
 fs.mkdirSync(path.dirname(SALIDA), { recursive: true });
 fs.writeFileSync(SALIDA, html, 'utf8');

@@ -77,7 +77,7 @@ main{padding-block:28px 80px}
 .sec-h{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:20px}
 .sec-h h2{font-size:clamp(26px,3vw,36px)}
 .sec-h p{color:var(--muted);max-width:58ch}
-.pasos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.pasos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
 .paso{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px;text-align:left;display:grid;gap:10px;align-content:start;transition:transform .25s,box-shadow .25s,border-color .25s}
 .paso:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:var(--accent)}
 .paso .n{width:38px;height:38px;border-radius:12px;background:var(--accent);color:var(--surface);display:grid;place-items:center;font:800 18px var(--display)}
@@ -144,6 +144,35 @@ main{padding-block:28px 80px}
 .basado img{width:34px;height:34px;border-radius:8px;object-fit:cover;background:#fff;border:1px solid var(--line)}
 .emp-grande{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:18px;border:1px solid var(--line)}
 .ilustra{font-size:12px;color:var(--muted);margin-top:6px}
+
+/* para mandar a hacer */
+.mh{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:18px;display:grid;grid-template-columns:minmax(0,340px) 1fr;gap:22px}
+.mh > .izq{display:grid;gap:10px;align-content:start}
+.mh .foto.grande{width:100%;aspect-ratio:16/9;height:auto;border-radius:16px;border:1px solid var(--line);object-fit:cover}
+.mh .num{font:800 34px/1 var(--display);color:var(--accent)}
+.mh h3{font-size:22px;margin:6px 0}
+.mh .fila{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.vende{display:grid;gap:8px}
+.vende .p{display:grid;grid-template-columns:44px 1fr auto;gap:10px;align-items:center;font-size:13px}
+.vende .p img{width:44px;height:44px;border-radius:10px;object-fit:cover;background:#fff;border:1px solid var(--line)}
+.vende .p b{font-family:var(--mono)}
+.tabla-ing{width:100%;border-collapse:collapse;font-size:14px}
+.tabla-ing td{padding:7px 8px;border-top:1px solid var(--line);vertical-align:top}
+.tabla-ing td:first-child{font-weight:700;width:42%}
+.tabla-ing tr:first-child td{border-top:0}
+.dato{font-size:13px;color:var(--muted)}
+.dato b{color:var(--ink)}
+.estado{font:800 11px/1 var(--mono);letter-spacing:.06em;padding:6px 9px;border-radius:7px;text-transform:uppercase;background:var(--mark);color:var(--mark-ink)}
+.estado.maneja{background:var(--ink);color:var(--bg)}
+.estado.ranking{background:var(--accent-soft);color:var(--accent)}
+@media (max-width:860px){.mh{grid-template-columns:1fr}}
+
+/* prioridad */
+.maneja{background:var(--ink);color:var(--bg);font:800 11px/1 var(--mono);letter-spacing:.06em;padding:6px 9px;border-radius:7px;text-transform:uppercase}
+.reg.atenuado{opacity:.78}
+.combo{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;width:76px;height:76px;border-radius:12px;overflow:hidden;background:var(--surface2)}
+.combo img{width:100%;height:100%;object-fit:cover;background:#fff}
+.prio{font:800 12px/1 var(--mono);color:var(--accent)}
 
 /* marcas */
 .buscar{width:100%;max-width:420px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:12px 16px;font:inherit}
@@ -245,6 +274,7 @@ footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);fo
     <div class="logo"><i aria-hidden="true"></i><span>Plan INVIMA</span></div>
     <nav class="tabs" role="tablist" aria-label="Secciones">
       <button class="tab" role="tab" data-tab="inicio" id="t-inicio">Inicio</button>
+      <button class="tab" role="tab" data-tab="mandar" id="t-mandar">Para mandar a hacer</button>
       <button class="tab" role="tab" data-tab="registros" id="t-registros">Registros</button>
       <button class="tab" role="tab" data-tab="marcas" id="t-marcas">Marcas</button>
       <button class="tab" role="tab" data-tab="productos" id="t-productos">Productos virales</button>
@@ -300,6 +330,7 @@ function vistaInicio() {
   </section>
   <section class="sec">
     <div class="sec-h"><h2>Cómo usar esta página</h2><p>Son tres secciones. Toque una para entrar.</p></div>
+    <button class="paso" data-ir="mandar" style="--i:0;border-color:var(--accent);margin-bottom:16px;width:100%"><span class="n">★</span><h3>Para mandar a hacer</h3><p>La lista corta y directa: qué producto hacer, con qué ingredientes y dosis, cuánto vende hoy y con qué marcas. En orden de prioridad.</p><span class="ir">Ver la lista →</span></button>
     <div class="pasos stag">
       <button class="paso" data-ir="registros" style="--i:0"><span class="n">1</span><h3>Registros</h3><p>Lo que hay que registrar: para qué es cada producto, sus ingredientes, la presentación y las 3 marcas propuestas.</p><span class="ir">Ver los ${k.registros} registros →</span></button>
       <button class="paso" data-ir="marcas" style="--i:1"><span class="n">2</span><h3>Marcas</h3><p>Las ${k.marcas} marcas propuestas, 3 por registro, con la foto de cómo se verían sus envases y un buscador por nombre.</p><span class="ir">Ver las marcas →</span></button>
@@ -323,15 +354,16 @@ function tarjeta(r, i) {
   const n = (id) => prodPorId[id]?.n || '';
   const portada = D.emp[r.id] ? fotoEmp(r.id, 'foto', r.marcas.map((m) => m.nombre).join(', ')) : a ? (b ? `${foto(a, n(a))}<div class="mini">${foto(b, n(b))}${c ? foto(c, n(c)) : ''}</div>` : `<div class="solo">${foto(a, n(a))}</div>`) : '';
   const ing = r.ing.slice(0, 5);
-  return `<article class="reg" style="--i:${i}">
+  return `<article class="reg${r.nivel ? ' atenuado' : ''}" style="--i:${i}">
     <div class="portada${D.emp[r.id] ? ' e' : ''}">${portada}<span class="cod">${r.id}</span></div>
     <div class="cuerpo">
       <div><h3>${esc(r.n)}</h3>${r.ben ? `<div style="margin-top:8px"><span class="ben">${esc(r.ben)}</span></div>` : ''}</div>
-      <div class="meta"><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
+      <div class="meta">${r.maneja ? `<span class="maneja">Ya lo manejan</span>` : ''}${r.quem && !r.maneja ? tend('quemado', null) : ''}<span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
+      ${r.maneja ? `<p class="nota">${esc(r.maneja)}. Se muestra al final para no repetir lo que ya funciona.</p>` : ''}
       <div><p class="lbl">Ingredientes</p><div class="ings">${ing.map((x) => `<span>${esc(x)}</span>`).join('')}${r.ing.length > 5 ? `<span>+${r.ing.length - 5} más</span>` : ''}</div></div>
       <div><p class="lbl">Marcas propuestas</p>${marcasHtml(r.marcas)}</div>
       ${D.emp[r.id] ? basado(r) : ''}
-      <div class="ventas"><span>EE. UU. <b>${fmt(r.us)}</b></span><span>México <b>${fmt(r.mx)}</b></span><span>u. en sep</span></div>
+      <div class="ventas"><span>EE. UU. <b>${fmt(r.us)}</b></span><span>México <b>${fmt(r.mx)}</b></span><span>${r.periodo ? 'u. en 28 días' : 'u. en sep'}</span></div>
       <button class="link ver" data-reg="${r.id}">Ver todo el registro →</button>
     </div>
   </article>`;
@@ -341,7 +373,7 @@ function vistaRegistros() {
   const sel = estado.catReg;
   const lista = sel === 'todas' ? cats : cats.filter((c) => c.cod === sel);
   return `<div class="sec-h"><div><p class="eyebrow">Paso 1 · ${D.kpi.registros} registros · ${D.kpi.marcas} marcas</p><h2 style="margin-top:8px">Qué registrar, con qué ingredientes y con qué marcas</h2></div></div>
-    <p class="nota">Cada tarjeta es un registro sanitario. La foto grande muestra cómo se verían los envases de sus 3 marcas (imagen ilustrativa); las fotos pequeñas son los productos reales en los que se basa. Toque cualquier foto para ampliarla. "Ver todo el registro" muestra la fórmula completa, las marcas y los productos en los que se basa.</p>
+    <p class="nota"><b>Orden:</b> primero lo que más podría venderse (ventas de septiembre y tendencia); al final los quemados y lo que ya manejan. Cada tarjeta es un registro sanitario. La foto grande muestra cómo se verían los envases de sus 3 marcas (imagen ilustrativa); las fotos pequeñas son los productos reales en los que se basa. Toque cualquier foto para ampliarla. "Ver todo el registro" muestra la fórmula completa, las marcas y los productos en los que se basa.</p>
     <div class="chips" role="group" aria-label="Categoría" style="margin-top:18px"><button class="chip" data-catreg="todas" aria-pressed="${sel === 'todas'}">Todas<small>${D.kpi.registros}</small></button>${cats.map((c) => `<button class="chip" data-catreg="${c.cod}" aria-pressed="${sel === c.cod}">${esc(c.n)}<small>${c.nr}</small></button>`).join('')}</div>
     ${lista.map((c) => { const rs = D.registros.filter((r) => r.cat === c.cod); return `<div class="cat-titulo"><h3>${esc(c.n)}</h3><span>${rs.length} ${rs.length === 1 ? 'registro' : 'registros'}</span></div><div class="grid stag">${rs.map(tarjeta).join('')}</div>`; }).join('')}`;
 }
@@ -368,6 +400,37 @@ function abrirRegistro(id) {
   </div>`;
   dlg.showModal();
   dlg.scrollTop = 0;
+}
+
+/* ---------- PARA MANDAR A HACER ---------- */
+function tarjetaMandar(m, n) {
+  const r = regPorId[m.reg]; if (!r) return '';
+  const img = D.emp[r.id] ? fotoEmp(r.id, 'foto grande') : (r.refs[0] ? foto(r.refs[0], prodPorId[r.refs[0]]?.n, '') : '');
+  const per = r.periodo ? 'últimos 28 días' : 'septiembre';
+  const cls = m.estado === 'Ya lo manejan' ? 'maneja' : m.estado === 'Del ranking' ? 'ranking' : '';
+  return `<article class="mh" style="--i:${n}">
+    <div class="izq">${img}
+      <div><p class="lbl">Se vende hoy (${per})</p><div class="vende">${r.refs.slice(0, 3).map((id) => { const p = prodPorId[id]; return p ? `<div class="p">${D.imgs[id] ? `<img src="${D.imgs[id]}" alt="" data-zoom="${id}" class="foto">` : '<span></span>'}<span>${esc(p.n)}<br><span class="dato">${esc(p.m)} · ${paises(p.paises)}</span></span><b>${fmt(p.u ?? p.w)}</b></div>` : ''; }).join('')}</div>
+      <p class="dato" style="margin-top:6px">Total del grupo: <b>${fmt(r.us + r.mx)}</b> unidades (${per}) · EE. UU. ${fmt(r.us)} · México ${fmt(r.mx)}</p></div>
+    </div>
+    <div style="display:grid;gap:12px;align-content:start">
+      <div class="fila"><span class="num">${n + 1}</span><span class="estado ${cls}">${esc(m.estado)}</span><span class="cod">${r.id}</span><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
+      <div><h3>${esc(r.n)}</h3>${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}</div>
+      <div><p class="lbl">Ingredientes para el registro</p><table class="tabla-ing">${m.ing.map((i) => `<tr><td>${esc(i.n)}</td><td>${esc(i.d)}</td></tr>`).join('')}</table></div>
+      ${m.porcion || m.envase || m.como ? `<p class="dato">${m.porcion ? `<b>Porción:</b> ${esc(m.porcion)}. ` : ''}${m.envase ? `<b>Envase:</b> ${esc(m.envase)}. ` : ''}${m.como ? `<b>Cómo se toma:</b> ${esc(m.como)}` : ''}</p>` : ''}
+      <div><p class="lbl">Marcas</p>${marcasHtml(r.marcas)}</div>
+      <button class="link" data-reg="${r.id}">Ver la ficha completa →</button>
+    </div>
+  </article>`;
+}
+function vistaMandar() {
+  const L = D.mandar.linea, T = D.mandar.top;
+  return `<div class="sec-h"><div><p class="eyebrow">Lista para el maquilador</p><h2 style="margin-top:8px">Para mandar a hacer</h2></div></div>
+    <p class="nota" style="max-width:80ch">Cada producto trae lo que se vende hoy en TikTok Shop y cuánto vendió, el producto que se hace, los ingredientes con dosis para el registro y sus marcas. Están en orden de prioridad: primero lo que más podría venderse; al final lo que ya manejan.</p>
+    <div class="cat-titulo"><h3>Línea propia</h3><span>${L.length} productos · fórmulas con dosis para adultos (y niños donde se indica)</span></div>
+    <div class="mlist stag">${L.map((m, i) => tarjetaMandar(m, i)).join('')}</div>
+    <div class="cat-titulo"><h3>Lo más vendido para sacar</h3><span>los ${T.length} registros con más demanda y tendencia</span></div>
+    <div class="mlist stag">${T.map((m, i) => tarjetaMandar(m, L.length + i)).join('')}</div>`;
 }
 
 /* ---------- MARCAS ---------- */
@@ -401,7 +464,12 @@ function vistaProductos() {
   let ps = D.productos.filter((p) => p.cat === cat.cod);
   const quemados = ps.filter((p) => p.t === 'quemado').length;
   if (estado.sinQuemados) ps = ps.filter((p) => p.t !== 'quemado');
+  // lo que ya manejan (p. ej. magnesio complex) se une en una sola tarjeta al final
+  const yaIds = new Set(D.registros.filter((r) => r.maneja).map((r) => r.id));
+  const ya = ps.filter((p) => yaIds.has(p.f));
+  ps = ps.filter((p) => !yaIds.has(p.f));
   const grupos = {}; ps.forEach((p) => (grupos[p.v] ||= []).push(p));
+  const combos = [...yaIds].map((id) => ({ r: regPorId[id], ps: ya.filter((p) => p.f === id) })).filter((c) => c.ps.length);
   const suma = (a) => a.reduce((s, p) => s + (p.u || 0), 0);
   const maxU = Math.max(1, ...ps.map((p) => p.u || 0));
   return `<div class="sec-h"><div><p class="eyebrow">Paso 2 · ${D.kpi.productos} productos sin repetidos</p><h2 style="margin-top:8px">Lo que más se vende en TikTok Shop</h2></div></div>
@@ -411,23 +479,31 @@ function vistaProductos() {
       ${cat.problema ? `<p class="nota" style="font-size:16px;max-width:70ch">${esc(cat.problema)}</p>` : ''}
       <div class="stats"><div><b class="mono">${fmt(cat.total)}</b><span>unidades en septiembre</span></div><div><b class="mono">${cat.np}</b><span>productos</span></div><div><b class="mono">${cat.nr}</b><span>registros</span></div><div><b class="mono">${quemados}</b><span>quemados</span></div></div>
     </section>
-    <div class="sec-h" style="margin-top:22px;margin-bottom:0"><p class="nota">Agrupados por presentación y ordenados por ventas. Si un producto se vende en varias publicaciones, aparece una sola vez con las ventas sumadas. "Quemado" = cae más de 20 % y lleva más de un año en venta.</p>
+    <div class="sec-h" style="margin-top:22px;margin-bottom:0"><p class="nota">Agrupados por presentación y ordenados por prioridad: primero lo que más vende y crece, al final los quemados. Si un producto se vende en varias publicaciones, aparece una sola vez con las ventas sumadas. "Quemado" = cae más de 20 % y lleva más de un año en venta.</p>
       <label class="toggle"><input type="checkbox" id="sin-quemados" ${estado.sinQuemados ? 'checked' : ''}> Ocultar quemados</label></div>
     ${Object.keys(grupos).sort((a, b) => suma(grupos[b]) - suma(grupos[a])).map((v) => `<div class="grupo"><div class="grupo-h"><h3>${esc(PLURAL[v] || v)}</h3><span>${grupos[v].length}</span></div>
-      <div class="lista stag">${grupos[v].sort((a, b) => (b.u ?? -1) - (a.u ?? -1) || (b.w ?? -1) - (a.w ?? -1)).map((p, i) => {
+      <div class="lista stag">${grupos[v].sort((a, b) => a.nivel - b.nivel || b.score - a.score).map((p, i) => {
         const r = p.f ? regPorId[p.f] : null;
         return `<div class="item" style="--i:${i}">${foto(p.id, p.n)}
           <div class="n1"><div class="nom">${esc(p.n)}</div><div class="sub">${esc(p.m)} · ${paises(p.paises)}</div>${p.s ? `<div style="margin-top:6px"><span class="ben" style="font-size:12.5px;padding:3px 8px">${esc(p.s)}</span></div>` : ''}${p.pubs > 1 ? `<span class="dup">${p.pubs} publicaciones unidas</span>` : ''}</div>
           <div class="u"><span class="mono">${p.u != null ? fmt(p.u) + ' u.' : p.w != null ? fmt(p.w) + ' u./sem' : '—'}</span><span class="t"><i style="--w:${((p.u || 0) / maxU * 100).toFixed(1)}%"></i></span></div>
           <div class="tcol">${tend(p.t, p.c)}</div>
           <div class="reg-link">${r ? `<span>Registro <button class="link" data-reg="${r.id}">${r.id} · ${esc(r.n)}</button></span>${marcasHtml(r.marcas)}` : ''}</div>
-        </div>`; }).join('')}</div></div>`).join('')}`;
+        </div>`; }).join('')}</div></div>`).join('')}
+    ${combos.map((c) => `<div class="grupo"><div class="grupo-h"><h3>Ya lo manejan</h3><span>${c.ps.length} productos</span></div><div class="lista"><div class="item">
+      <div class="combo">${c.ps.slice(0, 8).map((p) => D.imgs[p.id] ? `<img src="${D.imgs[p.id]}" alt="" data-zoom="${p.id}" class="foto">` : '').join('')}</div>
+      <div class="n1"><div class="nom">${esc(c.r.maneja)}</div><div class="sub">Todos los ${esc(c.r.n.toLowerCase())} virales juntos: ${c.ps.map((p) => esc(p.n)).join(' · ')}</div></div>
+      <div class="u"><span class="mono">${fmt(c.ps.reduce((s, p) => s + (p.u || 0), 0))} u.</span></div>
+      <div class="tcol">${tend(c.r.t, c.r.crec)}</div>
+      <div class="reg-link"><span>Registro <button class="link" data-reg="${c.r.id}">${c.r.id} · ${esc(c.r.n)}</button></span>${marcasHtml(c.r.marcas)}</div>
+    </div></div></div>`).join('')}`;
 }
 
 /* ---------- GUÍA ---------- */
 const r0 = D.registros[0];
 const PASOS = [
   { t: 'Bienvenido. Esto es lo que va a ver', p: `Analizamos los suplementos más vendidos de TikTok Shop en EE. UU. y México y los agrupamos en ${D.kpi.registros} registros sanitarios para sacar de una vez.`, ilus: `<div class="fila"><span class="cod">1 registro</span> = <span class="pill">1 fórmula</span> + <span class="pill">1 presentación</span> = <span class="marca">3 marcas</span></div><p class="nota">Una misma fórmula en cápsula y en gomita son dos registros distintos.</p>` },
+  { t: 'Empiece aquí: Para mandar a hacer', p: 'Es la lista corta para el maquilador. Cada producto dice qué se vende hoy y cuánto, el producto que se hace, los ingredientes con dosis y sus marcas, en orden de prioridad.', ilus: `<div class="fila"><span class="estado">Línea propia</span><span class="estado maneja">Ya lo manejan</span><span class="estado ranking">Del ranking</span></div>` },
   { t: 'Paso 1: Registros', p: 'Cada tarjeta es un registro. Arriba ve cómo se verían los envases de sus 3 marcas, y abajo los productos reales en los que se basa. Debajo: para qué es, la presentación, los ingredientes y las 3 marcas propuestas.', ilus: `<div class="fila"><span class="cod">${r0.id}</span><b>${esc(r0.n)}</b></div><div class="fila"><span class="ben">${esc(r0.ben)}</span><span class="pill">${esc(r0.pres)}</span></div>${marcasHtml(r0.marcas)}` },
   { t: 'Toque "Ver todo el registro"', p: 'Se abre la ficha completa: la lista de ingredientes con dosis típicas, las 3 marcas con su idea, los productos reales en los que se basa y cuánto venden.', ilus: `<ul class="check">${r0.ing.slice(0, 4).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` },
   { t: 'Paso 2: Marcas', p: 'Todas las marcas propuestas, 3 por cada registro, con una foto de cómo se verían los envases. Puede buscar una marca por su nombre o filtrar por categoría.', ilus: `<div class="mcards">${r0.marcas.map((b) => `<div class="mcard"><span class="nm" style="font-size:17px">${esc(b.nombre)}</span></div>`).join('')}</div>` },
@@ -466,7 +542,7 @@ function ampliar(clave) {
 /* ---------- navegación ---------- */
 function pintar() {
   document.querySelectorAll('.tab').forEach((t) => t.setAttribute('aria-selected', t.dataset.tab === estado.tab));
-  $('#app').innerHTML = `<div class="view">${{ inicio: vistaInicio, registros: vistaRegistros, marcas: vistaMarcas, productos: vistaProductos }[estado.tab]()}</div>`;
+  $('#app').innerHTML = `<div class="view">${{ inicio: vistaInicio, mandar: vistaMandar, registros: vistaRegistros, marcas: vistaMarcas, productos: vistaProductos }[estado.tab]()}</div>`;
   if (!reducido) contar();
 }
 function ir(tab, extra = {}) {
@@ -509,7 +585,7 @@ document.addEventListener('change', (e) => { if (e.target.id === 'sin-quemados')
 $('#modal').addEventListener('click', (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
 $('#guia').addEventListener('click', (e) => { if (e.target === e.currentTarget) { guardar({ guiaVista: true }); e.currentTarget.close(); } });
 const inicial = (location.hash || '').slice(1);
-if (['inicio', 'registros', 'marcas', 'productos'].includes(inicial)) estado.tab = inicial;
+if (['inicio', 'mandar', 'registros', 'marcas', 'productos'].includes(inicial)) estado.tab = inicial;
 $('#pie').innerHTML = `Datos de ventas: FastMoss (TikTok Shop EE. UU. y México), ${esc(D.corte)}. Fórmulas con dosis típicas del mercado. Nombres de marca propuestos: verificar disponibilidad en la SIC antes de registrarlos.`;
 pintar();
 if (!leerG().guiaVista) setTimeout(abrirGuia, 600);
