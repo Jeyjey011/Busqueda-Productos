@@ -81,8 +81,7 @@ if (fs.existsSync(DIR_MARCAS)) for (const fm of fs.readdirSync(DIR_MARCAS).filte
   const m = JSON.parse(fs.readFileSync(path.join(DIR_MARCAS, fm), 'utf8'));
   marcasPorReg[m.producto.registro_base] = m.marcas.map((b) => b.nombre);
 }
-const marcasDe = (id) => (marcasPorReg[id] ? marcasPorReg[id].join('
-') : 'MAGNIFICA + 2 marcas');
+const marcasDe = (id) => (marcasPorReg[id] ? marcasPorReg[id].join(String.fromCharCode(10)) : 'MAGNIFICA + 2 marcas');
 const famPorId = new Map(familias.map((f) => [f.id, f]));
 for (const f of familias) {
   const m = [...prod.values()].filter((p) => p.fam === f.id);
