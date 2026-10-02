@@ -2,161 +2,401 @@
   {
     "registro": "F43",
     "marcas": [
-      { "nombre": "Mansito", "idea": "Cápsula para bajar el estrés y la ansiedad: quedas mansito, sin cortisol alto y sin mal genio.", "publico": "Jóvenes de 18 a 30 años estresados por estudio, trabajo y redes" },
-      { "nombre": "Remanso", "idea": "Fórmula premium con ashwagandha KSM-66 e inositol que baja el cortisol y devuelve la calma.", "publico": "Profesionales de 30 a 55 años, estratos 4 a 6" },
-      { "nombre": "Pachorra", "idea": "La pastillita para tomarse la vida con pachorra: baja el estrés y deja dormir tranquilo.", "publico": "Adultos de 30 a 55 años, compra por WhatsApp" }
+      {
+        "nombre": "Cortisol en Calma",
+        "idea": "Cápsula blanda con ashwagandha KSM-66 e inositol que baja el cortisol, el estrés y la ansiedad.",
+        "publico": "Jóvenes de 18 a 30 años estresados por estudio, trabajo y redes"
+      },
+      {
+        "nombre": "Raíz de Calma",
+        "idea": "Fórmula premium de ashwagandha, L-teanina y magnesio que devuelve la calma y mejora el descanso.",
+        "publico": "Profesionales de 30 a 55 años, estratos 4 a 6"
+      },
+      {
+        "nombre": "Mente Tranquila",
+        "idea": "Una cápsula al día para bajar el estrés, quitar el mal genio y dormir tranquilo.",
+        "publico": "Adultos de 30 a 55 años, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F44",
     "marcas": [
-      { "nombre": "Mensi", "idea": "Polvo de inositol 40:1 para regular la regla y controlar el ovario poliquístico.", "publico": "Mujeres de 18 a 30 años con SOP que buscan respuestas en TikTok" },
-      { "nombre": "Ovalia", "idea": "Inositol premium en proporción 40:1 que regula el ciclo y equilibra los ovarios.", "publico": "Mujeres de 25 a 40 años, estrato medio-alto, buscando embarazo o con SOP" },
-      { "nombre": "Puntual", "idea": "Para que la regla llegue puntual: regula el ciclo y ayuda con el SOP.", "publico": "Mujeres de 20 a 40 años, compra por WhatsApp y Dropi" }
+      {
+        "nombre": "Ciclo Regular",
+        "idea": "Polvo de inositol 40:1 que regula la menstruación y ayuda a controlar el ovario poliquístico.",
+        "publico": "Mujeres de 18 a 30 años con SOP que buscan respuestas en TikTok"
+      },
+      {
+        "nombre": "Armonía Ovárica",
+        "idea": "Inositol premium en proporción 40:1 que equilibra los ovarios y apoya la fertilidad.",
+        "publico": "Mujeres de 25 a 40 años, estrato medio-alto, buscando embarazo o con SOP"
+      },
+      {
+        "nombre": "Fertilidad Plena",
+        "idea": "Para que la regla llegue a tiempo: regula el ciclo y ayuda con el SOP.",
+        "publico": "Mujeres de 20 a 40 años, compra por WhatsApp y Dropi"
+      }
     ]
   },
   {
     "registro": "F45",
     "marcas": [
-      { "nombre": "Pinky Mood", "idea": "Stick rosado que equilibra las hormonas: chao cambios de humor, cólicos y síndrome premenstrual.", "publico": "Mujeres de 18 a 30 años, audiencia de TikTok" },
-      { "nombre": "Ritmia", "idea": "Bebida botánica premium con shatavari y rhodiola que pone las hormonas en su ritmo.", "publico": "Mujeres de 28 a 45 años que compran en tiendas de bienestar" },
-      { "nombre": "Nivela", "idea": "Un sobre al día que nivela las hormonas y quita el mal genio de antes de la regla.", "publico": "Mujeres de 25 a 50 años, mamás y trabajadoras" }
+      {
+        "nombre": "Súper Balance Hormonal",
+        "idea": "Bebida en stick con inositol, shatavari y rhodiola que equilibra las hormonas y calma el síndrome premenstrual.",
+        "publico": "Mujeres de 18 a 30 años, audiencia de TikTok"
+      },
+      {
+        "nombre": "Luna Botánica",
+        "idea": "Bebida botánica premium que pone las hormonas en su ritmo y suaviza los cambios de humor.",
+        "publico": "Mujeres de 28 a 45 años que compran en tiendas de bienestar"
+      },
+      {
+        "nombre": "Equilibrio Mensual",
+        "idea": "Un sobre al día para menos cólicos, menos irritabilidad y hormonas en equilibrio.",
+        "publico": "Mujeres de 25 a 50 años, mamás y trabajadoras"
+      }
     ]
   },
   {
     "registro": "F46",
     "marcas": [
-      { "nombre": "Rayito", "idea": "Gotas con D3, K2 y omega 3: tu rayito de sol para subir las defensas sin salir de la casa.", "publico": "Jóvenes de 20 a 35 años en home office, estudiantes y gamers" },
-      { "nombre": "Orilla", "idea": "Gotas premium de D3, K2 y omega 3 en aceite MCT para huesos fuertes y defensas altas.", "publico": "Adultos de 30 a 55 años, estrato medio-alto" },
-      { "nombre": "Mi Solecito", "idea": "Gotas de vitamina D para toda la familia: huesos fuertes y menos gripas.", "publico": "Mamás de 25 a 45 años que compran para la casa" }
+      {
+        "nombre": "Gotas de Sol",
+        "idea": "Gotas de vitamina D3, K2 y omega 3 para huesos fuertes y defensas altas.",
+        "publico": "Jóvenes de 20 a 35 años en home office, estudiantes y gamers"
+      },
+      {
+        "nombre": "Sol Líquido",
+        "idea": "Gotas premium de D3, K2 y omega 3 en aceite MCT de alta absorción para huesos y defensas.",
+        "publico": "Adultos de 30 a 55 años, estrato medio-alto"
+      },
+      {
+        "nombre": "Defensa Familiar",
+        "idea": "Gotas de vitamina D para toda la familia: huesos fuertes y menos gripas.",
+        "publico": "Mamás de 25 a 45 años que compran para la casa"
+      }
     ]
   },
   {
     "registro": "F47",
     "marcas": [
-      { "nombre": "Rebote", "idea": "D3 5.000 UI con K2: rebota de energía, sube defensas y fortalece los huesos.", "publico": "Jóvenes de 20 a 35 años que entrenan o trabajan encerrados" },
-      { "nombre": "Mediodía", "idea": "Cápsula premium con la dosis de sol del mediodía: calcio al hueso y defensas firmes.", "publico": "Adultos de 35 a 60 años, estratos 4 a 6" },
-      { "nombre": "Paso Firme", "idea": "Una cápsula al día para huesos fuertes y no quedarse quieto con los años.", "publico": "Adultos de 45 a 70 años y sus hijos que compran por ellos" }
+      {
+        "nombre": "Vitamina Solar",
+        "idea": "Cápsula de vitamina D3 5.000 UI con K2 para huesos fuertes, defensas y energía.",
+        "publico": "Jóvenes de 20 a 35 años que entrenan o trabajan encerrados"
+      },
+      {
+        "nombre": "Sol de Mediodía",
+        "idea": "Cápsula premium con la dosis de sol que necesitas: lleva el calcio al hueso y fortalece las defensas.",
+        "publico": "Adultos de 35 a 60 años, estratos 4 a 6"
+      },
+      {
+        "nombre": "Paso Firme",
+        "idea": "Una cápsula al día para huesos fuertes y seguir activo con los años.",
+        "publico": "Adultos de 45 a 70 años y sus hijos que compran por ellos"
+      }
     ]
   },
   {
     "registro": "F48",
     "marcas": [
-      { "nombre": "Marea Alta", "idea": "Omega 3 para tener la mente en marea alta: más memoria, más concentración, mejor corazón.", "publico": "Jóvenes de 18 a 35 años, estudiantes y deportistas de TikTok" },
-      { "nombre": "Profundo", "idea": "Omega 3 premium de krill o salmón con EPA y DHA para el corazón, el cerebro y las articulaciones.", "publico": "Profesionales de 35 a 60 años que leen etiquetas" },
-      { "nombre": "Pescaíto", "idea": "El aceite de pescado de toda la vida, en cápsula y sin sabor: corazón sano y buena memoria.", "publico": "Adultos de 40 a 65 años, compra por WhatsApp" }
+      {
+        "nombre": "Omega Corazón",
+        "idea": "Cápsula blanda de omega 3 con EPA y DHA para el corazón, el cerebro y las articulaciones.",
+        "publico": "Jóvenes de 18 a 35 años, estudiantes y deportistas de TikTok"
+      },
+      {
+        "nombre": "Mar Antártico",
+        "idea": "Omega 3 premium de krill o salmón con fosfolípidos y astaxantina para corazón y memoria.",
+        "publico": "Profesionales de 35 a 60 años que leen etiquetas"
+      },
+      {
+        "nombre": "Memoria y Corazón",
+        "idea": "El aceite de pescado de siempre, en cápsula y sin sabor: corazón sano y buena memoria.",
+        "publico": "Adultos de 40 a 65 años, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F49",
     "marcas": [
-      { "nombre": "PA'LANTE", "idea": "Pa'lante, que las rodillas ya no duelen.", "publico": "Adultos de 30 a 55 años activos en redes, e hijos que compran para sus papás" },
-      { "nombre": "SOLMAR", "idea": "Articulaciones desinflamadas, huesos fuertes.", "publico": "Adultos de 45 a 65 años, estratos 4 a 6, enfocados en envejecer activos" },
-      { "nombre": "Rodi", "idea": "Cápsula con calcio, glucosamina y condroitina que quita el dolor de rodilla para volver a entrenar.", "publico": "Jóvenes de 20 a 35 años que hacen gym, fútbol o running, audiencia de TikTok" }
+      {
+        "nombre": "Calcio Articular",
+        "idea": "Cápsula con calcio, D3, K2, glucosamina y condroitina para huesos y articulaciones sin dolor.",
+        "publico": "Adultos de 30 a 55 años activos en redes, e hijos que compran para sus papás"
+      },
+      {
+        "nombre": "Movimiento Libre",
+        "idea": "Fórmula premium para articulaciones desinflamadas, huesos fuertes y un envejecimiento activo.",
+        "publico": "Adultos de 45 a 65 años, estratos 4 a 6, enfocados en envejecer activos"
+      },
+      {
+        "nombre": "Rodilla Sana",
+        "idea": "Para que las rodillas dejen de doler y puedas volver a caminar y entrenar.",
+        "publico": "Jóvenes de 20 a 35 años que hacen gym, fútbol o running, audiencia de TikTok"
+      }
     ]
   },
   {
     "registro": "F50",
     "marcas": [
-      { "nombre": "Pufi", "idea": "Polvo que deshincha la barriga en horas: chao retención de líquidos y vientre inflado.", "publico": "Mujeres de 18 a 30 años, audiencia de TikTok" },
-      { "nombre": "Ninfa", "idea": "Bebida natural premium con diente de león, cola de caballo y jamaica para un vientre plano y sin retención.", "publico": "Mujeres de 28 a 50 años, estrato medio-alto, compradoras de tienda naturista" },
-      { "nombre": "Plancha", "idea": "Barriga plana como una tabla: saca el líquido retenido y desinflama el vientre.", "publico": "Mujeres de 25 a 50 años, compra por WhatsApp y Dropi" }
+      {
+        "nombre": "Vientre Desinflamado",
+        "idea": "Polvo con electrolitos, diente de león y cola de caballo que quita la hinchazón y la retención de líquidos.",
+        "publico": "Mujeres de 18 a 30 años, audiencia de TikTok"
+      },
+      {
+        "nombre": "Botánica Depurativa",
+        "idea": "Bebida natural premium con jamaica, ortiga y diente de león para un vientre plano y sin retención.",
+        "publico": "Mujeres de 28 a 50 años, estrato medio-alto, compradoras de tienda naturista"
+      },
+      {
+        "nombre": "Adiós Hinchazón",
+        "idea": "Saca el líquido retenido y desinflama la barriga desde el primer día.",
+        "publico": "Mujeres de 25 a 50 años, compra por WhatsApp y Dropi"
+      }
     ]
   },
   {
     "registro": "F51",
     "marcas": [
-      { "nombre": "Rosé Shot", "idea": "Shot de colágeno líquido de 5.000 mg: piel que brilla y se ve firme en un trago.", "publico": "Mujeres de 20 a 32 años que siguen rutinas de skincare en TikTok" },
-      { "nombre": "Nácar", "idea": "Colágeno líquido premium que tensa la piel, borra líneas de expresión y cuida las articulaciones.", "publico": "Mujeres de 35 a 55 años, estratos 4 a 6" },
-      { "nombre": "Piel Nueva", "idea": "Colágeno líquido para quitar arrugas y que no duelan las rodillas.", "publico": "Mujeres de 35 a 60 años, compra por WhatsApp" }
+      {
+        "nombre": "Colágeno Líquido Total",
+        "idea": "Colágeno hidrolizado líquido de 5.000 mg para piel firme y articulaciones sanas.",
+        "publico": "Mujeres de 20 a 32 años que siguen rutinas de skincare en TikTok"
+      },
+      {
+        "nombre": "Piel de Nácar",
+        "idea": "Colágeno líquido premium que reafirma la piel, suaviza las líneas de expresión y cuida las articulaciones.",
+        "publico": "Mujeres de 35 a 55 años, estratos 4 a 6"
+      },
+      {
+        "nombre": "Firmeza Diaria",
+        "idea": "Una toma al día de colágeno para menos arrugas y rodillas sin dolor.",
+        "publico": "Mujeres de 35 a 60 años, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F52",
     "marcas": [
-      { "nombre": "Mechas", "idea": "Softgel con biotina y colágeno para que el pelo crezca rápido y deje de caerse.", "publico": "Mujeres de 18 a 30 años, audiencia de TikTok" },
-      { "nombre": "Opalina", "idea": "Fórmula premium de biotina, MSM y colágeno para cabello brillante, piel lisa y uñas duras.", "publico": "Mujeres de 28 a 50 años, estrato medio-alto" },
-      { "nombre": "Pelito", "idea": "La cápsula para que no se caiga el pelito y las uñas no se quiebren.", "publico": "Mujeres de 25 a 55 años, compra por WhatsApp y Dropi" }
+      {
+        "nombre": "Biotina Triple Belleza",
+        "idea": "Cápsula blanda con biotina, MSM y colágeno para cabello que crece, piel lisa y uñas duras.",
+        "publico": "Mujeres de 18 a 30 años, audiencia de TikTok"
+      },
+      {
+        "nombre": "Seda Natural",
+        "idea": "Fórmula premium de biotina, colágeno y vitaminas para un cabello brillante y fuerte.",
+        "publico": "Mujeres de 28 a 50 años, estrato medio-alto"
+      },
+      {
+        "nombre": "Melena Fuerte",
+        "idea": "La cápsula para que el pelo deje de caerse y las uñas no se quiebren.",
+        "publico": "Mujeres de 25 a 55 años, compra por WhatsApp y Dropi"
+      }
     ]
   },
   {
     "registro": "F53",
     "marcas": [
-      { "nombre": "Reset Skin", "idea": "Cápsula que quita el acné hormonal desde adentro: chao granos de la mandíbula.", "publico": "Jóvenes de 16 a 28 años con acné, audiencia de TikTok" },
-      { "nombre": "Nítida", "idea": "Fórmula premium con DIM, zinc y niacinamida para una piel limpia, sin brotes ni marcas.", "publico": "Mujeres de 25 a 40 años con acné adulto, estrato medio-alto" },
-      { "nombre": "Quitabarros", "idea": "La pastilla que quita los barros y espinillas que no se van con nada.", "publico": "Jóvenes y adultos de 16 a 35 años, compra por WhatsApp" }
+      {
+        "nombre": "Piel Despejada",
+        "idea": "Cápsula con DIM, zinc y probióticos que controla el acné hormonal desde adentro.",
+        "publico": "Jóvenes de 16 a 28 años con acné, audiencia de TikTok"
+      },
+      {
+        "nombre": "Pureza Dérmica",
+        "idea": "Fórmula premium con DIM, zinc y niacinamida para una piel limpia, sin brotes ni marcas.",
+        "publico": "Mujeres de 25 a 40 años con acné adulto, estrato medio-alto"
+      },
+      {
+        "nombre": "Cara Limpia",
+        "idea": "La cápsula que ayuda a quitar los granos y espinillas que no se van con nada.",
+        "publico": "Jóvenes y adultos de 16 a 35 años, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F54",
     "marcas": [
-      { "nombre": "Metalero", "idea": "Zinc y cobre para subir defensas, controlar el acné y que el pelo crezca.", "publico": "Jóvenes de 18 a 30 años, gym y gamers en TikTok" },
-      { "nombre": "Pátina", "idea": "Zinc con cobre en la proporción correcta para defensas, piel y cabello, sin desbalance de minerales.", "publico": "Adultos de 30 a 55 años que leen etiquetas" },
-      { "nombre": "Robusto", "idea": "Una cápsula al día para no enfermarse: defensas altas toda la familia.", "publico": "Adultos de 30 a 60 años, compra por WhatsApp" }
+      {
+        "nombre": "Zinc y Cobre",
+        "idea": "Cápsula de zinc 30 mg con cobre 2 mg para subir defensas y cuidar piel y cabello.",
+        "publico": "Jóvenes de 18 a 30 años, gym y gamers en TikTok"
+      },
+      {
+        "nombre": "Mineral Ancestral",
+        "idea": "Zinc y cobre en la proporción correcta para defensas, piel y cabello sin desbalance de minerales.",
+        "publico": "Adultos de 30 a 55 años que leen etiquetas"
+      },
+      {
+        "nombre": "Escudo Mineral",
+        "idea": "Una cápsula al día para enfermarse menos y mantener las defensas altas.",
+        "publico": "Adultos de 30 a 60 años, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F55",
     "marcas": [
-      { "nombre": "Rudo", "idea": "Multivitamínico para hombre que da energía, sube defensas y aguanta el ritmo del gym.", "publico": "Hombres de 18 a 32 años, audiencia de TikTok" },
-      { "nombre": "Noble", "idea": "Multivitamínico premium con licopeno, probióticos y ashwagandha para el hombre que se cuida.", "publico": "Hombres de 35 a 60 años, estratos 4 a 6" },
-      { "nombre": "Parcero", "idea": "La pasta del hombre que camella: energía todo el día y cero gripas.", "publico": "Hombres de 25 a 55 años, trabajadores, compra por WhatsApp" }
+      {
+        "nombre": "Hombre Activo",
+        "idea": "Multivitamínico para hombre que da energía, sube defensas y rinde en el trabajo y el gimnasio.",
+        "publico": "Hombres de 18 a 32 años, audiencia de TikTok"
+      },
+      {
+        "nombre": "Vitalidad Noble",
+        "idea": "Multivitamínico premium con licopeno, probióticos y ashwagandha para el hombre que se cuida.",
+        "publico": "Hombres de 35 a 60 años, estratos 4 a 6"
+      },
+      {
+        "nombre": "Energía Varonil",
+        "idea": "Una tableta al día para tener energía todo el día y menos gripas.",
+        "publico": "Hombres de 25 a 55 años, trabajadores, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F56",
     "marcas": [
-      { "nombre": "Pinchazo", "idea": "El sobre que acompaña tu pinchazo: vitaminas y minerales para no perder pelo ni energía mientras bajas de peso.", "publico": "Mujeres y hombres de 25 a 40 años que usan GLP-1 y lo cuentan en TikTok" },
-      { "nombre": "Medida", "idea": "Pack premium de nutrición diaria para quien usa Ozempic: protege músculo, pelo y energía.", "publico": "Adultos de 30 a 60 años, estratos 4 a 6, en tratamiento para bajar de peso" },
-      { "nombre": "Respaldo", "idea": "Baja de peso sin quedarte débil: un sobre diario de vitaminas, magnesio y calcio.", "publico": "Adultos de 30 a 60 años, compra por WhatsApp" }
+      {
+        "nombre": "Compañero GLP-1",
+        "idea": "Pack diario de vitaminas y minerales para quien usa Ozempic: protege pelo, músculo y energía.",
+        "publico": "Mujeres y hombres de 25 a 40 años que usan GLP-1 y lo cuentan en TikTok"
+      },
+      {
+        "nombre": "Nutrición Consciente",
+        "idea": "Nutrición premium en sobre diario con magnesio, B12, calcio y D3 para bajar de peso sin descuidarse.",
+        "publico": "Adultos de 30 a 60 años, estratos 4 a 6, en tratamiento para bajar de peso"
+      },
+      {
+        "nombre": "Respaldo Diario",
+        "idea": "Baja de peso sin quedarte débil: un sobre diario de vitaminas y minerales.",
+        "publico": "Adultos de 30 a 60 años, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F57",
     "marcas": [
-      { "nombre": "Mentazo", "idea": "Menta con cafeína: energía y concentración al instante, sin tinto ni bebida energizante.", "publico": "Jóvenes de 17 a 30 años, estudiantes, gamers y conductores" },
-      { "nombre": "Ozono", "idea": "Menta premium con cafeína natural y L-teanina para foco limpio sin temblor ni bajón.", "publico": "Profesionales de 25 a 45 años, estrato medio-alto" },
-      { "nombre": "Pique", "idea": "Un chicle y arrancas: el pique de energía para el turno largo.", "publico": "Trabajadores de 20 a 50 años, tiendas de barrio y semáforos" }
+      {
+        "nombre": "Menta Energizante",
+        "idea": "Menta o chicle con cafeína y L-teanina: energía y concentración al instante.",
+        "publico": "Jóvenes de 17 a 30 años, estudiantes, gamers y conductores"
+      },
+      {
+        "nombre": "Enfoque Puro",
+        "idea": "Menta premium con cafeína natural y L-teanina para concentración limpia, sin temblor ni bajón.",
+        "publico": "Profesionales de 25 a 45 años, estrato medio-alto"
+      },
+      {
+        "nombre": "Siempre Despierto",
+        "idea": "Un chicle y arrancas: energía para estudiar, manejar o el turno largo.",
+        "publico": "Trabajadores de 20 a 50 años, tiendas de barrio y semáforos"
+      }
     ]
   },
   {
     "registro": "F58",
     "marcas": [
-      { "nombre": "Rugido", "idea": "Softgel con shilajit, maca y ginseng: más testosterona, más ganas y erecciones firmes.", "publico": "Hombres de 20 a 35 años, audiencia de TikTok y gym" },
-      { "nombre": "Obsidiana", "idea": "Potenciador premium de shilajit y ashwagandha para subir la testosterona de forma natural.", "publico": "Hombres de 35 a 60 años, estratos 4 a 6" },
-      { "nombre": "Potro", "idea": "Potencia sexual de verdad: aguanta más y rinde como potro.", "publico": "Hombres de 30 a 60 años, compra por WhatsApp" }
+      {
+        "nombre": "Testosterona Natural",
+        "idea": "Cápsula blanda con shilajit, maca y ginseng que sube la testosterona y la potencia sexual.",
+        "publico": "Hombres de 20 a 35 años, audiencia de TikTok y gym"
+      },
+      {
+        "nombre": "Shilajit del Himalaya",
+        "idea": "Potenciador premium de shilajit y ashwagandha para más energía, deseo y rendimiento.",
+        "publico": "Hombres de 35 a 60 años, estratos 4 a 6"
+      },
+      {
+        "nombre": "Potencia Máxima",
+        "idea": "Potencia sexual de verdad: más aguante y erecciones firmes.",
+        "publico": "Hombres de 30 a 60 años, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F59",
     "marcas": [
-      { "nombre": "Mielazo", "idea": "Stick de shilajit con miel: energía de una y potencia sexual para la noche.", "publico": "Hombres de 20 a 35 años, audiencia de TikTok" },
-      { "nombre": "Néctar Negro", "idea": "Shilajit premium con miel y azafrán para más energía, deseo y rendimiento.", "publico": "Hombres y parejas de 30 a 55 años, estrato medio-alto" },
-      { "nombre": "Rendidor", "idea": "El sobrecito de miel que lo deja rindiendo en el trabajo y en la cama.", "publico": "Hombres de 30 a 60 años, compra en tienda de barrio y WhatsApp" }
+      {
+        "nombre": "Miel con Shilajit",
+        "idea": "Stick de miel con shilajit y azafrán para energía inmediata y potencia sexual.",
+        "publico": "Hombres de 20 a 35 años, audiencia de TikTok"
+      },
+      {
+        "nombre": "Néctar Negro",
+        "idea": "Shilajit premium con miel y azafrán para más energía, deseo y rendimiento.",
+        "publico": "Hombres y parejas de 30 a 55 años, estrato medio-alto"
+      },
+      {
+        "nombre": "Miel Potente",
+        "idea": "El sobre de miel que da energía para el trabajo y rendimiento en la noche.",
+        "publico": "Hombres de 30 a 60 años, compra en tienda de barrio y WhatsApp"
+      }
     ]
   },
   {
     "registro": "F60",
     "marcas": [
-      { "nombre": "Pipí Feliz", "idea": "La cápsula para que tu papá orine sin ardor y no se levante cinco veces de noche.", "publico": "Hijos de 20 a 35 años que compran para el papá por TikTok" },
-      { "nombre": "Palmar", "idea": "Saw palmetto premium con maca y zinc para desinflamar la próstata y orinar con chorro fuerte.", "publico": "Hombres de 45 a 65 años, estratos 4 a 6" },
-      { "nombre": "Mi Viejo", "idea": "Para el viejo de la casa: próstata desinflamada y noches de corrido.", "publico": "Hombres de 45 a 70 años y sus esposas, compra por WhatsApp" }
+      {
+        "nombre": "Próstata Saludable",
+        "idea": "Cápsula con saw palmetto, maca y zinc para desinflamar la próstata y orinar sin ardor.",
+        "publico": "Hijos de 20 a 35 años que compran para el papá por TikTok"
+      },
+      {
+        "nombre": "Palma Enana",
+        "idea": "Saw palmetto premium (palma enana) con maca y zinc para una próstata sana y un chorro fuerte.",
+        "publico": "Hombres de 45 a 65 años, estratos 4 a 6"
+      },
+      {
+        "nombre": "Noches Completas",
+        "idea": "Próstata desinflamada para dormir toda la noche sin levantarse a orinar.",
+        "publico": "Hombres de 45 a 70 años y sus esposas, compra por WhatsApp"
+      }
     ]
   },
   {
     "registro": "F61",
     "marcas": [
-      { "nombre": "CUCHO", "idea": "El cucho ya no se levanta a orinar.", "publico": "Hijos de 20 a 35 años que compran para su papá, y hombres de 45 o más con sentido del humor" },
-      { "nombre": "ROBLE", "idea": "Próstata desinflamada, noches enteras.", "publico": "Hombres de 45 a 65 años, estratos 4 a 6, que prefieren ingredientes de origen natural" },
-      { "nombre": "Pepita", "idea": "Aceite de pepa de ahuyama con saw palmetto para orinar mejor y desinflamar la próstata.", "publico": "Hombres de 45 a 70 años, compra por WhatsApp y droguería de barrio" }
+      {
+        "nombre": "Aceite de Calabaza",
+        "idea": "Cápsula blanda de aceite de semilla de calabaza con saw palmetto para orinar mejor y desinflamar la próstata.",
+        "publico": "Hijos de 20 a 35 años que compran para su papá, y hombres de 45 o más con sentido del humor"
+      },
+      {
+        "nombre": "Ahuyama Dorada",
+        "idea": "Aceite premium de semilla de ahuyama con fitoesteroles para una próstata sana de forma natural.",
+        "publico": "Hombres de 45 a 65 años, estratos 4 a 6, que prefieren ingredientes de origen natural"
+      },
+      {
+        "nombre": "Vejiga Tranquila",
+        "idea": "Para orinar mejor y dejar de ir al baño a cada rato, de día y de noche.",
+        "publico": "Hombres de 45 a 70 años, compra por WhatsApp y droguería de barrio"
+      }
     ]
   },
   {
     "registro": "F62",
     "marcas": [
-      { "nombre": "Mordisco", "idea": "Gomita que cuida la próstata y da erecciones firmes: un mordisco antes de la noche.", "publico": "Hombres de 25 a 40 años, audiencia de TikTok" },
-      { "nombre": "Rubí", "idea": "Gomita premium de granada, reishi y beta-sitosterol para una próstata sana y buena circulación.", "publico": "Hombres de 40 a 60 años, estratos 4 a 6" },
-      { "nombre": "Paraíto", "idea": "La gomita para orinar bien y que todo quede paraíto.", "publico": "Hombres de 35 a 65 años, compra por WhatsApp" }
+      {
+        "nombre": "Gomita Prostática",
+        "idea": "Gomita con beta-sitosterol y remolacha que cuida la próstata y mejora las erecciones.",
+        "publico": "Hombres de 25 a 40 años, audiencia de TikTok"
+      },
+      {
+        "nombre": "Granada Real",
+        "idea": "Gomita premium de granada, reishi y zinc para una próstata sana y buena circulación.",
+        "publico": "Hombres de 40 a 60 años, estratos 4 a 6"
+      },
+      {
+        "nombre": "Vigor Nocturno",
+        "idea": "La gomita para orinar bien y tener erecciones firmes.",
+        "publico": "Hombres de 35 a 65 años, compra por WhatsApp"
+      }
     ]
   }
 ]

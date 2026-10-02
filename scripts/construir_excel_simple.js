@@ -102,7 +102,7 @@ for (const f of familias) {
 const imagenes = new Map();
 function imagen(wb, id) {
   if (imagenes.has(id)) return imagenes.get(id);
-  const ruta = path.join(DIR_CACHE, `${id}.jpg`);
+  const ruta = String(id).startsWith('E:') ? path.join(RAIZ, 'salida', 'empaques', `m_${String(id).slice(2)}.jpg`) : path.join(DIR_CACHE, `${id}.jpg`);
   const img = fs.existsSync(ruta) ? wb.addImage({ buffer: fs.readFileSync(ruta), extension: 'jpeg' }) : undefined;
   imagenes.set(id, img);
   return img;
@@ -153,9 +153,10 @@ function fila(ws, r, cols, dato, n, wb, idImagen) {
     if (col.negrita) c.font = { ...c.font, bold: true, size: 11 };
     if (col.wrap && typeof v === 'string') lineas = Math.max(lineas, v.split('\n').reduce((s, t) => s + Math.max(1, Math.ceil(t.length / (col.w * 1.05))), 0));
   });
-  ws.getRow(r).height = Math.max(64, lineas * 13.5 + 6);
+  ws.getRow(r).height = Math.max(String(idImagen).startsWith('E:') ? 80 : 64, lineas * 13.5 + 6);
   const img = idImagen && imagen(wb, idImagen);
-  if (img !== undefined) ws.addImage(img, { tl: { col: 0.08, row: r - 1 + 0.05 }, ext: { width: 80, height: 80 }, editAs: 'oneCell' });
+  const ancho = String(idImagen).startsWith('E:') ? { width: 176, height: 99 } : { width: 80, height: 80 };
+  if (img !== undefined) ws.addImage(img, { tl: { col: 0.06, row: r - 1 + 0.05 }, ext: ancho, editAs: 'oneCell' });
 }
 const pres = (v) => PRESENTACION[v] || v || '';
 const nombre = (p) => p.c.nombre_corto || p.titulo;
@@ -169,7 +170,7 @@ wb.creator = 'Claude (proyecto INVIMA)';
 {
   const ws = wb.addWorksheet('Registros a sacar', { properties: { tabColor: { argb: C.verde } }, views: [{ state: 'frozen', ySplit: 5, showGridLines: false }] });
   const cols = [
-    { h: 'Imagen', w: 13, k: () => null },
+    { h: 'Envases de las 3 marcas (ilustrativo)', w: 26, k: () => null },
     { h: 'Registro', w: 9, k: (f) => f.id, centro: true, negrita: true },
     { h: 'Qué registrar', w: 30, k: (f) => f.nombre, wrap: true, negrita: true },
     { h: 'Para qué es', w: 24, k: (f) => f.beneficio || f.descripcion || '', wrap: true, negrita: true },
@@ -196,7 +197,7 @@ wb.creator = 'Claude (proyecto INVIMA)';
   for (const cat of catsOrden) {
     const lista = porCat[cat].sort((a, b) => (b._us + b._mx) - (a._us + a._mx));
     seccion(ws, r++, `${CATEGORIAS[cat] || cat}  ·  ${lista.length} ${lista.length === 1 ? 'registro' : 'registros'}`, cols.length);
-    lista.forEach((f, n) => fila(ws, r++, cols, f, n, wb, f._img?.id));
+    lista.forEach((f, n) => fila(ws, r++, cols, f, n, wb, fs.existsSync(path.join(RAIZ, 'salida', 'empaques', `m_${f.id}.jpg`)) ? `E:${f.id}` : f._img?.id));
   }
   ws.pageSetup = { orientation: 'landscape', paperSize: 9, fitToPage: true, fitToWidth: 1, fitToHeight: 0, printTitlesRow: '5:5' };
 }

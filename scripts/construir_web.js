@@ -136,14 +136,27 @@ const orden = categorias.map((c) => c.cod);
 registros.sort((a, b) => orden.indexOf(a.cat) - orden.indexOf(b.cat) || (b.us + b.mx) - (a.us + a.mx));
 
 // ---------- Imágenes (data URI) ----------
-// Fotos medianas (240 px) para la página y grandes (520 px) solo para ampliar
-const imgs = {}, imgsG = {};
+// Fotos medianas en la página; las grandes van en archivos aparte (grandes_*.json) que se cargan al ampliar.
+// Empaques: imagen generada con las 3 marcas de cada registro (salida/empaques/<registro>.jpg).
+const DIR_EMP = path.join(RAIZ, 'salida', 'empaques');
+const imgs = {}, imgsG = {}, emp = {}, empG = {};
 const dataUri = (ruta) => 'data:image/jpeg;base64,' + fs.readFileSync(ruta).toString('base64');
 for (const p of productos) {
   const g = path.join(DIR_IMG, `${p.id}.jpg`), m = path.join(DIR_IMG, `m_${p.id}.jpg`);
   if (fs.existsSync(m)) imgs[p.id] = dataUri(m);
   if (fs.existsSync(g)) imgsG[p.id] = dataUri(g);
 }
+for (const r of registros) {
+  const g = path.join(DIR_EMP, `${r.id}.jpg`), m = path.join(DIR_EMP, `m_${r.id}.jpg`);
+  if (fs.existsSync(m)) emp[r.id] = dataUri(m);
+  if (fs.existsSync(g)) empG[r.id] = dataUri(g);
+}
+const DIR_WEB = path.dirname(SALIDA);
+fs.mkdirSync(DIR_WEB, { recursive: true });
+fs.writeFileSync(path.join(DIR_WEB, 'grandes_productos.json'), JSON.stringify(imgsG));
+fs.writeFileSync(path.join(DIR_WEB, 'grandes_empaques.json'), JSON.stringify(empG));
+const sinEmpaque = registros.filter((r) => !emp[r.id]).map((r) => r.id);
+if (sinEmpaque.length) console.warn(`Registros sin foto de empaque (${sinEmpaque.length}):`, sinEmpaque.join(', '));
 
 // ---------- Control de calidad ----------
 const sinMarcas = registros.filter((r) => r.marcas.length !== 3).map((r) => r.id);
@@ -161,9 +174,11 @@ const DATA = {
     marcas: registros.reduce((s, r) => s + r.marcas.length, 0),
     unidades: usMes.reduce((s, p) => s + p.unidades_periodo, 0) + mxMes.reduce((s, p) => s + p.unidades_periodo, 0),
   },
-  categorias, registros, productos, imgs, imgsG,
+  categorias, registros, productos, imgs, emp,
 };
 let html = fs.readFileSync(PLANTILLA, 'utf8').replace('/*__DATA__*/null', JSON.stringify(DATA).replace(/</g, '\\u003c'));
 fs.mkdirSync(path.dirname(SALIDA), { recursive: true });
 fs.writeFileSync(SALIDA, html, 'utf8');
-console.log(`Web: ${(Buffer.byteLength(html) / 1048576).toFixed(2)} MB · ${registros.length} registros · ${productos.length} productos únicos (${pub.size} publicaciones) · ${DATA.kpi.marcas} marcas`);
+const mb = (f) => (fs.statSync(path.join(DIR_WEB, f)).size / 1048576).toFixed(1);
+console.log(`Archivos aparte: grandes_productos.json ${mb('grandes_productos.json')} MB · grandes_empaques.json ${mb('grandes_empaques.json')} MB`);
+console.log(`Web: ${(Buffer.byteLength(html) / 1048576).toFixed(2)} MB · ${registros.length} registros · ${productos.length} productos únicos (${pub.size} publicaciones) · ${DATA.kpi.marcas} marcas · ${Object.keys(emp).length} fotos de empaque`);

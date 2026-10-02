@@ -1,402 +1,402 @@
 [
-  {
-    "registro": "F63",
-    "marcas": [
-      {
-        "nombre": "TRAVIESA",
-        "idea": "Gotas que despiertan las ganas y suben la libido en minutos.",
-        "publico": "Mujeres jóvenes 20-35 en TikTok"
-      },
-      {
-        "nombre": "SUSURRO",
-        "idea": "Gotas naturales de maca y ashwagandha que devuelven el deseo y la sensibilidad.",
-        "publico": "Mujeres 30-50 que buscan algo natural"
-      },
-      {
-        "nombre": "SABROSONA",
-        "idea": "Pone a la mujer con ganas otra vez: más deseo y más disfrute.",
-        "publico": "Mujeres de estrato 2-3, venta por WhatsApp"
-      }
-    ]
-  },
-  {
-    "registro": "F64",
-    "marcas": [
-      {
-        "nombre": "YUMMI",
-        "idea": "Gomita que crece glúteos y sube la libido, rica y fácil de tomar.",
-        "publico": "Mujeres 18-30 en TikTok e Instagram"
-      },
-      {
-        "nombre": "VOLUPTA",
-        "idea": "Gomita de maca y fenogreco para curvas más llenas y deseo encendido.",
-        "publico": "Mujeres 25-40 que cuidan su figura"
-      },
-      {
-        "nombre": "TUMBAO",
-        "idea": "Más cola y más ganas: gomita para curvas y libido.",
-        "publico": "Mujeres de barrio que quieren curvas sin cirugía"
-      }
-    ]
-  },
-  {
-    "registro": "F65",
-    "marcas": [
-      {
-        "nombre": "WOWCURVA",
-        "idea": "Cápsula que crece glúteos y busto sin cirugía.",
-        "publico": "Mujeres 18-30 que siguen la tendencia BBL"
-      },
-      {
-        "nombre": "SINUOSA",
-        "idea": "Aguaje amazónico y fenogreco para aumentar busto y cola de forma natural.",
-        "publico": "Mujeres 25-45 que prefieren lo natural"
-      },
-      {
-        "nombre": "TREMENDA",
-        "idea": "Pa' quedar tremenda: más busto y más glúteo.",
-        "publico": "Mujeres de estrato 2-3, catálogo y WhatsApp"
-      }
-    ]
-  },
-  {
-    "registro": "F66",
-    "marcas": [
-      {
-        "nombre": "TURBINA",
-        "idea": "Té que prende al hombre: más potencia y erecciones firmes.",
-        "publico": "Hombres 25-40 en TikTok"
-      },
-      {
-        "nombre": "WUBAO",
-        "idea": "Té de los 5 tesoros (ginseng, goji, maca) para la potencia masculina de forma natural.",
-        "publico": "Hombres 35-60 que prefieren remedios naturales"
-      },
-      {
-        "nombre": "VERRACO",
-        "idea": "El té del hombre berraco: rinde más en la cama.",
-        "publico": "Hombres adultos de barrio y tiendas naturistas"
-      }
-    ]
-  },
-  {
-    "registro": "F67",
-    "marcas": [
-      {
-        "nombre": "YUKI",
-        "idea": "Glutatión líquido que aclara la piel y la deja luminosa.",
-        "publico": "Mujeres 18-30 en TikTok"
-      },
-      {
-        "nombre": "SATÉN",
-        "idea": "Glutatión liposomal premium que aclara manchas y desintoxica desde adentro.",
-        "publico": "Mujeres 30-50 con poder adquisitivo"
-      },
-      {
-        "nombre": "SINMANCHA",
-        "idea": "Quita manchas y aclara la piel tomándolo.",
-        "publico": "Mujeres de estrato 2-3 con manchas y paño"
-      }
-    ]
-  },
-  {
-    "registro": "F68",
-    "marcas": [
-      {
-        "nombre": "ZENIT",
-        "idea": "NMN y NAD+ para tener energía de veinteañero todo el día.",
-        "publico": "Adultos jóvenes 25-40 productivos"
-      },
-      {
-        "nombre": "TEMPUS",
-        "idea": "Fórmula antienvejecimiento con NMN, resveratrol y quercetina que frena el reloj.",
-        "publico": "Adultos 40-65 de estrato alto"
-      },
-      {
-        "nombre": "SIEMPRE JOVEN",
-        "idea": "Más energía y menos años encima.",
-        "publico": "Adultos mayores de 45 de estrato medio"
-      }
-    ]
-  },
-  {
-    "registro": "F69",
-    "marcas": [
-      {
-        "nombre": "TICTAC",
-        "idea": "NMN en polvo para detener el reloj: energía y menos arrugas.",
-        "publico": "Jóvenes 25-40 en TikTok que siguen el biohacking"
-      },
-      {
-        "nombre": "SOLSTICIO",
-        "idea": "NMN puro en polvo, la molécula de la longevidad para envejecer con energía.",
-        "publico": "Adultos 40-65 que invierten en salud"
-      },
-      {
-        "nombre": "YAPA",
-        "idea": "Años de yapa: más energía y vitalidad cada día.",
-        "publico": "Adultos mayores de estrato 2-4"
-      }
-    ]
-  },
-  {
-    "registro": "F70",
-    "marcas": [
-      {
-        "nombre": "UVITA",
-        "idea": "NAD+ y resveratrol de uva para energía y piel joven en una perla.",
-        "publico": "Mujeres 25-40 en TikTok"
-      },
-      {
-        "nombre": "VIÑEDO",
-        "idea": "Resveratrol y NAD+ liposomal, el secreto del vino para no envejecer.",
-        "publico": "Adultos 40-65 de estrato alto"
-      },
-      {
-        "nombre": "TODAVÍA",
-        "idea": "Pa' seguir todavía joven: energía y piel firme.",
-        "publico": "Adultos 45+ de estrato medio"
-      }
-    ]
-  },
-  {
-    "registro": "F71",
-    "marcas": [
-      {
-        "nombre": "ZAS",
-        "idea": "Astaxantina que deja la piel joven y te recupera rápido del ejercicio.",
-        "publico": "Deportistas y gymgirls 18-35"
-      },
-      {
-        "nombre": "XANTA",
-        "idea": "Astaxantina 12 mg, el antioxidante más potente para piel joven y protección solar.",
-        "publico": "Adultos 30-55 de estrato alto"
-      },
-      {
-        "nombre": "VIGOROSA",
-        "idea": "Piel joven y cuerpo recuperado con el antioxidante más fuerte.",
-        "publico": "Adultos 35+ de estrato medio"
-      }
-    ]
-  },
-  {
-    "registro": "F72",
-    "marcas": [
-      {
-        "nombre": "ZERO OLOR",
-        "idea": "Cápsula de clorofila que quita el olor a sudor y axila desde adentro.",
-        "publico": "Jóvenes 16-30 en TikTok"
-      },
-      {
-        "nombre": "TRÉBOL",
-        "idea": "Clorofila natural que desodoriza el cuerpo y el aliento.",
-        "publico": "Adultos 25-50 que prefieren lo natural"
-      },
-      {
-        "nombre": "SOBAQUITO",
-        "idea": "Chao olor a sobaco: cápsula que quita el olor corporal.",
-        "publico": "Público popular, tiendas y WhatsApp"
-      }
-    ]
-  },
-  {
-    "registro": "F73",
-    "marcas": [
-      {
-        "nombre": "SHOT VERDE",
-        "idea": "Gotas de clorofila en el agua para desintoxicar y quitar el mal olor.",
-        "publico": "Jóvenes 18-30 en TikTok"
-      },
-      {
-        "nombre": "SAVIA",
-        "idea": "Clorofila líquida natural que limpia el cuerpo y elimina olores.",
-        "publico": "Mujeres 25-50 fitness y natural"
-      },
-      {
-        "nombre": "VERDOLAGA",
-        "idea": "Gotica verde que limpia por dentro y quita olores.",
-        "publico": "Público popular de estrato 2-3"
-      }
-    ]
-  },
-  {
-    "registro": "F74",
-    "marcas": [
-      {
-        "nombre": "SÚPER VEINTE",
-        "idea": "20 hierbas y musgo marino en una cápsula para subir defensas y energía.",
-        "publico": "Jóvenes 20-35 en TikTok"
-      },
-      {
-        "nombre": "TALASA",
-        "idea": "Musgo marino con 20 hierbas: nutrición del mar para defensas fuertes.",
-        "publico": "Adultos 30-55 de estrato alto"
-      },
-      {
-        "nombre": "YERBATERO",
-        "idea": "Las 20 hierbas del yerbatero para no enfermarse y tener energía.",
-        "publico": "Adultos de barrio y tiendas naturistas"
-      }
-    ]
-  },
-  {
-    "registro": "F75",
-    "marcas": [
-      {
-        "nombre": "TALLITA",
-        "idea": "Gotas que quitan los antojos y te bajan de talla.",
-        "publico": "Mujeres 18-35 en TikTok"
-      },
-      {
-        "nombre": "SVELTA",
-        "idea": "Gotas naturales de gymnema y ashwagandha para bajar de peso sin ansiedad.",
-        "publico": "Mujeres 30-50 que cuidan su figura"
-      },
-      {
-        "nombre": "TUMBAPANZA",
-        "idea": "Gotas que tumban la panza y quitan el hambre.",
-        "publico": "Público popular de estrato 2-3"
-      }
-    ]
-  },
-  {
-    "registro": "F76",
-    "marcas": [
-      {
-        "nombre": "TUMMY",
-        "idea": "Polvo de hoja de papaya que limpia el colon y deshincha la barriga.",
-        "publico": "Jóvenes 18-30 en TikTok"
-      },
-      {
-        "nombre": "SUAVIA",
-        "idea": "Limpieza de colon natural y suave con hoja de papaya.",
-        "publico": "Adultos 30-55 que prefieren lo natural"
-      },
-      {
-        "nombre": "TRIPITA",
-        "idea": "Limpia la tripa y saca todo lo que sobra.",
-        "publico": "Público popular, tiendas naturistas"
-      }
-    ]
-  },
-  {
-    "registro": "F77",
-    "marcas": [
-      {
-        "nombre": "WOOSH",
-        "idea": "Limpieza de colon de 15 días que te deja liviano y deshinchado.",
-        "publico": "Jóvenes 18-35 en TikTok"
-      },
-      {
-        "nombre": "TRÁNSITA",
-        "idea": "Programa de 15 días con sen, cáscara sagrada y psyllium para limpiar el colon.",
-        "publico": "Adultos 30-60 con estreñimiento"
-      },
-      {
-        "nombre": "VÁMONOS",
-        "idea": "Pa' ir al baño sin sufrir: limpia el colon en 15 días.",
-        "publico": "Público popular de estrato 2-3"
-      }
-    ]
-  },
-  {
-    "registro": "F78",
-    "marcas": [
-      {
-        "nombre": "TRANKI",
-        "idea": "Bolsita oral que calma la ansiedad y el estrés en minutos.",
-        "publico": "Jóvenes 18-35 en TikTok"
-      },
-      {
-        "nombre": "SOSIEGO",
-        "idea": "Kava, L-teanina y ashwagandha para calmar la mente sin dormirte.",
-        "publico": "Profesionales 25-50 estresados"
-      },
-      {
-        "nombre": "SUAVECITO",
-        "idea": "Pa' tomarse las cosas suavecito: quita la ansiedad.",
-        "publico": "Adultos de estrato 2-3 con estrés"
-      }
-    ]
-  },
-  {
-    "registro": "F79",
-    "marcas": [
-      {
-        "nombre": "YELI",
-        "idea": "Jalea rica que quita el hambre y ayuda a bajar de peso.",
-        "publico": "Mujeres 18-30 en TikTok"
-      },
-      {
-        "nombre": "SÍLFIDE",
-        "idea": "Jalea con garcinia, fibra y colágeno para bajar de peso y cuidar la piel.",
-        "publico": "Mujeres 30-50 de estrato medio-alto"
-      },
-      {
-        "nombre": "TAPAHAMBRE",
-        "idea": "Un sobrecito y se te quita el hambre.",
-        "publico": "Público popular que quiere bajar de peso"
-      }
-    ]
-  },
-  {
-    "registro": "F80",
-    "marcas": [
-      {
-        "nombre": "XHALA",
-        "idea": "NAC que limpia los pulmones y el hígado para respirar mejor.",
-        "publico": "Jóvenes 20-35 que fuman o vapean"
-      },
-      {
-        "nombre": "SERRANÍA",
-        "idea": "N-acetilcisteína que desintoxica el hígado y despeja los pulmones.",
-        "publico": "Adultos 35-65 que cuidan su salud"
-      },
-      {
-        "nombre": "SANITO",
-        "idea": "Hígado y pulmones limpios y sanitos.",
-        "publico": "Adultos de barrio, tiendas naturistas"
-      }
-    ]
-  },
-  {
-    "registro": "F81",
-    "marcas": [
-      {
-        "nombre": "TILÍN",
-        "idea": "Ginkgo para que la cabeza haga tilín: memoria y concentración.",
-        "publico": "Estudiantes 16-28 en TikTok"
-      },
-      {
-        "nombre": "SINAPSIA",
-        "idea": "Ginkgo biloba para memoria, concentración y buena circulación al cerebro.",
-        "publico": "Profesionales y adultos 35-65"
-      },
-      {
-        "nombre": "TESO",
-        "idea": "Pa' ser teso: más memoria y cabeza clara.",
-        "publico": "Adultos mayores y público popular"
-      }
-    ]
-  },
-  {
-    "registro": "F82",
-    "marcas": [
-      {
-        "nombre": "TURMI",
-        "idea": "Gomita de cúrcuma que desinflama y quita el dolor de articulaciones.",
-        "publico": "Jóvenes 20-35 deportistas en TikTok"
-      },
-      {
-        "nombre": "SAFRANA",
-        "idea": "Curcumina en gomita para desinflamar el cuerpo de forma natural.",
-        "publico": "Adultos 35-60 que prefieren lo natural"
-      },
-      {
-        "nombre": "SOBANDERO",
-        "idea": "Como un sobandero en gomita: quita el dolor de rodilla y espalda.",
-        "publico": "Adultos mayores de estrato 2-3"
-      }
-    ]
-  }
+ {
+  "registro": "F63",
+  "marcas": [
+   {
+    "nombre": "Gotas del Deseo",
+    "idea": "Gotas de maca, tribulus y ashwagandha que suben la libido y las ganas.",
+    "publico": "Mujeres 25-45"
+   },
+   {
+    "nombre": "Raíz del Deseo",
+    "idea": "Fórmula natural de raíces andinas y tongkat ali para recuperar el deseo y la sensibilidad.",
+    "publico": "Mujeres 30-50 que prefieren lo natural"
+   },
+   {
+    "nombre": "Pasión Diaria",
+    "idea": "Unas gotas al día para volver a tener ganas y disfrutar más.",
+    "publico": "Mujeres adultas, venta por WhatsApp"
+   }
+  ]
+ },
+ {
+  "registro": "F64",
+  "marcas": [
+   {
+    "nombre": "Gomitas Curvas Plenas",
+    "idea": "Gomita de maca y fenogreco para aumentar glúteos y la libido.",
+    "publico": "Mujeres 18-35"
+   },
+   {
+    "nombre": "Maca Florecer",
+    "idea": "Maca y fenogreco en gomita para curvas más llenas y deseo renovado.",
+    "publico": "Mujeres 25-40 que cuidan su figura"
+   },
+   {
+    "nombre": "Curvas y Deseo",
+    "idea": "Más curvas y más ganas en una gomita rica.",
+    "publico": "Mujeres jóvenes en redes"
+   }
+  ]
+ },
+ {
+  "registro": "F65",
+  "marcas": [
+   {
+    "nombre": "Aguaje Curvas",
+    "idea": "Cápsula de aguaje y fenogreco para aumentar glúteos y busto.",
+    "publico": "Mujeres 18-35"
+   },
+   {
+    "nombre": "Aguaje Amazónico",
+    "idea": "Fruto amazónico y fenogreco para realzar busto y cola de forma natural.",
+    "publico": "Mujeres 25-45 que prefieren lo natural"
+   },
+   {
+    "nombre": "Silueta Plena",
+    "idea": "Más busto y más glúteo sin cirugía.",
+    "publico": "Mujeres que buscan curvas sin operarse"
+   }
+  ]
+ },
+ {
+  "registro": "F66",
+  "marcas": [
+   {
+    "nombre": "Té Vigor Masculino",
+    "idea": "Té de ginseng, goji y maca para la potencia sexual y erecciones firmes.",
+    "publico": "Hombres 30-55"
+   },
+   {
+    "nombre": "Cinco Tesoros",
+    "idea": "Infusión tradicional de cinco plantas para la vitalidad masculina.",
+    "publico": "Hombres 35-60 que prefieren remedios naturales"
+   },
+   {
+    "nombre": "Hierro Varonil",
+    "idea": "El té que devuelve la potencia y el rendimiento en la cama.",
+    "publico": "Hombres adultos, tiendas naturistas"
+   }
+  ]
+ },
+ {
+  "registro": "F67",
+  "marcas": [
+   {
+    "nombre": "Glutatión Luminoso",
+    "idea": "Glutatión liposomal líquido que aclara la piel y desintoxica.",
+    "publico": "Mujeres 20-45"
+   },
+   {
+    "nombre": "Piel de Porcelana",
+    "idea": "Glutatión liposomal con vitamina C para una piel clara y uniforme desde adentro.",
+    "publico": "Mujeres 30-50 con poder adquisitivo"
+   },
+   {
+    "nombre": "Tono Uniforme",
+    "idea": "Aclara manchas y empareja el tono de la piel tomándolo.",
+    "publico": "Mujeres con manchas en la cara"
+   }
+  ]
+ },
+ {
+  "registro": "F68",
+  "marcas": [
+   {
+    "nombre": "NAD+ Celular",
+    "idea": "Cápsula de NMN, resveratrol y quercetina para más energía y frenar el envejecimiento.",
+    "publico": "Adultos 35-60"
+   },
+   {
+    "nombre": "Longevidad Activa",
+    "idea": "Fórmula de precursores de NAD+ para rejuvenecer las células y vivir con más energía.",
+    "publico": "Adultos 40+ interesados en longevidad"
+   },
+   {
+    "nombre": "Energía de Juventud",
+    "idea": "Recupera la energía de cuando eras joven.",
+    "publico": "Adultos cansados de 40 en adelante"
+   }
+  ]
+ },
+ {
+  "registro": "F69",
+  "marcas": [
+   {
+    "nombre": "NMN Polvo Puro",
+    "idea": "NMN en polvo de 1.000 mg para más energía y antienvejecimiento.",
+    "publico": "Adultos 35-60"
+   },
+   {
+    "nombre": "Origen Celular",
+    "idea": "Precursor puro de NAD+ para renovar la energía de cada célula.",
+    "publico": "Adultos 40+ que invierten en su salud"
+   },
+   {
+    "nombre": "Juventud Diaria",
+    "idea": "Una cucharada al día para sentirse más joven y con energía.",
+    "publico": "Adultos activos"
+   }
+  ]
+ },
+ {
+  "registro": "F70",
+  "marcas": [
+   {
+    "nombre": "NAD+ Resveratrol",
+    "idea": "Cápsula blanda de NAD+ liposomal y resveratrol contra el envejecimiento.",
+    "publico": "Adultos 40-65"
+   },
+   {
+    "nombre": "Uva Longeva",
+    "idea": "Resveratrol de uva y NAD+ liposomal para envejecer más despacio.",
+    "publico": "Adultos 45+ con poder adquisitivo"
+   },
+   {
+    "nombre": "Tiempo Detenido",
+    "idea": "Más energía y menos años encima.",
+    "publico": "Adultos que quieren verse y sentirse jóvenes"
+   }
+  ]
+ },
+ {
+  "registro": "F71",
+  "marcas": [
+   {
+    "nombre": "Astaxantina Marina",
+    "idea": "Astaxantina de 12 mg para piel joven y mejor recuperación muscular.",
+    "publico": "Adultos 25-55"
+   },
+   {
+    "nombre": "Microalga Roja",
+    "idea": "Antioxidante natural de microalga que protege la piel del sol y del tiempo.",
+    "publico": "Mujeres 30-50 que cuidan su piel"
+   },
+   {
+    "nombre": "Escudo Juvenil",
+    "idea": "Piel más joven y músculos que se recuperan rápido.",
+    "publico": "Deportistas y adultos activos"
+   }
+  ]
+ },
+ {
+  "registro": "F72",
+  "marcas": [
+   {
+    "nombre": "Clorofila Sin Olor",
+    "idea": "Cápsula de clorofila que quita el mal olor corporal y de axilas.",
+    "publico": "Adultos 18-50"
+   },
+   {
+    "nombre": "Frescura Verde",
+    "idea": "Clorofila pura que neutraliza olores desde adentro.",
+    "publico": "Adultos que cuidan su higiene"
+   },
+   {
+    "nombre": "Cuerpo Fresco",
+    "idea": "Adiós al olor de axilas, pies y aliento.",
+    "publico": "Público general"
+   }
+  ]
+ },
+ {
+  "registro": "F73",
+  "marcas": [
+   {
+    "nombre": "Gotas de Clorofila",
+    "idea": "Clorofila líquida en gotas para desintoxicar y quitar olores.",
+    "publico": "Adultos 20-50"
+   },
+   {
+    "nombre": "Hoja Viva",
+    "idea": "Gotas de clorofila pura para depurar el cuerpo desde el agua de cada día.",
+    "publico": "Adultos interesados en el bienestar natural"
+   },
+   {
+    "nombre": "Agua Verde",
+    "idea": "Unas gotas en el agua para sentirse limpio y sin olores.",
+    "publico": "Público general en redes"
+   }
+  ]
+ },
+ {
+  "registro": "F74",
+  "marcas": [
+   {
+    "nombre": "Musgo Marino Veinte",
+    "idea": "Cápsula de musgo marino y 20 hierbas para subir defensas y energía.",
+    "publico": "Adultos 25-60"
+   },
+   {
+    "nombre": "Veinte Hierbas",
+    "idea": "Mezcla de musgo marino, moringa y cúrcuma para fortalecer el cuerpo de forma natural.",
+    "publico": "Adultos que prefieren lo herbal"
+   },
+   {
+    "nombre": "Escudo Herbal",
+    "idea": "Defensas altas y energía todo el día.",
+    "publico": "Familias y adultos activos"
+   }
+  ]
+ },
+ {
+  "registro": "F75",
+  "marcas": [
+   {
+    "nombre": "Gotas Sin Antojos",
+    "idea": "Gotas de berberina, gymnema y ashwagandha para bajar de peso y quitar antojos.",
+    "publico": "Mujeres 25-50"
+   },
+   {
+    "nombre": "Fuego Azul",
+    "idea": "Gotas con uva de Oregón y espirulina azul que activan el metabolismo.",
+    "publico": "Mujeres 30-50 que buscan algo natural"
+   },
+   {
+    "nombre": "Metabolismo en Marcha",
+    "idea": "Quema más y come menos dulce.",
+    "publico": "Personas que quieren adelgazar"
+   }
+  ]
+ },
+ {
+  "registro": "F76",
+  "marcas": [
+   {
+    "nombre": "Colon Limpio Papaya",
+    "idea": "Polvo de hoja de papaya para limpiar el colon y mejorar la digestión.",
+    "publico": "Adultos 25-60"
+   },
+   {
+    "nombre": "Hoja de Papaya",
+    "idea": "Hoja de papaya pura para una limpieza intestinal suave y natural.",
+    "publico": "Adultos que prefieren remedios naturales"
+   },
+   {
+    "nombre": "Vientre en Paz",
+    "idea": "Adiós al estreñimiento y la pesadez.",
+    "publico": "Público general"
+   }
+  ]
+ },
+ {
+  "registro": "F77",
+  "marcas": [
+   {
+    "nombre": "Limpieza 15 Días",
+    "idea": "Cápsula de sen, cáscara sagrada y psyllium que limpia el colon y desinflama en 15 días.",
+    "publico": "Adultos 25-55"
+   },
+   {
+    "nombre": "Depuración Herbal",
+    "idea": "Plan de 15 días con plantas laxantes para un intestino limpio y un vientre ligero.",
+    "publico": "Adultos que buscan un detox natural"
+   },
+   {
+    "nombre": "Ligereza Total",
+    "idea": "Saca lo que sobra y desinflama la barriga.",
+    "publico": "Personas con estreñimiento e hinchazón"
+   }
+  ]
+ },
+ {
+  "registro": "F78",
+  "marcas": [
+   {
+    "nombre": "Bolsitas Calma",
+    "idea": "Bolsita oral de kava, L-teanina y ashwagandha para calmar la ansiedad.",
+    "publico": "Adultos 20-45"
+   },
+   {
+    "nombre": "Kava Serena",
+    "idea": "Kava y magnolia en bolsita para relajarse sin perder la claridad.",
+    "publico": "Profesionales con estrés"
+   },
+   {
+    "nombre": "Pausa Serena",
+    "idea": "Ponte una bolsita y baja el estrés en minutos.",
+    "publico": "Jóvenes y adultos ansiosos"
+   }
+  ]
+ },
+ {
+  "registro": "F79",
+  "marcas": [
+   {
+    "nombre": "Jalea Saciante",
+    "idea": "Jalea de garcinia, fibra y colágeno que quita el hambre y ayuda a bajar de peso.",
+    "publico": "Mujeres 20-45"
+   },
+   {
+    "nombre": "Jalea Silueta",
+    "idea": "Garcinia, chía y colágeno en sobre para cuidar la figura con sabor.",
+    "publico": "Mujeres 30-50 que cuidan su peso"
+   },
+   {
+    "nombre": "Cintura Fina",
+    "idea": "Un sobre y se acaba el hambre entre comidas.",
+    "publico": "Mujeres que quieren adelgazar"
+   }
+  ]
+ },
+ {
+  "registro": "F80",
+  "marcas": [
+   {
+    "nombre": "NAC Depura",
+    "idea": "N-acetilcisteína 600 mg para limpiar el hígado y los pulmones.",
+    "publico": "Adultos 30-60"
+   },
+   {
+    "nombre": "Hígado Puro",
+    "idea": "Antioxidante que protege el hígado y despeja las vías respiratorias.",
+    "publico": "Adultos que cuidan su salud"
+   },
+   {
+    "nombre": "Respiro Limpio",
+    "idea": "Pulmones despejados e hígado limpio.",
+    "publico": "Fumadores y adultos expuestos a contaminación"
+   }
+  ]
+ },
+ {
+  "registro": "F81",
+  "marcas": [
+   {
+    "nombre": "Ginkgo Memoria",
+    "idea": "Ginkgo biloba de 120 mg para mejorar la memoria y la concentración.",
+    "publico": "Adultos 35-70"
+   },
+   {
+    "nombre": "Árbol de la Memoria",
+    "idea": "Extracto de ginkgo que mejora la circulación al cerebro y la claridad mental.",
+    "publico": "Adultos mayores y profesionales"
+   },
+   {
+    "nombre": "Mente Despierta",
+    "idea": "Recuerda más y concéntrate mejor.",
+    "publico": "Estudiantes y adultos olvidadizos"
+   }
+  ]
+ },
+ {
+  "registro": "F82",
+  "marcas": [
+   {
+    "nombre": "Cúrcuma Articular",
+    "idea": "Gomita de cúrcuma, jengibre y pimienta que desinflama y quita el dolor articular.",
+    "publico": "Adultos 40-70"
+   },
+   {
+    "nombre": "Oro de la India",
+    "idea": "Curcumina con pimienta negra para articulaciones flexibles y sin inflamación.",
+    "publico": "Adultos que prefieren lo natural"
+   },
+   {
+    "nombre": "Rodillas Libres",
+    "idea": "Muévete sin dolor de rodillas ni espalda.",
+    "publico": "Adultos mayores y personas activas"
+   }
+  ]
+ }
 ]

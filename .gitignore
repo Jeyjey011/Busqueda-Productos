@@ -3,3 +3,4 @@ scripts/node_modules/
 salida/cache_imagenes/
 ~$*.xlsx
 salida/cache_imagenes_web/
+salida/web/grandes_*.json

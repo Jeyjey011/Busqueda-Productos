@@ -137,10 +137,18 @@ main{padding-block:28px 80px}
 .reg .ver{color:var(--accent);font-weight:700;font-size:14px}
 .lbl{font:700 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
 
+/* empaques (imagen de las 3 marcas) */
+.reg .portada.e{display:block;height:auto;background:var(--surface2)}
+.reg .portada.e .foto{width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;display:block}
+.basado{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}
+.basado img{width:34px;height:34px;border-radius:8px;object-fit:cover;background:#fff;border:1px solid var(--line)}
+.emp-grande{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:18px;border:1px solid var(--line)}
+.ilustra{font-size:12px;color:var(--muted);margin-top:6px}
+
 /* marcas */
 .buscar{width:100%;max-width:420px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:12px 16px;font:inherit}
-.mreg{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:16px;display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center}
-.mreg > .foto{width:120px;height:120px;border-radius:16px;border:1px solid var(--line)}
+.mreg{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:16px;display:grid;grid-template-columns:minmax(0,380px) 1fr;gap:20px;align-items:center}
+.mreg > .foto{width:100%;aspect-ratio:16/9;height:auto;border-radius:16px;border:1px solid var(--line)}
 .mreg .arriba{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .mreg h3{font-size:19px;margin:8px 0}
 .mlist{display:grid;gap:12px}
@@ -148,7 +156,7 @@ main{padding-block:28px 80px}
 .mreg .mcard{background:var(--surface2);border:0}
 .mreg .mcard .nm{font-size:24px}
 mark.hl{background:var(--mark);color:var(--mark-ink);border-radius:4px}
-@media (max-width:860px){.mreg{grid-template-columns:1fr}.mreg > .foto{width:100%;height:180px;object-fit:contain}}
+@media (max-width:860px){.mreg{grid-template-columns:1fr}}
 
 /* productos */
 .cat-head{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px;margin-top:16px;display:grid;gap:12px}
@@ -264,6 +272,8 @@ const prodPorId = Object.fromEntries(D.productos.map((p) => [p.id, p]));
 const regPorId = Object.fromEntries(D.registros.map((r) => [r.id, r]));
 const catNombre = (cod) => D.categorias.find((c) => c.cod === cod)?.n || cod;
 const foto = (id, alt = '', estilo = '') => (D.imgs[id] ? `<img class="foto" ${estilo ? `style="${estilo}"` : ''} src="${D.imgs[id]}" alt="${esc(alt)}" data-zoom="${id}" loading="lazy">` : '');
+const fotoEmp = (id, cls = 'foto', alt = '') => (D.emp[id] ? `<img class="${cls}" src="${D.emp[id]}" alt="${esc(alt || 'Así se verían las 3 marcas')}" data-zoom="E:${id}" loading="lazy">` : '');
+const basado = (r) => `<div class="basado"><span>Basado en:</span>${r.refs.slice(0, 4).map((id) => (D.imgs[id] ? `<img src="${D.imgs[id]}" alt="${esc(prodPorId[id]?.n || '')}" data-zoom="${id}" class="foto">` : '')).join('')}</div>`;
 const marcasHtml = (ms) => `<div class="marcas">${ms.map((b) => `<span class="marca">${esc(b.nombre)}</span>`).join('')}</div>`;
 const PLURAL = { 'Cápsula': 'Cápsulas', 'Cápsula blanda': 'Cápsulas blandas', 'Tableta': 'Tabletas', 'Gomita': 'Gomitas', 'Polvo': 'Polvos', 'Líquido': 'Líquidos', 'Gotas': 'Gotas', 'Sobre / stick': 'Sobres y sticks', 'Té': 'Tés', 'Otro': 'Otros' };
 
@@ -292,14 +302,14 @@ function vistaInicio() {
     <div class="sec-h"><h2>Cómo usar esta página</h2><p>Son tres secciones. Toque una para entrar.</p></div>
     <div class="pasos stag">
       <button class="paso" data-ir="registros" style="--i:0"><span class="n">1</span><h3>Registros</h3><p>Lo que hay que registrar: para qué es cada producto, sus ingredientes, la presentación y las 3 marcas propuestas.</p><span class="ir">Ver los ${k.registros} registros →</span></button>
-      <button class="paso" data-ir="marcas" style="--i:1"><span class="n">2</span><h3>Marcas</h3><p>Las ${k.marcas} marcas propuestas, 3 por registro, con la foto del producto real y un buscador por nombre.</p><span class="ir">Ver las marcas →</span></button>
+      <button class="paso" data-ir="marcas" style="--i:1"><span class="n">2</span><h3>Marcas</h3><p>Las ${k.marcas} marcas propuestas, 3 por registro, con la foto de cómo se verían sus envases y un buscador por nombre.</p><span class="ir">Ver las marcas →</span></button>
       <button class="paso" data-ir="productos" style="--i:2"><span class="n">3</span><h3>Productos virales</h3><p>Lo que más se vende hoy en TikTok Shop, por categoría y presentación, con su tendencia y el registro en el que entra.</p><span class="ir">Ver los ${k.productos} productos →</span></button>
       <button class="paso" data-guia style="--i:3"><span class="n">?</span><h3>Fotos y guía</h3><p>Toque cualquier foto para verla en grande. Si se pierde, el botón "Guía" de arriba explica todo paso a paso.</p><span class="ir">Abrir la guía →</span></button>
     </div>
   </section>
   <section class="sec">
     <div class="sec-h"><h2>Registros por categoría</h2><p>Toque una categoría para ver sus registros.</p></div>
-    <div class="cats stag">${D.categorias.filter((c) => c.nr).map((c, i) => { const r = D.registros.find((x) => x.cat === c.cod); const id = r && r.refs[0]; return `<button class="catc" data-catreg="${c.cod}" style="--i:${i}">${id && D.imgs[id] ? `<img src="${D.imgs[id]}" alt="">` : '<span></span>'}<div><h3>${esc(c.n)}</h3><span>${c.nr} ${c.nr === 1 ? 'registro' : 'registros'} · ${c.np} productos virales</span></div></button>`; }).join('')}</div>
+    <div class="cats stag">${D.categorias.filter((c) => c.nr).map((c, i) => { const r = D.registros.find((x) => x.cat === c.cod); const id = r && r.refs[0]; const src = r && D.emp[r.id] ? D.emp[r.id] : (id && D.imgs[id]); return `<button class="catc" data-catreg="${c.cod}" style="--i:${i}">${src ? `<img src="${src}" alt="">` : '<span></span>'}<div><h3>${esc(c.n)}</h3><span>${c.nr} ${c.nr === 1 ? 'registro' : 'registros'} · ${c.np} productos virales</span></div></button>`; }).join('')}</div>
   </section>
   <section class="sec">
     <div class="sec-h"><h2>Dónde está la demanda</h2><p>Unidades vendidas en septiembre de 2026 por categoría (EE. UU. + México). Toque una para ver sus productos.</p></div>
@@ -311,15 +321,16 @@ function vistaInicio() {
 function tarjeta(r, i) {
   const [a, b, c] = r.refs;
   const n = (id) => prodPorId[id]?.n || '';
-  const portada = a ? (b ? `${foto(a, n(a))}<div class="mini">${foto(b, n(b))}${c ? foto(c, n(c)) : ''}</div>` : `<div class="solo">${foto(a, n(a))}</div>`) : '';
+  const portada = D.emp[r.id] ? fotoEmp(r.id, 'foto', r.marcas.map((m) => m.nombre).join(', ')) : a ? (b ? `${foto(a, n(a))}<div class="mini">${foto(b, n(b))}${c ? foto(c, n(c)) : ''}</div>` : `<div class="solo">${foto(a, n(a))}</div>`) : '';
   const ing = r.ing.slice(0, 5);
   return `<article class="reg" style="--i:${i}">
-    <div class="portada">${portada}<span class="cod">${r.id}</span></div>
+    <div class="portada${D.emp[r.id] ? ' e' : ''}">${portada}<span class="cod">${r.id}</span></div>
     <div class="cuerpo">
       <div><h3>${esc(r.n)}</h3>${r.ben ? `<div style="margin-top:8px"><span class="ben">${esc(r.ben)}</span></div>` : ''}</div>
       <div class="meta"><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
       <div><p class="lbl">Ingredientes</p><div class="ings">${ing.map((x) => `<span>${esc(x)}</span>`).join('')}${r.ing.length > 5 ? `<span>+${r.ing.length - 5} más</span>` : ''}</div></div>
       <div><p class="lbl">Marcas propuestas</p>${marcasHtml(r.marcas)}</div>
+      ${D.emp[r.id] ? basado(r) : ''}
       <div class="ventas"><span>EE. UU. <b>${fmt(r.us)}</b></span><span>México <b>${fmt(r.mx)}</b></span><span>u. en sep</span></div>
       <button class="link ver" data-reg="${r.id}">Ver todo el registro →</button>
     </div>
@@ -330,7 +341,7 @@ function vistaRegistros() {
   const sel = estado.catReg;
   const lista = sel === 'todas' ? cats : cats.filter((c) => c.cod === sel);
   return `<div class="sec-h"><div><p class="eyebrow">Paso 1 · ${D.kpi.registros} registros · ${D.kpi.marcas} marcas</p><h2 style="margin-top:8px">Qué registrar, con qué ingredientes y con qué marcas</h2></div></div>
-    <p class="nota">Cada tarjeta es un registro sanitario. Las fotos son productos reales que ya se venden con esa fórmula; tóquelas para ampliarlas. "Ver todo el registro" muestra la fórmula completa, las marcas y los productos en los que se basa.</p>
+    <p class="nota">Cada tarjeta es un registro sanitario. La foto grande muestra cómo se verían los envases de sus 3 marcas (imagen ilustrativa); las fotos pequeñas son los productos reales en los que se basa. Toque cualquier foto para ampliarla. "Ver todo el registro" muestra la fórmula completa, las marcas y los productos en los que se basa.</p>
     <div class="chips" role="group" aria-label="Categoría" style="margin-top:18px"><button class="chip" data-catreg="todas" aria-pressed="${sel === 'todas'}">Todas<small>${D.kpi.registros}</small></button>${cats.map((c) => `<button class="chip" data-catreg="${c.cod}" aria-pressed="${sel === c.cod}">${esc(c.n)}<small>${c.nr}</small></button>`).join('')}</div>
     ${lista.map((c) => { const rs = D.registros.filter((r) => r.cat === c.cod); return `<div class="cat-titulo"><h3>${esc(c.n)}</h3><span>${rs.length} ${rs.length === 1 ? 'registro' : 'registros'}</span></div><div class="grid stag">${rs.map(tarjeta).join('')}</div>`; }).join('')}`;
 }
@@ -345,6 +356,7 @@ function abrirRegistro(id) {
       ${r.ben ? `<div><span class="ben">${esc(r.ben)}</span></div>` : ''}
       ${r.desc ? `<p class="nota" style="font-size:16px">${esc(r.desc)}</p>` : ''}
     </div>
+    ${D.emp[r.id] ? `<div>${fotoEmp(r.id, 'foto emp-grande')}<p class="ilustra">Imagen ilustrativa de cómo se verían las 3 marcas propuestas. Tóquela para ampliarla.</p></div>` : ''}
     <div class="bloque"><h4>Ingredientes (${r.ing.length})</h4><ul class="check">${r.ing.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>
     <div><h4 class="eyebrow" style="margin-bottom:12px">Las 3 marcas propuestas para este registro</h4>
       <div class="mcards">${r.marcas.map((b) => `<div class="mcard"><span class="nm">${esc(b.nombre)}</span><p>${esc(b.idea || '')}</p>${b.publico ? `<small>Para: ${esc(b.publico)}</small>` : ''}</div>`).join('')}</div></div>
@@ -370,14 +382,14 @@ function vistaMarcas() {
     const rs = D.registros.filter((r) => r.cat === c.cod && coincide(r));
     if (!rs.length) return '';
     return `<div class="cat-titulo"><h3>${esc(c.n)}</h3><span>${rs.length * 3} marcas en ${rs.length} ${rs.length === 1 ? 'registro' : 'registros'}</span></div>
-      <div class="mlist stag">${rs.map((r, i) => `<div class="mreg" style="--i:${i}">${foto(r.refs[0], prodPorId[r.refs[0]]?.n || '')}
+      <div class="mlist stag">${rs.map((r, i) => `<div class="mreg" style="--i:${i}">${D.emp[r.id] ? fotoEmp(r.id) : foto(r.refs[0], prodPorId[r.refs[0]]?.n || '')}
         <div><div class="arriba"><span class="cod">${r.id}</span><span class="pill">${esc(r.pres)}</span>${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}</div>
           <h3>${hl(r.n)}</h3>
           <div class="mcards">${r.marcas.map((b) => `<div class="mcard"><span class="nm">${hl(b.nombre)}</span><p>${esc(b.idea || '')}</p>${b.publico ? `<small>Para: ${esc(b.publico)}</small>` : ''}</div>`).join('')}</div>
           <button class="link" data-reg="${r.id}" style="margin-top:10px">Ver ingredientes y productos de este registro →</button></div></div>`).join('')}</div>`;
   }).join('');
   return `<div class="sec-h"><div><p class="eyebrow">${D.kpi.marcas} marcas propuestas · 3 por registro</p><h2 style="margin-top:8px">Las marcas, registro por registro</h2></div></div>
-    <p class="nota">Cada registro sanitario sirve para 3 marcas. Aquí están las 3 propuestas de cada uno, con la foto del producto real en el que se basa. Busque una marca por su nombre o filtre por categoría.</p>
+    <p class="nota">Cada registro sanitario sirve para 3 marcas. Aquí están las 3 propuestas de cada uno, con una foto ilustrativa de cómo se verían sus envases. Busque una marca por su nombre o filtre por categoría.</p>
     <div style="margin-top:16px"><input class="buscar" id="buscar-marca" type="search" placeholder="Buscar marca o registro…" value="${esc(estado.q || '')}" aria-label="Buscar marca"></div>
     <div class="chips" role="group" aria-label="Categoría" style="margin-top:14px"><button class="chip" data-catmarca="todas" aria-pressed="${sel === 'todas' && !q}">Todas<small>${D.kpi.marcas}</small></button>${cats.map((c) => `<button class="chip" data-catmarca="${c.cod}" aria-pressed="${sel === c.cod && !q}">${esc(c.n)}<small>${c.nr * 3}</small></button>`).join('')}</div>
     <div id="marcas-lista">${bloques || '<p class="nota" style="margin-top:24px">No hay marcas con ese nombre.</p>'}</div>`;
@@ -416,9 +428,9 @@ function vistaProductos() {
 const r0 = D.registros[0];
 const PASOS = [
   { t: 'Bienvenido. Esto es lo que va a ver', p: `Analizamos los suplementos más vendidos de TikTok Shop en EE. UU. y México y los agrupamos en ${D.kpi.registros} registros sanitarios para sacar de una vez.`, ilus: `<div class="fila"><span class="cod">1 registro</span> = <span class="pill">1 fórmula</span> + <span class="pill">1 presentación</span> = <span class="marca">3 marcas</span></div><p class="nota">Una misma fórmula en cápsula y en gomita son dos registros distintos.</p>` },
-  { t: 'Paso 1: Registros', p: 'Cada tarjeta es un registro. Arriba ve fotos de productos reales que ya se venden con esa fórmula. Debajo: para qué es, la presentación, los ingredientes y las 3 marcas propuestas.', ilus: `<div class="fila"><span class="cod">${r0.id}</span><b>${esc(r0.n)}</b></div><div class="fila"><span class="ben">${esc(r0.ben)}</span><span class="pill">${esc(r0.pres)}</span></div>${marcasHtml(r0.marcas)}` },
+  { t: 'Paso 1: Registros', p: 'Cada tarjeta es un registro. Arriba ve cómo se verían los envases de sus 3 marcas, y abajo los productos reales en los que se basa. Debajo: para qué es, la presentación, los ingredientes y las 3 marcas propuestas.', ilus: `<div class="fila"><span class="cod">${r0.id}</span><b>${esc(r0.n)}</b></div><div class="fila"><span class="ben">${esc(r0.ben)}</span><span class="pill">${esc(r0.pres)}</span></div>${marcasHtml(r0.marcas)}` },
   { t: 'Toque "Ver todo el registro"', p: 'Se abre la ficha completa: la lista de ingredientes con dosis típicas, las 3 marcas con su idea, los productos reales en los que se basa y cuánto venden.', ilus: `<ul class="check">${r0.ing.slice(0, 4).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` },
-  { t: 'Paso 2: Marcas', p: 'Todas las marcas propuestas, 3 por cada registro, con la foto del producto real. Puede buscar una marca por su nombre o filtrar por categoría.', ilus: `<div class="mcards">${r0.marcas.map((b) => `<div class="mcard"><span class="nm" style="font-size:17px">${esc(b.nombre)}</span></div>`).join('')}</div>` },
+  { t: 'Paso 2: Marcas', p: 'Todas las marcas propuestas, 3 por cada registro, con una foto de cómo se verían los envases. Puede buscar una marca por su nombre o filtrar por categoría.', ilus: `<div class="mcards">${r0.marcas.map((b) => `<div class="mcard"><span class="nm" style="font-size:17px">${esc(b.nombre)}</span></div>`).join('')}</div>` },
   { t: 'Paso 3: Productos virales', p: 'Lo que más se vende hoy, por categoría y por presentación (cápsulas, gomitas, polvos…). Cada producto dice para qué es, si va subiendo o bajando y en qué registro entra.', ilus: `<div class="fila">${tend('sube', 34)}${tend('estable', null)}${tend('baja', -18)}${tend('quemado', -31)}${tend('nuevo', null)}</div><p class="nota">"Quemado" = vende cada vez menos y ya lleva más de un año. Mejor no inspirarse en esos.</p>` },
   { t: 'Las fotos se amplían', p: 'Toque cualquier foto para verla en grande. Toque otra vez (o fuera de la foto) para cerrarla. Puede volver a esta guía cuando quiera con el botón "Guía" de arriba.', ilus: `<div class="fila">${r0.refs.slice(0, 3).map((id) => foto(id, prodPorId[id].n, 'width:96px;height:96px;border-radius:14px')).join('')}</div>` },
 ];
@@ -434,10 +446,17 @@ function pintarGuia() {
 function abrirGuia() { pasoGuia = 0; pintarGuia(); if (!$('#guia').open) $('#guia').showModal(); }
 
 /* ---------- zoom ---------- */
-function ampliar(id) {
-  const p = prodPorId[id]; if (!D.imgs[id]) return;
+const grandes = {};
+const cargarGrandes = (archivo) => (grandes[archivo] ||= fetch(archivo).then((x) => (x.ok ? x.json() : {})).catch(() => ({})));
+function ampliar(clave) {
+  const esEmp = clave.startsWith('E:'); const id = esEmp ? clave.slice(2) : clave;
+  const src = esEmp ? D.emp[id] : D.imgs[id]; if (!src) return;
+  const p = esEmp ? null : prodPorId[id]; const reg = esEmp ? regPorId[id] : null;
+  const titulo = esEmp ? reg.marcas.map((m) => m.nombre).join(' · ') : (p?.n || '');
+  const sub = esEmp ? 'Registro ' + reg.id + ' · ' + reg.n + ' · imagen ilustrativa' : (p?.m || '') + (p ? ' · ' + paises(p.paises) : '');
   const z = $('#zoom');
-  z.innerHTML = `<figure><img src="${D.imgsG[id] || D.imgs[id]}" alt="${esc(p?.n || '')}"><figcaption>${esc(p?.n || '')}<span>${esc(p?.m || '')}${p ? ' · ' + paises(p.paises) : ''}</span></figcaption></figure>`;
+  z.innerHTML = '<figure' + (esEmp ? ' style="max-width:min(94vw,1000px)"' : '') + '><img src="' + src + '" alt="' + esc(titulo) + '"><figcaption>' + esc(titulo) + '<span>' + esc(sub) + '</span></figcaption></figure>';
+  cargarGrandes(esEmp ? 'grandes_empaques.json' : 'grandes_productos.json').then((g) => { const img = z.querySelector('img'); if (g[id] && img && !z.hidden) img.src = g[id]; });
   // el visor va encima de cualquier ventana abierta
   const abierto = document.querySelector('dialog[open]');
   (abierto || document.body).appendChild(z);
