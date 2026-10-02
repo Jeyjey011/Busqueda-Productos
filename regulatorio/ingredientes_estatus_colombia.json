@@ -1,0 +1,212 @@
+[
+  {
+    "ingrediente": "Melatonina",
+    "estatus_colombia": "Medicamento",
+    "limite_o_condicion": "No admitida en suplemento dietario; en Colombia circula como medicamento (venta libre)",
+    "nota": "Es hormona: el Decreto 3249 art. 3 prohíbe hormonas en SD. INVIMA ha emitido varias alertas contra 'melatonina como suplemento' (337-2023, 237-2024, 40-2026). Clasificación como medicamento = INFERENCIA fuerte",
+    "fuente": "Decreto 3249 de 2006 art. 3 (prohíbe hormonas, psicotrópicos, sustancias que generan dependencia); https://www.invima.gov.co/alertas-sanitarias/melatonin-10mg"
+  },
+  {
+    "ingrediente": "Yohimbina / Yohimbe (Pausinystalia johimbe)",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "No usar",
+    "nota": "Está en el listado de plantas tóxicas (planta entera). CONFIRMADO",
+    "fuente": "Listado INVIMA de plantas de toxicidad comprobada o potencialmente tóxicas, marzo 2025 (https://www.invima.gov.co/biblioteca/listado-plantas-toxicas-marzo-2025)"
+  },
+  {
+    "ingrediente": "Efedra (Ephedra spp., Ma Huang)",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "No usar",
+    "nota": "Está en el listado de plantas tóxicas (partes aéreas). Además, efedrina es precursor controlado. CONFIRMADO",
+    "fuente": "Listado INVIMA de plantas de toxicidad comprobada o potencialmente tóxicas, marzo 2025 (https://www.invima.gov.co/biblioteca/listado-plantas-toxicas-marzo-2025)"
+  },
+  {
+    "ingrediente": "Sibutramina",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "No usar",
+    "nota": "Medicamento retirado del mercado colombiano en 2010; se encuentra como adulterante oculto en 'quemadores'. CONFIRMADO",
+    "fuente": "https://www.invima.gov.co/blog/sala-de-prensa-13/alerta-sanitaria-especial-invima-retira-del-mercado-cuatro-suplementos-dietarios-por-contener-sustancias-no-autorizadas-134"
+  },
+  {
+    "ingrediente": "DHEA",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "No admitida en SD",
+    "nota": "Hormona esteroidea; INVIMA la ha señalado como producto no autorizado (alerta DHEA Nutricost). Prohibición de hormonas en el Decreto 3249 art. 3. CONFIRMADO",
+    "fuente": "Decreto 3249 de 2006 art. 3 (prohíbe hormonas, psicotrópicos, sustancias que generan dependencia); https://www.invima.gov.co/alertas-sanitarias/7981/pdf"
+  },
+  {
+    "ingrediente": "Sildenafilo, tadalafilo y análogos",
+    "estatus_colombia": "Medicamento",
+    "limite_o_condicion": "Solo como medicamento con fórmula médica; en SD = adulteración",
+    "nota": "Retiros de Vifer Max, VitAfer-L y X-BULL por contenerlos. CONFIRMADO",
+    "fuente": "https://www.invima.gov.co/blog/sala-de-prensa-13/alerta-sanitaria-especial-invima-retira-del-mercado-cuatro-suplementos-dietarios-por-contener-sustancias-no-autorizadas-134"
+  },
+  {
+    "ingrediente": "Tongkat ali (Eurycoma longifolia)",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin aceptación encontrada",
+    "nota": "No encontré concepto SEPFSD ni registro SD. Se usa para claims sexuales, que están prohibidos. No recomendado sin consulta previa a la Sala",
+    "fuente": "Búsqueda sin resultados oficiales"
+  },
+  {
+    "ingrediente": "Shilajit",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin aceptación encontrada",
+    "nota": "Solo hay alertas por productos sin registro o con registro falso (164-2024, 186-2024). Riesgo de metales pesados. Requeriría evaluación como ingrediente nuevo",
+    "fuente": "https://www.invima.gov.co/biblioteca/alerta-sanitaria-186-2024-shilajit-resin-healthy-work"
+  },
+  {
+    "ingrediente": "Ashwagandha (Withania somnifera)",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "No aceptada",
+    "nota": "Está en el listado de plantas tóxicas (hepatotoxicidad). La SEPFSD no recomendó incluirla en el listado de plantas medicinales aceptadas. Alertas 054-2023 y 418-2023. CONFIRMADO",
+    "fuente": "Listado INVIMA de plantas de toxicidad comprobada o potencialmente tóxicas, marzo 2025 (https://www.invima.gov.co/biblioteca/listado-plantas-toxicas-marzo-2025); Acta SEPFSD 13/2024"
+  },
+  {
+    "ingrediente": "Berberina",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin concepto encontrado",
+    "nota": "Alcaloide aislado. Riesgo de considerarse sustancia farmacológica; los fitoterapéuticos no admiten activos aislados. Se vende importada en marketplaces sin que haya verificado registro",
+    "fuente": "Búsqueda sin resultados oficiales"
+  },
+  {
+    "ingrediente": "Garcinia cambogia (G. gummi-gutta)",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "No usar",
+    "nota": "Está en el listado de plantas tóxicas. Alerta INVIMA 132-2018 (suspender uso). CONFIRMADO",
+    "fuente": "Listado INVIMA de plantas de toxicidad comprobada o potencialmente tóxicas, marzo 2025 (https://www.invima.gov.co/biblioteca/listado-plantas-toxicas-marzo-2025); https://invima.gov.co/biblioteca/preview/102167"
+  },
+  {
+    "ingrediente": "Saw palmetto (Serenoa repens)",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Con indicación prostática solo cabría como fitoterapéutico (PFM)",
+    "nota": "No pude verificar si está en el Vademécum o en el listado de plantas aceptadas. En SD no se puede mencionar la próstata (alerta URODOC 277-2026). INFERENCIA",
+    "fuente": "https://www.invima.gov.co/alertas-sanitarias/urodoc-suplemento-dietetico"
+  },
+  {
+    "ingrediente": "Maca (Lepidium meyenii)",
+    "estatus_colombia": "Permitido suplemento",
+    "limite_o_condicion": "Dentro de dosis usuales; sin claims sexuales",
+    "nota": "Existen SD registrados con maca (según búsqueda: SD2012-0002597, SD2021-0001307-R1). CONFIRMADO parcialmente",
+    "fuente": "https://www.datos.gov.co/Salud-y-Protecci-n-Social/REGISTROS-SANITARIOS-DE-SUPLEMENTOS-DIETARIOS/uqkt-7tia"
+  },
+  {
+    "ingrediente": "Tribulus terrestris",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "No usar",
+    "nota": "Sigue en el listado de plantas tóxicas. CONFIRMADO",
+    "fuente": "Listado INVIMA de plantas de toxicidad comprobada o potencialmente tóxicas, marzo 2025 (https://www.invima.gov.co/biblioteca/listado-plantas-toxicas-marzo-2025)"
+  },
+  {
+    "ingrediente": "Aguaje (Mauritia flexuosa)",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin evidencia",
+    "nota": "No encontré concepto. Suele venderse con claims de 'glúteos/curvas', que están prohibidos",
+    "fuente": "Sin fuente oficial"
+  },
+  {
+    "ingrediente": "Fenogreco (Trigonella foenum-graecum)",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin evidencia específica",
+    "nota": "No encontré su estatus en SD ni en el listado de plantas tóxicas",
+    "fuente": "Sin fuente oficial"
+  },
+  {
+    "ingrediente": "Kratom (Mitragyna speciosa)",
+    "estatus_colombia": "Prohibido",
+    "limite_o_condicion": "Ningún producto autorizado",
+    "nota": "INVIMA: no hay producto con kratom autorizado y su comercialización es ilegal (alerta 273-2024). CONFIRMADO",
+    "fuente": "https://invima.gov.co/biblioteca/alerta-sanitaria-273-2024-kratom-colombia-polvo-capsulas"
+  },
+  {
+    "ingrediente": "Cafeína",
+    "estatus_colombia": "Permitido con límite",
+    "limite_o_condicion": "Referencia INVIMA de ingesta máxima: 400 mg/día en adultos (300 mg en mujeres en edad fértil). Bebidas energizantes: máx. 32 mg/100 mL (Res. 4150/2009). El tope por dosis en SD está POR CONFIRMAR",
+    "nota": "Usar dosis conservadoras (por ejemplo ≤ 200 mg/día) y advertencias. INFERENCIA para SD",
+    "fuente": "Actas SEPFSD (búsqueda); Res. 4150 de 2009"
+  },
+  {
+    "ingrediente": "5-HTP (5-hidroxitriptófano)",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin confirmar",
+    "nota": "Hay alertas por productos sin registro (5-HTP Naturally). Un resultado reporta un SD con 5-HTP registrado (SD2019-0004432) pero no se pudo verificar. Precursor de serotonina: riesgo de reclasificación",
+    "fuente": "https://www.infobae.com/colombia/2025/06/10/alerta-por-comercializacion-fraudulenta-de-producto-promocionado-como-suplemento-dietario-produce-pesadillas-fallos-multiorganicos-insomnio-ansiedad-e-hipertension/"
+  },
+  {
+    "ingrediente": "Hierro",
+    "estatus_colombia": "Permitido con límite",
+    "limite_o_condicion": "Hasta el nivel superior de ingesta tolerable (UL) por dosis diaria (Res. 3096 de 2007, cap. VIII / Anexo 1 del Decreto 3249). Valor exacto POR CONFIRMAR (referencia IOM en adultos: 45 mg)",
+    "nota": "Declarar %VD por dosis diaria",
+    "fuente": "https://normograma.invima.gov.co/compilacion/docs/resolucion_minproteccion_3096_2007.htm"
+  },
+  {
+    "ingrediente": "Vitaminas liposolubles (A, D, E, K)",
+    "estatus_colombia": "Permitido con límite",
+    "limite_o_condicion": "Hasta el UL por dosis diaria (Res. 3096 cap. VIII). Valores exactos POR CONFIRMAR",
+    "nota": "Ojo: un producto con una sola vitamina como activo, si está en la norma farmacológica como 'suplemento vitamínico', no se acepta como SD (Decreto 3249) y pasaría a medicamento",
+    "fuente": "Res. 3096 de 2007; Decreto 3249 de 2006"
+  },
+  {
+    "ingrediente": "Cúrcuma (Curcuma longa)",
+    "estatus_colombia": "Fitoterapéutico/Vademécum",
+    "limite_o_condicion": "Planta en el listado de plantas medicinales aceptadas con fines terapéuticos; con claim terapéutico va como fitoterapéutico",
+    "nota": "Como ingrediente de SD sin claim terapéutico: POR CONFIRMAR. La curcumina aislada no cabe en fitoterapéutico (no admite activos aislados)",
+    "fuente": "https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SA/vademecum-colombiano-plantas-medicinales.pdf"
+  },
+  {
+    "ingrediente": "NAD+ / NMN (nicotinamida mononucleótido)",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin aceptación encontrada",
+    "nota": "Ingrediente nuevo. Requeriría evaluación de la SEPFSD. No encontré concepto ni registro",
+    "fuente": "Sin fuente oficial"
+  },
+  {
+    "ingrediente": "Creatina monohidrato",
+    "estatus_colombia": "Permitido con límite",
+    "limite_o_condicion": "Máximo 3 g/día",
+    "nota": "INVIMA ha negado dosis superiores por falta de evidencia en referentes. Existen SD registrados. La alerta 267-2026 sancionó creatinas registradas como alimento con claims deportivos. CONFIRMADO (fuente: búsqueda sobre documentos INVIMA)",
+    "fuente": "https://invima.gov.co/biblioteca/alerta-sanitaria-064-2025-creatina-pura-dragon-pharma"
+  },
+  {
+    "ingrediente": "Probióticos (Lactobacillus, Bifidobacterium, etc.)",
+    "estatus_colombia": "Permitido suplemento",
+    "limite_o_condicion": "Cepas identificadas y con UFC declaradas",
+    "nota": "La Res. 3096 incluye una declaración aceptada para probióticos. Hay SD registrados (por ejemplo Entero-Balance SD2022-0004656). CONFIRMADO",
+    "fuente": "https://normograma.invima.gov.co/compilacion/docs/resolucion_minproteccion_3096_2007.htm"
+  },
+  {
+    "ingrediente": "Psyllium (Plantago, ispágula)",
+    "estatus_colombia": "Permitido suplemento",
+    "limite_o_condicion": "Como fuente de fibra, sin claim laxante",
+    "nota": "Con claim laxante pasaría a fitoterapéutico (ispágula está en las plantas aprobadas). INFERENCIA",
+    "fuente": "https://www.latiendanaturista.com/vademecum/ispagula.htm"
+  },
+  {
+    "ingrediente": "Sea moss (Chondrus crispus / Gracilaria)",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin evidencia",
+    "nota": "Ojo con el contenido de yodo (UL) y metales pesados",
+    "fuente": "Sin fuente oficial"
+  },
+  {
+    "ingrediente": "Glutatión",
+    "estatus_colombia": "Por confirmar",
+    "limite_o_condicion": "Sin aceptación encontrada",
+    "nota": "Solo hay alertas por productos sin registro (217-2023, 277-2025)",
+    "fuente": "https://app.invima.gov.co/alertas/ckfinder/userfiles/files/ALERTAS%20SANITARIAS/medicamentos_pbiologicos/2025/SEPTIEMBRE/Alerta%20No%23277-2025%20-%20V-ITADOL,%20V-ASCULAX,%20V-GLUTATION%20Y%20V-ITALAY%20de%20marca%20VITAL%20HEALTH%20.pdf"
+  },
+  {
+    "ingrediente": "Colágeno hidrolizado",
+    "estatus_colombia": "Permitido suplemento",
+    "limite_o_condicion": "Como SD (con claims de la lista) o como alimento RSA/PSA (sin claims)",
+    "nota": "Existen ambas vías en el mercado. Un alimento no puede promocionarse con claims de suplemento (alertas 404-2023 y 267-2026)",
+    "fuente": "https://www.invima.gov.co/biblioteca/alerta-sanitaria-404-2023-colageno-hidrolizado-polvo"
+  },
+  {
+    "ingrediente": "Biotina",
+    "estatus_colombia": "Permitido con límite",
+    "limite_o_condicion": "Hasta el UL o el nivel aceptado por INVIMA",
+    "nota": "Ingrediente de uso común en SD de 'cabello, piel y uñas'. Claim tipo 'contribuye al mantenimiento del cabello en condiciones normales' si está en el listado de declaraciones (POR CONFIRMAR el texto exacto)",
+    "fuente": "https://www.invima.gov.co/biblioteca/download/144191"
+  }
+]
