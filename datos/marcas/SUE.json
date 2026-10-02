@@ -1,19 +1,20 @@
 {
   "categoria": "SUE",
   "nombre_categoria": "Sueño y estrés",
-  "problema": "El rebusque, el trabajo remoto y el trancón dejan a la gente prendida hasta tarde y sin un momento para desconectarse. El 69 % de los teletrabajadores colombianos reporta mala calidad del sueño y el 66,3 % de los colombianos ha tenido algún problema de salud mental (Encuesta Nacional de Salud Mental; reportes de prensa 2025-2026).",
+  "beneficio": "Dormir mejor y bajar el estrés",
+  "problema": "La gente se acuesta tarde, con la cabeza prendida por el trabajo, y no logra dormir. Se despierta cansada y estresada. El 69 % de los teletrabajadores colombianos duerme mal y el 66,3 % de los colombianos ha tenido algún problema de salud mental (Encuesta Nacional de Salud Mental; reportes de prensa 2025-2026).",
   "producto": {
-    "nombre_generico": "Bebida en polvo de magnesio + ashwagandha + L-teanina para la noche",
+    "nombre_generico": "Bebida en polvo para dormir profundo y bajar el estrés y el cortisol: magnesio + ashwagandha + L-teanina",
     "registro_base": "F07",
     "presentacion": "Sobre / stick",
     "formula_corta": "Complejo de magnesio (glicinato, bisglicinato, citrato, malato y taurato; unos 350 mg elementales) + ashwagandha KSM-66 + L-teanina 200 mg + vitamina B6 + vitamina D3 + zinc, con sabores como variedades",
-    "porque_en_colombia": "El colombiano ya conoce el magnesio, pero casi todo lo que hay en Dropi es cápsula; un stick de bebida tibia con ashwagandha y L-teanina, la combinación de los más vendidos en TikTok Shop, crea un ritual nocturno muy grabable en video y se diferencia de la competencia."
+    "porque_en_colombia": "El colombiano ya sabe que el magnesio sirve para dormir, pero en Dropi casi todo es cápsula. Un stick de bebida tibia con ashwagandha y L-teanina, la mezcla de los más vendidos en TikTok Shop para dormir y calmar la ansiedad, se ve muy bien en video y se diferencia de la competencia."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Noche",
-      "concepto": "La bebida de la noche de MAGNIFICA para cerrar el día con una rutina propia.",
-      "eslogan": "Tu ritual de la noche.",
+      "concepto": "La bebida de MAGNIFICA para dormir bien y soltar el estrés del día.",
+      "eslogan": "Duerme profundo esta noche.",
       "publico": "Mujeres de 28 a 50 años, mamás y trabajadoras con días largos.",
       "tono": "Cálido, sereno, confiable",
       "color": "#3B3A6B",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "PIJAMA",
-      "concepto": "Marca juvenil que convierte el momento de ponerse la pijama en un plan de autocuidado.",
-      "eslogan": "Ponte la pijama por dentro.",
+      "concepto": "Marca juvenil para los que no pueden dormir por estrés o por el celular.",
+      "eslogan": "Cae dormida en minutos.",
       "publico": "Jóvenes de 18 a 32 años, estudiantes y home office, muy de TikTok.",
       "tono": "Tierno, juguetón, acogedor",
       "color": "#9B8AFB",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "VELADA",
-      "concepto": "Marca premium de bienestar nocturno inspirada en las noches tranquilas y los rituales lentos.",
-      "eslogan": "La pausa que tu noche merece.",
+      "concepto": "Marca premium para dormir profundo y bajar el cortisol.",
+      "eslogan": "Menos estrés, sueño profundo.",
       "publico": "Adultos de 30 a 55 años, estrato medio-alto, que pagan por calidad.",
       "tono": "Elegante, pausado, sofisticado",
       "color": "#1F2A44",
       "color2": "#C8A96A"
     }
   ],
-  "angulo_venta": "Rutina de la noche: un stick en agua tibia al apagar el computador para relajarse, soltar el estrés del día y dormir mejor, con magnesio, ashwagandha y L-teanina.",
+  "angulo_venta": "Un stick en agua tibia antes de acostarse: te quita el estrés, calma la ansiedad y te duermes rápido. Duermes de corrido y te levantas descansada.",
   "ganchos_tiktok": [
-    "Mi ritual de las 9 p. m. cuando cierro el computador",
-    "Lo que tomo para desconectarme del trabajo cada noche",
-    "Magnesio en bebida tibia: así se ve mi noche ahora"
+    "Me dormía a la 1 de la mañana; ahora caigo a las 10 con esto",
+    "Lo que tomo para bajar el estrés y dormir de corrido",
+    "Magnesio con ashwagandha: se acabó el insomnio"
   ],
   "precio_cop": "$69.900 - $89.900",
   "estrategia_registro": "Un registro (F07) para las 3 marcas: MAGNIFICA Noche, PIJAMA y VELADA."

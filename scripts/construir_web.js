@@ -30,9 +30,9 @@ for (const f of fs.readdirSync(DIR_FM).filter((f) => /^clasificado_lote_\d+\.jso
 }
 
 const CATEGORIAS = {
-  DIG: 'Digestión', SUE: 'Sueño y estrés', ENE: 'Energía y gym', COL: 'Colágeno y antiedad', SXF: 'Salud femenina',
-  PES: 'Peso y metabolismo', CAB: 'Cabello, piel y uñas', INM: 'Inmunidad y vitaminas', COR: 'Corazón y circulación',
-  SXM: 'Masculino', PRO: 'Próstata', CER: 'Cerebro y concentración', ART: 'Articulaciones', BBL: 'Curvas', NIN: 'Niños',
+  DIG: 'Digestión, hinchazón y colon', SUE: 'Sueño, estrés y cortisol', ENE: 'Energía, músculo y gym', COL: 'Colágeno y antiedad', SXF: 'Salud íntima y libido femenina',
+  PES: 'Quemar grasa y bajar de peso', CAB: 'Cabello, piel y uñas', INM: 'Defensas y vitaminas', COR: 'Circulación y corazón',
+  SXM: 'Potencia sexual masculina', PRO: 'Próstata', CER: 'Cerebro y concentración', ART: 'Articulaciones y huesos', BBL: 'Aumentar glúteos y curvas', NIN: 'Niños',
 };
 const PRES = { Softgel: 'Cápsula blanda', 'Líquido/Shot': 'Líquido', 'Sachet/Stick': 'Sobre / stick', 'Té/Infusión': 'Té' };
 
@@ -69,7 +69,7 @@ for (const p of prod.values()) {
   const fam = asignacion[p.id];
   productos.push({
     id: p.id, n: c.nombre_corto || p.titulo, m: c.marca || p.tienda, r: p.region, cat: c.categoria,
-    v: PRES[c.vehiculo] || c.vehiculo || 'Otro', s: c.para_que_sirve || '', u: p.unid ?? null, w: p.sem ?? null,
+    v: PRES[c.vehiculo] || c.vehiculo || 'Otro', s: c.beneficio || c.para_que_sirve || '', u: p.unid ?? null, w: p.sem ?? null,
     c: p.crec ?? null, t: tendencia(p), f: famIds.has(fam) ? fam : null, url: p.url,
   });
 }
@@ -87,7 +87,7 @@ const registros = familias.map((f) => {
   const refs = [...base].sort((a, b) => (b.u ?? b.w ?? 0) - (a.u ?? a.w ?? 0))
     .filter((p) => { const k = p.n.toLowerCase(); if (vistos.has(k)) return false; vistos.add(k); return true; }).slice(0, 4).map((p) => p.id);
   return {
-    id: f.id, n: f.nombre, cat: f.categoria, pres: PRES[f.presentacion] || f.presentacion, formula: f.formula, desc: f.descripcion || '',
+    id: f.id, n: f.nombre, cat: f.categoria, pres: PRES[f.presentacion] || f.presentacion, formula: f.formula, desc: f.descripcion || '', ben: f.beneficio || '',
     us, mx, crec: crec == null ? null : Math.round(crec),
     t: crec == null ? 'sindato' : crec >= 10 ? 'sube' : crec <= -15 ? 'baja' : 'estable', refs, nprod: m.length,
   };

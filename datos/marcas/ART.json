@@ -1,19 +1,20 @@
 {
   "categoria": "ART",
   "nombre_categoria": "Articulaciones",
-  "problema": "El 48% de los adultos colombianos reporta dolor musculoesquelético no asociado a trauma, y las rodillas encabezan la lista con el 35%; la osteoartritis afecta al 10,81% de los mayores de 18 años (estudio COPCORD, Asociación Colombiana de Reumatología). La gente quiere seguir caminando, bailando y entrenando después de los 40 con articulaciones y huesos fuertes.",
+  "beneficio": "Quitar el dolor de rodillas",
+  "problema": "El 48% de los adultos colombianos tiene dolor de músculos y huesos, y la rodilla es lo que más duele (35%); la artrosis afecta al 10,81% de los mayores de 18 años (estudio COPCORD, Asociación Colombiana de Reumatología). La gente quiere quitarse el dolor de rodillas y seguir caminando, bailando y entrenando después de los 40.",
   "producto": {
-    "nombre_generico": "Fórmula articulaciones y huesos: glucosamina + condroitina + D3 + K2 + cúrcuma",
+    "nombre_generico": "Cápsula para quitar el dolor de rodillas y articulaciones y fortalecer los huesos: glucosamina + condroitina + D3 + K2 + cúrcuma",
     "registro_base": "F49",
     "presentacion": "Cápsula",
     "formula_corta": "Glucosamina + condroitina + cúrcuma (curcumina) + calcio + vitamina D3 + vitamina K2 + vitamina B12, en cápsula blanda",
-    "porque_en_colombia": "Combina los virales de articulaciones y huesos: Toyocare D3 + K2 (3.875 unidades en septiembre en México), Airboy D3 + K2 (2.043 unidades), Balincer (calcio + D3 + K2 + B12 + glucosamina + condroitina) y las gomitas de cúrcuma de Loving Tree. Es la fórmula completa que el público ya conoce y busca."
+    "porque_en_colombia": "Junta los virales para el dolor de rodillas y los huesos: Toyocare D3 + K2 (3.875 unidades en septiembre en México), Airboy D3 + K2 (2.043 unidades), Balincer (calcio + D3 + K2 + B12 + glucosamina + condroitina) y las gomitas de cúrcuma de Loving Tree. Se vende para desinflamar y quitar el dolor de rodillas y articulaciones. Es la fórmula que la gente ya conoce y busca."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Movi",
-      "concepto": "La línea de MAGNIFICA para mantenerse activo: una cápsula blanda con glucosamina, condroitina, cúrcuma y vitaminas D3 y K2.",
-      "eslogan": "Huesos y músculos listos para moverte.",
+      "concepto": "La línea de MAGNIFICA para quitar el dolor de rodillas: una cápsula con glucosamina, condroitina, cúrcuma y vitaminas D3 y K2.",
+      "eslogan": "Rodillas que no duelen.",
       "publico": "Mujeres y hombres de 40 a 65 años que caminan, bailan o hacen ejercicio suave",
       "tono": "cálido, activo, confiable",
       "color": "#F77F00",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "PA'LANTE",
-      "concepto": "Marca alegre y criolla para los que no se quedan quietos: deportistas de fin de semana, salseros y caminantes.",
-      "eslogan": "Pa'lante siempre, a tu ritmo.",
+      "concepto": "Marca alegre y criolla para los que no quieren que el dolor los deje quietos: deportistas de fin de semana, salseros y caminantes.",
+      "eslogan": "Pa'lante, que las rodillas ya no duelen.",
       "publico": "Adultos de 30 a 55 años activos en redes, e hijos que compran para sus papás",
       "tono": "alegre, enérgico, criollo",
       "color": "#EF233C",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "SOLMAR",
-      "concepto": "Marca premium y natural que une el sol (vitamina D3), la cúrcuma y la glucosamina en una cápsula.",
-      "eslogan": "El sol y el mar, en una cápsula.",
+      "concepto": "Marca premium natural con vitamina D3, cúrcuma y glucosamina para desinflamar las articulaciones y fortalecer los huesos.",
+      "eslogan": "Articulaciones desinflamadas, huesos fuertes.",
       "publico": "Adultos de 45 a 65 años, estratos 4 a 6, enfocados en envejecer activos",
       "tono": "sereno, natural, premium",
       "color": "#0077B6",
       "color2": "#F4A261"
     }
   ],
-  "angulo_venta": "Mostrar a adultos de 40 o más caminando, bailando o subiendo escaleras con su rutina de una cápsula: glucosamina, condroitina y cúrcuma para las articulaciones, y vitaminas D3 y K2 para huesos fuertes. Hablar de movimiento, rodillas que acompañan y estilo de vida activo.",
+  "angulo_venta": "Adultos de 40 o más que antes no podían subir escaleras y ahora caminan y bailan: glucosamina, condroitina y cúrcuma para desinflamar y quitar el dolor de rodillas y articulaciones, y vitaminas D3 y K2 para huesos fuertes. Hablar del dolor que se va y de volver a moverse.",
   "ganchos_tiktok": [
-    "A los 50 sigo bailando salsa: esta es mi rutina para las rodillas.",
-    "Glucosamina, cúrcuma, D3 y K2 en una sola cápsula.",
-    "Lo que mi mamá y yo tomamos antes de salir a caminar."
+    "A los 50 me dolían las rodillas. Hoy vuelvo a bailar salsa.",
+    "Si te duelen las rodillas al subir escaleras, mira esto.",
+    "Lo que mi mamá toma para quitarse el dolor de rodillas."
   ],
   "precio_cop": "$69.900 - $89.900",
   "estrategia_registro": "Un registro (F49) para las 3 marcas: MAGNIFICA Movi, PA'LANTE y SOLMAR."

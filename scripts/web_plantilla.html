@@ -100,6 +100,7 @@ main{padding-block:32px 80px}
 .reg .fotos{display:flex}
 .reg .fotos img{width:58px;height:58px;border-radius:14px;object-fit:cover;border:3px solid var(--surface);background:#fff;margin-right:-14px}
 .reg h3{font-size:21px}
+.ben{display:inline-block;margin-top:8px;background:var(--accent-soft);color:var(--accent);font-weight:700;font-size:14px;padding:4px 10px;border-radius:8px;line-height:1.3}
 .reg .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .mini{display:grid;grid-template-columns:auto 1fr auto;gap:6px 10px;align-items:center;font-size:13px;color:var(--muted)}
 .mini .t{height:8px;background:var(--surface2);border-radius:99px;overflow:hidden}
@@ -333,7 +334,7 @@ function tarjetaRegistro(r, i = 0) {
   const max = Math.max(...D.registros.map((x) => Math.max(x.us, x.mx)));
   return `<button class="reg" data-reg="${r.id}" style="--i:${i}">
     <div class="fila"><div class="fotos">${r.refs.slice(0, 3).map((id) => img(id)).join('')}</div><span class="despues">${r.id}</span></div>
-    <div><p class="eyebrow">${esc(catNombre(r.cat))}</p><h3 style="margin-top:6px">${esc(r.n)}</h3></div>
+    <div><p class="eyebrow">${esc(catNombre(r.cat))}</p><h3 style="margin-top:6px">${esc(r.n)}</h3>${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}</div>
     <div class="meta"><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
     <div class="mini"><span>EE. UU.</span><span class="t"><i style="--w:${(r.us / max * 100).toFixed(1)}%"></i></span><span class="mono">${fmt(r.us)}</span>
       <span>México</span><span class="t"><i class="mx" style="--w:${(r.mx / max * 100).toFixed(1)}%"></i></span><span class="mono">${fmt(r.mx)}</span></div>
@@ -392,7 +393,7 @@ function vistaMarcas() {
       <p>Cada producto se apoya en un registro del plan. Las tres marcas pueden ir sobre ese mismo registro.</p></div>
       <div class="galeria stag">${D.marcas.map((m, i) => `<button class="gcard" data-marca="${m.categoria}" style="--i:${i}">
         <div class="mocks">${m.marcas.map((b) => mock(m.producto.presentacion, b.color, b.color2, b.nombre, cantidad(m.producto.presentacion))).join('')}</div>
-        <div><p class="eyebrow">${esc(m.nombre_categoria)} · ${esc(m.producto.presentacion)}</p><h3 style="margin-top:6px">${esc(m.producto.nombre_generico)}</h3></div>
+        <div><p class="eyebrow">${esc(catNombre(m.categoria))} · ${esc(m.producto.presentacion)}</p><h3 style="margin-top:6px">${esc(m.producto.nombre_generico)}</h3>${m.beneficio ? `<span class="ben">${esc(m.beneficio)}</span>` : ''}</div>
         <p class="nombres">${m.marcas.map((b) => `<b style="color:var(--ink)">${esc(b.nombre)}</b>`).join(' · ')}</p></button>`).join('')}</div>`;
   }
   const m = marcaDe(estado.marcaCat);
@@ -406,7 +407,7 @@ function vistaMarcas() {
         <p class="nota" style="text-align:center">Empaque ilustrativo. Las 3 marcas comparten el mismo registro.</p>
       </div>
       <div class="info">
-        <p class="eyebrow">${esc(m.nombre_categoria)} · Opción ${estado.marcaIdx + 1} de ${m.marcas.length}</p>
+        <p class="eyebrow">${esc(catNombre(m.categoria))} · Opción ${estado.marcaIdx + 1} de ${m.marcas.length}</p>${m.beneficio ? `<span class="ben" style="justify-self:start">${esc(m.beneficio)}</span>` : ''}
         <h2 class="nombre">${esc(b.nombre)}</h2>
         <p class="eslogan">“${esc(b.eslogan)}”</p>
         <p>${esc(b.concepto)}</p>
@@ -427,7 +428,7 @@ function abrirRegistro(id) {
   const dlg = $('#modal');
   dlg.innerHTML = `<div class="modal"><button class="cerrar" aria-label="Cerrar" data-cerrar>×</button>
     <div><div class="meta" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><span class="despues">${r.id}</span><span class="pill">${esc(catNombre(r.cat))}</span><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
-      <h2 id="modal-titulo" style="margin-top:14px">${esc(r.n)}</h2></div>
+      <h2 id="modal-titulo" style="margin-top:14px">${esc(r.n)}</h2>${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}</div>
     <div class="bloque"><h4>Fórmula (lo que lleva)</h4><p>${esc(r.formula)}</p>${r.desc ? `<p class="nota" style="margin-top:8px">${esc(r.desc)}</p>` : ''}</div>
     <div class="dos"><div class="bloque"><h4>Ventas en septiembre</h4><p><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.us)}</span> EE. UU.<br><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.mx)}</span> México</p></div>
       <div class="bloque"><h4>Marcas en este registro</h4><p>MAGNIFICA + 2 marcas.${marcasAqui.length ? ' Propuestas: ' + marcasAqui.flatMap((m) => m.marcas.map((b) => `<b>${esc(b.nombre)}</b>`)).join(', ') + '.' : ''}</p></div></div>

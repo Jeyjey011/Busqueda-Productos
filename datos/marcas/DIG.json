@@ -1,19 +1,20 @@
 {
   "categoria": "DIG",
   "nombre_categoria": "Digestión",
-  "problema": "El colombiano come pesado, a deshoras y con estrés, y vive con la sensación de llenura y pesadez después de comer. Un estudio poblacional en Bucaramanga encontró síntomas compatibles con colon irritable en el 19,9 % de los adultos, una de las cifras más altas de América Latina (Roma III, Rev. Esp. Enferm. Dig.), y la Liga Colombiana contra el Cáncer reporta molestias gástricas en 8 de cada 10 personas.",
+  "beneficio": "Quitar la hinchazón del vientre",
+  "problema": "El colombiano come pesado, a deshoras y con estrés. Después de comer queda inflado, lleno de gases y con el estómago pesado. En Bucaramanga, el 19,9 % de los adultos tiene síntomas de colon irritable, una de las cifras más altas de América Latina (Roma III, Rev. Esp. Enferm. Dig.). La Liga Colombiana contra el Cáncer dice que 8 de cada 10 personas tienen molestias de estómago.",
   "producto": {
-    "nombre_generico": "Probióticos 60 mil millones + 16 enzimas digestivas",
+    "nombre_generico": "Cápsula para desinflamar el vientre, quitar los gases y mejorar la digestión: probióticos 60 mil millones + 16 enzimas digestivas",
     "registro_base": "F03",
     "presentacion": "Cápsula",
     "formula_corta": "Probióticos multicepa 60.000 millones de UFC (10 cepas: L. acidophilus, L. rhamnosus, L. plantarum, B. lactis y otras) + 16 enzimas digestivas (proteasa, amilasa, lipasa, lactasa, bromelina, papaína, alfa-galactosidasa) + fibra prebiótica (inulina) + jengibre y hoja de menta",
-    "porque_en_colombia": "Une los dos productos digestivos que más se buscan (probiótico y enzima) en una sola cápsula diaria, igual que los más vendidos de TikTok Shop, fácil de maquilar y de enviar por Dropi. La cápsula da sensación de producto serio y permite un precio de rango medio con buen margen."
+    "porque_en_colombia": "Mete en una sola cápsula lo que más se busca para la barriga: probiótico y enzimas. Así son los más vendidos de TikTok Shop para quitar la hinchazón. Es fácil de maquilar y de enviar por Dropi, se ve como producto serio y deja buen margen a precio medio."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Digest",
-      "concepto": "La línea digestiva de la casa MAGNIFICA, confiable y para toda la familia.",
-      "eslogan": "Digestión ligera después de comer.",
+      "concepto": "La cápsula de MAGNIFICA para desinflamar la barriga y digerir bien. Para toda la familia.",
+      "eslogan": "Chao barriga inflada.",
       "publico": "Mujeres y hombres de 30 a 55 años que ya compran MAGNIFICA por WhatsApp.",
       "tono": "Cercano, confiable, claro",
       "color": "#2E7D5B",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "GUTI",
-      "concepto": "Una marca con nombre de apodo que habla de la barriga sin pena y con humor.",
-      "eslogan": "Tu barriga te lo va a agradecer.",
+      "concepto": "Marca joven y chistosa para los que viven con gases y la barriga inflada después de comer.",
+      "eslogan": "Desínflate ya.",
       "publico": "Jóvenes de 18 a 30 años que ven TikTok y comen por fuera.",
       "tono": "Divertido, desparpajado, amigable",
       "color": "#FF7A59",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "BIOMÍA",
-      "concepto": "Marca natural y premium que presenta la microbiota como algo propio que se cuida a diario.",
-      "eslogan": "Cuida tu microbiota, cuida tu día.",
+      "concepto": "Marca natural y premium para tener el vientre plano y el intestino al día.",
+      "eslogan": "Vientre plano, digestión ligera.",
       "publico": "Mujeres de 28 a 50 años, estrato medio-alto, que compran en tiendas naturistas.",
       "tono": "Sereno, natural, experto",
       "color": "#5B7F6B",
       "color2": "#EDE6DA"
     }
   ],
-  "angulo_venta": "Ritual de una cápsula con el almuerzo para sentir la barriga liviana y seguir el día con energía: probióticos, enzimas, jengibre y menta en un solo paso.",
+  "angulo_venta": "Una cápsula con el almuerzo y se acaba la barriga inflada. Menos gases, menos pesadez y mejor digestión desde la primera semana. Vientre plano después de comer.",
   "ganchos_tiktok": [
-    "Lo que tomo después del corrientazo para seguir trabajando liviana",
-    "Mi barriga y yo hicimos las paces con esta cápsula",
-    "Probióticos y enzimas en una sola cápsula: te explico por qué"
+    "Así se me deshinchó la barriga después del corrientazo",
+    "Vivía inflada todo el día hasta que empecé con esta cápsula",
+    "Gases, pesadez y barriga de embarazada: esto me lo quitó"
   ],
   "precio_cop": "$79.900 - $99.900",
   "estrategia_registro": "Un registro (F03) para las 3 marcas: MAGNIFICA Digest, GUTI y BIOMÍA."

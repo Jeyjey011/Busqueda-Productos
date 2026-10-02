@@ -1,19 +1,20 @@
 {
   "categoria": "COR",
   "nombre_categoria": "Corazón y circulación",
-  "problema": "Las enfermedades isquémicas del corazón son la primera causa de muerte en Colombia, con el 17,2 % de las defunciones en 2025 (DANE, cifras preliminares), y el colombiano adulto vive con trancón, sedentarismo y poco tiempo para entrenar. Mucha gente quiere sentirse con más energía para moverse y volver a la actividad física, pero la remolacha natural no le gusta por su sabor a tierra.",
+  "beneficio": "Mejor circulación y bajar la presión",
+  "problema": "Las enfermedades del corazón son la primera causa de muerte en Colombia: 17,2 % de las muertes en 2025 (DANE, cifras preliminares). El adulto vive en trancón, sentado y no tiene tiempo para entrenar: mala circulación, piernas pesadas, presión alta y nada de energía. Y el jugo de remolacha no le gusta por el sabor a tierra.",
   "producto": {
-    "nombre_generico": "Remolacha con óxido nítrico (citrulina y arginina)",
+    "nombre_generico": "Remolacha con óxido nítrico para mejorar la circulación, bajar la presión y rendir más",
     "registro_base": "F11",
     "presentacion": "Cápsula",
     "formula_corta": "Raíz de remolacha (fuente de nitratos) + L-citrulina + L-arginina + vitamina C + niacina, en cápsula",
-    "porque_en_colombia": "La remolacha ya es un alimento familiar y bien visto en Colombia (jugos, ensaladas), así que el producto se entiende al instante. En cápsula elimina el sabor que nadie quiere y encaja con el auge de caminar, trotar y montar bici en las ciudades."
+    "porque_en_colombia": "La remolacha ya es conocida en Colombia (jugos, ensaladas), así que se entiende al instante. En cápsula se quita el sabor a tierra. El óxido nítrico abre las venas: mejor circulación, presión más baja y más aguante para caminar, trotar o montar bici."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Raíz",
-      "concepto": "La remolacha de la línea MAGNIFICA, con vitamina C y niacina para el adulto activo que quiere un día con más energía.",
-      "eslogan": "La fuerza de la raíz, en tu rutina.",
+      "concepto": "La remolacha de MAGNIFICA para el adulto que quiere mejor circulación, la presión controlada y energía para moverse.",
+      "eslogan": "Mejor circulación desde la raíz.",
       "publico": "Adultos de 35 a 60 años que caminan, trotan o quieren retomar la actividad física",
       "tono": "Confiable, vital, sencillo",
       "color": "#A3123A",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "Beetz",
-      "concepto": "Marca juvenil y urbana de remolacha en cápsula para el que entrena, monta bici o baila y no se toma un jugo de remolacha ni obligado.",
-      "eslogan": "Toda la remolacha, cero sabor a tierra.",
+      "concepto": "Remolacha en cápsula para el que entrena: más bombeo, más aguante y cero sabor a tierra.",
+      "eslogan": "Más aguante, cero sabor a tierra.",
       "publico": "Jóvenes de 18 a 35 años que van al gimnasio, hacen ciclismo urbano o siguen contenido fitness en TikTok",
       "tono": "Enérgico, urbano, divertido",
       "color": "#D6006F",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "Granate",
-      "concepto": "Marca premium de raíz de remolacha y aminoácidos, con estética de etiqueta limpia y el rojo profundo de la remolacha como sello.",
-      "eslogan": "Rojo profundo, ritmo constante.",
+      "concepto": "Remolacha premium con aminoácidos para cuidar el corazón, bajar la presión y mejorar la circulación.",
+      "eslogan": "Corazón fuerte, sangre que fluye.",
       "publico": "Profesionales de 35 a 60 años que cuidan su alimentación y compran en tiendas de bienestar",
       "tono": "Elegante, natural, sereno",
       "color": "#7B1E3A",
       "color2": "#C9A227"
     }
   ],
-  "angulo_venta": "Vender la remolacha como el superalimento rojo de siempre, ahora en cápsula y sin sabor, con citrulina y arginina para sentirse con más energía, mejor circulación y más ganas de moverse.",
+  "angulo_venta": "La remolacha de siempre, en cápsula y con citrulina y arginina para subir el óxido nítrico: mejor circulación, presión más baja, piernas menos pesadas y más aguante en el ejercicio.",
   "ganchos_tiktok": [
-    "Odio el jugo de remolacha, así que hice esto",
-    "Mi rutina antes de salir a montar bici a las cinco",
-    "El superalimento rojo de la abuela, versión cápsula"
+    "Odio el jugo de remolacha, así que tomo esto para la presión",
+    "Más aguante en la bici con remolacha en cápsula",
+    "Piernas pesadas y manos frías: así mejoré la circulación"
   ],
   "precio_cop": "$74.900 - $94.900",
   "estrategia_registro": "Un registro (F11) para las 3 marcas: MAGNIFICA Raíz, Beetz y Granate."

@@ -1,19 +1,20 @@
 {
   "categoria": "INM",
   "nombre_categoria": "Inmunidad y vitaminas",
-  "problema": "Aunque Colombia es un país tropical, buena parte de la gente vive en oficina, en carro o en ciudades nubladas y casi no recibe sol: hasta el 60 % de la población tendría niveles bajos de vitamina D (Universidad Nacional, citado por Infobae 2024). Además, el pescado azul casi no está en la dieta diaria, así que el omega 3 también queda corto y la gente compra tres frascos separados sin saber cuál tomar.",
+  "beneficio": "Subir las defensas y fortalecer huesos",
+  "problema": "Mucha gente en Colombia vive en oficina, en carro o en ciudades nubladas y casi no recibe sol. Hasta el 60 % de la población tendría la vitamina D baja (Universidad Nacional, citado por Infobae 2024). Eso se nota en cansancio, defensas bajas y huesos débiles. Además, casi nadie come pescado azul, así que falta omega 3. La gente compra tres frascos por separado y no sabe cuál tomar.",
   "producto": {
-    "nombre_generico": "Vitamina D3 + K2 + omega 3 (3 en 1)",
+    "nombre_generico": "Vitamina D3 + K2 + omega 3 para subir defensas, energía y huesos fuertes (3 en 1)",
     "registro_base": "F15",
     "presentacion": "Cápsula blanda",
     "formula_corta": "Vitamina D3 + vitamina K2 MK-7 + omega 3 (EPA + DHA) en aceite MCT, en cápsula blanda",
-    "porque_en_colombia": "Une en un solo frasco dos compras que el colombiano ya hace por separado (vitamina D y omega 3), con un mensaje simple de 'tu vitamina del sol en una cápsula'. La cápsula blanda es fácil de tragar y se ve premium en video."
+    "porque_en_colombia": "Junta en un solo frasco la vitamina D y el omega 3 que la gente ya compra por separado. Mensaje simple: tu vitamina del sol en una cápsula para subir las defensas, quitar el cansancio y fortalecer los huesos. La cápsula blanda es fácil de tragar y se ve premium en video."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Sol",
-      "concepto": "La vitamina del sol de la línea MAGNIFICA, 3 en 1 para la rutina diaria de toda la familia adulta.",
-      "eslogan": "Tu dosis de sol, todos los días.",
+      "concepto": "La vitamina del sol de MAGNIFICA: una cápsula al día para subir las defensas, tener energía y huesos fuertes.",
+      "eslogan": "Más defensas con tu dosis de sol.",
       "publico": "Adultos de 30 a 55 años que ya conocen MAGNIFICA y trabajan en oficina o en casa",
       "tono": "Confiable, cálido, cercano",
       "color": "#F5A300",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "Solazo",
-      "concepto": "Marca juvenil para el que vive encerrado entre el computador y el celular y no ve el sol ni de lejitos.",
-      "eslogan": "El solazo que tu oficina no te da.",
+      "concepto": "Para el que vive encerrado frente al computador y no ve el sol: repone la vitamina D, sube las defensas y quita el cansancio.",
+      "eslogan": "El sol que te falta, en una cápsula.",
       "publico": "Jóvenes de 20 a 35 años, teletrabajadores, estudiantes y gamers en TikTok",
       "tono": "Divertido, fresco, irreverente",
       "color": "#FF6B1A",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "Abisal",
-      "concepto": "Marca premium inspirada en el mar profundo: omega 3 de origen marino con D3 y K2, etiqueta limpia y estética minimalista.",
-      "eslogan": "Del mar profundo a tu rutina.",
+      "concepto": "Omega 3 marino premium con D3 y K2 para el corazón, las defensas y los huesos.",
+      "eslogan": "Del mar profundo a tu corazón.",
       "publico": "Profesionales de 35 a 60 años, deportistas recreativos y compradores de tiendas naturistas y de bienestar",
       "tono": "Sobrio, experto, natural",
       "color": "#0A3D62",
       "color2": "#3EC1D3"
     }
   ],
-  "angulo_venta": "Mostrar la vida real sin sol (oficina, trancón, pantalla) y presentar una sola cápsula al día que reúne vitamina D, K2 y omega 3 para sentirse con energía, defensas en forma y huesos fuertes.",
+  "angulo_venta": "Mostrar la vida real encerrado (oficina, trancón, pantalla) y vender una sola cápsula al día que repone la vitamina D: sube las defensas, quita el cansancio y fortalece los huesos. El omega 3 cuida el corazón y la K2 lleva el calcio a los huesos.",
   "ganchos_tiktok": [
-    "¿Cuántas horas de sol te dio hoy tu oficina?",
-    "Tres frascos en uno: lo que llevo en mi rutina diaria",
-    "Vives en Colombia y aun así te falta sol, te explico"
+    "Me enfermaba cada mes hasta que me revisé la vitamina D",
+    "Tres frascos en uno: defensas, huesos y corazón",
+    "Vives en Colombia y te falta sol: por eso andas cansado"
   ],
   "precio_cop": "$69.900 - $89.900",
   "estrategia_registro": "Un registro (F15) para las 3 marcas: MAGNIFICA Sol, Solazo y Abisal."

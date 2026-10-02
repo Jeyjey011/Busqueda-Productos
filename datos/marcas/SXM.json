@@ -1,19 +1,20 @@
 {
   "categoria": "SXM",
   "nombre_categoria": "Masculino",
-  "problema": "El hombre colombiano de 25 a 50 años vive del rebusque y de jornadas largas: 7 de cada 10 nuevos empleos son por cuenta propia y el cansancio diario es la queja de siempre. Busca algo natural que le dé energía, vitalidad y aguante para todo el día.",
+  "beneficio": "Potencia sexual y erecciones firmes",
+  "problema": "El hombre colombiano de 25 a 50 años vive del rebusque y de jornadas largas: 7 de cada 10 nuevos empleos son por cuenta propia. Llega cansado, con la libido en el piso y con erecciones que ya no son como antes. Quiere algo natural que le suba la testosterona, la potencia sexual y el aguante en la cama.",
   "producto": {
-    "nombre_generico": "Maca con tongkat ali, ashwagandha y shilajit",
+    "nombre_generico": "Maca con tongkat ali, ashwagandha y shilajit para potencia sexual, erecciones firmes y más testosterona",
     "registro_base": "F24",
     "presentacion": "Cápsula",
     "formula_corta": "Maca andina + tongkat ali + ashwagandha + shilajit + ginseng + L-arginina + L-citrulina + zinc + selenio + vitamina B12, en cápsula",
-    "porque_en_colombia": "La maca es conocida y querida en Colombia, y la combinación viral de EE. UU. (maca, tongkat ali, ashwagandha y shilajit) todavía no tiene una marca local fuerte. El ángulo de energía y vitalidad para el que trabaja duro conecta con el rebusque."
+    "porque_en_colombia": "La maca ya es conocida en Colombia como potenciador sexual. El combo viral de EE. UU. (maca, tongkat ali, ashwagandha y shilajit) sube la testosterona y la libido y da erecciones más firmes, y todavía no tiene una marca local fuerte. La arginina y la citrulina llevan más sangre al pene."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Andino",
-      "concepto": "La línea masculina de MAGNIFICA: maca andina con zinc, selenio y B12 para el hombre que no para en todo el día.",
-      "eslogan": "Energía andina para tu jornada.",
+      "concepto": "El potenciador sexual de MAGNIFICA: maca con tongkat ali para más testosterona, más libido y erecciones firmes.",
+      "eslogan": "Potencia andina en la cama.",
       "publico": "Hombres de 30 a 55 años, trabajadores y padres de familia que ya confían en MAGNIFICA",
       "tono": "Sólido, honesto, cercano",
       "color": "#1F4E79",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "Camello",
-      "concepto": "Marca juvenil para el que camella: el domiciliario, el emprendedor, el que estudia y trabaja y necesita llegar entero al final del día.",
-      "eslogan": "Pa' los que camellan duro.",
+      "concepto": "Para el que camella todo el día y aun así quiere rendir en la cama: energía, libido y erecciones firmes.",
+      "eslogan": "Camellas duro, rindes duro.",
       "publico": "Hombres de 20 a 35 años, emprendedores, domiciliarios y estudiantes que trabajan, audiencia de TikTok",
       "tono": "Parcero, motivador, auténtico",
       "color": "#E85D04",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "Puna",
-      "concepto": "Marca premium y natural que nace del altiplano andino donde crece la maca, con estética de tierra, piedra y montaña.",
-      "eslogan": "La fuerza tranquila de la altura.",
+      "concepto": "Potenciador sexual natural y premium con maca y shilajit del altiplano: más testosterona, más deseo y erecciones firmes.",
+      "eslogan": "La fuerza de la altura, también en la cama.",
       "publico": "Hombres de 35 a 60 años, profesionales que buscan ingredientes naturales y compran en tiendas de bienestar",
       "tono": "Sereno, natural, premium",
       "color": "#5C3D2E",
       "color2": "#8DB596"
     }
   ],
-  "angulo_venta": "Hablarle al hombre trabajador desde la energía y la vitalidad: maca andina con tongkat ali, ashwagandha y shilajit para llegar entero al final de la jornada y con ganas de todo.",
+  "angulo_venta": "Hablarle claro al hombre: más testosterona, más libido, erecciones más firmes y más aguante en la cama. Maca, tongkat ali y shilajit suben la testosterona; la arginina y la citrulina llevan más sangre al pene.",
   "ganchos_tiktok": [
-    "Día de doce horas en la moto y así llego",
-    "Lo que tomo antes de abrir el negocio a las seis",
-    "Maca, tongkat ali y shilajit: el combo viral para hombres"
+    "Doce horas en la moto y así rindo en la cama",
+    "Maca, tongkat ali y shilajit: el combo viral para la potencia sexual",
+    "Si a los 40 ya no es igual en la cama, mira esto"
   ],
   "precio_cop": "$69.900 - $89.900",
   "estrategia_registro": "Un registro (F24) para las 3 marcas: MAGNIFICA Andino, Camello y Puna."

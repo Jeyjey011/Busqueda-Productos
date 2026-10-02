@@ -1,19 +1,20 @@
 {
   "categoria": "ENE",
   "nombre_categoria": "Energía y gym",
-  "problema": "El gimnasio se volvió parte de la identidad de los jóvenes colombianos, pero la creatina importada es cara y difícil de conseguir original. Hay espacio para una marca local, confiable y a buen precio que acompañe la rutina diaria de entreno.",
+  "beneficio": "Ganar músculo y fuerza",
+  "problema": "Los jóvenes colombianos van al gimnasio para ganar músculo y verse marcados, pero la creatina importada es cara y difícil de conseguir original. Hay espacio para una marca local, confiable y barata para crecer en el gym.",
   "producto": {
-    "nombre_generico": "Creatina monohidrato micronizada 5 g con colágeno y BCAA",
+    "nombre_generico": "Creatina para ganar músculo, fuerza y volumen: monohidrato micronizada 5 g con colágeno y BCAA",
     "registro_base": "F05",
     "presentacion": "Polvo",
     "formula_corta": "Creatina monohidrato micronizada 5 g + colágeno hidrolizado 5 g + BCAA 2:1:1 2 g + myo-inositol 500 mg + maca + vitamina D3, sin sabor y con sabores como variedades",
-    "porque_en_colombia": "Es el suplemento de gimnasio con más búsqueda y recompra, y las versiones con colágeno, BCAA y maca son las que hoy explotan en TikTok Shop; el polvo en tarro es el formato que el gimnasio colombiano reconoce y es fácil de maquilar."
+    "porque_en_colombia": "Es el suplemento de gimnasio más buscado y que más se recompra para ganar músculo. Las versiones con colágeno, BCAA y maca son las que explotan en TikTok Shop. El polvo en tarro es el formato que el gimnasio colombiano conoce y es fácil de maquilar."
   },
   "marcas": [
     {
       "nombre": "MAGNÍFICO Fuerza",
-      "concepto": "La versión masculina de la casa MAGNIFICA para el gimnasio, con respaldo de marca conocida.",
-      "eslogan": "Fuerza en cada serie.",
+      "concepto": "La creatina de MAGNIFICA para ganar músculo y fuerza en el gimnasio.",
+      "eslogan": "Más fuerza, más músculo.",
       "publico": "Hombres y mujeres de 20 a 40 años que entrenan 3 o más veces por semana.",
       "tono": "Directo, sólido, motivador",
       "color": "#111111",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "VOLTIO",
-      "concepto": "Marca juvenil eléctrica para la generación que graba su rutina de gimnasio.",
-      "eslogan": "Carga tu entreno.",
+      "concepto": "Marca juvenil para crecer rápido y levantar más en el gym.",
+      "eslogan": "Crece en cada entreno.",
       "publico": "Jóvenes de 18 a 28 años, gym bros y gym girls de TikTok.",
       "tono": "Enérgico, atrevido, urbano",
       "color": "#00E0FF",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "TEMPLE",
-      "concepto": "Marca premium y minimalista sobre la disciplina y el carácter que se construyen entrenando.",
-      "eslogan": "El carácter también se entrena.",
+      "concepto": "Marca premium de creatina pura para ganar masa muscular y rendir más.",
+      "eslogan": "Músculo que se nota.",
       "publico": "Deportistas de 25 a 45 años que leen etiquetas y pagan por pureza.",
       "tono": "Sobrio, disciplinado, premium",
       "color": "#2B2D42",
       "color2": "#EDF2F4"
     }
   ],
-  "angulo_venta": "Una cucharada de 5 g al día, todos los días, para más fuerza en cada serie, mejor recuperación y un cuerpo que se nota entreno tras entreno.",
+  "angulo_venta": "Una cucharada de 5 g al día y levantas más peso, ganas músculo más rápido y te recuperas mejor. El cambio en el cuerpo se nota.",
   "ganchos_tiktok": [
-    "Creatina original y a buen precio: así la reconoces en dos minutos",
-    "Lo que nadie te dice de cargar creatina: no hace falta",
-    "Mi única regla con la creatina: todos los días, 5 gramos"
+    "Cómo gané 4 kilos de músculo con creatina en 2 meses",
+    "Si quieres crecer en el gym, esto es lo primero que debes tomar",
+    "Levanto más peso desde que tomo 5 gramos al día"
   ],
   "precio_cop": "$79.900 - $109.900",
   "estrategia_registro": "Un registro (F05) para las 3 marcas: MAGNÍFICO Fuerza, VOLTIO y TEMPLE."

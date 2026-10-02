@@ -6,15 +6,17 @@
    "categoria": "SUE",
    "presentacion": "Cápsula",
    "formula": "Magnesio complejo de 7 a 12 formas (glicinato, bisglicinato, citrato, malato, taurato, L-treonato, aspartato, orotato, óxido) 1.000 mg de sales (~400 mg de magnesio elemental) + complejo B, vitaminas D3 y K2, biotina, inositol y ashwagandha 150 mg en la versión para mujer.",
-   "descripcion": "Magnesio multiforma para descanso, calambres y estrés, para adultos que buscan el 'magnesium complex' viral."
+   "descripcion": "Para dormir mejor, quitar calambres y bajar el estrés; lo toman adultos cansados y con mal sueño.",
+   "beneficio": "Dormir mejor y quitar calambres"
   },
   {
    "id": "F02",
-   "nombre": "Probiótico femenino en gomita",
+   "nombre": "Probiótico vaginal (pH y olor íntimo) en gomita",
    "categoria": "SXF",
    "presentacion": "Gomita",
    "formula": "Lactobacillus (4 cepas) o Bacillus coagulans 1.000-2.000 millones UFC + olmo resbaladizo 50-100 mg + prebiótico XOS 500 mg + piña, espino amarillo y vitaminas C y D; versión libido con complejo S7, ashwagandha, maca y epimedium.",
-   "descripcion": "Gomita de probióticos íntimos para mujeres que buscan pH vaginal equilibrado, frescura y bienestar 'Juicy'."
+   "descripcion": "Para equilibrar el pH vaginal, quitar el mal olor íntimo y la resequedad; la toman mujeres adultas.",
+   "beneficio": "pH vaginal y olor íntimo"
   },
   {
    "id": "F03",
@@ -22,15 +24,17 @@
    "categoria": "DIG",
    "presentacion": "Cápsula",
    "formula": "Probióticos multicepa 50.000-60.000 millones UFC + 16 enzimas digestivas (amilasa, proteasa, lipasa, lactasa, bromelina, papaína) + prebiótico (inulina/FOS) + jengibre y menta; kit de 15 días con mezcla herbal digestiva.",
-   "descripcion": "Cápsula digestiva para adultos con hinchazón, gases o digestión pesada."
+   "descripcion": "Para quitar la hinchazón, los gases y la digestión pesada; la toman adultos con el vientre inflamado.",
+   "beneficio": "Quitar hinchazón y gases"
   },
   {
    "id": "F04",
-   "nombre": "Creatina + colágeno para mujer en polvo",
+   "nombre": "Creatina + colágeno para mujer (glúteos y tono) en polvo",
    "categoria": "ENE",
    "presentacion": "Polvo",
    "formula": "Creatina monohidrato 3-5 g + colágeno hidrolizado (Verisol) 5 g + myo-inositol + BCAA + L-glutamina + maca + ácido hialurónico + vitamina D3 por porción, en tarro o stick.",
-   "descripcion": "Creatina con colágeno pensada para mujeres que entrenan y buscan tono, glúteos y piel."
+   "descripcion": "Para tonificar, aumentar glúteos y mejorar la piel; la toman mujeres que entrenan.",
+   "beneficio": "Aumentar glúteos y tonificar"
   },
   {
    "id": "F05",
@@ -38,7 +42,8 @@
    "categoria": "ENE",
    "presentacion": "Polvo",
    "formula": "Creatina monohidrato micronizada 3-5 g por porción, pura o con sabor; versión con electrolitos (sodio, potasio, magnesio).",
-   "descripcion": "Creatina clásica para fuerza, rendimiento y masa muscular en adultos activos."
+   "descripcion": "Para ganar músculo y más fuerza en el gimnasio; la toman hombres y mujeres que entrenan.",
+   "beneficio": "Ganar músculo y fuerza"
   },
   {
    "id": "F06",
@@ -46,7 +51,8 @@
    "categoria": "COL",
    "presentacion": "Polvo",
    "formula": "Péptidos de colágeno bovino tipo I y III 10-20 g por porción, o multi-tipo (I, II, III, V, X) + ácido hialurónico + biotina + vitamina C; stick de hidratación de la piel con electrolitos + colágeno bioactivo + ácido hialurónico.",
-   "descripcion": "Colágeno en polvo para piel, cabello, uñas y articulaciones."
+   "descripcion": "Para piel firme, menos arrugas, cabello y uñas fuertes y articulaciones sin dolor; lo toman adultos desde los 30.",
+   "beneficio": "Piel firme y articulaciones"
   },
   {
    "id": "F07",
@@ -54,7 +60,8 @@
    "categoria": "SUE",
    "presentacion": "Polvo",
    "formula": "Magnesio citrato + glicinato (~250-350 mg de magnesio elemental) + L-teanina 200 mg + maca 500 mg + ashwagandha KSM-66 300 mg + vitamina D3 por porción; stick con magnesio complejo + omega 3 + L-teanina.",
-   "descripcion": "Bebida 'anti-cortisol' para relajarse y dormir mejor, para adultos con estrés."
+   "descripcion": "Para bajar el cortisol y el estrés y dormir mejor; la toman adultos estresados, sobre todo mujeres.",
+   "beneficio": "Bajar el cortisol y dormir"
   },
   {
    "id": "F08",
@@ -62,7 +69,8 @@
    "categoria": "COL",
    "presentacion": "Cápsula",
    "formula": "Colágeno hidrolizado multi-tipo (I, II, III, V, X) 1.800-2.230 mg + vitamina C + biotina + ácido hialurónico + zinc + queratina + vitaminas A y E por porción.",
-   "descripcion": "Colágeno en cápsula para piel, cabello y uñas."
+   "descripcion": "Para piel firme, cabello fuerte y uñas que no se quiebran; lo toman mujeres adultas.",
+   "beneficio": "Piel, cabello y uñas"
   },
   {
    "id": "F09",
@@ -70,15 +78,17 @@
    "categoria": "DIG",
    "presentacion": "Gotas",
    "formula": "Extracto líquido (liposomal) de 4 a 11 plantas: cleavers, bardana, diente de león, saúco, equinácea, trébol rojo, stillingia, fresno espinoso, raíz roja, llantén, verbena azul, milenrama, mirra, tomillo, caléndula, cola de caballo y rosa mosqueta, 1-2 mL por toma.",
-   "descripcion": "Gotas herbales para 'drenaje linfático', desinflamar y deshinchar (debloat)."
+   "descripcion": "Drenaje linfático: para eliminar líquido retenido y deshinchar el cuerpo; lo toman mujeres que se sienten hinchadas.",
+   "beneficio": "Desinflamar y eliminar líquido"
   },
   {
    "id": "F10",
-   "nombre": "Bebida metabólica con berberina en polvo",
+   "nombre": "Bebida para bajar de peso con berberina en polvo",
    "categoria": "PES",
    "presentacion": "Polvo",
    "formula": "Berberina 500 mg + cromo 200 µg + 5-HTP + yerba mate + L-carnitina + té verde + magnesio + jengibre + FOS por porción (tipo LeeFar Cutting Drink Mix).",
-   "descripcion": "Bebida en polvo para control de apetito y metabolismo, para quien quiere bajar de peso."
+   "descripcion": "Para quitar el apetito, acelerar el metabolismo y bajar de peso; la toman adultos que quieren adelgazar.",
+   "beneficio": "Quemar grasa y bajar de peso"
   },
   {
    "id": "F11",
@@ -86,7 +96,8 @@
    "categoria": "COR",
    "presentacion": "Cápsula",
    "formula": "Extracto de raíz de remolacha 500-1.000 mg y/o L-arginina (base, HCl, AKG) + L-citrulina (base, malato) 2.250 mg por porción.",
-   "descripcion": "Cápsula de óxido nítrico para circulación, energía y rendimiento."
+   "descripcion": "Para mejorar la circulación, la energía en el gimnasio y la firmeza de las erecciones; la toman hombres adultos.",
+   "beneficio": "Circulación y erecciones firmes"
   },
   {
    "id": "F12",
@@ -94,23 +105,26 @@
    "categoria": "PES",
    "presentacion": "Gomita",
    "formula": "Vinagre de manzana 500 mg + vitamina B12 + ácido fólico + zinc + canela + probióticos por gomita; trío Goli con gomitas de probióticos, vinagre de manzana y ashwagandha + L-teanina.",
-   "descripcion": "Gomita de ACV para digestión, apetito y metabolismo."
+   "descripcion": "Para quitar el apetito, desinflamar el vientre y bajar de peso; la toman adultos que hacen dieta.",
+   "beneficio": "Bajar de peso y quitar antojos"
   },
   {
    "id": "F13",
-   "nombre": "Berberina HCl con canela de Ceilán y cúrcuma en cápsula",
+   "nombre": "Berberina HCl para bajar de peso y controlar el azúcar, con canela de Ceilán y cúrcuma en cápsula",
    "categoria": "PES",
    "presentacion": "Cápsula",
    "formula": "Berberina HCl 97% 1.400-2.110 mg + canela de Ceilán + cúrcuma + pimienta negra (+ vitamina E) por porción.",
-   "descripcion": "Berberina viral 'GLP-1 natural' para glucosa y peso."
+   "descripcion": "El \"Ozempic natural\": para bajar de peso y controlar el azúcar en la sangre; la toman adultos con sobrepeso o prediabetes.",
+   "beneficio": "Bajar de peso y controlar azúcar"
   },
   {
    "id": "F14",
-   "nombre": "Cortisol + myo-inositol con ashwagandha en cápsula",
+   "nombre": "Bajar el cortisol: myo-inositol con ashwagandha en cápsula",
    "categoria": "SUE",
    "presentacion": "Cápsula",
    "formula": "Myo-inositol 2.000 mg + ashwagandha KSM-66 600 mg + L-teanina 200 mg + magnesio 200 mg + vitaminas D3 y K2 (+ berberina, vitamina C) por porción, en kit de 2 frascos.",
-   "descripcion": "Kit 'cortisol' para estrés, balance hormonal y abdomen inflamado, para mujeres."
+   "descripcion": "Para bajar el cortisol, equilibrar las hormonas y reducir la barriga inflamada; lo toman mujeres estresadas.",
+   "beneficio": "Bajar el cortisol y la barriga"
   },
   {
    "id": "F15",
@@ -118,7 +132,8 @@
    "categoria": "INM",
    "presentacion": "Cápsula blanda",
    "formula": "Vitamina D3 5.000-10.000 UI + vitamina K2 MK-7 100-200 µg en aceite de coco por softgel.",
-   "descripcion": "D3 + K2 para huesos, inmunidad y energía."
+   "descripcion": "Para huesos fuertes, subir las defensas y tener más energía; la toman adultos con vitamina D baja.",
+   "beneficio": "Huesos fuertes y defensas"
   },
   {
    "id": "F16",
@@ -126,7 +141,8 @@
    "categoria": "SUE",
    "presentacion": "Gomita",
    "formula": "Magnesio glicinato o complejo 14 en 1 + L-teanina 100-200 mg + valeriana + pasiflora + 5-HTP + ashwagandha + vitamina D3 + zinc por porción.",
-   "descripcion": "Gomita para conciliar el sueño y relajarse, para adultos con insomnio leve."
+   "descripcion": "Para quedarse dormido rápido y relajarse; la toman adultos con insomnio.",
+   "beneficio": "Dormir mejor"
   },
   {
    "id": "F17",
@@ -134,7 +150,8 @@
    "categoria": "ENE",
    "presentacion": "Sobre / stick",
    "formula": "Sodio 300-500 mg + potasio 200-370 mg + magnesio + calcio + agua de coco + glucosa + vitamina C + vitaminas B3, B5, B6 y B12; versión con proteína whey clara + colágeno.",
-   "descripcion": "Hidratación rápida en stick para deporte, calor o resaca."
+   "descripcion": "Para hidratarse rápido en el deporte, con calor o con resaca; lo toman adultos activos.",
+   "beneficio": "Hidratación rápida"
   },
   {
    "id": "F18",
@@ -142,7 +159,8 @@
    "categoria": "CAB",
    "presentacion": "Líquido",
    "formula": "Biotina 5.000-10.000 µg + vitamina D3 + vitamina E + selenio + ácido hialurónico, o versión liposomal con aceite de semilla de calabaza + Lustriva, o SesZenBio (sésamo) + vitaminas C y A por porción.",
-   "descripcion": "Fórmula líquida para crecimiento y caída del cabello."
+   "descripcion": "Para hacer crecer el cabello y frenar la caída; la toman mujeres y hombres con cabello débil.",
+   "beneficio": "Hacer crecer el cabello"
   },
   {
    "id": "F19",
@@ -150,7 +168,8 @@
    "categoria": "CAB",
    "presentacion": "Cápsula",
    "formula": "Biotina 10.000 µg sola, o con saw palmetto + colágeno + queratina para el crecimiento del cabello.",
-   "descripcion": "Biotina en cápsula para cabello, piel y uñas."
+   "descripcion": "Para hacer crecer el cabello y frenar la caída, además de piel y uñas; la toman adultos con caída de cabello.",
+   "beneficio": "Hacer crecer el cabello"
   },
   {
    "id": "F20",
@@ -158,7 +177,8 @@
    "categoria": "ENE",
    "presentacion": "Gotas",
    "formula": "Vitamina B12 (metilcobalamina) + B6 + B1 + niacina + folato + vitamina C en gotas sublinguales; versión L-metilfolato 15 mg + metilcobalamina.",
-   "descripcion": "Gotas de B12 y complejo B para energía y enfoque."
+   "descripcion": "Para más energía y concentración y quitar el cansancio; la toman adultos agotados.",
+   "beneficio": "Energía y concentración"
   },
   {
    "id": "F21",
@@ -166,7 +186,8 @@
    "categoria": "CAB",
    "presentacion": "Gomita",
    "formula": "Biotina 5.000 µg + vitamina C + vitamina E + zinc por porción.",
-   "descripcion": "Gomita de belleza para cabello, piel y uñas."
+   "descripcion": "Para que el cabello crezca y las uñas y la piel se vean bien; la toman mujeres jóvenes y adultas.",
+   "beneficio": "Cabello, piel y uñas"
   },
   {
    "id": "F22",
@@ -174,7 +195,8 @@
    "categoria": "ENE",
    "presentacion": "Tableta",
    "formula": "Los 8 aminoácidos esenciales (leucina, isoleucina, valina, lisina, fenilalanina, treonina, metionina, triptófano) 5 g por porción de 5 tabletas.",
-   "descripcion": "Aminoácidos para recuperación y masa muscular."
+   "descripcion": "Para ganar músculo y recuperarse rápido del entrenamiento; la toman personas que van al gimnasio.",
+   "beneficio": "Ganar músculo y recuperarse"
   },
   {
    "id": "F23",
@@ -182,15 +204,17 @@
    "categoria": "ENE",
    "presentacion": "Polvo",
    "formula": "Proteína de suero aislada 20-25 g + colágeno hidrolizado por porción (clear protein), o whey + creatina monohidrato + BCAA.",
-   "descripcion": "Proteína en polvo para recuperación y masa muscular."
+   "descripcion": "Para ganar músculo y recuperarse después de entrenar; la toman hombres y mujeres que entrenan.",
+   "beneficio": "Ganar músculo"
   },
   {
    "id": "F24",
-   "nombre": "Vitalidad masculina: maca, tongkat ali, shilajit en cápsula",
+   "nombre": "Potencia sexual masculina: maca, tongkat ali y shilajit en cápsula",
    "categoria": "SXM",
    "presentacion": "Cápsula",
    "formula": "Turkesterona 500 mg + tongkat ali 400 mg + maca 1.000 mg + shilajit + ashwagandha + ginseng + NAD+ + CoQ10 + L-carnitina + L-arginina/citrulina + saw palmetto + piperina por porción.",
-   "descripcion": "Cápsula de energía, testosterona y rendimiento para hombres."
+   "descripcion": "Para subir la testosterona, tener erecciones más firmes y más rendimiento en la cama; la toman hombres desde los 30.",
+   "beneficio": "Potencia sexual y testosterona"
   },
   {
    "id": "F25",
@@ -198,7 +222,8 @@
    "categoria": "COL",
    "presentacion": "Cápsula",
    "formula": "Glutatión reducido liposomal 500-1.155 mg + vitamina C + selenio + resveratrol + riboflavina por porción.",
-   "descripcion": "Antioxidante 'glow' para luminosidad de la piel."
+   "descripcion": "Para aclarar la piel, quitar manchas y darle brillo; la toman mujeres que quieren piel luminosa.",
+   "beneficio": "Aclarar la piel y quitar manchas"
   },
   {
    "id": "F26",
@@ -206,7 +231,8 @@
    "categoria": "INM",
    "presentacion": "Cápsula",
    "formula": "Hoja de moringa en polvo 1.200 mg por porción.",
-   "descripcion": "Superalimento verde para energía y nutrición diaria."
+   "descripcion": "Para tener más energía y nutrirse mejor cada día; la toman adultos que buscan algo natural.",
+   "beneficio": "Energía y nutrición diaria"
   },
   {
    "id": "F27",
@@ -214,7 +240,8 @@
    "categoria": "DIG",
    "presentacion": "Cápsula blanda",
    "formula": "Aceite de orégano (equivalente a 6.000 mg, carvacrol) + aceite de semilla negra (Nigella sativa) por softgel.",
-   "descripcion": "Softgel de orégano y comino negro para defensas y salud intestinal."
+   "descripcion": "Para subir las defensas y limpiar el intestino de parásitos y hongos; lo toman adultos.",
+   "beneficio": "Subir defensas y limpiar el intestino"
   },
   {
    "id": "F28",
@@ -222,23 +249,26 @@
    "categoria": "ENE",
    "presentacion": "Gomita",
    "formula": "Creatina monohidrato 3-5 g por porción de gomitas, con jengibre y postbiótico en algunas versiones.",
-   "descripcion": "Creatina en formato gomita para quien prefiere no tomar polvo."
+   "descripcion": "Para ganar músculo y fuerza en gomita fácil de tomar; la toman personas que entrenan y no les gusta el polvo.",
+   "beneficio": "Ganar músculo y fuerza"
   },
   {
    "id": "F30",
-   "nombre": "Probiótico femenino con arándano en cápsula",
+   "nombre": "Probiótico vaginal y urinario con arándano en cápsula",
    "categoria": "SXF",
    "presentacion": "Cápsula",
    "formula": "Probióticos multicepa femeninos (Lactobacillus, 18-32 cepas, hasta 60.000 millones UFC) + arándano rojo + prebióticos; dúo con colágeno multi-tipo + vitamina C + biotina.",
-   "descripcion": "Probiótico vaginal y urinario para mujeres (flora, olor y pH)."
+   "descripcion": "Para controlar el olor íntimo, el pH vaginal y evitar infecciones urinarias; lo toman mujeres adultas.",
+   "beneficio": "pH vaginal e infecciones urinarias"
   },
   {
    "id": "F31",
-   "nombre": "Probiótico oral L. reuteri + zinc en tableta",
+   "nombre": "Probiótico para el mal aliento: L. reuteri + zinc en tableta",
    "categoria": "DIG",
    "presentacion": "Tableta",
    "formula": "Lactobacillus reuteri (Prodentis) 200 millones UFC + zinc en pastilla para chupar.",
-   "descripcion": "Pastilla probiótica para mal aliento y salud bucal."
+   "descripcion": "Para quitar el mal aliento y cuidar dientes y encías; la toman adultos con halitosis.",
+   "beneficio": "Quitar el mal aliento"
   },
   {
    "id": "F32",
@@ -246,7 +276,8 @@
    "categoria": "DIG",
    "presentacion": "Sobre / stick",
    "formula": "Mezcla de 12 componentes: cleavers, bardana, diente de león, bromelina, equinácea, caléndula, trébol rojo, cúrcuma, cardo mariano, jengibre y vitamina C por stick.",
-   "descripcion": "Stick de drenaje linfático y debloat para tomar en agua."
+   "descripcion": "Drenaje linfático en agua: para eliminar líquido retenido y deshinchar el vientre; lo toman mujeres hinchadas.",
+   "beneficio": "Desinflamar y eliminar líquido"
   },
   {
    "id": "F33",
@@ -254,15 +285,17 @@
    "categoria": "DIG",
    "presentacion": "Cápsula",
    "formula": "Mezcla de hasta 27 plantas: equinácea, diente de león, bardana, saúco, caléndula, trébol rojo, ortiga y otros botánicos linfáticos.",
-   "descripcion": "Cápsula de drenaje linfático para desinflamar."
+   "descripcion": "Drenaje linfático: para eliminar líquido retenido y desinflamar el cuerpo; lo toman mujeres con retención.",
+   "beneficio": "Desinflamar y eliminar líquido"
   },
   {
    "id": "F34",
-   "nombre": "Bebida metabólica GLP-1 con berberina y akkermansia en stick",
+   "nombre": "Bebida para bajar de peso tipo GLP-1 con berberina y akkermansia en stick",
    "categoria": "PES",
    "presentacion": "Sobre / stick",
    "formula": "Berberina 500 mg + Akkermansia muciniphila + cromo 200 µg + canela de Ceilán + vinagre de manzana por stick.",
-   "descripcion": "Mocktail metabólico 'GLP-1' para apetito y glucosa."
+   "descripcion": "Tipo Ozempic natural: para quitar el apetito, controlar el azúcar y bajar de peso; la toman adultos con sobrepeso.",
+   "beneficio": "Bajar de peso y quitar antojos"
   },
   {
    "id": "F35",
@@ -270,7 +303,8 @@
    "categoria": "COR",
    "presentacion": "Tableta",
    "formula": "Raíz de remolacha orgánica 2.040 mg por porción (fuente de nitratos).",
-   "descripcion": "Tableta de remolacha para presión, circulación y energía."
+   "descripcion": "Para bajar la presión, mejorar la circulación y dar energía; la toman adultos mayores y deportistas.",
+   "beneficio": "Bajar la presión y circulación"
   },
   {
    "id": "F36",
@@ -278,7 +312,8 @@
    "categoria": "COR",
    "presentacion": "Gomita",
    "formula": "Extracto de raíz de remolacha (óxido nítrico) por porción de gomitas.",
-   "descripcion": "Gomita de remolacha para circulación y energía."
+   "descripcion": "Para mejorar la circulación y tener más energía; la toman adultos y deportistas.",
+   "beneficio": "Circulación y energía"
   },
   {
    "id": "F37",
@@ -286,15 +321,17 @@
    "categoria": "COR",
    "presentacion": "Polvo",
    "formula": "Extracto de remolacha en polvo (super red food) 5 g por porción.",
-   "descripcion": "Polvo de remolacha para preentreno y circulación."
+   "descripcion": "Para mejorar la circulación y rendir más en el entrenamiento; lo toman deportistas.",
+   "beneficio": "Circulación y rendimiento"
   },
   {
    "id": "F38",
-   "nombre": "Cayena + espino + berberina para circulación en cápsula blanda",
+   "nombre": "Circulación y presión: cayena + espino + berberina en cápsula blanda",
    "categoria": "COR",
    "presentacion": "Cápsula blanda",
    "formula": "Pimienta de cayena + espino + remolacha + semilla de uva + cúrcuma + berberina + vitaminas D3, K2 y E por softgel.",
-   "descripcion": "Softgel para circulación y salud cardiovascular."
+   "descripcion": "Para mejorar la circulación, bajar la presión y cuidar el corazón; lo toman adultos mayores.",
+   "beneficio": "Circulación y corazón"
   },
   {
    "id": "F39",
@@ -302,7 +339,8 @@
    "categoria": "DIG",
    "presentacion": "Cápsula",
    "formula": "Pimienta de cayena 450-500 mg (capsaicina) por cápsula.",
-   "descripcion": "Cayena para metabolismo, circulación y digestión."
+   "descripcion": "Para acelerar el metabolismo, quemar grasa y mejorar la circulación; la toman adultos que quieren bajar de peso.",
+   "beneficio": "Acelerar metabolismo y quemar grasa"
   },
   {
    "id": "F40",
@@ -310,15 +348,17 @@
    "categoria": "DIG",
    "presentacion": "Gomita",
    "formula": "Fibra soluble prebiótica (inulina o polidextrosa) 5 g por porción, cero azúcar.",
-   "descripcion": "Gomita de fibra para regularidad intestinal."
+   "descripcion": "Para ir al baño todos los días y quitar el estreñimiento; la toman adultos estreñidos.",
+   "beneficio": "Ir al baño todos los días"
   },
   {
    "id": "F41",
-   "nombre": "Keto Burn: cetonas de frambuesa + mango africano + cafeína en cápsula",
+   "nombre": "Quemador de grasa keto: cetonas de frambuesa + mango africano + cafeína en cápsula",
    "categoria": "PES",
    "presentacion": "Cápsula",
    "formula": "Cetonas de frambuesa + mango africano + té verde + cafeína + vinagre de manzana + kelp + extracto de uva por porción.",
-   "descripcion": "Quemador de grasa en cápsula para dietas keto."
+   "descripcion": "Para quemar grasa y bajar de peso rápido; la toman adultos que hacen dieta keto.",
+   "beneficio": "Quemar grasa y bajar de peso"
   },
   {
    "id": "F42",
@@ -326,23 +366,26 @@
    "categoria": "PES",
    "presentacion": "Cápsula",
    "formula": "Cromo + 20 vitaminas y minerales + canela + gymnema + melón amargo + ácido alfa-lipoico por porción.",
-   "descripcion": "Cápsula para balance de glucosa y antojos de dulce."
+   "descripcion": "Para controlar el azúcar en la sangre y quitar los antojos de dulce; la toman adultos con prediabetes o diabetes.",
+   "beneficio": "Controlar el azúcar en la sangre"
   },
   {
    "id": "F43",
-   "nombre": "Cortisol + myo-inositol con ashwagandha en cápsula blanda",
+   "nombre": "Bajar el cortisol: myo-inositol con ashwagandha en cápsula blanda",
    "categoria": "SUE",
    "presentacion": "Cápsula blanda",
    "formula": "Myo-inositol + ashwagandha KSM-66 + magnesio + L-teanina + vitaminas D3 y K2, o ashwagandha KSM-66 + L-teanina + fosfatidilserina + piperina por softgel.",
-   "descripcion": "Softgel 'cortisol' para estrés y balance hormonal."
+   "descripcion": "Para bajar el cortisol y el estrés y equilibrar las hormonas; la toman mujeres estresadas.",
+   "beneficio": "Bajar el cortisol y el estrés"
   },
   {
    "id": "F44",
-   "nombre": "Myo-inositol + D-chiro-inositol 40:1 en polvo",
+   "nombre": "Myo-inositol + D-chiro-inositol 40:1 para ovario poliquístico (SOP) en polvo",
    "categoria": "SXF",
    "presentacion": "Polvo",
    "formula": "Myo-inositol 2.000 mg + D-chiro-inositol 50 mg (40:1) por porción.",
-   "descripcion": "Inositol para mujeres con SOP, ciclo irregular y balance hormonal."
+   "descripcion": "Para regular el ciclo menstrual, controlar el ovario poliquístico (SOP) y quedar embarazada más fácil; lo toman mujeres con SOP.",
+   "beneficio": "Regular el ciclo y ovarios (SOP)"
   },
   {
    "id": "F45",
@@ -350,7 +393,8 @@
    "categoria": "SXF",
    "presentacion": "Sobre / stick",
    "formula": "Myo-inositol + shatavari + rhodiola + magnesio + vitaminas B6 y C + teobromina por stick.",
-   "descripcion": "Bebida de balance hormonal femenino."
+   "descripcion": "Para equilibrar las hormonas, regular el ciclo y bajar el estrés; la toman mujeres adultas.",
+   "beneficio": "Equilibrar las hormonas"
   },
   {
    "id": "F46",
@@ -358,7 +402,8 @@
    "categoria": "INM",
    "presentacion": "Gotas",
    "formula": "Vitamina D3 + vitamina K2 MK-7 + omega 3 en aceite MCT; versión noche con manzanilla.",
-   "descripcion": "Gotas de D3 + K2 para inmunidad, huesos y descanso."
+   "descripcion": "Para huesos fuertes, subir las defensas y dormir mejor; lo toman adultos y niños con vitamina D baja.",
+   "beneficio": "Huesos fuertes y defensas"
   },
   {
    "id": "F47",
@@ -366,7 +411,8 @@
    "categoria": "ART",
    "presentacion": "Cápsula",
    "formula": "Vitamina D3 5.000 UI + vitamina K2 MK-7 100 µg por cápsula.",
-   "descripcion": "D3 + K2 en cápsula dura para huesos e inmunidad."
+   "descripcion": "Para huesos fuertes y subir las defensas; la toman adultos con vitamina D baja.",
+   "beneficio": "Huesos fuertes y defensas"
   },
   {
    "id": "F48",
@@ -374,7 +420,8 @@
    "categoria": "COR",
    "presentacion": "Cápsula blanda",
    "formula": "Aceite de pescado o salmón 1.900 mg (EPA + DHA) o aceite de krill antártico con fosfolípidos y astaxantina por porción.",
-   "descripcion": "Omega 3 para corazón, cerebro y articulaciones."
+   "descripcion": "Para cuidar el corazón, bajar el colesterol y los triglicéridos y mejorar memoria y articulaciones; lo toman adultos.",
+   "beneficio": "Corazón, cerebro y articulaciones"
   },
   {
    "id": "F49",
@@ -382,15 +429,17 @@
    "categoria": "ART",
    "presentacion": "Cápsula",
    "formula": "Calcio + vitaminas D3, K2 y B12 + glucosamina + condroitina por porción.",
-   "descripcion": "Fórmula para huesos y articulaciones."
+   "descripcion": "Para huesos fuertes y articulaciones sin dolor; la toman adultos mayores y mujeres en menopausia.",
+   "beneficio": "Huesos y articulaciones"
   },
   {
    "id": "F50",
-   "nombre": "Debloat: electrolitos + diente de león + cola de caballo en polvo",
+   "nombre": "Deshinchar el vientre: electrolitos + diente de león + cola de caballo en polvo",
    "categoria": "DIG",
    "presentacion": "Polvo",
    "formula": "Potasio + magnesio + sodio + vitamina C + diente de león + cola de caballo + ortiga + jamaica + enebro + enzimas digestivas por porción.",
-   "descripcion": "Bebida 'debloat' para retención de líquidos e hinchazón."
+   "descripcion": "Para eliminar líquido retenido y quitar la hinchazón del vientre; la toman mujeres que se sienten infladas.",
+   "beneficio": "Quitar la hinchazón del vientre"
   },
   {
    "id": "F51",
@@ -398,7 +447,8 @@
    "categoria": "COL",
    "presentacion": "Líquido",
    "formula": "Colágeno hidrolizado líquido 5.000 mg por porción.",
-   "descripcion": "Colágeno bebible para piel y articulaciones."
+   "descripcion": "Para piel firme, menos arrugas y articulaciones sin dolor; lo toman adultos desde los 30.",
+   "beneficio": "Piel firme y articulaciones"
   },
   {
    "id": "F52",
@@ -406,15 +456,17 @@
    "categoria": "CAB",
    "presentacion": "Cápsula blanda",
    "formula": "Biotina + MSM + colágeno hidrolizado + complejo B + vitaminas C y D3 + minerales por softgel.",
-   "descripcion": "Softgel de belleza para cabello, piel y uñas."
+   "descripcion": "Para hacer crecer el cabello y fortalecer piel y uñas; la toman mujeres adultas.",
+   "beneficio": "Cabello, piel y uñas"
   },
   {
    "id": "F53",
-   "nombre": "Clear skin: DIM + zinc + probióticos + niacinamida en cápsula",
+   "nombre": "Acné hormonal: DIM + zinc + probióticos + niacinamida en cápsula",
    "categoria": "CAB",
    "presentacion": "Cápsula",
    "formula": "DIM + zinc + probióticos + niacinamida + ácido hialurónico + selenio + vitamina B6 por porción.",
-   "descripcion": "Cápsula para piel con acné hormonal."
+   "descripcion": "Para quitar el acné hormonal y las marcas; la toman mujeres jóvenes con granos.",
+   "beneficio": "Quitar el acné hormonal"
   },
   {
    "id": "F54",
@@ -422,7 +474,8 @@
    "categoria": "INM",
    "presentacion": "Cápsula",
    "formula": "Zinc 30 mg + cobre 2 mg por cápsula.",
-   "descripcion": "Minerales para defensas, piel y cabello."
+   "descripcion": "Para subir las defensas y mejorar piel y cabello; la toman adultos.",
+   "beneficio": "Subir defensas, piel y cabello"
   },
   {
    "id": "F55",
@@ -430,15 +483,17 @@
    "categoria": "INM",
    "presentacion": "Tableta",
    "formula": "Multivitamínico-mineral + licopeno + probióticos + ashwagandha por tableta.",
-   "descripcion": "Multivitamínico diario para hombres."
+   "descripcion": "Para tener energía, subir las defensas y cubrir las vitaminas del día; la toman hombres adultos.",
+   "beneficio": "Energía y defensas para hombre"
   },
   {
    "id": "F56",
-   "nombre": "Pack multivitamínico GLP-1 companion",
+   "nombre": "Pack multivitamínico para quienes usan Ozempic / GLP-1",
    "categoria": "INM",
    "presentacion": "Tableta",
    "formula": "Multivitamínico y minerales + magnesio + vitamina B12 + calcio con vitamina D3 en sobre diario.",
-   "descripcion": "Pack nutricional diario para personas en tratamiento GLP-1."
+   "descripcion": "Para no quedar con deficiencias de vitaminas mientras se usa Ozempic u otro GLP-1 para bajar de peso; lo toman adultos en ese tratamiento.",
+   "beneficio": "Nutrición para quien usa Ozempic"
   },
   {
    "id": "F57",
@@ -446,23 +501,26 @@
    "categoria": "CER",
    "presentacion": "Otro",
    "formula": "Cafeína natural 40-100 mg + L-teanina + vitaminas B6 y B12 por pieza (chicle o menta).",
-   "descripcion": "Energía y enfoque al instante en formato chicle o menta."
+   "descripcion": "Para energía y concentración al instante, como un café; los usan estudiantes y trabajadores.",
+   "beneficio": "Energía y concentración al instante"
   },
   {
    "id": "F58",
-   "nombre": "Shilajit + maca + ashwagandha + ginseng en cápsula blanda",
+   "nombre": "Testosterona y potencia sexual: shilajit + maca + ashwagandha + ginseng en cápsula blanda",
    "categoria": "SXM",
    "presentacion": "Cápsula blanda",
    "formula": "Shilajit + maca + ashwagandha + ginseng (complejo 50.000 mg equivalente) por softgel.",
-   "descripcion": "Softgel de vitalidad y testosterona para hombres."
+   "descripcion": "Para subir la testosterona, la potencia sexual y la energía; la toman hombres desde los 30.",
+   "beneficio": "Testosterona y potencia sexual"
   },
   {
    "id": "F59",
-   "nombre": "Shilajit con miel en stick",
+   "nombre": "Shilajit con miel para energía y potencia sexual en stick",
    "categoria": "ENE",
    "presentacion": "Sobre / stick",
    "formula": "Shilajit + miel + azafrán por stick.",
-   "descripcion": "Stick de energía y vitalidad con shilajit."
+   "descripcion": "Para tener más energía, aguante y potencia sexual; lo toman hombres adultos.",
+   "beneficio": "Energía y potencia sexual"
   },
   {
    "id": "F60",
@@ -470,7 +528,8 @@
    "categoria": "PRO",
    "presentacion": "Cápsula",
    "formula": "Saw palmetto 320 mg + maca + zinc + L-arginina + extractos para próstata por porción.",
-   "descripcion": "Cápsula para salud prostática y vitalidad masculina."
+   "descripcion": "Para desinflamar la próstata, orinar mejor y mejorar la potencia sexual; la toman hombres mayores de 40.",
+   "beneficio": "Desinflamar la próstata"
   },
   {
    "id": "F61",
@@ -478,7 +537,8 @@
    "categoria": "PRO",
    "presentacion": "Cápsula blanda",
    "formula": "Aceite de semilla de calabaza 1.000 mg + saw palmetto + fitoesteroles por softgel.",
-   "descripcion": "Softgel para próstata y vías urinarias."
+   "descripcion": "Para desinflamar la próstata y orinar mejor, menos veces de noche; la toman hombres mayores de 40.",
+   "beneficio": "Desinflamar la próstata y orinar mejor"
   },
   {
    "id": "F62",
@@ -486,7 +546,8 @@
    "categoria": "PRO",
    "presentacion": "Gomita",
    "formula": "Beta-sitosterol + ortiga + reishi + granada + zinc + selenio / remolacha + CoQ10 + açaí + niacina por porción.",
-   "descripcion": "Gomitas para próstata y circulación masculina."
+   "descripcion": "Para desinflamar la próstata, mejorar la circulación y la firmeza de las erecciones; las toman hombres mayores de 40.",
+   "beneficio": "Próstata y erecciones firmes"
   },
   {
    "id": "F63",
@@ -494,31 +555,35 @@
    "categoria": "SXF",
    "presentacion": "Gotas",
    "formula": "Maca + L-arginina + remolacha + fenogreco + ashwagandha + tribulus + ginseng + tongkat ali en gotas.",
-   "descripcion": "Gotas de deseo y energía sexual unisex."
+   "descripcion": "Para aumentar la libido y el deseo sexual y tener más aguante; las toman hombres y mujeres adultos.",
+   "beneficio": "Aumentar la libido"
   },
   {
    "id": "F64",
-   "nombre": "Gomita de maca + fenogreco",
+   "nombre": "Curvas y libido femenina: gomita de maca + fenogreco",
    "categoria": "SXF",
    "presentacion": "Gomita",
    "formula": "Maca + fenogreco + vitaminas por porción.",
-   "descripcion": "Gomita para curvas, energía y libido femenina."
+   "descripcion": "Para aumentar glúteos y curvas y subir la libido; la toman mujeres jóvenes.",
+   "beneficio": "Aumentar glúteos y libido"
   },
   {
    "id": "F65",
-   "nombre": "Aguaje + fenogreco en cápsula",
+   "nombre": "Aumentar glúteos y busto: aguaje + fenogreco en cápsula",
    "categoria": "BBL",
    "presentacion": "Cápsula",
    "formula": "Aguaje + fenogreco 1.000 mg por porción.",
-   "descripcion": "Cápsula para curvas (glúteos y busto)."
+   "descripcion": "Para aumentar glúteos, caderas y busto; la toman mujeres que quieren más curvas.",
+   "beneficio": "Aumentar glúteos y busto"
   },
   {
    "id": "F66",
-   "nombre": "Vitalidad masculina 5 tesoros (ginseng, goji, maca) en té",
+   "nombre": "Potencia sexual masculina 5 tesoros (ginseng, goji, maca) en té",
    "categoria": "SXM",
    "presentacion": "Té",
    "formula": "Ginseng + goji + maca + morera + dátil rojo + polygonatum en infusión.",
-   "descripcion": "Infusión tradicional de vitalidad masculina."
+   "descripcion": "Para potencia sexual, aguante y energía en el hombre; lo toman hombres adultos.",
+   "beneficio": "Potencia sexual masculina"
   },
   {
    "id": "F67",
@@ -526,7 +591,8 @@
    "categoria": "COL",
    "presentacion": "Líquido",
    "formula": "Glutatión reducido liposomal 450 mg + vitamina C por porción.",
-   "descripcion": "Glutatión bebible para piel luminosa y detox."
+   "descripcion": "Para aclarar la piel, darle brillo y desintoxicar el hígado; lo toman mujeres adultas.",
+   "beneficio": "Aclarar la piel y desintoxicar"
   },
   {
    "id": "F68",
@@ -534,7 +600,8 @@
    "categoria": "ENE",
    "presentacion": "Cápsula",
    "formula": "NMN 500-1.000 mg o nicotinamida ribósido 900 mg (NAD+) liposomal + quercetina + resveratrol + TMG + zinc por porción.",
-   "descripcion": "Fórmula longevidad para energía celular y antiedad."
+   "descripcion": "Para tener más energía y frenar el envejecimiento; la toman adultos desde los 40.",
+   "beneficio": "Energía y antienvejecimiento"
   },
   {
    "id": "F69",
@@ -542,7 +609,8 @@
    "categoria": "ENE",
    "presentacion": "Polvo",
    "formula": "NMN (precursor de NAD+) 1.000 mg por porción.",
-   "descripcion": "NMN en polvo para energía y longevidad."
+   "descripcion": "Para tener más energía y frenar el envejecimiento; lo toman adultos desde los 40.",
+   "beneficio": "Energía y antienvejecimiento"
   },
   {
    "id": "F70",
@@ -550,7 +618,8 @@
    "categoria": "COL",
    "presentacion": "Cápsula blanda",
    "formula": "NAD+ liposomal + trans-resveratrol 1.200 mg por porción.",
-   "descripcion": "Softgel antiedad de NAD+ y resveratrol."
+   "descripcion": "Para frenar el envejecimiento y las arrugas y tener más energía; la toman adultos desde los 40.",
+   "beneficio": "Antienvejecimiento y energía"
   },
   {
    "id": "F71",
@@ -558,7 +627,8 @@
    "categoria": "COL",
    "presentacion": "Cápsula blanda",
    "formula": "Astaxantina natural de microalga (Haematococcus pluvialis) 12 mg por softgel.",
-   "descripcion": "Antioxidante para piel, ojos y recuperación."
+   "descripcion": "Para piel joven, cuidar la vista y recuperarse rápido del ejercicio; la toman adultos.",
+   "beneficio": "Piel joven y recuperación"
   },
   {
    "id": "F72",
@@ -566,7 +636,8 @@
    "categoria": "DIG",
    "presentacion": "Cápsula",
    "formula": "Clorofila (clorofilina cúprica sódica) 100 mg por cápsula.",
-   "descripcion": "Clorofila para olor corporal, digestión y detox."
+   "descripcion": "Para quitar el olor corporal y el mal aliento y desintoxicar; la toman adultos.",
+   "beneficio": "Quitar el olor corporal"
   },
   {
    "id": "F73",
@@ -574,7 +645,8 @@
    "categoria": "DIG",
    "presentacion": "Gotas",
    "formula": "Clorofila líquida (clorofilina cúprica sódica) en gotas para agua.",
-   "descripcion": "Clorofila líquida para detox y frescura."
+   "descripcion": "Para desintoxicar el cuerpo y quitar el olor corporal; la toman adultos que la mezclan en el agua.",
+   "beneficio": "Desintoxicar y quitar olores"
   },
   {
    "id": "F74",
@@ -582,15 +654,17 @@
    "categoria": "INM",
    "presentacion": "Cápsula",
    "formula": "Musgo marino + moringa + cúrcuma + orégano + semilla negra + ashwagandha + otras 14 hierbas por porción.",
-   "descripcion": "Superfórmula herbal para inmunidad y energía."
+   "descripcion": "Para subir las defensas y tener más energía; la toman adultos que buscan algo natural.",
+   "beneficio": "Subir defensas y energía"
   },
   {
    "id": "F75",
-   "nombre": "Gotas metabólicas con uva de Oregón, gymnema y ashwagandha",
+   "nombre": "Gotas para bajar de peso con uva de Oregón, gymnema y ashwagandha",
    "categoria": "PES",
    "presentacion": "Gotas",
    "formula": "Maca + gymnema + uva de Oregón (berberina) + ashwagandha + canela de Ceilán + espirulina azul + jengibre en gotas.",
-   "descripcion": "Gotas 'Blue Burn' para metabolismo y antojos."
+   "descripcion": "Para acelerar el metabolismo, quitar los antojos y bajar de peso; las toman mujeres que quieren adelgazar.",
+   "beneficio": "Bajar de peso y quitar antojos"
   },
   {
    "id": "F76",
@@ -598,7 +672,8 @@
    "categoria": "DIG",
    "presentacion": "Polvo",
    "formula": "Hoja de papaya en polvo 5 g por porción.",
-   "descripcion": "Polvo para limpieza intestinal y digestión."
+   "descripcion": "Para limpiar el colon, ir al baño y desinflamar el vientre; lo toman adultos estreñidos.",
+   "beneficio": "Limpiar el colon"
   },
   {
    "id": "F77",
@@ -606,23 +681,26 @@
    "categoria": "DIG",
    "presentacion": "Cápsula",
    "formula": "Hoja de sen + cáscara sagrada + psyllium + mezcla herbal laxante por porción.",
-   "descripcion": "Detox de colon de 15 días para desinflamar el abdomen."
+   "descripcion": "Para limpiar el colon en 15 días, ir al baño y bajar la barriga; la toman adultos estreñidos o con vientre inflamado.",
+   "beneficio": "Limpiar el colon y desinflamar"
   },
   {
    "id": "F78",
-   "nombre": "Bolsitas orales de kava + L-teanina + ashwagandha",
+   "nombre": "Bolsitas orales para la ansiedad: kava + L-teanina + ashwagandha",
    "categoria": "SUE",
    "presentacion": "Otro",
    "formula": "L-teanina + kava + ashwagandha + magnolia en bolsita oral (pouch).",
-   "descripcion": "Pouch calmante para ansiedad y estrés del día a día."
+   "descripcion": "Para calmar la ansiedad y el estrés en el día; las usan adultos ansiosos.",
+   "beneficio": "Calmar la ansiedad y el estrés"
   },
   {
    "id": "F79",
-   "nombre": "Jalea cutting con garcinia, fibra y colágeno",
+   "nombre": "Jalea para bajar de peso con garcinia, fibra y colágeno",
    "categoria": "PES",
    "presentacion": "Sobre / stick",
    "formula": "Garcinia cambogia + fibra dietaria + colágeno + chía en jalea por sobre.",
-   "descripcion": "Jalea saciante para control de peso."
+   "descripcion": "Para quitar el hambre, llenarse y bajar de peso; la toman adultos que hacen dieta.",
+   "beneficio": "Quitar hambre y bajar de peso"
   },
   {
    "id": "F80",
@@ -630,7 +708,8 @@
    "categoria": "DIG",
    "presentacion": "Cápsula",
    "formula": "N-acetil L-cisteína 600 mg por cápsula.",
-   "descripcion": "Antioxidante para hígado, pulmones y detox."
+   "descripcion": "Para limpiar el hígado, sacar la flema de los pulmones y desintoxicar; la toman adultos.",
+   "beneficio": "Limpiar el hígado y pulmones"
   },
   {
    "id": "F81",
@@ -638,7 +717,8 @@
    "categoria": "CER",
    "presentacion": "Cápsula",
    "formula": "Extracto de ginkgo biloba 120 mg por cápsula.",
-   "descripcion": "Ginkgo para memoria, concentración y circulación."
+   "descripcion": "Para mejorar la memoria, la concentración y la circulación; la toman adultos y adultos mayores.",
+   "beneficio": "Memoria y concentración"
   },
   {
    "id": "F82",
@@ -646,7 +726,8 @@
    "categoria": "ART",
    "presentacion": "Gomita",
    "formula": "Cúrcuma con curcumina + jengibre + pimienta negra por porción.",
-   "descripcion": "Gomita antiinflamatoria para articulaciones."
+   "descripcion": "Para desinflamar y quitar el dolor de las articulaciones; la toman adultos con dolores.",
+   "beneficio": "Desinflamar y quitar dolor articular"
   }
  ],
  "asignacion": {

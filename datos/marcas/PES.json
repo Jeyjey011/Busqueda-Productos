@@ -1,19 +1,20 @@
 {
   "categoria": "PES",
   "nombre_categoria": "Peso y metabolismo",
-  "problema": "Más de la mitad de los adultos colombianos tiene exceso de peso (56,4 %, ENSIN 2015) y busca una forma práctica de acompañar la dieta y el ejercicio. Las bebidas metabólicas son la tendencia número uno de TikTok Shop en EE. UU. y en Colombia todavía casi no hay marcas propias que las ofrezcan.",
+  "beneficio": "Quemar grasa y bajar de peso",
+  "problema": "Más de la mitad de los adultos colombianos tiene sobrepeso u obesidad (56,4 %, ENSIN 2015). Quieren quemar grasa y bajar de peso, pero la ansiedad por comer les gana y pican todo el día. En TikTok Shop de EE. UU. las bebidas para bajar de peso son la tendencia número uno y en Colombia casi no hay marcas propias.",
   "producto": {
-    "nombre_generico": "Bebida metabólica con berberina",
+    "nombre_generico": "Bebida para quemar grasa, bajar de peso y quitar la ansiedad por comer",
     "registro_base": "F10",
     "presentacion": "Sobre / stick",
     "formula_corta": "Berberina + picolinato de cromo + L-carnitina + extracto de té verde + yerba mate + 5-HTP + ashwagandha + canela de Ceilán + jengibre + citrato de magnesio + FOS prebiótico, en stick para mezclar en agua",
-    "porque_en_colombia": "El stick para mezclar en agua replica la fórmula viral de las bebidas metabólicas de EE. UU. (berberina, cromo, L-carnitina y té verde) y se presta para el video de la botella de la mañana. Un sobre por día da un tratamiento mensual fácil de vender en combo."
+    "porque_en_colombia": "Copia la bebida viral de EE. UU. para bajar de peso (berberina, cromo, L-carnitina y té verde). Se toma en la mañana: quema grasa, quita la ansiedad por comer y da energía para moverse. Un sobre al día es un mes de tratamiento, fácil de vender en combo."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Ritmo",
-      "concepto": "La bebida de la mañana de MAGNIFICA para quien está cambiando sus hábitos.",
-      "eslogan": "Tu ritmo, tus hábitos.",
+      "concepto": "La bebida de MAGNIFICA para bajar de peso: un sobre en la mañana para quemar grasa y comer menos.",
+      "eslogan": "Quema grasa a tu ritmo.",
       "publico": "Mujeres de 28 a 50 años que hacen dieta o retoman el ejercicio.",
       "tono": "Positivo, motivador, cercano",
       "color": "#F28C28",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "CHISPA",
-      "concepto": "Marca juvenil que vende la bebida como el arranque del día con actitud.",
-      "eslogan": "Ponle chispa a tu mañana.",
+      "concepto": "Bebida juvenil para quemar grasa, arrancar el día con energía y dejar de picar entre comidas.",
+      "eslogan": "Quema grasa con chispa.",
       "publico": "Jóvenes de 20 a 32 años que siguen rutinas de hábitos y fitness en TikTok.",
       "tono": "Alegre, enérgico, desenfadado",
       "color": "#FF5E5B",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "CEILÁ",
-      "concepto": "Marca natural premium inspirada en la canela de Ceilán y los rituales de bienestar.",
-      "eslogan": "Equilibrio con raíz natural.",
+      "concepto": "Bebida premium con canela de Ceilán para bajar de peso, controlar el azúcar y quitar los antojos.",
+      "eslogan": "Baja de peso con raíz natural.",
       "publico": "Adultos de 30 a 55 años, estrato medio-alto, que prefieren ingredientes botánicos.",
       "tono": "Cálido, natural, sofisticado",
       "color": "#8B4513",
       "color2": "#F4E1C1"
     }
   ],
-  "angulo_venta": "La botella de la mañana con berberina, cromo y té verde como el ritual que acompaña el cambio de hábitos: menos antojos, más energía para moverse y la sensación de tener el metabolismo de tu lado.",
+  "angulo_venta": "Un sobre en agua cada mañana para quemar grasa, bajar de peso y quitar la ansiedad por comer. La berberina y el cromo controlan el azúcar y los antojos. La L-carnitina y el té verde aceleran el metabolismo y queman grasa.",
   "ganchos_tiktok": [
-    "Mi botella metabólica de la mañana antes de salir a caminar",
-    "La bebida con berberina que se volvió viral en EE. UU., ya en Colombia",
-    "Hábitos que sí me funcionan: agua, caminar y mi bebida metabólica"
+    "Así bajé dos tallas con mi bebida de la mañana",
+    "La bebida con berberina que me quitó la ansiedad por comer",
+    "Ya no pico a las cuatro de la tarde gracias a esto"
   ],
   "precio_cop": "$79.900 - $99.900",
   "estrategia_registro": "Un registro (F10) para las 3 marcas: MAGNIFICA Ritmo, CHISPA y CEILÁ."

@@ -1,19 +1,20 @@
 {
   "categoria": "PRO",
   "nombre_categoria": "Próstata (bienestar masculino)",
-  "problema": "Los hombres colombianos de 40 años o más se cuidan poco y consultan tarde: el 35% nunca ha visitado al urólogo, frente a solo el 10% de mujeres que nunca ha ido al ginecólogo (encuesta citada por La FM). Buscan algo sencillo y discreto para cuidar su próstata y su vitalidad cada día, y los productos de próstata están entre los más vendidos en TikTok Shop.",
+  "beneficio": "Desinflamar la próstata y orinar mejor",
+  "problema": "Después de los 40 la próstata se agranda en muchos hombres: se levantan varias veces de noche a orinar, el chorro sale débil y sienten que no vacían bien. El 35% de los hombres colombianos nunca ha ido al urólogo (encuesta citada por La FM). Quieren algo fácil y discreto para orinar mejor y dormir de corrido, y los productos de próstata están entre los más vendidos en TikTok Shop.",
   "producto": {
-    "nombre_generico": "Fórmula próstata y vitalidad masculina: saw palmetto + semilla de calabaza + beta-sitosterol",
+    "nombre_generico": "Cápsula para desinflamar la próstata, orinar mejor y levantarse menos de noche: saw palmetto + semilla de calabaza + beta-sitosterol",
     "registro_base": "F61",
     "presentacion": "Cápsula blanda",
     "formula_corta": "Saw palmetto (Serenoa repens) + aceite de semilla de calabaza + beta-sitosterol (fitoesteroles) + ortiga + granada + maca + L-arginina + zinc + selenio, en cápsula blanda",
-    "porque_en_colombia": "Junta en una sola cápsula lo que llevan los virales: VivoNu (semilla de calabaza + saw palmetto + fitoesteroles, 6.534 unidades en septiembre), Snap Prostate Health (beta-sitosterol + ortiga + granada + zinc + selenio, 9.399 unidades) y Windboss en México (saw palmetto + maca + zinc + L-arginina). Es una categoría probada, con alta recompra y un público que compra como regalo."
+    "porque_en_colombia": "Mete en una cápsula lo que se vende en TikTok para la próstata: VivoNu (semilla de calabaza + saw palmetto + fitoesteroles, 6.534 unidades en septiembre), Snap Prostate Health (beta-sitosterol + ortiga + granada + zinc + selenio, 9.399 unidades) y Windboss en México (saw palmetto + maca + zinc + L-arginina). Se vende con la promesa de desinflamar la próstata, orinar con buen chorro y levantarse menos de noche. La gente recompra y lo compra de regalo para el papá."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Hombre",
-      "concepto": "La línea masculina de MAGNIFICA: una cápsula blanda al día para la rutina de bienestar del hombre de 40 en adelante.",
-      "eslogan": "Tu rutina de hombre, completa.",
+      "concepto": "La línea para hombre de MAGNIFICA: una cápsula al día para desinflamar la próstata, orinar mejor y levantarse menos de noche.",
+      "eslogan": "Orina mejor, duerme de corrido.",
       "publico": "Hombres de 40 a 65 años y sus parejas, que ya compran MAGNIFICA para ellas",
       "tono": "confiable, directo, sobrio",
       "color": "#0B3C5D",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "CUCHO",
-      "concepto": "Marca con humor paisa-rolo para el papá que se cuida: el regalo que los hijos le compran al cucho por TikTok.",
-      "eslogan": "El cucho también se cuida.",
+      "concepto": "Marca chistosa paisa-rolo para el papá que se levanta cinco veces a orinar: el regalo que los hijos le compran por TikTok para que duerma toda la noche.",
+      "eslogan": "El cucho ya no se levanta a orinar.",
       "publico": "Hijos de 20 a 35 años que compran para su papá, y hombres de 45 o más con sentido del humor",
       "tono": "parcero, cariñoso, chistoso",
       "color": "#E63946",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "ROBLE",
-      "concepto": "Línea premium y natural inspirada en el árbol más fuerte de Colombia, con saw palmetto, semilla de calabaza y granada.",
-      "eslogan": "Raíces fuertes, hombre entero.",
+      "concepto": "Línea premium natural con saw palmetto, semilla de calabaza y granada para desinflamar la próstata y orinar con chorro fuerte.",
+      "eslogan": "Próstata desinflamada, noches enteras.",
       "publico": "Hombres de 45 a 65 años, estratos 4 a 6, que prefieren ingredientes de origen natural",
       "tono": "sereno, natural, premium",
       "color": "#2D6A4F",
       "color2": "#C9A227"
     }
   ],
-  "angulo_venta": "Rutina diaria de una cápsula para el hombre de 40 o más que quiere cuidar su próstata y mantenerse con energía: saw palmetto, semilla de calabaza y beta-sitosterol en una sola toma. Venderlo como regalo de cuidado para el papá y como hábito para seguir activo, tranquilo y entero.",
+  "angulo_venta": "Una cápsula diaria para el hombre de 40 o más que se levanta varias veces de noche a orinar: saw palmetto, semilla de calabaza y beta-sitosterol para desinflamar la próstata, orinar con buen chorro, vaciar bien y dormir de corrido. Venderlo como el regalo para el papá que ya no duerme por ir al baño.",
   "ganchos_tiktok": [
-    "Mi papá por fin tiene su rutina para la próstata.",
-    "Hombres de 40: saw palmetto y semilla de calabaza en una sola cápsula.",
-    "Lo que mi cucho se toma con el tinto cada mañana."
+    "Mi papá se levantaba cinco veces de noche a orinar. Ahora duerme de corrido.",
+    "Hombres de 40: si el chorro sale débil, es la próstata.",
+    "Lo que mi cucho se toma para desinflamar la próstata y orinar mejor."
   ],
   "precio_cop": "$89.900 - $119.900",
   "estrategia_registro": "Un registro (F61) para las 3 marcas: MAGNIFICA Hombre, CUCHO y ROBLE."

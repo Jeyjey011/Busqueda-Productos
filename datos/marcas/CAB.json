@@ -1,19 +1,20 @@
 {
   "categoria": "CAB",
   "nombre_categoria": "Cabello, piel y uñas",
-  "problema": "El cabello débil y las uñas que se quiebran son una preocupación diaria, sobre todo en mujeres que se planchan, se tinturan y se alisan, y la consulta dermatológica es cara o demora en la EPS. Belleza y bienestar son ya el 14,4 % de las tiendas online del país (Tiendanube, NubeCommerce 2026).",
+  "beneficio": "Hacer crecer el cabello",
+  "problema": "Muchas mujeres colombianas tienen el pelo débil, se les cae y no les crece, sobre todo por la plancha, el tinte y el alisado. Además, las uñas se les quiebran. El dermatólogo es caro y la cita por EPS demora. Belleza ya es el 14,4 % de las tiendas online del país (Tiendanube, NubeCommerce 2026).",
   "producto": {
-    "nombre_generico": "Gomitas de biotina para cabello, piel y uñas",
+    "nombre_generico": "Gomitas de biotina para hacer crecer el cabello y fortalecer las uñas",
     "registro_base": "F21",
     "presentacion": "Gomita",
     "formula_corta": "Biotina 5.000 mcg + zinc + vitamina C + vitamina E + selenio + ácido fólico, en gomita de sabor",
-    "porque_en_colombia": "La gomita de biotina es el formato de belleza que más se comparte en TikTok y el que la mujer joven sí se toma todos los días. Replica la fórmula de las gomitas más vendidas de EE. UU. (biotina alta con zinc y vitaminas C y E)."
+    "porque_en_colombia": "Es la gomita para el pelo más compartida en TikTok y la mujer joven sí se la toma todos los días. Copia la fórmula de las gomitas más vendidas de EE. UU.: biotina alta con zinc y vitaminas C y E para que el pelo crezca, deje de caerse y las uñas no se quiebren."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Bella",
-      "concepto": "La gomita de belleza de MAGNIFICA, complemento natural de su colágeno.",
-      "eslogan": "Belleza que se nota en tu rutina.",
+      "concepto": "Las gomitas de MAGNIFICA para que el pelo crezca, deje de caerse y las uñas no se quiebren. Combina con su colágeno.",
+      "eslogan": "Pelo largo, uñas fuertes.",
       "publico": "Mujeres de 25 a 45 años, clientas de MAGNIFICA Piel.",
       "tono": "Femenino, confiable, alegre",
       "color": "#D63384",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "MELENA",
-      "concepto": "Marca juvenil que celebra el pelo con personalidad, el movimiento y el cambio de look.",
-      "eslogan": "Cuida tu melena.",
+      "concepto": "Gomitas juveniles para hacer crecer el pelo rápido y lucir una melena larga y con volumen.",
+      "eslogan": "Haz crecer tu melena.",
       "publico": "Mujeres de 18 a 30 años que hacen contenido de cabello en TikTok.",
       "tono": "Atrevido, divertido, auténtico",
       "color": "#7B2CBF",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "TRENZA",
-      "concepto": "Marca natural y premium inspirada en los rituales de cuidado del cabello de generaciones.",
-      "eslogan": "Cuidado que se nota en las puntas.",
+      "concepto": "Gomitas premium para cabello largo o rizado: frenan la caída y hacen crecer el pelo fuerte hasta las puntas.",
+      "eslogan": "Pelo que crece hasta las puntas.",
       "publico": "Mujeres de 28 a 50 años con cabello largo o rizado que buscan lo natural.",
       "tono": "Cálido, artesanal, sereno",
       "color": "#6D4C41",
       "color2": "#EFE3D3"
     }
   ],
-  "angulo_venta": "Dos gomitas al día como el paso de la rutina de cabello que se come: biotina y zinc para lucir un pelo más fuerte y brillante y unas uñas que no se quiebran.",
+  "angulo_venta": "Dos gomitas al día para que el pelo crezca más rápido, deje de caerse y brille, y para que las uñas dejen de quebrarse. Biotina alta, zinc y vitaminas.",
   "ganchos_tiktok": [
-    "Mi rutina de cabello tiene un paso que se come",
-    "Plancha, tinte y alisado: así cuido mi pelo por dentro",
-    "Las gomitas de biotina que todas están comprando en TikTok"
+    "Así me creció el pelo en tres meses",
+    "Se me caía el pelo por la plancha y el tinte: esto lo frenó",
+    "Las gomitas de biotina que hacen crecer el pelo"
   ],
   "precio_cop": "$69.900 - $89.900",
   "estrategia_registro": "Un registro (F21) para las 3 marcas: MAGNIFICA Bella, MELENA y TRENZA."

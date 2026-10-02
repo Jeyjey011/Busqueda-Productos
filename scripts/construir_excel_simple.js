@@ -24,9 +24,9 @@ for (const f of fs.readdirSync(DIR_FM).filter((f) => /^clasificado_lote_\d+\.jso
 
 // Nombres cortos de categoría (también nombres de pestaña, máx. 31 caracteres)
 const CATEGORIAS = {
-  DIG: 'Digestión', SUE: 'Sueño y estrés', ENE: 'Energía y gym', COL: 'Colágeno y antiedad', SXF: 'Salud femenina',
-  PES: 'Peso y metabolismo', CAB: 'Cabello, piel y uñas', INM: 'Inmunidad y vitaminas', COR: 'Corazón y circulación',
-  SXM: 'Masculino', PRO: 'Próstata', CER: 'Cerebro y concentración', ART: 'Articulaciones', BBL: 'Curvas', NIN: 'Niños',
+  DIG: 'Digestión, hinchazón y colon', SUE: 'Sueño, estrés y cortisol', ENE: 'Energía, músculo y gym', COL: 'Colágeno y antiedad', SXF: 'Salud íntima y libido femenina',
+  PES: 'Quemar grasa y bajar de peso', CAB: 'Cabello, piel y uñas', INM: 'Defensas y vitaminas', COR: 'Circulación y corazón',
+  SXM: 'Potencia sexual masculina', PRO: 'Próstata', CER: 'Cerebro y concentración', ART: 'Articulaciones y huesos', BBL: 'Aumentar glúteos y curvas', NIN: 'Niños',
 };
 const PRESENTACION_PLURAL = {
   Cápsula: 'Cápsulas', Softgel: 'Cápsulas blandas (softgel)', Tableta: 'Tabletas', Gomita: 'Gomitas', Polvo: 'Polvos',
@@ -165,6 +165,7 @@ wb.creator = 'Claude (proyecto INVIMA)';
     { h: 'Imagen', w: 13, k: () => null },
     { h: 'Registro', w: 9, k: (f) => f.id, centro: true, negrita: true },
     { h: 'Qué registrar', w: 30, k: (f) => f.nombre, wrap: true, negrita: true },
+    { h: 'Para qué es', w: 24, k: (f) => f.beneficio || f.descripcion || '', wrap: true, negrita: true },
     { h: 'Presentación', w: 14, k: (f) => pres(f.presentacion), centro: true },
     { h: 'Fórmula (lo que lleva)', w: 48, k: (f) => f.formula, wrap: true },
     { h: 'Se parece a estos productos virales', w: 40, k: (f) => f._refs.slice(0, 3).map((p) => `• ${nombre(p)} (${pais(p.region)})`).join('\n'), wrap: true },
@@ -204,7 +205,7 @@ for (const cat of cats) {
     { h: 'Producto', w: 40, k: (p) => nombre(p), wrap: true, negrita: true },
     { h: 'Marca', w: 18, k: (p) => p.c.marca || p.tienda, wrap: true },
     { h: 'País', w: 9, k: (p) => pais(p.region), centro: true },
-    { h: 'Para qué sirve', w: 34, k: (p) => p.c.para_que_sirve || '', wrap: true },
+    { h: 'Para qué sirve', w: 34, k: (p) => p.c.beneficio || p.c.para_que_sirve || '', wrap: true },
     { h: 'Ventas sep (unidades)', w: 12, k: (p) => p.unid ?? null, fmt: '#,##0' },
     { h: 'Ventas semana 21-27 sep', w: 12, k: (p) => p.sem ?? null, fmt: '#,##0' },
     { h: 'Tendencia', w: 13, k: (p) => p.tend, tend: true },

@@ -1,19 +1,20 @@
 {
   "categoria": "COL",
   "nombre_categoria": "Colágeno y antiedad",
-  "problema": "La colombiana quiere verse bien y con la piel cuidada, pero una cita con el dermatólogo o una limpieza facial cuesta mucho y la EPS no lo cubre. El sector de belleza en Colombia movió unos USD 3.500 millones en 2025 y belleza y bienestar son el 14,4 % de las tiendas online, con ticket promedio de $139.205 (Tiendanube, NubeCommerce 2026).",
+  "beneficio": "Quitar arrugas y rejuvenecer la piel",
+  "problema": "La colombiana quiere quitarse las arrugas, la flacidez y las manchas y verse más joven, pero el dermatólogo o una limpieza facial cuesta mucho y la EPS no lo cubre. El sector de belleza en Colombia movió unos USD 3.500 millones en 2025 y la categoría de belleza es el 14,4 % de las tiendas online, con ticket promedio de $139.205 (Tiendanube, NubeCommerce 2026).",
   "producto": {
-    "nombre_generico": "Multicolágeno hidrolizado con ácido hialurónico, biotina y vitamina C",
+    "nombre_generico": "Colágeno para quitar arrugas, tensar la piel y fortalecer cabello y uñas: multicolágeno hidrolizado con ácido hialurónico, biotina y vitamina C",
     "registro_base": "F06",
     "presentacion": "Polvo",
     "formula_corta": "Colágeno hidrolizado multitipo (I, II, III, V y X) 10-20 g + ácido hialurónico + biotina + vitamina C + glutatión, sin sabor y con sabores",
-    "porque_en_colombia": "El colágeno en polvo ya es un hábito en Colombia, sobre todo en mujeres de 30 años en adelante; la versión multicolágeno con ácido hialurónico, biotina y vitamina C es la que más vende en TikTok Shop y se disuelve fácil en el café de la mañana."
+    "porque_en_colombia": "Tomar colágeno en polvo para verse más joven ya es costumbre en Colombia, sobre todo en mujeres de 30 años en adelante. El multicolágeno con ácido hialurónico, biotina y vitamina C es el que más vende en TikTok Shop y se disuelve fácil en el café de la mañana."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Piel",
-      "concepto": "El colágeno de la casa MAGNIFICA, el producto ancla de la marca para la mujer colombiana.",
-      "eslogan": "Tu ritual de belleza empieza en la mañana.",
+      "concepto": "El colágeno de MAGNIFICA para quitar arrugas y verse más joven.",
+      "eslogan": "Menos arrugas, piel firme.",
       "publico": "Mujeres de 30 a 55 años, compradoras habituales por WhatsApp y Dropi.",
       "tono": "Femenino, confiable, cálido",
       "color": "#C8577A",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "GLOWI",
-      "concepto": "Marca Gen Z que vende el colágeno como parte de la rutina de skincare que se graba.",
-      "eslogan": "Glow desde adentro.",
+      "concepto": "Marca juvenil para tener la piel brillante, el pelo largo y las uñas fuertes.",
+      "eslogan": "Piel que brilla, pelo que crece.",
       "publico": "Mujeres de 20 a 30 años que siguen rutinas de skincare en TikTok.",
       "tono": "Fresco, brillante, juguetón",
       "color": "#FF8FB1",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "TERSA",
-      "concepto": "Marca premium y minimalista que habla de una piel cuidada sin promesas exageradas.",
-      "eslogan": "Belleza que se cuida a diario.",
+      "concepto": "Marca premium antiedad para tensar la piel y borrar arrugas.",
+      "eslogan": "Rejuvenece tu piel.",
       "publico": "Mujeres de 35 a 55 años, estrato medio-alto, que comparan ingredientes.",
       "tono": "Elegante, sobrio, experto",
       "color": "#B08968",
       "color2": "#F5EFE6"
     }
   ],
-  "angulo_venta": "Una cucharada en el café o el jugo de la mañana como ritual de belleza: piel luminosa, cabello y uñas fuertes, desde adentro.",
+  "angulo_venta": "Una cucharada en el café cada mañana: menos arrugas, piel firme y luminosa, cabello que deja de caerse y uñas duras. Te ves más joven.",
   "ganchos_tiktok": [
-    "Así meto el colágeno en mi café sin que sepa a nada",
-    "Colágeno con biotina y ácido hialurónico: por qué lo cambié",
-    "Mi rutina de skincare empieza en la cocina, no en el baño"
+    "Así se me borraron las líneas de expresión en 2 meses",
+    "Colágeno con biotina: se me dejó de caer el pelo",
+    "Tengo 45 y me dicen que parezco de 35: esto tomo"
   ],
   "precio_cop": "$89.900 - $119.900",
   "estrategia_registro": "Un registro (F06) para las 3 marcas: MAGNIFICA Piel, GLOWI y TERSA."

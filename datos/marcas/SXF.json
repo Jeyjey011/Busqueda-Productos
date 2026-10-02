@@ -1,19 +1,20 @@
 {
   "categoria": "SXF",
   "nombre_categoria": "Salud femenina",
-  "problema": "Muchas mujeres sienten que su bienestar íntimo es un tema del que da pena hablar y buscan algo discreto, rico y fácil de tomar todos los días. En TikTok Shop las gomitas de probióticos femeninos son el grupo más vendido de toda la muestra, con más de 142.000 unidades en septiembre de 2026 entre EE. UU. y México (FastMoss, datos del proyecto).",
+  "beneficio": "Controlar el olor y pH vaginal",
+  "problema": "Muchas mujeres tienen mal olor íntimo, flujo, picazón, infecciones vaginales repetidas o resequedad, y les da pena hablarlo. Buscan algo discreto y fácil de tomar todos los días. En TikTok Shop las gomitas de probióticos vaginales son el grupo más vendido de toda la muestra, con más de 142.000 unidades en septiembre de 2026 entre EE. UU. y México (FastMoss, datos del proyecto).",
   "producto": {
-    "nombre_generico": "Gomita probiótica femenina con olmo resbaladizo y prebiótico XOS",
+    "nombre_generico": "Gomita para el pH vaginal, el olor íntimo y evitar infecciones vaginales: probióticos femeninos con olmo resbaladizo y prebiótico XOS",
     "registro_base": "F02",
     "presentacion": "Gomita",
     "formula_corta": "Probióticos Lactobacillus 5.000 millones de UFC (L. acidophilus, L. rhamnosus, L. reuteri, L. fermentum) + Bacillus coagulans + olmo resbaladizo + prebiótico XOS + piña en polvo + vitamina C y D, sabor fresa y baja en azúcar",
-    "porque_en_colombia": "La gomita convierte un tema incómodo en un antojo diario y es el formato que llevó esta categoría a la cima en TikTok; la fórmula con Lactobacillus, olmo resbaladizo y XOS es la de las gomitas femeninas más vendidas."
+    "porque_en_colombia": "La gomita vuelve algo incómodo, como el olor y las infecciones vaginales, en un dulce diario. Es el formato que puso esta categoría de primera en TikTok. La fórmula con Lactobacillus, olmo resbaladizo y XOS es la de las gomitas vaginales más vendidas."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Flora",
-      "concepto": "La gomita de bienestar femenino de MAGNIFICA, discreta y de confianza.",
-      "eslogan": "Bienestar femenino, todos los días.",
+      "concepto": "La gomita íntima de MAGNIFICA para el pH vaginal y el olor íntimo.",
+      "eslogan": "Fresca y segura todos los días.",
       "publico": "Mujeres de 25 a 45 años que ya confían en MAGNIFICA.",
       "tono": "Cercano, discreto, confiable",
       "color": "#E56B9F",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "FRESITA",
-      "concepto": "Marca juvenil sabor fresa que habla del autocuidado femenino con frescura y sin tabú.",
-      "eslogan": "Tu dosis diaria de sentirte bien.",
+      "concepto": "Marca juvenil sabor fresa que habla claro del olor íntimo y las infecciones vaginales.",
+      "eslogan": "Olor íntimo controlado.",
       "publico": "Mujeres de 18 a 30 años, universitarias y creadoras de TikTok.",
       "tono": "Coqueto, fresco, divertido",
       "color": "#FF4D6D",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "FLORELA",
-      "concepto": "Marca natural y premium centrada en la flora y el equilibrio del cuerpo femenino.",
-      "eslogan": "Cuida tu flora, cuídate tú.",
+      "concepto": "Marca natural y premium para equilibrar el pH y la flora vaginal.",
+      "eslogan": "pH vaginal en equilibrio.",
       "publico": "Mujeres de 28 a 50 años, interesadas en lo natural y lo orgánico.",
       "tono": "Delicado, natural, sereno",
       "color": "#7A9E7E",
       "color2": "#F3E9F1"
     }
   ],
-  "angulo_venta": "Autocuidado femenino diario en forma de gomita rica: probióticos, prebióticos y vitamina C para sentirte fresca, cómoda y segura todos los días.",
+  "angulo_venta": "Una gomita de fresa al día para equilibrar el pH vaginal, quitar el mal olor íntimo y dejar de sufrir infecciones y flujo. Te sientes fresca y segura todo el día.",
   "ganchos_tiktok": [
-    "La gomita que se volvió mi hábito de autocuidado",
-    "Cosas de chicas que deberíamos hablar sin pena",
-    "Probióticos que saben a fresa: mi nuevo antojo diario"
+    "Se me acabó el mal olor íntimo con una gomita al día",
+    "Tenía infecciones vaginales cada mes hasta que empecé con esto",
+    "pH vaginal equilibrado: la gomita que toda mujer debería tomar"
   ],
   "precio_cop": "$79.900 - $99.900",
   "estrategia_registro": "Un registro (F02) para las 3 marcas: MAGNIFICA Flora, FRESITA y FLORELA."

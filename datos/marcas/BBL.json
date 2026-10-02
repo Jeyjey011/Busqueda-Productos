@@ -1,19 +1,20 @@
 {
   "categoria": "BBL",
   "nombre_categoria": "Curvas (tonificación con ejercicio)",
-  "problema": "Muchas colombianas entrenan para tonificar glúteos y piernas y buscan un suplemento que las acompañe en el gimnasio. La creatina se sigue viendo como 'cosa de hombres' y falta una opción femenina, rica y pensada para las curvas.",
+  "beneficio": "Aumentar glúteos y curvas",
+  "problema": "Muchas colombianas quieren crecer nalgas, levantar glúteos y tener más curvas, y entrenan pierna en el gimnasio para lograrlo. La creatina se ve como 'cosa de hombres' y falta un producto para mujer que prometa directamente aumentar glúteos y curvas.",
   "producto": {
-    "nombre_generico": "Fórmula curvas y glúteos para mujer: creatina + colágeno + aguaje + fenogreco",
+    "nombre_generico": "Polvo para crecer nalgas, aumentar glúteos y curvas: creatina + colágeno + aguaje + fenogreco",
     "registro_base": "F04",
     "presentacion": "Polvo",
     "formula_corta": "Creatina monohidrato + colágeno hidrolizado + aguaje (Mauritia flexuosa) + fenogreco + maca + myo-inositol + BCAA + ácido hialurónico + vitamina D3, en polvo (tarro y sticks)",
-    "porque_en_colombia": "Une los virales de curvas y gimnasio femenino: YESNAP PeachPout (creatina + colágeno + myo-inositol + BCAA + maca + ácido hialurónico + D3, 32.537 unidades en septiembre), Clean Nutra, Bold Buns y NeoCell (creatina + colágeno), y Beyond Vitamins en México (aguaje + fenogreco, 1.313 unidades). El boom del gimnasio femenino en Colombia es enorme."
+    "porque_en_colombia": "Junta los virales para crecer glúteos y curvas: YESNAP PeachPout (creatina + colágeno + myo-inositol + BCAA + maca + ácido hialurónico + D3, 32.537 unidades en septiembre), Clean Nutra, Bold Buns y NeoCell (creatina + colágeno), y Beyond Vitamins en México (aguaje + fenogreco, 1.313 unidades). En TikTok se vende para aumentar nalgas, caderas y curvas. El gimnasio femenino en Colombia está explotando."
   },
   "marcas": [
     {
       "nombre": "MAGNIFICA Tono",
-      "concepto": "El batido de creatina + colágeno + aguaje de MAGNIFICA para la mujer que entrena y quiere tonificar sus curvas.",
-      "eslogan": "Entrena, tonifica, brilla.",
+      "concepto": "El batido de MAGNIFICA con creatina, colágeno y aguaje para crecer nalgas y aumentar curvas mientras entrenas.",
+      "eslogan": "Más glúteo, más curvas.",
       "publico": "Mujeres de 25 a 45 años que van al gimnasio y ya compran colágeno MAGNIFICA",
       "tono": "femenino, seguro, motivador",
       "color": "#D81B60",
@@ -21,8 +22,8 @@
     },
     {
       "nombre": "FIERA",
-      "concepto": "Marca juvenil para la chica que entrena pesado y lo muestra en TikTok: creatina rosada sin miedo a 'inflarse'.",
-      "eslogan": "Entrena como fiera.",
+      "concepto": "Marca juvenil para la chica que entrena pesado y quiere crecer nalgas: creatina rosada que no infla, aumenta glúteos.",
+      "eslogan": "Glúteos de fiera.",
       "publico": "Mujeres de 18 a 30 años, gym girls y creadoras de contenido fitness",
       "tono": "atrevido, divertido, empoderado",
       "color": "#FF006E",
@@ -30,19 +31,19 @@
     },
     {
       "nombre": "VALKIRIA",
-      "concepto": "Línea premium de fuerza femenina: creatina pura y colágeno sin azúcar, en tarro elegante y sticks.",
-      "eslogan": "Fuerza que se nota en tu entreno.",
+      "concepto": "Línea premium de creatina pura y colágeno, cero azúcar, para levantar y aumentar glúteos y curvas, en tarro elegante y sticks.",
+      "eslogan": "Curvas que se notan.",
       "publico": "Mujeres de 28 a 45 años, estratos 4 a 6, que hacen pesas, crossfit o pilates",
       "tono": "sofisticado, fuerte, sereno",
       "color": "#7B2CBF",
       "color2": "#C9A227"
     }
   ],
-  "angulo_venta": "Batido post-entreno para mujeres que hacen pesas y trabajan glúteo: creatina y BCAA para entrenar más fuerte, colágeno y ácido hialurónico para la piel, y aguaje, fenogreco y maca, los ingredientes favoritos para las curvas. Mostrar el progreso en el gimnasio y el antes y después de la rutina.",
+  "angulo_venta": "Batido después del gimnasio para crecer nalgas y aumentar curvas: creatina y BCAA para que el glúteo crezca más rápido con el entreno, aguaje, fenogreco y maca para aumentar caderas y curvas, y colágeno con ácido hialurónico para la piel. Mostrar el antes y después de los glúteos.",
   "ganchos_tiktok": [
-    "Creatina para mujer: no te vas a inflar, vas a marcar tus curvas.",
-    "Mi batido de después del gym sabe a fresa y tiene colágeno y aguaje.",
-    "Tres meses entrenando glúteo con mi creatina rosada."
+    "Creatina para mujer: no te infla, te crece las nalgas.",
+    "Mi batido para aumentar glúteos sabe a fresa y tiene aguaje.",
+    "Tres meses con mi creatina rosada: así me crecieron los glúteos."
   ],
   "precio_cop": "$99.900 - $129.900",
   "estrategia_registro": "Un registro para las 3 marcas: MAGNIFICA Tono, FIERA y VALKIRIA."
