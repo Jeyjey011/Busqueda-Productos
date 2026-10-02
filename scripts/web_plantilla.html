@@ -1,0 +1,482 @@
+<title>Plan de Marcas INVIMA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{
+  --bg:#F2F5F1;--surface:#FFFFFF;--surface2:#E8EEEA;--ink:#10201A;--muted:#5C6E66;--line:#D5DFDA;
+  --accent:#0A7A5F;--accent-soft:#D7EEE6;--accent-ink:#FFFFFF;--mark:#E3F26B;--mark-ink:#1E2600;
+  --up:#0F7A50;--up-bg:#DBF2E5;--flat:#2B5A8A;--flat-bg:#E1EBF6;--down:#8F5A00;--down-bg:#FBEDCB;
+  --burn:#B42318;--burn-bg:#FDE2DF;--new:#6A3DBB;--new-bg:#ECE4FA;--shadow:0 1px 2px rgba(16,32,26,.06),0 8px 24px rgba(16,32,26,.06);
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;--body:"Figtree",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;--bg:#0C1411;--surface:#131E1A;--surface2:#1A2823;--ink:#E6EEEA;--muted:#94A69F;--line:#26362F;
+  --accent:#3CCB9E;--accent-soft:#163A2F;--accent-ink:#06231B;--mark:#D6EA57;--mark-ink:#1A2100;
+  --up:#56D69E;--up-bg:#123325;--flat:#86B6EC;--flat-bg:#15263A;--down:#F2B748;--down-bg:#33270F;--burn:#FF8A80;--burn-bg:#3A1714;--new:#B99DFF;--new-bg:#241A3A;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.25);}}
+:root[data-theme="dark"]{
+  color-scheme:dark;--bg:#0C1411;--surface:#131E1A;--surface2:#1A2823;--ink:#E6EEEA;--muted:#94A69F;--line:#26362F;
+  --accent:#3CCB9E;--accent-soft:#163A2F;--accent-ink:#06231B;--mark:#D6EA57;--mark-ink:#1A2100;
+  --up:#56D69E;--up-bg:#123325;--flat:#86B6EC;--flat-bg:#15263A;--down:#F2B748;--down-bg:#33270F;--burn:#FF8A80;--burn-bg:#3A1714;--new:#B99DFF;--new-bg:#241A3A;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.25);}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--display);line-height:1.08;margin:0;text-wrap:balance;letter-spacing:-.015em}
+p{margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* barra superior */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;min-height:64px}
+.logo{display:flex;align-items:center;gap:10px;font:800 18px/1 var(--display);white-space:nowrap}
+.logo i{width:30px;height:16px;border-radius:99px;background:linear-gradient(90deg,var(--accent) 50%,var(--mark) 50%);display:inline-block;transform:rotate(-20deg)}
+.tabs{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+.tabs::-webkit-scrollbar{display:none}
+.tab{border:0;background:none;padding:9px 14px;border-radius:99px;font-weight:600;font-size:15px;color:var(--muted);white-space:nowrap;transition:background .2s,color .2s}
+.tab:hover{color:var(--ink);background:var(--surface2)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+
+main{padding-block:32px 80px}
+.view{animation:entra .45s cubic-bezier(.2,.7,.2,1)}
+@keyframes entra{from{opacity:.25;transform:translateY(10px)}to{opacity:1;transform:none}}
+.stag>*{animation:entra .5s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0)*40ms)}
+
+/* inicio */
+.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:end;padding-block:24px 36px}
+.hero h1{font-size:clamp(38px,6.2vw,76px);font-weight:800}
+.hero h1 mark{background:var(--mark);color:var(--mark-ink);padding:0 .12em;border-radius:.12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.hero .lead{font-size:clamp(17px,1.6vw,20px);color:var(--muted);max-width:38ch;margin-top:18px}
+.stamp{justify-self:end;width:min(100%,300px);aspect-ratio:1.45;border:2px dashed var(--accent);border-radius:18px;padding:18px;display:grid;align-content:space-between;transform:rotate(-3deg);color:var(--accent);background:var(--accent-soft)}
+.stamp b{font:800 26px/1 var(--display)}
+.stamp span{font:700 13px/1.3 var(--mono);letter-spacing:.04em}
+.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.kpi{padding:22px 18px;border-right:1px solid var(--line)}
+.kpi:last-child{border-right:0}
+.kpi .v{font:800 clamp(30px,4vw,46px)/1 var(--display);letter-spacing:-.02em}
+.kpi .l{color:var(--muted);font-size:14px;margin-top:8px}
+.sec{margin-top:64px}
+.sec-h{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.sec-h h2{font-size:clamp(26px,3vw,36px)}
+.sec-h p{color:var(--muted);max-width:56ch}
+.pasos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.paso{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.paso .n{font:700 13px/1 var(--mono);color:var(--accent)}
+.paso h3{font-size:22px;margin:12px 0 8px}
+.paso p{color:var(--muted);font-size:15px}
+.barras{display:grid;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.barra{display:grid;grid-template-columns:190px 1fr 92px;gap:14px;align-items:center;font-size:15px;border:0;background:none;text-align:left;padding:4px;border-radius:10px}
+.barra:hover{background:var(--surface2)}
+.barra .t{height:14px;background:var(--surface2);border-radius:99px;overflow:hidden}
+.barra .t i{display:block;height:100%;background:var(--accent);border-radius:99px;width:var(--w);transform-origin:left;animation:crece .9s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--i,0)*50ms)}
+@keyframes crece{from{transform:scaleX(.08)}to{transform:none}}
+.barra .num{text-align:right;color:var(--muted)}
+
+/* chips y filtros */
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips.scroll{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+.chip{border:1px solid var(--line);background:var(--surface);padding:8px 14px;border-radius:99px;font-size:14px;font-weight:600;white-space:nowrap;transition:all .2s}
+.chip:hover{border-color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip small{font:600 12px var(--mono);opacity:.7;margin-left:4px}
+.tend{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:99px;font-size:13px;font-weight:700;white-space:nowrap}
+.tend.sube{background:var(--up-bg);color:var(--up)}.tend.estable{background:var(--flat-bg);color:var(--flat)}
+.tend.baja{background:var(--down-bg);color:var(--down)}.tend.quemado{background:var(--burn-bg);color:var(--burn)}
+.tend.nuevo{background:var(--new-bg);color:var(--new)}.tend.sindato{background:var(--surface2);color:var(--muted)}
+.ya{background:var(--mark);color:var(--mark-ink);font:800 12px/1 var(--mono);padding:6px 9px;border-radius:7px;letter-spacing:.06em}
+.despues{background:var(--surface2);color:var(--muted);font:700 12px/1 var(--mono);padding:6px 9px;border-radius:7px;letter-spacing:.04em}
+.pill{border:1px solid var(--line);padding:3px 10px;border-radius:99px;font-size:13px;color:var(--muted);white-space:nowrap}
+
+/* tarjetas de registro */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+.reg{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:18px;display:grid;gap:14px;text-align:left;transition:transform .25s,box-shadow .25s,border-color .25s}
+.reg:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:color-mix(in srgb,var(--accent) 40%,var(--line))}
+.reg .fila{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.reg .fotos{display:flex}
+.reg .fotos img{width:58px;height:58px;border-radius:14px;object-fit:cover;border:3px solid var(--surface);background:#fff;margin-right:-14px}
+.reg h3{font-size:21px}
+.reg .meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.mini{display:grid;grid-template-columns:auto 1fr auto;gap:6px 10px;align-items:center;font-size:13px;color:var(--muted)}
+.mini .t{height:8px;background:var(--surface2);border-radius:99px;overflow:hidden}
+.mini .t i{display:block;height:100%;width:var(--w);border-radius:99px;background:var(--accent);transform-origin:left;animation:crece .8s both}
+.mini .t i.mx{background:color-mix(in srgb,var(--accent) 45%,var(--mark))}
+.cat-titulo{display:flex;align-items:center;gap:12px;margin:34px 0 14px}
+.cat-titulo h3{font-size:24px}
+.cat-titulo span{color:var(--muted);font-size:14px}
+
+/* categorías */
+.cat-head{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:28px;margin-top:18px}
+.cat-head h2{font-size:clamp(30px,4vw,48px)}
+.cat-head .prob{color:var(--muted);margin-top:12px;max-width:60ch}
+.cat-head .stats{display:flex;gap:28px;margin-top:20px;flex-wrap:wrap}
+.cat-head .stats b{display:block;font:800 28px/1 var(--display)}
+.cat-head .stats span{font-size:13px;color:var(--muted)}
+.prop{background:var(--accent-soft);border-radius:18px;padding:16px;display:grid;grid-template-columns:110px 1fr;gap:14px;align-items:center;border:0;text-align:left}
+.prop:hover .mock{transform:rotate(-4deg) scale(1.04)}
+.prop .mock{transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.prop .eyebrow{color:var(--accent)}
+.prop h4{font-size:20px;margin:6px 0 4px}
+.prop p{font-size:14px;color:var(--muted)}
+.grupo{margin-top:30px}
+.grupo-h{display:flex;align-items:baseline;gap:10px;margin-bottom:10px}
+.grupo-h h3{font-size:20px}
+.grupo-h span{color:var(--muted);font:600 13px var(--mono)}
+.lista{background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.item{display:grid;grid-template-columns:64px minmax(0,2.2fr) 70px minmax(110px,1fr) 118px minmax(0,1.3fr);gap:14px;align-items:center;padding:12px 16px;border-top:1px solid var(--line)}
+.item:first-child{border-top:0}
+.item img{width:64px;height:64px;border-radius:12px;object-fit:cover;background:#fff}
+.item .nom{font-weight:700;line-height:1.3}
+.item .sub{font-size:13px;color:var(--muted);margin-top:2px}
+.item .u{display:grid;gap:5px;font-size:13px}
+.item .u .t{height:6px;background:var(--surface2);border-radius:99px;overflow:hidden}
+.item .u .t i{display:block;height:100%;width:var(--w);background:var(--accent);border-radius:99px}
+.item .sale{font-size:13px;font-weight:600}
+.item .sale.si{color:var(--accent)}
+.item .sale.no{color:var(--muted);font-weight:500}
+.item a{color:var(--muted);font-size:12px}
+.toggle{display:inline-flex;align-items:center;gap:8px;font-size:14px;color:var(--muted);cursor:pointer}
+.toggle input{accent-color:var(--accent);width:18px;height:18px}
+
+/* marcas */
+.galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px}
+.gcard{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:20px;text-align:left;display:grid;gap:12px;transition:transform .25s,box-shadow .25s}
+.gcard:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.gcard .mocks{display:flex;justify-content:center;gap:4px;height:150px;align-items:end;background:var(--surface2);border-radius:16px;padding:12px 8px 0;overflow:hidden}
+.gcard .mocks svg{height:130px;width:auto;transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.gcard:hover .mocks svg:nth-child(1){transform:translateY(-6px) rotate(-5deg)}
+.gcard:hover .mocks svg:nth-child(2){transform:translateY(-10px)}
+.gcard:hover .mocks svg:nth-child(3){transform:translateY(-6px) rotate(5deg)}
+.gcard h3{font-size:22px}
+.gcard .nombres{color:var(--muted);font-size:14px}
+.detalle{display:grid;grid-template-columns:.9fr 1.1fr;gap:32px;margin-top:20px}
+.escenario{position:sticky;top:calc(env(safe-area-inset-top,0px) + 84px);align-self:start;background:radial-gradient(120% 90% at 50% 100%,var(--c2s,var(--surface2)) 0%,var(--surface) 70%);border:1px solid var(--line);border-radius:26px;padding:24px;display:grid;gap:18px;justify-items:center;overflow:hidden}
+.escenario .grande{width:min(100%,300px);height:auto;filter:drop-shadow(0 18px 24px rgba(0,0,0,.18))}
+.escenario .grande.anim{animation:aparece .55s cubic-bezier(.2,.8,.2,1.2)}
+@keyframes aparece{from{transform:translateY(16px) rotate(-6deg) scale(.92);opacity:.3}to{transform:none;opacity:1}}
+.selector{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.selector button{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:8px 12px;font-weight:700;display:flex;gap:8px;align-items:center}
+.selector button i{width:14px;height:14px;border-radius:50%;display:inline-block}
+.selector button[aria-pressed="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.info{display:grid;gap:18px}
+.info .nombre{font-size:clamp(40px,5.5vw,66px);font-weight:800}
+.info .eslogan{font:600 clamp(18px,2vw,22px)/1.35 var(--display);color:var(--accent)}
+.bloque{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}
+.bloque h4{font:700 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.bloque ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.dos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.nodecir{display:flex;flex-wrap:wrap;gap:8px}
+.nodecir span{background:var(--burn-bg);color:var(--burn);padding:5px 11px;border-radius:99px;font-size:13px;font-weight:600;text-decoration:line-through;text-decoration-thickness:1.5px}
+.precio{font:800 30px/1 var(--display)}
+.volver{border:0;background:none;color:var(--muted);font-weight:600;padding:6px 0}
+.volver:hover{color:var(--ink)}
+.link{border:0;background:none;color:var(--accent);font-weight:700;padding:0;text-decoration:underline;text-underline-offset:3px}
+
+/* modal */
+dialog{border:0;padding:0;border-radius:24px;width:min(760px,calc(100% - 32px));max-height:calc(100% - 48px);background:var(--surface);color:var(--ink);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(8,16,13,.55);backdrop-filter:blur(3px)}
+dialog[open]{animation:sube .35s cubic-bezier(.2,.8,.2,1)}
+@keyframes sube{from{transform:translateY(24px);opacity:.4}to{transform:none;opacity:1}}
+.modal{padding:28px;display:grid;gap:20px}
+.modal .cerrar{position:sticky;top:0;justify-self:end;border:1px solid var(--line);background:var(--surface);border-radius:99px;width:38px;height:38px;font-size:20px;line-height:1}
+.modal h2{font-size:clamp(28px,4vw,40px)}
+.refs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.ref{display:grid;gap:6px;font-size:13px}
+.ref img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:14px;background:#fff;border:1px solid var(--line)}
+.ref b{font-size:14px;line-height:1.3}
+.ref span{color:var(--muted)}
+.nota{font-size:13px;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);font-size:13px}
+
+@media (max-width:860px){
+  .hero,.cat-head,.detalle{grid-template-columns:1fr}
+  .stamp{justify-self:start}
+  .kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpi:nth-child(2){border-right:0}.kpi:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .pasos{grid-template-columns:1fr}
+  .barra{grid-template-columns:120px 1fr 70px;font-size:14px}
+  .item{grid-template-columns:56px 1fr auto;grid-template-areas:"img nom nom" "img u tend" "sale sale sale"}
+  .item img{grid-area:img;width:56px;height:56px}.item .n1{grid-area:nom}.item .u{grid-area:u}.item .tcol{grid-area:tend}.item .sale{grid-area:sale}.item .pais{display:none}
+  .escenario{position:static}
+  .dos{grid-template-columns:1fr}
+  .logo span{display:none}
+}
+@media (max-width:440px){.kpis{grid-template-columns:1fr}.kpi{border-right:0;border-bottom:1px solid var(--line)}.kpi:last-child{border-bottom:0}.barra{grid-template-columns:1fr 64px}.barra .t{grid-column:1/-1;grid-row:2}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <div class="logo"><i aria-hidden="true"></i><span>Plan INVIMA</span></div>
+    <nav class="tabs" role="tablist" aria-label="Secciones">
+      <button class="tab" role="tab" data-tab="inicio" id="t-inicio">Inicio</button>
+      <button class="tab" role="tab" data-tab="registros" id="t-registros">Registros</button>
+      <button class="tab" role="tab" data-tab="categorias" id="t-categorias">Categorías</button>
+      <button class="tab" role="tab" data-tab="marcas" id="t-marcas">Marcas propias</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="app" aria-live="polite"></main>
+<footer class="wrap" id="pie"></footer>
+<dialog id="modal" aria-labelledby="modal-titulo"></dialog>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const fmt = (n) => (n == null ? '—' : Number(n).toLocaleString('es-CO'));
+const pais = (r) => (r === 'US' ? 'EE. UU.' : 'México');
+const reducido = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const TEND = { sube: '▲ Subiendo', estable: '● Estable', baja: '▼ Bajando', quemado: '✕ Quemado', nuevo: '✦ Nuevo', sindato: 'Sin dato' };
+const tend = (t, c) => `<span class="tend ${t}" title="${c == null ? '' : 'Septiembre vs. agosto: ' + (c > 0 ? '+' : '') + Math.round(c) + ' %'}">${TEND[t]}${c != null && (t === 'sube' || t === 'baja' || t === 'quemado') ? ` <span class="mono">${c > 0 ? '+' : ''}${Math.round(c)}%</span>` : ''}</span>`;
+const img = (id, alt = '') => (D.imgs[id] ? `<img src="${D.imgs[id]}" alt="${esc(alt)}" loading="lazy">` : `<img alt="">`);
+const catNombre = (cod) => D.categorias.find((c) => c.cod === cod)?.n || cod;
+const marcaDe = (cod) => D.marcas.find((m) => m.categoria === cod);
+const regPorId = Object.fromEntries(D.registros.map((r) => [r.id, r]));
+const prodPorId = Object.fromEntries(D.productos.map((p) => [p.id, p]));
+
+const estado = { tab: 'inicio', orden: 'todos', cat: D.categorias[0].cod, sinQuemados: false, marcaCat: null, marcaIdx: 0 };
+try { const g = JSON.parse(localStorage.getItem('planinvima') || '{}'); Object.assign(estado, { sinQuemados: !!g.sinQuemados }); } catch (e) {}
+const guardar = () => { try { localStorage.setItem('planinvima', JSON.stringify({ sinQuemados: estado.sinQuemados })); } catch (e) {} };
+
+/* ---------- empaques dibujados ---------- */
+function tono(hex, f) {
+  const n = parseInt(hex.slice(1), 16); let r = n >> 16, g = (n >> 8) & 255, b = n & 255;
+  const m = (v) => Math.max(0, Math.min(255, Math.round(f < 0 ? v * (1 + f) : v + (255 - v) * f)));
+  return '#' + [m(r), m(g), m(b)].map((v) => v.toString(16).padStart(2, '0')).join('');
+}
+function claro(hex) { const n = parseInt(hex.slice(1), 16); return ((n >> 16) * 299 + ((n >> 8) & 255) * 587 + (n & 255) * 114) / 1000 > 150; }
+function texto(nombre, x, y, ancho, color, max = 30) {
+  const pal = String(nombre).toUpperCase().split(' ').filter(Boolean);
+  const una = (t, yy, tam, peso = 800, esp = 0.5) => `<text x="${x}" y="${yy}" text-anchor="middle" font-family="Bricolage Grotesque, sans-serif" font-weight="${peso}" font-size="${tam.toFixed(1)}" fill="${color}" letter-spacing="${esp}">${esc(t)}</text>`;
+  if (pal.length > 1 && pal.join(' ').length > 9) {
+    const principal = pal[pal.length - 1], arriba = pal.slice(0, -1).join(' ');
+    const fs = Math.max(11, Math.min(max, ancho / (principal.length * 0.62)));
+    return una(arriba, y - fs * 0.92, Math.min(10, ancho / (arriba.length * 0.75)), 700, 2) + una(principal, y + 2, fs);
+  }
+  const t = pal.join(' ');
+  return una(t, y, Math.max(11, Math.min(max, ancho / (t.length * 0.62))));
+}
+const CANT = { 'cápsula': '60 CÁPSULAS', 'cápsula blanda': '60 CÁPSULAS BLANDAS', 'tableta': '60 TABLETAS', 'gomita': '60 GOMITAS', 'polvo': '300 g · 30 PORCIONES', 'sobre / stick': '30 STICKS', 'gotas': '30 ml', 'líquido': '500 ml' };
+const cantidad = (pres) => CANT[(pres || '').toLowerCase()] || '';
+function mock(pres, c1 = '#0A7A5F', c2 = '#E3F26B', nombre = '', sub = '', cls = '') {
+  const tinta = claro(c1) ? '#13201A' : '#FFFFFF';
+  const id = 'g' + Math.random().toString(36).slice(2, 8);
+  const brillo = `<linearGradient id="${id}" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".0"/><stop offset=".18" stop-color="#fff" stop-opacity=".35"/><stop offset=".32" stop-color="#fff" stop-opacity="0"/></linearGradient>`;
+  let cuerpo = '';
+  const p = (pres || '').toLowerCase();
+  if (p.includes('polvo') || p.includes('sobre')) {
+    cuerpo = `<rect x="28" y="70" width="144" height="30" rx="9" fill="${tono(c2, -0.25)}"/><rect x="28" y="70" width="144" height="10" rx="5" fill="${tono(c2, 0.2)}" opacity=".6"/>
+      <rect x="34" y="96" width="132" height="132" rx="18" fill="${c1}"/><rect x="34" y="128" width="132" height="66" fill="${tono(c1, 0.88)}"/>
+      ${texto(nombre, 100, 166, 118, c1)}<text x="100" y="184" text-anchor="middle" font-family="Figtree, sans-serif" font-size="9.5" font-weight="700" fill="${tono(c1, -0.2)}">${esc(sub)}</text>
+      <rect x="34" y="96" width="132" height="132" rx="18" fill="url(#${id})"/>`;
+  } else if (p.includes('gomita')) {
+    cuerpo = `<path d="M44 52 H156 Q164 52 165 62 L172 214 Q100 236 28 214 L35 62 Q36 52 44 52Z" fill="${c1}"/>
+      <rect x="44" y="64" width="112" height="6" rx="3" fill="${tono(c1, -0.25)}"/>
+      <circle cx="100" cy="182" r="26" fill="${tono(c1, 0.85)}"/><circle cx="90" cy="178" r="8" fill="${c2}"/><circle cx="108" cy="186" r="8" fill="${tono(c2, -0.2)}"/><circle cx="104" cy="170" r="7" fill="${tono(c2, 0.3)}"/>
+      ${texto(nombre, 100, 118, 116, tinta)}<text x="100" y="138" text-anchor="middle" font-family="Figtree, sans-serif" font-size="9.5" font-weight="700" fill="${tinta}" opacity=".85">${esc(sub)}</text>
+      <path d="M44 52 H156 Q164 52 165 62 L172 214 Q100 236 28 214 L35 62 Q36 52 44 52Z" fill="url(#${id})"/>`;
+  } else if (p.includes('gota') || p.includes('líquido') || p.includes('liquido')) {
+    cuerpo = `<ellipse cx="100" cy="40" rx="15" ry="20" fill="${tono(c2, -0.3)}"/><rect x="80" y="54" width="40" height="32" rx="5" fill="${tono(c2, -0.45)}"/>
+      <rect x="56" y="84" width="88" height="146" rx="20" fill="${tono(c1, -0.35)}"/><rect x="56" y="118" width="88" height="80" fill="${tono(c1, 0.9)}"/>
+      ${texto(nombre, 100, 156, 76, c1, 22)}<text x="100" y="174" text-anchor="middle" font-family="Figtree, sans-serif" font-size="8.5" font-weight="700" fill="${tono(c1, -0.2)}">${esc(sub)}</text>
+      <rect x="56" y="84" width="88" height="146" rx="20" fill="url(#${id})"/>`;
+  } else {
+    cuerpo = `<rect x="66" y="30" width="68" height="34" rx="8" fill="${tono(c2, -0.3)}"/><rect x="66" y="30" width="68" height="8" rx="4" fill="${tono(c2, 0.2)}" opacity=".7"/>
+      <rect x="74" y="60" width="52" height="14" fill="${tono(c1, 0.75)}"/>
+      <rect x="46" y="70" width="108" height="160" rx="26" fill="${tono(c1, 0.92)}"/><rect x="46" y="112" width="108" height="86" fill="${c1}"/>
+      ${texto(nombre, 100, 156, 94, tinta, 26)}<text x="100" y="176" text-anchor="middle" font-family="Figtree, sans-serif" font-size="9" font-weight="700" fill="${tinta}" opacity=".85">${esc(sub)}</text>
+      <rect x="46" y="70" width="108" height="160" rx="26" fill="url(#${id})"/>`;
+  }
+  return `<svg class="mock ${cls}" viewBox="0 0 200 244" role="img" aria-label="Empaque de ${esc(nombre)}"><defs>${brillo}</defs><ellipse cx="100" cy="234" rx="70" ry="7" fill="#000" opacity=".12"/>${cuerpo}</svg>`;
+}
+
+/* ---------- vistas ---------- */
+function vistaInicio() {
+  const k = D.kpi;
+  const max = Math.max(...D.categorias.map((c) => c.total));
+  const ya = D.registros.filter((r) => r.ya);
+  return `<section class="hero">
+    <div>
+      <p class="eyebrow">Suplementos virales · TikTok Shop EE. UU. y México · ${esc(D.corte)}</p>
+      <h1 style="margin-top:16px"><mark>${k.ya} registros</mark> para empezar. Hasta 3 marcas en cada uno.</h1>
+      <p class="lead">Revisamos los suplementos más vendidos de septiembre y los agrupamos por fórmula. Cada grupo es un registro INVIMA que puede salir al mercado con MAGNIFICA y dos marcas más.</p>
+    </div>
+    <div class="stamp" aria-hidden="true"><span>REGISTRO SANITARIO</span><b>SD2026-<br>0000000</b><span>1 FÓRMULA · 1 PRESENTACIÓN · 3 MARCAS</span></div>
+  </section>
+  <section class="kpis stag">
+    ${[[k.publicaciones, 'productos virales analizados'], [k.unidades, 'unidades vendidas en septiembre'], [k.ya, 'registros para sacar ya'], [k.ya + k.despues, 'registros en total (ya + después)']]
+      .map(([v, l], i) => `<div class="kpi" style="--i:${i}"><div class="v mono" data-cuenta="${v}">${fmt(v)}</div><div class="l">${l}</div></div>`).join('')}
+  </section>
+  <section class="sec">
+    <div class="sec-h"><h2>Cómo funciona</h2><p>Un registro de suplemento dietario ampara una fórmula en una presentación (cápsula, gomita, polvo…) y hasta tres marcas.</p></div>
+    <div class="pasos stag">
+      <div class="paso" style="--i:0"><div class="n">PASO 1</div><h3>Elegir la fórmula</h3><p>Tomamos lo que ya se vende en TikTok Shop y lo dejamos con ingredientes permitidos en Colombia.</p></div>
+      <div class="paso" style="--i:1"><div class="n">PASO 2</div><h3>Radicar ante INVIMA</h3><p>Entre 2 y 6 meses según las fuentes consultadas. Si la empresa es microempresa, la tarifa de INVIMA es $0.</p></div>
+      <div class="paso" style="--i:2"><div class="n">PASO 3</div><h3>Lanzar hasta 3 marcas</h3><p>MAGNIFICA más dos marcas propias sobre el mismo registro. Una cuarta marca necesita otro registro.</p></div>
+    </div>
+  </section>
+  <section class="sec">
+    <div class="sec-h"><h2>Los ${ya.length} registros para sacar ya</h2><button class="link" data-ir="registros">Ver los ${D.registros.length} registros</button></div>
+    <div class="grid stag">${ya.map((r, i) => tarjetaRegistro(r, i)).join('')}</div>
+  </section>
+  <section class="sec">
+    <div class="sec-h"><h2>Dónde está la demanda</h2><p>Unidades vendidas en septiembre de 2026 por categoría (EE. UU. + México). Toque una categoría para ver sus productos.</p></div>
+    <div class="barras">${D.categorias.map((c, i) => `<button class="barra" data-cat="${c.cod}" style="--i:${i}"><span>${esc(c.n)}</span><span class="t"><i style="--w:${(c.total / max * 100).toFixed(1)}%"></i></span><span class="num mono">${fmt(c.total)}</span></button>`).join('')}</div>
+  </section>`;
+}
+
+function tarjetaRegistro(r, i = 0) {
+  const max = Math.max(...D.registros.map((x) => Math.max(x.us, x.mx)));
+  return `<button class="reg" data-reg="${r.id}" style="--i:${i}">
+    <div class="fila"><div class="fotos">${r.refs.slice(0, 3).map((id) => img(id)).join('')}</div>${r.ya ? '<span class="ya">YA</span>' : '<span class="despues">DESPUÉS</span>'}</div>
+    <div><p class="eyebrow">${esc(catNombre(r.cat))}</p><h3 style="margin-top:6px">${esc(r.n)}</h3></div>
+    <div class="meta"><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
+    <div class="mini"><span>EE. UU.</span><span class="t"><i style="--w:${(r.us / max * 100).toFixed(1)}%"></i></span><span class="mono">${fmt(r.us)}</span>
+      <span>México</span><span class="t"><i class="mx" style="--w:${(r.mx / max * 100).toFixed(1)}%"></i></span><span class="mono">${fmt(r.mx)}</span></div>
+  </button>`;
+}
+
+function vistaRegistros() {
+  const lista = D.registros.filter((r) => estado.orden === 'todos' || (estado.orden === 'ya') === r.ya);
+  const cats = [...new Set(lista.map((r) => r.cat))].sort((a, b) => Math.min(...lista.filter((r) => r.cat === a).map((r) => (r.ya ? 0 : 1))) - Math.min(...lista.filter((r) => r.cat === b).map((r) => (r.ya ? 0 : 1))) || D.categorias.findIndex((c) => c.cod === a) - D.categorias.findIndex((c) => c.cod === b));
+  return `<div class="sec-h"><div><p class="eyebrow">Registros INVIMA</p><h2 style="margin-top:8px">Qué registrar, agrupado por categoría</h2></div>
+    <div class="chips" role="group" aria-label="Filtrar">
+      ${[['todos', 'Todos', D.registros.length], ['ya', 'Sacar ya', D.kpi.ya], ['despues', 'Después', D.kpi.despues]].map(([v, l, n]) => `<button class="chip" data-orden="${v}" aria-pressed="${estado.orden === v}">${l}<small>${n}</small></button>`).join('')}
+    </div></div>
+    <p class="nota">Toque un registro para ver la fórmula, los productos virales en los que se basa y lo que sí se puede decir en la publicidad.</p>
+    ${cats.map((cod) => { const rs = lista.filter((r) => r.cat === cod); return `<div class="cat-titulo"><h3>${esc(catNombre(cod))}</h3><span>${rs.length} ${rs.length === 1 ? 'registro' : 'registros'}</span></div><div class="grid stag">${rs.map((r, i) => tarjetaRegistro(r, i)).join('')}</div>`; }).join('')}`;
+}
+
+function vistaCategorias() {
+  const cat = D.categorias.find((c) => c.cod === estado.cat) || D.categorias[0];
+  const m = marcaDe(cat.cod);
+  let ps = D.productos.filter((p) => p.cat === cat.cod);
+  const quemados = ps.filter((p) => p.t === 'quemado').length;
+  if (estado.sinQuemados) ps = ps.filter((p) => p.t !== 'quemado');
+  const grupos = {};
+  ps.forEach((p) => (grupos[p.v] ||= []).push(p));
+  const suma = (a) => a.reduce((s, p) => s + (p.u || 0), 0);
+  const maxU = Math.max(1, ...ps.map((p) => p.u || 0));
+  const regs = D.registros.filter((r) => r.cat === cat.cod);
+  const plural = { 'Cápsula': 'Cápsulas', 'Cápsula blanda': 'Cápsulas blandas', 'Tableta': 'Tabletas', 'Gomita': 'Gomitas', 'Polvo': 'Polvos', 'Líquido': 'Líquidos', 'Gotas': 'Gotas', 'Sobre / stick': 'Sobres y sticks', 'Otro': 'Otros' };
+  return `<div class="chips scroll" role="group" aria-label="Categorías">${D.categorias.map((c) => `<button class="chip" data-cat="${c.cod}" aria-pressed="${c.cod === cat.cod}">${esc(c.n)}<small>${c.np}</small></button>`).join('')}</div>
+    <section class="cat-head">
+      <div>
+        <p class="eyebrow">Categoría</p>
+        <h2 style="margin-top:8px">${esc(cat.n)}</h2>
+        ${m ? `<p class="prob">${esc(m.problema)}</p>` : ''}
+        <div class="stats"><div><b class="mono">${fmt(cat.total)}</b><span>unidades en septiembre</span></div><div><b class="mono">${cat.np}</b><span>productos virales</span></div><div><b class="mono">${regs.length}</b><span>registros propuestos</span></div><div><b class="mono">${quemados}</b><span>quemados</span></div></div>
+      </div>
+      ${m ? `<button class="prop" data-marca="${cat.cod}">${mock(m.producto.presentacion, m.marcas[0].color, m.marcas[0].color2, m.marcas[0].nombre, cantidad(m.producto.presentacion))}
+        <div><p class="eyebrow">Nuestra propuesta</p><h4>${esc(m.marcas.map((x) => x.nombre).join(' · '))}</h4><p>${esc(m.producto.nombre_generico)} en ${esc(m.producto.presentacion.toLowerCase())}. Ver marcas →</p></div></button>` : ''}
+    </section>
+    <div class="sec-h" style="margin-top:28px;margin-bottom:0"><p class="nota">Agrupados por presentación y ordenados por ventas de septiembre. "Quemado" = cae más de 20 % y lleva más de un año en venta.</p>
+      <label class="toggle"><input type="checkbox" id="sin-quemados" ${estado.sinQuemados ? 'checked' : ''}> Ocultar quemados</label></div>
+    ${Object.keys(grupos).sort((a, b) => suma(grupos[b]) - suma(grupos[a])).map((v) => `<div class="grupo"><div class="grupo-h"><h3>${esc(plural[v] || v)}</h3><span>${grupos[v].length}</span></div>
+      <div class="lista">${grupos[v].sort((a, b) => (b.u ?? -1) - (a.u ?? -1) || (b.w ?? -1) - (a.w ?? -1)).map((p) => {
+        const r = p.f ? regPorId[p.f] : null;
+        return `<div class="item">${img(p.id, p.n)}
+          <div class="n1"><div class="nom">${esc(p.n)}</div><div class="sub">${esc(p.m)} · ${esc(p.s)}</div></div>
+          <div class="pais sub">${pais(p.r)}</div>
+          <div class="u"><span class="mono">${p.u != null ? fmt(p.u) + ' u.' : p.w != null ? fmt(p.w) + ' u./sem' : '—'}</span><span class="t"><i style="--w:${((p.u || 0) / maxU * 100).toFixed(1)}%"></i></span></div>
+          <div class="tcol">${tend(p.t, p.c)}</div>
+          <div class="sale ${r ? 'si' : 'no'}">${r ? `${r.ya ? '<span class="ya">YA</span>' : '<span class="despues">DESPUÉS</span>'} <button class="link" data-reg="${r.id}">${esc(r.n)}</button>` : 'No entra en un registro'}${p.url ? ` · <a href="${esc(p.url)}" target="_blank" rel="noopener">FastMoss</a>` : ''}</div>
+        </div>`; }).join('')}</div></div>`).join('')}`;
+}
+
+function vistaMarcas() {
+  if (!D.marcas.length) return `<div class="sec-h"><h2>Marcas propias</h2></div><p class="nota">Las propuestas de marca se están preparando.</p>`;
+  if (!estado.marcaCat) {
+    return `<div class="sec-h"><div><p class="eyebrow">Marcas propias</p><h2 style="margin-top:8px">Un producto propio por categoría, tres marcas para elegir</h2></div>
+      <p>Cada producto se apoya en un registro del plan. Las tres marcas pueden ir sobre ese mismo registro.</p></div>
+      <div class="galeria stag">${D.marcas.map((m, i) => `<button class="gcard" data-marca="${m.categoria}" style="--i:${i}">
+        <div class="mocks">${m.marcas.map((b) => mock(m.producto.presentacion, b.color, b.color2, b.nombre, cantidad(m.producto.presentacion))).join('')}</div>
+        <div><p class="eyebrow">${esc(m.nombre_categoria)} · ${esc(m.producto.presentacion)}</p><h3 style="margin-top:6px">${esc(m.producto.nombre_generico)}</h3></div>
+        <p class="nombres">${m.marcas.map((b) => `<b style="color:var(--ink)">${esc(b.nombre)}</b>`).join(' · ')}</p></button>`).join('')}</div>`;
+  }
+  const m = marcaDe(estado.marcaCat);
+  const b = m.marcas[estado.marcaIdx] || m.marcas[0];
+  const reg = regPorId[m.producto.registro_base];
+  return `<button class="volver" data-volver>← Todas las marcas</button>
+    <div class="detalle">
+      <div class="escenario" style="--c2s:${tono(b.color2, 0.55)}">
+        ${mock(m.producto.presentacion, b.color, b.color2, b.nombre, cantidad(m.producto.presentacion), 'grande anim')}
+        <div class="selector" role="group" aria-label="Elegir marca">${m.marcas.map((x, i) => `<button data-idx="${i}" aria-pressed="${i === estado.marcaIdx}"><i style="background:${esc(x.color)}"></i>${esc(x.nombre)}</button>`).join('')}</div>
+        <p class="nota" style="text-align:center">Empaque ilustrativo. Las 3 marcas comparten el mismo registro.</p>
+      </div>
+      <div class="info">
+        <p class="eyebrow">${esc(m.nombre_categoria)} · Opción ${estado.marcaIdx + 1} de ${m.marcas.length}</p>
+        <h2 class="nombre">${esc(b.nombre)}</h2>
+        <p class="eslogan">“${esc(b.eslogan)}”</p>
+        <p>${esc(b.concepto)}</p>
+        <div class="dos"><div class="bloque"><h4>Le habla a</h4><p>${esc(b.publico)}</p></div><div class="bloque"><h4>Tono</h4><p>${esc(b.tono)}</p></div></div>
+        <div class="bloque"><h4>El producto</h4><p><b>${esc(m.producto.nombre_generico)}</b> · ${esc(m.producto.presentacion)}</p><p style="margin-top:6px">${esc(m.producto.formula_corta)}</p>
+          <p class="nota" style="margin-top:8px">${reg ? `${m.producto.segundo_registro ? 'Segundo registro con la misma fórmula de' : 'Registro base:'} <button class="link" data-reg="${reg.id}">${esc(reg.n)}</button> (${reg.ya ? 'sacar ya' : 'después'}).` : 'Necesita un registro nuevo.'} ${esc(m.estrategia_registro || '')}</p></div>
+        <div class="bloque"><h4>El problema en Colombia</h4><p>${esc(m.problema)}</p><p style="margin-top:8px">${esc(m.producto.porque_en_colombia)}</p></div>
+        <div class="bloque"><h4>Cómo venderlo</h4><p>${esc(m.angulo_venta)}</p></div>
+        <div class="dos"><div class="bloque"><h4>Ganchos para TikTok</h4><ul>${(m.ganchos_tiktok || []).map((g) => `<li>${esc(g)}</li>`).join('')}</ul></div>
+          <div class="bloque"><h4>Precio sugerido</h4><p class="precio">${esc(m.precio_cop)}</p><p class="nota" style="margin-top:6px">por unidad, en Colombia</p></div></div>
+        <div class="bloque"><h4>No decir en la publicidad</h4><div class="nodecir">${(m.no_decir || []).map((x) => `<span>${esc(x)}</span>`).join('')}</div></div>
+      </div>
+    </div>`;
+}
+
+function abrirRegistro(id) {
+  const r = regPorId[id]; if (!r) return;
+  const marcasAqui = D.marcas.filter((m) => m.producto.registro_base === id && !m.producto.segundo_registro);
+  const dlg = $('#modal');
+  dlg.innerHTML = `<div class="modal"><button class="cerrar" aria-label="Cerrar" data-cerrar>×</button>
+    <div><div class="meta" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">${r.ya ? '<span class="ya">SACAR YA</span>' : '<span class="despues">DESPUÉS</span>'}<span class="pill">${esc(catNombre(r.cat))}</span><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
+      <h2 id="modal-titulo" style="margin-top:14px">${esc(r.n)}</h2></div>
+    <div class="bloque"><h4>Fórmula (lo que lleva)</h4><p>${esc(r.formula)}</p><p class="nota" style="margin-top:8px">Dosis orientativas: el maquilador y el asesor regulatorio fijan las definitivas.</p></div>
+    <div class="dos"><div class="bloque"><h4>Ventas en septiembre</h4><p><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.us)}</span> EE. UU.<br><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.mx)}</span> México</p></div>
+      <div class="bloque"><h4>Marcas en este registro</h4><p>MAGNIFICA + 2 marcas.${marcasAqui.length ? ' Propuestas: ' + marcasAqui.flatMap((m) => m.marcas.map((b) => `<b>${esc(b.nombre)}</b>`)).join(', ') + '.' : ''}</p></div></div>
+    <div><h4 class="eyebrow" style="margin-bottom:12px">Se parece a estos productos virales</h4><div class="refs">${r.refs.map((pid) => { const p = prodPorId[pid]; return `<div class="ref">${img(pid, p.n)}<b>${esc(p.n)}</b><span>${pais(p.r)} · <span class="mono">${fmt(p.u)}</span> u. en sep</span></div>`; }).join('')}</div></div>
+    <div class="bloque"><h4>Lo que sí se puede decir</h4><p>${esc(r.decir)}</p></div>
+  </div>`;
+  dlg.showModal();
+}
+
+/* ---------- navegación ---------- */
+function pintar(animar = true) {
+  document.querySelectorAll('.tab').forEach((t) => t.setAttribute('aria-selected', t.dataset.tab === estado.tab));
+  const app = $('#app');
+  app.innerHTML = `<div class="view">${{ inicio: vistaInicio, registros: vistaRegistros, categorias: vistaCategorias, marcas: vistaMarcas }[estado.tab]()}</div>`;
+  if (animar && !reducido) contar();
+}
+function ir(tab, extra = {}) {
+  Object.assign(estado, extra, { tab });
+  try { history.replaceState(null, '', '#' + tab); } catch (e) {}
+  pintar();
+  scrollTo({ top: 0, behavior: reducido ? 'auto' : 'smooth' });
+}
+function contar() {
+  document.querySelectorAll('[data-cuenta]').forEach((el) => {
+    const fin = +el.dataset.cuenta, ini = fin * 0.55, t0 = performance.now();
+    const paso = (t) => { const k = Math.min(1, (t - t0) / 900); el.textContent = fmt(Math.round(ini + (fin - ini) * (1 - Math.pow(1 - k, 3)))); if (k < 1) requestAnimationFrame(paso); };
+    requestAnimationFrame(paso);
+  });
+}
+document.addEventListener('click', (e) => {
+  const t = e.target.closest('button, a'); if (!t) return;
+  if (t.matches('[data-cerrar]')) return $('#modal').close();
+  if (t.dataset.tab) return ir(t.dataset.tab);
+  if (t.dataset.ir) return ir(t.dataset.ir);
+  if (t.dataset.reg) { e.stopPropagation(); return abrirRegistro(t.dataset.reg); }
+  if (t.dataset.orden) { estado.orden = t.dataset.orden; return pintar(false); }
+  if (t.dataset.cat) return ir('categorias', { cat: t.dataset.cat });
+  if (t.dataset.marca) { if ($('#modal').open) $('#modal').close(); return ir('marcas', { marcaCat: t.dataset.marca, marcaIdx: 0 }); }
+  if (t.hasAttribute('data-volver')) return ir('marcas', { marcaCat: null });
+  if (t.dataset.idx) { estado.marcaIdx = +t.dataset.idx; return pintar(false); }
+});
+document.addEventListener('change', (e) => { if (e.target.id === 'sin-quemados') { estado.sinQuemados = e.target.checked; guardar(); pintar(false); } });
+$('#modal').addEventListener('click', (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
+const inicial = (location.hash || '').slice(1);
+if (['inicio', 'registros', 'categorias', 'marcas'].includes(inicial)) estado.tab = inicial;
+$('#pie').innerHTML = `Datos de ventas: FastMoss (TikTok Shop), ${esc(D.corte)}. La parte regulatoria es preliminar: validar con un asesor regulatorio antes de radicar. Marcas y empaques son propuestas ilustrativas.`;
+pintar();
+</script>

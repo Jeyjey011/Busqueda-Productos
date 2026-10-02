@@ -1,0 +1,56 @@
+{
+  "categoria": "CER",
+  "nombre_categoria": "Cerebro y concentración",
+  "problema": "Estudiantes y trabajadores híbridos en Colombia llegan agotados a la tarde y les cuesta rendir en clase o en la oficina: el 69% de los teletrabajadores colombianos reporta mala calidad de descanso (investigación de mercado Colombia 2026). La salida habitual es tinto y bebidas energizantes, sin una rutina de nutrientes.",
+  "producto": {
+    "nombre_generico": "Complejo B activo en gotas (B12 + folato + B6)",
+    "registro_base": "F20",
+    "presentacion": "Gotas",
+    "formula_corta": "Vitamina B12 (metilcobalamina) 25-100 µg + folato (metilfolato) 200-400 µg + B6 1,4 mg + B1 1,1 mg + niacina 16 mg + vitamina C 40 mg por 1 mL (dosis orientativas)",
+    "porque_en_colombia": "Las gotas son baratas de maquilar, fáciles de mostrar en video y ya tienen declaraciones aceptadas (cansancio y fatiga, sistema nervioso, función psicológica normal). Los virales de concentración (Neuro Gum, Windboss) son chicles con cafeína que no caben como suplemento; el complejo B en gotas captura ese mismo público sin riesgo."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Enfoque",
+      "concepto": "Las gotas de vitaminas B de MAGNIFICA para los días largos de trabajo o estudio.",
+      "eslogan": "Tu rutina de vitaminas B para rendir el día.",
+      "publico": "Adultos de 25 a 45 años que trabajan, estudian o hacen ambas cosas",
+      "tono": "práctico, claro, confiable",
+      "color": "#5A189A",
+      "color2": "#00B4D8"
+    },
+    {
+      "nombre": "PILAS",
+      "concepto": "Marca juvenil que toma el '¡pilas!' colombiano: gotas para la semana de parciales, el preicfes o la jornada de streaming.",
+      "eslogan": "Ponte las pilas, gota a gota.",
+      "publico": "Universitarios, preicfes, gamers y creadores de contenido de 17 a 28 años",
+      "tono": "parcero, enérgico, divertido",
+      "color": "#FFD60A",
+      "color2": "#111111"
+    },
+    {
+      "nombre": "LÚCIDA",
+      "concepto": "Complejo B premium con formas activas (metilcobalamina y metilfolato), en frasco de vidrio y diseño minimalista.",
+      "eslogan": "Claridad para tu día.",
+      "publico": "Profesionales de 30 a 50 años, estratos 4 a 6, que cuidan su rutina y pagan por calidad",
+      "tono": "elegante, sereno, preciso",
+      "color": "#1B4965",
+      "color2": "#3A86FF"
+    }
+  ],
+  "angulo_venta": "Rutina de 1 mL en la mañana para quien estudia o trabaja todo el día: la vitamina B12 contribuye a disminuir el cansancio y la fatiga y el folato contribuye a la función psicológica normal. Mostrarlo junto al tinto, el computador y la agenda, como hábito y no como pastilla milagrosa.",
+  "ganchos_tiktok": [
+    "Semana de parciales y yo con mis gotas de vitaminas B.",
+    "Mi rutina de diez segundos antes de abrir el computador.",
+    "Cambié la tercera lata energizante por estas gotas."
+  ],
+  "no_decir": [
+    "mejora la memoria o te vuelve más inteligente",
+    "aumenta la concentración o nootrópico",
+    "para el TDAH o déficit de atención",
+    "quita la ansiedad o el estrés",
+    "sublingual de absorción inmediata"
+  ],
+  "precio_cop": "$49.900 - $69.900",
+  "estrategia_registro": "Va sobre el registro F20 (complejo B en gotas, SD), que ampara las 3 marcas; si la categoría ENE también usa F20, hay que clonar el registro (tarifa $0 para microempresa) porque el tope es 3 marcas por registro."
+}

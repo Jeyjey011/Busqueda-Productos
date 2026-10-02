@@ -1,0 +1,57 @@
+{
+  "categoria": "ART",
+  "nombre_categoria": "Articulaciones",
+  "problema": "El 48% de los adultos colombianos reporta dolor musculoesquelético no asociado a trauma, y las rodillas encabezan la lista con el 35%; la osteoartritis afecta al 10,81% de los mayores de 18 años (estudio COPCORD, Asociación Colombiana de Reumatología). La gente quiere seguir caminando, bailando y entrenando después de los 40, pero se encuentra con productos de glucosamina y cúrcuma con promesas que INVIMA no acepta en un suplemento.",
+  "producto": {
+    "nombre_generico": "Vitamina D3 + K2 + omega 3 en cápsula blanda",
+    "registro_base": "F15",
+    "presentacion": "Cápsula blanda",
+    "formula_corta": "Vitamina D3 25-50 µg (1.000-2.000 UI) + vitamina K2 MK-7 75-100 µg + aceite de pescado con 250-500 mg de EPA + DHA por porción (dosis orientativas, D3 por debajo del UL)",
+    "porque_en_colombia": "La D3 + K2 es la categoría de huesos más vendida en México (Toyocare, +38% de crecimiento), el mercado más parecido a Colombia, y permite hablar legalmente de huesos y músculos. Evita la glucosamina y la cúrcuma, que tienen estatus por confirmar o exigen claims terapéuticos.",
+    "segundo_registro": true
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Movi",
+      "concepto": "La línea de MAGNIFICA para mantenerse activo: una cápsula blanda con vitamina D, K2 y omega 3.",
+      "eslogan": "Huesos y músculos listos para moverte.",
+      "publico": "Mujeres y hombres de 40 a 65 años que caminan, bailan o hacen ejercicio suave",
+      "tono": "cálido, activo, confiable",
+      "color": "#F77F00",
+      "color2": "#003049"
+    },
+    {
+      "nombre": "PA'LANTE",
+      "concepto": "Marca alegre y criolla para los que no se quedan quietos: deportistas de fin de semana, salseros y caminantes.",
+      "eslogan": "Pa'lante siempre, a tu ritmo.",
+      "publico": "Adultos de 30 a 55 años activos en redes, e hijos que compran para sus papás",
+      "tono": "alegre, enérgico, criollo",
+      "color": "#EF233C",
+      "color2": "#FFB703"
+    },
+    {
+      "nombre": "SOLMAR",
+      "concepto": "Marca premium y natural que une el sol (vitamina D3) y el mar (omega 3 de pescado) en una cápsula.",
+      "eslogan": "El sol y el mar, en una cápsula.",
+      "publico": "Adultos de 45 a 65 años, estratos 4 a 6, enfocados en envejecer activos",
+      "tono": "sereno, natural, premium",
+      "color": "#0077B6",
+      "color2": "#F4A261"
+    }
+  ],
+  "angulo_venta": "Mostrar a adultos de 40 o más caminando, bailando o subiendo escaleras con su rutina de una cápsula: las vitaminas D y K contribuyen al mantenimiento de los huesos en condiciones normales y la vitamina D al mantenimiento de la función muscular normal. Hablar de movimiento y estilo de vida, nunca de dolor.",
+  "ganchos_tiktok": [
+    "A los 50 sigo bailando salsa: esta es mi rutina.",
+    "Vitamina D, K2 y omega 3 en una sola cápsula.",
+    "Lo que mi mamá y yo tomamos antes de salir a caminar."
+  ],
+  "no_decir": [
+    "quita el dolor de rodillas o de espalda",
+    "desinflama las articulaciones",
+    "regenera el cartílago o lubrica las articulaciones",
+    "para la artritis, la artrosis o la osteoporosis",
+    "reemplaza la glucosamina o el tratamiento médico"
+  ],
+  "precio_cop": "$69.900 - $89.900",
+  "estrategia_registro": "Misma fórmula que el registro F15, pero como Inmunidad ya usa sus 3 marcas, se saca un segundo registro con la misma fórmula para MAGNIFICA Movi, PA'LANTE y SOLMAR (tarifa $0 si la empresa es microempresa)."
+}

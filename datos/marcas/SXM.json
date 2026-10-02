@@ -1,0 +1,56 @@
+{
+  "categoria": "SXM",
+  "nombre_categoria": "Masculino",
+  "problema": "El hombre colombiano de 25 a 50 años vive del rebusque y de jornadas largas: 7 de cada 10 nuevos empleos son por cuenta propia y el cansancio diario es la queja de siempre. Además, lo que le ofrecen en redes 'para hombre' son potenciadores sin registro, la categoría con más alertas de INVIMA (sildenafilo oculto, alerta URODOC 277-2026).",
+  "producto": {
+    "nombre_generico": "Maca andina + zinc + selenio + vitamina B12 en cápsula (energía y vitalidad)",
+    "registro_base": "F24",
+    "presentacion": "Cápsula",
+    "formula_corta": "Maca 1.000 mg + zinc 10 mg + selenio 55 µg + vitamina B12 2,5 µg + L-arginina 500 mg por porción de 2-3 cápsulas",
+    "porque_en_colombia": "La maca es conocida y ya tiene antecedentes de registro como suplemento dietario en Colombia, y hay un hueco para un producto masculino serio, con registro y sin promesas sexuales, en un mercado lleno de productos fraudulentos. El ángulo de energía para el que trabaja duro conecta con el rebusque."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Andino",
+      "concepto": "La línea masculina de MAGNIFICA: maca andina con zinc, selenio y B12 para el hombre que no para en todo el día.",
+      "eslogan": "Energía andina para tu jornada.",
+      "publico": "Hombres de 30 a 55 años, trabajadores y padres de familia que ya confían en MAGNIFICA",
+      "tono": "Sólido, honesto, cercano",
+      "color": "#1F4E79",
+      "color2": "#D98E04"
+    },
+    {
+      "nombre": "Camello",
+      "concepto": "Marca juvenil para el que camella: el domiciliario, el emprendedor, el que estudia y trabaja y necesita llegar entero al final del día.",
+      "eslogan": "Pa' los que camellan duro.",
+      "publico": "Hombres de 20 a 35 años, emprendedores, domiciliarios y estudiantes que trabajan, audiencia de TikTok",
+      "tono": "Parcero, motivador, auténtico",
+      "color": "#E85D04",
+      "color2": "#14213D"
+    },
+    {
+      "nombre": "Puna",
+      "concepto": "Marca premium y natural que nace del altiplano andino donde crece la maca, con estética de tierra, piedra y montaña.",
+      "eslogan": "La fuerza tranquila de la altura.",
+      "publico": "Hombres de 35 a 60 años, profesionales que buscan ingredientes naturales y compran en tiendas de bienestar",
+      "tono": "Sereno, natural, premium",
+      "color": "#5C3D2E",
+      "color2": "#8DB596"
+    }
+  ],
+  "angulo_venta": "Hablarle al hombre trabajador desde el cansancio de la jornada, nunca desde la cama: maca andina con nutrientes que tienen declaraciones aceptadas como 'la vitamina B12 contribuye a disminuir el cansancio y la fatiga' y 'el zinc contribuye al metabolismo normal de los macronutrientes' (verificar textos en el listado INVIMA), y destacar que tiene registro sanitario frente a los productos piratas.",
+  "ganchos_tiktok": [
+    "Día de doce horas en la moto y así llego",
+    "Lo que tomo antes de abrir el negocio a las seis",
+    "Maca andina con registro INVIMA, sin cuentos raros"
+  ],
+  "no_decir": [
+    "Potencia sexual, libido, erección o rendimiento en la cama",
+    "Sube la testosterona o equilibra las hormonas",
+    "Cuida la próstata",
+    "Viagra natural o potenciador masculino",
+    "Más vigor y aguante"
+  ],
+  "precio_cop": "$69.900 - $89.900",
+  "estrategia_registro": "Un registro SD de la familia F24 (prioridad 3, reformulada solo con maca, zinc, selenio, B12 y arginina) que ampara las 3 marcas; como una medida sanitaria contagia a todas las marcas del registro, se recomienda lanzar primero Camello y Puna y sumar MAGNIFICA Andino solo con piezas publicitarias aprobadas por INVIMA."
+}

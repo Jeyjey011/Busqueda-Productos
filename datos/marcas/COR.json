@@ -1,0 +1,56 @@
+{
+  "categoria": "COR",
+  "nombre_categoria": "Corazón y circulación",
+  "problema": "Las enfermedades isquémicas del corazón son la primera causa de muerte en Colombia, con el 17,2 % de las defunciones en 2025 (DANE, cifras preliminares), y el colombiano adulto vive con trancón, sedentarismo y poco tiempo para entrenar. Mucha gente quiere sentirse con más energía para moverse y volver a la actividad física, pero la remolacha natural no le gusta por su sabor a tierra.",
+  "producto": {
+    "nombre_generico": "Remolacha + L-citrulina + L-arginina en cápsula",
+    "registro_base": "F11",
+    "presentacion": "Cápsula",
+    "formula_corta": "Extracto de raíz de remolacha 500 mg + L-citrulina 500 mg + L-arginina 500 mg + vitamina C 80 mg + niacina 16 mg por porción de 3 cápsulas",
+    "porque_en_colombia": "La remolacha ya es un alimento familiar y bien visto en Colombia (jugos, ensaladas), así que el producto se entiende al instante. En cápsula elimina el sabor que nadie quiere y encaja con el auge de caminar, trotar y montar bici en las ciudades."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Raíz",
+      "concepto": "La remolacha de la línea MAGNIFICA, con vitamina C y niacina para el adulto activo que quiere un día con más energía.",
+      "eslogan": "La fuerza de la raíz, en tu rutina.",
+      "publico": "Adultos de 35 a 60 años que caminan, trotan o quieren retomar la actividad física",
+      "tono": "Confiable, vital, sencillo",
+      "color": "#A3123A",
+      "color2": "#2E7D32"
+    },
+    {
+      "nombre": "Beetz",
+      "concepto": "Marca juvenil y urbana de remolacha en cápsula para el que entrena, monta bici o baila y no se toma un jugo de remolacha ni obligado.",
+      "eslogan": "Toda la remolacha, cero sabor a tierra.",
+      "publico": "Jóvenes de 18 a 35 años que van al gimnasio, hacen ciclismo urbano o siguen contenido fitness en TikTok",
+      "tono": "Enérgico, urbano, divertido",
+      "color": "#D6006F",
+      "color2": "#1A1A2E"
+    },
+    {
+      "nombre": "Granate",
+      "concepto": "Marca premium de raíz de remolacha y aminoácidos, con estética de etiqueta limpia y el rojo profundo de la remolacha como sello.",
+      "eslogan": "Rojo profundo, ritmo constante.",
+      "publico": "Profesionales de 35 a 60 años que cuidan su alimentación y compran en tiendas de bienestar",
+      "tono": "Elegante, natural, sereno",
+      "color": "#7B1E3A",
+      "color2": "#C9A227"
+    }
+  ],
+  "angulo_venta": "Vender la remolacha como el superalimento rojo de siempre, ahora en cápsula y sin sabor, para acompañar un estilo de vida activo; el respaldo es 'la niacina contribuye a disminuir el cansancio y la fatiga' y 'la vitamina C contribuye al metabolismo energético normal'.",
+  "ganchos_tiktok": [
+    "Odio el jugo de remolacha, así que hice esto",
+    "Mi rutina antes de salir a montar bici a las cinco",
+    "El superalimento rojo de la abuela, versión cápsula"
+  ],
+  "no_decir": [
+    "Baja la presión arterial o controla la hipertensión",
+    "Mejora la circulación o destapa las arterias",
+    "Cuida o protege el corazón",
+    "Óxido nítrico para más pump o rendimiento sexual",
+    "Aumenta el rendimiento deportivo"
+  ],
+  "precio_cop": "$74.900 - $94.900",
+  "estrategia_registro": "Un registro SD de la familia F11 (cápsula, ola 2) que ampara las 3 marcas: MAGNIFICA Raíz, Beetz y Granate, validando antes con el maquilador las dosis de arginina y citrulina aceptadas."
+}

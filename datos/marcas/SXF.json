@@ -1,0 +1,56 @@
+{
+  "categoria": "SXF",
+  "nombre_categoria": "Salud femenina",
+  "problema": "Muchas mujeres sienten que su bienestar íntimo es un tema del que da pena hablar y buscan algo discreto, rico y fácil de tomar todos los días. En TikTok Shop las gomitas de probióticos femeninos son el grupo más vendido de toda la muestra, con más de 142.000 unidades en septiembre de 2026 entre EE. UU. y México (FastMoss, datos del proyecto).",
+  "producto": {
+    "nombre_generico": "Gomita probiótica femenina con prebiótico y vitamina C",
+    "registro_base": "F02",
+    "presentacion": "Gomita",
+    "formula_corta": "Bacillus coagulans 1.000-2.000 millones de UFC + inulina o XOS + olmo resbaladizo + vitamina C, baja en azúcar",
+    "porque_en_colombia": "La gomita convierte un tema incómodo en un antojo diario y es el formato que llevó esta categoría a la cima en TikTok; el Bacillus coagulans es estable en gomita y está aceptado como probiótico."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Flora",
+      "concepto": "La gomita de bienestar femenino de MAGNIFICA, discreta y de confianza.",
+      "eslogan": "Bienestar femenino, todos los días.",
+      "publico": "Mujeres de 25 a 45 años que ya confían en MAGNIFICA.",
+      "tono": "Cercano, discreto, confiable",
+      "color": "#E56B9F",
+      "color2": "#FCE4EC"
+    },
+    {
+      "nombre": "FRESITA",
+      "concepto": "Marca juvenil sabor fresa que habla del autocuidado femenino con frescura y sin tabú.",
+      "eslogan": "Tu dosis diaria de sentirte bien.",
+      "publico": "Mujeres de 18 a 30 años, universitarias y creadoras de TikTok.",
+      "tono": "Coqueto, fresco, divertido",
+      "color": "#FF4D6D",
+      "color2": "#FFD6E0"
+    },
+    {
+      "nombre": "FLORELA",
+      "concepto": "Marca natural y premium centrada en la flora y el equilibrio del cuerpo femenino.",
+      "eslogan": "Cuida tu flora, cuídate tú.",
+      "publico": "Mujeres de 28 a 50 años, interesadas en lo natural y lo orgánico.",
+      "tono": "Delicado, natural, sereno",
+      "color": "#7A9E7E",
+      "color2": "#F3E9F1"
+    }
+  ],
+  "angulo_venta": "Autocuidado femenino diario en forma de gomita rica, con la declaración aceptada de probióticos (normalizar las funciones digestivas) y la vitamina C para el sistema inmunitario.",
+  "ganchos_tiktok": [
+    "La gomita que se volvió mi hábito de autocuidado",
+    "Cosas de chicas que deberíamos hablar sin pena",
+    "Probióticos que saben a fresa: mi nuevo antojo diario"
+  ],
+  "no_decir": [
+    "Equilibra el pH vaginal",
+    "Elimina el mal olor",
+    "Previene infecciones o candidiasis",
+    "Juicy o te deja jugosa",
+    "Regula las hormonas"
+  ],
+  "precio_cop": "$79.900 - $99.900",
+  "estrategia_registro": "Un solo registro SD de la familia F02 (gomita, con sabores declarados) ampara las 3 marcas: MAGNIFICA Flora, FRESITA y FLORELA."
+}

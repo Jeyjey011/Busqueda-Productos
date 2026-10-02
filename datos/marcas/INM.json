@@ -1,0 +1,56 @@
+{
+  "categoria": "INM",
+  "nombre_categoria": "Inmunidad y vitaminas",
+  "problema": "Aunque Colombia es un país tropical, buena parte de la gente vive en oficina, en carro o en ciudades nubladas y casi no recibe sol: hasta el 60 % de la población tendría niveles bajos de vitamina D (Universidad Nacional, citado por Infobae 2024). Además, el pescado azul casi no está en la dieta diaria, así que el omega 3 también queda corto y la gente compra tres frascos separados sin saber cuál tomar.",
+  "producto": {
+    "nombre_generico": "Vitamina D3 + K2 + omega 3 en cápsula blanda (3 en 1)",
+    "registro_base": "F15",
+    "presentacion": "Cápsula blanda",
+    "formula_corta": "Vitamina D3 1.000-2.000 UI + vitamina K2 MK-7 75-100 µg + aceite de pescado con 250-500 mg de EPA + DHA por porción de 1-2 cápsulas blandas",
+    "porque_en_colombia": "Une en un solo frasco dos compras que el colombiano ya hace por separado (vitamina D y omega 3), con un mensaje simple de 'tu vitamina del sol en una cápsula'. La cápsula blanda es fácil de tragar y se ve premium en video."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Sol",
+      "concepto": "La vitamina del sol de la línea MAGNIFICA, 3 en 1 para la rutina diaria de toda la familia adulta.",
+      "eslogan": "Tu dosis de sol, todos los días.",
+      "publico": "Adultos de 30 a 55 años que ya conocen MAGNIFICA y trabajan en oficina o en casa",
+      "tono": "Confiable, cálido, cercano",
+      "color": "#F5A300",
+      "color2": "#0B4F8A"
+    },
+    {
+      "nombre": "Solazo",
+      "concepto": "Marca juvenil para el que vive encerrado entre el computador y el celular y no ve el sol ni de lejitos.",
+      "eslogan": "El solazo que tu oficina no te da.",
+      "publico": "Jóvenes de 20 a 35 años, teletrabajadores, estudiantes y gamers en TikTok",
+      "tono": "Divertido, fresco, irreverente",
+      "color": "#FF6B1A",
+      "color2": "#FFE14D"
+    },
+    {
+      "nombre": "Abisal",
+      "concepto": "Marca premium inspirada en el mar profundo: omega 3 de origen marino con D3 y K2, etiqueta limpia y estética minimalista.",
+      "eslogan": "Del mar profundo a tu rutina.",
+      "publico": "Profesionales de 35 a 60 años, deportistas recreativos y compradores de tiendas naturistas y de bienestar",
+      "tono": "Sobrio, experto, natural",
+      "color": "#0A3D62",
+      "color2": "#3EC1D3"
+    }
+  ],
+  "angulo_venta": "Mostrar la vida real sin sol (oficina, trancón, pantalla) y presentar una sola cápsula al día que reúne vitamina D, K2 y omega 3, apoyado en declaraciones aceptadas como 'la vitamina D contribuye al funcionamiento normal del sistema inmunitario' y 'al mantenimiento de los huesos en condiciones normales' (verificar textos en el listado INVIMA).",
+  "ganchos_tiktok": [
+    "¿Cuántas horas de sol te dio hoy tu oficina?",
+    "Tres frascos en uno: lo que llevo en mi rutina diaria",
+    "Vives en Colombia y aun así te falta sol, te explico"
+  ],
+  "no_decir": [
+    "Sube las defensas o refuerza el sistema inmune",
+    "Previene gripas, virus o enfermedades",
+    "Cura la deficiencia de vitamina D",
+    "Protege el corazón o baja el colesterol",
+    "Megadosis de 10.000 UI"
+  ],
+  "precio_cop": "$69.900 - $89.900",
+  "estrategia_registro": "Un registro SD de la familia F15 (cápsula blanda) que ampara las 3 marcas: MAGNIFICA Sol, Solazo y Abisal, con frascos de 30 y 60 cápsulas declarados desde la solicitud."
+}

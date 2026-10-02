@@ -1,0 +1,56 @@
+{
+  "categoria": "SUE",
+  "nombre_categoria": "Sueño y estrés",
+  "problema": "El rebusque, el trabajo remoto y el trancón dejan a la gente prendida hasta tarde y sin un momento para desconectarse. El 69 % de los teletrabajadores colombianos reporta mala calidad del sueño y el 66,3 % de los colombianos ha tenido algún problema de salud mental (Encuesta Nacional de Salud Mental; reportes de prensa 2025-2026).",
+  "producto": {
+    "nombre_generico": "Bebida en polvo de magnesio + L-teanina",
+    "registro_base": "F07",
+    "presentacion": "Sobre / stick",
+    "formula_corta": "Magnesio (citrato + bisglicinato, unos 250 mg elementales) + L-teanina 200 mg + vitamina B6 + vitamina D3, con sabores como variedades",
+    "porque_en_colombia": "El colombiano ya conoce el magnesio, pero casi todo lo que hay en Dropi es cápsula; un stick de bebida tibia crea un ritual nocturno muy grabable en video y se diferencia de la competencia. Ya existe un precedente colombiano de magnesio + L-teanina registrado como SD."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Noche",
+      "concepto": "La bebida de la noche de MAGNIFICA para cerrar el día con una rutina propia.",
+      "eslogan": "Tu ritual de la noche.",
+      "publico": "Mujeres de 28 a 50 años, mamás y trabajadoras con días largos.",
+      "tono": "Cálido, sereno, confiable",
+      "color": "#3B3A6B",
+      "color2": "#E9D8A6"
+    },
+    {
+      "nombre": "PIJAMA",
+      "concepto": "Marca juvenil que convierte el momento de ponerse la pijama en un plan de autocuidado.",
+      "eslogan": "Ponte la pijama por dentro.",
+      "publico": "Jóvenes de 18 a 32 años, estudiantes y home office, muy de TikTok.",
+      "tono": "Tierno, juguetón, acogedor",
+      "color": "#9B8AFB",
+      "color2": "#FDE2E4"
+    },
+    {
+      "nombre": "VELADA",
+      "concepto": "Marca premium de bienestar nocturno inspirada en las noches tranquilas y los rituales lentos.",
+      "eslogan": "La pausa que tu noche merece.",
+      "publico": "Adultos de 30 a 55 años, estrato medio-alto, que pagan por calidad.",
+      "tono": "Elegante, pausado, sofisticado",
+      "color": "#1F2A44",
+      "color2": "#C8A96A"
+    }
+  ],
+  "angulo_venta": "Rutina de la noche: un stick en agua tibia al apagar el computador, con la declaración aceptada de que el magnesio y la vitamina B6 contribuyen al funcionamiento normal del sistema nervioso.",
+  "ganchos_tiktok": [
+    "Mi ritual de las 9 p. m. cuando cierro el computador",
+    "Lo que tomo para desconectarme del trabajo cada noche",
+    "Magnesio en bebida tibia: así se ve mi noche ahora"
+  ],
+  "no_decir": [
+    "Para dormir o induce el sueño",
+    "Quita la ansiedad",
+    "Cura el insomnio",
+    "Baja el cortisol",
+    "Reemplaza la melatonina"
+  ],
+  "precio_cop": "$69.900 - $89.900",
+  "estrategia_registro": "Un solo registro SD de la familia F07 (polvo, en sticks y tarro como presentaciones) ampara las 3 marcas: MAGNIFICA Noche, PIJAMA y VELADA."
+}

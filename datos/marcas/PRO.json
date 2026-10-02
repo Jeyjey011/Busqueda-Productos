@@ -1,0 +1,56 @@
+{
+  "categoria": "PRO",
+  "nombre_categoria": "Próstata (bienestar masculino)",
+  "problema": "Los hombres colombianos de 40 años o más se cuidan poco y consultan tarde: el 35% nunca ha visitado al urólogo, frente a solo el 10% de mujeres que nunca ha ido al ginecólogo (encuesta citada por La FM). Buscan algo sencillo y discreto para su bienestar diario, pero el mercado está lleno de productos ilegales que prometen beneficios urinarios y terapéuticos, con alertas INVIMA como URODOC 277-2026.",
+  "producto": {
+    "nombre_generico": "Bienestar masculino diario: aceite de semilla de calabaza + licopeno + zinc + selenio",
+    "registro_base": "Nuevo",
+    "presentacion": "Cápsula blanda",
+    "formula_corta": "Aceite de semilla de calabaza 500 mg + licopeno 10 mg + zinc 10 mg + selenio 55 µg + vitamina E 12 mg + vitamina D3 10 µg por cápsula blanda (dosis orientativas, por debajo del UL)",
+    "porque_en_colombia": "Replica el formato viral de VivoNu (aceite de semilla de calabaza en softgel, +45% de crecimiento) sin saw palmetto ni claims urinarios, con nutrientes que tienen declaraciones aceptadas (zinc, selenio, vitamina E, vitamina D). F24 es prioridad 3 y depende de maca y arginina con ángulo de vitalidad sexual, así que conviene una fórmula nueva y limpia."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Hombre",
+      "concepto": "La línea masculina de MAGNIFICA: una cápsula blanda al día para la rutina de bienestar del hombre de 40 en adelante.",
+      "eslogan": "Tu rutina de hombre, completa.",
+      "publico": "Hombres de 40 a 65 años y sus parejas, que ya compran MAGNIFICA para ellas",
+      "tono": "confiable, directo, sobrio",
+      "color": "#0B3C5D",
+      "color2": "#F2A900"
+    },
+    {
+      "nombre": "CUCHO",
+      "concepto": "Marca con humor paisa-rolo para el papá que se cuida: el regalo que los hijos le compran al cucho por TikTok.",
+      "eslogan": "El cucho también se cuida.",
+      "publico": "Hijos de 20 a 35 años que compran para su papá, y hombres de 45 o más con sentido del humor",
+      "tono": "parcero, cariñoso, chistoso",
+      "color": "#E63946",
+      "color2": "#1D3557"
+    },
+    {
+      "nombre": "ROBLE",
+      "concepto": "Línea premium y natural inspirada en el árbol más fuerte de Colombia, con semilla de calabaza y licopeno de tomate.",
+      "eslogan": "Raíces fuertes, hombre entero.",
+      "publico": "Hombres de 45 a 65 años, estratos 4 a 6, que prefieren ingredientes de origen natural",
+      "tono": "sereno, natural, premium",
+      "color": "#2D6A4F",
+      "color2": "#C9A227"
+    }
+  ],
+  "angulo_venta": "Rutina diaria de una cápsula para el hombre de 40 o más: el zinc contribuye al funcionamiento normal del sistema inmunitario, y el selenio y la vitamina E contribuyen a la protección de las células frente al daño oxidativo. Venderlo como regalo de cuidado para el papá, siempre acompañado de 'y no olvides tu chequeo médico anual'.",
+  "ganchos_tiktok": [
+    "Mi papá por fin tiene su rutina de bienestar diaria.",
+    "Hombres de 40: su rutina también necesita zinc y selenio.",
+    "Lo que mi cucho se toma con el tinto cada mañana."
+  ],
+  "no_decir": [
+    "próstata o próstata sana",
+    "orinar mejor, levantarse menos de noche al baño o chorro fuerte",
+    "potencia sexual, rendimiento en la cama o libido",
+    "sube la testosterona o equilibra las hormonas",
+    "previene el cáncer o reemplaza al urólogo"
+  ],
+  "precio_cop": "$89.900 - $119.900",
+  "estrategia_registro": "Registro SD nuevo y exclusivo para esta fórmula (sin usar F24) que ampara las 3 marcas, separado de los demás registros MAGNIFICA para que una medida sanitaria por mala publicidad en esta categoría vigilada no contagie otras líneas; validar con el maquilador el estatus del licopeno y del aceite de semilla de calabaza antes de radicar."
+}

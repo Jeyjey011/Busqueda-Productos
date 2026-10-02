@@ -1,0 +1,56 @@
+{
+  "categoria": "DIG",
+  "nombre_categoria": "Digestión",
+  "problema": "El colombiano come pesado, a deshoras y con estrés, y vive con la sensación de llenura y pesadez después de comer. Un estudio poblacional en Bucaramanga encontró síntomas compatibles con colon irritable en el 19,9 % de los adultos, una de las cifras más altas de América Latina (Roma III, Rev. Esp. Enferm. Dig.), y la Liga Colombiana contra el Cáncer reporta molestias gástricas en 8 de cada 10 personas.",
+  "producto": {
+    "nombre_generico": "Probióticos multicepa + enzimas digestivas",
+    "registro_base": "F03",
+    "presentacion": "Cápsula",
+    "formula_corta": "L. acidophilus, L. rhamnosus, L. plantarum y B. lactis (10.000-20.000 millones de UFC) + amilasa, proteasa, lipasa, lactasa, bromelina y papaína + inulina",
+    "porque_en_colombia": "Une los dos productos digestivos que más se buscan (probiótico y enzima) en una sola cápsula diaria, fácil de maquilar y de enviar por Dropi. La cápsula da sensación de producto serio y permite un precio de rango medio con buen margen."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Digest",
+      "concepto": "La línea digestiva de la casa MAGNIFICA, confiable y para toda la familia.",
+      "eslogan": "Digestión ligera después de comer.",
+      "publico": "Mujeres y hombres de 30 a 55 años que ya compran MAGNIFICA por WhatsApp.",
+      "tono": "Cercano, confiable, claro",
+      "color": "#2E7D5B",
+      "color2": "#F2E8CF"
+    },
+    {
+      "nombre": "GUTI",
+      "concepto": "Una marca con nombre de apodo que habla de la barriga sin pena y con humor.",
+      "eslogan": "Tu barriga te lo va a agradecer.",
+      "publico": "Jóvenes de 18 a 30 años que ven TikTok y comen por fuera.",
+      "tono": "Divertido, desparpajado, amigable",
+      "color": "#FF7A59",
+      "color2": "#FFE066"
+    },
+    {
+      "nombre": "BIOMÍA",
+      "concepto": "Marca natural y premium que presenta la microbiota como algo propio que se cuida a diario.",
+      "eslogan": "Cuida tu microbiota, cuida tu día.",
+      "publico": "Mujeres de 28 a 50 años, estrato medio-alto, que compran en tiendas naturistas.",
+      "tono": "Sereno, natural, experto",
+      "color": "#5B7F6B",
+      "color2": "#EDE6DA"
+    }
+  ],
+  "angulo_venta": "Ritual de una cápsula con el almuerzo para sentir la digestión ligera, apoyado en la declaración aceptada: una adecuada alimentación y el consumo regular de probióticos puede ayudar a normalizar las funciones digestivas.",
+  "ganchos_tiktok": [
+    "Lo que tomo después del corrientazo para seguir trabajando liviana",
+    "Mi barriga y yo hicimos las paces con esta cápsula",
+    "Probióticos y enzimas en una sola cápsula: te explico por qué"
+  ],
+  "no_decir": [
+    "Desinflama el abdomen",
+    "Detox o limpia el colon",
+    "Cura la gastritis o el colon irritable",
+    "Adiós al estreñimiento",
+    "Elimina parásitos"
+  ],
+  "precio_cop": "$79.900 - $99.900",
+  "estrategia_registro": "Un solo registro SD de la familia F03 (cápsula) ampara las 3 marcas: MAGNIFICA Digest, GUTI y BIOMÍA."
+}

@@ -1,0 +1,56 @@
+{
+  "categoria": "BBL",
+  "nombre_categoria": "Curvas (tonificación con ejercicio)",
+  "problema": "Muchas colombianas entrenan para tonificar y terminan comprando productos fraudulentos que prometen cambiar partes del cuerpo, como los de la alerta INVIMA KDROPS GLUTEX o la alerta de mayo de 2026 por un suplemento que prometía 'crecimiento'. Al mismo tiempo, la creatina se sigue viendo como 'cosa de hombres' y falta una opción femenina, rica y legal para acompañar el gimnasio.",
+  "producto": {
+    "nombre_generico": "Creatina + colágeno para mujer en polvo",
+    "registro_base": "F04",
+    "presentacion": "Polvo",
+    "formula_corta": "Creatina monohidrato 3 g + colágeno hidrolizado 5 g + vitamina C 40-80 mg + vitamina D3 5-10 µg por porción, en tarro y sticks, con sabores como variedades (dosis orientativas)",
+    "porque_en_colombia": "En EE. UU. la creatina + colágeno para mujer vendió 78.044 unidades en septiembre (lidera YESNAP PeachPout) con ticket alto, y el boom del gimnasio femenino en Colombia es enorme. Se comunica como fuerza, entrenamiento y piel, sin prometer cambios en zonas del cuerpo."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Tono",
+      "concepto": "El batido de colágeno + creatina de MAGNIFICA para la mujer que entrena y quiere tonificar con su rutina de ejercicio.",
+      "eslogan": "Entrena, tonifica, brilla.",
+      "publico": "Mujeres de 25 a 45 años que van al gimnasio y ya compran colágeno MAGNIFICA",
+      "tono": "femenino, seguro, motivador",
+      "color": "#D81B60",
+      "color2": "#FF8FAB"
+    },
+    {
+      "nombre": "FIERA",
+      "concepto": "Marca juvenil para la chica que entrena pesado y lo muestra en TikTok: creatina rosada sin miedo a 'inflarse'.",
+      "eslogan": "Entrena como fiera.",
+      "publico": "Mujeres de 18 a 30 años, gym girls y creadoras de contenido fitness",
+      "tono": "atrevido, divertido, empoderado",
+      "color": "#FF006E",
+      "color2": "#8338EC"
+    },
+    {
+      "nombre": "VALKIRIA",
+      "concepto": "Línea premium de fuerza femenina: creatina pura y colágeno sin azúcar, en tarro elegante y sticks.",
+      "eslogan": "Fuerza que se nota en tu entreno.",
+      "publico": "Mujeres de 28 a 45 años, estratos 4 a 6, que hacen pesas, crossfit o pilates",
+      "tono": "sofisticado, fuerte, sereno",
+      "color": "#7B2CBF",
+      "color2": "#C9A227"
+    }
+  ],
+  "angulo_venta": "Batido post-entreno para mujeres que hacen pesas: creatina 3 g y colágeno, con vitamina D, que contribuye al mantenimiento de la función muscular normal, y vitamina C, que contribuye a la formación normal de colágeno. Mostrar progreso en el gimnasio (más repeticiones, más peso) y nunca medidas ni zonas del cuerpo.",
+  "ganchos_tiktok": [
+    "Creatina para mujer: no te vas a inflar, vas a entrenar mejor.",
+    "Mi batido de después del gym sabe a fresa y tiene colágeno.",
+    "Tres meses entrenando con mi creatina rosada: así subí mis pesos."
+  ],
+  "no_decir": [
+    "glúteos, cola, pompis o levanta la cola",
+    "curvas, BBL o shelf builder",
+    "aumenta el busto o las caderas",
+    "quema grasa o elimina la celulitis",
+    "crecimiento garantizado de una zona del cuerpo"
+  ],
+  "precio_cop": "$99.900 - $129.900",
+  "estrategia_registro": "Usa el registro F04 (creatina + colágeno para mujer en polvo, SD) con tarro y sticks como presentaciones y sabores como variedades para las 3 marcas; si la categoría ENE también usa F04, clonar el registro (tarifa $0 para microempresa)."
+}

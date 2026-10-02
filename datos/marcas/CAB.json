@@ -1,0 +1,56 @@
+{
+  "categoria": "CAB",
+  "nombre_categoria": "Cabello, piel y uñas",
+  "problema": "El cabello débil y las uñas que se quiebran son una preocupación diaria, sobre todo en mujeres que se planchan, se tinturan y se alisan, y la consulta dermatológica es cara o demora en la EPS. Belleza y bienestar son ya el 14,4 % de las tiendas online del país (Tiendanube, NubeCommerce 2026).",
+  "producto": {
+    "nombre_generico": "Gomita de biotina, zinc y vitaminas",
+    "registro_base": "F21",
+    "presentacion": "Gomita",
+    "formula_corta": "Biotina + zinc + vitamina C + vitamina E + ácido fólico, en dosis dentro del límite aceptado por INVIMA",
+    "porque_en_colombia": "La gomita es el formato de belleza que más se comparte en TikTok y el que la mujer joven sí se toma todos los días. Es fórmula Verde, sin ingredientes que haya que quitar."
+  },
+  "marcas": [
+    {
+      "nombre": "MAGNIFICA Bella",
+      "concepto": "La gomita de belleza de MAGNIFICA, complemento natural de su colágeno.",
+      "eslogan": "Belleza que se nota en tu rutina.",
+      "publico": "Mujeres de 25 a 45 años, clientas de MAGNIFICA Piel.",
+      "tono": "Femenino, confiable, alegre",
+      "color": "#D63384",
+      "color2": "#FFE5F1"
+    },
+    {
+      "nombre": "MELENA",
+      "concepto": "Marca juvenil que celebra el pelo con personalidad, el movimiento y el cambio de look.",
+      "eslogan": "Cuida tu melena.",
+      "publico": "Mujeres de 18 a 30 años que hacen contenido de cabello en TikTok.",
+      "tono": "Atrevido, divertido, auténtico",
+      "color": "#7B2CBF",
+      "color2": "#F9C80E"
+    },
+    {
+      "nombre": "TRENZA",
+      "concepto": "Marca natural y premium inspirada en los rituales de cuidado del cabello de generaciones.",
+      "eslogan": "Cuidado que se nota en las puntas.",
+      "publico": "Mujeres de 28 a 50 años con cabello largo o rizado que buscan lo natural.",
+      "tono": "Cálido, artesanal, sereno",
+      "color": "#6D4C41",
+      "color2": "#EFE3D3"
+    }
+  ],
+  "angulo_venta": "Dos gomitas al día como parte de la rutina de cabello, con las declaraciones aceptadas: la biotina contribuye al mantenimiento del cabello en condiciones normales y el zinc al de las uñas.",
+  "ganchos_tiktok": [
+    "Mi rutina de cabello tiene un paso que se come",
+    "Plancha, tinte y alisado: así cuido mi pelo por dentro",
+    "Gomitas de biotina: lo que dice de verdad la etiqueta"
+  ],
+  "no_decir": [
+    "Detiene la caída del cabello",
+    "Hace crecer el pelo",
+    "Cura la alopecia",
+    "Resultados en 7 días",
+    "Anticaída"
+  ],
+  "precio_cop": "$69.900 - $89.900",
+  "estrategia_registro": "Un solo registro SD de la familia F21 (gomita, con sabores declarados) ampara las 3 marcas: MAGNIFICA Bella, MELENA y TRENZA; incluir en el rótulo la advertencia de biotina y exámenes de laboratorio."
+}
