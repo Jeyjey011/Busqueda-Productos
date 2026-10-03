@@ -187,21 +187,24 @@ const categorias = Object.keys(CATEGORIAS).map((cod) => {
   return { cod, n: CATEGORIAS[cod], total: ps.reduce((s, p) => s + (p.u || 0), 0), np: ps.length, nr: rs.length, problema: categoriaConcepto[cod]?.problema || '' };
 }).filter((c) => c.np > 0 || c.nr > 0).sort((a, b) => b.total - a.total);
 const orden = categorias.map((c) => c.cod);
-// ---------- Marcas madre (Pispa, Nuara, Garra): cada registro lleva un producto de cada una ----------
-const CASAS = ['pispa', 'nuara', 'garra'];
-const NOMBRE_CASA = { pispa: 'Pispa', nuara: 'Nuara', garra: 'Garra' };
-const madre = existe('datos/marcas_madre.json') ? leer('datos/marcas_madre.json') : null;
-const lineasCasa = Object.fromEntries(CASAS.map((c) => [c, existe(`datos/lineas/${c}.json`) ? leer(`datos/lineas/${c}.json`) : []]));
-if (CASAS.every((c) => lineasCasa[c].length)) {
-  for (const r of registros) {
-    const ms = CASAS.map((c) => { const l = lineasCasa[c].find((x) => x.registro === r.id); return l && { casa: c, nombre: `${NOMBRE_CASA[c]} ${l.linea}`, linea: l.linea, descriptor: l.descriptor, idea: l.idea, publico: l.publico }; });
-    if (ms.every(Boolean)) r.marcas = ms;
-  }
+// ---------- Marcas únicas: cada producto es su propia marca, con su nombre y su diseño ----------
+const luz = (h) => { const n = parseInt(String(h).replace('#', '').slice(0, 6), 16); return isNaN(n) ? 0.5 : (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255; };
+const unicas = {};
+for (const parte of leerCarpeta('datos/marcas_unicas')) for (const x of parte) unicas[x.registro] = x.marcas;
+for (const r of registros) {
+  const ms = unicas[r.id];
+  if (!ms || ms.length !== 3) continue;
+  r.marcas = ms.map((b) => {
+    const pal = [...(b.paleta || [])].sort((a, z) => luz(a) - luz(z));
+    const sat = (h) => { const n = parseInt(String(h).slice(1, 7), 16); const c = [n >> 16, (n >> 8) & 255, n & 255]; return Math.max(...c) - Math.min(...c); };
+    const acento = [...pal].sort((a, z) => sat(z) - sat(a))[0];
+    const claro = pal[pal.length - 1];
+    // si el color más claro es casi blanco, el fondo toma un tinte del acento para que cada marca tenga su color
+    const fondo = luz(claro) > 0.93 ? `color-mix(in srgb, ${acento} 18%, #fff)` : claro;
+    const tinta = luz(acento) < 0.55 ? acento : pal[0];
+    return { nombre: b.nombre, eslogan: b.eslogan, descriptor: b.descriptor, idea: b.idea, publico: b.publico, inspiracion: b.inspiracion, fuente: b.fuente, tinta, fondo, paleta: b.paleta };
+  });
 }
-const casas = madre ? madre.marcas.map((m, i) => ({
-  id: CASAS[i], nombre: NOMBRE_CASA[CASAS[i]], concepto: m.concepto, publico: m.publico, tono: m.tono, paleta: m.paleta,
-  tipografia: m.tipografia, empaque: m.empaque, regla: m.regla_lineas,
-})) : [];
 
 // ---------- Prioridad: primero lo que más podría venderse, al final quemados y lo que ya manejan ----------
 const yaLoManejan = { ...(existe('datos/ya_lo_manejan.json') ? leer('datos/ya_lo_manejan.json').registros : {}), ...yaManejaExtra };
@@ -300,10 +303,6 @@ const DATA = {
     unidades: usMes.reduce((s, p) => s + p.unidades_periodo, 0) + mxMes.reduce((s, p) => s + p.unidades_periodo, 0),
   },
   categorias, registros, productos, imgs, emp, cat, mandar,
-  casas: casas.map((c) => {
-    const ruta = path.join(RAIZ, 'salida', 'muestras_marca', `${c.id}.jpg`);
-    return { ...c, hero: fs.existsSync(ruta) ? dataUri(ruta) : null };
-  }),
 };
 // Datos sin imágenes para el Excel (mismo orden y prioridad que la web)
 fs.writeFileSync(path.join(RAIZ, 'datos', 'web_datos.json'), JSON.stringify({ ...DATA, imgs: undefined, emp: undefined }, null, 1), 'utf8');

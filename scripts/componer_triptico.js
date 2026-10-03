@@ -1,15 +1,15 @@
-// Une las 3 fotos de marca de cada registro (Pispa | Nuara | Garra) en una imagen 16:9:
-// salida/empaques/<registro>.jpg (1024 px) y m_<registro>.jpg (480 px). Las fotos sueltas quedan en salida/empaques_marca.
+// Une las 3 fotos de marca de cada registro (marca 1 | 2 | 3) en una imagen 16:9:
+// salida/empaques/<registro>.jpg (1024 px) y m_<registro>.jpg (480 px). Las fotos sueltas quedan en salida/empaques_unicas.
 // Uso: node scripts/componer_triptico.js
 const fs = require('fs'); const path = require('path'); const sharp = require('sharp');
 const RAIZ = path.join(__dirname, '..');
-const DIR_M = path.join(RAIZ, 'salida', 'empaques_marca');
+const DIR_M = path.join(RAIZ, 'salida', 'empaques_unicas');
 const DIR_E = path.join(RAIZ, 'salida', 'empaques');
 const registros = JSON.parse(fs.readFileSync(path.join(RAIZ, 'datos', 'lineas', 'registros.json'), 'utf8')).map((r) => r.registro);
 (async () => {
   let ok = 0; const faltan = [];
   for (const id of registros) {
-    const fotos = ['pispa', 'nuara', 'garra'].map((m) => path.join(DIR_M, `${id}_${m}.jpg`));
+    const fotos = [1, 2, 3].map((m) => path.join(DIR_M, `${id}_${m}.jpg`));
     if (!fotos.every((f) => fs.existsSync(f))) { faltan.push(id); continue; }
     const W = 1024, H = 576, w = Math.floor(W / 3);
     const piezas = await Promise.all(fotos.map((f) => sharp(f).resize(w, H, { fit: 'cover', position: 'centre' }).toBuffer()));

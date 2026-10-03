@@ -1,0 +1,730 @@
+[
+  {
+    "registro": "F02",
+    "marcas": [
+      {
+        "nombre": "Cuqui",
+        "eslogan": "Tu cuqui, fresquita todo el día",
+        "descriptor": "Gomitas probióticas íntimas",
+        "idea": "POV: sales del gym sin miedo al olor; reto de 30 días con unboxing rosado y humor sin pena.",
+        "publico": "Mujer Gen Z 18-27, activa en TikTok y gym",
+        "inspiracion": "Lemme Purr de Kourtney Kardashian",
+        "paleta": [
+          "#FF7BAC",
+          "#FFE3EE",
+          "#7A1E48"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Rounded translucent PET jar tinted blush pink (#FFE3EE), filled with heart-shaped pink pineapple-flavored gummies, chunky glossy hot-pink screw cap (#FF7BAC), about 300 ml, cute and squeezable look",
+        "etiqueta_en": "Bubbly lowercase 'cuqui' logo in hot pink #FF7BAC with tiny cat ears on the letter q, deep berry #7A1E48 copy, sticker-style badges 'pH balance' and '2.000 millones UFC', little sparkles and hearts, flirty playful Gen Z mood",
+        "escena_en": "Pastel pink seamless backdrop, glossy clear acrylic cube as pedestal, scattered pink gummies, fresh pineapple slices, edge of a lace underwear peeking in the corner, bright soft direct flash, viral TikTok aesthetic"
+      },
+      {
+        "nombre": "pHlora",
+        "eslogan": "Tu pH en equilibrio, naturalmente",
+        "descriptor": "Probiótico íntimo en gomitas",
+        "idea": "Ritual de autocuidado tipo spa: una ginecóloga explica el pH íntimo y la gomita entra a la rutina nocturna.",
+        "publico": "Mujer 28-45, consumo consciente y premium",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#E9E4D8",
+          "#9DB59A",
+          "#3E4A3D"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Frosted white glass apothecary jar (#E9E4D8) holding pale sage gummies, matte sage green (#9DB59A) screw lid with soft-touch finish, minimal and heavy, premium spa feel",
+        "etiqueta_en": "Elegant serif 'pHlora' wordmark with a small-cap 'H', deep olive #3E4A3D text on cream textured paper, fine-line botanical drawing of a flower whose stem is a lactobacillus chain, tiny 'pH 3.8 - 4.5' scale, calm clean spa mood",
+        "escena_en": "Travertine stone surface, eucalyptus sprigs, folded natural linen towel, small ceramic dish with gummies, soft diffused morning window light, warm neutral spa atmosphere"
+      },
+      {
+        "nombre": "Melosa",
+        "eslogan": "Fresca, dulce y sin pena",
+        "descriptor": "Gomitas íntimas con libido",
+        "idea": "Storytime picante de pareja: 'desde que la tomo, él me dice melosa' (versión con maca, ashwagandha y epimedium).",
+        "publico": "Mujer 25-40 en pareja, segura y coqueta",
+        "inspiracion": "Whipshots de Cardi B",
+        "paleta": [
+          "#C2185B",
+          "#FFB300",
+          "#2B0A1A"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Squat hexagonal glass jar tinted honey amber (#FFB300) showing ruby red heart gummies, shiny gold metal lid, small wooden honey-dipper charm tied with a raspberry ribbon (#C2185B)",
+        "etiqueta_en": "Flowing script 'Melosa' logo in raspberry #C2185B over a dark plum #2B0A1A band, dripping honey graphic along the top edge, small lip-print accent, warm flirty and sweet mood",
+        "escena_en": "Deep plum satin sheets, honey dripping from a wooden dipper, red rose petals, warm golden bedside lamp light, sensual but classy bedroom mood"
+      }
+    ]
+  },
+  {
+    "registro": "F30",
+    "marcas": [
+      {
+        "nombre": "Berry Babe",
+        "eslogan": "Adiós ardor, hola berry babe",
+        "descriptor": "Probiótico con arándano",
+        "idea": "Video 'lo que hago para no volver a tener infección urinaria' con la cápsula diaria y un jugo de arándano.",
+        "publico": "Mujer 18-28, universitaria, Gen Z",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#E0245E",
+          "#FFD1DC",
+          "#4A0E2E"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Glossy cranberry-red PET bottle (#E0245E) with white pop-up flip cap, small clear window showing pink capsules, 60 capsules, rounded youthful shape",
+        "etiqueta_en": "Rounded bold 'Berry Babe' logo in white over cranberry red, baby pink #FFD1DC cartoon cranberries with sparkles and a tiny heart, aubergine #4A0E2E fine print, cheeky fun mood",
+        "escena_en": "Bubblegum pink backdrop, bowl of fresh cranberries, iced cranberry drink with straw, glitter scrunchie, hard daylight flash, playful Gen Z vibe"
+      },
+      {
+        "nombre": "Cranelle",
+        "eslogan": "Flora íntima y vías urinarias protegidas",
+        "descriptor": "Probiótico femenino con arándano",
+        "idea": "Unboxing elegante y 'mi rutina femenina premium': la cápsula de 60.000 millones UFC junto al colágeno.",
+        "publico": "Mujer 30-50, profesional, compra premium",
+        "inspiracion": "Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#7B1E3A",
+          "#F4EDE6",
+          "#C9A86A"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Heavy matte burgundy glass bottle (#7B1E3A) with brushed gold aluminum cap (#C9A86A), capsules inside, slim tall apothecary shape, presented in an ivory (#F4EDE6) folding box",
+        "etiqueta_en": "Refined serif 'Cranelle' wordmark in gold foil on burgundy, ivory #F4EDE6 lower panel with fine cranberry branch line art, '60.000 millones UFC' in small caps, luxurious calm feminine mood",
+        "escena_en": "Ivory marble bathroom countertop, crystal glass of cranberry juice, dried roses, edge of a silk robe, soft side light with long shadows, luxury spa bathroom mood"
+      },
+      {
+        "nombre": "Blindada",
+        "eslogan": "Chao infecciones, ahí abajo mandas tú",
+        "descriptor": "Escudo probiótico urinario femenino",
+        "idea": "Testimonios de mujeres con infecciones recurrentes: 'llevo seis meses blindada', con calendario tachado.",
+        "publico": "Mujer 25-45 con infecciones urinarias o candidiasis recurrentes",
+        "inspiracion": "Love Wellness de Lo Bosworth",
+        "paleta": [
+          "#1F3B73",
+          "#E63946",
+          "#F1FAEE"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Solid white HDPE bottle (#F1FAEE) with navy blue (#1F3B73) induction-sealed screw cap, capsules, shield shape embossed on the front panel",
+        "etiqueta_en": "Bold uppercase 'BLINDADA' wordmark in navy #1F3B73 inside a shield emblem with a red #E63946 cranberry at its center, checklist icons (pH, vías urinarias, flora), clean clinical-meets-empowered mood",
+        "escena_en": "Clean white bathroom counter, glass of water, handful of cranberries, folded navy towel, bright clinical daylight, confident minimal vibe"
+      }
+    ]
+  },
+  {
+    "registro": "F63",
+    "marcas": [
+      {
+        "nombre": "Antojada",
+        "eslogan": "Unas gotitas y quedas antojada",
+        "descriptor": "Gotas para el deseo femenino",
+        "idea": "Reto 'gotitas antes de la cita' con la reacción del novio: '¿por qué tan antojada hoy?'.",
+        "publico": "Mujer 20-32, soltera o en pareja, Gen Z y millennial",
+        "inspiracion": "Fenty Beauty de Rihanna",
+        "paleta": [
+          "#FF3B3F",
+          "#FFC2D1",
+          "#1A1A1A"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "30 ml glossy candy-red glass dropper bottle (#FF3B3F) with black rubber bulb (#1A1A1A) and clear glass pipette, compact purse size",
+        "etiqueta_en": "Retro 'Antojada' logo in pink #FFC2D1 with a lips-shaped drop icon biting a cherry, black #1A1A1A band, cheeky sticker 'quedas antojada', bold flirty nightlife mood",
+        "escena_en": "Dark vanity table lit by red neon glow, red lipstick, round mirror, phone, single red rose, moody going-out-tonight vibe"
+      },
+      {
+        "nombre": "Fuego Lento",
+        "eslogan": "Enciende tu deseo, despacito",
+        "descriptor": "Elixir botánico de libido",
+        "idea": "ASMR del gotero cayendo en un té caliente, voz suave hablando del 'ritual de deseo' con maca y ashwagandha.",
+        "publico": "Mujer 28-45, wellness sensual, premium",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#B5452B",
+          "#F2D3B3",
+          "#3B1F17"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Frosted terracotta-ochre glass dropper bottle (#B5452B) with copper-gold collar and terracotta silicone bulb, 30 ml, inside a kraft box with cream (#F2D3B3) print",
+        "etiqueta_en": "Serif 'Fuego Lento' in cream #F2D3B3 over deep cocoa #3B1F17, single slow-burning candle flame illustration, ingredient line maca · ashwagandha · fenogreco, warm sensual mood",
+        "escena_en": "Terracotta linen cloth, lit beeswax candles, dried maca roots and cinnamon sticks, warm low-key candlelight, slow intimate mood"
+      },
+      {
+        "nombre": "Prendida",
+        "eslogan": "A los cuarenta, más prendida que nunca",
+        "descriptor": "Gotas de libido para 35+",
+        "idea": "Mujeres de 40 hablando sin tabú de la libido después de los hijos: 'volví a estar prendida'.",
+        "publico": "Mujer 35-55, mamá, perimenopausia",
+        "inspiracion": "Respin de Halle Berry",
+        "paleta": [
+          "#F28C28",
+          "#FFF4E0",
+          "#5B2A86"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Sunrise orange glass dropper bottle (#F28C28) with violet bulb (#5B2A86) and matte white collar, 50 ml, sturdy square shoulders",
+        "etiqueta_en": "Modern lowercase 'prendida' wordmark in violet #5B2A86 with the dot of the i as a small flame, sunrise gradient from orange #F28C28 to cream #FFF4E0, honest bold claims, energetic mature and confident mood",
+        "escena_en": "Morning bedroom with white sheets, sunbeams through the window, coffee mug, dropper bottle on the nightstand, warm sunrise light"
+      }
+    ]
+  },
+  {
+    "registro": "F45",
+    "marcas": [
+      {
+        "nombre": "Sin Drama",
+        "eslogan": "Tus hormonas en paz, tú también",
+        "descriptor": "Bebida hormonal en sticks",
+        "idea": "POV de la semana premenstrual con y sin el stick; humor de cambios de ánimo y antojos de chocolate.",
+        "publico": "Mujer 18-30, Gen Z con síndrome premenstrual",
+        "inspiracion": "Alani Nu de Katy Hearn",
+        "paleta": [
+          "#B388FF",
+          "#E8F5A3",
+          "#2D1B4E"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Lilac carton box (#B388FF) with tear-open front window holding 30 glossy stick packs alternating lime (#E8F5A3) and lilac foil, berry-chocolate flavor",
+        "etiqueta_en": "Chunky stacked 'SIN DRAMA' logo in lime #E8F5A3 on lilac, row of emoji-style mood faces going from angry to chill, dark purple #2D1B4E text, funny Gen Z mood",
+        "escena_en": "Lilac seamless backdrop, clear shaker with purple drink, chocolate pieces, cozy heating pad, direct flash photo vibe"
+      },
+      {
+        "nombre": "Selene",
+        "eslogan": "Fluye con tu ciclo, como la luna",
+        "descriptor": "Ritual hormonal con myo-inositol",
+        "idea": "Ritual nocturno estético: el stick en leche tibia espumada bajo la luna mientras escribe su diario del ciclo.",
+        "publico": "Mujer 25-40, yoga, wellness, premium",
+        "inspiracion": "Rhode de Hailey Bieber",
+        "paleta": [
+          "#2E3A59",
+          "#D8CFE8",
+          "#E8C27A"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Midnight navy rigid box (#2E3A59) with magnetic lid, containing 30 matte lavender (#D8CFE8) stick packs with gold-foil moon phase marks",
+        "etiqueta_en": "Delicate serif 'Selene' wordmark in gold foil #E8C27A, arc of moon phases above the name, fine-line shatavari root drawing, celestial calm mood",
+        "escena_en": "Dark blue velvet surface, ceramic cup of lavender latte, moonstone crystals, dried lunaria (honesty) flowers, soft moonlight blue mixed with warm candle light"
+      },
+      {
+        "nombre": "Cien Maridos",
+        "eslogan": "La raíz que equilibra a cualquiera",
+        "descriptor": "Shatavari e inositol en sticks",
+        "idea": "Hook: '¿sabías que shatavari significa la de cien maridos?' y explicación divertida de cómo equilibra hormonas.",
+        "publico": "Mujer 30-45 con estrés y desbalance hormonal, con humor",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#E4007C",
+          "#FFD23F",
+          "#0B6E4F"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Bright magenta box (#E4007C) with 30 stick packs in sunflower yellow (#FFD23F) foil, Indian-inspired paisley pattern on the sides",
+        "etiqueta_en": "Bold display 'Cien Maridos' logo with a small crown, telenovela-style illustration of a confident woman surrounded by tiny cartoon husbands, emerald #0B6E4F accents, witty bold mood",
+        "escena_en": "Colorful tiled kitchen, glass of pink drink, marigold flowers, gold bangles, vibrant daylight, Bollywood-meets-telenovela fun"
+      }
+    ]
+  },
+  {
+    "registro": "F44",
+    "marcas": [
+      {
+        "nombre": "Ovy",
+        "eslogan": "Ovarios felices, tú también",
+        "descriptor": "Inositol 40:1 en polvo",
+        "idea": "Diario de SOP en TikTok: 'día 1 vs día 90 con Ovy' mostrando acné, regla y ánimo.",
+        "publico": "Mujer 18-28 con SOP",
+        "inspiracion": "Rare Beauty de Selena Gomez",
+        "paleta": [
+          "#FF8A80",
+          "#FFF1E6",
+          "#6C63FF"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Soft-touch coral stand-up doypack (#FF8A80) with zipper and clear window showing white powder, white measuring scoop inside, unflavored",
+        "etiqueta_en": "Rounded lowercase 'ovy' logo with two smiling ovary-shaped doodles, periwinkle #6C63FF accents on cream #FFF1E6, cycle-calendar stickers, cute supportive mood",
+        "escena_en": "Cream backdrop, pastel planner open on a cycle tracker, glass of water with powder dissolving, coral flowers, soft daylight"
+      },
+      {
+        "nombre": "Exacta",
+        "eslogan": "Tu regla, exacta otra vez",
+        "descriptor": "Myo y D-chiro inositol",
+        "idea": "Nutricionista explica la proporción exacta 40:1 con una balanza y muestra calendarios antes y después.",
+        "publico": "Mujer 25-38, profesional, SOP diagnosticado",
+        "inspiracion": "SKKN de Kim Kardashian",
+        "paleta": [
+          "#0F4C5C",
+          "#E7ECEF",
+          "#F2A65A"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Matte teal round tin (#0F4C5C) with screw lid and peel-off inner seal, white powder, transparent scoop, minimal clinical-luxury look",
+        "etiqueta_en": "Clean uppercase 'EXACTA' wordmark in light grey #E7ECEF, big '40:1' numeral in orange #F2A65A where the colon becomes the two pans of a precision scale, precise modern clinical-luxury mood",
+        "escena_en": "Light grey concrete desk, minimalist precision scale, ceramic cup, a few glass beakers, crisp even daylight"
+      },
+      {
+        "nombre": "Cigüeña",
+        "eslogan": "Prepara tus ovarios para la cigüeña",
+        "descriptor": "Inositol para buscar embarazo",
+        "idea": "Parejas con SOP que buscan bebé cuentan su camino hasta el 'positivo'.",
+        "publico": "Mujer 27-40 con SOP buscando embarazo",
+        "inspiracion": "The Honest Company de Jessica Alba",
+        "paleta": [
+          "#A8D5E2",
+          "#FFF8F0",
+          "#F4A7B9"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Baby-blue glass tub (#A8D5E2) with white bamboo lid and small wooden scoop, white powder, soft rounded shape",
+        "etiqueta_en": "Soft serif 'Cigüeña' logo with a line-art stork carrying a tiny bundle, blush pink #F4A7B9 and cream #FFF8F0, hopeful tender mood",
+        "escena_en": "Soft nursery-like setting, white knitted blanket, tiny baby booties, out-of-focus pregnancy test in background, warm diffuse window light"
+      }
+    ]
+  },
+  {
+    "registro": "F64",
+    "marcas": [
+      {
+        "nombre": "Rebote",
+        "eslogan": "Que rebote todo, hasta las ganas",
+        "descriptor": "Gomitas de curvas y libido",
+        "idea": "Trend de twerk y transición del jean apretado: 'desde Rebote, todo rebota'.",
+        "publico": "Mujer 18-28 Gen Z, gym y TikTok",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#FF6F61",
+          "#FFD6C9",
+          "#3D1F1F"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Round bouncy-looking PET jar in glossy peach (#FF6F61) with a rubbery chocolate-brown cap (#3D1F1F), peach heart-shaped gummies visible",
+        "etiqueta_en": "Bubbly 'Rebote' logo with letters bouncing on motion lines and a cheeky peach-butt graphic, light peach #FFD6C9 and chocolate #3D1F1F, cheeky twerk gym-girl mood",
+        "escena_en": "Gym mirror corner, pink resistance band, bouncing pink ball mid-air, peach leggings, gummies spilled on a yoga mat, bright punchy flash"
+      },
+      {
+        "nombre": "Mamacita",
+        "eslogan": "Curvas que hacen voltear cabezas",
+        "descriptor": "Gomitas de maca y fenogreco",
+        "idea": "Trend de baile reggaetonero mostrando curvas: 'la gomita de las mamacitas'.",
+        "publico": "Mujer latina 22-35, fiestera y segura",
+        "inspiracion": "JLo Beauty de Jennifer Lopez",
+        "paleta": [
+          "#D7263D",
+          "#F9C80E",
+          "#1B1B1B"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Bold black glass jar (#1B1B1B) with glossy red cap (#D7263D), red cherry hourglass-shaped gummies, gold sticker seal",
+        "etiqueta_en": "Condensed uppercase 'MAMACITA' logo in hot red with a yellow #F9C80E hourglass silhouette, leopard-print strip, loud reggaeton party mood",
+        "escena_en": "Nightclub with red and gold neon, leopard fabric, gold hoop earrings, cocktail glass, high-contrast flash"
+      },
+      {
+        "nombre": "Sabrosa",
+        "eslogan": "Más curvas, más deseo",
+        "descriptor": "Gomitas de curvas y deseo",
+        "idea": "Contenido elegante y sensual: silueta a contraluz y 'el secreto de mis curvas'.",
+        "publico": "Mujer 28-42, premium sensual",
+        "inspiracion": "Skims de Kim Kardashian",
+        "paleta": [
+          "#8C5A3C",
+          "#E8D3C0",
+          "#1E1410"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Curvy hourglass-shaped matte espresso glass jar (#1E1410) with rose-gold metal lid, caramel-toned gummies",
+        "etiqueta_en": "Italic serif 'Sabrosa' in nude #E8D3C0 over chocolate, minimal curvy line drawing of hips, cinnamon #8C5A3C accents, sensual elegant mood",
+        "escena_en": "Nude satin draping, warm skin-tone backdrop, cinnamon sticks and figs, silhouette backlight, intimate golden light"
+      }
+    ]
+  },
+  {
+    "registro": "F24",
+    "marcas": [
+      {
+        "nombre": "Semental",
+        "eslogan": "Listo pa' la faena, toda la noche",
+        "descriptor": "Cápsulas de potencia masculina",
+        "idea": "Humor ranchero: 'mi mujer me dice semental desde que tomo esto'.",
+        "publico": "Hombre 30-55, popular y directo",
+        "inspiracion": "Tyson 2.0 de Mike Tyson",
+        "paleta": [
+          "#8B1E1E",
+          "#D4A017",
+          "#1C1C1C"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte black HDPE bottle (#1C1C1C) with oxblood red cap (#8B1E1E), capsules, horseshoe embossed on the shoulder",
+        "etiqueta_en": "Tall uppercase 'SEMENTAL' logo in gold #D4A017 with a stallion head silhouette, red stripes, rodeo bold macho mood",
+        "escena_en": "Rustic wooden barn table, leather saddle, horseshoe, whiskey glass, warm hard sunset light"
+      },
+      {
+        "nombre": "Bestia",
+        "eslogan": "Testosterona de bestia, en cama y gym",
+        "descriptor": "Testosterona y potencia en cápsulas",
+        "idea": "Gym bro: entreno de pierna y 'ahora la otra rutina' con guiño; turkesterona 500 mg como gancho.",
+        "publico": "Hombre 20-35, gym y fitness",
+        "inspiracion": "Performance Inspired de Mark Wahlberg",
+        "paleta": [
+          "#00E676",
+          "#121212",
+          "#9E9E9E"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Gunmetal black bottle (#121212) with neon green (#00E676) flip cap, capsules, aggressive angular shoulders",
+        "etiqueta_en": "Heavy 'BESTIA' logo with claw-scratch marks in neon green, big dosage numbers (500 mg turkesterona), grey #9E9E9E stats, aggressive sporty mood",
+        "escena_en": "Dark gym floor, chalk dust, heavy dumbbells, chains, dramatic rim light with green gel"
+      },
+      {
+        "nombre": "Caballero",
+        "eslogan": "Discreto afuera, fiera adentro",
+        "descriptor": "Vitalidad masculina premium",
+        "idea": "Hombre elegante de traje: 'lo que pasa en la noche se queda en la noche'.",
+        "publico": "Hombre 35-60, ejecutivo y discreto",
+        "inspiracion": "Casamigos de George Clooney",
+        "paleta": [
+          "#0D1B2A",
+          "#C5A880",
+          "#E0E1DD"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Heavy matte navy glass bottle (#0D1B2A) with brushed gold cap (#C5A880), capsules, inside a slide-out discreet box with no claims on the outside",
+        "etiqueta_en": "Classic serif 'Caballero' wordmark with a 'C' monogram crest in gold foil, silver-grey #E0E1DD small text, gentleman's club luxury mood",
+        "escena_en": "Dark walnut desk, leather wallet, luxury watch, crystal whisky tumbler, low-key warm tungsten light"
+      }
+    ]
+  },
+  {
+    "registro": "F66",
+    "marcas": [
+      {
+        "nombre": "Dragón",
+        "eslogan": "Cinco tesoros, fuego de dragón",
+        "descriptor": "Té de cinco tesoros",
+        "idea": "Ritual 'como los emperadores chinos': taza humeante, voz grave y la leyenda del ginseng.",
+        "publico": "Hombre 35-60, amante de lo natural y oriental",
+        "inspiracion": "Onnit de Aubrey Marcus y Joe Rogan",
+        "paleta": [
+          "#B22222",
+          "#D4AF37",
+          "#101010"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Lacquer-red rigid tea box (#B22222) with embossed gold dragon (#D4AF37), 20 pyramid tea bags with ginseng, goji, maca and red dates",
+        "etiqueta_en": "Serif 'Dragón' logo with a gold dragon coiling around it, black #101010 seal stamp with five-treasure icons, imperial oriental mood",
+        "escena_en": "Dark slate surface, cast iron teapot, goji berries, ginseng root, red dates, rising steam, moody warm side light"
+      },
+      {
+        "nombre": "Té Quiero",
+        "eslogan": "Una taza y te quiero toda",
+        "descriptor": "Té de vitalidad para él",
+        "idea": "Ella le prepara el té y le dice 'té quiero'... con doble intención; trend de parejas.",
+        "publico": "Parejas 28-50; lo compra ella para él",
+        "inspiracion": "Aviation Gin de Ryan Reynolds",
+        "paleta": [
+          "#E85D75",
+          "#FFF0E5",
+          "#7D2E46"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Cream tea box (#FFF0E5) with heart pattern and pink (#E85D75) die-cut window, 20 tea bags with heart-shaped tags",
+        "etiqueta_en": "Handwritten 'Té Quiero' logo where the accent is a little heart, wine #7D2E46 text, two cups clinking illustration, romantic playful mood",
+        "escena_en": "Breakfast-in-bed tray, two mugs, pink roses, white bed sheets, couple's hands, soft morning light"
+      },
+      {
+        "nombre": "Viejo Verde",
+        "eslogan": "Más años, más ganas",
+        "descriptor": "Infusión de vigor masculino",
+        "idea": "Señor de 60 con humor: 'me dicen viejo verde y tienen razón'; abuelos virales.",
+        "publico": "Hombre 50+, con humor, y quien se lo regala",
+        "inspiracion": "Gran Coramino de Kevin Hart",
+        "paleta": [
+          "#2E7D32",
+          "#F5E6C8",
+          "#5D4037"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Vintage green paperboard tea box (#2E7D32) with 20 tea bags, retro corner-store style with cream (#F5E6C8) panel",
+        "etiqueta_en": "Retro 'Viejo Verde' logo with a winking old man with mustache and hat, cream #F5E6C8 background, brown #5D4037 frame, nostalgic funny mood",
+        "escena_en": "Old wooden kitchen table, enamel mug, domino tiles, folded newspaper, potted plants, warm afternoon light"
+      }
+    ]
+  },
+  {
+    "registro": "F58",
+    "marcas": [
+      {
+        "nombre": "Piedra",
+        "eslogan": "Duro como piedra, toda la noche",
+        "descriptor": "Softgels de shilajit y maca",
+        "idea": "Demostración golpeando una piedra: 'así quedas', humor directo sin rodeos.",
+        "publico": "Hombre 25-50, directo",
+        "inspiracion": "Teremana de Dwayne Johnson",
+        "paleta": [
+          "#5F6368",
+          "#F57C00",
+          "#202124"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Granite-textured matte grey bottle (#5F6368) with black cap (#202124), dark amber softgels, rugged heavy look",
+        "etiqueta_en": "Chiseled uppercase 'PIEDRA' logo carved into stone texture, orange #F57C00 '50.000 mg' badge, raw strong mood",
+        "escena_en": "Rough rock boulders, dust in the air, dark background, harsh directional light, softgels resting on stone"
+      },
+      {
+        "nombre": "Sherpa",
+        "eslogan": "Aguante de alta montaña",
+        "descriptor": "Shilajit del Himalaya en softgel",
+        "idea": "Contenido aventurero: escalada y 'la resina que usan los sherpas', aguante en la montaña y en la cama.",
+        "publico": "Hombre 25-45, deportista y outdoor",
+        "inspiracion": "Bulletproof de Dave Asprey",
+        "paleta": [
+          "#1565C0",
+          "#ECEFF1",
+          "#FF6D00"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "White aluminum bottle (#ECEFF1) with alpine blue cap (#1565C0), black softgels, small carabiner clip on the cap",
+        "etiqueta_en": "Uppercase 'SHERPA' wordmark with mountain peak outline, orange #FF6D00 altitude line, blue tones, adventurous clean mood",
+        "escena_en": "Snowy rocky mountain backdrop, climbing rope, carabiners, thermal flask, cold crisp daylight"
+      },
+      {
+        "nombre": "Ébano",
+        "eslogan": "Vigor negro, discreto y potente",
+        "descriptor": "Shilajit premium en softgel",
+        "idea": "Lujo: unboxing de caja negra, el softgel presentado como joya, 'el oro negro del Himalaya'.",
+        "publico": "Hombre 35-60, premium",
+        "inspiracion": "Armand de Brignac de Jay-Z",
+        "paleta": [
+          "#0A0A0A",
+          "#B08D57",
+          "#3A2E27"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Glossy black glass jar (#0A0A0A) with heavy bronze-gold lid (#B08D57), shiny black softgels, inside a black velvet-lined box",
+        "etiqueta_en": "Elegant serif 'Ébano' in bronze foil, subtle ebony wood-grain texture in #3A2E27, minimal, luxury discreet mood",
+        "escena_en": "Black marble, dark wood, gold cufflinks, cigar box, single spotlight, deep shadows"
+      }
+    ]
+  },
+  {
+    "registro": "C4",
+    "marcas": [
+      {
+        "nombre": "Centurión",
+        "eslogan": "Entra a la arena, sal invicto",
+        "descriptor": "Bebida potenciadora masculina",
+        "idea": "Estética épica de gladiador: el shot antes de la batalla y guiño a la noche (espíritu Gladiador).",
+        "publico": "Hombre 25-50, cliente actual de Gladiador",
+        "inspiracion": "Proper No. Twelve de Conor McGregor",
+        "paleta": [
+          "#9E1B1B",
+          "#C9A227",
+          "#2B2B2B"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "250 ml amber glass bottle with crimson (#9E1B1B) tamper-evident cap and a 30 ml measuring shot cup on top, Roman helmet embossed on the glass",
+        "etiqueta_en": "Roman-inscription style uppercase 'CENTURIÓN' in gold #C9A227 over charcoal #2B2B2B, red-plumed helmet emblem, laurel wreath, epic battle mood",
+        "escena_en": "Stone colosseum-like arch, sand floor, sword and shield, burning torches, dramatic warm light with dust"
+      },
+      {
+        "nombre": "Maratón",
+        "eslogan": "La noche entera sin bajar el ritmo",
+        "descriptor": "Shot de aguante masculino",
+        "idea": "Shot de 30 ml con cronómetro: '¿cuántos rounds aguantas?', humor deportivo picante.",
+        "publico": "Hombre 20-40, fiesta y aguante",
+        "inspiracion": "Prime de Logan Paul y KSI",
+        "paleta": [
+          "#00B8D4",
+          "#FFEA00",
+          "#0A0A0A"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Single-dose 30 ml PET shot bottles in electric cyan (#00B8D4) with yellow (#FFEA00) caps, sold in a black 6-pack sleeve",
+        "etiqueta_en": "Italic heavy 'MARATÓN' logo with stopwatch icon and speed lines, yellow on black #0A0A0A, energetic race mood",
+        "escena_en": "Running track at night, stopwatch, finish-line tape, neon reflections, water droplets on the bottles, high-energy flash"
+      },
+      {
+        "nombre": "Anaconda",
+        "eslogan": "La bebida más grande del Amazonas",
+        "descriptor": "Bebida amazónica de chuchuhuasi",
+        "idea": "Leyenda del chuchuhuasi contada con humor: 'por algo se llama Anaconda'.",
+        "publico": "Hombre 25-55, curioso por lo natural amazónico",
+        "inspiracion": "Mananalu de Jason Momoa",
+        "paleta": [
+          "#1B5E20",
+          "#FFC107",
+          "#3E2723"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "500 ml dark green glass bottle (#1B5E20) with cork-and-wood stopper, macerated herbal liquid, snake-scale texture embossed",
+        "etiqueta_en": "Display 'Anaconda' logo with a snake coiling around the bottle in amber yellow #FFC107, jungle leaves, bark brown #3E2723, wild mysterious mood",
+        "escena_en": "Amazon jungle, wet moss, chuchuhuasi bark pieces, tropical leaves, misty humid light rays"
+      }
+    ]
+  },
+  {
+    "registro": "F62",
+    "marcas": [
+      {
+        "nombre": "Coronel",
+        "eslogan": "El coronel sigue en pie",
+        "descriptor": "Gomitas de próstata y erección",
+        "idea": "Guiño a García Márquez: 'este coronel sí tiene quien le escriba'; saludo militar después de la gomita.",
+        "publico": "Hombre 40-60, humor colombiano",
+        "inspiracion": "Real American Beer de Hulk Hogan",
+        "paleta": [
+          "#455A64",
+          "#FF5252",
+          "#ECEFF1"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Steel blue-grey HDPE jar (#455A64) with red cap (#FF5252), red pomegranate-flavored gummies, sturdy wide shape",
+        "etiqueta_en": "Stencil-style uppercase 'CORONEL' with three rank stars and an upward chevron, military badge, red #FF5252 and light grey #ECEFF1, disciplined manly humorous mood",
+        "escena_en": "Concrete wall, military cap with stars, dog tags, boots, pomegranate halves, hard daylight"
+      },
+      {
+        "nombre": "Volcán",
+        "eslogan": "Vigor que hace erupción",
+        "descriptor": "Gomitas de próstata y circulación",
+        "idea": "Granada partida en cámara lenta que estalla como lava: explica óxido nítrico y circulación con un guiño picante.",
+        "publico": "Hombre 30-50, natural y premium",
+        "inspiracion": "Haig Club de David Beckham",
+        "paleta": [
+          "#9B1B30",
+          "#F3E9DC",
+          "#2F3E46"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Ruby glass jar (#9B1B30) with matte charcoal lid (#2F3E46), small round ruby gummies like pomegranate seeds",
+        "etiqueta_en": "Serif 'Volcán' logo with an elegant line-art volcano whose eruption is made of pomegranate seeds, cream #F3E9DC label, ruby #9B1B30 seed pattern, charcoal #2F3E46 accents, natural premium mood",
+        "escena_en": "Dark volcanic stone slab, split pomegranates, scattered seeds, beet slice, reishi mushroom, subtle warm ember glow, rich side light"
+      },
+      {
+        "nombre": "Todavía",
+        "eslogan": "Todavía funciona, y con ganas",
+        "descriptor": "Gomitas de próstata 50+",
+        "idea": "Señores de 55+ con humor: 'mi señora pregunta ¿todavía?... ¡todavía!'.",
+        "publico": "Hombre 50-70 y las esposas que lo compran",
+        "inspiracion": "Gin & Juice de Snoop Dogg",
+        "paleta": [
+          "#F57F17",
+          "#FFF8E1",
+          "#4E342E"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Wide-mouth amber-orange tinted PET jar (#F57F17) with cream lid, orange gummies, easy-open for older hands",
+        "etiqueta_en": "Friendly 'Todavía' logo with a winking grey-haired man and a check mark, cream #FFF8E1, brown #4E342E text, warm humorous mood",
+        "escena_en": "Patio with hammock, cup of coffee, newspaper, warm afternoon light"
+      }
+    ]
+  },
+  {
+    "registro": "F61",
+    "marcas": [
+      {
+        "nombre": "Chorro",
+        "eslogan": "Orina como a los veinte",
+        "descriptor": "Softgels para la próstata",
+        "idea": "Comparación chistosa manguera floja vs manguera a presión; testimonios de señores.",
+        "publico": "Hombre 45-70, humor popular",
+        "inspiracion": "Big Chicken de Shaquille O'Neal",
+        "paleta": [
+          "#0288D1",
+          "#E1F5FE",
+          "#FF8F00"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Clear blue-tinted PET bottle (#0288D1) with white flip cap, golden pumpkin-seed-oil softgels visible",
+        "etiqueta_en": "Bold uppercase 'CHORRO' with a water-jet splash graphic, light blue #E1F5FE, pumpkin orange #FF8F00 seed icon, funny powerful mood",
+        "escena_en": "Garden hose spraying a strong jet of water, splash, sunny backyard, pumpkin seeds, bright daylight"
+      },
+      {
+        "nombre": "Ahuyama",
+        "eslogan": "La pepa que cuida tu próstata",
+        "descriptor": "Softgels de aceite de ahuyama",
+        "idea": "El abuelo campesino cuenta el remedio de pepas de ahuyama; ahora con saw palmetto en cápsula.",
+        "publico": "Hombre 45-70 que confía en lo natural, y sus familias",
+        "inspiracion": "Once Upon a Farm de Jennifer Garner",
+        "paleta": [
+          "#E65100",
+          "#FFF3E0",
+          "#33691E"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Amber glass bottle with pumpkin-orange cap (#E65100) and kraft paper shoulder label, golden softgels",
+        "etiqueta_en": "Warm serif 'Ahuyama' logo with hand-drawn pumpkin and seeds, cream #FFF3E0 paper, leaf green #33691E accents, farm-to-capsule natural mood",
+        "escena_en": "Rustic farm table, halved ahuyama with seeds, burlap cloth, wooden spoon, warm golden light"
+      },
+      {
+        "nombre": "Sereno",
+        "eslogan": "Noches sin levantarte al baño",
+        "descriptor": "Softgels de próstata nocturna",
+        "idea": "Contador de idas al baño de noche: de 4 a 0; hombre durmiendo tranquilo.",
+        "publico": "Hombre 50-75 que se levanta a orinar de noche",
+        "inspiracion": "Pantalones de Matthew McConaughey",
+        "paleta": [
+          "#1A237E",
+          "#C5CAE9",
+          "#FFD54F"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Matte midnight-blue bottle (#1A237E) with pale periwinkle cap (#C5CAE9), golden softgels",
+        "etiqueta_en": "Soft lowercase 'sereno' logo with a crescent moon and closed-eye icon, gold #FFD54F stars, calm restful mood",
+        "escena_en": "Dim bedroom, nightstand with lamp, alarm clock showing 6:00, glass of water, moonlight blue tones"
+      }
+    ]
+  },
+  {
+    "registro": "F60",
+    "marcas": [
+      {
+        "nombre": "Patriarca",
+        "eslogan": "Manda en casa, rinde en la cama",
+        "descriptor": "Próstata y vigor masculino",
+        "idea": "Señor elegante de 55+: próstata sana y potencia con maca y arginina, 'el que manda sigue mandando'.",
+        "publico": "Hombre 50-70, premium tradicional",
+        "inspiracion": "Nobu de Robert De Niro",
+        "paleta": [
+          "#3E2723",
+          "#BCAAA4",
+          "#B8860B"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Dark brown glass bottle (#3E2723) with antique gold cap (#B8860B), capsules, classic apothecary shape",
+        "etiqueta_en": "Engraved-style serif 'Patriarca' with a family crest of a palm and a lion, taupe #BCAAA4, heritage luxury mood",
+        "escena_en": "Old library with leather armchair, wooden desk, reading glasses, palm leaves, warm lamp light"
+      },
+      {
+        "nombre": "Zincero",
+        "eslogan": "Próstata sana, hombre zincero",
+        "descriptor": "Saw palmetto con zinc",
+        "idea": "Juego de palabras: hombre 'zincero' confiesa que se levanta tres veces a orinar y cómo lo resolvió.",
+        "publico": "Hombre 38-55, activo y con humor",
+        "inspiracion": "Mint Mobile de Ryan Reynolds",
+        "paleta": [
+          "#00897B",
+          "#E0F2F1",
+          "#263238"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Matte teal bottle (#00897B) with white cap, capsules, modern squared shape",
+        "etiqueta_en": "Geometric lowercase 'zincero' with a 'Zn' periodic-table tile, mint #E0F2F1, slate #263238, honest modern mood",
+        "escena_en": "Clean modern bathroom shelf, teal towels, glass of water, bright daylight"
+      },
+      {
+        "nombre": "Pipí Feliz",
+        "eslogan": "Sin ardor, sin pausas, sin vergüenza",
+        "descriptor": "Cápsulas para la próstata",
+        "idea": "Caricatura animada de una gotita feliz; humor sin tabú para que el señor se anime a cuidarse.",
+        "publico": "Hombre 45-70 y esposas o hijas que lo compran",
+        "inspiracion": "Feastables de MrBeast",
+        "paleta": [
+          "#FFD600",
+          "#29B6F6",
+          "#FFFFFF"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Sunny yellow HDPE bottle (#FFD600) with sky-blue cap (#29B6F6), capsules, rounded friendly shape",
+        "etiqueta_en": "Bouncy 'Pipí Feliz' logo with a smiling cartoon water-drop character giving a thumbs up, white #FFFFFF and sky blue, cheerful no-taboo mood",
+        "escena_en": "Bright yellow backdrop, rubber duck and toilet paper roll props, sunny playful light"
+      }
+    ]
+  }
+]

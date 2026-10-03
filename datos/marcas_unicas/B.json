@@ -1,0 +1,786 @@
+[
+  {
+    "registro": "C6",
+    "marcas": [
+      {
+        "nombre": "Mocktisol",
+        "eslogan": "Tu mocktail contra la cara de cortisol",
+        "descriptor": "Bebida en polvo anticortisol",
+        "idea": "Trend 'cortisol face': la chica se mira la cara hinchada al despertar, prepara el mocktail rosado en copa con hielo y muestra su antes y después desinflamada.",
+        "publico": "Mujeres Gen Z 18-28 que siguen la tendencia de la cara de cortisol",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FF6F91",
+          "#FFD3E0",
+          "#FF9A3C"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Matte hot-pink (#FF6F91) stand-up doypack pouch with resealable zipper and a small clear window showing coral powder, a translucent pink plastic scoop beside it, next to a coupe cocktail glass with a blush fizzy drink",
+        "etiqueta_en": "Bubbly retro wordmark 'Mocktisol' in Righteous, cream white (#FFF6EC) with orange (#FF9A3C) drop shadow, cocktail-glass icon with a cherry, sticker badges like 'cortisol face? bye', y2k sparkles on light pink (#FFD3E0); flirty, fun mood",
+        "escena_en": "Bright bathroom vanity with pink tiles, morning sunlight, ice cubes, sliced orange, a jade roller and a coupe glass with a pink fizzy mocktail, glossy Gen Z aesthetic"
+      },
+      {
+        "nombre": "Remanso",
+        "eslogan": "Baja el cortisol, sube la calma",
+        "descriptor": "Coctel nocturno anticortisol",
+        "idea": "Ritual nocturno en ASMR: mezclar el polvo con agua de coco y hielo, sorbo lento y voz suave explicando por qué la cara amanece desinflamada.",
+        "publico": "Mujeres 30-45 de ingresos medios-altos, amantes del wellness y el skincare",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#C9B8A6",
+          "#7A8B7B",
+          "#F4EFE8"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Heavy frosted glass jar with a matte sage-green (#7A8B7B) lid and a small wooden scoop, soft peach powder visible through the glass",
+        "etiqueta_en": "Minimal wraparound label in warm sand (#C9B8A6) and linen (#F4EFE8), thin serif wordmark 'Remanso' in Cormorant Garamond, fine-line drawing of a still water pool with a floating chamomile flower under a crescent moon, debossed paper texture; calm luxurious spa mood",
+        "escena_en": "Travertine bathroom shelf at dusk, warm candlelight, linen towel, eucalyptus sprig, ceramic cup with a pale peach drink, soft shadow of a palm leaf on the wall"
+      },
+      {
+        "nombre": "Tregua",
+        "eslogan": "Dale una tregua a tu cortisol",
+        "descriptor": "Polvo para bajar el estrés",
+        "idea": "POV del trabajador quemado: correos, trancón y jefe; corte a la persona preparando Tregua en un shaker con el texto 'hoy mi cortisol no manda'.",
+        "publico": "Hombres y mujeres 25-45 que trabajan bajo presión",
+        "inspiracion": "Lemme de Kourtney Kardashian (línea Chill)",
+        "paleta": [
+          "#1F3A5F",
+          "#F2A541",
+          "#F7F7F2"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Matte navy (#1F3A5F) cylindrical tin canister with a mustard-yellow (#F2A541) screw lid and a clear inner scoop, compact desk-friendly size",
+        "etiqueta_en": "Bold uppercase 'TREGUA' in Archivo Black, off-white (#F7F7F2) on navy, a mustard white-flag icon, clean grid layout with dosage in monospaced type; confident modern office mood",
+        "escena_en": "Clean desk with a closed laptop, stainless shaker with a pale orange drink, planner and earbuds case, late-afternoon window light, concrete wall background"
+      }
+    ]
+  },
+  {
+    "registro": "F07",
+    "marcas": [
+      {
+        "nombre": "Pijamada",
+        "eslogan": "Tu sleepy girl mocktail en polvo",
+        "descriptor": "Bebida relajante para dormir",
+        "idea": "Trend 'sleepy girl mocktail': la chica en pijama de satén prepara la bebida morada con espuma, se acuesta y aparece 'dormí 8 horas, cero vueltas'.",
+        "publico": "Mujeres Gen Z 18-28, universitarias y creadoras de contenido",
+        "inspiracion": "Kylie Cosmetics de Kylie Jenner (estética pastel)",
+        "paleta": [
+          "#B39DDB",
+          "#FFE0F0",
+          "#3D2C8D"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Holographic lilac (#B39DDB) stand-up doypack with zipper, cloud-shaped die-cut window showing lavender powder, deep purple (#3D2C8D) plastic scoop",
+        "etiqueta_en": "Cursive wordmark 'Pijamada' in Pacifico, white with deep purple outline, pastel pink (#FFE0F0) stars and a sleep-mask icon, bubble sticker 'magnesio + ashwagandha'; dreamy slumber-party mood",
+        "escena_en": "Bed with lilac satin sheets and fairy lights, stemmed glass with a frothy purple drink, silk sleep mask, phone on the nightstand, cozy lamp glow"
+      },
+      {
+        "nombre": "Velada",
+        "eslogan": "Cierra el día con tu velada",
+        "descriptor": "Polvo adaptógeno para la noche",
+        "idea": "Rutina nocturna estética: vela encendida, leche de almendras tibia, una cucharada de Velada, espumador y voz en off 'diez minutos y mi cuerpo se apaga'.",
+        "publico": "Mujeres 28-45 amantes del yoga, lo natural y lo premium",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#2E3A59",
+          "#E8D9B5",
+          "#A68A64"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Amber glass apothecary jar with a brushed gold (#A68A64) metal lid and a brass mini scoop, creamy beige powder visible inside",
+        "etiqueta_en": "Midnight blue (#2E3A59) label with gold-foil moon phases and a small candle flame, wordmark 'Velada' in Playfair Display in cream (#E8D9B5), fine botanical line art of ashwagandha and maca root; candlelit premium mood",
+        "escena_en": "Dark wood nightstand under moonlight from a window, ceramic mug with a frothy golden latte, a lit taper candle, dried ashwagandha sprigs, a book and a linen pillow, blue-hour light"
+      },
+      {
+        "nombre": "Pitazo",
+        "eslogan": "Sonó el pitazo: se acabó el día",
+        "descriptor": "Bebida relajante con maca",
+        "idea": "El man llega del trabajo o del gym, suena un pitazo de árbitro, se quita los zapatos y prepara Pitazo con hielo: estrés fuera de la cancha, energía para mañana.",
+        "publico": "Hombres 25-45 trabajadores y de gym, con estrés y mal sueño",
+        "inspiracion": "ZOA de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#111111",
+          "#FF3B30",
+          "#D9D9D9"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte black (#111111) cylindrical tub with a red (#FF3B30) flip-top lid and black scoop, sturdy gym-style container",
+        "etiqueta_en": "Bold uppercase 'PITAZO' in Bebas Neue, light grey (#D9D9D9) on black (#111111), red (#FF3B30) referee whistle icon with sound lines and a scoreboard-style '90+' tag; sporty, no-nonsense mood",
+        "escena_en": "Garage gym corner at night lit by red neon, rubber floor, a referee whistle on a lanyard, dumbbell and towel, glass tumbler with an amber drink and ice"
+      }
+    ]
+  },
+  {
+    "registro": "F16",
+    "marcas": [
+      {
+        "nombre": "Pestañita",
+        "eslogan": "Échate una pestañita de verdad",
+        "descriptor": "Gomitas de magnesio para dormir",
+        "idea": "La chica en pijama de gatito dice 'me voy a echar una pestañita', se come dos gomitas y despierta 8 horas después: 'pestañita, dije'.",
+        "publico": "Gen Z 16-28 que se acuesta tarde pegada al celular",
+        "inspiracion": "Lemme de Kourtney Kardashian (Lemme Sleep)",
+        "paleta": [
+          "#7EC8E3",
+          "#FFF5BA",
+          "#5B5F97"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Rounded translucent periwinkle-tinted (#5B5F97) PET bottle with a chunky baby-blue (#7EC8E3) cap, filled with blue and lavender crescent-moon gummies",
+        "etiqueta_en": "Puffy lowercase 'pestañita' in Fredoka, butter yellow (#FFF5BA) with soft blue outline, logo of a closed sleepy eye with long curly lashes, sleepy cat curled on a moon, little 'zzz' doodles; cozy cartoon mood",
+        "escena_en": "Messy cozy bed with cloud pillows and a plush cat, dimmed phone, star-shaped night light glowing yellow, gummies spilling on a pastel blue blanket"
+      },
+      {
+        "nombre": "Plácida",
+        "eslogan": "Duerme suave, despierta ligera",
+        "descriptor": "Gomitas de magnesio y L-teanina",
+        "idea": "Rutina 'that girl' de noche: ducha, bata, sérum y dos gomitas Plácida; texto 'sin melatonina, sin resaca, solo sueño suave'.",
+        "publico": "Mujeres 28-45 que quieren dormir sin melatonina",
+        "inspiracion": "Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#E9D5CA",
+          "#A3B18A",
+          "#FFFFFF"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Frosted white glass bottle with a matte sage (#A3B18A) aluminum cap, soft blush-beige (#E9D5CA) square gummies inside",
+        "etiqueta_en": "Elegant serif 'Plácida' in DM Serif Display in sage on white (#FFFFFF), blush watercolor band, delicate passionflower line art; serene spa mood",
+        "escena_en": "White marble vanity, folded waffle robe, lit candle, lavender and passionflower sprigs, warm evening light"
+      },
+      {
+        "nombre": "Nube",
+        "eslogan": "Tu mente, en modo nube",
+        "descriptor": "Gomitas para la mente acelerada",
+        "idea": "Formato 'mi cerebro a las 2 a.m.': pensamientos en pantalla que se borran cuando come la gomita y la cama se convierte en una nube.",
+        "publico": "Adultos 22-40 que sobrepiensan y tienen ansiedad nocturna",
+        "inspiracion": "Kin Euphorics de Bella Hadid",
+        "paleta": [
+          "#9AD0EC",
+          "#F7F9FC",
+          "#1E2A3A"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Squat soft-touch white (#F7F9FC) bottle with an oversized puffy cloud-shaped sky-blue (#9AD0EC) cap, white cloud-shaped gummies inside",
+        "etiqueta_en": "Lowercase rounded 'nube' in Quicksand navy (#1E2A3A), minimal cloud outline, lots of airy negative space, sky-blue gradient fade at the bottom; weightless calm mood",
+        "escena_en": "Sky-blue seamless background with floating cotton clouds, billowing white sheets, product on a fluffy white surface, bright diffused daylight"
+      }
+    ]
+  },
+  {
+    "registro": "F14",
+    "marcas": [
+      {
+        "nombre": "Avispa",
+        "eslogan": "Cintura de avispa, cortisol abajo",
+        "descriptor": "Cápsulas anticortisol para el abdomen",
+        "idea": "Trend 'cortisol belly': la chica se mide con cinta métrica, muestra el kit AM y PM y hace seguimiento 'día 1 vs día 30' hasta su cintura de avispa.",
+        "publico": "Mujeres 20-35 con barriga inflamada por estrés",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#FF4F79",
+          "#FFC2D1",
+          "#1A1A1A"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Two glossy hot-pink (#FF4F79) PET capsule bottles marked AM and PM with black (#1A1A1A) caps, sold together in a pink sleeve box with an hourglass-shaped cutout",
+        "etiqueta_en": "Curvy display wordmark 'Avispa' in Abril Fatface, black (#1A1A1A) on hot pink (#FF4F79), wasp-waist hourglass silhouette with tiny wings, a measuring-tape ribbon wrapping the bottle, light pink (#FFC2D1) AM/PM badges; sassy Latina mood",
+        "escena_en": "Bright bedroom with a full-length mirror, measuring tape, gym leggings and pink heels, glossy sunny light, kit on a white dresser"
+      },
+      {
+        "nombre": "Inosa",
+        "eslogan": "Hormonas en calma, cortisol abajo",
+        "descriptor": "Myo-inositol con ashwagandha",
+        "idea": "Nutricionista explica en 30 segundos el eje cortisol-insulina y por qué el myo-inositol ayuda; cierra con su rutina de cápsulas de día y de noche.",
+        "publico": "Mujeres 28-45 con SOP, ciclos irregulares o estrés hormonal",
+        "inspiracion": "Ritual de Katerina Schneider",
+        "paleta": [
+          "#F3E9DC",
+          "#C08497",
+          "#5E3A4F"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Two frosted mauve (#C08497) glass bottles labeled 'Día' and 'Noche' with matte plum (#5E3A4F) caps, presented in a minimalist cream (#F3E9DC) box",
+        "etiqueta_en": "Clean lowercase wordmark 'inosa' in light Montserrat, plum on cream, a soft open-circle balance symbol, simple transparent ingredient table; clinical-meets-feminine mood",
+        "escena_en": "Neutral cream backdrop with linen cloth, ceramic dish holding capsules, glass of water with a lemon slice, dried pampas grass, soft morning window light"
+      },
+      {
+        "nombre": "Cortizero",
+        "eslogan": "Cortisol a cero, abdomen en serio",
+        "descriptor": "Cápsulas anticortisol con ashwagandha",
+        "idea": "Coach fitness: '¿entrenas, comes bien y la barriga no baja? es tu cortisol'; muestra el kit de 2 frascos en su rutina de mañana y noche.",
+        "publico": "Hombres 25-45 de gym con grasa abdominal y estrés",
+        "inspiracion": "ZOA de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#0D0D0D",
+          "#00E676",
+          "#7A7A7A"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Two matte black (#0D0D0D) HDPE capsule bottles numbered 1 and 2 with neon green (#00E676) caps, packed in a black tactical-style box",
+        "etiqueta_en": "Condensed bold 'CORTIZERO' in Anton, the zero in neon green with a downward arrow, graphite (#7A7A7A) stripes; performance supplement mood",
+        "escena_en": "Dark gym with chalk dust in the air, steel weight plate, black rubber floor, harsh side light with neon green rim lighting"
+      }
+    ]
+  },
+  {
+    "registro": "F78",
+    "marcas": [
+      {
+        "nombre": "Tranqui",
+        "eslogan": "Ponte una y tranqui",
+        "descriptor": "Bolsitas orales para la ansiedad",
+        "idea": "Formato 'lo que hago antes de exponer': saca la latica, se pone una bolsita bajo el labio y texto 'cero nicotina, puro tranqui'.",
+        "publico": "Gen Z 18-28 con ansiedad social, estudiantes",
+        "inspiracion": "Prime de Logan Paul y KSI",
+        "paleta": [
+          "#C6FF00",
+          "#7C4DFF",
+          "#FFFFFF"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Round flat snus-style tin in matte purple (#7C4DFF) with a lime (#C6FF00) lid, white mini pouches inside and a rear compartment for used pouches",
+        "etiqueta_en": "Wide quirky 'tranqui' in bold Syne, lime on purple, melting smiley icon, minimal streetwear graphics, small white (#FFFFFF) text 'kava + L-teanina'; cool Gen Z mood",
+        "escena_en": "Urban rooftop at golden hour, skateboard, wired earphones, concrete ledge, open tin showing pouches, slight film grain"
+      },
+      {
+        "nombre": "Sutil",
+        "eslogan": "Calma discreta, en tu bolsillo",
+        "descriptor": "Bolsitas de kava y magnolia",
+        "idea": "Ejecutiva antes de una presentación: saca el estuche elegante, se pone una bolsita y nadie lo nota; texto 'calma que no se ve'.",
+        "publico": "Profesionales 28-45 que buscan calma discreta",
+        "inspiracion": "Kin Euphorics de Bella Hadid",
+        "paleta": [
+          "#F2E8DF",
+          "#B76E79",
+          "#3C3C3C"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Slim oval rose-gold metal tin (#B76E79) with embossed lid, like a luxury compact, pouches inside in parchment-colored (#F2E8DF) fleece",
+        "etiqueta_en": "Debossed lowercase 'sutil' in DM Serif Display in charcoal (#3C3C3C) on blush, fine engraved magnolia flower; minimal luxurious mood",
+        "escena_en": "Open leather handbag with a silk scarf and compact mirror, tin on a marble table in a hotel lobby, soft diffused light"
+      },
+      {
+        "nombre": "Hielo",
+        "eslogan": "Hielo en las venas, sin nicotina",
+        "descriptor": "Bolsitas calmantes sin nicotina",
+        "idea": "El que dejó el vape y la nicotina: 'la cambié por kava'; tomas de penaltis, póker y gaming de alta presión con su latica.",
+        "publico": "Hombres 20-40 que usan nicotina o vape y quieren calma",
+        "inspiracion": "Happy Dad de los Nelk Boys",
+        "paleta": [
+          "#0B1F3A",
+          "#4FC3F7",
+          "#E0F7FA"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Round metal snus tin in frosted icy blue (#4FC3F7) with a deep navy (#0B1F3A) lid and condensation-texture print, white pouches inside",
+        "etiqueta_en": "Heavy uppercase 'HIELO' in Archivo Black, ice white (#E0F7FA) with frost cracks, ice-cube icon on deep navy (#0B1F3A); cold, tactical calm mood",
+        "escena_en": "Frosted ice block surface, dark navy background, poker chips and cards, cold blue backlight and light mist"
+      }
+    ]
+  },
+  {
+    "registro": "F43",
+    "marcas": [
+      {
+        "nombre": "Relajao",
+        "eslogan": "Vive relajao, aunque el mundo no",
+        "descriptor": "Cápsulas blandas antiestrés",
+        "idea": "Comedia costeña: la chica se estresa por todo, toma su perla dorada y el video pasa a cámara lenta con champeta suave: 'yo ando relajao'.",
+        "publico": "Gen Z y millennials 18-30, fans del humor costeño",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#FFB703",
+          "#00B4D8",
+          "#FFF1D6"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Clear turquoise-tinted (#00B4D8) PET bottle showing glossy golden amber softgels, sunny yellow (#FFB703) flip cap",
+        "etiqueta_en": "Rounded 'Relajao' in Baloo 2, white with yellow shadow, tropical sun and hammock icon, wavy sea lines in cream (#FFF1D6); Caribbean carefree mood",
+        "escena_en": "Caribbean terrace with a hammock, turquoise sea behind, palm shadow on a coral wall, bright midday sun, a coconut and sunglasses"
+      },
+      {
+        "nombre": "Exhala",
+        "eslogan": "Inhala calma, exhala cortisol",
+        "descriptor": "Perlas de inositol y ashwagandha",
+        "idea": "Respiración guiada 4-7-8 con la perla en la mano; al final: 'tu cortisol también necesita exhalar'.",
+        "publico": "Mujeres 28-50 que practican yoga y meditación",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#DCE3DD",
+          "#6B8F71",
+          "#EAD7C3"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Matte pale-sage (#DCE3DD) ceramic-look glass bottle with a natural cork-and-wood cap, translucent golden softgels",
+        "etiqueta_en": "Airy serif 'Exhala' in Cormorant Garamond in eucalyptus green (#6B8F71), single flowing breath-line drawing, warm sand (#EAD7C3) band; meditative spa mood",
+        "escena_en": "Yoga studio with light wood floor, rolled cork mat, eucalyptus in a ceramic vase, sunrise light through sheer curtains"
+      },
+      {
+        "nombre": "Estoico",
+        "eslogan": "Lo que no controlas, no te estresa",
+        "descriptor": "Perlas de ashwagandha y teanina",
+        "idea": "Formato estoicismo: voz grave con frases de Marco Aurelio sobre un hombre en una negociación tensa; cierra con su perla Estoico y el tinto de la mañana.",
+        "publico": "Hombres 28-50 emprendedores, ejecutivos y conductores",
+        "inspiracion": "Teremana de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#2B2B2B",
+          "#B08D57",
+          "#EFE6D8"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Heavy amber glass bottle with a brushed bronze (#B08D57) metal cap, golden softgels, in a charcoal (#2B2B2B) rigid box",
+        "etiqueta_en": "Classic uppercase serif 'ESTOICO' in Playfair Display, bronze foil on charcoal (#2B2B2B), Roman marble bust emblem, cream (#EFE6D8) fine print; timeless stoic gentleman mood",
+        "escena_en": "Dark walnut desk with a small marble bust, leather notebook, fountain pen, espresso cup and wristwatch, low warm side light, green leather chair blurred behind"
+      }
+    ]
+  },
+  {
+    "registro": "N1",
+    "marcas": [
+      {
+        "nombre": "Privado",
+        "eslogan": "Te deja privado toda la noche",
+        "descriptor": "Gomitas de melatonina y magnesio",
+        "idea": "Prueba real: se toma las gomitas, pone cronómetro y el amigo lo graba 'privado' a los 20 minutos, roncando con la boca abierta.",
+        "publico": "Gen Z y millennials 18-30 con insomnio por pantallas",
+        "inspiracion": "Feastables de MrBeast",
+        "paleta": [
+          "#1B1464",
+          "#FF6B6B",
+          "#FFE66D"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Chunky dark indigo (#1B1464) PET jar with a wide coral (#FF6B6B) cap, filled with coral and yellow star-shaped gummies",
+        "etiqueta_en": "Retro groovy 'Privado' in Righteous, yellow (#FFE66D) with coral outline, knocked-out cartoon face with X eyes and 'zzz', comic energy; playful mood",
+        "escena_en": "Bedroom at night with coral and purple LED strips, gaming headset on the bed, phone face down, gummies on the nightstand"
+      },
+      {
+        "nombre": "Lirón",
+        "eslogan": "Duerme como un lirón, sin despertar",
+        "descriptor": "Gomitas para dormir de corrido",
+        "idea": "Mujer de 40 que se despertaba a las 3 a.m. muestra su reloj de sueño con '7 horas seguidas' junto a su manzanilla: 'ahora duermo como un lirón'.",
+        "publico": "Adultos 30-55 que se despiertan en la madrugada",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#3E5C76",
+          "#C9D6DF",
+          "#F0E6D2"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Dusty blue (#3E5C76) glass jar with a matte silver-grey (#C9D6DF) lid, soft lavender-blue moon gummies inside",
+        "etiqueta_en": "Refined serif 'Lirón' in Playfair Display, cream (#F0E6D2) on dusty blue (#3E5C76), fine illustration of a dormouse curled asleep inside a crescent moon, night-dew droplets; quiet elegant storybook mood",
+        "escena_en": "Bedside table with linen sheets, cup of chamomile tea, reading glasses and a book, dim warm lamp, blue night through the window"
+      },
+      {
+        "nombre": "Seguidito",
+        "eslogan": "Toda la noche, seguidito",
+        "descriptor": "Gomitas de sueño profundo",
+        "idea": "Time-lapse de la cama: antes, da vueltas toda la noche; con Seguidito, quieto hasta las 6 a.m. y la app del reloj marca 8 h.",
+        "publico": "Adultos 28-50, trabajadores y padres que madrugan",
+        "inspiracion": "Honest Company de Jessica Alba",
+        "paleta": [
+          "#FFFFFF",
+          "#FF8C42",
+          "#2D3142"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Clean white (#FFFFFF) HDPE bottle with a bold orange (#FF8C42) cap embossed with a straight arrow, orange square gummies",
+        "etiqueta_en": "Bold lowercase wordmark 'seguidito' in extra-bold Montserrat charcoal (#2D3142), an unbroken orange (#FF8C42) straight line running under the word from moon to sun, clock-arc graphic on white; simple, trustworthy mood",
+        "escena_en": "Bright morning bedroom, alarm clock showing 6:00, open curtains with sunlight, made bed, coffee mug and bottle on a white nightstand"
+      }
+    ]
+  },
+  {
+    "registro": "N2",
+    "marcas": [
+      {
+        "nombre": "Modo Avión",
+        "eslogan": "Unas gotas y modo avión",
+        "descriptor": "Melatonina en gotas",
+        "idea": "Pantalla del celular: activa modo avión, gotas bajo la lengua, temporizador de 20 minutos y ella aparece dormida; texto 'desconectada'.",
+        "publico": "Gen Z y millennials 18-32 pegados al celular",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#4D96FF",
+          "#FFFFFF",
+          "#FFD166"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Frosted blue (#4D96FF) 30 ml glass dropper bottle with white rubber bulb and white collar, red-fruit flavored drops",
+        "etiqueta_en": "Phone-UI inspired label with an airplane icon and a yellow (#FFD166) toggle switched ON, rounded 'Modo Avión' in Fredoka white (#FFFFFF), low-battery icon; playful tech mood",
+        "escena_en": "Bed at night with a phone screen showing airplane mode, white duvet, blue ambient glow, dropper resting on a pillow"
+      },
+      {
+        "nombre": "Somnia",
+        "eslogan": "Tu noche empieza en una gota",
+        "descriptor": "Gotas sublinguales para dormir",
+        "idea": "ASMR de una gota cayendo en cámara lenta sobre la lengua, luz de vela y un susurro: 'veinte minutos'.",
+        "publico": "Adultos 30-50 que buscan algo premium y elegante",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#4B2E83",
+          "#D4AF37",
+          "#F5F0FA"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Deep violet (#4B2E83) Miron-style glass dropper bottle with gold (#D4AF37) collar and black bulb, apothecary style, in a lavender-white (#F5F0FA) box",
+        "etiqueta_en": "Engraved-style serif 'Somnia' in Cormorant Garamond, gold foil on violet, celestial constellation pattern; vintage apothecary mood",
+        "escena_en": "Violet velvet fabric, candlelight, brass tray, dried lavender and a crystal, deep moody shadows"
+      },
+      {
+        "nombre": "Apagón",
+        "eslogan": "Veinte minutos y apagón",
+        "descriptor": "Melatonina en gotas rápida",
+        "idea": "Hombre dando vueltas en la cama; se echa las gotas, cuenta regresiva de 20 minutos en pantalla y la luz se va de golpe: 'APAGÓN'.",
+        "publico": "Hombres 25-50 con insomnio por trabajo o turnos",
+        "inspiracion": "Happy Dad de los Nelk Boys",
+        "paleta": [
+          "#000000",
+          "#FFC300",
+          "#5C5C5C"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Matte black (#000000) glass dropper bottle with a yellow (#FFC300) bulb and black collar, passion-fruit flavored drops",
+        "etiqueta_en": "Huge APAGÓN logo in condensed yellow on black, a light bulb switching off icon and a yellow hazard-stripe band; bold blackout mood",
+        "escena_en": "Pitch-dark room with a single spotlight on the bottle, a wall light switch, black satin pillow, high-contrast moody light"
+      }
+    ]
+  },
+  {
+    "registro": "F01",
+    "marcas": [
+      {
+        "nombre": "Doce",
+        "eslogan": "Doce formas de magnesio, una noche",
+        "descriptor": "Magnesio complejo en cápsulas",
+        "idea": "Dato que engancha: 'el magnesio es el elemento 12, por eso trae 12 formas'; cada forma aparece en pantalla con lo que hace (sueño, calambres, cerebro).",
+        "publico": "Adultos 28-55 informados que comparan etiquetas",
+        "inspiracion": "Ritual de Katerina Schneider",
+        "paleta": [
+          "#F5F5F0",
+          "#2E7D6B",
+          "#1C1C1C"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Clear glass bottle showing emerald-tinted (#2E7D6B) capsules, minimalist off-white (#F5F5F0) cap",
+        "etiqueta_en": "Periodic-table tile 'Mg 12' in emerald, wordmark 'Doce' in Syne, transparent ingredient list in black (#1C1C1C) small type; scientific clean mood",
+        "escena_en": "White seamless background, clear acrylic periodic-table block, glass of water, sharp clean shadows, studio light"
+      },
+      {
+        "nombre": "Fondo",
+        "eslogan": "Entrena a fondo, duerme a fondo",
+        "descriptor": "Magnesio para calambres y descanso",
+        "idea": "Ciclista tras subir el Alto de Letras: calambre en la pierna, toma Fondo y esa noche duerme como piedra; texto 'recuperación de verdad'.",
+        "publico": "Ciclistas, runners y gente de gym 25-55",
+        "inspiracion": "ZOA de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#E63946",
+          "#1D3557",
+          "#F1FAEE"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte navy (#1D3557) HDPE bottle with a red (#E63946) sport cap and pull-tab seal, 120 capsules",
+        "etiqueta_en": "Bold condensed 'FONDO' in Bebas Neue white (#F1FAEE), red altitude-profile line like a cycling stage; technical sport mood",
+        "escena_en": "Mountain asphalt road at sunrise, road bike leaning, cycling gloves and helmet, bottle on a stone wall, crisp morning light"
+      },
+      {
+        "nombre": "Bostezo",
+        "eslogan": "Si bostezaste, ya sabes",
+        "descriptor": "Magnesio con ashwagandha para mujer",
+        "idea": "Hook: 'te apuesto a que bostezas viendo esto'; la chica bosteza en loop, saca su frasco, explica que es magnesio con ashwagandha para mujer y se mete a la cama.",
+        "publico": "Mujeres 22-40 con estrés, insomnio y calambres",
+        "inspiracion": "Rare Beauty de Selena Gomez",
+        "paleta": [
+          "#FFB4A2",
+          "#6D597A",
+          "#FFF4E6"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Pastel peach (#FFB4A2) PET bottle with a plum (#6D597A) cap, capsules visible through a small window",
+        "etiqueta_en": "Wide 'Bostezo' in Baloo 2 plum, cartoon yawning mouth with a little moon inside, cream (#FFF4E6) background with peach wavy lines; funny cute mood",
+        "escena_en": "Cozy bedroom in soft peach lamp light, fuzzy blanket, slippers, mug of tea, bottle on a rattan tray"
+      }
+    ]
+  },
+  {
+    "registro": "F57",
+    "marcas": [
+      {
+        "nombre": "Despabila",
+        "eslogan": "Un chicle y te despabilas",
+        "descriptor": "Chicles y mentas de energía",
+        "idea": "Estudiante dormido en clase de 7 a.m.; se mete un chicle Despabila, abre los ojos de golpe y una barra de batería en pantalla sube al 100%.",
+        "publico": "Estudiantes y Gen Z 16-28",
+        "inspiracion": "Prime de Logan Paul y KSI",
+        "paleta": [
+          "#FFEA00",
+          "#00C853",
+          "#212121"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Pocket-size flip-top gum pack shaped like a battery, yellow (#FFEA00) with green (#00C853) charge bars, holding 10 gum pellets",
+        "etiqueta_en": "Bold 'DESPABILA' in Archivo Black, black (#212121) on yellow (#FFEA00), wide-open eyes icon with a lightning bolt, green (#00C853) charge bars, comic speed lines; energetic mood",
+        "escena_en": "School desk with notebooks, highlighters and laptop, morning sunlight, battery pack open with gum pellets spilling, dynamic angle"
+      },
+      {
+        "nombre": "Nítido",
+        "eslogan": "Enfoque nítido, sin nervios",
+        "descriptor": "Mentas de cafeína y L-teanina",
+        "idea": "Rutina deep work: abre la latica de Nítido, pone el pomodoro y trabaja 90 minutos; texto 'cafeína + L-teanina, sin el temblor del café'.",
+        "publico": "Profesionales y emprendedores 25-45",
+        "inspiracion": "Lemme de Kourtney Kardashian (Lemme Focus)",
+        "paleta": [
+          "#FAFAFA",
+          "#0057FF",
+          "#C0C0C0"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Slim rectangular brushed aluminum tin (#C0C0C0) with sliding lid and a cobalt (#0057FF) band, round white mints inside",
+        "etiqueta_en": "Lowercase 'nítido' in semibold Montserrat cobalt (#0057FF), the dot of the 'i' drawn as a sharp focus-ring target, white (#FAFAFA) negative space; sleek productivity mood",
+        "escena_en": "Minimal desk with mechanical keyboard, laptop showing a timer, notebook and cobalt pen, natural daylight from a large window"
+      },
+      {
+        "nombre": "Clutch",
+        "eslogan": "Energía para el momento clutch",
+        "descriptor": "Chicle de energía gamer",
+        "idea": "Clip de partida: última ronda 1 vs 3, el gamer mastica Clutch y la gana; texto 'cafeína en 5 minutos, sin bebida en el teclado'.",
+        "publico": "Gamers y deportistas 16-30",
+        "inspiracion": "Feastables de MrBeast",
+        "paleta": [
+          "#0F0F1A",
+          "#FF00E5",
+          "#00F0FF"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Rugged rectangular black (#0F0F1A) plastic gum case with a click lid, translucent magenta (#FF00E5) window and cyan (#00F0FF) LED-like stripe, gum pellets inside",
+        "etiqueta_en": "Aggressive italic 'CLUTCH' in Anton cyan with magenta glitch effect, controller-and-lightning emblem; esports mood",
+        "escena_en": "Gaming setup with magenta and cyan RGB keyboard light, headset, mouse pad, dark room, product beside the mouse"
+      }
+    ]
+  },
+  {
+    "registro": "F81",
+    "marcas": [
+      {
+        "nombre": "Acordeón",
+        "eslogan": "El único acordeón permitido",
+        "descriptor": "Ginkgo biloba en cápsulas",
+        "idea": "Semana de parciales: en vez de sacar un papelito, saca el frasco; suena vallenato y texto 'memoria pa'l parcial'.",
+        "publico": "Universitarios y estudiantes 17-28",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#FFD60A",
+          "#003566",
+          "#FFFFFF"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Navy (#003566) PET bottle with a yellow (#FFD60A) cap and a fold-out accordion label that opens into study tips, 60 capsules",
+        "etiqueta_en": "Playful 'Acordeón' in Righteous yellow, notebook-ruled white (#FFFFFF) lines, doodled ginkgo leaf, pleated accordion graphic; cheeky student mood",
+        "escena_en": "Library table with stacked books, sticky notes, highlighters and coffee, bottle next to a folded cheat sheet, warm afternoon light"
+      },
+      {
+        "nombre": "Evoca",
+        "eslogan": "Tus recuerdos, siempre a la mano",
+        "descriptor": "Ginkgo biloba para la memoria",
+        "idea": "Mujer de 50 cuenta que olvidaba llaves y nombres; muestra su ritual de mañana con Evoca y una caminata: 'mi cabeza volvió a estar clara'.",
+        "publico": "Mujeres 40-65 preocupadas por la memoria",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#E9EDC9",
+          "#606C38",
+          "#FEFAE0"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Frosted olive-green (#606C38) glass bottle with a bamboo lid, capsules with golden-green powder",
+        "etiqueta_en": "Graceful serif 'Evoca' in Playfair Display, cream (#FEFAE0) on olive (#606C38), detailed ginkgo leaf illustration in pale lime (#E9EDC9) inside a faint vintage photo frame; botanical heritage mood",
+        "escena_en": "Garden table scattered with ginkgo leaves, ceramic teacup, reading glasses and a crossword, soft morning sun through leaves"
+      },
+      {
+        "nombre": "Filo",
+        "eslogan": "Mente con filo, siempre",
+        "descriptor": "Ginkgo biloba de alta potencia",
+        "idea": "Ejecutivo de 50 en una reunión recita cada cifra sin notas; voz en off: 'la edad no me quita el filo'.",
+        "publico": "Hombres 35-65 ejecutivos y emprendedores",
+        "inspiracion": "Teremana de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#1C1C1C",
+          "#C0C7CE",
+          "#D4A017"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte charcoal (#1C1C1C) aluminum bottle with a steel-silver (#C0C7CE) screw cap, 60 capsules",
+        "etiqueta_en": "Sharp 'FILO' in Bebas Neue silver, ginkgo leaf drawn with blade-sharp geometric edges, thin gold (#D4A017) line; precision mood",
+        "escena_en": "Slate surface with a chess board mid-game, steel watch, dark moody light with a sharp edge highlight"
+      }
+    ]
+  },
+  {
+    "registro": "N5",
+    "marcas": [
+      {
+        "nombre": "Ronrón",
+        "eslogan": "Calmaditos como un gatico",
+        "descriptor": "Magnesio en gotas para niños",
+        "idea": "Mamá muestra a su hijo saltando en la cama a las 9 p.m.; pone las gotas de fresa en el jugo y un gatico animado ronronea mientras el niño se duerme.",
+        "publico": "Mamás de niños de 3 a 10 años inquietos en la noche",
+        "inspiracion": "Hello Bello de Kristen Bell y Dax Shepard",
+        "paleta": [
+          "#FFADC6",
+          "#FFD6A5",
+          "#6A4C93"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Rounded pink (#FFADC6) plastic dropper bottle with a peach (#FFD6A5) cat-ears cap and a graduated dropper, strawberry flavor",
+        "etiqueta_en": "Puffy 'Ronrón' in Fredoka purple (#6A4C93), cute sleeping kitten curled around the bottle, strawberry and star stickers; sweet cartoon mood",
+        "escena_en": "Kids bedroom with pastel bunting, plush cat toy, small cup of juice, star night light, soft warm lamp"
+      },
+      {
+        "nombre": "Abrazo",
+        "eslogan": "Calma como un abrazo de mamá",
+        "descriptor": "Gotas calmantes con magnesio",
+        "idea": "Mamá consciente en tono suave: baño tibio, cuento, abrazo y gotas Abrazo; 'sin melatonina, solo magnesio'.",
+        "publico": "Mamás 28-40 que prefieren lo natural y sin melatonina",
+        "inspiracion": "Honest Company de Jessica Alba",
+        "paleta": [
+          "#F6EFE7",
+          "#A7C4BC",
+          "#D8A7B1"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Amber glass dropper bottle with a soft sage (#A7C4BC) silicone bulb, wrapped in a cream (#F6EFE7) paper sleeve",
+        "etiqueta_en": "Lowercase 'abrazo' in Quicksand, dusty rose (#D8A7B1) line art of a mother and child hugging under a moon and tiny stars, sage (#A7C4BC) accents, muted earthy tones; gentle Montessori-nursery mood",
+        "escena_en": "Neutral nursery with wooden crib, muslin blanket, wooden toys and rattan basket, soft natural evening light"
+      },
+      {
+        "nombre": "Quietico",
+        "eslogan": "Unas gotitas y quietico",
+        "descriptor": "Gotas de magnesio sabor fresa",
+        "idea": "Humor de mamá colombiana: '¡quédese quietico!' sin resultado; luego las gotas, el niño viendo un cuento en el sofá y la mamá tomando tinto en paz.",
+        "publico": "Mamás 25-45 con humor, de niños muy activos",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#FF7F50",
+          "#2EC4B6",
+          "#FFFFFF"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Bright coral (#FF7F50) plastic dropper bottle with a teal (#2EC4B6) child-safe cap and dosage marks, toy-like shape",
+        "etiqueta_en": "Bouncy 'Quietico' in Baloo 2 white (#FFFFFF) with teal outline, kid sitting cross-legged with a little halo, confetti splashes; cheerful family humor mood",
+        "escena_en": "Colorful Colombian living room, sofa with cushions, toys scattered, a cup of tinto on a side table, bright afternoon light"
+      }
+    ]
+  },
+  {
+    "registro": "C5",
+    "marcas": [
+      {
+        "nombre": "Cerebrito",
+        "eslogan": "Gomitas para pequeños cerebritos",
+        "descriptor": "Gomitas de concentración infantil",
+        "idea": "Antes y después haciendo tareas; aparece el cerebrito animado con gafas cuando el niño come su gomita de fresa.",
+        "publico": "Mamás de niños de 4 a 12 años que se distraen fácil",
+        "inspiracion": "Hello Bello de Kristen Bell y Dax Shepard",
+        "paleta": [
+          "#FF4D6D",
+          "#FFC300",
+          "#3A86FF"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Clear PET jar with a bright blue (#3A86FF) cap shaped like a graduation cap, filled with red (#FF4D6D) brain-shaped strawberry gummies",
+        "etiqueta_en": "Bubbly 'Cerebrito' in Fredoka yellow (#FFC300) with blue outline, pink brain mascot with round glasses holding a pencil, stars and ABC letters; cheerful smart-kid mood",
+        "escena_en": "Kids study desk with colorful pencils, open notebook, alphabet blocks and a small globe, bright morning light"
+      },
+      {
+        "nombre": "Pupitre",
+        "eslogan": "Atentos en clase, felices en casa",
+        "descriptor": "Gomitas para la atención escolar",
+        "idea": "Regreso a clases: mamá alista lonchera, uniforme y una gomita Pupitre; luego la nota de la profe: 'qué juicioso está'.",
+        "publico": "Mamás 28-45 de niños en edad escolar",
+        "inspiracion": "Honest Company de Jessica Alba",
+        "paleta": [
+          "#2D6A4F",
+          "#F4E3B2",
+          "#D62828"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Matte cream (#F4E3B2) PET jar with a chalkboard-green (#2D6A4F) lid, gummies shaped like little apples",
+        "etiqueta_en": "Retro schoolbook 'Pupitre' in DM Serif Display chalkboard green, red (#D62828) apple icon, ruled notebook-paper texture; nostalgic school mood",
+        "escena_en": "Vintage wooden school desk, chalkboard background, red apple, kids backpack and pencils, warm classroom light"
+      },
+      {
+        "nombre": "Brújula",
+        "eslogan": "Su atención, en la dirección correcta",
+        "descriptor": "Gomitas botánicas para concentración",
+        "idea": "Mamá wellness presenta cada planta (bacopa, centella, rhodiola, hibisco) con dibujitos animados: 'sin azúcar y sin estimulantes'.",
+        "publico": "Mamás 30-45 que buscan fórmulas naturales y sin azúcar",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#E76F51",
+          "#264653",
+          "#F1E9DA"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Amber recycled glass jar with a terracotta (#E76F51) lid, translucent pink hibiscus gummies inside",
+        "etiqueta_en": "Wordmark 'Brújula' in bold Montserrat deep teal (#264653), compass rose built from tiny leaves (bacopa, centella, hibiscus), cream (#F1E9DA) background; adventurous natural mood",
+        "escena_en": "Outdoor picnic blanket with a paper map, wooden compass, hibiscus flowers and a kids nature journal, golden afternoon light"
+      }
+    ]
+  },
+  {
+    "registro": "N6",
+    "marcas": [
+      {
+        "nombre": "Dormilón",
+        "eslogan": "El osito que los duerme",
+        "descriptor": "Ositos de magnesio para niños",
+        "idea": "El osito Dormilón animado bosteza; el niño se come su osito, se pone la pijama y se duerme abrazado al peluche igualito.",
+        "publico": "Mamás de niños de 3 a 10 años",
+        "inspiracion": "Hello Bello de Kristen Bell y Dax Shepard",
+        "paleta": [
+          "#8E7DBE",
+          "#FFDDD2",
+          "#FFB703"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Bear-shaped translucent lavender (#8E7DBE) PET bottle with the bear head as a peach (#FFDDD2) cap, filled with sugar-free bear gummies",
+        "etiqueta_en": "Rounded 'Dormilón' in Baloo 2, sleepy bear mascot in a nightcap holding a yellow star (#FFB703), soft cartoon clouds; bedtime storybook mood",
+        "escena_en": "Kids bed with a teddy bear, star-print pajamas, open storybook, warm night lamp glow, soft focus"
+      },
+      {
+        "nombre": "Arrurrú",
+        "eslogan": "La canción de cuna en ositos",
+        "descriptor": "Ositos de magnesio sin azúcar",
+        "idea": "La abuela canta 'arrurrú mi niño' mientras la mamá le da los ositos; mensaje de tradición, cariño y calma latina.",
+        "publico": "Mamás 28-45 tradicionales y abuelas latinas",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#FDF0D5",
+          "#C1121F",
+          "#669BBC"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Glass jar with a cream (#FDF0D5) lid covered in red (#C1121F) gingham fabric tied with twine, filled with honey-colored bear gummies",
+        "etiqueta_en": "Script 'Arrurrú' in Pacifico red, embroidery-style moon cradle and stars in soft blue (#669BBC); handmade Latin nostalgic mood",
+        "escena_en": "Rustic wooden rocking chair, hand-knitted blanket, ceramic lamp and embroidered pillow, warm golden evening light"
+      },
+      {
+        "nombre": "Cobijita",
+        "eslogan": "Calma suavecita antes de dormir",
+        "descriptor": "Gomitas de magnesio infantiles",
+        "idea": "Mamá millennial minimalista: rutina de noche sin pantallas, osito Cobijita, cuento y luz baja; estética calmada y tierna.",
+        "publico": "Mamás millennials 25-38 estéticas y minimalistas",
+        "inspiracion": "Rhode de Hailey Bieber",
+        "paleta": [
+          "#EDE0D4",
+          "#9C6644",
+          "#B5C99A"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Squat matte oat (#EDE0D4) PET jar with a quilted-texture cocoa (#9C6644) lid, bear gummies in muted sage (#B5C99A) and beige",
+        "etiqueta_en": "Lowercase 'cobijita' in Quicksand cocoa brown, line drawing of a tiny bear tucked under a quilted blanket, neutral tones; cozy minimalist mood",
+        "escena_en": "Neutral kids room with linen bedding, knitted blanket, wooden toys and beige rug, soft afternoon window light"
+      }
+    ]
+  }
+]

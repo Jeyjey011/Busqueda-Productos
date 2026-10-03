@@ -1,0 +1,730 @@
+[
+  {
+    "registro": "F08",
+    "marcas": [
+      {
+        "nombre": "Dewy",
+        "eslogan": "Piel de rocío, pelo de comercial.",
+        "descriptor": "Colágeno con biotina en cápsulas",
+        "idea": "GRWM donde la cápsula es el primer paso del glow, con antes y después de uñas y pelo a los 30 días.",
+        "publico": "Mujeres Gen Z 18-27 fans del skincare y del maquillaje 'dewy'",
+        "inspiracion": "Rhode de Hailey Bieber",
+        "paleta": [
+          "#FFD6E0",
+          "#FFF4EC",
+          "#E85D8E"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Translucent blush-pink PET bottle (#FFD6E0) with soft rounded shoulders, white capsules visible inside, glossy pearl-white flip cap (#FFF4EC), 60 capsules",
+        "etiqueta_en": "Bubbly lowercase 'dewy' logo in hot pink #E85D8E with a single glossy water-droplet over the 'y', iridescent holographic strip, sticker-style badges 'colágeno x5 + biotina', fresh glossy playful mood",
+        "escena_en": "Pastel pink vanity with a round mirror, scattered lip glosses, a claw clip and a glass of iced water with lemon; bright soft window light with dewy highlights"
+      },
+      {
+        "nombre": "Quinta",
+        "eslogan": "Cinco colágenos, una sola rutina.",
+        "descriptor": "Colágeno multitipo con biotina",
+        "idea": "En 15 segundos explica los cinco tipos de colágeno y dónde actúa cada uno, con estética de spa de lujo.",
+        "publico": "Mujeres 30-45 profesionales que invierten en skincare premium",
+        "inspiracion": "Kora Organics de Miranda Kerr",
+        "paleta": [
+          "#F3EDE4",
+          "#C8A97E",
+          "#2E2A26"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Frosted ivory glass apothecary jar (#F3EDE4) with a brushed champagne-gold metal screw lid (#C8A97E), capsules inside, 90 capsules",
+        "etiqueta_en": "Elegant serif wordmark 'QUINTA' in espresso #2E2A26 with a fine Roman numeral V monogram in gold foil #C8A97E, small-caps ingredient list, quiet-luxury spa mood",
+        "escena_en": "Travertine tray on a linen-draped bathroom counter with eucalyptus sprigs, a ceramic cup of warm water and a jade roller; diffused warm morning light"
+      },
+      {
+        "nombre": "Todita",
+        "eslogan": "Pa' que te veas todita divina.",
+        "descriptor": "Colágeno, biotina y queratina",
+        "idea": "Mamás colombianas reales muestran cómo una sola cápsula les arregla pelo, piel y uñas sin tiempo para rutinas.",
+        "publico": "Mujeres 28-50, mamás trabajadoras que quieren algo práctico y económico",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#FF6F3C",
+          "#FFE9A8",
+          "#7A1F5C"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Chunky wide-mouth glossy coral-orange HDPE bottle (#FF6F3C) with a plum flip-top cap (#7A1F5C), 60 capsules",
+        "etiqueta_en": "Rounded bold 'todita' logo in plum #7A1F5C on a butter-yellow band #FFE9A8, row of small hair, face and nail icons, round sticker 'todo en 1', warm cheerful Colombian mood",
+        "escena_en": "Sunny Colombian kitchen counter with a cup of tinto, a hairbrush, nail polish bottles and a bougainvillea branch; bright natural daylight"
+      }
+    ]
+  },
+  {
+    "registro": "F67",
+    "marcas": [
+      {
+        "nombre": "Glassy",
+        "eslogan": "Piel de vidrio en un sorbo.",
+        "descriptor": "Glutatión liposomal líquido",
+        "idea": "Reto de 30 días 'glass skin' con selfies sin filtro bajo la misma luz cada semana.",
+        "publico": "Mujeres Gen Z 18-28 fans del K-beauty",
+        "inspiracion": "Rare Beauty de Selena Gomez",
+        "paleta": [
+          "#DDEFFF",
+          "#9FB4FF",
+          "#1B1F3B"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Clear glass 250 ml bottle with a subtle iridescent coating (#DDEFFF), periwinkle screw cap (#9FB4FF) and a clear measuring shot cup; pale translucent liquid",
+        "etiqueta_en": "Minimal transparent label with 'glassy' in wide modern sans in midnight navy #1B1F3B, holographic prism-reflection graphic, tiny K-beauty dot pattern, clean futuristic mood",
+        "escena_en": "Mirror acrylic surface with ice cubes, water droplets, a clear acrylic block and a glass of water; cool white studio light with crisp reflections"
+      },
+      {
+        "nombre": "Porcelana",
+        "eslogan": "Piel de porcelana, sin una mancha.",
+        "descriptor": "Glutatión liposomal con vitamina C",
+        "idea": "Ritual nocturno ASMR sirviendo el líquido en una taza de porcelana fina, con close-ups de piel luminosa y uniforme.",
+        "publico": "Mujeres 30-50 de alto poder adquisitivo que buscan tono uniforme",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#F5EFE8",
+          "#D9C7B8",
+          "#8A7461"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Heavy opaque glossy white porcelain-look glass bottle (#F5EFE8) with a fine hand-painted taupe line, champagne-gold screw cap (#D9C7B8), 200 ml, presented in a nude rigid box",
+        "etiqueta_en": "Serif wordmark 'Porcelana' in warm taupe #8A7461 with a delicate fine-china floral border, pearlescent foil, generous white space, serene luxury mood",
+        "escena_en": "Ivory silk fabric with a fine porcelain teacup and saucer, loose pearls and a crystal glass; warm diffused golden-hour light"
+      },
+      {
+        "nombre": "Lechita",
+        "eslogan": "Piel de leche, manchas pa' fuera.",
+        "descriptor": "Glutatión líquido para manchas",
+        "idea": "Testimonios de 'cómo me quité las manchas del embarazo' comparando el tono con una tarjeta de colores, al estilo 'milk skin' coreano.",
+        "publico": "Mujeres 25-45 de clase media con manchas, melasma o tono disparejo",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#FFF6E0",
+          "#FF9F1C",
+          "#D6336C"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Square clear PET 250 ml bottle showing a pale citrus-tinted liquid, bright orange screw cap (#FF9F1C) and a pink measuring spoon (#D6336C)",
+        "etiqueta_en": "Script 'Lechita' logo in raspberry #D6336C on milky cream #FFF6E0, a cute milk-splash drop and a citrus slice in orange #FF9F1C, a before/after tone strip, friendly popular mood",
+        "escena_en": "White tiled bathroom shelf with a small round mirror, a halved orange, cotton pads and a pink towel; bright fresh morning light"
+      }
+    ]
+  },
+  {
+    "registro": "F25",
+    "marcas": [
+      {
+        "nombre": "Borrón",
+        "eslogan": "Borrón y piel nueva.",
+        "descriptor": "Glutatión liposomal en cápsulas",
+        "idea": "Trend 'borrón y cuenta nueva': marcar la mancha con un sticker el día 1 y quitarlo el día 60.",
+        "publico": "Mujeres 20-32 con manchas de acné y de sol",
+        "inspiracion": "Kylie Skin de Kylie Jenner",
+        "paleta": [
+          "#FFFFFF",
+          "#FF3EA5",
+          "#111111"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Matte white HDPE bottle (#FFFFFF) with a hot pink flip cap (#FF3EA5) shaped like a school eraser, 60 capsules",
+        "etiqueta_en": "Chunky black 'BORRÓN' logo (#111111) with a pink eraser smudge swiping across it, doodles of erased dots, bold Gen Z sticker energy",
+        "escena_en": "Clean white desk with pink erasers, highlighters, a ring light and a tiny mirror; bright high-key flat light"
+      },
+      {
+        "nombre": "Lienzo",
+        "eslogan": "Tu piel, un lienzo uniforme.",
+        "descriptor": "Glutatión con resveratrol y selenio",
+        "idea": "Dermatóloga explica en 30 segundos por qué el glutatión liposomal se absorbe mejor, con estética de laboratorio de lujo.",
+        "publico": "Mujeres 35-55 con melasma que prefieren lo clínico y premium",
+        "inspiracion": "SKKN de Kim Kardashian",
+        "paleta": [
+          "#FBFAF7",
+          "#B9C4C9",
+          "#4A5A63"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Frosted white glass cylinder bottle (#FBFAF7) with a matte slate-grey aluminum lid (#4A5A63), 60 capsules, minimalist",
+        "etiqueta_en": "Serif 'Lienzo' in slate #4A5A63 framed by a fine silver canvas-frame outline with a soft linen texture, clinical ingredient chart in soft grey #B9C4C9, calm medical-luxury mood",
+        "escena_en": "Pale grey marble with a white orchid, a folded white cotton towel and a glass of water; soft cool overhead light"
+      },
+      {
+        "nombre": "Camello",
+        "eslogan": "Camella al sol, sin quedar manchado.",
+        "descriptor": "Glutatión para manchas de sol",
+        "idea": "Hombres que camellan al sol (moto, obra, campo) muestran cómo se les borran las manchas, con humor de parceros.",
+        "publico": "Hombres 25-45 con manchas de sol y piel dispareja",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#2F3E2E",
+          "#D4A373",
+          "#F1E9DA"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Squat matte olive-green HDPE bottle (#2F3E2E) with a tan screw cap (#D4A373), 60 capsules, rugged shape",
+        "etiqueta_en": "Condensed bold 'CAMELLO' in sand #F1E9DA with a minimal camel silhouette under a blazing sun, kraft paper texture, no-nonsense working-man mood",
+        "escena_en": "Weathered wood workbench with a motorcycle helmet, sunglasses, a cap and a canteen; hard late-afternoon sunlight with strong shadows"
+      }
+    ]
+  },
+  {
+    "registro": "F51",
+    "marcas": [
+      {
+        "nombre": "Boing",
+        "eslogan": "Piel que rebota, en un shot.",
+        "descriptor": "Colágeno líquido 5.000 mg",
+        "idea": "Prueba del pellizco: aprietas la mejilla y rebota, con efecto de sonido 'boing' en cada video.",
+        "publico": "Mujeres 20-32 que quieren piel firme sin tragar pastillas",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#FFE14D",
+          "#FF7AB6",
+          "#5B2EFF"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Rounded squat 500 ml PET bottle in sunshine yellow (#FFE14D) with a bouncy electric-purple sport cap (#5B2EFF), plus single 25 ml shot vials",
+        "etiqueta_en": "Retro bubbly 'boing!' logo in electric purple #5B2EFF with spring-coil lines and pink #FF7AB6 motion marks, cartoon pop energy",
+        "escena_en": "Bright pink seamless backdrop with bouncing rubber balls, a stretchy elastic surface and fresh berries; punchy flash light"
+      },
+      {
+        "nombre": "Cisne",
+        "eslogan": "Cuello firme, porte de cisne.",
+        "descriptor": "Colágeno hidrolizado líquido",
+        "idea": "Mujeres de 50 muestran su cuello, papada y escote firmes con su shot de colágeno de cada mañana.",
+        "publico": "Mujeres 40-60 que buscan firmeza en rostro, cuello y articulaciones",
+        "inspiracion": "Vital Proteins de Jennifer Aniston",
+        "paleta": [
+          "#F2E6DF",
+          "#B07A6E",
+          "#3B2A2A"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Tall slim frosted blush-glass 500 ml bottle (#F2E6DF) with a rose-gold screw cap (#B07A6E) that doubles as a measuring cup",
+        "etiqueta_en": "High-contrast serif 'Cisne' in deep cocoa #3B2A2A with a single-line drawing of a swan neck merging into a woman's profile, rose-gold foil, refined mature mood",
+        "escena_en": "Blush velvet armchair with a silk scarf, white peonies in a vase and a crystal glass; soft warm window light"
+      },
+      {
+        "nombre": "Bisagra",
+        "eslogan": "Rodillas aceitadas, cero chirridos.",
+        "descriptor": "Colágeno líquido para articulaciones",
+        "idea": "Abre con sonido de bisagra oxidada y termina con un señor de 55 jugando fútbol de barrio sin quejarse.",
+        "publico": "Hombres y mujeres 40-65 activos con dolor de rodillas",
+        "inspiracion": "TB12 de Tom Brady",
+        "paleta": [
+          "#1D3557",
+          "#E63946",
+          "#F1FAEE"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Sturdy navy HDPE 500 ml bottle (#1D3557) with an ergonomic grip, red flip cap (#E63946) and a printed measuring cup",
+        "etiqueta_en": "Heavy condensed 'BISAGRA' in off-white #F1FAEE on navy, a hinge icon forming the letter A, red accent stripe, durable sporty mood",
+        "escena_en": "Neighborhood football field bench with a towel, a knee brace, worn sneakers and a water bottle; bright outdoor daylight"
+      }
+    ]
+  },
+  {
+    "registro": "F71",
+    "marcas": [
+      {
+        "nombre": "Flaminga",
+        "eslogan": "El secreto rosado del flamenco.",
+        "descriptor": "Astaxantina 12 mg en perlas",
+        "idea": "Dato curioso: el flamenco es rosado por la astaxantina; perlas rojas brillando a contraluz y piel que brilla igual.",
+        "publico": "Mujeres Gen Z 18-30 que se cuidan del sol y aman lo estético",
+        "inspiracion": "Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#FF8FAB",
+          "#FFD6A5",
+          "#C9184A"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Glossy flamingo-pink PET bottle (#FF8FAB) with a rounded peach cap (#FFD6A5) and a clear window showing ruby-red softgels, 60 softgels",
+        "etiqueta_en": "Script 'Flaminga' in raspberry #C9184A with a minimal one-leg flamingo silhouette, sunset gradient, tropical retro vibe",
+        "escena_en": "Pool edge with pink terrazzo tiles, an inflatable flamingo, sunglasses and a halved pink grapefruit; bright tropical sunlight"
+      },
+      {
+        "nombre": "Rubra",
+        "eslogan": "La microalga roja de la juventud.",
+        "descriptor": "Astaxantina natural de microalga",
+        "idea": "Visual hipnótico de la microalga roja en laboratorio comparando su poder antioxidante con la vitamina C.",
+        "publico": "Mujeres y hombres 35-55 interesados en antiedad con respaldo científico",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#5C0F14",
+          "#E8D5C4",
+          "#B23A48"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Light-protective dark garnet glass bottle (#5C0F14) with a matte bone-colored cap (#E8D5C4), 60 deep-red softgels",
+        "etiqueta_en": "Thin serif 'RUBRA' in bone #E8D5C4 with a scientific illustration of a red microalgae cell in #B23A48, botanical-lab luxury mood",
+        "escena_en": "Dark stone slab with red algae in a glass petri dish, a pipette and dried hibiscus; moody side light with rich shadows"
+      },
+      {
+        "nombre": "Salmón",
+        "eslogan": "Recupérate como salmón contracorriente.",
+        "descriptor": "Astaxantina para recuperación muscular",
+        "idea": "Ciclistas y runners se recuperan entre entrenos mientras un salmón salta río arriba: la astaxantina es lo que lo vuelve rojo y fuerte.",
+        "publico": "Deportistas 25-45: ciclistas, corredores y gym",
+        "inspiracion": "Momentous de Andrew Huberman",
+        "paleta": [
+          "#0B2545",
+          "#FF6B35",
+          "#E0E0E0"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte deep-navy HDPE bottle (#0B2545) with an orange flip cap (#FF6B35), 60 orange-red softgels, sport-grade",
+        "etiqueta_en": "Bold condensed 'SALMÓN' in orange #FF6B35 with a leaping salmon forming an upward arrow, light grey #E0E0E0 performance bars, athletic mood",
+        "escena_en": "Wet river rocks with a cycling helmet, a sweaty towel and energy gels; crisp early-morning outdoor light with mist"
+      }
+    ]
+  },
+  {
+    "registro": "F70",
+    "marcas": [
+      {
+        "nombre": "Batería",
+        "eslogan": "Batería al cien, edad en pausa.",
+        "descriptor": "NAD+ y resveratrol liposomal",
+        "idea": "Celular al 5% vs. tú al 100% a las 3 p. m.: comparación diaria de energía con humor de oficina.",
+        "publico": "Millennials 25-38 cansados: oficina, emprendedores y estudiantes",
+        "inspiracion": "Prime de Logan Paul y KSI",
+        "paleta": [
+          "#111827",
+          "#C6FF00",
+          "#FFFFFF"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Matte black HDPE bottle (#111827) with a neon-lime cap (#C6FF00) shaped like a battery terminal, 60 softgels",
+        "etiqueta_en": "Bold 'BATERÍA' logo in neon lime #C6FF00 with a battery-level bar filling up to 100%, white tech typography, energetic urban mood",
+        "escena_en": "Dark desk with a laptop, a charging phone, earbuds and a cold brew; neon green rim light, late-night office vibe"
+      },
+      {
+        "nombre": "Siempreviva",
+        "eslogan": "La flor que nunca se marchita.",
+        "descriptor": "NAD+ y resveratrol antiedad",
+        "idea": "Mujeres de 45+ dicen su edad y nadie les cree; la siempreviva seca en un florero como símbolo de belleza que dura.",
+        "publico": "Mujeres 40-60 con poder adquisitivo interesadas en longevidad",
+        "inspiracion": "JLo Beauty de Jennifer Lopez",
+        "paleta": [
+          "#4B2142",
+          "#E9D8C4",
+          "#B48A5A"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Heavy deep-plum glass bottle (#4B2142) with a brushed antique-gold cap (#B48A5A), 60 softgels, luxury weight, embossed everlasting flower",
+        "etiqueta_en": "Serif 'Siempreviva' in cream #E9D8C4 with a delicate gold everlasting-flower emblem and a fine red-grape illustration for resveratrol, timeless luxury mood",
+        "escena_en": "Dark wood vanity with a vase of dried everlasting flowers, red grapes, a glass of water and a vintage hourglass; warm candle-like light"
+      },
+      {
+        "nombre": "Cronos",
+        "eslogan": "Tú mandas sobre el tiempo.",
+        "descriptor": "NAD+ y resveratrol biohacking",
+        "idea": "Biohacker de 45 muestra sus métricas de sueño, energía y edad biológica y su stack de la mañana.",
+        "publico": "Hombres 35-55 ejecutivos y biohackers",
+        "inspiracion": "Blueprint de Bryan Johnson",
+        "paleta": [
+          "#0A0A0A",
+          "#9CA3AF",
+          "#F97316"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Brushed aluminum cylinder bottle (#9CA3AF) with a matte black cap (#0A0A0A), 60 softgels, tech-minimal",
+        "etiqueta_en": "Wide geometric 'CRONOS' wordmark in black with a minimal clock dial whose hand turns backwards in ember orange #F97316, data-style dosage grid, precise biotech mood",
+        "escena_en": "Black glass desk with a smartwatch, a sleep-tracking ring and a notebook with charts; dark room with a warm orange sunrise glow"
+      }
+    ]
+  },
+  {
+    "registro": "F06",
+    "marcas": [
+      {
+        "nombre": "Gelatina",
+        "eslogan": "Piel que tiembla de firme.",
+        "descriptor": "Colágeno hidrolizado en polvo",
+        "idea": "Prueba de la gelatina: mueves el cachete y rebota como gelatina, más recetas de colágeno en café, avena o jugo.",
+        "publico": "Mujeres 20-32 fit y foodies",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FFB627",
+          "#FF6F59",
+          "#FFF3E2"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Stand-up matte doypack in mango orange (#FFB627) with a coral zipper (#FF6F59) and a clear window, includes a white scoop, 300 g",
+        "etiqueta_en": "Chunky rounded 'gelatina' logo in coral #FF6F59 with a wobbly jelly-cube icon and motion lines, fruit-slice illustrations, cream #FFF3E2 panels, playful jiggly mood",
+        "escena_en": "Bright kitchen counter with wobbly fruit jellies, halved passion fruit and mango, an iced coffee and a scoop of powder; sunny morning light"
+      },
+      {
+        "nombre": "Pradera",
+        "eslogan": "Colágeno de pastoreo, piel de verdad.",
+        "descriptor": "Péptidos de colágeno de pastoreo",
+        "idea": "Origen transparente: vacas en pradera, laboratorio limpio y la cucharada en el café de la mañana.",
+        "publico": "Mujeres y hombres 30-50 que buscan clean label y calidad",
+        "inspiracion": "Vital Proteins de Jennifer Aniston",
+        "paleta": [
+          "#E9E4D4",
+          "#6B8F71",
+          "#3D405B"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Matte cream ceramic-look canister (#E9E4D4) with a sage-green bamboo lid (#6B8F71) and a wooden scoop inside, 400 g",
+        "etiqueta_en": "Serif 'Pradera' in deep slate #3D405B with a fine-line engraving of rolling hills and a grazing cow, recycled-paper texture, natural premium mood",
+        "escena_en": "Rustic wooden table outdoors with wildflowers, a ceramic coffee mug and a linen napkin, blurred meadow behind; golden-hour sunlight"
+      },
+      {
+        "nombre": "Crack",
+        "eslogan": "El crack eres tú, no tu rodilla.",
+        "descriptor": "Colágeno para articulaciones y recuperación",
+        "idea": "Rodilla que cruje vs. golazo: futbolistas aficionados y crossfiteros con la cucharada en el batido post-entreno.",
+        "publico": "Hombres 20-45 que juegan fútbol, hacen crossfit o gym",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#0D1B2A",
+          "#FFD60A",
+          "#FFFFFF"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Big matte navy tub (#0D1B2A) 600 g with a yellow screw lid (#FFD60A) and an included scoop, gym-grade",
+        "etiqueta_en": "Heavy 'CRACK' logo in white #FFFFFF with a lightning-crack line in yellow #FFD60A through the letters, jersey-number styling, aggressive sporty mood",
+        "escena_en": "Synthetic football turf with a ball, shin guards, a shaker bottle and chalk dust; stadium floodlights at night"
+      }
+    ]
+  },
+  {
+    "registro": "F18",
+    "marcas": [
+      {
+        "nombre": "Flip",
+        "eslogan": "Pelo largo pa'l hair flip.",
+        "descriptor": "Biotina líquida para el cabello",
+        "idea": "Trend del 'hair flip' en cámara lenta cada mes, midiendo con cinta métrica cuánto creció.",
+        "publico": "Mujeres Gen Z 16-28 que quieren pelo largo",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#7B2CBF",
+          "#FFC6FF",
+          "#FFF8F0"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Slim 120 ml glossy violet glass bottle (#7B2CBF) with a pink measuring-dropper cap (#FFC6FF), berry-flavored liquid",
+        "etiqueta_en": "Flowing 'flip' wordmark in cream #FFF8F0 with a hair-strand swoosh flipping over the letters, pink gradient, ruler marks along the side, fun Gen Z mood",
+        "escena_en": "Lavender satin pillowcase with a claw clip, a wide-tooth comb, scrunchies and a measuring tape; dreamy soft light with lilac glow"
+      },
+      {
+        "nombre": "Semilla",
+        "eslogan": "Siembra hoy, melena mañana.",
+        "descriptor": "Biotina liposomal con calabaza",
+        "idea": "Microscopio de cuero cabelludo mostrando los baby hairs nuevos a las 8 semanas.",
+        "publico": "Mujeres 28-45 que buscan crecimiento natural y premium",
+        "inspiracion": "Kora Organics de Miranda Kerr",
+        "paleta": [
+          "#4F5D2F",
+          "#E8E0CE",
+          "#A47148"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Amber-brown glass 120 ml bottle (#A47148) with a matte olive cap (#4F5D2F) and glass measuring pipette, golden pumpkin-seed liquid",
+        "etiqueta_en": "Serif 'Semilla' in olive #4F5D2F with a botanical illustration of pumpkin and sesame seeds sprouting into hair-like stems, warm parchment #E8E0CE, earthy apothecary mood",
+        "escena_en": "Raw linen with a terracotta pot, pumpkin seeds and sesame in wooden bowls and a sprouting plant; soft natural window light"
+      },
+      {
+        "nombre": "Pelazo",
+        "eslogan": "Qué pelazo, parce.",
+        "descriptor": "Biotina líquida para hombres",
+        "idea": "Hombres se graban la coronilla y las entradas cada mes hasta que el parcero les suelta un '¡qué pelazo!'.",
+        "publico": "Hombres 22-40 con pelo ralo o entradas incipientes",
+        "inspiracion": "Humanrace de Pharrell Williams",
+        "paleta": [
+          "#1B1B1B",
+          "#C0A062",
+          "#EDEDED"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte black 120 ml glass bottle (#1B1B1B) with a brushed-gold measuring-dropper cap (#C0A062)",
+        "etiqueta_en": "Condensed 'PELAZO' in brushed gold #C0A062 with a dense hair-texture pattern, light grey #EDEDED details, urban streetwear mood",
+        "escena_en": "Modern dark bathroom with a mirror, a hoodie, an upside-down cap and a phone on a tripod; cool moody light"
+      }
+    ]
+  },
+  {
+    "registro": "F21",
+    "marcas": [
+      {
+        "nombre": "Lindura",
+        "eslogan": "Lindura de pelo, piel y uñas.",
+        "descriptor": "Gomitas de biotina y vitaminas",
+        "idea": "Gomitas de colores en la mano con el audio viral 'qué lindura' y el antes y después del pelo.",
+        "publico": "Chicas 16-28 que prefieren gomitas a pastillas",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#FF5D8F",
+          "#FFE3EC",
+          "#00B4A6"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Clear PET jar showing pink heart-shaped gummies (#FF5D8F) with a big glossy teal screw lid (#00B4A6), 60 gummies",
+        "etiqueta_en": "Bubbly 'lindura' logo in hot pink #FF5D8F with a teal heart, tiny sparkles and hand-drawn hair, nail and face icons on blush #FFE3EC, sweet candy mood",
+        "escena_en": "Candy-pink backdrop with scattered heart gummies, a hand mirror, a pink scrunchie and strawberry milk; bright soft studio light"
+      },
+      {
+        "nombre": "Pétalo",
+        "eslogan": "Belleza suave, de adentro hacia afuera.",
+        "descriptor": "Gomitas de belleza con biotina",
+        "idea": "Ritual lento con flores secas y gomitas en plato de cerámica, voz en off calmada.",
+        "publico": "Mujeres 25-40 que buscan lo natural, vegano y estético",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#E8B4BC",
+          "#F6F1EB",
+          "#7D8F69"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Frosted dusty-rose glass jar (#E8B4BC) with a natural cork-and-wood lid, petal-shaped vegan gummies, 60 gummies",
+        "etiqueta_en": "Soft lowercase 'pétalo' in sage #7D8F69 with a watercolor rose petal on textured cream paper #F6F1EB, gentle botanical mood",
+        "escena_en": "Linen tablecloth with dried rose petals, a ceramic dish of gummies and a teacup; soft hazy morning light"
+      },
+      {
+        "nombre": "Esmalte",
+        "eslogan": "Uñas que no se quiebran.",
+        "descriptor": "Gomitas para uñas y cabello",
+        "idea": "Manicuristas reales muestran uñas naturales que crecen sin partirse, con time-lapse de manicure.",
+        "publico": "Mujeres 20-45 que se hacen las uñas cada 15 días y manicuristas",
+        "inspiracion": "Fenty Beauty de Rihanna",
+        "paleta": [
+          "#D00000",
+          "#FFFFFF",
+          "#1A1A1A"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Glossy red jar (#D00000) shaped like an oversized nail-polish bottle with a tall black cap (#1A1A1A), red gummies inside, 60 gummies",
+        "etiqueta_en": "Bold serif 'Esmalte' in white #FFFFFF with a glossy brush-stroke swatch, black cap band, salon glam mood",
+        "escena_en": "Nail salon table with polish bottles, a nail file, a cuticle pusher and a hand with glossy natural nails; bright ring light"
+      }
+    ]
+  },
+  {
+    "registro": "N4",
+    "marcas": [
+      {
+        "nombre": "Moño",
+        "eslogan": "Moño gordo, almohada sin pelos.",
+        "descriptor": "Biotina con zinc y selenio",
+        "idea": "Contar los pelos del cepillo semana a semana y cerrar con un moño alto que antes no salía.",
+        "publico": "Chicas 18-30 con caída por estrés, dietas o tintes",
+        "inspiracion": "Rhode de Hailey Bieber",
+        "paleta": [
+          "#CDB4DB",
+          "#FFAFCC",
+          "#3D348B"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Chubby lilac PET bottle (#CDB4DB) with a pink cap (#FFAFCC) shaped like a hair bun, 60 amber softgels",
+        "etiqueta_en": "Rounded 'moño' logo in indigo #3D348B with the ñ tilde drawn as a scrunchie, cute hair-bun doodles, sweet Gen Z mood",
+        "escena_en": "Bedroom vanity with a silk scrunchie, a clean hairbrush, a satin pillow and a morning coffee; soft pastel daylight"
+      },
+      {
+        "nombre": "Arraigo",
+        "eslogan": "Tu pelo se queda donde está.",
+        "descriptor": "Biotina anticaída con minerales",
+        "idea": "Explicación tipo farmacia: biotina, zinc, selenio y cobre arraigan el folículo, con la prueba del jalón suave.",
+        "publico": "Mujeres y hombres 30-55 con caída por estrés",
+        "inspiracion": "Nutrafol (estilo farmacia premium, respaldado por Kourtney Kardashian)",
+        "paleta": [
+          "#0B3954",
+          "#F4F1EA",
+          "#E0A458"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Navy PET bottle (#0B3954) with a white child-safe cap (#F4F1EA), 60 golden softgels, pharmacy-clean",
+        "etiqueta_en": "Clean sans 'ARRAIGO' in white with a minimalist hair strand with deep roots, gold seal (#E0A458) '5.000 mcg biotina', trustworthy pharmacy mood",
+        "escena_en": "White bathroom counter with a navy towel, a wooden comb, a glass of water and a small succulent; clean bright daylight"
+      },
+      {
+        "nombre": "Retoño",
+        "eslogan": "Después del parto, tu pelo vuelve.",
+        "descriptor": "Biotina para caída posparto",
+        "idea": "Mamás muestran los 'pelitos bebé' que salen en las entradas a los dos meses, con el bebé en brazos.",
+        "publico": "Mamás 25-40 con caída de cabello después del parto",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#B5E48C",
+          "#FDF6EC",
+          "#52796F"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Soft-touch cream bottle (#FDF6EC) with a fresh green cap (#B5E48C), 60 softgels, gentle rounded shape",
+        "etiqueta_en": "Lowercase 'retoño' in deep green #52796F with a tiny sprout growing from the 'ñ', hand-drawn baby hairs, tender hopeful mood",
+        "escena_en": "Nursery armchair with a muslin blanket, a blurred baby bottle, a potted sprout and a hairbrush; soft warm morning light"
+      }
+    ]
+  },
+  {
+    "registro": "F53",
+    "marcas": [
+      {
+        "nombre": "Barrida",
+        "eslogan": "Le barre los barros.",
+        "descriptor": "Cápsulas para acné hormonal",
+        "idea": "Cuenta regresiva de barros: un sticker por grano el día 1 que se va barriendo semana a semana.",
+        "publico": "Chicas 16-26 con acné en mentón y mandíbula",
+        "inspiracion": "Rare Beauty de Selena Gomez",
+        "paleta": [
+          "#A0E426",
+          "#FFFFFF",
+          "#2B2D42"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Matte white HDPE bottle (#FFFFFF) with a lime flip cap (#A0E426), 60 capsules, compact and cheeky",
+        "etiqueta_en": "Retro 'barrida' logo in charcoal #2B2D42 with a broom-sweep swoosh clearing little dots, lime #A0E426 accents, cheeky Gen Z mood",
+        "escena_en": "Bathroom sink with pimple patches, a fluffy headband, a gentle cleanser and a tiny broom-and-dustpan prop; bright clean light"
+      },
+      {
+        "nombre": "Órbita",
+        "eslogan": "Tu piel en paz, todo el ciclo.",
+        "descriptor": "DIM, zinc y probióticos",
+        "idea": "Ginecóloga explica el eje hormonas-intestino-piel con el ciclo menstrual dibujado como fases de la luna.",
+        "publico": "Mujeres 22-38 con acné hormonal, SOP o brotes premenstruales",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#C8B6E2",
+          "#F8F4FF",
+          "#5E548E"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Frosted lavender glass bottle (#C8B6E2) with a white ceramic-look cap, debossed moon phases, 60 capsules",
+        "etiqueta_en": "Serif 'Órbita' in deep violet #5E548E with a thin orbital ring of moon phases representing the cycle, soft lilac gradient #F8F4FF, calm feminine wellness mood",
+        "escena_en": "Lilac silk sheet with a cup of chamomile, a moonstone and a cycle-tracking journal; soft dusk light"
+      },
+      {
+        "nombre": "Liso",
+        "eslogan": "Cara lisa, actitud lisa.",
+        "descriptor": "Cápsulas antiacné para hombres",
+        "idea": "Pelado gamer o futbolista muestra cómo se le limpió la cara sin cremas, con humor paisa.",
+        "publico": "Hombres 16-30 con acné",
+        "inspiracion": "Prime de Logan Paul y KSI",
+        "paleta": [
+          "#0077B6",
+          "#CAF0F8",
+          "#03045E"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte cobalt HDPE bottle (#0077B6) with a dark navy cap (#03045E), 60 capsules, sporty compact",
+        "etiqueta_en": "Condensed 'LISO' in ice blue #CAF0F8 with a smooth gradient swoosh and gamer-HUD details, cool confident mood",
+        "escena_en": "Gaming desk with a controller, a headset, a football jersey on the chair and a cold drink; blue RGB light"
+      }
+    ]
+  },
+  {
+    "registro": "F52",
+    "marcas": [
+      {
+        "nombre": "Escarcha",
+        "eslogan": "Pelo con escarcha, uñas de acero.",
+        "descriptor": "Biotina, MSM y colágeno",
+        "idea": "Hair flip bajo el sol mostrando el brillo, con unboxing del frasco holográfico.",
+        "publico": "Chicas 18-28 fans del glitter y el maquillaje",
+        "inspiracion": "Kylie Cosmetics de Kylie Jenner",
+        "paleta": [
+          "#FFD60A",
+          "#FF4D6D",
+          "#FFF8E7"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Holographic iridescent PET bottle with a glitter-gold cap (#FFD60A), 60 golden softgels",
+        "etiqueta_en": "Bubbly 'escarcha' logo in pink #FF4D6D sprinkled with glitter stars on a holographic foil background, cream #FFF8E7 info panel, glam party mood",
+        "escena_en": "Glitter-sprinkled vanity with a disco ball, gold hoops, a hairbrush and lip gloss; sparkly warm light with bokeh"
+      },
+      {
+        "nombre": "Velvet",
+        "eslogan": "Pelo de terciopelo, piel de seda.",
+        "descriptor": "Multivitamínico de belleza con colágeno",
+        "idea": "Mano acariciando el pelo en cámara lenta sobre sábanas de terciopelo, con ASMR del roce.",
+        "publico": "Mujeres 28-45 que buscan una fórmula completa y premium",
+        "inspiracion": "Victoria Beckham Beauty",
+        "paleta": [
+          "#E9D5CA",
+          "#7A2E3B",
+          "#FFFAF5"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Glossy champagne glass bottle (#E9D5CA) with a deep burgundy velvet-flocked cap (#7A2E3B), 60 softgels",
+        "etiqueta_en": "Thin elegant 'Velvet' in burgundy #7A2E3B with a flowing ribbon line on ivory #FFFAF5, soft-touch velvet texture, soft luxury mood",
+        "escena_en": "Burgundy velvet drape with a pearl hair clip and a silk eye mask; glowing warm side light"
+      },
+      {
+        "nombre": "Cuarentona",
+        "eslogan": "Cuarentona y más divina que nunca.",
+        "descriptor": "Multivitamínico para cabello, piel, uñas",
+        "idea": "Mujeres de 40-55 cuentan cómo les cambiaron el pelo y las uñas con la edad y que una sola perla lo cubre todo.",
+        "publico": "Mujeres 40-60 en premenopausia",
+        "inspiracion": "JLo Beauty de Jennifer Lopez",
+        "paleta": [
+          "#E07A5F",
+          "#F4F1DE",
+          "#3D5A80"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Sturdy terracotta PET bottle (#E07A5F) with a cream cap (#F4F1DE), 90 softgels",
+        "etiqueta_en": "Bold sans 'CUARENTONA' in deep blue #3D5A80 with a full-circle '40+' emblem and simple icons for hair, skin, nails and energy, confident mature mood",
+        "escena_en": "Sunny terrace with a yoga mat, a ceramic fruit bowl, reading glasses and a sun hat; warm afternoon light"
+      }
+    ]
+  },
+  {
+    "registro": "F19",
+    "marcas": [
+      {
+        "nombre": "Trenza",
+        "eslogan": "Trenza hasta la cintura.",
+        "descriptor": "Biotina 10.000 con queratina",
+        "idea": "Time-lapse de la trenza creciendo mes a mes con el reto de llegar a la cintura.",
+        "publico": "Mujeres 18-30 que sueñan con pelo largo",
+        "inspiracion": "Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#F28482",
+          "#F6BD60",
+          "#84A59D"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Tall coral PET bottle (#F28482) with a mustard cap (#F6BD60) and a braided-rope texture on the shoulder, 60 capsules",
+        "etiqueta_en": "'trenza' logo whose letters interlace like a braid, sage #84A59D accents, sunny boho Gen Z mood",
+        "escena_en": "Boho bedroom with a rattan mirror, hair ribbons, a long braid over a shoulder and dried pampas grass; golden sunset light"
+      },
+      {
+        "nombre": "Frondosa",
+        "eslogan": "Volumen que viene de la naturaleza.",
+        "descriptor": "Biotina con saw palmetto",
+        "idea": "Formuladora botánica explica el saw palmetto y la queratina entre plantas y cierra soltando una melena abundante.",
+        "publico": "Mujeres 30-50 con pelo fino que quieren volumen",
+        "inspiracion": "Kora Organics de Miranda Kerr",
+        "paleta": [
+          "#2D6A4F",
+          "#D8F3DC",
+          "#B7934F"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Deep forest-green glass bottle (#2D6A4F) with a gold metal lid (#B7934F), 60 capsules, botanical apothecary",
+        "etiqueta_en": "Serif 'Frondosa' in mint #D8F3DC with lush fern and palm-frond engraving, gold foil accents, rich botanical premium mood",
+        "escena_en": "Greenhouse table with ferns, saw palmetto berries in a bowl and a brass mirror; dappled sunlight through leaves"
+      },
+      {
+        "nombre": "Copete",
+        "eslogan": "Copete firme, entradas en retirada.",
+        "descriptor": "Biotina y saw palmetto masculino",
+        "idea": "Barbero muestra el copete de su cliente antes y después, con humor de 'el copete volvió'.",
+        "publico": "Hombres 25-45 con entradas y coronilla rala",
+        "inspiracion": "Performance Inspired de Mark Wahlberg",
+        "paleta": [
+          "#8B1E3F",
+          "#F2E8CF",
+          "#1C1C1C"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Matte black bottle (#1C1C1C) with a burgundy cap (#8B1E3F), 60 capsules, retro barbershop-pomade feel",
+        "etiqueta_en": "Retro 'COPETE' with a slicked-back quiff swoosh above the letters, cream #F2E8CF and burgundy barber-pole stripes, cocky vintage mood",
+        "escena_en": "Retro barber station with pomade tins, a chrome comb and a mirror reflecting a pompadour; warm moody light"
+      }
+    ]
+  }
+]

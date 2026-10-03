@@ -1,0 +1,842 @@
+[
+  {
+    "registro": "F75",
+    "marcas": [
+      {
+        "nombre": "Azulejo",
+        "eslogan": "Una gota azul y chao antojo",
+        "descriptor": "Gotas para quitar antojos",
+        "idea": "Las gotas pintan el agua de azul (espirulina azul) y la creadora rechaza el postre en cámara.",
+        "publico": "Mujeres Gen Z 18-28 que pican dulce todo el día",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#2FA8FF",
+          "#FFFFFF",
+          "#FF7EB6"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "30 ml clear glass dropper bottle with vivid blue liquid visible (#2FA8FF), white rubber bulb, glossy pink (#FF7EB6) collar",
+        "etiqueta_en": "Rounded bubbly lowercase 'azulejo' logo in white over sky blue (#2FA8FF), small winking azulejo bird mascot carrying a pink (#FF7EB6) water drop, subtle blue tile pattern border, sticker badges reading 'chao antojo', playful Gen Z mood",
+        "escena_en": "Pastel blue seamless backdrop, glossy white surface, glass of water turning blue as a drop falls, donut with one bite and a pink 'no' sticker, hard flash daylight, TikTok aesthetic"
+      },
+      {
+        "nombre": "Mantra",
+        "eslogan": "El antojo pasa, tú no",
+        "descriptor": "Gotas botánicas de saciedad",
+        "idea": "Ritual nocturno en ASMR: tres gotas bajo la lengua, repetir el mantra 'no lo necesito' y cerrar la nevera.",
+        "publico": "Mujeres 30-45 que comen por ansiedad y prefieren lo natural",
+        "inspiracion": "Arrae (bienestar botánico premium)",
+        "paleta": [
+          "#E8E1D5",
+          "#7A8C6E",
+          "#C9A27E"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "30 ml frosted sage-green (#7A8C6E) glass dropper bottle, matte bone-white (#E8E1D5) bulb, brushed bronze (#C9A27E) collar",
+        "etiqueta_en": "Thin elegant serif 'Mantra' wordmark in bronze (#C9A27E) on bone paper (#E8E1D5), fine-line botanical drawing of ashwagandha root and cinnamon quill framed by a small minimal mandala, generous white space, calm spa mood",
+        "escena_en": "Travertine stone surface with draped linen, Ceylon cinnamon sticks, dried ashwagandha root, handmade ceramic tea cup, soft morning window light with long shadows"
+      },
+      {
+        "nombre": "Pico Cerrado",
+        "eslogan": "Pico cerrado, nevera cerrada",
+        "descriptor": "Gotas contra antojos y ansiedad",
+        "idea": "Meme: la mano va por el pan, alguien grita '¡pico cerrado!', gotas bajo la lengua y cara de 'hoy no'.",
+        "publico": "Hombres y mujeres 30-50 que picotean de noche",
+        "inspiracion": "ZOA de Dwayne Johnson (tono directo y enérgico)",
+        "paleta": [
+          "#E10600",
+          "#111111",
+          "#F5F5F5"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "30 ml matte black (#111111) glass dropper bottle, red (#E10600) rubber bulb, octagonal stop-sign label panel",
+        "etiqueta_en": "Bold condensed 'PICO CERRADO' in white (#F5F5F5) with a zipped-mouth icon inside a red (#E10600) octagon like a stop sign, black background, yellow-black warning stripe accents, punchy road-sign mood",
+        "escena_en": "Dark asphalt-textured surface with a painted yellow road line, half-eaten burger pushed aside, red tail-light glow, high-contrast night lighting"
+      }
+    ]
+  },
+  {
+    "registro": "F79",
+    "marcas": [
+      {
+        "nombre": "Chupi",
+        "eslogan": "Chúpalo y chao hambre",
+        "descriptor": "Jalea saciante en stick",
+        "idea": "Reto: chupar el stick de jalea helado de la nevera y reaccionar al sabor y al 'ya no tengo hambre'.",
+        "publico": "Mujeres Gen Z 18-27 que quieren bajar sin dietas aburridas",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#FF5FA2",
+          "#FFD84D",
+          "#7CE0C3"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Open-top sunny yellow (#FFD84D) box holding 14 glossy hot pink (#FF5FA2) squeezable jelly sticks standing upright, mint (#7CE0C3) tear tips",
+        "etiqueta_en": "Chunky bubble 'chupi' logo in hot pink (#FF5FA2) with yellow outline, cartoon glossy lips, jelly drip graphics, candy-shop mood",
+        "escena_en": "Yellow backdrop, jelly sticks chilling in a bowl of ice, one squeezed stick with jelly peeking out, bright candy-store flash light"
+      },
+      {
+        "nombre": "Gelée",
+        "eslogan": "Llena por dentro, linda por fuera",
+        "descriptor": "Jalea de colágeno y fibra",
+        "idea": "Rutina 'that girl': jalea antes del almuerzo, piel con glow y plato pequeño.",
+        "publico": "Mujeres 28-45 que quieren bajar de peso y cuidar la piel",
+        "inspiracion": "Vital Proteins de Jennifer Aniston",
+        "paleta": [
+          "#F4E3D7",
+          "#C98B7A",
+          "#5E4B43"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Slim rectangular blush (#F4E3D7) box with gold-foil lid holding 14 matte rose-clay (#C98B7A) jelly stick sachets",
+        "etiqueta_en": "Refined serif 'Gelée' in cocoa (#5E4B43), small gold chia-seed constellation, debossed paper texture, soft French beauty mood",
+        "escena_en": "Blush plaster wall, white marble tray, chia pudding glass, peeled citrus, scattered rose petals, warm diffused sunlight"
+      },
+      {
+        "nombre": "Matahambre",
+        "eslogan": "Mata el hambre entre comidas",
+        "descriptor": "Jalea que quita el hambre",
+        "idea": "La mamá ocupada saca un sobre de la cartera en la oficina en vez de comprarse la empanada.",
+        "publico": "Mamás y oficinistas 30-50 sin tiempo para dietas",
+        "inspiracion": "Toty de Sofía Vergara (humor latino directo)",
+        "paleta": [
+          "#FF7A00",
+          "#2B2B2B",
+          "#FFF4E0"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Sturdy cream (#FFF4E0) box with 30 flat orange (#FF7A00) jelly sachets, black (#2B2B2B) tear notches, hanging-tab top",
+        "etiqueta_en": "Heavy black slab type 'MATAHAMBRE' with an orange fork crossed out, round stamp seal 'cero hambre', honest street-food mood",
+        "escena_en": "Office desk with laptop, open handbag spilling a few orange sachets, untouched empanada pushed aside, natural office light"
+      }
+    ]
+  },
+  {
+    "registro": "F34",
+    "marcas": [
+      {
+        "nombre": "Mute",
+        "eslogan": "Silencia el antojo",
+        "descriptor": "Bebida saciante con berberina",
+        "idea": "Explicar el 'GLP-1 natural' en 15 segundos: stick al agua, dedo en la boca y los antojos en silencio.",
+        "publico": "Mujeres 20-35 que siguen la tendencia Ozempic",
+        "inspiracion": "Lemme GLP-1 Daily de Kourtney Kardashian",
+        "paleta": [
+          "#9B5CFF",
+          "#C6FF3D",
+          "#F7F3FF"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Sleek slide-out box in electric violet (#9B5CFF) with 30 stick packs, neon lime (#C6FF3D) tear ends",
+        "etiqueta_en": "Futuristic wide lowercase 'mute' logo in neon lime (#C6FF3D) on violet, crossed-out speaker icon, thin data-line motif dropping down, techy wellness mood",
+        "escena_en": "Lilac (#F7F3FF) seamless backdrop, clear glass with fizzy violet drink, stick pouring powder mid-air, glossy acrylic blocks, crisp studio light"
+      },
+      {
+        "nombre": "Bioma",
+        "eslogan": "Tu intestino manda, tu cuerpo responde",
+        "descriptor": "Stick metabólico con akkermansia",
+        "idea": "ASMR de voz suave: abrir el stick, mezclar en agua tibia y explicar la akkermansia en 10 segundos.",
+        "publico": "Mujeres 35-55 que cuidan intestino y metabolismo",
+        "inspiracion": "goop de Gwyneth Paltrow",
+        "paleta": [
+          "#DCE3D2",
+          "#4F6B58",
+          "#E9D8B8"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Matte deep sage (#4F6B58) box with 30 paper-feel stick packs in pale sage (#DCE3D2), embossed sand (#E9D8B8) seal",
+        "etiqueta_en": "Soft serif 'Bioma' in sand (#E9D8B8) on deep sage, single-line drawing of a calm wave made of tiny round cells, apothecary mood",
+        "escena_en": "Stone bathroom counter, eucalyptus sprig, handmade ceramic cup, glass of water, soft overcast morning light"
+      },
+      {
+        "nombre": "Botón",
+        "eslogan": "Que el botón del pantalón respire",
+        "descriptor": "Stick para bajar barriga",
+        "idea": "Hombre muestra el botón del pantalón a punto de saltar y semana a semana cómo deja de apretar.",
+        "publico": "Hombres 35-55 con barriga y azúcar alta",
+        "inspiracion": "Performance Inspired de Mark Wahlberg",
+        "paleta": [
+          "#5A3A22",
+          "#D9A441",
+          "#1C1C1C"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Leather-texture brown (#5A3A22) box with 30 black (#1C1C1C) stick packs with brass-gold (#D9A441) tips, flap closure styled like a belt buckle",
+        "etiqueta_en": "Tall condensed 'BOTÓN' in brass gold (#D9A441), jeans button icon about to pop off a strained waistband, stitched-leather border, rugged masculine humor mood",
+        "escena_en": "Dark wood table, worn leather belt showing a new notch, glass of water, steel watch, warm tungsten side light"
+      }
+    ]
+  },
+  {
+    "registro": "F42",
+    "marcas": [
+      {
+        "nombre": "Insu",
+        "eslogan": "Chao picos de azúcar",
+        "descriptor": "Cápsulas de balance glucémico",
+        "idea": "Creadora con SOP muestra su glucómetro antes y después del postre.",
+        "publico": "Mujeres 22-35 con resistencia a la insulina o SOP",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FF4F79",
+          "#FFE6EC",
+          "#3A3A5C"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Frosted white bottle with blush pink (#FFE6EC) sleeve, coral (#FF4F79) flip cap, small window showing pink capsules",
+        "etiqueta_en": "Clean geometric lowercase 'insu' logo in coral (#FF4F79), flat glucose line ending in a heart, navy (#3A3A5C) small text, modern health-girl mood",
+        "escena_en": "Pink tiled kitchen counter, glucose sensor patch on an arm, slice of cake, phone showing a flat glucose graph, bright soft daylight"
+      },
+      {
+        "nombre": "Amarga",
+        "eslogan": "Lo amargo que te endulza",
+        "descriptor": "Botánicos para el azúcar",
+        "idea": "Probar melón amargo en cámara, hacer la cara y contar por qué es el secreto ancestral.",
+        "publico": "Adultos 35-55 que prefieren lo herbal y premium",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#2F4A2A",
+          "#B8C99A",
+          "#F1EDE4"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Amber glass apothecary bottle with capsules, deep green (#2F4A2A) metal cap, cream (#F1EDE4) paper label",
+        "etiqueta_en": "Engraved-style bitter melon illustration in olive (#B8C99A) and deep green (#2F4A2A), classic serif 'Amarga' wordmark, herbarium mood",
+        "escena_en": "Rustic wooden table, halved bitter melon, cinnamon bark, stone mortar and pestle, dappled greenhouse light"
+      },
+      {
+        "nombre": "Timón",
+        "eslogan": "Usted maneja su azúcar",
+        "descriptor": "Complejo para el azúcar",
+        "idea": "El hijo le regala Timón al papá y se miden el azúcar juntos en el desayuno.",
+        "publico": "Adultos 50+ prediabéticos o diabéticos y sus hijos",
+        "inspiracion": "Centrum Silver (confianza de farmacia)",
+        "paleta": [
+          "#0057B8",
+          "#FFFFFF",
+          "#00A88F"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "White HDPE bottle of 60 capsules with royal blue (#0057B8) cap, teal (#00A88F) band on label",
+        "etiqueta_en": "Friendly rounded 'Timón' logo in royal blue (#0057B8), teal (#00A88F) ship's wheel whose center is a glucose drop, clean pharmacy layout, trustworthy mood",
+        "escena_en": "Bright home dining table, arepa and coffee breakfast, glucometer, reading glasses, warm morning window light"
+      }
+    ]
+  },
+  {
+    "registro": "F13",
+    "marcas": [
+      {
+        "nombre": "Tallita",
+        "eslogan": "Una talla menos, sin bisturí",
+        "descriptor": "Berberina para bajar de peso",
+        "idea": "Prueba del jean: cada semana el jean que no subía cierra un poquito más.",
+        "publico": "Mujeres 20-35 que quieren bajar una talla",
+        "inspiracion": "Lemme Burn de Kourtney Kardashian",
+        "paleta": [
+          "#FFB800",
+          "#FF5C8A",
+          "#FFF8E7"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Glossy butter-yellow (#FFB800) bottle with hot pink (#FF5C8A) cap, golden capsules, measuring tape wrapped around the label",
+        "etiqueta_en": "Script 'Tallita' in hot pink with a measuring-tape swoosh, cream (#FFF8E7) background, jeans-tag badge reading 'berberina', flirty mood",
+        "escena_en": "Bedroom mirror selfie set, denim jeans on the bed, measuring tape, pink sheets, ring-light glow"
+      },
+      {
+        "nombre": "Ceilán",
+        "eslogan": "Especias de oro para tu metabolismo",
+        "descriptor": "Berberina con cúrcuma y canela",
+        "idea": "Close-up de las cápsulas doradas al sol con canela de Ceilán y receta de golden latte para la rutina.",
+        "publico": "Mujeres y hombres 35-55 de bienestar premium",
+        "inspiracion": "Arrae (bienestar botánico premium)",
+        "paleta": [
+          "#C27C0E",
+          "#2A1E14",
+          "#F3E6CF"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Heavy amber glass jar (#C27C0E) with matte black (#2A1E14) wood-grain lid, golden capsules inside",
+        "etiqueta_en": "High-contrast serif 'Ceilán' in black on cream (#F3E6CF), gold-foil cinnamon quill and turmeric root, faint vintage spice-route map lines, luxury apothecary mood",
+        "escena_en": "Warm sunset light through a window, travertine surface, fresh turmeric roots, Ceylon cinnamon quills, golden latte in a ceramic cup"
+      },
+      {
+        "nombre": "Tumbapanza",
+        "eslogan": "Pa' tumbar la panza",
+        "descriptor": "Berberina HCl alta potencia",
+        "idea": "Señor toca su panza como tambor, toma Tumbapanza y a los 60 días la panza 'se cae'.",
+        "publico": "Hombres 35-60 con barriga y azúcar alta",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#1E3A1E",
+          "#F2C230",
+          "#0F0F0F"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Wide matte black (#0F0F0F) bottle of 120 capsules with army green (#1E3A1E) cap and yellow (#F2C230) caution stripe",
+        "etiqueta_en": "Huge blocky 'TUMBAPANZA' in yellow, cartoon belly knocked over like a bowling pin, army green panel, bold barbershop humor mood",
+        "escena_en": "Barbershop counter, measuring tape, dumbbell, beer can turned away, hard contrast light"
+      }
+    ]
+  },
+  {
+    "registro": "F10",
+    "marcas": [
+      {
+        "nombre": "Mañanera",
+        "eslogan": "La que te quema temprano",
+        "descriptor": "Bebida quemadora en polvo",
+        "idea": "Picardía: '¿ya te tomaste la mañanera?' y mostrar la bebida en ayunas.",
+        "publico": "Mujeres y hombres 22-35 con humor de TikTok",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FF6B35",
+          "#FFD23F",
+          "#2EC4B6"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Round tub with scoop, 30 servings, sunrise gradient from orange (#FF6B35) to yellow (#FFD23F), turquoise (#2EC4B6) lid",
+        "etiqueta_en": "Retro sunrise logo 'mañanera', winking sun with 70s rays, cheeky morning mood",
+        "escena_en": "Sunny kitchen counter at 6 a.m., shaker with peach-colored drink, unmade bed blurred in the background, golden sunrise light"
+      },
+      {
+        "nombre": "Yerbal",
+        "eslogan": "El mate que afina tu figura",
+        "descriptor": "Mate quemador con berberina",
+        "idea": "Mañana lenta: calabazo de mate, polvo Yerbal, luz dorada y journaling.",
+        "publico": "Mujeres 28-45 de estilo de vida slow y natural",
+        "inspiracion": "Rhode de Hailey Bieber (estética limpia)",
+        "paleta": [
+          "#F6EFE6",
+          "#D8B4A0",
+          "#6B7F5E"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Matte cream (#F6EFE6) stand-up doypack with wooden scoop, soft terracotta (#D8B4A0) gusset, small kraft window",
+        "etiqueta_en": "Delicate serif 'Yerbal' with fine-line yerba mate branches in mate green (#6B7F5E), minimal layout, serene plantation mood",
+        "escena_en": "Early dawn window light, linen tablecloth, mate gourd with bombilla, ceramic mug of pale green drink, dried leaves"
+      },
+      {
+        "nombre": "Sauna",
+        "eslogan": "Suda como en el sauna",
+        "descriptor": "Quemador en polvo con carnitina",
+        "idea": "Mezcla Sauna en el shaker y el creador suda a chorros en el cardio, con vapor en pantalla.",
+        "publico": "Hombres y mujeres 20-40 que entrenan",
+        "inspiracion": "Ghost (marca gym de cultura viral)",
+        "paleta": [
+          "#D7263D",
+          "#1B1B1E",
+          "#F46036"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte black (#1B1B1E) tub with ember red (#D7263D) lid and scoop, flame orange (#F46036) gradient band",
+        "etiqueta_en": "Condensed bold 'SAUNA' with heat-wave lines and steam texture, charcoal background, ember red (#D7263D) accents, intense gym mood",
+        "escena_en": "Dark gym floor, shaker with red-orange drink, steam haze rising, chalk dust, dramatic rim light"
+      }
+    ]
+  },
+  {
+    "registro": "F41",
+    "marcas": [
+      {
+        "nombre": "Ketty",
+        "eslogan": "Keto sin sufrir",
+        "descriptor": "Quemador keto en cápsulas",
+        "idea": "Vlog de un día keto real: cápsula Ketty, café y 'qué como hoy'.",
+        "publico": "Mujeres 20-35 haciendo keto o ayuno",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#E63462",
+          "#FDE2E4",
+          "#2D2D2D"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Frosted raspberry-red (#E63462) bottle with blush (#FDE2E4) cap topped by a small raspberry charm, capsules inside",
+        "etiqueta_en": "Bubbly lowercase 'ketty' logo with a smiling raspberry mascot, blush background, charcoal (#2D2D2D) text, girly fun mood",
+        "escena_en": "Pink breakfast table, fresh raspberries, avocado toast, iced coffee, bright window light"
+      },
+      {
+        "nombre": "Irvinga",
+        "eslogan": "El secreto africano del mango",
+        "descriptor": "Mango africano y frambuesa",
+        "idea": "Contar el origen del mango africano de Gabón con frutas exóticas y la cápsula.",
+        "publico": "Mujeres 30-50 que buscan ingredientes exóticos premium",
+        "inspiracion": "goop de Gwyneth Paltrow",
+        "paleta": [
+          "#F2A541",
+          "#3D5A40",
+          "#F9F1E7"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Frosted glass bottle of capsules with mango-gold (#F2A541) cap and forest green (#3D5A40) label",
+        "etiqueta_en": "Elegant serif 'Irvinga' with an African textile-inspired geometric border in gold and green, cream (#F9F1E7) base, exotic luxe mood",
+        "escena_en": "Terracotta surface, sliced mangoes, raspberries in a carved wooden bowl, palm leaf shadows, warm tropical light"
+      },
+      {
+        "nombre": "Termita",
+        "eslogan": "Se come tu grasa",
+        "descriptor": "Termogénico con cafeína",
+        "idea": "Animación de termitas comiéndose una barriga de icopor y luego el creador sudando en el gym.",
+        "publico": "Hombres 20-40 de gimnasio que quieren definir",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#FF3B30",
+          "#0D0D0D",
+          "#B6FF00"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Matte black (#0D0D0D) bottle of 90 capsules with neon lime (#B6FF00) cap and red (#FF3B30) heat stripes",
+        "etiqueta_en": "Aggressive 'TERMITA' type with a cartoon termite chewing a fat droplet, neon lime accents, streetwear gym mood",
+        "escena_en": "Industrial gym bench, black rubber floor, heat haze, red neon light"
+      }
+    ]
+  },
+  {
+    "registro": "F12",
+    "marcas": [
+      {
+        "nombre": "Mordisco",
+        "eslogan": "Un mordisco y chao antojo",
+        "descriptor": "Gomitas de vinagre de manzana",
+        "idea": "ASMR del mordisco a la gomita en forma de manzana y reto de 30 días.",
+        "publico": "Mujeres Gen Z 18-28",
+        "inspiracion": "Goli Nutrition (gomitas de vinagre virales)",
+        "paleta": [
+          "#7ED957",
+          "#FF4D4D",
+          "#FFFBEA"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Clear PET jar with apple-green (#7ED957) screw cap, filled with sugar-coated green apple-shaped gummies",
+        "etiqueta_en": "Bouncy lowercase 'mordisco' logo with a bite mark taken out of the final o, red (#FF4D4D) apple icon, cream (#FFFBEA) base, sticker vibe",
+        "escena_en": "Picnic blanket on grass, green apples, open gummy jar, bright sunlight, Gen Z film-camera look"
+      },
+      {
+        "nombre": "Huerta",
+        "eslogan": "Del huerto a tu cintura",
+        "descriptor": "Gomitas de vinagre orgánico",
+        "idea": "Recorrido por un manzanar, cosecha y gomita, con voz pausada y estética campestre.",
+        "publico": "Mujeres 30-50 de estilo natural y orgánico",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#A3B18A",
+          "#8C2F39",
+          "#F2E8CF"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Amber glass jar with copper lid, cream (#F2E8CF) paper label, burgundy (#8C2F39) apple gummies inside",
+        "etiqueta_en": "Vintage orchard engraving, classic serif 'Huerta' wordmark, sage (#A3B18A) border, farmhouse premium mood",
+        "escena_en": "Wooden crate of red apples, linen cloth, ceramic bowl of gummies, soft orchard afternoon light"
+      },
+      {
+        "nombre": "Brindis",
+        "eslogan": "El brindis que sí adelgaza",
+        "descriptor": "Gomitas de sidra y B12",
+        "idea": "Diciembre: la familia brinda con gomitas Brindis en vez de sidra y se ríe.",
+        "publico": "Adultos 30-55 con humor familiar colombiano",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#C1121F",
+          "#FDF0D5",
+          "#D4AF37"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Deep red (#C1121F) round PET gummy jar with a gold (#D4AF37) screw lid, red apple gummies visible inside and a few in front",
+        "etiqueta_en": "Festive fat serif 'Brindis', two clinking apple-shaped glasses in gold foil, cream (#FDF0D5) banner, celebration mood",
+        "escena_en": "Christmas family table, string lights, glasses, apples, gold confetti, warm festive light"
+      }
+    ]
+  },
+  {
+    "registro": "F11",
+    "marcas": [
+      {
+        "nombre": "Tieso",
+        "eslogan": "Firme cuando toca",
+        "descriptor": "Óxido nítrico para hombres",
+        "idea": "Humor: 'aquí todo sigue tieso', con guiño y sin decir más.",
+        "publico": "Hombres 30-55 directos",
+        "inspiracion": "Hims (salud masculina sin tabú)",
+        "paleta": [
+          "#0B132B",
+          "#FFB703",
+          "#E63946"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Tall navy (#0B132B) bottle of capsules with amber (#FFB703) cap",
+        "etiqueta_en": "Upright condensed 'TIESO' in amber, vertical arrow, red (#E63946) accent, macho mood",
+        "escena_en": "Garage workbench, metal tools, a level standing upright, hard spotlight"
+      },
+      {
+        "nombre": "Novios",
+        "eslogan": "Como cuando eran novios",
+        "descriptor": "Circulación para la pareja",
+        "idea": "Trend de pareja: antes aburridos en el sofá, después bailando pegaditos como novios.",
+        "publico": "Parejas 30-50",
+        "inspiracion": "Dame (bienestar íntimo para parejas)",
+        "paleta": [
+          "#FF006E",
+          "#FB5607",
+          "#1A0B2E"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Deep plum (#1A0B2E) glass bottle of capsules with glossy magenta (#FF006E) cap",
+        "etiqueta_en": "Script 'Novios' with two intertwined flames in flame orange (#FB5607), magenta accent, sensual playful mood",
+        "escena_en": "Dim bedroom, lit candles, two wine glasses, silk sheets, warm low light"
+      },
+      {
+        "nombre": "Vena",
+        "eslogan": "Bombea sangre, bombea todo",
+        "descriptor": "Óxido nítrico con citrulina",
+        "idea": "Pump en el gym con las venas marcadas y el guiño 'también sirve afuera'.",
+        "publico": "Hombres 22-40 de gimnasio",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#8B0000",
+          "#C0C0C0",
+          "#111111"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Brushed silver (#C0C0C0) aluminum bottle of capsules with blood red (#8B0000) cap",
+        "etiqueta_en": "Bold 'VENA' with a vein line running through the letters, black (#111111) background, metallic mood",
+        "escena_en": "Gym, chalked forearm with visible veins gripping a barbell, red-tinted spotlight"
+      }
+    ]
+  },
+  {
+    "registro": "F35",
+    "marcas": [
+      {
+        "nombre": "Sístole",
+        "eslogan": "La presión en su punto",
+        "descriptor": "Remolacha para la presión",
+        "idea": "La abuela se mide la presión, ve la sistólica en su punto y celebra con su tableta Sístole.",
+        "publico": "Adultos 55+ con presión alta",
+        "inspiracion": "Centrum Silver",
+        "paleta": [
+          "#B5172E",
+          "#FFFFFF",
+          "#2E4057"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "White bottle of tablets with beet-red (#B5172E) cap",
+        "etiqueta_en": "Clean 'Sístole' wordmark with an ECG line that turns into a beet leaf, slate (#2E4057) text, clinical friendly mood",
+        "escena_en": "Living room table, blood pressure monitor, glass of water, reading glasses, daylight"
+      },
+      {
+        "nombre": "Carmín",
+        "eslogan": "Rojo natural para tu corazón",
+        "descriptor": "Remolacha orgánica en tabletas",
+        "idea": "Cortar una remolacha, pintar con su tinta carmín y poner la tableta al centro.",
+        "publico": "Mujeres 40-60 de gusto orgánico y premium",
+        "inspiracion": "goop de Gwyneth Paltrow",
+        "paleta": [
+          "#960018",
+          "#F5EBE0",
+          "#6D6875"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Frosted carmine-tinted (#960018) glass bottle of tablets with cream (#F5EBE0) lid",
+        "etiqueta_en": "Serif 'Carmín' in carmine on cream, watercolor beet stain, muted mauve (#6D6875) text, artful mood",
+        "escena_en": "Linen and stone, halved beets, natural red stains, soft north light"
+      },
+      {
+        "nombre": "Cucho",
+        "eslogan": "Pa' que el cucho dure",
+        "descriptor": "Remolacha en tabletas",
+        "idea": "El hijo le dice 'cucho, tómese esto' y graba la reacción del papá en la finca.",
+        "publico": "Hijos 25-45 que cuidan a sus papás de 55+",
+        "inspiracion": "Toty de Sofía Vergara (humor familiar latino)",
+        "paleta": [
+          "#7B2D26",
+          "#E9C46A",
+          "#264653"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Sturdy rust-red (#7B2D26) supplement bottle with a dark teal (#264653) screw cap and a woven ruana-pattern band, a few red tablets in front",
+        "etiqueta_en": "Warm retro badge 'Cucho' with sombrero vueltiao icon in mustard (#E9C46A), Colombian countryside mood",
+        "escena_en": "Finca porch, wooden table, cup of tinto, sombrero, morning mountain light"
+      }
+    ]
+  },
+  {
+    "registro": "F36",
+    "marcas": [
+      {
+        "nombre": "Chapetas",
+        "eslogan": "Chapetas de pura energía",
+        "descriptor": "Gomitas de remolacha",
+        "idea": "'Odio la remolacha': prueba Chapetas en cámara, cambia de opinión y sale con cachetes rosados.",
+        "publico": "Gen Z 18-28 sin energía",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#D6336C",
+          "#FFC2D1",
+          "#3D0814"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Clear jar of heart-shaped magenta (#D6336C) gummies with pink (#FFC2D1) cap",
+        "etiqueta_en": "Retro bubbly 'chapetas' logo with a beet mascot with rosy blushing cheeks, dark wine (#3D0814) text, fun mood",
+        "escena_en": "Pink dorm desk, beet with blush stickers on its cheeks, gummies spilled, flash photo"
+      },
+      {
+        "nombre": "Burdeos",
+        "eslogan": "Rojo vino, energía sin resaca",
+        "descriptor": "Gomitas de remolacha premium",
+        "idea": "Gomitas filmadas como joyas dentro de un joyero, rutina de mañana.",
+        "publico": "Mujeres 30-45 con piernas cansadas y poca energía",
+        "inspiracion": "Vital Proteins de Jennifer Aniston",
+        "paleta": [
+          "#9B111E",
+          "#F8E1E7",
+          "#C9A227"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Faceted gem-like glass jar with gold (#C9A227) lid, ruby (#9B111E) gem-cut gummies inside",
+        "etiqueta_en": "Serif 'Burdeos' in gold foil on blush (#F8E1E7), faceted gem icon, jewelry mood",
+        "escena_en": "Velvet jewelry box, satin fabric, gummies arranged like gems, soft glamour light"
+      },
+      {
+        "nombre": "Remo",
+        "eslogan": "Rema más, cánsate menos",
+        "descriptor": "Gomitas de energía de remolacha",
+        "idea": "Deportistas aficionados toman Remo antes de nadar, remar o correr y muestran el reloj.",
+        "publico": "Deportistas aficionados 25-45",
+        "inspiracion": "Ghost (marca deportiva viral)",
+        "paleta": [
+          "#00509D",
+          "#E63946",
+          "#F1FAEE"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Navy (#00509D) sport jar with flip-top cap and carabiner loop, red (#E63946) gummies inside",
+        "etiqueta_en": "Sporty 'REMO' with crossed oars forming an X, red accent on off-white (#F1FAEE), energetic mood",
+        "escena_en": "Lake dock at dawn, kayak paddle, sport watch, misty light"
+      }
+    ]
+  },
+  {
+    "registro": "F48",
+    "marcas": [
+      {
+        "nombre": "Sardi",
+        "eslogan": "Pescadito pa' la cabeza",
+        "descriptor": "Omega 3 para el cerebro",
+        "idea": "Estudiante en parciales con su 'pescadito' Sardi: cápsula, café y examen aprobado.",
+        "publico": "Estudiantes y jóvenes 18-30",
+        "inspiracion": "Lemme Focus de Kourtney Kardashian",
+        "paleta": [
+          "#00B4D8",
+          "#FFD60A",
+          "#0A0A0A"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Oval sardine-tin-inspired cyan (#00B4D8) bottle with yellow (#FFD60A) cap, golden softgels",
+        "etiqueta_en": "Cute cartoon sardine wearing headphones, 'sardi' in bold rounded type, yellow and cyan on black (#0A0A0A), energetic mood",
+        "escena_en": "Study desk, notes, laptop, highlighters, softgels, night lamp"
+      },
+      {
+        "nombre": "Austral",
+        "eslogan": "Puro mar del sur",
+        "descriptor": "Omega 3 de krill antártico",
+        "idea": "Imágenes de hielo antártico y la cápsula roja de krill brillando.",
+        "publico": "Adultos 35-60 premium",
+        "inspiracion": "Arrae (bienestar premium)",
+        "paleta": [
+          "#0B3954",
+          "#E0F2F1",
+          "#D7263D"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Dark navy (#0B3954) glass bottle with ice-white (#E0F2F1) cap, ruby-red (#D7263D) krill softgels",
+        "etiqueta_en": "Minimal serif 'Austral' with compass star, icy white, polar mood",
+        "escena_en": "Ice blocks, cold blue light, slate stone, softgels on ice"
+      },
+      {
+        "nombre": "Pez Gordo",
+        "eslogan": "Cabeza y corazón de jefe",
+        "descriptor": "Omega 3 alta potencia",
+        "idea": "El 'pez gordo' de la oficina revela su secreto en plena reunión.",
+        "publico": "Hombres 40-65 ejecutivos",
+        "inspiracion": "Performance Inspired de Mark Wahlberg",
+        "paleta": [
+          "#14213D",
+          "#FCA311",
+          "#E5E5E5"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Big navy (#14213D) bottle of softgels with gold (#FCA311) cap",
+        "etiqueta_en": "Bold 'PEZ GORDO' with a chubby fish wearing a tie, gold accent on light gray (#E5E5E5), confident humor",
+        "escena_en": "Executive desk, leather chair, briefcase, coffee, city skyline window"
+      }
+    ]
+  },
+  {
+    "registro": "F38",
+    "marcas": [
+      {
+        "nombre": "Riego",
+        "eslogan": "Que la sangre llegue a todo",
+        "descriptor": "Fórmula para la circulación",
+        "idea": "Señora con pies fríos y piernas pesadas cuenta su antes y después.",
+        "publico": "Adultos 45+ con mala circulación",
+        "inspiracion": "Centrum Silver",
+        "paleta": [
+          "#C62828",
+          "#E3F2FD",
+          "#1565C0"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "White bottle of softgels with red (#C62828) cap",
+        "etiqueta_en": "Friendly 'Riego' logo with a drop branching into veins like a tree, blue (#1565C0) and red on pale blue (#E3F2FD), caring mood",
+        "escena_en": "Bedroom with wool socks, warm water foot bath, soft light"
+      },
+      {
+        "nombre": "Cordial",
+        "eslogan": "La flor que cuida tu corazón",
+        "descriptor": "Botánicos para el corazón",
+        "idea": "Ilustración del espino floreciendo mientras se cuenta su historia.",
+        "publico": "Adultos 40-60 que prefieren lo herbal premium",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#F7F4EA",
+          "#6B2737",
+          "#8DA47E"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Amber glass bottle of softgels with wooden cap and cream (#F7F4EA) label",
+        "etiqueta_en": "Hawthorn engraving in wine (#6B2737) and sage (#8DA47E), serif 'Cordial' wordmark, herbarium mood",
+        "escena_en": "Hawthorn blossoms, red berries, linen, garden light"
+      },
+      {
+        "nombre": "Calentura",
+        "eslogan": "Pica, prende y circula",
+        "descriptor": "Cayena para la circulación",
+        "idea": "Reto picante: hombre muerde un ají y luego muestra la cápsula 'sin llorar'.",
+        "publico": "Hombres 35-60 que quieren circulación y vigor",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#E63946",
+          "#2A9D8F",
+          "#F1FAEE"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Glossy red (#E63946) PET supplement bottle with a green (#2A9D8F) screw cap, amber softgels in front",
+        "etiqueta_en": "Bold hand-lettered CALENTURA logo with a small chili pepper and flame icon, Colombian street-market mood",
+        "escena_en": "Plaza de mercado table, chili peppers, bowl of ají, bright light"
+      }
+    ]
+  },
+  {
+    "registro": "F37",
+    "marcas": [
+      {
+        "nombre": "Fucsia",
+        "eslogan": "El batido que te prende",
+        "descriptor": "Remolacha en polvo superalimento",
+        "idea": "Smoothie bowl fucsia brillante y mezcla hipnótica en cámara lenta.",
+        "publico": "Gen Z y millennials fitness y foodie",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FF0090",
+          "#FFF0F7",
+          "#00C2A8"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Neon fuchsia (#FF0090) stand-up doypack with scoop and teal (#00C2A8) zipper",
+        "etiqueta_en": "Wide modern lowercase 'fucsia' with a paint-splash graphic on pale pink (#FFF0F7), playful bold mood",
+        "escena_en": "Pastel kitchen, pink smoothie bowl with fruit, powder swirling into water, bright daylight"
+      },
+      {
+        "nombre": "Terciopelo",
+        "eslogan": "Tu red velvet natural",
+        "descriptor": "Remolacha pura en polvo",
+        "idea": "Latte de remolacha tipo red velvet preparado con calma, estilo café de especialidad.",
+        "publico": "Adultos 30-55 premium",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#6A0F2A",
+          "#EADBC8",
+          "#3E2723"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Matte garnet (#6A0F2A) tin canister with brass scoop and kraft cream (#EADBC8) label",
+        "etiqueta_en": "Serif 'Terciopelo' over a soft velvet-texture band, minimal beet line drawing, deep brown (#3E2723) text, specialty-café mood",
+        "escena_en": "Specialty café counter, ceramic cup of beet latte with latte art, whole beets, warm light"
+      },
+      {
+        "nombre": "Escarabajo",
+        "eslogan": "Pa' subir como escarabajo",
+        "descriptor": "Remolacha para rendimiento",
+        "idea": "Ciclista subiendo el Alto de Letras con Escarabajo en la caramañola.",
+        "publico": "Ciclistas y corredores 25-55",
+        "inspiracion": "Ladder de LeBron James y Arnold Schwarzenegger",
+        "paleta": [
+          "#FFD100",
+          "#003893",
+          "#CE1126"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Yellow (#FFD100) tub with blue (#003893) lid, red (#CE1126) band and scoop",
+        "etiqueta_en": "Bold 'ESCARABAJO' with a beetle on a bicycle wheel, Colombian tricolor stripes, mountain profile, epic sport mood",
+        "escena_en": "Andean mountain road, bike bidon, beets, misty morning light"
+      }
+    ]
+  },
+  {
+    "registro": "F65",
+    "marcas": [
+      {
+        "nombre": "Colita",
+        "eslogan": "Más colita, cero excusas",
+        "descriptor": "Cápsulas para glúteos",
+        "idea": "Trend del jean antes y después con giro de espaldas al espejo.",
+        "publico": "Mujeres Gen Z 18-28",
+        "inspiracion": "Skims de Kim Kardashian (estética de curvas)",
+        "paleta": [
+          "#FF69B4",
+          "#FFE5EC",
+          "#2B2D42"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Round pink (#FF69B4) bottle of capsules with peach-shaped cap",
+        "etiqueta_en": "Peach mascot with 'colita' in bubbly type, blush (#FFE5EC) base, charcoal (#2B2D42) text, cheeky mood",
+        "escena_en": "Pink gym mirror, leggings, booty band, bright light"
+      },
+      {
+        "nombre": "Amazona",
+        "eslogan": "Curvas que vienen de la selva",
+        "descriptor": "Aguaje y fenogreco amazónico",
+        "idea": "Mujer latina caminando en la selva mientras se cuenta la historia del aguaje.",
+        "publico": "Mujeres 25-45 premium y naturales",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#1B4332",
+          "#D4A373",
+          "#FEFAE0"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Deep jungle green (#1B4332) glass bottle of capsules with tan (#D4A373) wooden cap",
+        "etiqueta_en": "Fat serif 'Amazona' with aguaje palm and fruit illustration in tan, cream (#FEFAE0) base, wild elegant mood",
+        "escena_en": "Jungle leaves, aguaje fruits, wooden surface, dappled light"
+      },
+      {
+        "nombre": "Guitarra",
+        "eslogan": "Cuerpo de guitarra, por fin",
+        "descriptor": "Cápsulas para busto y cola",
+        "idea": "Creadora en vestido ajustado gira despacio y su silueta se dibuja como una guitarra.",
+        "publico": "Mujeres 25-40 sensuales y seguras",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#B5179E",
+          "#F72585",
+          "#111111"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Glossy black (#111111) guitar-body hourglass-shaped bottle of capsules with magenta (#F72585) cap",
+        "etiqueta_en": "Curvy serif 'Guitarra' in hot pink with a guitar-body silhouette that doubles as a woman's hourglass figure in purple (#B5179E), sexy confident mood",
+        "escena_en": "Black satin, red lips, mirror, sensual low light"
+      }
+    ]
+  }
+]

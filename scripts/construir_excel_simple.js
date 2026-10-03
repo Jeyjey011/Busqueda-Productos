@@ -82,7 +82,7 @@ function fila(ws, rN, cols, dato, n, wb, claveImg) {
   if (img !== undefined) ws.addImage(img, { tl: { col: Math.max(0, cols.findIndex((c) => /Imagen|Envases/.test(c.h))) + 0.06, row: rN - 1 + 0.05 }, ext: esEmp ? { width: 176, height: 99 } : { width: 80, height: 80 }, editAs: 'oneCell' });
 }
 const imprimir = (ws, filaTitulos) => { ws.pageSetup = { orientation: 'landscape', paperSize: 9, fitToPage: true, fitToWidth: 1, fitToHeight: 0, printTitlesRow: `${filaTitulos}:${filaTitulos}` }; };
-const marcas = (r) => r.marcas.map((b) => b.nombre).join('\n');
+const marcas = (r) => r.marcas.map((b) => (b.eslogan ? `${b.nombre}: ${b.eslogan}` : b.nombre)).join('\n');
 
 const wb = new ExcelJS.Workbook();
 wb.creator = 'Claude (proyecto INVIMA)';
@@ -102,7 +102,7 @@ wb.creator = 'Claude (proyecto INVIMA)';
     { h: 'Se vende hoy (productos reales)', w: 38, k: (m) => (m.marcaActual ? `Producto actual: ${m.marcaActual}${m.dropi ? ' (Dropi ' + m.dropi + ')' : ''}\n` : '') + regPorId[m.reg].refs.slice(0, 3).map((id) => prodPorId[id]).filter(Boolean).map((p) => `• ${p.n} (${paises(p.paises)}): ${fmt(p.u ?? p.w)} u.`).join('\n'), wrap: true },
     { h: 'Unidades vendidas', w: 13, k: (m) => regPorId[m.reg].us + regPorId[m.reg].mx, fmt: '#,##0' },
     { h: 'Periodo', w: 11, k: (m) => (regPorId[m.reg].periodo ? 'Últimos 28 días' : 'Septiembre 2026'), centro: true, wrap: true },
-    { h: 'Marcas', w: 20, k: (m) => marcas(regPorId[m.reg]), wrap: true, negrita: true },
+    { h: 'Marcas', w: 30, k: (m) => marcas(regPorId[m.reg]), wrap: true, negrita: true },
     { h: 'Registro', w: 9, k: (m) => m.reg, centro: true },
   ];
   encabezado(ws, 'Para mandar a hacer', 'Lista para el maquilador, en orden de prioridad: qué producto hacer, con qué ingredientes y dosis, cuánto vende hoy lo parecido en TikTok Shop y con qué marcas. Las imágenes de envases son ilustrativas.', cols.length);
@@ -130,7 +130,7 @@ wb.creator = 'Claude (proyecto INVIMA)';
     { h: 'Ventas EE. UU. (unidades)', w: 12, k: (r) => r.us, fmt: '#,##0' },
     { h: 'Ventas México (unidades)', w: 12, k: (r) => r.mx, fmt: '#,##0' },
     { h: 'Tendencia vs. agosto', w: 13, k: (r) => r.t, tend: true },
-    { h: 'Marcas propuestas', w: 20, k: (r) => marcas(r), wrap: true, negrita: true },
+    { h: 'Marcas propuestas', w: 30, k: (r) => marcas(r), wrap: true, negrita: true },
   ];
   encabezado(ws, `Registros INVIMA · ${D.registros.length}`, 'Cada fila es UN registro sanitario (una fórmula en una presentación) y sirve para 3 marcas. Dentro de cada categoría van primero los que más podrían venderse; al final los quemados y lo que ya manejan. Ventas de septiembre de 2026 (los registros nuevos, de los últimos 28 días).', cols.length);
   cabeceras(ws, 4, cols);
@@ -158,7 +158,7 @@ for (const c of D.categorias.filter((x) => x.np)) {
     { h: 'Tendencia', w: 13, k: (p) => p.t, tend: true },
     { h: 'Estado', w: 13, k: (p) => (regPorId[p.f]?.maneja ? 'Ya lo manejan' : p.t === 'quemado' ? 'Quemado' : ''), estado: true },
     { h: 'Registro', w: 26, k: (p) => (regPorId[p.f] ? `${p.f} · ${regPorId[p.f].n}` : ''), wrap: true },
-    { h: 'Marcas propuestas', w: 20, k: (p) => (regPorId[p.f] ? marcas(regPorId[p.f]) : ''), wrap: true, negrita: true },
+    { h: 'Marcas propuestas', w: 30, k: (p) => (regPorId[p.f] ? marcas(regPorId[p.f]) : ''), wrap: true, negrita: true },
     { h: 'Ver', w: 10, k: (p) => (p.url ? { text: 'FastMoss', hyperlink: p.url } : null), centro: true },
   ];
   const lista = D.productos.filter((p) => p.cat === c.cod);

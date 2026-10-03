@@ -1,0 +1,898 @@
+[
+  {
+    "registro": "F09",
+    "marcas": [
+      {
+        "nombre": "Linfi",
+        "eslogan": "Deshincha tu cara cada mañana",
+        "descriptor": "Gotas de drenaje linfático",
+        "idea": "Video antes/después de la cara hinchada al despertar vs. 30 minutos después de las gotas en el agua, con sonido trending.",
+        "publico": "Mujeres Gen Z de 18 a 27 años que amanecen hinchadas y viven el trend 'depuff'",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#B9E4F5",
+          "#FF8FC7",
+          "#FFFFFF"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "30 ml frosted baby-blue glass dropper bottle (#B9E4F5) with a glossy bubblegum-pink rubber bulb and pink collar (#FF8FC7), rounded chubby shoulders",
+        "etiqueta_en": "Bubbly rounded lowercase 'linfi' wordmark in white (#FFFFFF) with a pink outline, small water-droplet smiley icon, wavy liquid line graphics, playful and fresh mood",
+        "escena_en": "Bathroom vanity morning shot: white tiles, ice roller, pink claw clip, glass of water with ice cubes, bright soft daylight, sparkly clean vibe"
+      },
+      {
+        "nombre": "Ondina",
+        "eslogan": "Deja que el agua se vaya",
+        "descriptor": "Elixir linfático de plantas",
+        "idea": "Ritual ASMR de spa: gotero cayendo en agua tibia, piernas ligeras, voz suave explicando las 17 plantas.",
+        "publico": "Mujeres de 28 a 45 años, wellness y spa, que buscan desinflamar de forma natural",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#D8E3DC",
+          "#3E5C55",
+          "#C9A96E"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "50 ml amber-free clear apothecary glass dropper bottle tinted sea-mist green (#D8E3DC), brushed gold collar (#C9A96E) and deep green rubber bulb (#3E5C55)",
+        "etiqueta_en": "Elegant serif 'ONDINA' wordmark in deep green (#3E5C55) on a sea-mist paper label, fine gold line illustration of a water nymph wave and botanical sprigs, calm luxurious spa mood",
+        "escena_en": "Travertine stone surface beside a shallow water basin with ripples, eucalyptus sprigs and dried cleavers, soft diffused natural light with gentle shadows"
+      },
+      {
+        "nombre": "Sculpta",
+        "eslogan": "Esculpe tu postoperatorio",
+        "descriptor": "Gotas linfáticas post-cirugía",
+        "idea": "Testimonios de mujeres post-lipo y postparto mostrando su faja y su rutina de drenaje con las gotas.",
+        "publico": "Mujeres de 25 a 45 años en recuperación de lipo, abdominoplastia o postparto",
+        "inspiracion": "SKIMS de Kim Kardashian",
+        "paleta": [
+          "#E8D5C4",
+          "#1C1C1C",
+          "#A47864"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "30 ml matte nude ceramic-look glass dropper bottle (#E8D5C4) with matte black cap and bulb (#1C1C1C), minimalist cylindrical shape",
+        "etiqueta_en": "Wide-tracked uppercase sans 'SCULPTA' in black (#1C1C1C), thin mocha (#A47864) body-contour line drawing, clinical-yet-sensual minimal mood",
+        "escena_en": "Nude-tone seamless backdrop with a folded compression garment, smooth beige satin, sculptural plaster shapes, soft directional studio light"
+      }
+    ]
+  },
+  {
+    "registro": "F03",
+    "marcas": [
+      {
+        "nombre": "Tummy",
+        "eslogan": "Panza plana, cero pedos",
+        "descriptor": "Probióticos y enzimas digestivas",
+        "idea": "Trend 'mi barriga a las 8 am vs. 8 pm' y la cápsula que la deja plana después de comer.",
+        "publico": "Mujeres Gen Z de 18 a 28 años que se inflan después de cada comida",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FFD84D",
+          "#7B5CFF",
+          "#FFF6E0"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Squat glossy butter-yellow PET jar (#FFD84D) with a lavender-purple screw cap (#7B5CFF), white capsules visible through a small window, 60 capsules",
+        "etiqueta_en": "Chunky rounded 'tummy' wordmark in purple (#7B5CFF), cartoon happy belly with a flat line drawn across it, cream (#FFF6E0) sticker badges '60B UFC' and '16 enzimas', playful pop mood",
+        "escena_en": "Pastel kitchen counter with a half-eaten pizza slice and a flat-belly crop top, colorful confetti sprinkles, bright flash lighting, fun Gen Z energy"
+      },
+      {
+        "nombre": "Simbio",
+        "eslogan": "Tu flora, en perfecta armonía",
+        "descriptor": "Simbiótico digestivo multicepa",
+        "idea": "Explicación con animación de la microbiota y ritual de 15 días con kit herbal en estética minimalista.",
+        "publico": "Mujeres y hombres de 30 a 50 años, consumidores premium de bienestar intestinal",
+        "inspiracion": "Ritual (Synbiotic+) / Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#F2EDE4",
+          "#5B7B6F",
+          "#D98C6A"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Opaque white-cream glass bottle (#F2EDE4) with sage green aluminum cap (#5B7B6F), capsules inside, packaged with a 15-day kraft herbal pouch in a terracotta (#D98C6A) sleeve",
+        "etiqueta_en": "Refined serif 'Simbio' wordmark in sage green, delicate line illustration of interlocking circles representing symbiosis, terracotta accents, calm scientific-natural mood",
+        "escena_en": "Linen tablecloth with fresh ginger root, mint leaves and a ceramic cup of tea, warm morning window light, organic premium feel"
+      },
+      {
+        "nombre": "Tripa",
+        "eslogan": "Come duro, sin inflarte",
+        "descriptor": "Enzimas y probióticos para gases",
+        "idea": "Man en el gimnasio que come proteína y arroz a montones y no se infla: humor de 'tripa de acero'.",
+        "publico": "Hombres de 22 a 40 años, gym y comelones, que sufren gases con la proteína",
+        "inspiracion": "ZOA Energy de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#111111",
+          "#FF5A1F",
+          "#E6E6E6"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Matte black HDPE bottle (#111111) with a bright orange flip cap (#FF5A1F), sturdy square shoulders, capsules inside",
+        "etiqueta_en": "Heavy bold 'TRIPA' in orange with a light gray (#E6E6E6) outline, steel-plate texture behind, icons of a protein shaker and flame, aggressive confident mood",
+        "escena_en": "Gym bench with a protein shaker, rice-and-chicken meal prep container, chalk dust, dramatic hard side lighting on dark concrete"
+      }
+    ]
+  },
+  {
+    "registro": "F40",
+    "marcas": [
+      {
+        "nombre": "Popi",
+        "eslogan": "Tu popó diario, sin drama",
+        "descriptor": "Gomitas de fibra prebiótica",
+        "idea": "Videos graciosos del 'check diario' en el baño: si tomaste Popi, vas a las 7 am puntual.",
+        "publico": "Mujeres Gen Z de 18 a 28 años con estreñimiento que hablan sin pena de ir al baño",
+        "inspiracion": "Goli (gomitas virales) / Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#FF7A59",
+          "#FFE3D3",
+          "#6B3E26"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Round clear PET jar filled with peach-colored gummies, coral-orange screw cap (#FF7A59), chubby friendly shape",
+        "etiqueta_en": "Script 'Popi' logo in chocolate brown (#6B3E26) on peach (#FFE3D3), cute kawaii toilet-roll character, '5 g fibra, 0 azúcar' badge, cheeky funny mood",
+        "escena_en": "Pastel peach bathroom with a fluffy toilet-roll, bath mat and a smiling face drawn on a mirror, bright playful flash lighting"
+      },
+      {
+        "nombre": "Puntual",
+        "eslogan": "Tu intestino, siempre puntual",
+        "descriptor": "Fibra prebiótica en gomitas",
+        "idea": "Rutina de mañana estética: café, gomita y 'mi intestino ya no se salta ni un día'.",
+        "publico": "Mujeres de 28 a 45 años que buscan regularidad de forma natural y elegante",
+        "inspiracion": "Arrae / Kora Organics de Miranda Kerr",
+        "paleta": [
+          "#EFE6D8",
+          "#8C6A4F",
+          "#A3B18A"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Amber glass jar with a wooden bamboo lid, sugar-free natural sand-colored gummies inside, wrapped with an oat-beige (#EFE6D8) label",
+        "etiqueta_en": "Classic serif 'Puntual' wordmark in walnut brown (#8C6A4F), minimal clock-hand line drawing in olive (#A3B18A), botanical chicory flower, serene editorial mood",
+        "escena_en": "Morning breakfast scene on a light oak table: ceramic coffee cup, chicory flowers, open notebook, soft golden sunrise light"
+      },
+      {
+        "nombre": "Trono",
+        "eslogan": "Tu cita diaria con el trono",
+        "descriptor": "Gomitas de fibra, cero azúcar",
+        "idea": "Humor masculino: el rey sentado en su trono con el celular, 'todos los días a la misma hora'.",
+        "publico": "Hombres de 25 a 55 años que se tapan y quieren algo fácil y sin azúcar",
+        "inspiracion": "Prime de Logan Paul y KSI",
+        "paleta": [
+          "#1E2A5A",
+          "#F2C230",
+          "#FFFFFF"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Royal navy blue PET jar (#1E2A5A) with a gold metallic cap (#F2C230) embossed with a crown, gummies inside",
+        "etiqueta_en": "Tall condensed 'TRONO' in gold with a crown over the O, white (#FFFFFF) small text, regal shield emblem, humorous majestic mood",
+        "escena_en": "Bathroom staged like a throne room: a golden toilet-chair, red velvet curtain, newspaper, dramatic warm spotlight"
+      }
+    ]
+  },
+  {
+    "registro": "F72",
+    "marcas": [
+      {
+        "nombre": "Rica",
+        "eslogan": "Huele rico, de adentro hacia afuera",
+        "descriptor": "Clorofila en cápsulas",
+        "idea": "Trend 'me dicen que huelo rico todo el día' tras 2 semanas de clorofila, sin desodorante extra.",
+        "publico": "Mujeres Gen Z de 18 a 30 años preocupadas por el sudor y el olor corporal",
+        "inspiracion": "Rhode de Hailey Bieber",
+        "paleta": [
+          "#9BE564",
+          "#FFFFFF",
+          "#FF6FAE"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Clear glossy PET bottle showing dark green capsules, lime-green cap (#9BE564), slim modern cylinder",
+        "etiqueta_en": "Bold retro 'RICA' wordmark in hot pink (#FF6FAE) over white, lime green leaf-shaped sparkle icons, cheeky flirty mood",
+        "escena_en": "Bright white bedroom vanity with a pink perfume bottle, fresh mint leaves, a crop top on a hanger, high-key sunny lighting"
+      },
+      {
+        "nombre": "Clora",
+        "eslogan": "Pureza verde que se nota",
+        "descriptor": "Clorofila desodorante interna",
+        "idea": "Video ASMR abriendo la cápsula verde sobre agua y explicando el desodorante interno natural.",
+        "publico": "Mujeres y hombres de 30 a 50 años, cuidado personal natural y premium",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#1F4D3A",
+          "#E9F0E6",
+          "#B8A47A"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Deep forest-green violet-style glass bottle (#1F4D3A) with matte champagne-gold cap (#B8A47A), capsules inside",
+        "etiqueta_en": "Thin elegant serif 'Clora' in pale mint (#E9F0E6), embossed single leaf vein pattern, champagne gold rule lines, quiet luxury mood",
+        "escena_en": "Dark green marble slab with monstera leaves, a glass of chlorophyll water and soft moody window light"
+      },
+      {
+        "nombre": "Fresco",
+        "eslogan": "Suda tranquilo, mantente fresco",
+        "descriptor": "Clorofila contra el olor",
+        "idea": "Hombre después del gym o del bus en Bogotá oliendo su camiseta: 'fresco, parce'.",
+        "publico": "Hombres de 20 a 45 años que sudan mucho, deportistas y trabajadores de calle",
+        "inspiracion": "Teremana / ZOA de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#0B3D2E",
+          "#00E0A4",
+          "#F4F4F4"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Matte dark-green HDPE bottle (#0B3D2E) with neon mint flip cap (#00E0A4), athletic grip ridges, capsules inside",
+        "etiqueta_en": "Condensed bold 'FRESCO' in neon mint with a white (#F4F4F4) ice-crack effect, sweat-drop icon crossed out, sporty energetic mood",
+        "escena_en": "Locker room bench with a white towel, sneakers, ice cubes splashed with water, cool blue-green rim lighting"
+      }
+    ]
+  },
+  {
+    "registro": "F32",
+    "marcas": [
+      {
+        "nombre": "Plof",
+        "eslogan": "Échalo al agua y plof",
+        "descriptor": "Stick de drenaje linfático",
+        "idea": "POV: amaneces como globo, echas el stick a tu termo y en la tarde suena el 'plof' del deshinche.",
+        "publico": "Mujeres Gen Z de 18 a 28 años que se inflan por comida, sal o el periodo",
+        "inspiracion": "Lemme Debloat de Kourtney Kardashian",
+        "paleta": [
+          "#FF4FA3",
+          "#FFE14D",
+          "#7FDBFF"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Bright pink carton box (#FF4FA3) holding 30 individual foil stick packs in yellow (#FFE14D) and sky-blue (#7FDBFF) stripes",
+        "etiqueta_en": "Puffy balloon-letter 'plof!' logo in yellow (#FFE14D) with a popping balloon burst icon, pop-art dots and comic sound-effect bubble, loud fun mood",
+        "escena_en": "Colorful pop set with deflated balloons, a clear water bottle with ice, pineapple slices, saturated pink backdrop and hard flash"
+      },
+      {
+        "nombre": "Marea",
+        "eslogan": "Suelta lo que retienes",
+        "descriptor": "Infusión linfática en stick",
+        "idea": "Ritual de la mañana frente al mar: stick dorado en agua, respiración y piernas livianas.",
+        "publico": "Mujeres de 28 a 50 años, wellness premium, con retención de líquidos",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#2F6F7E",
+          "#F3E9DC",
+          "#E0B15A"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Slim teal box (#2F6F7E) with 15 matte sand-colored (#F3E9DC) stick packs printed with a gold (#E0B15A) wave line",
+        "etiqueta_en": "Modern artistic 'MAREA' wordmark in sand on teal, flowing tide line illustration in gold, botanical turmeric and ginger icons, calm oceanic mood",
+        "escena_en": "Beach terrace at golden hour: sand-colored linen, sea glass, fresh ginger and turmeric, glass of golden water, soft sunlight"
+      },
+      {
+        "nombre": "Lunes",
+        "eslogan": "Deshincha el finde en un día",
+        "descriptor": "Stick antiinflamatorio para retención",
+        "idea": "Serie semanal 'Lunes de deshinche' después del asado, la rumba y las empanadas del finde.",
+        "publico": "Hombres y mujeres de 25 a 40 años, trabajadores que se pasan el fin de semana",
+        "inspiracion": "Feastables de MrBeast",
+        "paleta": [
+          "#2B2BFF",
+          "#FFFFFF",
+          "#FF3B30"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Cobalt-blue (#2B2BFF) box shaped like a desk calendar with 7 white (#FFFFFF) stick packs, red (#FF3B30) tear strip",
+        "etiqueta_en": "Heavy bold 'LUNES' as a calendar date page, red circle marking Monday, graphic office-style typography, witty practical mood",
+        "escena_en": "Office desk on a Monday morning: laptop, coffee mug, sticky notes, a water bottle with the stick, crisp cool daylight"
+      }
+    ]
+  },
+  {
+    "registro": "F27",
+    "marcas": [
+      {
+        "nombre": "Chao Bichos",
+        "eslogan": "Limpieza intestinal que sí se siente",
+        "descriptor": "Orégano y semilla negra",
+        "idea": "Montarse al trend del 'parasite cleanse' de TikTok con humor y reacciones de 30 días.",
+        "publico": "Mujeres y hombres Gen Z de 18 a 30 años curiosos por la limpieza de parásitos",
+        "inspiracion": "Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#7ED957",
+          "#2D1B4E",
+          "#FFFFFF"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Glossy deep purple PET bottle (#2D1B4E) with acid-green cap (#7ED957), transparent amber softgels visible in a side window",
+        "etiqueta_en": "Retro bold 'CHAO BICHOS' with cartoon little bugs waving goodbye, white (#FFFFFF) text, acid-green sparkles, irreverent funny mood",
+        "escena_en": "Neon-lit purple backdrop with fresh oregano sprigs, a magnifying glass and toy bugs, bold colored lighting"
+      },
+      {
+        "nombre": "Baraka",
+        "eslogan": "La semilla bendita de los ancestros",
+        "descriptor": "Aceite de orégano y nigella",
+        "idea": "Historia de la semilla negra 'remedio para todo excepto la muerte' contada con estética ancestral.",
+        "publico": "Mujeres y hombres de 30 a 55 años amantes de la medicina natural y ancestral",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#1A1A1A",
+          "#C99A3B",
+          "#F1E6D2"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Black glass apothecary bottle (#1A1A1A) with antique brass cap (#C99A3B), golden softgels inside, parchment-cream (#F1E6D2) box",
+        "etiqueta_en": "High-contrast serif 'Baraka' in brass gold, intricate black-seed and oregano engraving, Middle-Eastern geometric border, mystical heritage mood",
+        "escena_en": "Dark wooden table with a brass mortar of nigella seeds, dried oregano bundles, old book, warm candlelight"
+      },
+      {
+        "nombre": "Fortín",
+        "eslogan": "Defensas blindadas para toda la casa",
+        "descriptor": "Softgel de defensas naturales",
+        "idea": "Mamá y papá que no se enferman en temporada de gripa: 'en esta casa tenemos fortín'.",
+        "publico": "Padres de familia de 30 a 55 años que buscan defensas fuertes y naturales",
+        "inspiracion": "ZOA de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#8B1E1E",
+          "#E9C46A",
+          "#2B2B2B"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Sturdy amber-red HDPE bottle (#8B1E1E) with charcoal cap (#2B2B2B), shield-shaped embossing, softgels inside",
+        "etiqueta_en": "Condensed bold 'FORTÍN' in warm gold (#E9C46A) inside a shield emblem, armor-plate texture, strong protective mood",
+        "escena_en": "Rustic kitchen with rainy window, fresh oregano plant, honey and lemon, warm family-home lighting"
+      }
+    ]
+  },
+  {
+    "registro": "F76",
+    "marcas": [
+      {
+        "nombre": "Dame Papaya",
+        "eslogan": "Aquí sí puedes dar papaya",
+        "descriptor": "Hoja de papaya en polvo",
+        "idea": "Juego con el dicho colombiano 'no dar papaya': aquí la papaya limpia tu colon.",
+        "publico": "Mujeres Gen Z y millennials de 20 a 32 años con colon perezoso",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#FF8A3D",
+          "#2FBF71",
+          "#FFF1E0"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Stand-up glossy orange doypack (#FF8A3D) with green zip (#2FBF71), papaya-shaped window, measuring scoop included",
+        "etiqueta_en": "Chunky 'Dame Papaya' logo in cream (#FFF1E0) with a winking papaya slice mascot, tropical leaf patterns, cheeky Colombian mood",
+        "escena_en": "Tropical fruit stand: halved papayas, banana leaves, colorful market cloth, bright Caribbean sunlight"
+      },
+      {
+        "nombre": "Carica",
+        "eslogan": "La hoja verde que limpia",
+        "descriptor": "Polvo de hoja de papaya",
+        "idea": "Video lento preparando un shot verde en vaso de vidrio con estética de botica natural.",
+        "publico": "Mujeres de 30 a 50 años, botánica premium y rituales de limpieza",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#4F6F52",
+          "#ECE3CE",
+          "#739072"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Matte sage-green glass jar (#4F6F52) with bamboo lid and wooden spoon, fine green powder inside",
+        "etiqueta_en": "Elegant serif 'Carica' in ivory (#ECE3CE), detailed botanical engraving of a papaya leaf, latin name subtitle, artisanal apothecary mood",
+        "escena_en": "Raw linen and stone surface with fresh papaya leaves, glass of green drink, mortar and pestle, soft natural side light"
+      },
+      {
+        "nombre": "Escoba",
+        "eslogan": "Barre el colon de una",
+        "descriptor": "Limpieza de colon natural",
+        "idea": "Animación de una escoba verde barriendo el intestino: directo, gracioso y fácil de entender.",
+        "publico": "Hombres y mujeres de 35 a 60 años que buscan una limpieza sencilla y efectiva",
+        "inspiracion": "Feastables de MrBeast",
+        "paleta": [
+          "#2E7D32",
+          "#FDD835",
+          "#FFFFFF"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Large green kraft tub (#2E7D32) with yellow screw lid (#FDD835) and scoop, practical family size",
+        "etiqueta_en": "Bold blocky 'ESCOBA' with a broom-bristle stroke under it in yellow, white (#FFFFFF) badges '5 g por porción', straightforward fun mood",
+        "escena_en": "Clean bright kitchen with a small broom prop, a glass of green water, papaya leaves, crisp daylight"
+      }
+    ]
+  },
+  {
+    "registro": "F80",
+    "marcas": [
+      {
+        "nombre": "Rumbera",
+        "eslogan": "Rumbea hoy, amanece divina mañana",
+        "descriptor": "NAC para hígado",
+        "idea": "GRWM para la rumba: 'mi secreto para no amanecer con guayabo' tomando la cápsula antes de salir.",
+        "publico": "Mujeres Gen Z de 18 a 30 años que salen de rumba los fines de semana",
+        "inspiracion": "Fenty de Rihanna",
+        "paleta": [
+          "#B517FF",
+          "#FF2E93",
+          "#0D0D0D"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Iridescent holographic black bottle (#0D0D0D) with electric purple cap (#B517FF), capsules inside, disco-ball texture",
+        "etiqueta_en": "Disco-style 'RUMBERA' in hot pink (#FF2E93) neon glow, mirror-ball sparkle graphics, nightlife party mood",
+        "escena_en": "Night club vanity: glitter, disco ball, lipstick, glass with ice, neon pink and purple lights"
+      },
+      {
+        "nombre": "Nácar",
+        "eslogan": "Brilla limpia por dentro",
+        "descriptor": "N-acetilcisteína 600 mg",
+        "idea": "NAC como precursor del glutatión: hígado limpio y piel luminosa en una rutina premium.",
+        "publico": "Mujeres de 28 a 50 años interesadas en antioxidantes, detox y piel luminosa",
+        "inspiracion": "Rare Beauty de Selena Gomez",
+        "paleta": [
+          "#F7F2EE",
+          "#D9C7C0",
+          "#8A9BA8"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Pearlescent white glass bottle (#F7F2EE) with mother-of-pearl effect cap (#D9C7C0), capsules inside",
+        "etiqueta_en": "Delicate serif 'Nácar' in blue-gray (#8A9BA8), iridescent foil shell pattern, '600 mg NAC' in fine type, luminous luxurious mood",
+        "escena_en": "Pearls and seashells on soft white silk, glass of water, diffused ethereal light with pastel reflections"
+      },
+      {
+        "nombre": "Bocanada",
+        "eslogan": "Respira hondo otra vez",
+        "descriptor": "NAC para pulmones",
+        "idea": "Ciudad con smog, fumadores y moteros: 'respirar hondo debería ser fácil'.",
+        "publico": "Hombres y mujeres de 30 a 55 años en ciudades contaminadas, exfumadores o fumadores",
+        "inspiracion": "Prime de Logan Paul y KSI",
+        "paleta": [
+          "#5BC0EB",
+          "#1B263B",
+          "#E0E1DD"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Sky-blue HDPE bottle (#5BC0EB) with navy cap (#1B263B), capsules inside, clean modern shape",
+        "etiqueta_en": "Geometric sans 'BOCANADA' in navy with an air-swirl icon, light gray (#E0E1DD) lung outline, fresh clean mood",
+        "escena_en": "Mountain viewpoint over a hazy city at sunrise, fresh clouds, cool airy natural light"
+      }
+    ]
+  },
+  {
+    "registro": "F77",
+    "marcas": [
+      {
+        "nombre": "Quince",
+        "eslogan": "Panza plana en 15 días",
+        "descriptor": "Limpieza de colon 15 días",
+        "idea": "Reto de 15 días documentado diario, 'mi quinceañera intestinal' con fotos de la panza.",
+        "publico": "Mujeres Gen Z de 18 a 30 años que quieren desinflar antes de un evento",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#FF6EC7",
+          "#FFD1E8",
+          "#3A0CA3"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Pink blister-pack kit box (#FF6EC7) with 15 daily cells, each day numbered, pastel pink (#FFD1E8) interior",
+        "etiqueta_en": "Big '15' numeral in deep indigo (#3A0CA3) with a tiara on top, 'Quince' serif wordmark, festive quinceañera mood",
+        "escena_en": "Party set with balloons spelling 15, a tiara, mirror, calendar with crossed days, soft pink lighting"
+      },
+      {
+        "nombre": "Templo",
+        "eslogan": "Limpia tu templo por dentro",
+        "descriptor": "Ritual herbal de limpieza",
+        "idea": "Ritual consciente de 15 días: cuerpo como templo, con herbal blends y diario de bienestar.",
+        "publico": "Mujeres de 30 a 50 años, yoga y bienestar holístico",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#C2A878",
+          "#2E3B32",
+          "#EFE9DD"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Ceramic-look stone-beige jar (#C2A878) with dark green lid (#2E3B32), capsules inside, packaged in a ritual box with a 15-day guide card",
+        "etiqueta_en": "Serene serif 'Templo' in dark green over cream (#EFE9DD), arch-shaped temple doorway illustration with herbs inside, spiritual calm mood",
+        "escena_en": "Yoga studio corner with incense smoke, dried senna leaves, clay bowls, morning light through arched window"
+      },
+      {
+        "nombre": "Santo Remedio",
+        "eslogan": "El remedio de la abuela, en cápsula",
+        "descriptor": "Sen, cáscara sagrada y psyllium",
+        "idea": "Nostalgia colombiana: 'la purga que te daba la abuela', ahora en cápsula y sin mal sabor: santo remedio.",
+        "publico": "Hombres y mujeres de 35 a 65 años que conocen la purga tradicional",
+        "inspiracion": "Teremana de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#7A3E1D",
+          "#F4D58D",
+          "#1D1D1D"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Brown amber glass bottle (#7A3E1D) with black cap (#1D1D1D), old-pharmacy style, capsules inside",
+        "etiqueta_en": "Vintage condensed 'SANTO REMEDIO' in black (#1D1D1D) on straw-yellow (#F4D58D) label inside an old pharmacy cartouche, botanical illustrations of senna and cascara bark, nostalgic trusted mood",
+        "escena_en": "Traditional Colombian countryside kitchen: wooden table, clay pot, herbs, warm golden afternoon light"
+      }
+    ]
+  },
+  {
+    "registro": "F50",
+    "marcas": [
+      {
+        "nombre": "Cinturita",
+        "eslogan": "Cinturita de avispa en un vaso",
+        "descriptor": "Polvo deshinchante con electrolitos",
+        "idea": "Antes/después de la panza inflada al final del día y la bebida rosada que deja la cinturita marcada.",
+        "publico": "Mujeres Gen Z de 18 a 28 años que se inflan y quieren abdomen plano",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FF9EC4",
+          "#A6F0E1",
+          "#FFFFFF"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Round pastel-pink PET tub (#FF9EC4) with mint lid (#A6F0E1) and scoop, fruity pink powder inside",
+        "etiqueta_en": "Soft rounded lowercase 'cinturita' in white with a tiny waist silhouette doodle and measuring-tape ribbon, mint (#A6F0E1) stars, cute girly mood",
+        "escena_en": "Bedroom mirror selfie set: pastel bedsheets, pink shaker bottle, ice, sunlight, soft dreamy lighting"
+      },
+      {
+        "nombre": "Pluma",
+        "eslogan": "Ligera como una pluma",
+        "descriptor": "Bebida deshinchante botánica",
+        "idea": "Ritual de spa en casa: bebida botánica con electrolitos para sentirse liviana todo el día.",
+        "publico": "Mujeres de 30 a 50 años que buscan un vientre deshinchado de forma natural",
+        "inspiracion": "Kora Organics de Miranda Kerr",
+        "paleta": [
+          "#F4F1EC",
+          "#B7C4B2",
+          "#A07E5F"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Matte off-white glass jar (#F4F1EC) with sage lid (#B7C4B2), botanical powder and wooden spoon",
+        "etiqueta_en": "Light serif 'Pluma' in taupe (#A07E5F), single feather illustration, airy minimal layout, weightless tranquil mood",
+        "escena_en": "White linen bed with feathers, dandelion and horsetail sprigs, glass of drink, airy soft daylight"
+      },
+      {
+        "nombre": "Marcado",
+        "eslogan": "Bota el agua, marca el abdomen",
+        "descriptor": "Electrolitos y diuréticos naturales",
+        "idea": "Fitness: 'cómo quedo marcado antes de la playa o la competencia' con el polvo post-entreno.",
+        "publico": "Hombres y mujeres fitness de 20 a 40 años que quieren marcar abdomen",
+        "inspiracion": "ZOA de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#0A0A0A",
+          "#39FF14",
+          "#BFBFBF"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Matte black HDPE tub (#0A0A0A) with neon green lid (#39FF14) and scoop, electrolyte powder inside",
+        "etiqueta_en": "Bold condensed 'MARCADO' in neon green (#39FF14) with chiseled ab-grid texture, gray (#BFBFBF) icons of electrolytes and abs, hardcore athletic mood",
+        "escena_en": "Dark gym with chalk dust, dumbbells, sweaty shaker bottle, dramatic neon green rim light"
+      }
+    ]
+  },
+  {
+    "registro": "F31",
+    "marcas": [
+      {
+        "nombre": "Besable",
+        "eslogan": "Aliento listo para besar",
+        "descriptor": "Probiótico oral para aliento",
+        "idea": "POV antes de la cita: chupas la tableta y quedas 'besable' para el beso sorpresa.",
+        "publico": "Mujeres y hombres Gen Z de 18 a 30 años que salen en citas",
+        "inspiracion": "Rhode de Hailey Bieber",
+        "paleta": [
+          "#FF4D6D",
+          "#FFF0F3",
+          "#8EECF5"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Pocket-size pink tin (#FF4D6D) with sliding lid, lozenge tablets inside, mint-blue (#8EECF5) inner rim",
+        "etiqueta_en": "Script 'Besable' in white over pink, lip-kiss mark icon, pale pink (#FFF0F3) hearts, romantic flirty mood",
+        "escena_en": "Date night set with lipstick, mirror, rose petals, cocktail glass, warm pink glow lighting"
+      },
+      {
+        "nombre": "Suspiro",
+        "eslogan": "Frescura que viene de adentro",
+        "descriptor": "Pastillas probióticas para aliento",
+        "idea": "Odontología natural: L. reuteri que equilibra la boca, en estética limpia y premium.",
+        "publico": "Mujeres y hombres de 30 a 50 años que cuidan su salud oral de forma natural",
+        "inspiracion": "Goop de Gwyneth Paltrow",
+        "paleta": [
+          "#E8F4F2",
+          "#6CA6A3",
+          "#D4C5A9"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Small frosted glass jar (#E8F4F2) with teal metal lid (#6CA6A3), white lozenges inside",
+        "etiqueta_en": "Elegant serif 'Suspiro' in teal, soft breath-wave line art, sand (#D4C5A9) accents, pure calm mood",
+        "escena_en": "Bathroom vanity with marble, fresh mint, glass of water, bamboo toothbrush, soft morning light"
+      },
+      {
+        "nombre": "Labia",
+        "eslogan": "Háblale de cerquita",
+        "descriptor": "Tabletas para el mal aliento",
+        "idea": "Hombres que 'tienen labia' pero mal aliento: humor de conquistador con confianza.",
+        "publico": "Hombres de 22 a 45 años, vendedores y conquistadores, con mal aliento",
+        "inspiracion": "Teremana de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#0F4C81",
+          "#FFFFFF",
+          "#F5B700"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Navy blue matte tin (#0F4C81) with hinged lid, lozenge tablets inside, gold (#F5B700) trim",
+        "etiqueta_en": "Retro bold 'LABIA' in white with a speech-bubble icon, gold sparkle accents, confident charming mood",
+        "escena_en": "Bar setting with leather jacket, coffee cup, smartphone, warm amber evening light"
+      }
+    ]
+  },
+  {
+    "registro": "F73",
+    "marcas": [
+      {
+        "nombre": "Verdi",
+        "eslogan": "Tu agua verde de cada día",
+        "descriptor": "Clorofila líquida en gotas",
+        "idea": "Trend 'chlorophyll water': gotas cayendo en el termo, el agua se vuelve verde, reacción.",
+        "publico": "Mujeres Gen Z de 18 a 28 años que siguen tendencias de bienestar",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#3DDC84",
+          "#E6FFF2",
+          "#FFB3D9"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Clear PET dropper bottle with vivid green liquid, mint-green cap (#3DDC84), chunky dropper",
+        "etiqueta_en": "Rounded bubbly 'verdi' logo in pink (#FFB3D9), drop character with sparkles, pale mint (#E6FFF2) background, cheerful mood",
+        "escena_en": "Green-themed setup: big tumbler with green water, ice, aesthetic straw, plants, bright sunny light"
+      },
+      {
+        "nombre": "Esmeralda",
+        "eslogan": "La joya verde de Colombia",
+        "descriptor": "Clorofila líquida premium",
+        "idea": "Video de lujo: gotas verdes como esmeraldas cayendo en copa de cristal, orgullo colombiano.",
+        "publico": "Mujeres y hombres de 30 a 55 años, consumidores premium",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#046307",
+          "#D4AF37",
+          "#F5F5F0"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Faceted emerald-green glass dropper bottle (#046307) like a gemstone, gold dropper collar (#D4AF37)",
+        "etiqueta_en": "High-contrast serif 'Esmeralda' in gold, faceted gemstone icon, ivory (#F5F5F0) label, jewel luxury mood",
+        "escena_en": "Black velvet with emerald gemstones, crystal glass of green water, dramatic spotlight with reflections"
+      },
+      {
+        "nombre": "Coqueta",
+        "eslogan": "Fresquita donde más importa",
+        "descriptor": "Gotas de clorofila íntima",
+        "idea": "Charla entre amigas sin pena: la clorofila que te deja fresquita y sin olores íntimos.",
+        "publico": "Mujeres de 22 a 40 años preocupadas por el olor íntimo y corporal",
+        "inspiracion": "Lemme Purr de Kourtney Kardashian",
+        "paleta": [
+          "#E85D9E",
+          "#FDE2F3",
+          "#7BC47F"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Fuchsia glass dropper bottle (#E85D9E) with green-leaf dropper (#7BC47F), elegant curved shape",
+        "etiqueta_en": "Flowing script \"Coqueta\" logo in fuchsia (#E85D9E) over blush pink (#FDE2F3), lips and green leaf (#7BC47F) motif, flirty feminine mood",
+        "escena_en": "Pink bedroom with silk robe, flowers, glass of green water, soft warm lighting"
+      }
+    ]
+  },
+  {
+    "registro": "F33",
+    "marcas": [
+      {
+        "nombre": "Splash",
+        "eslogan": "Suelta el agua, luce el cuerpo",
+        "descriptor": "Cápsulas de drenaje linfático",
+        "idea": "Antes/después de tobillos y cara: 'tomé Splash una semana y bye agua retenida', con clavado a la piscina.",
+        "publico": "Mujeres Gen Z y millennials de 20 a 32 años con retención de líquidos",
+        "inspiracion": "Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#5AC8FA",
+          "#FF7EB6",
+          "#FFFFFF"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Glossy sky-blue PET bottle (#5AC8FA) with pink cap (#FF7EB6), capsules inside",
+        "etiqueta_en": "Modern bold 'SPLASH' wordmark in white with a water-splash burst accent, pink (#FF7EB6) wave graphic, fresh trendy summer mood",
+        "escena_en": "Pool-side lounge with sunglasses, iced water, inflatable float, bright summer light"
+      },
+      {
+        "nombre": "Manantial",
+        "eslogan": "27 plantas que abren el manantial",
+        "descriptor": "Botánicos linfáticos en cápsula",
+        "idea": "Herbolaria moderna: mostrar las 27 plantas una por una como un río que vuelve a correr.",
+        "publico": "Mujeres de 30 a 55 años amantes de la herbolaria y el bienestar natural",
+        "inspiracion": "Kora Organics de Miranda Kerr",
+        "paleta": [
+          "#5E7D5B",
+          "#F1EDE4",
+          "#C08552"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Amber glass bottle with sage-green cap (#5E7D5B), kraft-cream (#F1EDE4) label, capsules inside",
+        "etiqueta_en": "Serif 'Manantial' in sage green (#5E7D5B), winding riverbed line connecting 27 small herb illustrations, copper (#C08552) accents, organic serene mood",
+        "escena_en": "Herb garden table with dried plants, river stones, water carafe, soft dappled sunlight"
+      },
+      {
+        "nombre": "Tacón",
+        "eslogan": "Todo el día en tacón, sin hinchazón",
+        "descriptor": "Cápsulas para retención de líquidos",
+        "idea": "Mujeres que trabajan de pie o en tacones: 'llegué a la casa sin los pies hinchados'.",
+        "publico": "Mujeres de 30 a 60 años que trabajan de pie o en tacones y terminan con pies y piernas hinchados",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#9B7EDE",
+          "#F3EFFF",
+          "#3D2C5C"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Lavender HDPE bottle (#9B7EDE) with deep plum cap (#3D2C5C), capsules inside, soft rounded form",
+        "etiqueta_en": "Rounded 'Tacón' in plum (#3D2C5C) with an elegant high-heel line icon and a light water-drop, pale lavender (#F3EFFF) background, feminine caring mood",
+        "escena_en": "Cozy living room at evening: high heels kicked off on a rug, legs resting on lavender cushions, lavender sprigs, cup of tea, warm light"
+      }
+    ]
+  },
+  {
+    "registro": "N3",
+    "marcas": [
+      {
+        "nombre": "Corre",
+        "eslogan": "Tómatelo y corre al baño",
+        "descriptor": "Té laxante de sen",
+        "idea": "Humor: tomas el té en la noche y en la mañana sales corriendo, con cronómetro.",
+        "publico": "Mujeres Gen Z de 18 a 30 años con estreñimiento y humor sin filtro",
+        "inspiracion": "Goli (gomitas virales)",
+        "paleta": [
+          "#FFC300",
+          "#FF5733",
+          "#1A1A1A"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Bright yellow tea box (#FFC300) with 20 tea bags, running-figure die-cut window, orange (#FF5733) tags",
+        "etiqueta_en": "Bold italic 'CORRE' in black (#1A1A1A) with speed lines, running stick figure toward a toilet, comic urgent mood",
+        "escena_en": "Hallway with a bathroom door, sneakers, steaming tea mug, motion blur and bright light"
+      },
+      {
+        "nombre": "Amanece",
+        "eslogan": "Tómalo de noche, amanece ligera",
+        "descriptor": "Infusión digestiva nocturna",
+        "idea": "Ritual de noche: té caliente con hinojo y menta, al otro día 'amanecí liviana y plana'.",
+        "publico": "Mujeres de 28 a 50 años que buscan un ritual natural de noche",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#F2A65A",
+          "#2C3E50",
+          "#FAF3E0"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Navy tea box (#2C3E50) with sunrise-orange (#F2A65A) gradient, 20 cream (#FAF3E0) pyramid tea bags",
+        "etiqueta_en": "Serif 'Amanece' with a rising sun over a horizon, moon-to-sun gradient, delicate fennel and mint drawings, calm hopeful mood",
+        "escena_en": "Bedside table at night with tea cup, moon lamp, book, then sunrise light through curtains"
+      },
+      {
+        "nombre": "Destape",
+        "eslogan": "Destapa la tubería sin pena",
+        "descriptor": "Té de sen para estreñimiento",
+        "idea": "Comedia con plomero: 'cuando la tubería se tapa, Destape'.",
+        "publico": "Hombres y mujeres de 35 a 65 años con estreñimiento crónico",
+        "inspiracion": "Feastables de MrBeast",
+        "paleta": [
+          "#0077B6",
+          "#F77F00",
+          "#FFFFFF"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Blue tea box (#0077B6) shaped like a toolbox with handle cutout, orange (#F77F00) tea bag tags",
+        "etiqueta_en": "Condensed 'DESTAPE' with a plunger icon, white (#FFFFFF) text, pipe graphics, funny direct mood",
+        "escena_en": "Plumber-themed set with pipes, wrench, steaming tea mug, bright workshop lighting"
+      }
+    ]
+  },
+  {
+    "registro": "F39",
+    "marcas": [
+      {
+        "nombre": "Ají",
+        "eslogan": "Ponle ají a tu metabolismo",
+        "descriptor": "Cápsulas de pimienta de cayena",
+        "idea": "Reacciones de 'siento el calorcito' tras la cápsula antes del cardio: 'esta niña es un ají'.",
+        "publico": "Mujeres Gen Z de 18 a 30 años que quieren quemar grasa",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#E63946",
+          "#FFB703",
+          "#FFF8F0"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Red glossy bottle (#E63946) with yellow-orange cap (#FFB703), capsules inside",
+        "etiqueta_en": "Retro 'AJÍ' wordmark with a sassy chili pepper wearing sunglasses, cream (#FFF8F0) text, yellow (#FFB703) heat waves, flirty feisty mood",
+        "escena_en": "Red backdrop with chili peppers, gym leggings, tape measure, hot colorful lighting"
+      },
+      {
+        "nombre": "Ardiente",
+        "eslogan": "Calor que esculpe tu figura",
+        "descriptor": "Termogénico natural de cayena",
+        "idea": "Estética sensual de velas y ámbar con la ciencia de la capsaicina para mujeres fitness premium.",
+        "publico": "Mujeres de 28 a 45 años, fitness premium",
+        "inspiracion": "Kylie Skin de Kylie Jenner",
+        "paleta": [
+          "#9C2C13",
+          "#E9C46A",
+          "#2B2B2B"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Smoky charcoal glass bottle (#2B2B2B) with copper cap, capsules inside",
+        "etiqueta_en": "Serif 'Ardiente' in ember red (#9C2C13), glowing gradient to gold (#E9C46A), fine heat-wave linework, sophisticated sensual warm mood",
+        "escena_en": "Dark slate with smoldering embers, dried cayenne, copper props, moody warm light"
+      },
+      {
+        "nombre": "Diablo",
+        "eslogan": "Quema grasa como el diablo",
+        "descriptor": "Quemador de cayena",
+        "idea": "Hombres gym tomando la cápsula antes del entreno: 'sudo como el diablo'.",
+        "publico": "Hombres de 20 a 45 años que quieren quemar grasa y marcar",
+        "inspiracion": "ZOA de Dwayne 'The Rock' Johnson",
+        "paleta": [
+          "#0B0B0B",
+          "#D00000",
+          "#FFBA08"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Matte black bottle (#0B0B0B) with red cap (#D00000) and devil horn embossing, capsules inside",
+        "etiqueta_en": "Bold 'DIABLO' with devil horns and pitchfork icon, flames in red and yellow (#FFBA08), aggressive hardcore mood",
+        "escena_en": "Dark gym with flames, smoke, dumbbells, red lighting"
+      }
+    ]
+  },
+  {
+    "registro": "C2",
+    "marcas": [
+      {
+        "nombre": "Jugosa",
+        "eslogan": "Sabor sandía, panza plana",
+        "descriptor": "Fibra detox sabor sandía",
+        "idea": "Bebida rosada de sandía que deja la panza plana y quita la ansiedad, 'jugosa y feliz'.",
+        "publico": "Mujeres Gen Z de 18 a 28 años que se inflan y tienen antojos",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FF4F6D",
+          "#7ED957",
+          "#FFE5EC"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Watermelon-pink doypack (#FF4F6D) with green zip (#7ED957), scoop inside, watermelon slice shape window",
+        "etiqueta_en": "Juicy bubbly 'jugosa' in green with watermelon seeds, pink drips, fun summer mood",
+        "escena_en": "Summer picnic with watermelon slices, pink drink, sunglasses, bright sunlight"
+      },
+      {
+        "nombre": "Serena",
+        "eslogan": "Calma tu panza y tus antojos",
+        "descriptor": "Fibra prebiótica con probióticos",
+        "idea": "Ritual de la tarde para calmar antojos: fibra, probióticos y momento de paz.",
+        "publico": "Mujeres de 30 a 50 años que buscan bienestar digestivo y control de antojos",
+        "inspiracion": "Kora Organics de Miranda Kerr",
+        "paleta": [
+          "#F6E7E7",
+          "#A8C3A0",
+          "#B85C5C"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "Blush-pink glass jar (#F6E7E7) with sage lid (#A8C3A0), wooden spoon",
+        "etiqueta_en": "Serif 'Serena' in deep rose (#B85C5C), watermelon line drawing, calm feminine mood",
+        "escena_en": "Calm afternoon with linen, watermelon slice, glass of pink drink, soft light"
+      },
+      {
+        "nombre": "Llenita",
+        "eslogan": "Llena, no inflada",
+        "descriptor": "Fibra saciante con glucomanano",
+        "idea": "Mujeres en dieta: 'me tomo esto y no me como el paquete de galletas'.",
+        "publico": "Mujeres de 30 a 50 años en dieta que pican entre comidas",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#F25C54",
+          "#FFFFFF",
+          "#2A9D8F"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "White tub (#FFFFFF) with coral lid (#F25C54), scoop, family size",
+        "etiqueta_en": "Bold 'LLENITA' in teal (#2A9D8F), crossed-out cookie icon, clean practical mood",
+        "escena_en": "Kitchen counter with measuring tape, watermelon, glass of pink drink, bright daylight"
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 <title>Plan de Marcas INVIMA</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Fredoka:wght@600;700&family=Cormorant+Garamond:ital,wght@1,600;1,700&family=Anton&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Fredoka:wght@600;700&family=Playfair+Display:wght@700&family=Anton&family=Cormorant+Garamond:wght@700&family=Bebas+Neue&family=Pacifico&family=DM+Serif+Display&family=Archivo+Black&family=Quicksand:wght@700&family=Syne:wght@800&family=Righteous&family=Baloo+2:wght@800&family=Abril+Fatface&family=Montserrat:wght@800&display=swap">
 <style>
 :root{
   --bg:#F2F5F1;--surface:#FFFFFF;--surface2:#E8EEEA;--ink:#10201A;--muted:#5C6E66;--line:#D5DFDA;
@@ -175,32 +175,19 @@ main{padding-block:28px 80px}
 .combo img{width:100%;height:100%;object-fit:cover;background:#fff}
 .prio{font:800 12px/1 var(--mono);color:var(--accent)}
 
-/* marcas madre */
-.marca.casa-pispa{background:#FFE3F0;color:#D6247A;font:700 14px/1 "Fredoka",var(--display);text-transform:none;letter-spacing:0}
-.marca.casa-nuara{background:#EFE7DA;color:#8A4A35;font:italic 700 16px/1 "Cormorant Garamond",Georgia,serif;text-transform:none;letter-spacing:0}
-.marca.casa-garra{background:#121212;color:#FF5A1F;font:400 14px/1 "Anton",Impact,sans-serif;letter-spacing:.05em;text-transform:uppercase}
-.wm{display:inline-block;line-height:1}
-.wm.pispa{font:700 44px/1 "Fredoka",var(--display);color:#FF5FA2;text-transform:lowercase}
-.wm.nuara{font:italic 700 46px/1 "Cormorant Garamond",Georgia,serif;color:#B5654A;letter-spacing:.06em;text-transform:uppercase;font-style:normal}
-.wm.garra{font:400 46px/1 "Anton",Impact,sans-serif;color:#FF5A1F;letter-spacing:.04em;text-transform:uppercase}
+/* marcas únicas */
+.marca.u{text-transform:none;letter-spacing:0;font-weight:400;font-size:15px;border:1px solid rgba(0,0,0,.08)}
 .panel{width:100%;aspect-ratio:341/576;border-radius:12px;background-size:300% 100%;background-repeat:no-repeat;cursor:zoom-in;background-color:var(--surface2)}
-.casas{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-.casa{background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;text-align:left;display:grid;align-content:start;transition:transform .25s,box-shadow .25s,border-color .25s;padding:0}
-.casa:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
-.casa[aria-pressed="true"]{border:2px solid var(--ink)}
-.casa img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
-.casa .txt{padding:14px 16px 16px;display:grid;gap:8px}
-.casa p{font-size:14px;color:var(--muted)}
-.paleta{display:flex;gap:6px}
-.paleta i{width:22px;height:22px;border-radius:7px;border:1px solid var(--line);display:inline-block}
-.ficha-casa{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:16px}
-.ficha-casa h4{font:700 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-.ficha-casa p{font-size:14px}
-.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:14px}
-.pcard{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:10px;display:grid;gap:8px;align-content:start;text-align:left}
-.pcard .marca{font-size:15px;justify-self:start}
-.pcard p{font-size:13px;color:var(--muted)}
-@media (max-width:860px){.casas{grid-template-columns:1fr}}
+.ureg{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:16px;display:grid;gap:14px}
+.ureg .arriba{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.ureg h3{font-size:19px;margin:0}
+.utrio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.ucard{border-radius:18px;padding:10px 10px 14px;display:grid;gap:8px;align-content:start}
+.ucard .nm{font-size:30px;line-height:1.05;word-break:break-word}
+.ucard .es{font-size:14px;font-weight:600}
+.ucard p,.ucard small{font-size:13px;opacity:.85}
+.ulist{display:grid;gap:14px}
+@media (max-width:760px){.utrio{grid-template-columns:1fr}.ucard{grid-template-columns:120px 1fr;align-items:start}.ucard .panel{grid-row:span 5}}
 
 /* marcas */
 .buscar{width:100%;max-width:420px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:14px;padding:12px 16px;font:inherit}
@@ -332,9 +319,11 @@ const catNombre = (cod) => D.categorias.find((c) => c.cod === cod)?.n || cod;
 const foto = (id, alt = '', estilo = '') => (D.imgs[id] ? `<img class="foto" ${estilo ? `style="${estilo}"` : ''} src="${D.imgs[id]}" alt="${esc(alt)}" data-zoom="${id}" loading="lazy">` : '');
 const fotoEmp = (id, cls = 'foto', alt = '') => (D.emp[id] ? `<img class="${cls}" src="${D.emp[id]}" alt="${esc(alt || 'Así se verían las 3 marcas')}" data-zoom="E:${id}" loading="lazy">` : '');
 const basado = (r) => `<div class="basado"><span>Basado en:</span>${r.refs.slice(0, 4).map((id) => (D.imgs[id] ? `<img src="${D.imgs[id]}" alt="${esc(prodPorId[id]?.n || '')}" data-zoom="${id}" class="foto">` : '')).join('')}</div>`;
-const marcasHtml = (ms) => `<div class="marcas">${ms.map((b) => `<span class="marca${b.casa ? ' casa-' + b.casa : ''}">${esc(b.nombre)}</span>`).join('')}</div>`;
-const CASA_POS = { pispa: '0%', nuara: '50%', garra: '100%' };
-const panel = (r, casa) => (D.emp[r.id] && casa ? `<div class="panel" style="background-image:url(${D.emp[r.id]});background-position:${CASA_POS[casa]} 0" data-zoom="E:${r.id}" role="img" aria-label="Producto"></div>` : '');
+const estiloMarca = (b) => (b.fuente ? `background:${b.fondo};color:${b.tinta};font-family:'${b.fuente}',var(--display)` : '');
+const marcasHtml = (ms) => `<div class="marcas">${ms.map((b) => `<span class="marca u" style="${estiloMarca(b)}">${esc(b.nombre)}</span>`).join('')}</div>`;
+const POS = ['0%', '50%', '100%'];
+const panel = (r, i) => (D.emp[r.id] ? `<div class="panel" style="background-image:url(${D.emp[r.id]});background-position:${POS[i]} 0" data-zoom="E:${r.id}" role="img" aria-label="Envase de ${esc(r.marcas[i]?.nombre || '')}"></div>` : '');
+const tarjetaMarca = (r, b, i, hl = esc) => `<div class="ucard" style="background:${b.fondo || 'var(--surface2)'};color:${b.tinta || 'var(--ink)'}">${panel(r, i)}<span class="nm" style="font-family:'${b.fuente}',var(--display)">${hl(b.nombre)}</span>${b.eslogan ? `<span class="es">${esc(b.eslogan)}</span>` : ''}${b.descriptor ? `<small>${esc(b.descriptor)}</small>` : ''}<p>${esc(b.idea || '')}</p>${b.publico ? `<small>Para: ${esc(b.publico)}</small>` : ''}${b.inspiracion ? `<small>Estilo: ${esc(b.inspiracion)}</small>` : ''}</div>`;
 const PLURAL = { 'Cápsula': 'Cápsulas', 'Cápsula blanda': 'Cápsulas blandas', 'Tableta': 'Tabletas', 'Gomita': 'Gomitas', 'Polvo': 'Polvos', 'Líquido': 'Líquidos', 'Gotas': 'Gotas', 'Sobre / stick': 'Sobres y sticks', 'Té': 'Tés', 'Otro': 'Otros' };
 
 const estado = { tab: 'inicio', catMarca: D.categorias.find((c) => c.nr).cod, q: '', catReg: D.categorias.find((c) => c.nr).cod, catProd: D.categorias[0].cod, sinQuemados: false };
@@ -363,7 +352,7 @@ function vistaInicio() {
     <button class="paso" data-ir="mandar" style="--i:0;border-color:var(--accent);margin-bottom:16px;width:100%"><span class="n">★</span><h3>Para mandar a hacer</h3><p>La lista corta y directa: qué producto hacer, con qué ingredientes y dosis, cuánto vende hoy y con qué marcas. En orden de prioridad.</p><span class="ir">Ver la lista →</span></button>
     <div class="pasos stag">
       <button class="paso" data-ir="registros" style="--i:0"><span class="n">1</span><h3>Registros</h3><p>Lo que hay que registrar: para qué es cada producto, sus ingredientes, la presentación y las 3 marcas propuestas.</p><span class="ir">Ver los ${k.registros} registros →</span></button>
-      <button class="paso" data-ir="marcas" style="--i:1"><span class="n">2</span><h3>Marcas</h3><p>Tres marcas madre (Pispa, Nuara y Garra) con su diseño, y los ${k.marcas} productos que salen de los registros.</p><span class="ir">Ver las marcas →</span></button>
+      <button class="paso" data-ir="marcas" style="--i:1"><span class="n">2</span><h3>Marcas</h3><p>Las ${k.marcas} marcas propias, una por producto, cada una con su nombre, eslogan, diseño y foto del envase.</p><span class="ir">Ver las marcas →</span></button>
       <button class="paso" data-ir="productos" style="--i:2"><span class="n">3</span><h3>Productos virales</h3><p>Lo que más se vende hoy en TikTok Shop, por categoría y presentación, con su tendencia y el registro en el que entra.</p><span class="ir">Ver los ${k.productos} productos →</span></button>
       <button class="paso" data-guia style="--i:3"><span class="n">?</span><h3>Fotos y guía</h3><p>Toque cualquier foto para verla en grande. Si se pierde, el botón "Guía" de arriba explica todo paso a paso.</p><span class="ir">Abrir la guía →</span></button>
     </div>
@@ -421,7 +410,7 @@ function abrirRegistro(id) {
     ${D.emp[r.id] ? `<div>${fotoEmp(r.id, 'foto emp-grande')}<p class="ilustra">Imagen ilustrativa de cómo se verían las 3 marcas propuestas. Tóquela para ampliarla.</p></div>` : ''}
     <div class="bloque"><h4>Ingredientes (${r.ing.length})</h4><ul class="check">${r.ing.map((x) => `<li>${esc(x)}</li>`).join('')}</ul></div>
     <div><h4 class="eyebrow" style="margin-bottom:12px">Las 3 marcas propuestas para este registro</h4>
-      <div class="mcards">${r.marcas.map((b) => `<div class="mcard">${panel(r, b.casa)}<span class="marca${b.casa ? ' casa-' + b.casa : ''}" style="justify-self:start;font-size:17px">${esc(b.nombre)}</span>${b.descriptor ? `<small>${esc(b.descriptor)}</small>` : ''}<p>${esc(b.idea || '')}</p>${b.publico ? `<small>Para: ${esc(b.publico)}</small>` : ''}</div>`).join('')}</div></div>
+      <div class="utrio">${r.marcas.map((b, i) => tarjetaMarca(r, b, i)).join('')}</div></div>
     <div><h4 class="eyebrow" style="margin-bottom:12px">Productos reales que ya se venden con esta fórmula</h4>
       <div class="galeria">${r.refs.map((pid) => { const p = prodPorId[pid]; return `<div class="ref">${foto(pid, p.n)}<b>${esc(p.n)}</b><span>${esc(p.m)} · ${paises(p.paises)} · <span class="mono">${fmt(p.u ?? p.w)}</span> u.</span></div>`; }).join('')}</div></div>
     <div class="dos"><div class="bloque"><h4>Ventas en septiembre</h4><p><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.us)}</span> EE. UU.<br><span class="mono" style="font-size:22px;font-weight:700">${fmt(r.mx)}</span> México</p><p class="nota" style="margin-top:8px">${r.nprod} ${r.nprod === 1 ? 'producto viral' : 'productos virales'} en este registro.</p></div>
@@ -470,18 +459,26 @@ function vistaMandar() {
 
 /* ---------- MARCAS ---------- */
 function vistaMarcas() {
-  const casas = D.casas || [];
-  if (!casas.length) return '<p class="nota">Sin marcas madre.</p>';
-  const sel = estado.casa || casas[0].id; const c = casas.find((x) => x.id === sel) || casas[0];
   const q = (estado.q || '').trim().toLowerCase();
-  const items = D.registros.map((r) => ({ r, b: r.marcas.find((m) => m.casa === c.id) })).filter((x) => x.b && (!q || x.b.nombre.toLowerCase().includes(q) || x.r.n.toLowerCase().includes(q) || (x.b.descriptor || '').toLowerCase().includes(q)));
-  const lista = items.map(({ r, b }, i) => `<div class="pcard" style="--i:${i}">${panel(r, c.id)}<span class="marca casa-${c.id}">${esc(b.nombre)}</span><p>${esc(b.descriptor || '')}</p><button class="link" data-reg="${r.id}" style="font-size:13px">${r.id} · ${esc(r.n)}</button></div>`).join('');
-  return `<div class="sec-h"><div><p class="eyebrow">3 marcas madre · ${D.kpi.marcas} productos</p><h2 style="margin-top:8px">Las marcas propias</h2></div></div>
-    <p class="nota" style="max-width:80ch">Tres marcas madre, cada una con su identidad, al estilo de las marcas de bienestar de figuras públicas (Lemme, Goop, ZOA). Cada registro sale con un producto de cada marca. Toque una marca para ver todos sus productos.</p>
-    <div class="casas" style="margin-top:18px">${casas.map((x) => `<button class="casa" data-casa="${x.id}" aria-pressed="${x.id === c.id}">${x.hero ? `<img src="${x.hero}" alt="Muestra de ${esc(x.nombre)}">` : ''}<div class="txt"><span class="wm ${x.id}">${esc(x.nombre)}</span><p>${esc(x.concepto)}</p><div class="paleta">${(x.paleta || []).map((h) => `<i style="background:${esc(h)}"></i>`).join('')}</div></div></button>`).join('')}</div>
-    <div class="ficha-casa"><div><h4>Para quién</h4><p>${esc(c.publico)}</p></div><div><h4>Tono</h4><p>${esc(c.tono)}</p></div><div><h4>Tipografía</h4><p>${esc(c.tipografia)}</p></div><div><h4>Empaque</h4><p>${esc(c.empaque)}</p></div><div><h4>Cómo se nombran los productos</h4><p>${esc(c.regla)}</p></div></div>
-    <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap;align-items:center"><input class="buscar" id="buscar-marca" type="search" placeholder="Buscar producto de ${esc(c.nombre)}…" value="${esc(estado.q || '')}" aria-label="Buscar producto"><span class="nota">${items.length} productos</span></div>
-    <div id="marcas-lista" style="margin-top:16px"><div class="pgrid stag">${lista || '<p class="nota">No hay productos con ese nombre.</p>'}</div></div>`;
+  const cats = D.categorias.filter((c) => c.nr);
+  const sel = estado.catMarca;
+  const hl = (s) => { const x = esc(s); if (!q) return x; const i = x.toLowerCase().indexOf(q); return i < 0 ? x : x.slice(0, i) + '<mark class="hl">' + x.slice(i, i + q.length) + '</mark>' + x.slice(i + q.length); };
+  const coincide = (r) => !q || r.marcas.some((b) => b.nombre.toLowerCase().includes(q)) || r.n.toLowerCase().includes(q);
+  const lista = cats.filter((c) => q || sel === 'todas' || c.cod === sel);
+  const bloques = lista.map((c) => {
+    const rs = D.registros.filter((r) => r.cat === c.cod && coincide(r));
+    if (!rs.length) return '';
+    return `<div class="cat-titulo"><h3>${esc(c.n)}</h3><span>${rs.length * 3} marcas en ${rs.length} ${rs.length === 1 ? 'registro' : 'registros'}</span></div>
+      <div class="ulist stag">${rs.map((r, i) => `<div class="ureg" style="--i:${i}">
+        <div class="arriba"><span class="cod">${r.id}</span><span class="pill">${esc(r.pres)}</span>${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}<h3 style="flex-basis:100%">${hl(r.n)}</h3></div>
+        <div class="utrio">${r.marcas.map((b, j) => tarjetaMarca(r, b, j, hl)).join('')}</div>
+        <button class="link" data-reg="${r.id}" style="justify-self:start">Ver ingredientes y productos de este registro →</button></div>`).join('')}</div>`;
+  }).join('');
+  return `<div class="sec-h"><div><p class="eyebrow">${D.kpi.marcas} marcas propias · 3 por registro</p><h2 style="margin-top:8px">Las marcas, una por producto</h2></div></div>
+    <p class="nota" style="max-width:80ch">Cada producto es su propia marca, con nombre, eslogan, colores, letra y envase propios, al estilo de las marcas de bienestar de figuras públicas. Las 3 marcas de cada registro van a públicos distintos. Toque una foto para ampliarla.</p>
+    <div style="margin-top:16px"><input class="buscar" id="buscar-marca" type="search" placeholder="Buscar marca o registro…" value="${esc(estado.q || '')}" aria-label="Buscar marca"></div>
+    <div class="chips" role="group" aria-label="Categoría" style="margin-top:14px"><button class="chip" data-catmarca="todas" aria-pressed="${sel === 'todas' && !q}">Todas<small>${D.kpi.marcas}</small></button>${cats.map((c) => `<button class="chip" data-catmarca="${c.cod}" aria-pressed="${sel === c.cod && !q}">${esc(c.n)}<small>${c.nr * 3}</small></button>`).join('')}</div>
+    <div id="marcas-lista">${bloques || '<p class="nota" style="margin-top:24px">No hay marcas con ese nombre.</p>'}</div>`;
 }
 
 /* ---------- PRODUCTOS ---------- */
@@ -532,7 +529,7 @@ const PASOS = [
   { t: 'Empiece aquí: Para mandar a hacer', p: 'Es la lista corta para el maquilador. Cada producto dice qué se vende hoy y cuánto, el producto que se hace, los ingredientes con dosis y sus marcas, en orden de prioridad.', ilus: `<div class="fila"><span class="estado">Línea propia</span><span class="estado maneja">Ya lo manejan</span><span class="estado ranking">Del ranking</span></div>` },
   { t: 'Paso 1: Registros', p: 'Cada tarjeta es un registro. Arriba ve cómo se verían los envases de sus 3 marcas, y abajo los productos reales en los que se basa. Debajo: para qué es, la presentación, los ingredientes y las 3 marcas propuestas.', ilus: `<div class="fila"><span class="cod">${r0.id}</span><b>${esc(r0.n)}</b></div><div class="fila"><span class="ben">${esc(r0.ben)}</span><span class="pill">${esc(r0.pres)}</span></div>${marcasHtml(r0.marcas)}` },
   { t: 'Toque "Ver todo el registro"', p: 'Se abre la ficha completa: la lista de ingredientes con dosis típicas, las 3 marcas con su idea, los productos reales en los que se basa y cuánto venden.', ilus: `<ul class="check">${r0.ing.slice(0, 4).map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` },
-  { t: 'Paso 2: Marcas', p: 'Tres marcas madre propias (Pispa, Nuara y Garra), cada una con su diseño. Cada registro sale con un producto de cada marca. Toque una marca para ver todos sus productos. Puede buscar una marca por su nombre o filtrar por categoría.', ilus: `<div class="mcards">${r0.marcas.map((b) => `<div class="mcard"><span class="nm" style="font-size:17px">${esc(b.nombre)}</span></div>`).join('')}</div>` },
+  { t: 'Paso 2: Marcas', p: 'Cada producto es su propia marca, con su nombre, eslogan, colores y envase. Cada registro trae 3 marcas para públicos distintos. Puede buscar una marca por su nombre o filtrar por categoría.', ilus: `<div class="mcards">${r0.marcas.map((b) => `<div class="mcard" style="background:${b.fondo};color:${b.tinta}"><span class="nm" style="font-size:22px;color:inherit;text-transform:none;font-family:'${b.fuente}',var(--display)">${esc(b.nombre)}</span></div>`).join('')}</div>` },
   { t: 'Paso 3: Productos virales', p: 'Lo que más se vende hoy, por categoría y por presentación (cápsulas, gomitas, polvos…). Cada producto dice para qué es, si va subiendo o bajando y en qué registro entra.', ilus: `<div class="fila">${tend('sube', 34)}${tend('estable', null)}${tend('baja', -18)}${tend('quemado', -31)}${tend('nuevo', null)}</div><p class="nota">"Quemado" = vende cada vez menos y ya lleva más de un año. Mejor no inspirarse en esos.</p>` },
   { t: 'Las fotos se amplían', p: 'Toque cualquier foto para verla en grande. Toque otra vez (o fuera de la foto) para cerrarla. Puede volver a esta guía cuando quiera con el botón "Guía" de arriba.', ilus: `<div class="fila">${r0.refs.slice(0, 3).map((id) => foto(id, prodPorId[id].n, 'width:96px;height:96px;border-radius:14px')).join('')}</div>` },
 ];
@@ -599,7 +596,6 @@ document.addEventListener('click', (e) => {
   if (t.dataset.reg) { if ($('#guia').open) $('#guia').close(); return abrirRegistro(t.dataset.reg); }
   if (t.dataset.catreg) return ir('registros', { catReg: t.dataset.catreg });
   if (t.dataset.catmarca) return ir('marcas', { catMarca: t.dataset.catmarca, q: '' });
-  if (t.dataset.casa) { estado.casa = t.dataset.casa; estado.q = ''; return pintar(); }
   if (t.dataset.catprod) { if ($('#modal').open) $('#modal').close(); return ir('productos', { catProd: t.dataset.catprod }); }
 }, true);
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('#zoom').hidden) { e.preventDefault(); cerrarZoom(); } });

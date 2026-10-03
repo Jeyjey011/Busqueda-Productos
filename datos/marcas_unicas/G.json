@@ -1,0 +1,394 @@
+[
+  {
+    "registro": "F46",
+    "marcas": [
+      {
+        "nombre": "Sunnie",
+        "eslogan": "Tu gotita de sol diaria",
+        "descriptor": "Gotas D3, K2 y omega-3",
+        "idea": "POV en Bogotá lloviendo: 'mi sol viene en gotero', gota en el jugo y transición a un set soleado.",
+        "publico": "Mujeres Gen Z y universitarias de ciudades frías y nubladas",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#FFC93C",
+          "#FF8FB1",
+          "#FFF6E0"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "30 ml rounded glass dropper bottle in sunny yellow frosted glass (#FFC93C) with a glossy bubblegum pink (#FF8FB1) rubber bulb and pink collar; a second mini bottle for the night version in pale cream (#FFF6E0)",
+        "etiqueta_en": "Wraparound cream label (#FFF6E0) with a chunky rounded lowercase 'sunnie' logo in pink, a smiling cartoon sun whose rays are drops, little sparkles and stickers saying 'D3 + K2 + omega 3', playful and bubbly mood",
+        "escena_en": "Bright pastel yellow backdrop with hard window sunlight casting palm shadows, glossy white table, an iced oat latte, a pink claw clip and scattered lemon slices, high-key flash look"
+      },
+      {
+        "nombre": "Albora",
+        "eslogan": "Del alba a la luna, huesos fuertes",
+        "descriptor": "Gotas D3 y K2 día-noche",
+        "idea": "Ritual de mañana y noche en ASMR: gota dorada al amanecer y la versión con manzanilla antes de dormir.",
+        "publico": "Mujeres 28-45 de bienestar consciente que pagan por lo premium y natural",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#C9A66B",
+          "#2E3A4F",
+          "#F3ECE2"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Duo of 30 ml amber apothecary glass droppers: day bottle with a brushed gold (#C9A66B) collar and ivory (#F3ECE2) bulb, night bottle in deep midnight blue glass (#2E3A4F) with a gold collar, both in a linen-textured slide box",
+        "etiqueta_en": "Minimal ivory label (#F3ECE2) with a thin serif 'ALBORA' wordmark, a fine gold line illustration of a half sun rising and a crescent moon with chamomile flowers, 'Día' and 'Noche' tags, calm luxurious mood",
+        "escena_en": "Travertine stone surface at golden hour, soft linen drapery, a ceramic cup of chamomile tea, dried chamomile and a small brass dish, warm diffused morning light with long gentle shadows"
+      },
+      {
+        "nombre": "Pilar",
+        "eslogan": "Tus huesos sostienen tu vida",
+        "descriptor": "Gotas para huesos fuertes",
+        "idea": "Mujeres de 50 cargando nietos, bailando y haciendo yoga: 'a los 50 no me quiebro, soy Pilar'.",
+        "publico": "Mujeres 40-65 en menopausia preocupadas por osteoporosis",
+        "inspiracion": "Toty de Sofía Vergara",
+        "paleta": [
+          "#B3412E",
+          "#F2E4D0",
+          "#3D3A36"
+        ],
+        "fuente": "DM Serif Display",
+        "envase_en": "50 ml tall square glass dropper bottle in clear glass with a solid terracotta (#B3412E) screw cap and black (#3D3A36) bulb, inside a sturdy sand-colored (#F2E4D0) carton box",
+        "etiqueta_en": "Sand label (#F2E4D0) with a bold elegant serif 'Pilar' logo in terracotta, a graphic column/pillar icon made of stacked drops, clear dosage band in charcoal, confident mature and warm mood",
+        "escena_en": "Warm Colombian kitchen with terracotta tiles, wooden table, a cup of tinto coffee, reading glasses and a woven basket of oranges, soft late-afternoon window light"
+      }
+    ]
+  },
+  {
+    "registro": "F74",
+    "marcas": [
+      {
+        "nombre": "Sirena",
+        "eslogan": "Musgo marino para sirenas imparables",
+        "descriptor": "Cápsulas de musgo marino",
+        "idea": "Trend mermaidcore: 'lo que toma una sirena para no enfermarse', cápsulas que brillan bajo luz azul.",
+        "publico": "Mujeres Gen Z amantes de tendencias wellness de TikTok",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#3FD1C7",
+          "#B79CFF",
+          "#F2FFFD"
+        ],
+        "fuente": "Pacifico",
+        "envase_en": "Iridescent holographic PET bottle shifting between aqua (#3FD1C7) and lilac (#B79CFF) with a pearl white (#F2FFFD) dome cap, filled with green capsules visible through a small clear window",
+        "etiqueta_en": "Pearl white label (#F2FFFD) with a flowing script 'Sirena' logo in aqua, a mermaid tail drawn as a seaweed frond, bubbles and tiny shells, holographic foil accents, dreamy and playful mood",
+        "escena_en": "Aqua water-ripple caustic light projected on a white surface, scattered pearls, seashells and a sea glass bowl of capsules, cool dreamy lighting with lilac highlights"
+      },
+      {
+        "nombre": "Herbaria",
+        "eslogan": "Veinte plantas, una defensa sabia",
+        "descriptor": "Cápsulas de 20 plantas",
+        "idea": "Botica en cámara lenta: muestra las 20 plantas una a una y cómo terminan en una cápsula.",
+        "publico": "Adultos 30-55 que prefieren lo botánico, orgánico y de calidad",
+        "inspiracion": "Arrae de Nicole y Lauren",
+        "paleta": [
+          "#4F6B4A",
+          "#E9E2D0",
+          "#A8743F"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Amber glass apothecary jar with a natural cork-and-wood lid (#A8743F), capsules inside, with a kraft paper tag tied with jute string",
+        "etiqueta_en": "Cream textured paper label (#E9E2D0) with a classic serif 'HERBARIA' wordmark in sage green (#4F6B4A), botanical engravings of moringa, turmeric, oregano and sea moss in a circular wreath, numbered '20 plantas', vintage apothecary mood",
+        "escena_en": "Old wooden apothecary table with a mortar and pestle, dried herbs bundles, turmeric roots, black seeds in a brass spoon, soft natural side light through a window"
+      },
+      {
+        "nombre": "Tótem",
+        "eslogan": "Fuerza ancestral, defensas de guerrero",
+        "descriptor": "Cápsulas de energía y defensas",
+        "idea": "Hombre entrenando al amanecer en la montaña: 'lo que tomaban los ancestros antes de la batalla'.",
+        "publico": "Hombres 25-45 fit, outdoor y amantes de lo ancestral",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#1E1E1E",
+          "#D9822B",
+          "#6B8F3A"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Matte black (#1E1E1E) HDPE bottle with a wide black cap and a burnt orange (#D9822B) tamper band, capsules inside",
+        "etiqueta_en": "Black label with a tall condensed 'TÓTEM' logo in burnt orange, a geometric totem pole icon built from leaf shapes in olive green (#6B8F3A), tribal line patterns, rugged and powerful mood",
+        "escena_en": "Dark volcanic rock surface outdoors at dawn, misty mountains behind, a leather training glove and a rope, dramatic orange rim light"
+      }
+    ]
+  },
+  {
+    "registro": "F15",
+    "marcas": [
+      {
+        "nombre": "Rayito",
+        "eslogan": "Sol en cápsula para días grises",
+        "descriptor": "Cápsulas blandas D3 y K2",
+        "idea": "'Cosas de vivir en Bogotá': cielo gris, la cápsula dorada brilla y todo se pone en color.",
+        "publico": "Jóvenes 18-30 de ciudades frías que trabajan en oficina",
+        "inspiracion": "Goli de Michael Bitensky",
+        "paleta": [
+          "#FFB627",
+          "#4A90E2",
+          "#FFFFFF"
+        ],
+        "fuente": "Baloo 2",
+        "envase_en": "Translucent sky blue (#4A90E2) PET bottle showing glossy golden softgels inside, with a bright sunshine yellow (#FFB627) flip-top cap",
+        "etiqueta_en": "White label with a chunky rounded 'rayito' logo in yellow, a cute sun breaking through a gray cloud illustration, bold '5.000 UI' badge, cheerful comic mood",
+        "escena_en": "Rainy window with droplets on one side and a burst of warm sunlight on the other, white desk, a laptop corner, a yellow umbrella and a mug, contrast of cool and warm light"
+      },
+      {
+        "nombre": "Lumbre",
+        "eslogan": "La luz dorada de tus huesos",
+        "descriptor": "Vitamina D3 y K2 premium",
+        "idea": "Primer plano ASMR de la cápsula ámbar a contraluz, como joya, con ritual matutino elegante.",
+        "publico": "Mujeres y hombres 35-55 que invierten en longevidad y bienestar",
+        "inspiracion": "Ritual de Katerina Schneider",
+        "paleta": [
+          "#D98E04",
+          "#1C1A17",
+          "#EFE6D8"
+        ],
+        "fuente": "Abril Fatface",
+        "envase_en": "Heavy clear glass jar with a thick base showing amber softgels, with a matte black (#1C1A17) aluminum lid and a gold (#D98E04) foil seal",
+        "etiqueta_en": "Minimal clear label with a high-contrast serif \"Lumbre\" logo in black, a single glowing flame-shaped golden droplet icon in gold foil (#D98E04), fine typography for \"D3 10.000 UI + K2 MK-7\", jewel-like luxury mood",
+        "escena_en": "Warm beige plaster wall and limestone plinth, backlit softgels glowing like amber jewels, a gold spoon and a glass of water, warm sunset light with crisp shadows"
+      },
+      {
+        "nombre": "Titanio",
+        "eslogan": "Huesos de titanio, cero lesiones",
+        "descriptor": "D3 y K2 alta potencia",
+        "idea": "Levantamiento pesado en el gym: 'mis huesos son de titanio', con rayos X animados de un esqueleto metálico.",
+        "publico": "Hombres y mujeres 20-45 que entrenan pesas y crossfit",
+        "inspiracion": "Project Rock de Dwayne Johnson",
+        "paleta": [
+          "#8A9199",
+          "#0D0F12",
+          "#E63946"
+        ],
+        "fuente": "Bebas Neue",
+        "envase_en": "Brushed metallic silver (#8A9199) aluminum bottle with a black (#0D0F12) screw cap and red (#E63946) seal ring, softgels inside",
+        "etiqueta_en": "Black label with a tall bold 'TITANIO' logo in metallic silver, red accent stripe, a stylized bone with a titanium plate texture, '10.000 UI' badge, aggressive sporty mood",
+        "escena_en": "Gym floor with black rubber mats, chalk dust, a steel barbell plate and lifting chains, cold steel-blue lighting with red rim light"
+      }
+    ]
+  },
+  {
+    "registro": "F54",
+    "marcas": [
+      {
+        "nombre": "Carita",
+        "eslogan": "Chao granitos, hola pelo brillante",
+        "descriptor": "Zinc y cobre para piel",
+        "idea": "Antes y después de piel con granitos y pelo opaco: \"mi secreto no es skincare, es Carita\".",
+        "publico": "Mujeres Gen Z 16-28 con acné y caída de cabello",
+        "inspiracion": "Lemme de Kourtney Kardashian",
+        "paleta": [
+          "#FF5DA2",
+          "#FFD6E8",
+          "#C08A5B"
+        ],
+        "fuente": "Quicksand",
+        "envase_en": "Glossy hot pink (#FF5DA2) PET bottle with a pastel pink (#FFD6E8) pearlescent cap, capsules inside, sparkly shrink sleeve",
+        "etiqueta_en": "Pastel pink label with a rounded lowercase \"carita\" logo in hot pink (#FF5DA2) with the i dot as a sparkle, a cute glowing face and a shiny hair strand drawn in copper (#C08A5B), \"zinc + cobre\" sticker, girly and fresh mood",
+        "escena_en": "Bathroom vanity with a mirror, pink tiles, skincare bottles, a jade roller and a hair clip, soft ring-light glow"
+      },
+      {
+        "nombre": "Zinnia",
+        "eslogan": "Belleza que florece desde adentro",
+        "descriptor": "Zinc y cobre de belleza",
+        "idea": "Flor zinnia abriéndose en timelapse mientras la piel y el cabello lucen sanos, tono spa y calmado.",
+        "publico": "Mujeres 28-45 que cuidan piel y cabello con un enfoque natural",
+        "inspiracion": "Poosh de Kourtney Kardashian",
+        "paleta": [
+          "#B5654A",
+          "#F5E6DA",
+          "#7C8B6F"
+        ],
+        "fuente": "Syne",
+        "envase_en": "Frosted copper-toned (#B5654A) glass bottle with a matte blush (#F5E6DA) ceramic-look cap, capsules inside, sold in a recycled paper sleeve",
+        "etiqueta_en": "Blush label with a modern wide 'ZINNIA' wordmark in copper, a minimal line drawing of a zinnia flower in sage (#7C8B6F), copper foil details, soft natural luxury mood",
+        "escena_en": "Spa setting with a stone basin, fresh zinnia flowers, eucalyptus, a folded white towel and water droplets, soft diffused daylight"
+      },
+      {
+        "nombre": "Cresta",
+        "eslogan": "Pelo y defensas en la cresta",
+        "descriptor": "Zinc y cobre para hombre",
+        "idea": "Hombre peinándose frente al espejo: \"mi papá perdió el pelo a los 30, yo sigo en la cresta\", zinc y cobre como secreto.",
+        "publico": "Hombres 25-45 con caída de cabello y defensas bajas",
+        "inspiracion": "Hims de Andrew Dudum",
+        "paleta": [
+          "#1F3A5F",
+          "#C87533",
+          "#E8EDF2"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Matte navy blue (#1F3A5F) HDPE bottle with a copper (#C87533) metallic cap, capsules inside",
+        "etiqueta_en": "Navy label with a heavy bold \"CRESTA\" logo in light gray (#E8EDF2) topped by a sharp copper (#C87533) wave-crest swoop that doubles as a hair quiff, a copper \"Zn + Cu\" element badge, clean masculine and confident mood",
+        "escena_en": "Men's bathroom counter in dark slate, a beard comb, razor, a watch and a towel, cool clean morning light with a copper reflection"
+      }
+    ]
+  },
+  {
+    "registro": "F56",
+    "marcas": [
+      {
+        "nombre": "Flaquis",
+        "eslogan": "Flaquis, pero con pelo y energía",
+        "descriptor": "Multivitamínico para usuarios GLP-1",
+        "idea": "\"Cosas que nadie te dice del Ozempic\": caída de pelo y cansancio, y Flaquis como el kit que lo resuelve.",
+        "publico": "Mujeres 22-40 que usan Ozempic u otros GLP-1 y lo cuentan en redes",
+        "inspiracion": "Bloom Nutrition de Mari Llewellyn",
+        "paleta": [
+          "#7B61FF",
+          "#C8F169",
+          "#FFFFFF"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Purple (#7B61FF) carton box holding 30 daily tablet sachets in lime green (#C8F169) foil, each sachet printed with the day number, plus a purple pill organizer bottle",
+        "etiqueta_en": "Bold purple box with a retro-rounded \"flaquis\" logo in lime (#C8F169), a cute smiling injection pen character holding a vitamin, weekly calendar graphics, fun and empowering mood",
+        "escena_en": "Bright white desk with a pastel calendar, a tape measure in a loose curl, a protein smoothie and a phone showing a weekly planner, crisp high-key daylight"
+      },
+      {
+        "nombre": "Cómplice",
+        "eslogan": "Pierde peso, no tu brillo",
+        "descriptor": "Nutrición diaria para GLP-1",
+        "idea": "Testimonio íntimo de mujer en tratamiento: 'bajé 12 kilos sin perder mi pelo ni mi energía'.",
+        "publico": "Mujeres 35-55 en tratamiento médico con GLP-1 que cuidan su imagen",
+        "inspiracion": "Ritual de Katerina Schneider",
+        "paleta": [
+          "#E7C6B5",
+          "#5A4A42",
+          "#FAF6F2"
+        ],
+        "fuente": "Montserrat",
+        "envase_en": "Elegant matte nude (#E7C6B5) rigid box with a magnetic flap, containing 30 cream (#FAF6F2) daily sachets of tablets in neat rows",
+        "etiqueta_en": "Nude box with a refined sans-serif \"CÓMPLICE\" wordmark in espresso brown (#5A4A42), a subtle linked-hands line icon, minimal text \"multivitamínico + magnesio + B12 + calcio D3\", calm and sophisticated mood",
+        "escena_en": "Soft beige bedroom vanity with a silk scarf, a gold watch, a glass of water and white orchids, warm diffused morning light"
+      },
+      {
+        "nombre": "Solo Kilos",
+        "eslogan": "Bajas kilos, no músculo ni pelo",
+        "descriptor": "Pack nutricional para GLP-1",
+        "idea": "Comparativa directa: 'con la inyección pierdes kilos, músculo y pelo; con Solo Kilos, solo kilos'.",
+        "publico": "Hombres y mujeres 30-60 prácticos que usan GLP-1 y quieren resultados claros",
+        "inspiracion": "Hims de Andrew Dudum",
+        "paleta": [
+          "#00A676",
+          "#111827",
+          "#F3F4F6"
+        ],
+        "fuente": "Archivo Black",
+        "envase_en": "Clinical white (#F3F4F6) carton box with a green (#00A676) tear strip, holding 30 numbered daily sachets of tablets in charcoal (#111827) foil",
+        "etiqueta_en": "White box with a bold heavy 'SOLO KILOS' logo in charcoal, a downward scale arrow in green, a checklist of 'pelo, músculo, energía' with green checks, straightforward clinical mood",
+        "escena_en": "Clean white counter with a digital scale, a dumbbell, a glass of water and a weekly injection pen case, bright neutral clinical lighting"
+      }
+    ]
+  },
+  {
+    "registro": "F26",
+    "marcas": [
+      {
+        "nombre": "Mori",
+        "eslogan": "Energía verde sin taquicardia",
+        "descriptor": "Cápsulas de moringa",
+        "idea": "'Dejé el tercer café por esto': día universitario con energía estable gracias a Mori.",
+        "publico": "Jóvenes 18-30 que quieren energía sin exceso de café",
+        "inspiracion": "OLLY de Eric Lee",
+        "paleta": [
+          "#7BC950",
+          "#FFF4D6",
+          "#2D6A4F"
+        ],
+        "fuente": "Fredoka",
+        "envase_en": "Bright leaf green (#7BC950) PET bottle with a cream (#FFF4D6) flip cap, green capsules inside, rounded friendly shape",
+        "etiqueta_en": "Cream label with a bubbly lowercase 'mori' logo in dark green (#2D6A4F), a smiling moringa leaf character with sneakers, 'energía verde' badge, playful youthful mood",
+        "escena_en": "Pastel green backdrop, a matcha-colored tote bag, earbuds, a notebook with stickers and fresh moringa leaves, bright sunny light"
+      },
+      {
+        "nombre": "Oleifera",
+        "eslogan": "El árbol milagro, en su forma pura",
+        "descriptor": "Moringa orgánica en cápsula",
+        "idea": "Del árbol a la cápsula: hojas secadas al sol en finca colombiana, estética de documental slow.",
+        "publico": "Adultos 30-50 que buscan superalimentos orgánicos y de origen",
+        "inspiracion": "Moon Juice de Amanda Chantal Bacon",
+        "paleta": [
+          "#5B7553",
+          "#EDE8DC",
+          "#B08D57"
+        ],
+        "fuente": "Cormorant Garamond",
+        "envase_en": "Matte sage green (#5B7553) glass jar with a bamboo lid and a small kraft tag, capsules inside",
+        "etiqueta_en": "Off-white linen-texture label (#EDE8DC) with an elegant italic serif 'Oleifera' wordmark, a botanical line drawing of a moringa branch with pods, gold (#B08D57) foil accents, Latin botanical name, serene premium mood",
+        "escena_en": "Rustic wooden table on a sunlit Colombian farm terrace, a woven basket of dried moringa leaves, a ceramic bowl and a linen cloth, dappled sunlight through leaves"
+      },
+      {
+        "nombre": "Matica",
+        "eslogan": "La matica que da energía",
+        "descriptor": "Moringa para energía diaria",
+        "idea": "La abuela mostrando su mata de moringa del patio: 'esta matica me tiene así de activa a los 70'.",
+        "publico": "Adultos 45+ y familias que confían en los remedios de la abuela",
+        "inspiracion": "isima de Shakira",
+        "paleta": [
+          "#2E8B57",
+          "#F4C430",
+          "#FFFDF5"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "White (#FFFDF5) HDPE bottle with a bright green (#2E8B57) cap and a yellow (#F4C430) seal ring, capsules inside, family size",
+        "etiqueta_en": "White label with a friendly retro 'Matica' logo in green, a potted moringa plant illustration in a clay pot, yellow sun accent, simple trustworthy popular mood",
+        "escena_en": "Colorful Colombian patio with potted plants, a clay pot with a moringa plant, a tinto coffee cup on a wooden bench and a crocheted tablecloth, warm natural daylight"
+      }
+    ]
+  },
+  {
+    "registro": "F55",
+    "marcas": [
+      {
+        "nombre": "Machete",
+        "eslogan": "Afilado de las 5 a.m. a medianoche",
+        "descriptor": "Multivitamínico para hombre",
+        "idea": "Día de un trabajador colombiano de 5 a.m. a medianoche: \"esto es lo que toma un hombre Machete\".",
+        "publico": "Hombres 28-55 trabajadores, de carácter fuerte y humor paisa",
+        "inspiracion": "ZOA de Dwayne Johnson",
+        "paleta": [
+          "#C1121F",
+          "#000000",
+          "#FDF0D5"
+        ],
+        "fuente": "Anton",
+        "envase_en": "Glossy black (#000000) HDPE bottle with a red (#C1121F) cap, tablets inside, sturdy wide shoulders",
+        "etiqueta_en": "Black label with a massive condensed \"MACHETE\" logo in red (#C1121F) with a cream (#FDF0D5) outline, a machete blade slash cutting through the logo, \"energía + defensas\" banner, loud and macho mood",
+        "escena_en": "Workshop bench with tools, work gloves, a hard hat and a thermos of coffee, dramatic warm tungsten light with deep shadows"
+      },
+      {
+        "nombre": "Mando",
+        "eslogan": "Energía para tomar el mando",
+        "descriptor": "Multivitamínico premium masculino",
+        "idea": "Ejecutivo que lidera una reunión caótica sin despeinarse: \"aquí el que tiene el Mando soy yo\", ashwagandha como estrella.",
+        "publico": "Hombres 35-55 profesionales con estrés que buscan rendimiento y calma",
+        "inspiracion": "Hims de Andrew Dudum",
+        "paleta": [
+          "#2F3E46",
+          "#B08968",
+          "#F2F2F0"
+        ],
+        "fuente": "Playfair Display",
+        "envase_en": "Matte slate gray (#2F3E46) glass bottle with a walnut wood (#B08968) cap, tablets inside, in a minimalist rigid box",
+        "etiqueta_en": "Slate label with a classic serif \"Mando\" wordmark in off-white (#F2F2F0), a thin bronze (#B08968) compass-needle line pointing north, discreet ingredient list \"licopeno, probióticos, ashwagandha\", sober executive mood",
+        "escena_en": "Dark walnut desk with a leather notebook, a fountain pen, an espresso cup and a steel watch, soft directional window light"
+      },
+      {
+        "nombre": "Parce",
+        "eslogan": "El multi de tu parce",
+        "descriptor": "Multivitamínico para hombre joven",
+        "idea": "Dos amigos en el gym: 'parce, ¿usted qué toma?', con humor colombiano y reto viral.",
+        "publico": "Hombres 18-30 universitarios y de gimnasio",
+        "inspiracion": "Ghost de Dan Lourenco",
+        "paleta": [
+          "#00B4D8",
+          "#FFD60A",
+          "#0B0B0B"
+        ],
+        "fuente": "Righteous",
+        "envase_en": "Electric cyan (#00B4D8) PET bottle with a black (#0B0B0B) cap and a bright yellow (#FFD60A) neck band, tablets inside",
+        "etiqueta_en": "Cyan label with a bold retro 'PARCE' logo in yellow with black outline, a fist-bump icon, street-style stickers and graffiti doodles, energetic young mood",
+        "escena_en": "Neon-lit gym corner with a black backdrop, a skateboard, a shaker bottle, headphones and a cap, colorful cyan and yellow neon lighting"
+      }
+    ]
+  }
+]
