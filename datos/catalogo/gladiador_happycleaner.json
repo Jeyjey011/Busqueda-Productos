@@ -1,0 +1,55 @@
+[
+  {
+    "clave": "gladiador",
+    "encontrado": false,
+    "ingredientes": [
+      { "nombre": "PROPUESTA - L-arginina", "dosis": "1000 mg por porción de 30 mL" },
+      { "nombre": "PROPUESTA - Maca (Lepidium meyenii) extracto", "dosis": "500 mg por porción" },
+      { "nombre": "PROPUESTA - Chuchuhuasi (Maytenus macrocarpa) macerado/extracto", "dosis": "300 mg por porción" },
+      { "nombre": "PROPUESTA - Tribulus terrestris extracto", "dosis": "250 mg por porción" },
+      { "nombre": "PROPUESTA - Ginseng (Panax ginseng) extracto", "dosis": "200 mg por porción" },
+      { "nombre": "PROPUESTA - Huanarpo macho (Jatropha macrantha)", "dosis": "200 mg por porción" },
+      { "nombre": "PROPUESTA - Clavo huasca (Tynanthus panurensis)", "dosis": "200 mg por porción" },
+      { "nombre": "PROPUESTA - Ginkgo biloba extracto", "dosis": "60 mg por porción" },
+      { "nombre": "PROPUESTA - Vitamina C", "dosis": "60 mg por porción" },
+      { "nombre": "PROPUESTA - Zinc (gluconato)", "dosis": "5 mg por porción" },
+      { "nombre": "PROPUESTA - Miel de abejas / panela (vehículo y sabor)", "dosis": "5 g por porción" },
+      { "nombre": "PROPUESTA - Agua, sorbato de potasio, benzoato de sodio, colorante rojo, saborizante", "dosis": "c.s.p. 30 mL" }
+    ],
+    "porcion": "PROPUESTA: 30 mL (una copa) - aprox. 36 porciones por botella de 1.100 mL. Referencia real: Gladiador jarabe 550 mL (Monverd) usa copa de 20 mL.",
+    "como_se_toma": "PROPUESTA basada en productos similares: agitar antes de usar; tomar 1 copa (20-30 mL) unos 30 minutos antes de la actividad sexual, o 1 copa diaria como tónico. No exceder 2 copas al día.",
+    "registro_sanitario": "No encontrado. Ninguna fuente muestra registro INVIMA ni DIGESA para la versión de 1.100 mL con guerrero espartano y la leyenda 'Pantaneo'.",
+    "fuente": "No se encontró la ficha exacta. Referencias cercanas: https://powergirlssuplementos.com/producto/precursor-gladiador/ (PRECURSOR-GLADIADOR, marca MAXI MUS, SKU PS-GL-1100ML, 1000 mL, $65.000 COP: maca, ginseng, L-arginina, ginkgo biloba, sin dosis); https://elparaisovegetalec.com/products/gladiador-jarabe-550ml (Gladiador jarabe 550 mL, Monverd, Ecuador: tribulus, maca, noni, borojó, vitamina C; 1 copa de 20 mL 30 min antes)",
+    "notas": "La fórmula completa es una PROPUESTA hecha con los ingredientes típicos de las bebidas potenciadoras andinas y amazónicas. El producto real más cercano es PRECURSOR-GLADIADOR de MAXI MUS (su SKU dice 1100ML). Sus ingredientes confirmados son maca, ginseng, L-arginina y ginkgo. 'Pantaneo' es jerga para referirse al rendimiento sexual. Advertencia regulatoria: en Colombia un producto con declaraciones de potencia sexual o 'efecto instantáneo' no puede registrarse como alimento ni como suplemento. Las bebidas de este tipo sin registro han sido objeto de alertas sanitarias por llevar sildenafil o tadalafil sin declararlo. Hay que verificar el registro INVIMA en la etiqueta física antes de venderlo."
+  },
+  {
+    "clave": "happy_cleaner",
+    "encontrado": true,
+    "ingredientes": [
+      { "nombre": "Fibra dietaria - Inulina (prebiótico)", "dosis": "Ingrediente principal; sobre de 4,28 g en la versión original de 14 sobres (cantidad exacta de inulina no publicada)" },
+      { "nombre": "Bifidobacterium bifidum", "dosis": "No publicada (mezcla probiótica)" },
+      { "nombre": "Lactobacillus rhamnosus", "dosis": "No publicada (mezcla probiótica)" },
+      { "nombre": "Lactobacillus acidophilus", "dosis": "No publicada (mezcla probiótica)" },
+      { "nombre": "Polvo de fruta de arándano rojo (cranberry)", "dosis": "No publicada" },
+      { "nombre": "Saborizante natural de sandía / bayas, edulcorante sin azúcar (tipo estevia)", "dosis": "No publicada" },
+      { "nombre": "PROPUESTA versión 453 g (copa de 30 g) - Inulina (agave/achicoria)", "dosis": "14 g" },
+      { "nombre": "PROPUESTA - Glucomanano (saciedad, controla la ansiedad por comer)", "dosis": "2 g" },
+      { "nombre": "PROPUESTA - Psyllium (cáscara de plantago)", "dosis": "2 g" },
+      { "nombre": "PROPUESTA - Polvo de sandía", "dosis": "4 g" },
+      { "nombre": "PROPUESTA - Polvo de piña (bromelina, para desinflamar)", "dosis": "1 g" },
+      { "nombre": "PROPUESTA - Polvo de remolacha (color y antioxidante)", "dosis": "1 g" },
+      { "nombre": "PROPUESTA - Jengibre en polvo", "dosis": "0,3 g" },
+      { "nombre": "PROPUESTA - Extracto de té verde", "dosis": "0,2 g" },
+      { "nombre": "PROPUESTA - Probióticos (L. acidophilus, L. rhamnosus, B. bifidum)", "dosis": "0,1 g (aprox. 1x10^9 UFC)" },
+      { "nombre": "PROPUESTA - Ácido cítrico", "dosis": "1 g" },
+      { "nombre": "PROPUESTA - Sabor natural a sandía", "dosis": "1 g" },
+      { "nombre": "PROPUESTA - Estevia / sucralosa", "dosis": "0,1 g" },
+      { "nombre": "PROPUESTA - Maltodextrina (relleno)", "dosis": "c.s.p. 30 g (aprox. 3,3 g)" }
+    ],
+    "porcion": "Original Newellme: 1 sobre (4,28 g), cajas de 14 o 28 sobres (aprox. 150 g por caja de 14). Versión de dropshipping de 453 g: 1 copa de 30 g, aprox. 15 porciones (la fórmula de 30 g es PROPUESTA).",
+    "como_se_toma": "Mezclar 1 sobre (o 1 copa) en 8 oz (237 mL) de agua, agitar y tomar 1 vez al día, de preferencia en la mañana o antes de la comida principal. Tomar suficiente agua durante el día. Algunos vendedores indican 1-2 sobres al día.",
+    "registro_sanitario": "No encontrado registro INVIMA. Es un producto importado de EE. UU. (Amazon/Walmart/TikTok Shop) que se vende como suplemento dietario según la normativa de la FDA (DSHEA), y no se halló notificación sanitaria en Colombia.",
+    "fuente": "https://www.ebay.com/itm/206305280761 (según el resumen del buscador: inulina, B. bifidum, L. rhamnosus, L. acidophilus, polvo de cranberry; 4,28 g por sobre); https://www.amazon.com/-/es/Newellme-Happy-Cleaner-Probi%C3%B3ticos-prebi%C3%B3ticos/dp/B0DT9DPJ76 (prebióticos, probióticos, fibra orgánica, sin azúcar, sabor sandía); https://www.lacasadelaabuelita.com/products/993/happy-cleaner-sabor-sandia-14-sachet (1-2 sobres al día, 0,15 kg)",
+    "notas": "Newellme tiene varias líneas Happy Cleaner: la prebiótica/probiótica con inulina, la Super Greens (clorela, espirulina, kale, cúrcuma) y una de superalimentos con remolacha, espinaca, arándano y kale. La de sandía con inulina corresponde a la línea prebiótica/probiótica. La presentación de 453 g con copa de 30 g ('Feliz y Limpio') no aparece en internet, así que es probablemente una versión genérica de dropshipping; su fórmula de 30 g es PROPUESTA. Tiene sentido que la porción sea de 30 g frente a los 4,28 g del sobre original porque es fibra a granel. Para venderlo en Colombia como alimento o suplemento hace falta registro o notificación INVIMA. Evitar declaraciones de 'bajar de peso' o 'desinflamar'."
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "nombre": "Genius Gummy - Focus + Attention (Kids' Balance Supplement), sabor fresa",
+  "marca": "JoySpring",
+  "para_que": "Suplemento herbal para que los niños se concentren y presten atención (enfoque, memoria y calma mental, sobre todo para el colegio). Es a base de plantas (gotu kola, rodiola, regaliz, bacopa y flor de hibisco), sin azúcar añadida, sin gluten y vegano. No es un medicamento.",
+  "publico": "Niños desde 4 años (también se ofrece para adolescentes). Uso: 2 gomitas al día, idealmente 30 min antes/después del colegio, de forma constante por 3+ semanas.",
+  "presentacion": "Gomita",
+  "envase": "Bolsa doypack azul claro con cierre, personaje rosado con gafas; 60 gomitas en forma de estrella sabor fresa (30 porciones). Hecho en EE. UU.",
+  "porcion": "2 gomitas (30 porciones por bolsa; 60 gomitas). 10 kcal, 4 g carbohidratos, 15 mg sodio por porción.",
+  "ingredientes": [
+    { "nombre": "Flor de hibisco (Hibiscus mutabilis L.), de 50 mg de extracto 10:1", "dosis": "500 mg (equivalente)" },
+    { "nombre": "Raíz de Rhodiola rosea (Rhodiola crenulata), de 10 mg de extracto 50:1", "dosis": "500 mg (equivalente)" },
+    { "nombre": "Gotu kola (Centella asiatica L.), de 6,25 mg de extracto 40:1", "dosis": "250 mg (equivalente)" },
+    { "nombre": "Raíz de regaliz (Glycyrrhiza uralensis Fisch.), de 10 mg de extracto 10:1", "dosis": "100 mg (equivalente)" },
+    { "nombre": "Hoja de bacopa (Bacopa monnieri), de 10 mg de extracto 10:1", "dosis": "100 mg (equivalente)" },
+    { "nombre": "Otros ingredientes: solución de maltitol, isomalt, pectina, ácido cítrico, citrato de sodio, sabor natural a fresa, aceite vegetal, concentrado de jugo de zanahoria morada, cera de carnauba", "dosis": null }
+  ],
+  "url_imagen": "https://nexoversecol.com/cdn/shop/files/IMG-1786.jpg",
+  "url_fuente": "https://nexoversecol.com/products/focus-attention-gomitas-genius-gummy-ninos-x60-unidades",
+  "precio": "COP $151.819 en Nexoverse Colombia (nexoversecol.com). Referencia EE. UU.: USD $24,99 web oficial (joyspringvitamins.com, a veces $21,24 en oferta), USD $29,99 Amazon, ~USD $30 iHerb.",
+  "notas": "Producto identificado y confirmado visualmente (bolsa azul con personaje rosado) en las imágenes de la tienda colombiana. Las dosis vienen de la tabla Supplement Facts publicada como imagen: https://nexoversecol.com/cdn/shop/files/IMG-1790.png. OJO: los mg declarados son el EQUIVALENTE en planta seca; el extracto real por porción es pequeño (50 mg hibisco, 10 mg rodiola, 6,25 mg gotu kola, 10 mg regaliz, 10 mg bacopa). Página oficial: https://joyspringvitamins.com/products/joyspring-genius-gummy (no se pudo abrir por error de certificado). También en Amazon (ASIN B0CDHJ89LD), iHerb (id 159662, incluye co.iherb.com) y TikTok Shop US. No confundir con 'B.Genius Focus' (omega 3/DHA) ni 'Genius IQ Kids'. Contiene regaliz y rodiola: revisar viabilidad de registro INVIMA como suplemento dietario."
+}

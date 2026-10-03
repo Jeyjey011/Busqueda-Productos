@@ -30,7 +30,7 @@ const estadoDe = (r) => (r.maneja ? 'Ya lo manejan' : r.quem ? 'Quemado' : '');
 const cache = new Map();
 function imagen(wb, clave) {
   if (cache.has(clave)) return cache.get(clave);
-  const ruta = clave.startsWith('E:') ? path.join(RAIZ, 'salida', 'empaques', `m_${clave.slice(2)}.jpg`) : path.join(RAIZ, 'salida', 'cache_imagenes_web', `m_${clave}.jpg`);
+  const ruta = clave.startsWith('E:') ? path.join(RAIZ, 'salida', 'empaques', `m_${clave.slice(2)}.jpg`) : clave.startsWith('K:') ? path.join(RAIZ, 'salida', 'catalogo', `m_${clave.slice(2)}.jpg`) : path.join(RAIZ, 'salida', 'cache_imagenes_web', `m_${clave}.jpg`);
   const id = fs.existsSync(ruta) ? wb.addImage({ buffer: fs.readFileSync(ruta), extension: 'jpeg' }) : undefined;
   cache.set(clave, id);
   return id;
@@ -76,10 +76,10 @@ function fila(ws, rN, cols, dato, n, wb, claveImg) {
     if (col.negrita) c.font = { ...c.font, bold: true, size: 11 };
     if (col.wrap && typeof v === 'string') lineas = Math.max(lineas, v.split('\n').reduce((s, t) => s + Math.max(1, Math.ceil(t.length / (col.w * 1.05))), 0));
   });
-  const esEmp = String(claveImg || '').startsWith('E:');
+  const esEmp = /^[EK]:/.test(String(claveImg || ''));
   ws.getRow(rN).height = Math.max(esEmp ? 80 : 64, lineas * 13.5 + 6);
   const img = claveImg && imagen(wb, claveImg);
-  if (img !== undefined) ws.addImage(img, { tl: { col: 0.06, row: rN - 1 + 0.05 }, ext: esEmp ? { width: 176, height: 99 } : { width: 80, height: 80 }, editAs: 'oneCell' });
+  if (img !== undefined) ws.addImage(img, { tl: { col: Math.max(0, cols.findIndex((c) => /Imagen|Envases/.test(c.h))) + 0.06, row: rN - 1 + 0.05 }, ext: esEmp ? { width: 176, height: 99 } : { width: 80, height: 80 }, editAs: 'oneCell' });
 }
 const imprimir = (ws, filaTitulos) => { ws.pageSetup = { orientation: 'landscape', paperSize: 9, fitToPage: true, fitToWidth: 1, fitToHeight: 0, printTitlesRow: `${filaTitulos}:${filaTitulos}` }; };
 const marcas = (r) => r.marcas.map((b) => b.nombre).join('\n');
@@ -93,13 +93,13 @@ wb.creator = 'Claude (proyecto INVIMA)';
   const cols = [
     { h: '#', w: 5, k: (m) => m._n, centro: true, negrita: true },
     { h: 'Envases (ilustrativo)', w: 26, k: () => null },
-    { h: 'Producto a mandar a hacer', w: 30, k: (m) => regPorId[m.reg].n, wrap: true, negrita: true },
+    { h: 'Producto a mandar a hacer', w: 30, k: (m) => (m.titulo ? m.titulo + '\nRegistro: ' + regPorId[m.reg].n : regPorId[m.reg].n), wrap: true, negrita: true },
     { h: 'Para qué es', w: 22, k: (m) => regPorId[m.reg].ben, wrap: true },
     { h: 'Estado', w: 13, k: (m) => m.estado, estado: true },
     { h: 'Presentación', w: 13, k: (m) => regPorId[m.reg].pres, centro: true },
     { h: 'Ingredientes para el registro (dosis por porción)', w: 52, k: (m) => m.ing.map((i) => (i.d ? `• ${i.n}: ${i.d}` : `• ${i.n}`)).join('\n'), wrap: true },
     { h: 'Porción, envase y cómo se toma', w: 30, k: (m) => [m.porcion && `Porción: ${m.porcion}`, m.envase && `Envase: ${m.envase}`, m.como && `Cómo se toma: ${m.como}`].filter(Boolean).join('\n'), wrap: true },
-    { h: 'Se vende hoy (productos reales)', w: 38, k: (m) => regPorId[m.reg].refs.slice(0, 3).map((id) => prodPorId[id]).filter(Boolean).map((p) => `• ${p.n} (${paises(p.paises)}): ${fmt(p.u ?? p.w)} u.`).join('\n'), wrap: true },
+    { h: 'Se vende hoy (productos reales)', w: 38, k: (m) => (m.marcaActual ? `Producto actual: ${m.marcaActual}${m.dropi ? ' (Dropi ' + m.dropi + ')' : ''}\n` : '') + regPorId[m.reg].refs.slice(0, 3).map((id) => prodPorId[id]).filter(Boolean).map((p) => `• ${p.n} (${paises(p.paises)}): ${fmt(p.u ?? p.w)} u.`).join('\n'), wrap: true },
     { h: 'Unidades vendidas', w: 13, k: (m) => regPorId[m.reg].us + regPorId[m.reg].mx, fmt: '#,##0' },
     { h: 'Periodo', w: 11, k: (m) => (regPorId[m.reg].periodo ? 'Últimos 28 días' : 'Septiembre 2026'), centro: true, wrap: true },
     { h: 'Marcas', w: 20, k: (m) => marcas(regPorId[m.reg]), wrap: true, negrita: true },
@@ -108,9 +108,9 @@ wb.creator = 'Claude (proyecto INVIMA)';
   encabezado(ws, 'Para mandar a hacer', 'Lista para el maquilador, en orden de prioridad: qué producto hacer, con qué ingredientes y dosis, cuánto vende hoy lo parecido en TikTok Shop y con qué marcas. Las imágenes de envases son ilustrativas.', cols.length);
   cabeceras(ws, 4, cols);
   let rN = 5, n = 0;
-  for (const [titulo, lista] of [['LÍNEA PROPIA', D.mandar.linea], ['LO MÁS VENDIDO PARA SACAR', D.mandar.top]]) {
+  for (const [titulo, lista] of [['DEL CATÁLOGO DE USTEDES · SACAR REGISTRO', D.mandar.catalogo || []], ['LÍNEA PROPIA', D.mandar.linea], ['LO MÁS VENDIDO PARA SACAR', D.mandar.top]]) {
     seccion(ws, rN++, `${titulo}  ·  ${lista.length} productos`, cols.length);
-    lista.forEach((m, i) => { n++; fila(ws, rN++, cols, { ...m, _n: n }, i, wb, claveImagenReg(regPorId[m.reg])); });
+    lista.forEach((m, i) => { n++; fila(ws, rN++, cols, { ...m, _n: n }, i, wb, m.foto ? `K:${m.foto}` : claveImagenReg(regPorId[m.reg])); });
   }
   imprimir(ws, 4);
 }

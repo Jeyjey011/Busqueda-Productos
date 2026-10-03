@@ -357,7 +357,7 @@ function tarjeta(r, i) {
   return `<article class="reg${r.nivel ? ' atenuado' : ''}" style="--i:${i}">
     <div class="portada${D.emp[r.id] ? ' e' : ''}">${portada}<span class="cod">${r.id}</span></div>
     <div class="cuerpo">
-      <div><h3>${esc(r.n)}</h3>${r.ben ? `<div style="margin-top:8px"><span class="ben">${esc(r.ben)}</span></div>` : ''}</div>
+      <div><h3>${esc(m.titulo || r.n)}</h3>${m.titulo ? `<p class="dato">Registro: ${esc(r.n)}</p>` : ''}${r.ben ? `<div style="margin-top:8px"><span class="ben">${esc(r.ben)}</span></div>` : ''}</div>
       <div class="meta">${r.maneja ? `<span class="maneja">Ya lo manejan</span>` : ''}${r.quem && !r.maneja ? tend('quemado', null) : ''}<span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
       ${r.maneja ? `<p class="nota">${esc(r.maneja)}. Se muestra al final para no repetir lo que ya funciona.</p>` : ''}
       <div><p class="lbl">Ingredientes</p><div class="ings">${ing.map((x) => `<span>${esc(x)}</span>`).join('')}${r.ing.length > 5 ? `<span>+${r.ing.length - 5} más</span>` : ''}</div></div>
@@ -405,12 +405,15 @@ function abrirRegistro(id) {
 /* ---------- PARA MANDAR A HACER ---------- */
 function tarjetaMandar(m, n) {
   const r = regPorId[m.reg]; if (!r) return '';
-  const img = D.emp[r.id] ? fotoEmp(r.id, 'foto grande') : (r.refs[0] ? foto(r.refs[0], prodPorId[r.refs[0]]?.n, '') : '');
+  const fotoCat = (k) => (D.cat[k] ? `<img class="foto grande" src="${D.cat[k].src}" alt="${esc(D.cat[k].nombre)}" data-zoom="K:${k}">` : '');
+  const img = m.foto && D.cat[m.foto] ? fotoCat(m.foto) + (m.foto2 ? fotoCat(m.foto2) : '') : D.emp[r.id] ? fotoEmp(r.id, 'foto grande') : (r.refs[0] ? foto(r.refs[0], prodPorId[r.refs[0]]?.n, '') : '');
   const per = r.periodo ? 'últimos 28 días' : 'septiembre';
   const cls = m.estado === 'Ya lo manejan' ? 'maneja' : m.estado === 'Del ranking' ? 'ranking' : '';
   return `<article class="mh" style="--i:${n}">
     <div class="izq">${img}
-      <div><p class="lbl">Se vende hoy (${per})</p><div class="vende">${r.refs.slice(0, 3).map((id) => { const p = prodPorId[id]; return p ? `<div class="p">${D.imgs[id] ? `<img src="${D.imgs[id]}" alt="" data-zoom="${id}" class="foto">` : '<span></span>'}<span>${esc(p.n)}<br><span class="dato">${esc(p.m)} · ${paises(p.paises)}</span></span><b>${fmt(p.u ?? p.w)}</b></div>` : ''; }).join('')}</div>
+      ${m.marcaActual ? `<p class="dato"><b>Producto actual:</b> ${esc(m.marcaActual)}${m.dropi ? ' · Dropi ID ' + esc(m.dropi) : ''}</p>` : ''}
+      ${r.refs.length ? '' : '<p class="dato">No está en el ranking de TikTok Shop: es un producto de su catálogo.</p>'}
+      <div${r.refs.length ? '' : ' hidden'}><p class="lbl">Se vende hoy (${per})</p><div class="vende">${r.refs.slice(0, 3).map((id) => { const p = prodPorId[id]; return p ? `<div class="p">${D.imgs[id] ? `<img src="${D.imgs[id]}" alt="" data-zoom="${id}" class="foto">` : '<span></span>'}<span>${esc(p.n)}<br><span class="dato">${esc(p.m)} · ${paises(p.paises)}</span></span><b>${fmt(p.u ?? p.w)}</b></div>` : ''; }).join('')}</div>
       <p class="dato" style="margin-top:6px">Total del grupo: <b>${fmt(r.us + r.mx)}</b> unidades (${per}) · EE. UU. ${fmt(r.us)} · México ${fmt(r.mx)}</p></div>
     </div>
     <div style="display:grid;gap:12px;align-content:start">
@@ -424,13 +427,15 @@ function tarjetaMandar(m, n) {
   </article>`;
 }
 function vistaMandar() {
-  const L = D.mandar.linea, T = D.mandar.top;
+  const K = D.mandar.catalogo || [], L = D.mandar.linea, T = D.mandar.top;
   return `<div class="sec-h"><div><p class="eyebrow">Lista para el maquilador</p><h2 style="margin-top:8px">Para mandar a hacer</h2></div></div>
     <p class="nota" style="max-width:80ch">Cada producto trae lo que se vende hoy en TikTok Shop y cuánto vendió, el producto que se hace, los ingredientes con dosis para el registro y sus marcas. Están en orden de prioridad: primero lo que más podría venderse; al final lo que ya manejan.</p>
+    <div class="cat-titulo"><h3>Del catálogo de ustedes · sacar registro</h3><span>${K.length} productos que ya venden en Dropi o que pidieron agregar</span></div>
+    <div class="mlist stag">${K.map((m, i) => tarjetaMandar(m, i)).join('')}</div>
     <div class="cat-titulo"><h3>Línea propia</h3><span>${L.length} productos · fórmulas con dosis para adultos (y niños donde se indica)</span></div>
-    <div class="mlist stag">${L.map((m, i) => tarjetaMandar(m, i)).join('')}</div>
+    <div class="mlist stag">${L.map((m, i) => tarjetaMandar(m, K.length + i)).join('')}</div>
     <div class="cat-titulo"><h3>Lo más vendido para sacar</h3><span>los ${T.length} registros con más demanda y tendencia</span></div>
-    <div class="mlist stag">${T.map((m, i) => tarjetaMandar(m, L.length + i)).join('')}</div>`;
+    <div class="mlist stag">${T.map((m, i) => tarjetaMandar(m, K.length + L.length + i)).join('')}</div>`;
 }
 
 /* ---------- MARCAS ---------- */
@@ -525,11 +530,12 @@ function abrirGuia() { pasoGuia = 0; pintarGuia(); if (!$('#guia').open) $('#gui
 const grandes = {};
 const cargarGrandes = (archivo) => (grandes[archivo] ||= fetch(archivo).then((x) => (x.ok ? x.json() : {})).catch(() => ({})));
 function ampliar(clave) {
+  if (clave.startsWith('K:')) { const k = clave.slice(2); const c = D.cat[k]; if (!c) return; const z0 = $('#zoom'); z0.innerHTML = '<figure><img src="' + c.src + '" alt="' + esc(c.nombre) + '"><figcaption>' + esc(c.nombre) + '<span>Foto del producto en Dropi</span></figcaption></figure>'; const ab = document.querySelector('dialog[open]'); (ab || document.body).appendChild(z0); z0.hidden = false; cargarGrandes('grandes_empaques.json').then((g) => { const im = z0.querySelector('img'); if (g[clave] && im && !z0.hidden) im.src = g[clave]; }); return; }
   const esEmp = clave.startsWith('E:'); const id = esEmp ? clave.slice(2) : clave;
   const src = esEmp ? D.emp[id] : D.imgs[id]; if (!src) return;
   const p = esEmp ? null : prodPorId[id]; const reg = esEmp ? regPorId[id] : null;
-  const titulo = esEmp ? reg.marcas.map((m) => m.nombre).join(' · ') : (p?.n || '');
-  const sub = esEmp ? 'Registro ' + reg.id + ' · ' + reg.n + ' · imagen ilustrativa' : (p?.m || '') + (p ? ' · ' + paises(p.paises) : '');
+  const titulo = esEmp ? (reg ? reg.marcas.map((m) => m.nombre).join(' · ') : '') : (p?.n || '');
+  const sub = esEmp ? (reg ? 'Registro ' + reg.id + ' · ' + reg.n + (reg.catalogo ? ' · foto del producto' : ' · imagen ilustrativa') : '') : (p?.m || '') + (p ? ' · ' + paises(p.paises) : '');
   const z = $('#zoom');
   z.innerHTML = '<figure' + (esEmp ? ' style="max-width:min(94vw,1000px)"' : '') + '><img src="' + src + '" alt="' + esc(titulo) + '"><figcaption>' + esc(titulo) + '<span>' + esc(sub) + '</span></figcaption></figure>';
   cargarGrandes(esEmp ? 'grandes_empaques.json' : 'grandes_productos.json').then((g) => { const img = z.querySelector('img'); if (g[id] && img && !z.hidden) img.src = g[id]; });

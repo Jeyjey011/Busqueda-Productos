@@ -154,6 +154,16 @@ const formulas = existe('datos/formulas_mandar_a_hacer.json') ? leer('datos/form
 const formulaDe = (clave) => formulas.find((x) => x.clave === clave);
 const ingDe = (fx) => fx.ingredientes.map((i) => `${i.nombre}: ${i.dosis}`);
 const ventasRefs = (ids, region) => ids.map((id) => productos.find((p) => p.id === id)).filter((p) => p && p.paises.includes(region)).reduce((s, p) => s + (p.u || 0), 0);
+// Catálogo del cliente en Dropi (datos/catalogo/catalogo.json)
+const catalogo = existe('datos/catalogo/catalogo.json') ? leer('datos/catalogo/catalogo.json') : { productos: [], tambien: [] };
+for (const c of catalogo.productos.filter((x) => !x.registro && x.nuevo_registro)) {
+  const n = c.nuevo_registro;
+  registros.push({
+    id: n.id, n: n.nombre, cat: n.categoria, pres: c.presentacion, ben: c.beneficio, desc: n.descripcion,
+    ing: c.ingredientes.map((i) => (i.d ? `${i.n}: ${i.d}` : i.n)), formula: c.ingredientes.map((i) => i.n).join(' + '),
+    us: 0, mx: 0, crec: null, t: 'sindato', refs: [], nprod: 0, marcas: n.marcas, extra: null, nuevo: true, catalogo: c.marca_actual,
+  });
+}
 for (const n of regNuevos) {
   const fx = n.clave ? formulaDe(n.clave) : null;
   const refs = n.refs.filter((id) => productos.some((p) => p.id === id));
@@ -194,7 +204,7 @@ registros.sort((a, b) => orden.indexOf(a.cat) - orden.indexOf(b.cat) || porPrior
 
 // ---------- Pestaña "Para mandar a hacer" ----------
 // Línea propia: los productos que el cliente ya conoce (fórmulas investigadas) + lo que ya manejan.
-const LINEA = [['N1', 'melatonina_gomita'], ['N2', 'melatonina_gotas'], ['N3', 'te_laxante'], ['F06', 'colageno'], ['N4', 'biotina_cabello'], ['N5', 'magnesio_ninos_gotas'], ['N6', null], ['F01', null]];
+const LINEA = [['N1', 'melatonina_gomita'], ['N2', 'melatonina_gotas'], ['N3', 'te_laxante'], ['F06', 'colageno'], ['N4', 'biotina_cabello'], ['N5', 'magnesio_ninos_gotas'], ['F01', null]];
 const regMap = Object.fromEntries(registros.map((r) => [r.id, r]));
 const itemMandar = (id, clave) => {
   const r = regMap[id]; if (!r) return null;
@@ -208,7 +218,15 @@ const itemMandar = (id, clave) => {
 const mandar = {
   linea: LINEA.map(([id, clave]) => itemMandar(id, clave)).filter(Boolean)
     .sort((a, b) => (regMap[a.reg].maneja ? 1 : 0) - (regMap[b.reg].maneja ? 1 : 0) || regMap[b.reg].score - regMap[a.reg].score),
-  top: registros.filter((r) => r.nivel === 0 && !LINEA.some(([id]) => id === r.id)).sort((a, b) => b.score - a.score).slice(0, 15).map((r) => itemMandar(r.id, null)),
+  catalogo: [
+    ...catalogo.productos.map((c) => {
+      const regId = c.registro || c.nuevo_registro.id; const base = itemMandar(regId, null); if (!base) return null;
+      return { ...base, estado: 'Del catálogo · sacar registro', titulo: c.nombre, marcaActual: c.marca_actual, dropi: c.dropi, foto: c.foto, foto2: c.foto2 || null,
+        ing: c.ingredientes.map((i) => ({ n: i.n, d: i.d })), porcion: c.porcion, envase: c.envase, como: c.como };
+    }).filter(Boolean),
+    ...catalogo.tambien.map((t) => { const base = itemMandar(t.registro, null); return base && { ...base, estado: 'Pedido · sacar registro', titulo: t.nombre + ' · ' + t.nota }; }).filter(Boolean),
+  ],
+  top: registros.filter((r) => r.nivel === 0 && !LINEA.some(([id]) => id === r.id) && !catalogo.tambien.some((t) => t.registro === r.id)).sort((a, b) => b.score - a.score).slice(0, 15).map((r) => itemMandar(r.id, null)),
 };
 
 // ---------- Imágenes (data URI) ----------
@@ -230,6 +248,16 @@ for (const r of registros) {
 const DIR_WEB = path.dirname(SALIDA);
 fs.mkdirSync(DIR_WEB, { recursive: true });
 fs.writeFileSync(path.join(DIR_WEB, 'grandes_productos.json'), JSON.stringify(imgsG));
+const cat = {};
+for (const c of catalogo.productos) for (const k of [c.foto, c.foto2].filter(Boolean)) {
+  const m = path.join(RAIZ, 'salida', 'catalogo', `m_${k}.jpg`), g = path.join(RAIZ, 'salida', 'catalogo', `h_${k}.jpg`);
+  if (fs.existsSync(m)) cat[k] = { src: dataUri(m), nombre: c.nombre };
+  if (fs.existsSync(g)) empG['K:' + k] = dataUri(g);
+}
+// los registros propios del catálogo usan la foto real como portada
+for (const c of catalogo.productos.filter((x) => !x.registro && x.nuevo_registro)) {
+  if (cat[c.foto] && !emp[c.nuevo_registro.id]) { emp[c.nuevo_registro.id] = cat[c.foto].src; if (empG['K:' + c.foto]) empG[c.nuevo_registro.id] = empG['K:' + c.foto]; }
+}
 fs.writeFileSync(path.join(DIR_WEB, 'grandes_empaques.json'), JSON.stringify(empG));
 const sinEmpaque = registros.filter((r) => !emp[r.id]).map((r) => r.id);
 if (sinEmpaque.length) console.warn(`Registros sin foto de empaque (${sinEmpaque.length}):`, sinEmpaque.join(', '));
@@ -250,7 +278,7 @@ const DATA = {
     marcas: registros.reduce((s, r) => s + r.marcas.length, 0),
     unidades: usMes.reduce((s, p) => s + p.unidades_periodo, 0) + mxMes.reduce((s, p) => s + p.unidades_periodo, 0),
   },
-  categorias, registros, productos, imgs, emp, mandar,
+  categorias, registros, productos, imgs, emp, cat, mandar,
 };
 // Datos sin imágenes para el Excel (mismo orden y prioridad que la web)
 fs.writeFileSync(path.join(RAIZ, 'datos', 'web_datos.json'), JSON.stringify({ ...DATA, imgs: undefined, emp: undefined }, null, 1), 'utf8');

@@ -1,0 +1,331 @@
+{
+ "nota": "Productos que el cliente ya tiene en su catálogo de Dropi (o que pidió agregar) para sacarles registro INVIMA. 'registro' apunta a un registro existente; si es null, el producto crea su propio registro con 'nuevo_registro'.",
+ "productos": [
+  {
+   "id": "C1",
+   "nombre": "BBL Pastillas (aguaje)",
+   "marca_actual": "BBL Pastillas",
+   "dropi": "2177398",
+   "foto": "2177398",
+   "registro": "F65",
+   "presentacion": "Cápsula",
+   "beneficio": "Aumentar glúteos, caderas y curvas",
+   "ingredientes": [
+    {
+     "n": "Aguaje (Mauritia flexuosa)",
+     "d": "Según etiqueta"
+    },
+    {
+     "n": "Fenogreco",
+     "d": "Según etiqueta"
+    },
+    {
+     "n": "Maca roja",
+     "d": "Según etiqueta"
+    },
+    {
+     "n": "Garcinia cambogia",
+     "d": "Según etiqueta"
+    },
+    {
+     "n": "Magnesio",
+     "d": "Según etiqueta"
+    },
+    {
+     "n": "Tesamorelina (péptido)",
+     "d": "Mencionada en la descripción de Dropi"
+    }
+   ],
+   "porcion": "1 pastilla al día (según la descripción de Dropi)",
+   "envase": "Frasco de 36 g",
+   "como": ""
+  },
+  {
+   "id": "C2",
+   "nombre": "Feliz y Limpio (Happy Cleaner)",
+   "marca_actual": "Feliz y Limpio / Happy Cleaner",
+   "dropi": "2240202 y 2246431",
+   "foto": "2240202",
+   "foto2": "2246431",
+   "registro": null,
+   "presentacion": "Polvo",
+   "beneficio": "Desinflamar el abdomen, ir al baño y quitar la ansiedad por comer",
+   "nuevo_registro": {
+    "id": "C2",
+    "categoria": "DIG",
+    "nombre": "Feliz y Limpio: fibra detox en polvo sabor sandía",
+    "descripcion": "Polvo para mezclar en agua que desinflama el abdomen, regula el baño y quita los antojos; para mujeres que se sienten infladas.",
+    "marcas": [
+     {
+      "nombre": "Feliz y Limpio",
+      "idea": "Ya lo manejan en Dropi: polvo detox sabor sandía y cítricos.",
+      "publico": "Mujeres de 20 a 50 años"
+     },
+     {
+      "nombre": "Happy Cleaner",
+      "idea": "Ya lo manejan en Dropi: la misma fórmula sabor sandía.",
+      "publico": "Mujeres de 20 a 50 años"
+     },
+     {
+      "nombre": "Vientre Feliz",
+      "idea": "Una copa al día para amanecer y quedarse plana.",
+      "publico": "Mujeres de TikTok"
+     }
+    ]
+   },
+   "ingredientes": [
+    {
+     "n": "Happy Cleaner original (Newellme)",
+     "d": "Inulina + probióticos (B. bifidum, L. rhamnosus, L. acidophilus) + arándano rojo, sin cantidades publicadas"
+    },
+    {
+     "n": "Inulina (agave/achicoria)",
+     "d": "14 g"
+    },
+    {
+     "n": "Glucomanano (saciedad, controla la ansiedad por comer)",
+     "d": "2 g"
+    },
+    {
+     "n": "Psyllium (cáscara de plantago)",
+     "d": "2 g"
+    },
+    {
+     "n": "Polvo de sandía",
+     "d": "4 g"
+    },
+    {
+     "n": "Polvo de piña (bromelina, para desinflamar)",
+     "d": "1 g"
+    },
+    {
+     "n": "Polvo de remolacha (color y antioxidante)",
+     "d": "1 g"
+    },
+    {
+     "n": "Jengibre en polvo",
+     "d": "0,3 g"
+    },
+    {
+     "n": "Extracto de té verde",
+     "d": "0,2 g"
+    },
+    {
+     "n": "Probióticos (L. acidophilus, L. rhamnosus, B. bifidum)",
+     "d": "0,1 g (aprox. 1x10^9 UFC)"
+    },
+    {
+     "n": "Ácido cítrico",
+     "d": "1 g"
+    },
+    {
+     "n": "Sabor natural a sandía",
+     "d": "1 g"
+    },
+    {
+     "n": "Estevia / sucralosa",
+     "d": "0,1 g"
+    },
+    {
+     "n": "Maltodextrina (relleno)",
+     "d": "c.s.p. 30 g (aprox. 3,3 g)"
+    }
+   ],
+   "porcion": "1 copa de 30 g en un vaso de agua",
+   "envase": "Tarro de 453 g (unas 15 porciones)",
+   "como": "En la mañana o en la tarde para frenar los antojos"
+  },
+  {
+   "id": "C3",
+   "nombre": "Magnesium Citrate Kids (gomitas)",
+   "marca_actual": "Magnesium Citrate Kids",
+   "dropi": "2220277",
+   "foto": "2220277",
+   "registro": "N6",
+   "presentacion": "Gomita",
+   "beneficio": "Calmar a los niños, concentrarse y dormir mejor",
+   "ingredientes": [
+    {
+     "n": "Magnesio (citrato)",
+     "d": "100 mg por porción (etiqueta)"
+    },
+    {
+     "n": "Sin azúcar, fórmula vegetariana, sin gluten",
+     "d": ""
+    }
+   ],
+   "porcion": "Según etiqueta (100 mg por porción)",
+   "envase": "Frasco de 60 gomitas",
+   "como": ""
+  },
+  {
+   "id": "C4",
+   "nombre": "Gladiador (bebida potenciadora)",
+   "marca_actual": "Gladiador",
+   "dropi": "2220399",
+   "foto": "2220399",
+   "registro": null,
+   "presentacion": "Líquido",
+   "beneficio": "Potencia sexual y aguante inmediato",
+   "nuevo_registro": {
+    "id": "C4",
+    "categoria": "SXM",
+    "nombre": "Gladiador: bebida potenciadora sexual masculina",
+    "descripcion": "Bebida para tomar antes del encuentro: más potencia, firmeza y resistencia; para hombres adultos.",
+    "marcas": [
+     {
+      "nombre": "Gladiador",
+      "idea": "Ya lo manejan en Dropi: bebida de 1.100 mL para la potencia masculina.",
+      "publico": "Hombres de 30 a 60 años"
+     },
+     {
+      "nombre": "Furia Espartana",
+      "idea": "Potencia y aguante desde la primera toma.",
+      "publico": "Hombres jóvenes de TikTok"
+     },
+     {
+      "nombre": "Elixir del Guerrero",
+      "idea": "La bebida natural para rendir como antes.",
+      "publico": "Hombres mayores de 40"
+     }
+    ]
+   },
+   "ingredientes": [
+    {
+     "n": "Fórmula exacta no publicada en Dropi ni en internet",
+     "d": "Propuesta con ingredientes típicos de estas bebidas:"
+    },
+    {
+     "n": "L-arginina",
+     "d": "1000 mg por porción de 30 mL"
+    },
+    {
+     "n": "Maca (Lepidium meyenii) extracto",
+     "d": "500 mg por porción"
+    },
+    {
+     "n": "Chuchuhuasi (Maytenus macrocarpa) macerado/extracto",
+     "d": "300 mg por porción"
+    },
+    {
+     "n": "Tribulus terrestris extracto",
+     "d": "250 mg por porción"
+    },
+    {
+     "n": "Ginseng (Panax ginseng) extracto",
+     "d": "200 mg por porción"
+    },
+    {
+     "n": "Huanarpo macho (Jatropha macrantha)",
+     "d": "200 mg por porción"
+    },
+    {
+     "n": "Clavo huasca (Tynanthus panurensis)",
+     "d": "200 mg por porción"
+    },
+    {
+     "n": "Ginkgo biloba extracto",
+     "d": "60 mg por porción"
+    },
+    {
+     "n": "Vitamina C",
+     "d": "60 mg por porción"
+    },
+    {
+     "n": "Zinc (gluconato)",
+     "d": "5 mg por porción"
+    },
+    {
+     "n": "Miel de abejas / panela (vehículo y sabor)",
+     "d": "5 g por porción"
+    },
+    {
+     "n": "Agua, sorbato de potasio, benzoato de sodio, colorante rojo, saborizante",
+     "d": "c.s.p. 30 mL"
+    }
+   ],
+   "porcion": "1 copa de 30 mL (unas 36 porciones por botella)",
+   "envase": "Botella de 1.100 mL",
+   "como": "1 copa unos 30 minutos antes del encuentro"
+  },
+  {
+   "id": "C5",
+   "nombre": "Genius Gummies (enfoque y atención para niños)",
+   "marca_actual": "JoySpring Genius Gummy (referencia; no es de ustedes)",
+   "dropi": null,
+   "foto": "genius",
+   "registro": null,
+   "presentacion": "Gomita",
+   "beneficio": "Concentración y atención en los niños",
+   "nuevo_registro": {
+    "id": "C5",
+    "categoria": "NIN",
+    "nombre": "Gomitas de concentración y atención para niños (tipo Genius Gummies)",
+    "descripcion": "Gomitas de plantas para que los niños se concentren en el colegio, presten atención y estén más calmados; desde 4 años.",
+    "marcas": [
+     {
+      "nombre": "Genio Kids",
+      "idea": "Dos gomitas al día para concentrarse en el colegio.",
+      "publico": "Mamás de niños de 4 a 12 años"
+     },
+     {
+      "nombre": "Mente Brillante Kids",
+      "idea": "Plantas que ayudan a prestar atención y a hacer las tareas.",
+      "publico": "Mamás de niños en edad escolar"
+     },
+     {
+      "nombre": "Estrellitas de Atención",
+      "idea": "Gomitas en forma de estrella sabor fresa para el enfoque.",
+      "publico": "Familias jóvenes"
+     }
+    ]
+   },
+   "ingredientes": [
+    {
+     "n": "Flor de hibisco (extracto 10:1)",
+     "d": "500 mg equivalentes (50 mg de extracto)"
+    },
+    {
+     "n": "Rhodiola rosea (extracto 50:1)",
+     "d": "500 mg equivalentes (10 mg de extracto)"
+    },
+    {
+     "n": "Gotu kola / Centella asiática (extracto 40:1)",
+     "d": "250 mg equivalentes (6,25 mg de extracto)"
+    },
+    {
+     "n": "Raíz de regaliz (extracto 10:1)",
+     "d": "100 mg equivalentes (10 mg de extracto)"
+    },
+    {
+     "n": "Bacopa monnieri (extracto 10:1)",
+     "d": "100 mg equivalentes (10 mg de extracto)"
+    },
+    {
+     "n": "Base de la gomita",
+     "d": "Maltitol, isomalt, pectina, sabor natural a fresa, sin azúcar añadida"
+    }
+   ],
+   "porcion": "2 gomitas al día",
+   "envase": "Bolsa doypack azul de 60 gomitas en forma de estrella (30 porciones)",
+   "como": "2 gomitas al día, idealmente antes del colegio"
+  }
+ ],
+ "tambien": [
+  {
+   "registro": "F39",
+   "nombre": "Cayenne Pepper",
+   "nota": "Pimienta de cayena en cápsula"
+  },
+  {
+   "registro": "F14",
+   "nombre": "Cortisol Support / Armonía",
+   "nota": "Bajar el cortisol: myo-inositol + ashwagandha (marca propuesta: Armonía Hormonal)"
+  },
+  {
+   "registro": "F44",
+   "nombre": "Armonía Ovárica",
+   "nota": "Myo-inositol + D-chiro-inositol 40:1 para ovario poliquístico"
+  }
+ ]
+}
