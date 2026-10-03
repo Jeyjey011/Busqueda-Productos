@@ -161,7 +161,12 @@ for (const c of catalogo.productos.filter((x) => !x.registro && x.nuevo_registro
   registros.push({
     id: n.id, n: n.nombre, cat: n.categoria, pres: c.presentacion, ben: c.beneficio, desc: n.descripcion,
     ing: c.ingredientes.map((i) => (i.d ? `${i.n}: ${i.d}` : i.n)), formula: c.ingredientes.map((i) => i.n).join(' + '),
-    us: 0, mx: 0, crec: null, t: 'sindato', refs: [], nprod: 0, marcas: n.marcas, extra: null, nuevo: true, catalogo: c.marca_actual,
+    // si el catálogo indica registros parecidos, sus productos virales sirven de referencia de demanda
+    ...(() => {
+      const ps = productos.filter((p) => (n.refs_registros || []).includes(asignacion[p.id] || p.f) && p.u != null).sort((a, b) => b.u - a.u);
+      return { us: ps.filter((p) => p.paises.includes('US')).reduce((s, p) => s + p.u, 0), mx: ps.filter((p) => p.paises.includes('MX') && !p.paises.includes('US')).reduce((s, p) => s + p.u, 0), refs: ps.slice(0, 4).map((p) => p.id) };
+    })(),
+    crec: null, t: 'sindato', nprod: 0, marcas: n.marcas, extra: null, nuevo: true, catalogo: c.marca_actual,
   });
 }
 for (const n of regNuevos) {

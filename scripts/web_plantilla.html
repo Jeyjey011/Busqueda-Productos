@@ -357,7 +357,7 @@ function tarjeta(r, i) {
   return `<article class="reg${r.nivel ? ' atenuado' : ''}" style="--i:${i}">
     <div class="portada${D.emp[r.id] ? ' e' : ''}">${portada}<span class="cod">${r.id}</span></div>
     <div class="cuerpo">
-      <div><h3>${esc(m.titulo || r.n)}</h3>${m.titulo ? `<p class="dato">Registro: ${esc(r.n)}</p>` : ''}${r.ben ? `<div style="margin-top:8px"><span class="ben">${esc(r.ben)}</span></div>` : ''}</div>
+      <div><h3>${esc(r.n)}</h3>${r.ben ? `<div style="margin-top:8px"><span class="ben">${esc(r.ben)}</span></div>` : ''}</div>
       <div class="meta">${r.maneja ? `<span class="maneja">Ya lo manejan</span>` : ''}${r.quem && !r.maneja ? tend('quemado', null) : ''}<span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
       ${r.maneja ? `<p class="nota">${esc(r.maneja)}. Se muestra al final para no repetir lo que ya funciona.</p>` : ''}
       <div><p class="lbl">Ingredientes</p><div class="ings">${ing.map((x) => `<span>${esc(x)}</span>`).join('')}${r.ing.length > 5 ? `<span>+${r.ing.length - 5} más</span>` : ''}</div></div>
@@ -418,7 +418,7 @@ function tarjetaMandar(m, n) {
     </div>
     <div style="display:grid;gap:12px;align-content:start">
       <div class="fila"><span class="num">${n + 1}</span><span class="estado ${cls}">${esc(m.estado)}</span><span class="cod">${r.id}</span><span class="pill">${esc(r.pres)}</span>${tend(r.t, r.crec)}</div>
-      <div><h3>${esc(r.n)}</h3>${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}</div>
+      <div><h3>${esc(m.titulo || r.n)}</h3>${m.titulo ? `<p class="dato">Registro: ${esc(r.n)}</p>` : ''}${r.ben ? `<span class="ben">${esc(r.ben)}</span>` : ''}</div>
       <div><p class="lbl">Ingredientes para el registro</p><table class="tabla-ing">${m.ing.map((i) => `<tr><td>${esc(i.n)}</td><td>${esc(i.d)}</td></tr>`).join('')}</table></div>
       ${m.porcion || m.envase || m.como ? `<p class="dato">${m.porcion ? `<b>Porción:</b> ${esc(m.porcion)}. ` : ''}${m.envase ? `<b>Envase:</b> ${esc(m.envase)}. ` : ''}${m.como ? `<b>Cómo se toma:</b> ${esc(m.como)}` : ''}</p>` : ''}
       <div><p class="lbl">Marcas</p>${marcasHtml(r.marcas)}</div>

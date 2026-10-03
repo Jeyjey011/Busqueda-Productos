@@ -2,6 +2,120 @@
  "nota": "Productos que el cliente ya tiene en su catálogo de Dropi (o que pidió agregar) para sacarles registro INVIMA. 'registro' apunta a un registro existente; si es null, el producto crea su propio registro con 'nuevo_registro'.",
  "productos": [
   {
+   "id": "C6",
+   "nombre": "Cortisol Support (tipo Harmonia Cortisol Cocktail)",
+   "marca_actual": "Referencia: Harmonia Cortisol Cocktail (EE. UU.)",
+   "dropi": null,
+   "foto": "harmonia",
+   "registro": null,
+   "presentacion": "Polvo",
+   "beneficio": "Bajar el cortisol, desinflamar la cara y dormir mejor",
+   "nuevo_registro": {
+    "id": "C6",
+    "categoria": "SUE",
+    "nombre": "Cortisol Support: bebida en polvo para bajar el cortisol (tipo Harmonia)",
+    "descripcion": "Bebida en polvo sabor naranja para bajar el cortisol y el estrés, quitar la cara hinchada, dormir mejor y frenar los antojos; para mujeres de 25 a 50 años.",
+    "refs_registros": [
+     "F07",
+     "F45"
+    ],
+    "marcas": [
+     {
+      "nombre": "Cortisol Support",
+      "idea": "La bebida que van a sacar en Colombia: baja el cortisol y desinflama.",
+      "publico": "Mujeres de 25 a 50 años"
+     },
+     {
+      "nombre": "Cóctel de Calma",
+      "idea": "Un vaso al día sabor naranja para bajar el estrés y dormir.",
+      "publico": "Mujeres de TikTok"
+     },
+     {
+      "nombre": "Armonía Cortisol",
+      "idea": "Cortisol en equilibrio: menos ansiedad, menos hinchazón.",
+      "publico": "Mujeres con estrés y hormonas alteradas"
+     }
+    ]
+   },
+   "ingredientes": [
+    {
+     "n": "Vitamina C",
+     "d": "500 mg"
+    },
+    {
+     "n": "Vitamina D3",
+     "d": "4.000 UI"
+    },
+    {
+     "n": "Vitamina B6",
+     "d": "10 mg"
+    },
+    {
+     "n": "Folato",
+     "d": "400 mcg"
+    },
+    {
+     "n": "Vitamina B12",
+     "d": "24 mcg"
+    },
+    {
+     "n": "Magnesio (glicinato)",
+     "d": "50 mg"
+    },
+    {
+     "n": "Cromo",
+     "d": "200 mcg"
+    },
+    {
+     "n": "Potasio",
+     "d": "200 mg"
+    },
+    {
+     "n": "Mezcla de 2.710 mg (dosis de la marca no publicadas; propuesta de reparto según el orden de la etiqueta):",
+     "d": ""
+    },
+    {
+     "n": "Inositol (myo-inositol)",
+     "d": "1.080 mg (propuesta)"
+    },
+    {
+     "n": "Ashwagandha KSM-66",
+     "d": "600 mg (propuesta)"
+    },
+    {
+     "n": "Fosfatidilserina de girasol (SunPS 20 %)",
+     "d": "300 mg (propuesta)"
+    },
+    {
+     "n": "Cúrcuma",
+     "d": "300 mg (propuesta)"
+    },
+    {
+     "n": "L-teanina",
+     "d": "200 mg (propuesta)"
+    },
+    {
+     "n": "Rhodiola rosea",
+     "d": "200 mg (propuesta)"
+    },
+    {
+     "n": "D-chiro inositol",
+     "d": "25 mg (propuesta)"
+    },
+    {
+     "n": "Pimienta negra (piperina)",
+     "d": "5 mg (propuesta)"
+    },
+    {
+     "n": "Base",
+     "d": "Sabor naranja/mandarina natural, stevia, 0 azúcar, menos de 50 calorías"
+    }
+   ],
+   "porcion": "1 scoop (5,9 g) en 240 a 350 mL de agua fría",
+   "envase": "Bolsa doypack de unos 177 g (30 porciones)",
+   "como": "1 vez al día, en la mañana o en la tarde"
+  },
+  {
    "id": "C1",
    "nombre": "BBL Pastillas (aguaje)",
    "marca_actual": "BBL Pastillas",
@@ -316,16 +430,6 @@
    "registro": "F39",
    "nombre": "Cayenne Pepper",
    "nota": "Pimienta de cayena en cápsula"
-  },
-  {
-   "registro": "F14",
-   "nombre": "Cortisol Support / Armonía",
-   "nota": "Bajar el cortisol: myo-inositol + ashwagandha (marca propuesta: Armonía Hormonal)"
-  },
-  {
-   "registro": "F44",
-   "nombre": "Armonía Ovárica",
-   "nota": "Myo-inositol + D-chiro-inositol 40:1 para ovario poliquístico"
   }
  ]
 }

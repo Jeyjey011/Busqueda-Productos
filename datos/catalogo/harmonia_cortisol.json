@@ -1,0 +1,42 @@
+{
+  "nombre": "Harmonia Cortisol Cocktail (también vendido como \"Harmonia Cortisol Support\")",
+  "marca": "Harmonia (drinkharmonia.com)",
+  "para_que": "Se vende para bajar el cortisol y el estrés, calmar la ansiedad, dormir mejor, tener más energía y enfoque, controlar los antojos de dulce/carbohidratos y la ansiedad por comer, apoyar la pérdida de peso (grasa abdominal ligada al cortisol), desinflamar (incluida la 'cara de cortisol' / hinchazón facial y abdominal que se promociona en redes) y equilibrar hormonas (SOP/PCOS, menopausia). Lo usan sobre todo mujeres. Claims de la marca: 91% menos ansiedad, 95% más energía y mejor sueño (datos propios, no verificados).",
+  "presentacion": "Polvo",
+  "envase": "Bolsa doypack naranja con zipper, 30 porciones (1 mes), peso neto aprox. 6.25 oz (~177 g)",
+  "porcion": "1 scoop (5.91 g; algunas fichas dicen 5.8 g). 0-<50 calorías, 0 g azúcar. 30 porciones por bolsa.",
+  "como_se_toma": "1 scoop al día disuelto en 240-350 ml (8-12 oz) de agua fría o la bebida que prefieras. Sabor naranja/mandarina natural, endulzado con stevia. Sin estimulantes, vegano, sin gluten, no GMO, keto. Embarazadas, niños y diabéticos: consultar al médico.",
+  "ingredientes": [
+    { "nombre": "Vitamina C (ácido ascórbico)", "dosis": "500 mg (556% VD)" },
+    { "nombre": "Vitamina D3 (colecalciferol)", "dosis": "100 mcg / 4,000 UI (500% VD)" },
+    { "nombre": "Vitamina B6 (piridoxina HCl)", "dosis": "10 mg (588% VD)" },
+    { "nombre": "Folato (L-5-metiltetrahidrofolato de calcio)", "dosis": "400 mcg DFE (100% VD)" },
+    { "nombre": "Vitamina B12 (cianocobalamina)", "dosis": "24 mcg (1,000% VD)" },
+    { "nombre": "Magnesio (bisglicinato quelado)", "dosis": "50 mg (12% VD)" },
+    { "nombre": "Cromo (picolinato)", "dosis": "200 mcg (571% VD)" },
+    { "nombre": "Potasio (cloruro)", "dosis": "200 mg (4% VD) — supp.co reporta 230 mg" },
+    { "nombre": "Mezcla patentada (Proprietary Blend) — total", "dosis": "2,710 mg (dosis individuales no reveladas)" },
+    { "nombre": "  Inositol (mio-inositol)", "dosis": "incluido en la mezcla (1er ingrediente, el de mayor cantidad); relación 40:1 con D-chiro inositol" },
+    { "nombre": "  Ashwagandha KSM-66 (extracto de raíz)", "dosis": "incluido en la mezcla" },
+    { "nombre": "  SunPS extracto de semilla de girasol (20% fosfatidilserina)", "dosis": "incluido en la mezcla" },
+    { "nombre": "  L-Teanina", "dosis": "incluido en la mezcla" },
+    { "nombre": "  D-Chiro inositol", "dosis": "incluido en la mezcla" },
+    { "nombre": "  Rhodiola rosea (extracto de raíz)", "dosis": "incluido en la mezcla" },
+    { "nombre": "  Cúrcuma orgánica (raíz)", "dosis": "incluido en la mezcla" },
+    { "nombre": "  Pimienta negra (extracto de fruto)", "dosis": "incluido en la mezcla" },
+    { "nombre": "Otros ingredientes", "dosis": "Ácido cítrico, saborizante natural de mandarina/naranja, extracto de hoja de stevia, dióxido de silicio (antiaglomerante), color" }
+  ],
+  "precio": "Web oficial: USD 79.99 por 1 bolsa (~USD 2.66/día), con descuentos por 3 y 6 bolsas y suscripción. Amazon: aprox. USD 44.95 según reseñas (precio variable; hay revendedores). supp.co lista USD 89.99.",
+  "donde": "Web oficial drinkharmonia.com (también aparece como 'Harmonia Cortisol Support'); Amazon (ASIN B0FRG7GSSG y bundle con Night Recovery B0HGRFMK4D); eBay (revendedores). Fuerte pauta en TikTok/Meta (pixel de TikTok en la web); TikTok Shop no confirmado en fuentes. Ojo: existen muchos sitios clon/afiliados (harmoniacortisol.com, us-harmonia.com, harmoniahealth.shop, harmoniacortisolcocktail.com).",
+  "url_imagen": "https://www.drinkharmonia.com/_next/static/media/hero-product-full.09aw4wqzqerko.webp",
+  "fuentes": [
+    "https://www.drinkharmonia.com/",
+    "https://www.drinkharmonia.com/ingredients",
+    "https://theroundup.org/harmonia-cortisol-cocktail-review/",
+    "https://supp.co/products/harmonia-cortisol-support-184523761042-c24e6ba4-1743369729",
+    "https://thereviewrewind.com/harmonia-cortisol-cocktail-review",
+    "https://www.amazon.com/dp/B0FRG7GSSG",
+    "https://www.ebay.com/itm/377371175231"
+  ],
+  "notas": "Supplement Facts tomados de theroundup.org (transcripción de la etiqueta) y cruzados con supp.co (coinciden en vitaminas/minerales salvo potasio 200 vs 230 mg). Las dosis individuales de la mezcla patentada NO son públicas: solo el total 2,710 mg y el orden (de mayor a menor). Peso neto 6.25 oz tomado del título de eBay (consistente con 30 x 5.91 g = 177 g). Las afirmaciones de 'cara de cortisol' y pérdida de peso vienen del marketing en redes, no hay evidencia clínica de que el producto baje el cortisol. Para INVIMA: vitamina D 4,000 UI y B6 10 mg superan topes habituales de suplementos en Colombia; revisar."
+}
