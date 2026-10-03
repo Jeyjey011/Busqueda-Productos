@@ -1,0 +1,730 @@
+[
+ {
+  "registro": "F09",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Gotas",
+  "producto": "Drenaje linfático en gotas",
+  "para_que": "Desinflamar y eliminar líquido",
+  "ingredientes": "Extracto líquido (liposomal) de 4 a 11 plantas: cleavers, bardana, diente de león, saúco, equinácea, trébol rojo, stillingia, fresno espinoso, raíz roja, llantén, verbena azul, milenrama, mirra, tomillo, caléndula, cola de caballo y rosa mosqueta, 1-2 mL por toma"
+ },
+ {
+  "registro": "F03",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Cápsula",
+  "producto": "Probióticos + enzimas digestivas en cápsula",
+  "para_que": "Quitar hinchazón y gases",
+  "ingredientes": "Probióticos multicepa 50.000-60.000 millones UFC; 16 enzimas digestivas (amilasa, proteasa, lipasa, lactasa, bromelina, papaína); prebiótico (inulina/FOS); jengibre y menta; kit de 15 días con mezcla herbal digestiva"
+ },
+ {
+  "registro": "F40",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Gomita",
+  "producto": "Gomita de fibra prebiótica",
+  "para_que": "Ir al baño todos los días",
+  "ingredientes": "Fibra soluble prebiótica (inulina o polidextrosa) 5 g por porción, cero azúcar"
+ },
+ {
+  "registro": "F72",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Cápsula",
+  "producto": "Clorofila en cápsula",
+  "para_que": "Quitar el olor corporal",
+  "ingredientes": "Clorofila (clorofilina cúprica sódica) 100 mg por cápsula"
+ },
+ {
+  "registro": "F32",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Sobre / stick",
+  "producto": "Drenaje linfático en stick",
+  "para_que": "Desinflamar y eliminar líquido",
+  "ingredientes": "Mezcla de 12 componentes: cleavers, bardana, diente de león, bromelina, equinácea, caléndula, trébol rojo, cúrcuma, cardo mariano, jengibre y vitamina C por stick"
+ },
+ {
+  "registro": "F27",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Cápsula blanda",
+  "producto": "Aceite de orégano + semilla negra en cápsula blanda",
+  "para_que": "Subir defensas y limpiar el intestino",
+  "ingredientes": "Aceite de orégano (equivalente a 6.000 mg, carvacrol); aceite de semilla negra (Nigella sativa) por softgel"
+ },
+ {
+  "registro": "F76",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Polvo",
+  "producto": "Limpieza de colon con hoja de papaya en polvo",
+  "para_que": "Limpiar el colon",
+  "ingredientes": "Hoja de papaya en polvo 5 g por porción"
+ },
+ {
+  "registro": "F80",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Cápsula",
+  "producto": "NAC (N-acetilcisteína) en cápsula",
+  "para_que": "Limpiar el hígado y pulmones",
+  "ingredientes": "N-acetil L-cisteína 600 mg por cápsula"
+ },
+ {
+  "registro": "F77",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Cápsula",
+  "producto": "Limpieza de colon de 15 días: sen + cáscara sagrada + psyllium en cápsula",
+  "para_que": "Limpiar el colon y desinflamar",
+  "ingredientes": "Hoja de sen; cáscara sagrada; psyllium; mezcla herbal laxante por porción"
+ },
+ {
+  "registro": "F50",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Polvo",
+  "producto": "Deshinchar el vientre: electrolitos + diente de león + cola de caballo en polvo",
+  "para_que": "Quitar la hinchazón del vientre",
+  "ingredientes": "Potasio; magnesio; sodio; vitamina C; diente de león; cola de caballo"
+ },
+ {
+  "registro": "F31",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Tableta",
+  "producto": "Probiótico para el mal aliento: L. reuteri + zinc en tableta",
+  "para_que": "Quitar el mal aliento",
+  "ingredientes": "Lactobacillus reuteri (Prodentis) 200 millones UFC; zinc en pastilla para chupar"
+ },
+ {
+  "registro": "F73",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Gotas",
+  "producto": "Clorofila líquida en gotas",
+  "para_que": "Desintoxicar y quitar olores",
+  "ingredientes": "Clorofila líquida (clorofilina cúprica sódica) en gotas para agua"
+ },
+ {
+  "registro": "F33",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Cápsula",
+  "producto": "Drenaje linfático en cápsula",
+  "para_que": "Desinflamar y eliminar líquido",
+  "ingredientes": "Mezcla de hasta 27 plantas: equinácea, diente de león, bardana, saúco, caléndula, trébol rojo, ortiga y otros botánicos linfáticos"
+ },
+ {
+  "registro": "N3",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Té",
+  "producto": "Té de sen que manda al baño",
+  "para_que": "Ir al baño y desinflamar el vientre",
+  "ingredientes": "Hoja de sen (Cassia angustifolia / Senna alexandrina): 1.000 a 1.100 mg por bolsita (unos 15 a 20 mg de senósidos); Cáscara sagrada o corteza de frángula: 150 a 200 mg por bolsita; Raíz de jengibre: 200 mg; Semilla de hinojo: 200 mg; Hoja de menta (hierbabuena): 200 mg; Raíz u hoja de diente de león: 150 mg"
+ },
+ {
+  "registro": "F39",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Cápsula",
+  "producto": "Pimienta de cayena en cápsula",
+  "para_que": "Acelerar metabolismo y quemar grasa",
+  "ingredientes": "Pimienta de cayena 450-500 mg (capsaicina) por cápsula"
+ },
+ {
+  "registro": "C2",
+  "categoria": "Digestión, hinchazón y colon",
+  "presentacion": "Polvo",
+  "producto": "Feliz y Limpio: fibra detox en polvo sabor sandía",
+  "para_que": "Desinflamar el abdomen, ir al baño y quitar la ansiedad por comer",
+  "ingredientes": "Happy Cleaner original (Newellme): Inulina + probióticos (B. bifidum, L. rhamnosus, L. acidophilus) + arándano rojo, sin cantidades publicadas; Inulina (agave/achicoria): 14 g; Glucomanano (saciedad, controla la ansiedad por comer): 2 g; Psyllium (cáscara de plantago): 2 g; Polvo de sandía: 4 g; Polvo de piña (bromelina, para desinflamar): 1 g"
+ },
+ {
+  "registro": "C6",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Polvo",
+  "producto": "Cortisol Support: bebida en polvo para bajar el cortisol (tipo Harmonia)",
+  "para_que": "Bajar el cortisol, desinflamar la cara y dormir mejor",
+  "ingredientes": "Vitamina C: 500 mg; Vitamina D3: 4.000 UI; Vitamina B6: 10 mg; Folato: 400 mcg; Vitamina B12: 24 mcg; Magnesio (glicinato): 50 mg"
+ },
+ {
+  "registro": "F07",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Polvo",
+  "producto": "Bebida relajante de magnesio, L-teanina, maca y ashwagandha en polvo",
+  "para_que": "Bajar el cortisol y dormir",
+  "ingredientes": "Magnesio citrato; glicinato (~250-350 mg de magnesio elemental); L-teanina 200 mg; maca 500 mg; ashwagandha KSM-66 300 mg; vitamina D3 por porción"
+ },
+ {
+  "registro": "F16",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Gomita",
+  "producto": "Gomita de magnesio + L-teanina para dormir",
+  "para_que": "Dormir mejor",
+  "ingredientes": "Magnesio glicinato o complejo 14 en 1; L-teanina 100-200 mg; valeriana; pasiflora; 5-HTP; ashwagandha"
+ },
+ {
+  "registro": "F14",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Cápsula",
+  "producto": "Bajar el cortisol: myo-inositol con ashwagandha en cápsula",
+  "para_que": "Bajar el cortisol y la barriga",
+  "ingredientes": "Myo-inositol 2.000 mg; ashwagandha KSM-66 600 mg; L-teanina 200 mg; magnesio 200 mg; vitaminas D3 y K2 (+ berberina, vitamina C) por porción, en kit de 2 frascos"
+ },
+ {
+  "registro": "F78",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Otro",
+  "producto": "Bolsitas orales para la ansiedad: kava + L-teanina + ashwagandha",
+  "para_que": "Calmar la ansiedad y el estrés",
+  "ingredientes": "L-teanina; kava; ashwagandha; magnolia en bolsita oral (pouch)"
+ },
+ {
+  "registro": "F43",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Cápsula blanda",
+  "producto": "Bajar el cortisol: myo-inositol con ashwagandha en cápsula blanda",
+  "para_que": "Bajar el cortisol y el estrés",
+  "ingredientes": "Myo-inositol; ashwagandha KSM-66; magnesio; L-teanina; vitaminas D3 y K2, o ashwagandha KSM-66; L-teanina"
+ },
+ {
+  "registro": "N1",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Gomita",
+  "producto": "Melatonina + magnesio en gomita para adultos",
+  "para_que": "Dormir rápido y de corrido",
+  "ingredientes": "Melatonina: 5 mg por porción (2,5 mg por gomita); Magnesio (como bisglicinato o citrato): 50 mg de magnesio elemental por porción (25 mg por gomita, unos 250 a 280 mg de bisglicinato); L-teanina: 100 mg por porción; Extracto de pasiflora (opcional) o mezcla de manzanilla y bálsamo de limón: 50 mg por porción; Vitamina B6 (piridoxina): 1,5 a 2 mg por porción"
+ },
+ {
+  "registro": "N2",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Gotas",
+  "producto": "Melatonina en gotas para adultos",
+  "para_que": "Dormir rápido (efecto en 20 minutos)",
+  "ingredientes": "Melatonina: 1 mg por mL (concentración); toma recomendada de 1 a 3 mL (1 a 3 mg); Base: agua purificada + glicerina vegetal: Cantidad suficiente para 1 mL (glicerina del 20 al 40 %); Sabor natural de frutos rojos o maracuyá + stevia (rebaudiósido A): Cantidad suficiente; Ácido cítrico + sorbato de potasio: Cantidad suficiente (pH de 3,5 a 4,5)"
+ },
+ {
+  "registro": "F01",
+  "categoria": "Sueño, estrés y cortisol",
+  "presentacion": "Cápsula",
+  "producto": "Magnesio complejo en cápsula",
+  "para_que": "Dormir mejor y quitar calambres",
+  "ingredientes": "Magnesio complejo de 7 a 12 formas (glicinato, bisglicinato, citrato, malato, taurato, L-treonato, aspartato, orotato, óxido) 1.000 mg de sales (~400 mg de magnesio elemental); complejo B, vitaminas D3 y K2, biotina, inositol y ashwagandha 150 mg en la versión para mujer"
+ },
+ {
+  "registro": "F04",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Polvo",
+  "producto": "Creatina + colágeno para mujer (glúteos y tono) en polvo",
+  "para_que": "Aumentar glúteos y tonificar",
+  "ingredientes": "Creatina monohidrato 3-5 g; colágeno hidrolizado (Verisol) 5 g; myo-inositol; BCAA; L-glutamina; maca"
+ },
+ {
+  "registro": "F05",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Polvo",
+  "producto": "Creatina monohidrato en polvo",
+  "para_que": "Ganar músculo y fuerza",
+  "ingredientes": "Creatina monohidrato micronizada 3-5 g por porción, pura o con sabor; versión con electrolitos (sodio, potasio, magnesio)"
+ },
+ {
+  "registro": "F17",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Sobre / stick",
+  "producto": "Electrolitos en stick",
+  "para_que": "Hidratación rápida",
+  "ingredientes": "Sodio 300-500 mg; potasio 200-370 mg; magnesio; calcio; agua de coco; glucosa"
+ },
+ {
+  "registro": "F68",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Cápsula",
+  "producto": "NMN / NAD+ con resveratrol y quercetina en cápsula",
+  "para_que": "Energía y antienvejecimiento",
+  "ingredientes": "NMN 500-1.000 mg o nicotinamida ribósido 900 mg (NAD+) liposomal; quercetina; resveratrol; TMG; zinc por porción"
+ },
+ {
+  "registro": "F20",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Gotas",
+  "producto": "Complejo B en gotas",
+  "para_que": "Energía y concentración",
+  "ingredientes": "Vitamina B12 (metilcobalamina); B6; B1; niacina; folato; vitamina C en gotas sublinguales"
+ },
+ {
+  "registro": "F28",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Gomita",
+  "producto": "Creatina en gomita",
+  "para_que": "Ganar músculo y fuerza",
+  "ingredientes": "Creatina monohidrato 3-5 g por porción de gomitas, con jengibre y postbiótico en algunas versiones"
+ },
+ {
+  "registro": "F22",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Tableta",
+  "producto": "Aminoácidos esenciales en tableta",
+  "para_que": "Ganar músculo y recuperarse",
+  "ingredientes": "Los 8 aminoácidos esenciales (leucina, isoleucina, valina, lisina, fenilalanina, treonina, metionina, triptófano) 5 g por porción de 5 tabletas"
+ },
+ {
+  "registro": "F23",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Polvo",
+  "producto": "Proteína de suero (whey) con colágeno en polvo",
+  "para_que": "Ganar músculo",
+  "ingredientes": "Proteína de suero aislada 20-25 g; colágeno hidrolizado por porción (clear protein), o whey; creatina monohidrato; BCAA"
+ },
+ {
+  "registro": "F69",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Polvo",
+  "producto": "NMN en polvo",
+  "para_que": "Energía y antienvejecimiento",
+  "ingredientes": "NMN (precursor de NAD+) 1.000 mg por porción"
+ },
+ {
+  "registro": "F59",
+  "categoria": "Energía, músculo y gym",
+  "presentacion": "Sobre / stick",
+  "producto": "Shilajit con miel para energía y potencia sexual en stick",
+  "para_que": "Energía y potencia sexual",
+  "ingredientes": "Shilajit; miel; azafrán por stick"
+ },
+ {
+  "registro": "F02",
+  "categoria": "Salud íntima y libido femenina",
+  "presentacion": "Gomita",
+  "producto": "Probiótico vaginal (pH y olor íntimo) en gomita",
+  "para_que": "pH vaginal y olor íntimo",
+  "ingredientes": "Lactobacillus (4 cepas) o Bacillus coagulans 1.000-2.000 millones UFC; olmo resbaladizo 50-100 mg; prebiótico XOS 500 mg; piña, espino amarillo y vitaminas C y D; versión libido con complejo S7, ashwagandha, maca y epimedium"
+ },
+ {
+  "registro": "F30",
+  "categoria": "Salud íntima y libido femenina",
+  "presentacion": "Cápsula",
+  "producto": "Probiótico vaginal y urinario con arándano en cápsula",
+  "para_que": "pH vaginal e infecciones urinarias",
+  "ingredientes": "Probióticos multicepa femeninos (Lactobacillus, 18-32 cepas, hasta 60.000 millones UFC); arándano rojo; prebióticos; dúo con colágeno multi-tipo; vitamina C; biotina"
+ },
+ {
+  "registro": "F63",
+  "categoria": "Salud íntima y libido femenina",
+  "presentacion": "Gotas",
+  "producto": "Gotas de libido: maca, tribulus, tongkat ali y ashwagandha",
+  "para_que": "Aumentar la libido",
+  "ingredientes": "Maca; L-arginina; remolacha; fenogreco; ashwagandha; tribulus"
+ },
+ {
+  "registro": "F45",
+  "categoria": "Salud íntima y libido femenina",
+  "presentacion": "Sobre / stick",
+  "producto": "Bebida hormonal: myo-inositol + shatavari + rhodiola en stick",
+  "para_que": "Equilibrar las hormonas",
+  "ingredientes": "Myo-inositol; shatavari; rhodiola; magnesio; vitaminas B6 y C; teobromina por stick"
+ },
+ {
+  "registro": "F44",
+  "categoria": "Salud íntima y libido femenina",
+  "presentacion": "Polvo",
+  "producto": "Myo-inositol + D-chiro-inositol 40:1 para ovario poliquístico (SOP) en polvo",
+  "para_que": "Regular el ciclo y ovarios (SOP)",
+  "ingredientes": "Myo-inositol 2.000 mg; D-chiro-inositol 50 mg (40:1) por porción"
+ },
+ {
+  "registro": "F64",
+  "categoria": "Salud íntima y libido femenina",
+  "presentacion": "Gomita",
+  "producto": "Curvas y libido femenina: gomita de maca + fenogreco",
+  "para_que": "Aumentar glúteos y libido",
+  "ingredientes": "Maca; fenogreco; vitaminas por porción"
+ },
+ {
+  "registro": "F75",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Gotas",
+  "producto": "Gotas para bajar de peso con uva de Oregón, gymnema y ashwagandha",
+  "para_que": "Bajar de peso y quitar antojos",
+  "ingredientes": "Maca; gymnema; uva de Oregón (berberina); ashwagandha; canela de Ceilán; espirulina azul"
+ },
+ {
+  "registro": "F79",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Sobre / stick",
+  "producto": "Jalea para bajar de peso con garcinia, fibra y colágeno",
+  "para_que": "Quitar hambre y bajar de peso",
+  "ingredientes": "Garcinia cambogia; fibra dietaria; colágeno; chía en jalea por sobre"
+ },
+ {
+  "registro": "F34",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Sobre / stick",
+  "producto": "Bebida para bajar de peso tipo GLP-1 con berberina y akkermansia en stick",
+  "para_que": "Bajar de peso y quitar antojos",
+  "ingredientes": "Berberina 500 mg; Akkermansia muciniphila; cromo 200 µg; canela de Ceilán; vinagre de manzana por stick"
+ },
+ {
+  "registro": "F42",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Cápsula",
+  "producto": "Complejo para el azúcar en sangre: cromo, gymnema, melón amargo y ALA en cápsula",
+  "para_que": "Controlar el azúcar en la sangre",
+  "ingredientes": "Cromo; 20 vitaminas y minerales; canela; gymnema; melón amargo; ácido alfa-lipoico por porción"
+ },
+ {
+  "registro": "F13",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Cápsula",
+  "producto": "Berberina HCl para bajar de peso y controlar el azúcar, con canela de Ceilán y cúrcuma en cápsula",
+  "para_que": "Bajar de peso y controlar azúcar",
+  "ingredientes": "Berberina HCl 97% 1.400-2.110 mg; canela de Ceilán; cúrcuma; pimienta negra (+ vitamina E) por porción"
+ },
+ {
+  "registro": "F10",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Polvo",
+  "producto": "Bebida para bajar de peso con berberina en polvo",
+  "para_que": "Quemar grasa y bajar de peso",
+  "ingredientes": "Berberina 500 mg; cromo 200 µg; 5-HTP; yerba mate; L-carnitina; té verde"
+ },
+ {
+  "registro": "F41",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Cápsula",
+  "producto": "Quemador de grasa keto: cetonas de frambuesa + mango africano + cafeína en cápsula",
+  "para_que": "Quemar grasa y bajar de peso",
+  "ingredientes": "Cetonas de frambuesa; mango africano; té verde; cafeína; vinagre de manzana; kelp"
+ },
+ {
+  "registro": "F12",
+  "categoria": "Quemar grasa y bajar de peso",
+  "presentacion": "Gomita",
+  "producto": "Gomita de vinagre de manzana con B12",
+  "para_que": "Bajar de peso y quitar antojos",
+  "ingredientes": "Vinagre de manzana 500 mg; vitamina B12; ácido fólico; zinc; canela; probióticos por gomita"
+ },
+ {
+  "registro": "F08",
+  "categoria": "Colágeno y antiedad",
+  "presentacion": "Cápsula",
+  "producto": "Colágeno multi-tipo con biotina en cápsula",
+  "para_que": "Piel, cabello y uñas",
+  "ingredientes": "Colágeno hidrolizado multi-tipo (I, II, III, V, X) 1.800-2.230 mg; vitamina C; biotina; ácido hialurónico; zinc; queratina"
+ },
+ {
+  "registro": "F67",
+  "categoria": "Colágeno y antiedad",
+  "presentacion": "Líquido",
+  "producto": "Glutatión liposomal líquido",
+  "para_que": "Aclarar la piel y desintoxicar",
+  "ingredientes": "Glutatión reducido liposomal 450 mg; vitamina C por porción"
+ },
+ {
+  "registro": "F25",
+  "categoria": "Colágeno y antiedad",
+  "presentacion": "Cápsula",
+  "producto": "Glutatión liposomal en cápsula",
+  "para_que": "Aclarar la piel y quitar manchas",
+  "ingredientes": "Glutatión reducido liposomal 500-1.155 mg; vitamina C; selenio; resveratrol; riboflavina por porción"
+ },
+ {
+  "registro": "F51",
+  "categoria": "Colágeno y antiedad",
+  "presentacion": "Líquido",
+  "producto": "Colágeno líquido 5.000 mg",
+  "para_que": "Piel firme y articulaciones",
+  "ingredientes": "Colágeno hidrolizado líquido 5.000 mg por porción"
+ },
+ {
+  "registro": "F71",
+  "categoria": "Colágeno y antiedad",
+  "presentacion": "Cápsula blanda",
+  "producto": "Astaxantina 12 mg en cápsula blanda",
+  "para_que": "Piel joven y recuperación",
+  "ingredientes": "Astaxantina natural de microalga (Haematococcus pluvialis) 12 mg por softgel"
+ },
+ {
+  "registro": "F70",
+  "categoria": "Colágeno y antiedad",
+  "presentacion": "Cápsula blanda",
+  "producto": "NAD+ + resveratrol liposomal en cápsula blanda",
+  "para_que": "Antienvejecimiento y energía",
+  "ingredientes": "NAD+ liposomal; trans-resveratrol 1.200 mg por porción"
+ },
+ {
+  "registro": "F06",
+  "categoria": "Colágeno y antiedad",
+  "presentacion": "Polvo",
+  "producto": "Colágeno hidrolizado en polvo",
+  "para_que": "Piel firme y articulaciones",
+  "ingredientes": "Péptidos de colágeno bovino tipo I y III 10-20 g por porción, o multi-tipo (I, II, III, V, X); ácido hialurónico; biotina; vitamina C; stick de hidratación de la piel con electrolitos; colágeno bioactivo"
+ },
+ {
+  "registro": "F11",
+  "categoria": "Circulación y corazón",
+  "presentacion": "Cápsula",
+  "producto": "Óxido nítrico: remolacha + L-arginina + L-citrulina en cápsula",
+  "para_que": "Circulación y erecciones firmes",
+  "ingredientes": "Extracto de raíz de remolacha 500-1.000 mg y/o L-arginina (base, HCl, AKG); L-citrulina (base, malato) 2.250 mg por porción"
+ },
+ {
+  "registro": "F35",
+  "categoria": "Circulación y corazón",
+  "presentacion": "Tableta",
+  "producto": "Remolacha en tableta",
+  "para_que": "Bajar la presión y circulación",
+  "ingredientes": "Raíz de remolacha orgánica 2.040 mg por porción (fuente de nitratos)"
+ },
+ {
+  "registro": "F36",
+  "categoria": "Circulación y corazón",
+  "presentacion": "Gomita",
+  "producto": "Remolacha en gomita",
+  "para_que": "Circulación y energía",
+  "ingredientes": "Extracto de raíz de remolacha (óxido nítrico) por porción de gomitas"
+ },
+ {
+  "registro": "F48",
+  "categoria": "Circulación y corazón",
+  "presentacion": "Cápsula blanda",
+  "producto": "Omega 3 (pescado o krill) en cápsula blanda",
+  "para_que": "Corazón, cerebro y articulaciones",
+  "ingredientes": "Aceite de pescado o salmón 1.900 mg (EPA + DHA) o aceite de krill antártico con fosfolípidos y astaxantina por porción"
+ },
+ {
+  "registro": "F38",
+  "categoria": "Circulación y corazón",
+  "presentacion": "Cápsula blanda",
+  "producto": "Circulación y presión: cayena + espino + berberina en cápsula blanda",
+  "para_que": "Circulación y corazón",
+  "ingredientes": "Pimienta de cayena; espino; remolacha; semilla de uva; cúrcuma; berberina"
+ },
+ {
+  "registro": "F37",
+  "categoria": "Circulación y corazón",
+  "presentacion": "Polvo",
+  "producto": "Remolacha en polvo",
+  "para_que": "Circulación y rendimiento",
+  "ingredientes": "Extracto de remolacha en polvo (super red food) 5 g por porción"
+ },
+ {
+  "registro": "F46",
+  "categoria": "Defensas y vitaminas",
+  "presentacion": "Gotas",
+  "producto": "Vitamina D3 + K2 + omega 3 en gotas",
+  "para_que": "Huesos fuertes y defensas",
+  "ingredientes": "Vitamina D3; vitamina K2 MK-7; omega 3 en aceite MCT; versión noche con manzanilla"
+ },
+ {
+  "registro": "F74",
+  "categoria": "Defensas y vitaminas",
+  "presentacion": "Cápsula",
+  "producto": "Mezcla de 20 hierbas con musgo marino en cápsula",
+  "para_que": "Subir defensas y energía",
+  "ingredientes": "Musgo marino; moringa; cúrcuma; orégano; semilla negra; ashwagandha"
+ },
+ {
+  "registro": "F15",
+  "categoria": "Defensas y vitaminas",
+  "presentacion": "Cápsula blanda",
+  "producto": "Vitamina D3 + K2 en cápsula blanda",
+  "para_que": "Huesos fuertes y defensas",
+  "ingredientes": "Vitamina D3 5.000-10.000 UI; vitamina K2 MK-7 100-200 µg en aceite de coco por softgel"
+ },
+ {
+  "registro": "F54",
+  "categoria": "Defensas y vitaminas",
+  "presentacion": "Cápsula",
+  "producto": "Zinc + cobre en cápsula",
+  "para_que": "Subir defensas, piel y cabello",
+  "ingredientes": "Zinc 30 mg; cobre 2 mg por cápsula"
+ },
+ {
+  "registro": "F56",
+  "categoria": "Defensas y vitaminas",
+  "presentacion": "Tableta",
+  "producto": "Pack multivitamínico para quienes usan Ozempic / GLP-1",
+  "para_que": "Nutrición para quien usa Ozempic",
+  "ingredientes": "Multivitamínico y minerales; magnesio; vitamina B12; calcio con vitamina D3 en sobre diario"
+ },
+ {
+  "registro": "F26",
+  "categoria": "Defensas y vitaminas",
+  "presentacion": "Cápsula",
+  "producto": "Moringa en cápsula",
+  "para_que": "Energía y nutrición diaria",
+  "ingredientes": "Hoja de moringa en polvo 1.200 mg por porción"
+ },
+ {
+  "registro": "F55",
+  "categoria": "Defensas y vitaminas",
+  "presentacion": "Tableta",
+  "producto": "Multivitamínico para hombre en tableta",
+  "para_que": "Energía y defensas para hombre",
+  "ingredientes": "Multivitamínico-mineral; licopeno; probióticos; ashwagandha por tableta"
+ },
+ {
+  "registro": "F18",
+  "categoria": "Cabello, piel y uñas",
+  "presentacion": "Líquido",
+  "producto": "Biotina líquida para el cabello",
+  "para_que": "Hacer crecer el cabello",
+  "ingredientes": "Biotina 5.000-10.000 µg; vitamina D3; vitamina E; selenio; ácido hialurónico, o versión liposomal con aceite de semilla de calabaza; Lustriva, o SesZenBio (sésamo)"
+ },
+ {
+  "registro": "F21",
+  "categoria": "Cabello, piel y uñas",
+  "presentacion": "Gomita",
+  "producto": "Gomita de biotina y vitaminas (cabello, piel y uñas)",
+  "para_que": "Cabello, piel y uñas",
+  "ingredientes": "Biotina 5.000 µg; vitamina C; vitamina E; zinc por porción"
+ },
+ {
+  "registro": "N4",
+  "categoria": "Cabello, piel y uñas",
+  "presentacion": "Cápsula blanda",
+  "producto": "Biotina para el cabello con zinc y selenio (tipo Vitybell)",
+  "para_que": "Detener la caída y hacer crecer el cabello",
+  "ingredientes": "Biotina (vitamina B7): 5.000 mcg por cápsula (también se puede hacer una versión 'máxima' de 10.000 mcg); Zinc (sulfato o gluconato): 15 a 20 mg; Selenio (L-selenometionina): 55 a 100 mcg; Cobre (sulfato): 0,5 a 1 mg; Niacinamida (B3): 16 a 18 mg; Ácido pantoténico (B5, pantotenato de calcio): 5 mg"
+ },
+ {
+  "registro": "F53",
+  "categoria": "Cabello, piel y uñas",
+  "presentacion": "Cápsula",
+  "producto": "Acné hormonal: DIM + zinc + probióticos + niacinamida en cápsula",
+  "para_que": "Quitar el acné hormonal",
+  "ingredientes": "DIM; zinc; probióticos; niacinamida; ácido hialurónico; selenio"
+ },
+ {
+  "registro": "F52",
+  "categoria": "Cabello, piel y uñas",
+  "presentacion": "Cápsula blanda",
+  "producto": "Biotina + MSM + colágeno multivitamínico en cápsula blanda",
+  "para_que": "Cabello, piel y uñas",
+  "ingredientes": "Biotina; MSM; colágeno hidrolizado; complejo B; vitaminas C y D3; minerales por softgel"
+ },
+ {
+  "registro": "F19",
+  "categoria": "Cabello, piel y uñas",
+  "presentacion": "Cápsula",
+  "producto": "Biotina + saw palmetto + colágeno + queratina en cápsula",
+  "para_que": "Hacer crecer el cabello",
+  "ingredientes": "Biotina 10.000 µg sola, o con saw palmetto; colágeno; queratina para el crecimiento del cabello"
+ },
+ {
+  "registro": "F24",
+  "categoria": "Potencia sexual masculina",
+  "presentacion": "Cápsula",
+  "producto": "Potencia sexual masculina: maca, tongkat ali y shilajit en cápsula",
+  "para_que": "Potencia sexual y testosterona",
+  "ingredientes": "Turkesterona 500 mg; tongkat ali 400 mg; maca 1.000 mg; shilajit; ashwagandha; ginseng"
+ },
+ {
+  "registro": "F66",
+  "categoria": "Potencia sexual masculina",
+  "presentacion": "Té",
+  "producto": "Potencia sexual masculina 5 tesoros (ginseng, goji, maca) en té",
+  "para_que": "Potencia sexual masculina",
+  "ingredientes": "Ginseng; goji; maca; morera; dátil rojo; polygonatum en infusión"
+ },
+ {
+  "registro": "F58",
+  "categoria": "Potencia sexual masculina",
+  "presentacion": "Cápsula blanda",
+  "producto": "Testosterona y potencia sexual: shilajit + maca + ashwagandha + ginseng en cápsula blanda",
+  "para_que": "Testosterona y potencia sexual",
+  "ingredientes": "Shilajit; maca; ashwagandha; ginseng (complejo 50.000 mg equivalente) por softgel"
+ },
+ {
+  "registro": "C4",
+  "categoria": "Potencia sexual masculina",
+  "presentacion": "Líquido",
+  "producto": "Gladiador: bebida potenciadora sexual masculina",
+  "para_que": "Potencia sexual y aguante inmediato",
+  "ingredientes": "Fórmula exacta no publicada en Dropi ni en internet: Propuesta con ingredientes típicos de estas bebidas:; L-arginina: 1000 mg por porción de 30 mL; Maca (Lepidium meyenii) extracto: 500 mg por porción; Chuchuhuasi (Maytenus macrocarpa) macerado/extracto: 300 mg por porción; Tribulus terrestris extracto: 250 mg por porción; Ginseng (Panax ginseng) extracto: 200 mg por porción"
+ },
+ {
+  "registro": "F62",
+  "categoria": "Próstata",
+  "presentacion": "Gomita",
+  "producto": "Gomita de próstata y óxido nítrico",
+  "para_que": "Próstata y erecciones firmes",
+  "ingredientes": "Beta-sitosterol; ortiga; reishi; granada; zinc; selenio / remolacha"
+ },
+ {
+  "registro": "F61",
+  "categoria": "Próstata",
+  "presentacion": "Cápsula blanda",
+  "producto": "Aceite de semilla de calabaza + saw palmetto en cápsula blanda",
+  "para_que": "Desinflamar la próstata y orinar mejor",
+  "ingredientes": "Aceite de semilla de calabaza 1.000 mg; saw palmetto; fitoesteroles por softgel"
+ },
+ {
+  "registro": "F60",
+  "categoria": "Próstata",
+  "presentacion": "Cápsula",
+  "producto": "Próstata: saw palmetto + maca + zinc en cápsula",
+  "para_que": "Desinflamar la próstata",
+  "ingredientes": "Saw palmetto 320 mg; maca; zinc; L-arginina; extractos para próstata por porción"
+ },
+ {
+  "registro": "F57",
+  "categoria": "Cerebro y concentración",
+  "presentacion": "Otro",
+  "producto": "Mentas y chicles de energía: cafeína + L-teanina + B6 + B12",
+  "para_que": "Energía y concentración al instante",
+  "ingredientes": "Cafeína natural 40-100 mg; L-teanina; vitaminas B6 y B12 por pieza (chicle o menta)"
+ },
+ {
+  "registro": "F81",
+  "categoria": "Cerebro y concentración",
+  "presentacion": "Cápsula",
+  "producto": "Ginkgo biloba en cápsula",
+  "para_que": "Memoria y concentración",
+  "ingredientes": "Extracto de ginkgo biloba 120 mg por cápsula"
+ },
+ {
+  "registro": "F47",
+  "categoria": "Articulaciones y huesos",
+  "presentacion": "Cápsula",
+  "producto": "Vitamina D3 + K2 en cápsula",
+  "para_que": "Huesos fuertes y defensas",
+  "ingredientes": "Vitamina D3 5.000 UI; vitamina K2 MK-7 100 µg por cápsula"
+ },
+ {
+  "registro": "F49",
+  "categoria": "Articulaciones y huesos",
+  "presentacion": "Cápsula",
+  "producto": "Calcio + D3 + K2 + glucosamina en cápsula",
+  "para_que": "Huesos y articulaciones",
+  "ingredientes": "Calcio; vitaminas D3, K2 y B12; glucosamina; condroitina por porción"
+ },
+ {
+  "registro": "F82",
+  "categoria": "Articulaciones y huesos",
+  "presentacion": "Gomita",
+  "producto": "Cúrcuma (curcumina) en gomita",
+  "para_que": "Desinflamar y quitar dolor articular",
+  "ingredientes": "Cúrcuma con curcumina; jengibre; pimienta negra por porción"
+ },
+ {
+  "registro": "N5",
+  "categoria": "Niños",
+  "presentacion": "Gotas",
+  "producto": "Magnesio en gotas para niños",
+  "para_que": "Calmar y dormir mejor a los niños",
+  "ingredientes": "Magnesio (como bisglicinato o citrato): 50 mg elementales por mL; Base de agua + glicerina vegetal, sabor a fresa y stevia: Cantidad suficiente; Sorbato de potasio + ácido cítrico: Cantidad suficiente"
+ },
+ {
+  "registro": "C5",
+  "categoria": "Niños",
+  "presentacion": "Gomita",
+  "producto": "Gomitas de concentración y atención para niños (tipo Genius Gummies)",
+  "para_que": "Concentración y atención en los niños",
+  "ingredientes": "Flor de hibisco (extracto 10:1): 500 mg equivalentes (50 mg de extracto); Rhodiola rosea (extracto 50:1): 500 mg equivalentes (10 mg de extracto); Gotu kola / Centella asiática (extracto 40:1): 250 mg equivalentes (6,25 mg de extracto); Raíz de regaliz (extracto 10:1): 100 mg equivalentes (10 mg de extracto); Bacopa monnieri (extracto 10:1): 100 mg equivalentes (10 mg de extracto); Base de la gomita: Maltitol, isomalt, pectina, sabor natural a fresa, sin azúcar añadida"
+ },
+ {
+  "registro": "N6",
+  "categoria": "Niños",
+  "presentacion": "Gomita",
+  "producto": "Magnesio para niños en gomita (ositos)",
+  "para_que": "Calmar y dormir mejor a los niños",
+  "ingredientes": "Magnesio (citrato) en gomita sin azúcar, forma de oso"
+ },
+ {
+  "registro": "F65",
+  "categoria": "Aumentar glúteos y curvas",
+  "presentacion": "Cápsula",
+  "producto": "Aumentar glúteos y busto: aguaje + fenogreco en cápsula",
+  "para_que": "Aumentar glúteos y busto",
+  "ingredientes": "Aguaje; fenogreco 1.000 mg por porción"
+ }
+]

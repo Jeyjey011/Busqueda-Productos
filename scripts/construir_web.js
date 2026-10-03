@@ -187,6 +187,22 @@ const categorias = Object.keys(CATEGORIAS).map((cod) => {
   return { cod, n: CATEGORIAS[cod], total: ps.reduce((s, p) => s + (p.u || 0), 0), np: ps.length, nr: rs.length, problema: categoriaConcepto[cod]?.problema || '' };
 }).filter((c) => c.np > 0 || c.nr > 0).sort((a, b) => b.total - a.total);
 const orden = categorias.map((c) => c.cod);
+// ---------- Marcas madre (Pispa, Nuara, Garra): cada registro lleva un producto de cada una ----------
+const CASAS = ['pispa', 'nuara', 'garra'];
+const NOMBRE_CASA = { pispa: 'Pispa', nuara: 'Nuara', garra: 'Garra' };
+const madre = existe('datos/marcas_madre.json') ? leer('datos/marcas_madre.json') : null;
+const lineasCasa = Object.fromEntries(CASAS.map((c) => [c, existe(`datos/lineas/${c}.json`) ? leer(`datos/lineas/${c}.json`) : []]));
+if (CASAS.every((c) => lineasCasa[c].length)) {
+  for (const r of registros) {
+    const ms = CASAS.map((c) => { const l = lineasCasa[c].find((x) => x.registro === r.id); return l && { casa: c, nombre: `${NOMBRE_CASA[c]} ${l.linea}`, linea: l.linea, descriptor: l.descriptor, idea: l.idea, publico: l.publico }; });
+    if (ms.every(Boolean)) r.marcas = ms;
+  }
+}
+const casas = madre ? madre.marcas.map((m, i) => ({
+  id: CASAS[i], nombre: NOMBRE_CASA[CASAS[i]], concepto: m.concepto, publico: m.publico, tono: m.tono, paleta: m.paleta,
+  tipografia: m.tipografia, empaque: m.empaque, regla: m.regla_lineas,
+})) : [];
+
 // ---------- Prioridad: primero lo que más podría venderse, al final quemados y lo que ya manejan ----------
 const yaLoManejan = { ...(existe('datos/ya_lo_manejan.json') ? leer('datos/ya_lo_manejan.json').registros : {}), ...yaManejaExtra };
 const FACTOR = { sube: 1.35, nuevo: 1.3, estable: 1, sindato: 0.9, baja: 0.75, quemado: 0.4 };
@@ -284,6 +300,10 @@ const DATA = {
     unidades: usMes.reduce((s, p) => s + p.unidades_periodo, 0) + mxMes.reduce((s, p) => s + p.unidades_periodo, 0),
   },
   categorias, registros, productos, imgs, emp, cat, mandar,
+  casas: casas.map((c) => {
+    const ruta = path.join(RAIZ, 'salida', 'muestras_marca', `${c.id}.jpg`);
+    return { ...c, hero: fs.existsSync(ruta) ? dataUri(ruta) : null };
+  }),
 };
 // Datos sin imágenes para el Excel (mismo orden y prioridad que la web)
 fs.writeFileSync(path.join(RAIZ, 'datos', 'web_datos.json'), JSON.stringify({ ...DATA, imgs: undefined, emp: undefined }, null, 1), 'utf8');
