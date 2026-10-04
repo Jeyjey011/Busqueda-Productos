@@ -1,0 +1,563 @@
+[
+  {
+    "registro": "F07",
+    "candidatos": [
+      {
+        "nombre": "Dolce Nada",
+        "por_que": "Viene del 'dolce far niente' italiano: la dulzura de no hacer nada, justo lo que pide un cortisol alto.",
+        "eslogan": "El arte italiano de no hacer nada",
+        "tono": "lujo europeo y sensual"
+      },
+      {
+        "nombre": "Hora Lila",
+        "por_que": "La hora violeta es ese momento del atardecer en que el día se apaga y por fin bajas la guardia.",
+        "eslogan": "Tu cóctel para soltar el día",
+        "tono": "poético y nocturno"
+      },
+      {
+        "nombre": "Mellowa",
+        "por_que": "Fusión de 'mellow' (suave, relajado) y 'agua': un vaso que te baja las revoluciones.",
+        "eslogan": "Un vaso y bajas revoluciones",
+        "tono": "cozy y moderno"
+      },
+      {
+        "nombre": "Noctara",
+        "por_que": "Palabra inventada de 'nocturna' y 'tara' (tierra): el lugar donde aterrizas en la noche.",
+        "eslogan": "Mézclalo, sórbelo, apágate",
+        "tono": "misterioso y premium"
+      },
+      {
+        "nombre": "Sorbo Lento",
+        "por_que": "El último sorbo del día, sin afán, como un mocktail de ritual nocturno.",
+        "eslogan": "Un sorbo y el día se suelta",
+        "tono": "cálido y pausado"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Dolce Nada' supplement brand: no aparece marca de suplementos ni de belleza con ese nombre (solo marcas 'Dolce' genéricas sin relación). Libre.",
+    "publico": "Mujeres de 25 a 40 años, profesionales urbanas en Bogotá y Medellín, con trabajo de alta presión, que siguen contenido de 'cortisol face', rutinas de noche y mocktails en TikTok; pagan por un ritual bonito.",
+    "inspiracion": "Moon Juice y el ritual nocturno de Kourtney Kardashian (Lemme Sleep), con la estética de aperitivo italiano de Aperol y Sézane",
+    "paleta": [
+      "#F4E3D3",
+      "#C8553D",
+      "#5B2A3C",
+      "#D9B26F"
+    ],
+    "fuente": "Playfair Display",
+    "logo_en": "Wordmark 'Dolce Nada' set in high-contrast Playfair Display italic, lowercase 'dolce' stacked above uppercase spaced 'NADA', with a tiny crescent-shaped lemon slice replacing the dot of an implied 'i' between the words; thin hairline rule underneath like an Italian café menu; small 'est. ritual serale' tagline in tracked small caps.",
+    "envase_en": "Squat wide-mouth frosted amber glass jar (300 g powder) with a matte terracotta #C8553D aluminium screw lid, gold #D9B26F embossed rim band, plus single-serve matte cream #F4E3D3 stick packs; the jar sits in a cream paper sleeve with a die-cut arch window showing the powder.",
+    "etiqueta_en": "Cream #F4E3D3 uncoated textured paper label wrapped 270 degrees; top: small gold-foil sun-setting arch icon, then the wordmark in deep plum #5B2A3C; middle: 'Bebida relajante · Magnesio + Ashwagandha + L-teanina' in thin sans; bottom band in terracotta with flavor 'Spritz de maracuyá'; gold foil hairlines, blind-embossed arch pattern, Italian-style tax-stamp sticker sealing the lid.",
+    "escena_en": "Campaign still life at golden hour: the jar and a stemmed coupe glass filled with a pale coral fizzy drink on a travertine marble bar top, a halved passion fruit, a sprig of lavender and a vintage brass bottle opener; warm low sun from the left casting long arch-shaped window shadows across a plaster wall in terracotta tones; shallow depth of field, film grain, Mediterranean aperitivo mood.",
+    "lifestyle_en": "Vertical iPhone shot: a woman's manicured hand (nude nails, thin gold rings) stirring a coral drink with a gold spoon in a coupe glass on a balcony railing of a Medellín apartment at dusk, El Poblado hills and city lights blurred in the background, the jar resting beside a paperback book and a small candle; face not shown, linen pajama sleeve visible, cozy end-of-workday vibe."
+  },
+  {
+    "registro": "F16",
+    "candidatos": [
+      {
+        "nombre": "Cero Ovejas",
+        "por_que": "Con esta gomita ya no necesitas contar ovejas para quedarte dormida.",
+        "eslogan": "Deja de contar, empieza a soñar",
+        "tono": "pícaro y tierno"
+      },
+      {
+        "nombre": "Dormez",
+        "por_que": "Viene del 'dormez-vous?' de Martinillo, la canción con la que todos nos dormimos de niños, en francés.",
+        "eslogan": "La canción de cuna, en gomita",
+        "tono": "nostálgico y chic"
+      },
+      {
+        "nombre": "Nidora",
+        "por_que": "Inventada de 'nido' y 'aurora': te acomoda como en un nido hasta el amanecer.",
+        "eslogan": "Tu nido hasta el amanecer",
+        "tono": "suave y envolvente"
+      },
+      {
+        "nombre": "Zzana",
+        "por_que": "Fusión de las 'zzz' del sueño con 'sana': dormir rico también es salud.",
+        "eslogan": "Duerme rico, despierta sana",
+        "tono": "fresco y juvenil"
+      },
+      {
+        "nombre": "Siesta Club",
+        "por_que": "Un club exclusivo al que solo entras cuando por fin te desconectas.",
+        "eslogan": "Miembro oficial del buen dormir",
+        "tono": "cool y social"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Cero Ovejas' gomitas marca: no existe marca registrada visible con ese nombre (aparecen 'Cero Drama' y 'Oveja Vitamins', nombres distintos). Libre.",
+    "publico": "Mujeres y hombres de 22 a 38 años, estudiantes de últimos semestres y trabajadores remotos que se acuestan pegados al celular, consumidores de memes y contenido 'que dormí 3 horas' en TikTok.",
+    "inspiracion": "OLIPOP y Poppi por lo divertido y colorido, con la ternura gráfica de las ilustraciones de Calm y el humor de Liquid Death",
+    "paleta": [
+      "#1E2A5A",
+      "#F2EDE4",
+      "#F7B6C2",
+      "#FFD166"
+    ],
+    "fuente": "Fredoka",
+    "logo_en": "Rounded bold Fredoka wordmark 'CERO OVEJAS' in cream, where the 'O' of CERO is a fluffy sheep seen from above with a small red 'prohibited' slash made of a sleeping-mask strap; tiny 'zzz' trailing off the last 'S'; friendly, sticker-like with a thick navy outline.",
+    "envase_en": "Wide round PET supplement jar (60 gummies) in matte midnight navy #1E2A5A with a cream #F2EDE4 domed flip-top cap shaped like a fluffy cloud, soft-touch finish; induction seal printed with sheep; also a navy stand-up resealable pouch with a clear moon-shaped window showing pink gummies.",
+    "etiqueta_en": "Full-wrap soft-touch shrink label: navy background with a field of tiny cream sheep, one sheep in pink #F7B6C2 asleep with a sleeping mask as the hero illustration; wordmark centered in cream with yellow #FFD166 glow; 'Magnesio + L-teanina · Gomitas para dormir' in rounded sans; holographic star sparkles foil scattered around, spot-UV gloss on the sheep, '60 gomitas sabor frutos rojos' badge in pink.",
+    "escena_en": "Dreamy campaign still life: the jar on a fluffy white cloud-like duvet under deep navy studio light, scattered pink gummies, a satin sleeping mask, a small vintage alarm clock with hands at 10:30 and a plush toy sheep half out of frame; soft blue moonlight from above with a warm yellow rim light, gentle haze, hyper-clean product focus.",
+    "lifestyle_en": "Vertical iPhone shot in a Bogotá apartment bedroom at night: a hand with a hoodie sleeve pulling a pink gummy out of the jar on a nightstand next to a phone face-down, a glass of water and a Totoro-style mini lamp, rainy window with city lights bokeh; face not shown, warm lamp light, cozy 'por fin a dormir' moment."
+  },
+  {
+    "registro": "F14",
+    "candidatos": [
+      {
+        "nombre": "Ommbligo",
+        "por_que": "Fusión de 'om' y 'ombligo': la calma que baja el cortisol se nota en la barriga.",
+        "eslogan": "La calma se nota en la barriga",
+        "tono": "pícaro y premium"
+      },
+      {
+        "nombre": "Myora",
+        "por_que": "Inventada de 'myo-inositol' y 'aura': tu energía en equilibrio desde adentro.",
+        "eslogan": "Equilibrio hormonal con aura propia",
+        "tono": "lujo clínico"
+      },
+      {
+        "nombre": "Nunca Tensa",
+        "por_que": "Frase con actitud para la mujer que decidió que el estrés no la va a inflamar.",
+        "eslogan": "Sin estrés, sin barriga, sin excusas",
+        "tono": "empoderado y directo"
+      },
+      {
+        "nombre": "Duetta",
+        "por_que": "Del italiano 'duetto': un kit de dos frascos que trabajan a dúo, de día y de noche.",
+        "eslogan": "Dos frascos, un solo propósito",
+        "tono": "elegante y femenino"
+      },
+      {
+        "nombre": "Ventre Doux",
+        "por_que": "En francés 'vientre suave': la barriga tranquila cuando el cortisol baja.",
+        "eslogan": "Vientre suave, mente quieta",
+        "tono": "chic parisino"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Ommbligo' brand: no hay marca de suplementos ni belleza; solo existe 'Ombligo Inc.', empresa de reciclaje de TI en EE. UU., sin relación con la categoría. Libre.",
+    "publico": "Mujeres de 28 a 45 años con 'cortisol belly', SOP o resistencia a la insulina, que siguen a nutricionistas en Instagram y buscan desinflamar sin dietas extremas; compran kits completos.",
+    "inspiracion": "Arrae (MB-1) y Ritual por lo limpio y científico, con la picardía visual de Lemme",
+    "paleta": [
+      "#E9DCCB",
+      "#7A8B6F",
+      "#B5654A",
+      "#2E2A27"
+    ],
+    "fuente": "DM Serif Display",
+    "logo_en": "Wordmark 'ommbligo' in lowercase DM Serif Display with generous letterspacing; the double 'mm' is drawn as one continuous soft wave, and the 'o' at the start is a perfect circle with a tiny centered dot like a navel and a meditation 'om' calm; minimal, warm, gallery-like.",
+    "envase_en": "Kit of two matte ceramic-look HDPE bottles (60 capsules each), cylindrical with rounded shoulders: bottle 'Día' in sage green #7A8B6F and bottle 'Noche' in terracotta #B5654A, both with brushed-aluminum screw caps; packed in a rigid cream #E9DCCB two-slot box with magnetic closure and a round die-cut window.",
+    "etiqueta_en": "Wrap labels in uncoated cream stock: centered wordmark in charcoal #2E2A27, below a single-line drawing of a woman's torso with a small circle at the navel; tiers: 'Myo-inositol 2000 mg · Ashwagandha KSM-66' then 'Cortisol & barriga'; copper foil navel dot and hairlines, blind-embossed concentric circles radiating from the navel, small numbered '1/2' and '2/2' tabs.",
+    "escena_en": "Minimal campaign still life on a sand-colored limestone plinth: the two bottles and open box, a smooth river stone, a sprig of dried pampas grass and a linen towel; soft diffused morning light from a large window, gentle shadow arcs, warm beige seamless background, spa-gallery atmosphere.",
+    "lifestyle_en": "Vertical iPhone shot: a woman in a beige ribbed set (face out of frame) sitting cross-legged on a yoga mat on a sunny wooden terrace in Chía with mountains behind, holding the sage bottle in one hand and a glass of water with lemon in the other, her relaxed belly area in the frame; morning light, plants and a woven basket around."
+  },
+  {
+    "registro": "F78",
+    "candidatos": [
+      {
+        "nombre": "Kavalier",
+        "por_que": "Fusión de 'kava' y 'cavalier': la actitud despreocupada de quien no se deja alterar por nada.",
+        "eslogan": "Actitud tranquila, bajo el labio",
+        "tono": "cool y urbano"
+      },
+      {
+        "nombre": "Sin Nudo",
+        "por_que": "Se va el nudo en la garganta y en el estómago que deja la ansiedad.",
+        "eslogan": "Suelta el nudo en minutos",
+        "tono": "honesto y cercano"
+      },
+      {
+        "nombre": "Wabi",
+        "por_que": "Del japonés 'wabi-sabi': aceptar lo imperfecto y dejar de sobrepensarlo todo.",
+        "eslogan": "Lo imperfecto también está bien",
+        "tono": "zen minimalista"
+      },
+      {
+        "nombre": "Kavaya",
+        "por_que": "Palabra inventada con raíz en la kava, la bebida ritual del Pacífico para relajarse en comunidad.",
+        "eslogan": "El ritual del Pacífico, en bolsita",
+        "tono": "exótico y natural"
+      },
+      {
+        "nombre": "Lipnosis",
+        "por_que": "Fusión de 'lip' (labio) e 'hipnosis': pones la bolsita en el labio y la mente se calma.",
+        "eslogan": "Ponla en el labio, apaga el ruido",
+        "tono": "pícaro y disruptivo"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Kavalier' kava pouches brand: no existe marca con ese nombre; las marcas de bolsitas de kava son Sol, Kavahana y Kava Punch. Libre.",
+    "publico": "Hombres y mujeres de 22 a 35 años, creativos, emprendedores y gamers de Bogotá y Medellín que conocen los pouches tipo Zyn y quieren calmar la ansiedad sin nicotina ni alcohol.",
+    "inspiracion": "Zyn y Lucy por el formato de lata, con el diseño irreverente de Liquid Death y la sofisticación de Aesop",
+    "paleta": [
+      "#0F3D3E",
+      "#E8E2D0",
+      "#C9A227",
+      "#E36F4C"
+    ],
+    "fuente": "Syne",
+    "logo_en": "Wide extended Syne wordmark 'KAVALIER' in cream all caps, the 'K' built from a stylized kava root forming a knight's chevron; a small circular emblem with a relaxed knight's helmet with its visor half-open as if yawning; confident, editorial, slightly fashion-brand.",
+    "envase_en": "Round flat tin can (68 mm diameter, 15 pouches) in deep teal #0F3D3E metallic finish with a cream #E8E2D0 snap lid and a hinged rear compartment for used pouches; embossed concentric ring on the lid; white fleece-like oral pouches visible when opened.",
+    "etiqueta_en": "Lid printed in cream with the wordmark centered and the helmet emblem above in gold #C9A227 foil; outer side band with 'Kava · L-teanina · Ashwagandha · Magnolia' in small caps, '15 bolsitas · sin nicotina' badge in coral #E36F4C; debossed ring pattern, tactile matte varnish with gloss logo, small numbered batch stamp.",
+    "escena_en": "Bold campaign shot: several teal tins stacked and one open showing pouches, on a polished dark green terrazzo surface with a coral backdrop, a slice of kava root, a magnolia flower and chunky gold chain; hard directional flash light with crisp shadows, editorial streetwear energy.",
+    "lifestyle_en": "Vertical iPhone shot: a man's tattooed hand with silver rings opening the tin on a laptop keyboard in a Chapinero coworking with exposed brick, iced coffee and headphones nearby, afternoon window light; face not shown, focused but relaxed vibe before a big presentation."
+  },
+  {
+    "registro": "F43",
+    "candidatos": [
+      {
+        "nombre": "Sotto",
+        "por_que": "Del italiano 'sotto voce', en voz baja: le bajas el volumen al estrés y al cortisol.",
+        "eslogan": "Bájale el volumen al estrés",
+        "tono": "lujo silencioso"
+      },
+      {
+        "nombre": "Nervana",
+        "por_que": "Fusión de 'nervios' y 'nirvana': pasar de los nervios a la paz.",
+        "eslogan": "De nervios a nirvana",
+        "tono": "espiritual y moderno"
+      },
+      {
+        "nombre": "Piano Piano",
+        "por_que": "En italiano \"piano piano\" significa despacito, sin afán: el ritmo que tu cuerpo necesita cuando el cortisol se dispara.",
+        "eslogan": "Despacito, como dicen en Italia",
+        "tono": "sofisticado y musical"
+      },
+      {
+        "nombre": "Modo Lago",
+        "por_que": "Como un lago en calma: nada te salpica aunque todo se mueva alrededor.",
+        "eslogan": "Por fuera caos, por dentro lago",
+        "tono": "sereno con actitud"
+      },
+      {
+        "nombre": "Lentía",
+        "por_que": "Palabra inventada desde \"lento\", con sonido de diosa griega: la deidad de los que ya no viven acelerados.",
+        "eslogan": "La diosa de ir despacio",
+        "tono": "etéreo y femenino"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Sotto' supplement ashwagandha brand: no hay marca de suplementos ni belleza con ese nombre. Libre en la categoría.",
+    "publico": "Mujeres y hombres de 30 a 50 años, ejecutivos y emprendedores con agendas saturadas, que valoran lo discreto y premium y prefieren cápsulas blandas fáciles de tragar.",
+    "inspiracion": "Aesop y The Row por el 'quiet luxury', con la claridad científica de Seed y Ritual",
+    "paleta": [
+      "#2B2D42",
+      "#EDE6DB",
+      "#8D99AE",
+      "#B08D57"
+    ],
+    "fuente": "Cormorant Garamond",
+    "logo_en": "Wordmark 'sotto' in light Cormorant Garamond lowercase, very wide tracking, with a thin horizontal bar beneath it that fades from solid to transparent like a volume slider being lowered; a minimal dynamic-mark symbol 'pp' (pianissimo) in italic as a monogram.",
+    "envase_en": "Heavy apothecary-style glass bottle in deep slate #2B2D42 with a matte finish (60 softgels), wide shoulders, brushed bronze #B08D57 metal screw cap; nested in a slim rigid sleeve in warm cream #EDE6DB with a hidden magnetic flap.",
+    "etiqueta_en": "Small centered paper label in cream with deckled edges on the dark glass: wordmark in slate, the fading volume bar in bronze foil, text 'Myo-inositol · Ashwagandha KSM-66 · L-teanina · Cápsula blanda' in tiny serif; blind-embossed musical staff lines across the top, wax-style bronze seal on the cap neck.",
+    "escena_en": "Quiet-luxury still life: the bottle and a few amber softgels on a honed slate-gray stone slab next to a closed leather notebook, a fountain pen and a small ceramic dish; soft north-light from the side, muted blue-gray seamless backdrop, long gentle shadows, museum stillness.",
+    "lifestyle_en": "Vertical iPhone shot: a man's hand in a crisp white shirt cuff and steel watch placing one softgel next to an espresso cup on a walnut desk in a high-rise office in Bogotá's Calle 93, rainy skyline through floor-to-ceiling glass, phone notifications muted face-down; face not shown, calm before a meeting."
+  },
+  {
+    "registro": "N1",
+    "candidatos": [
+      {
+        "nombre": "De Corrido",
+        "por_que": "Así se dice en Colombia cuando duermes toda la noche sin despertarte: de corrido.",
+        "eslogan": "Ocho horas de corrido, sin pausas",
+        "tono": "colombiano y seguro"
+      },
+      {
+        "nombre": "Nocaut",
+        "por_que": "Como un knockout, pero amable: te deja fuera de combate hasta la mañana.",
+        "eslogan": "Un nocaut suave para tu insomnio",
+        "tono": "irreverente y deportivo"
+      },
+      {
+        "nombre": "Sogno",
+        "por_que": "'Sueño' en italiano, con sonido elegante y fácil de recordar.",
+        "eslogan": "Duerme como en Italia",
+        "tono": "romántico y elegante"
+      },
+      {
+        "nombre": "Hipnia",
+        "por_que": "Inventada desde Hypnos, el dios griego del sueño.",
+        "eslogan": "El sueño de los dioses",
+        "tono": "mitológico premium"
+      },
+      {
+        "nombre": "Melonox",
+        "por_que": "Fusión de 'melatonina' y 'nox', la noche en latín.",
+        "eslogan": "Melatonina que sí se siente",
+        "tono": "clínico y moderno"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'De Corrido' melatonina marca: no hay marca de suplementos ni de belleza con ese nombre. Libre.",
+    "publico": "Adultos de 30 a 55 años que se despiertan a las 3 a. m., mamás y papás trabajadores y personas con turnos, que quieren dormir rápido y sin interrupciones.",
+    "inspiracion": "Hims & Hers por lo directo y el color protagonista, con el estilo gráfico de Olipop",
+    "paleta": [
+      "#2F1B5B",
+      "#F6F1E7",
+      "#7FD1B9",
+      "#FF8A5B"
+    ],
+    "fuente": "Archivo Black",
+    "logo_en": "Bold Archivo Black wordmark 'DE CORRIDO' in cream, set on one line with a continuous horizontal line running through the middle of all letters without breaking, like an uninterrupted sleep graph; the line ends in a small sunrise arc; strong, confident, unmistakable at small size.",
+    "envase_en": "Tall cylindrical PET gummy bottle (60 gummies) in matte deep indigo #2F1B5B with a mint #7FD1B9 wide screw cap, soft-touch finish; coral #FF8A5B tamper band; 30-day blister sample pack in matching colors.",
+    "etiqueta_en": "Full-wrap label: indigo background, giant cream wordmark wrapping around the bottle so the uninterrupted line circles 360 degrees; a stat block 'Melatonina 5 mg · Magnesio · L-teanina' in mint; a coral 'sin despertarte a las 3 a. m.' ribbon; holographic foil on the sleep line, matte/gloss contrast, small moon-to-sun icon sequence along the bottom edge.",
+    "escena_en": "Graphic campaign shot: the bottle standing on a crisp white folded duvet, behind it a long continuous neon-mint light line running across an indigo wall from left to right ending in a warm coral sunrise glow; a few mint gummies on the sheet; clean studio light, bold color blocking, hyper-sharp product.",
+    "lifestyle_en": "Vertical iPhone shot of a nightstand in a Cali apartment at night: a hand taking two gummies from the bottle next to reading glasses, a ceiling fan blurred above and a sleep tracker app on a phone showing an unbroken sleep graph; warm lamp light, white bed linen; face not shown."
+  },
+  {
+    "registro": "N2",
+    "candidatos": [
+      {
+        "nombre": "Dimmer",
+        "por_que": "Como el regulador de luz: en 20 minutos bajas la intensidad de tu cabeza hasta apagarte.",
+        "eslogan": "Baja la luz en 20 minutos",
+        "tono": "moderno y sofisticado"
+      },
+      {
+        "nombre": "Cae Telón",
+        "por_que": "Cuando cae el telón, termina la función del día y empieza el descanso.",
+        "eslogan": "Fin de la función, empieza tu sueño",
+        "tono": "teatral y elegante"
+      },
+      {
+        "nombre": "Duvet",
+        "por_que": "'Edredón' en francés: la sensación de meterte bajo la cobija más rica.",
+        "eslogan": "Como meterte bajo el edredón",
+        "tono": "cozy chic"
+      },
+      {
+        "nombre": "Nyxa",
+        "por_que": "Inventada desde Nyx, la diosa griega de la noche.",
+        "eslogan": "La noche te reclama",
+        "tono": "místico y premium"
+      },
+      {
+        "nombre": "Maracuzz",
+        "por_que": "Fusión de 'maracuyá' (pasiflora, la fruta que calma) y las 'zzz' del sueño.",
+        "eslogan": "Sabor maracuyá, efecto zzz",
+        "tono": "tropical y juguetón"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Dimmer' melatonin drops brand: no existe marca de suplementos con ese nombre (aparecen KAL, Natrol, Benevolent, etc.). Libre en la categoría.",
+    "publico": "Adultos de 25 a 45 años, sobre todo profesionales que trabajan con pantallas hasta tarde y viajeros frecuentes, que quieren un efecto rápido y dosificable.",
+    "inspiracion": "Apple y Dyson por el diseño de objeto, con el lujo nocturno de Lemme Sleep y Moon Juice",
+    "paleta": [
+      "#121417",
+      "#F3C77B",
+      "#E9E4DA",
+      "#6E5E8E"
+    ],
+    "fuente": "Montserrat",
+    "logo_en": "Montserrat medium wordmark 'dimmer' in lowercase with each letter progressively lower in opacity from left to right, as if the light is fading; a small circular dial icon with a notch turned toward 'off', drawn with a warm amber #F3C77B glow arc; precise, tech-minimal.",
+    "envase_en": "30 ml Boston round dropper bottle in matte black-coated glass #121417 with a brushed-gold aluminium collar and black rubber bulb, glass pipette with 0.5/1 ml graduations; packed in a rigid black box with an amber gradient window.",
+    "etiqueta_en": "Screen-printed directly on the matte black glass (no paper): wordmark in cream #E9E4DA with the fading-opacity effect, a thin amber gradient arc that wraps around like a dimmer dial from bright to dark; info line 'Melatonina 1 mg/ml · Maracuyá · Efecto en 20 min'; dosing scale printed vertically in lavender #6E5E8E; gold foil dial notch, soft-touch black coating.",
+    "escena_en": "Moody campaign still life in near darkness: the dropper bottle on a smoked-glass surface, a single amber spotlight fading out from top-left to bottom-right, a drop suspended from the pipette catching the light, a halved passion fruit in shadow and a modern brass dimmer switch on the wall behind; cinematic chiaroscuro, rich blacks.",
+    "lifestyle_en": "Vertical iPhone shot in a Bogotá bedroom: a hand squeezing drops from the black dropper into a glass of water on a bedside table while the other hand turns down a smart lamp, laptop closed beside a stack of books, warm amber light fading; face not shown, calm end-of-day mood."
+  },
+  {
+    "registro": "F01",
+    "candidatos": [
+      {
+        "nombre": "Elemento 12",
+        "por_que": "El magnesio es el elemento número 12 de la tabla periódica, y esta fórmula trae hasta 12 formas.",
+        "eslogan": "El mineral número 12, completo",
+        "tono": "lujo científico"
+      },
+      {
+        "nombre": "Tutti",
+        "por_que": "En música, 'tutti' es cuando toda la orquesta suena junta: todas las formas de magnesio a la vez.",
+        "eslogan": "Todas las formas, una sola cápsula",
+        "tono": "elegante y alegre"
+      },
+      {
+        "nombre": "Cero Tirón",
+        "por_que": "Para que la pierna no vuelva a pegarte un tirón a media noche.",
+        "eslogan": "Adiós calambres, hola noche entera",
+        "tono": "directo y popular"
+      },
+      {
+        "nombre": "Dozzia",
+        "por_que": "Inventada desde 'doze' (dormitar en inglés): el magnesio que te deja dormitar rico.",
+        "eslogan": "Músculos sueltos, noches profundas",
+        "tono": "suave y premium"
+      },
+      {
+        "nombre": "Magmia",
+        "por_que": "Fusión de 'magnesio' y 'mía': tu dosis personal de mineral, en versión para ella y para él.",
+        "eslogan": "Tu magnesio, tu manera",
+        "tono": "cercano y femenino"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Elemento 12' magnesio suplemento: solo aparecen productos genéricos 'Complejo de magnesio 12 en 1' y referencias a la tabla periódica; ninguna marca registrada con ese nombre. Libre.",
+    "publico": "Mujeres y hombres de 30 a 60 años, deportistas recreativos, ciclistas y personas con calambres nocturnos o mal sueño, que comparan etiquetas y valoran lo técnico.",
+    "inspiracion": "Thorne y Seed por el rigor científico, con la estética de tabla periódica de Aesop y la línea de laboratorio de The Ordinary",
+    "paleta": [
+      "#0E3B43",
+      "#F5F5F0",
+      "#9AC4C2",
+      "#C0C5CC"
+    ],
+    "fuente": "Bebas Neue",
+    "logo_en": "A square periodic-table tile as the logo: thin silver border, small '12' in the top-left corner, large 'Mg' in Bebas Neue at center and 'ELEMENTO 12' beneath in tracked caps; the tile has slightly rounded corners and a subtle crystalline facet pattern inside; clinical yet iconic.",
+    "envase_en": "Square-shouldered HDPE capsule bottle (120 capsules) in matte deep petrol #0E3B43 with a brushed silver #C0C5CC aluminium cap; women's version with a pale aqua #9AC4C2 cap; square silhouette echoing the periodic tile.",
+    "etiqueta_en": "Front label is a large embossed periodic-table tile in off-white #F5F5F0 with silver foil border and atomic number; side panels list the 12 forms as a vertical 'element chart' (glicinato, bisglicinato, citrato, malato, taurato, L-treonato…) each with a tiny dot; 'Sueño · Calambres · 400 mg elemental' line in aqua; soft-touch matte with gloss spot UV on the tile, holographic micro-crystals on the 'Mg'.",
+    "escena_en": "Laboratory-luxe still life: the bottle on a frosted white acrylic block, surrounded by chunks of raw magnesium-like silver crystals, a glass petri dish with capsules and a lab beaker with water; cool clean light with a silver reflector, pale aqua gradient background, precise shadows.",
+    "lifestyle_en": "Vertical iPhone shot: a cyclist's hand in a fingerless glove taking a capsule from the bottle on the top tube of a road bike stopped at a viewpoint on the Alto de Patios road above Bogotá, morning mist and green mountains behind, water bottle in frame; face not shown, athletic recovery vibe."
+  },
+  {
+    "registro": "F57",
+    "candidatos": [
+      {
+        "nombre": "Al Toque",
+        "por_que": "Lo que pasa cuando lo masticas: la energía y el foco te llegan al toque.",
+        "eslogan": "Mastica y quedas al toque",
+        "tono": "callejero y enérgico"
+      },
+      {
+        "nombre": "Presto",
+        "por_que": "En italiano y en música significa 'rápido': el ritmo más veloz de la partitura.",
+        "eslogan": "Energía en tempo presto",
+        "tono": "elegante y veloz"
+      },
+      {
+        "nombre": "Spearmind",
+        "por_que": "Fusión de 'spearmint' (hierbabuena) y 'mind' (mente): menta para la cabeza.",
+        "eslogan": "Menta fresca, mente afilada",
+        "tono": "tech y fresco"
+      },
+      {
+        "nombre": "Mascafé",
+        "por_que": "Fusión de 'mascar' y 'café': tu tinto, pero en chicle.",
+        "eslogan": "Tu tinto, ahora en chicle",
+        "tono": "colombiano y divertido"
+      },
+      {
+        "nombre": "Zingú",
+        "por_que": "Inventada desde 'zing', la chispa eléctrica que se siente cuando algo te despierta.",
+        "eslogan": "Un zing y arrancas",
+        "tono": "juvenil y eléctrico"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Al Toque' chicle energía cafeína marca: no hay chicle ni menta de energía con ese nombre (competidores: OneGum, REV, MEG, Enerjetix). Libre.",
+    "publico": "Jóvenes de 18 a 32 años, universitarios en época de parciales, repartidores, conductores, gamers y oficinistas que necesitan energía rápida sin tomarse un energizante entero.",
+    "inspiracion": "Liquid Death por la actitud, con el diseño de lata compacta de Zyn y el color de Prime y Celsius",
+    "paleta": [
+      "#C6F432",
+      "#111111",
+      "#FFFFFF",
+      "#FF3D7F"
+    ],
+    "fuente": "Anton",
+    "logo_en": "Condensed Anton wordmark 'AL TOQUE' in black, heavily italicized and slanted forward, with speed lines trailing behind the 'A'; the dot of an exclamation mark after it is a round mint; electric lime highlight sticker behind the word; loud, kinetic, streetwear-like.",
+    "envase_en": "Slim rectangular flip-top aluminium tin (12 gums or 20 mints) in electric lime #C6F432 with a glossy black #111111 lid, rounded corners, pocket-sized; also a cardboard counter display box for tiendas.",
+    "etiqueta_en": "Printed tin: lid in black with the wordmark in lime and a hot-pink #FF3D7F starburst '40 mg cafeína + L-teanina'; base in lime with the speed-line pattern; side text 'Energía y foco al instante · B6 + B12'; embossed lightning texture on the lid, holographic foil on the starburst, flavor tags 'Menta polar' and 'Chicle de sandía'.",
+    "escena_en": "High-energy campaign shot: tins mid-air bursting out of frame against a lime background, mint pieces and gum pellets flying, a crushed black sneaker sole and a motorcycle helmet visor reflecting light at the edges; hard flash, freeze-motion, saturated colors, magazine-sport look.",
+    "lifestyle_en": "Vertical iPhone shot: a hand with painted black nails flicking open the lime tin on the handlebar of a motorcycle stopped at a red light on Avenida 68 in Bogotá, buses and traffic lights blurred behind, early morning; face not shown, quick 'ya arranco' energy."
+  },
+  {
+    "registro": "F81",
+    "candidatos": [
+      {
+        "nombre": "Icho",
+        "por_que": "Así se llama el ginkgo en Japón, el árbol sagrado de Tokio que sobrevivió hasta a Hiroshima.",
+        "eslogan": "La memoria del árbol más antiguo",
+        "tono": "zen premium"
+      },
+      {
+        "nombre": "Fósil Vivo",
+        "por_que": "El ginkgo es un fósil vivo: existe desde los dinosaurios y nunca ha olvidado cómo sobrevivir.",
+        "eslogan": "200 millones de años recordando",
+        "tono": "épico y curioso"
+      },
+      {
+        "nombre": "Recordá",
+        "por_que": "Así habla un paisa: 'recordá'; la memoria con acento colombiano.",
+        "eslogan": "Recordá todo, hasta lo que importa",
+        "tono": "regional y cálido"
+      },
+      {
+        "nombre": "Dinosabio",
+        "por_que": "Fusión de 'dinosaurio' y 'sabio': la planta que vio pasar a los dinosaurios.",
+        "eslogan": "Sabiduría de 200 millones de años",
+        "tono": "lúdico e ingenioso"
+      },
+      {
+        "nombre": "Bilova",
+        "por_que": "Inventada desde 'biloba', las dos mitades de la hoja como los dos hemisferios del cerebro.",
+        "eslogan": "Dos hemisferios, una mente clara",
+        "tono": "científico y limpio"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Icho' ginkgo supplement brand: no existe marca de suplementos ni belleza con ese nombre; 'icho' aparece solo como nombre japonés del árbol y de una variedad de ginkgo. Ojo: en Japón es descriptivo, pero en Colombia es una palabra extranjera registrable.",
+    "publico": "Adultos de 35 a 65 años preocupados por la memoria, profesionales que leen y estudian, y estudiantes de posgrado que buscan un suplemento serio y elegante.",
+    "inspiracion": "Muji y Shiseido por la estética japonesa limpia, con la seriedad de Pure Encapsulations y Seed",
+    "paleta": [
+      "#F2C14E",
+      "#2D3B2C",
+      "#F7F3EA",
+      "#8C6D46"
+    ],
+    "fuente": "Syne",
+    "logo_en": "Wordmark 'ICHO' in Syne bold uppercase with wide spacing; above it a geometric ginkgo leaf symbol built from a perfect semicircle fan with a central notch splitting it into two lobes like two brain hemispheres; leaf in golden yellow; a tiny vertical Japanese-style red-brown seal (hanko) with 'イチョウ' beside the wordmark.",
+    "envase_en": "Cylindrical frosted amber glass bottle (60 capsules) with a matte forest-green #2D3B2C screw cap and wooden-texture top disc; housed in a slim cream #F7F3EA paper tube with a golden ginkgo leaf die-cut window.",
+    "etiqueta_en": "Cream washi-textured paper label: golden #F2C14E foil ginkgo leaf at top, wordmark in forest green, vertical Japanese characters in walnut brown #8C6D46 down the right edge, text 'Ginkgo biloba 120 mg · Memoria y concentración'; blind-embossed leaf veins radiating from the leaf, red-brown hanko seal stamp, deckled bottom edge.",
+    "escena_en": "Autumn campaign still life: the bottle on a dark stone slab covered with fallen golden ginkgo leaves, a few capsules in a small black ceramic dish, a calligraphy brush and an open notebook; soft low autumn sunlight filtering through, warm golden glow and deep green shadows, Kyoto temple garden mood.",
+    "lifestyle_en": "Vertical iPhone shot: a hand taking a capsule from the bottle on a reading table at the Biblioteca Virgilio Barco in Bogotá, open books and highlighted notes, laptop with a study plan, warm afternoon light through tall windows; face not shown, focused study session."
+  },
+  {
+    "registro": "C5",
+    "candidatos": [
+      {
+        "nombre": "Hibou",
+        "por_que": "'Búho' en francés, el animal más sabio del bosque, y suena a 'hibisco', su ingrediente estrella.",
+        "eslogan": "Ojos de búho para aprender",
+        "tono": "tierno y sofisticado"
+      },
+      {
+        "nombre": "Pilosos",
+        "por_que": "En Colombia un niño 'piloso' es el que está pilas y aprende rápido.",
+        "eslogan": "Para los más pilosos del salón",
+        "tono": "colombiano y divertido"
+      },
+      {
+        "nombre": "Eurekids",
+        "por_que": "Fusión de '¡Eureka!' y 'kids': el momento en que a los niños se les prende el bombillo.",
+        "eslogan": "Cada día, un eureka",
+        "tono": "lúdico y brillante"
+      },
+      {
+        "nombre": "Modo Ninja",
+        "por_que": "Un ninja es pura concentración y atención: así queda tu hijo en clase.",
+        "eslogan": "Atención de ninja, cero distracción",
+        "tono": "aventurero y juvenil"
+      },
+      {
+        "nombre": "Tilín",
+        "por_que": "El 'tilín' de cuando algo te hace clic en la cabeza y entiendes.",
+        "eslogan": "Ese tilín de entenderlo todo",
+        "tono": "alegre e infantil"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web 'Hibou' gummies kids supplement brand: no hay marca de suplementos infantiles ni de belleza con ese nombre. Libre. Se descartó 'Eurekids' por parecido con la cadena de juguetes 'Eurekakids'.",
+    "publico": "Mamás y papás de 28 a 42 años con hijos de 4 a 12 años en colegio, de estrato medio y alto, que buscan apoyo natural y sin azúcar para la concentración y las tareas, y siguen a maternity influencers.",
+    "inspiracion": "Genius Gummies y Toty por el formato familiar, con la ilustración tierna de Jellycat y el diseño cálido de Little Spoon",
+    "paleta": [
+      "#F6E7C1",
+      "#E85A71",
+      "#3E4E88",
+      "#F2A541"
+    ],
+    "fuente": "Baloo 2",
+    "logo_en": "Chunky rounded Baloo 2 wordmark 'hibou' in lowercase navy #3E4E88, where the two 'o' and 'u' shapes form the big round eyes of a cute owl peeking over the word, with tiny graduation-cap feathers on top and a small pink hibiscus flower tucked by one ear; friendly, premium children's-book feel.",
+    "envase_en": "Rounded wide-mouth PET jar (60 gummies) in creamy butter #F6E7C1 with an owl-head-shaped navy #3E4E88 child-resistant cap with two embossed eye circles and little ear tufts; soft-touch matte finish.",
+    "etiqueta_en": "Full-wrap label: illustrated night forest scene in navy and butter with a big-eyed owl holding a pencil, scattered pink #E85A71 hibiscus flowers and orange #F2A541 stars; wordmark front-center, 'Gomitas de concentración · Sin azúcar añadida · Sabor fresa' in rounded sans; 'Bacopa · Rhodiola · Centella · Hibisco' leaf icons; gold-foil stars, spot-UV gloss owl eyes, '4+ años' badge.",
+    "escena_en": "Whimsical campaign still life: the owl-cap jar on a stack of colorful children's books on a warm wooden desk, pink strawberry gummies spilling out, colored pencils, a small felt owl plush and a hibiscus flower; soft morning window light, butter-yellow backdrop, cheerful shallow-depth styling.",
+    "lifestyle_en": "Vertical iPhone shot: a child's small hand taking a pink gummy from a parent's open palm over a school notebook with math homework on a dining table in a Medellín home, school backpack and lunchbox nearby, morning sunlight; faces not shown, warm before-school routine."
+  }
+]

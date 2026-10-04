@@ -1,0 +1,665 @@
+[
+  {
+    "registro": "F04",
+    "candidatos": [
+      {
+        "nombre": "Respingá",
+        "por_que": "Viene de 'cola respingada', la forma colombiana de decir glúteo firme y levantado, dicha con el acento paisa que corta la palabra.",
+        "eslogan": "Lo de atrás también se entrena",
+        "tono": "pícaro, femenino y orgulloso"
+      },
+      {
+        "nombre": "Duraznia",
+        "por_que": "Inventada desde el durazno, el emoji universal del glúteo, convertida en un lugar al que todas quieren llegar.",
+        "eslogan": "Bienvenida a Duraznia",
+        "tono": "dulce, juguetón y aesthetic"
+      },
+      {
+        "nombre": "Que Hablen",
+        "por_que": "Frase con actitud: cuando el glúteo se nota, la gente comenta, y a ti no te importa.",
+        "eslogan": "Tú entrena, que ellos hablen",
+        "tono": "desafiante y empoderado"
+      },
+      {
+        "nombre": "Colatina",
+        "por_que": "Fusión de colágeno y creatina, los dos activos de la fórmula, con un guiño a 'cola'.",
+        "eslogan": "Dos activos, una sola meta",
+        "tono": "fitness técnico con picardía"
+      },
+      {
+        "nombre": "Derrié",
+        "por_que": "Del francés 'derrière' (trasero), castellanizado para sonar elegante y latino.",
+        "eslogan": "El lujo está en el detalle",
+        "tono": "chic parisino y coqueto"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Respingá\" marca suplemento: sin resultados de marca existente en suplementos ni belleza.",
+    "publico": "Mujeres 20-38 años en Colombia que van al gimnasio 3-5 veces por semana, hacen día de pierna religiosamente, siguen a influencers fitness en TikTok y quieren glúteo firme y piel tonificada sin verse 'de culturista'.",
+    "inspiracion": "Gymshark Women + Alo Yoga en estética, con la actitud de Toty de Sofía Vergara y el empaque rosado-durazno de Bloom Nutrition.",
+    "paleta": [
+      "#F4A38C",
+      "#2B1A1F",
+      "#FBE9E1",
+      "#C9774F"
+    ],
+    "fuente": "Abril Fatface",
+    "logo_en": "Wordmark 'Respingá' set in Abril Fatface with very high stroke contrast, lowercase except a swashy capital R whose leg kicks up and curls like a lifted ponytail; the accent on the final á is replaced by a small peach-shaped teardrop tilted 20 degrees; tight letter spacing (-20), color deep cocoa #2B1A1F; secondary monogram is the R inside a soft rounded peach silhouette.",
+    "envase_en": "Matte soft-touch cylindrical HDPE supplement tub, 300 g, wide 95 mm screw lid with fine vertical ridges; tub body in peach #F4A38C, lid in deep cocoa #2B1A1F, inner scoop in cream #FBE9E1; slightly rounded shoulders so the silhouette reads curvy, embossed tiny peach icon on top of the lid.",
+    "etiqueta_en": "Full-wrap label: huge vertical-stacked 'Respingá' wordmark in cocoa occupying the left 60 percent, a thin copper-foil #C9774F curved line that traces a hip-to-glute curve across the label, right side with 'Creatina + Colágeno Verisol' in small caps, three round icons (tono, firmeza, fuerza), flavor 'Durazno-Maracuyá' in a cream pill tag; copper hot-foil on the peach icon and on the curve line, soft-touch varnish with spot-gloss on the wordmark.",
+    "escena_en": "Campaign product shot on a sculpted peach plaster pedestal with curved edges against a seamless warm terracotta backdrop, a scoop of fine white powder spilling onto the pedestal, two halved fresh peaches and a pink resistance glute band draped behind; low warm key light from the left creating a long soft shadow, glossy highlight on the lid, shallow depth of field, editorial beauty-supplement look.",
+    "lifestyle_en": "TikTok-style vertical shot inside a boutique gym in Medellín (El Poblado) with plants and mirrored walls: a woman's hand with nude manicure and gym chalk holds the Respingá tub next to a hip-thrust bench and barbell pad, a shaker with peach-colored drink on the bench, wearing high-waisted rust-colored leggings, face out of frame, natural window light mixed with warm gym lighting, slight handheld grain."
+  },
+  {
+    "registro": "F05",
+    "candidatos": [
+      {
+        "nombre": "Una Más",
+        "por_que": "Es lo que te pide el entrenador y lo que da la creatina: una repetición más, una serie más, un kilo más.",
+        "eslogan": "Siempre queda una más",
+        "tono": "callejero, motivador y con actitud"
+      },
+      {
+        "nombre": "Monolito",
+        "por_que": "Monohidrato puro, una sola molécula sólida como un bloque de piedra.",
+        "eslogan": "Un solo ingrediente, cero cuento",
+        "tono": "minimalista y brutalista"
+      },
+      {
+        "nombre": "Torke",
+        "por_que": "Del torque de los motores: la fuerza de giro que te saca del fondo de la sentadilla.",
+        "eslogan": "Fuerza desde abajo",
+        "tono": "mecánico y masculino"
+      },
+      {
+        "nombre": "Vatto",
+        "por_que": "Inventada desde el vatio, la unidad de potencia, con doble t para sonar italiana.",
+        "eslogan": "Más potencia por gramo",
+        "tono": "técnico y moderno"
+      },
+      {
+        "nombre": "Ferrum",
+        "por_que": "Hierro en latín: lo que levantas todos los días.",
+        "eslogan": "Hecha para el hierro",
+        "tono": "clásico, sólido y serio"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Una Más\" creatina marca: no aparece ninguna marca de suplementos o belleza con ese nombre.",
+    "publico": "Hombres y mujeres 18-35 años en Colombia que entrenan pesas en gimnasios de cadena (Bodytech, Smart Fit), buscan subir fuerza y masa, y consumen contenido de gym en TikTok donde la 'última repetición' es un meme.",
+    "inspiracion": "Liquid Death por la actitud y la tipografía pesada, mezclado con la sobriedad de Momentous y el humor de Ghost Lifestyle.",
+    "paleta": [
+      "#111111",
+      "#E8FF3A",
+      "#F2F0EA",
+      "#7A7A7A"
+    ],
+    "fuente": "Archivo Black",
+    "logo_en": "Bold wordmark 'UNA MÁS' in Archivo Black, all caps, very tight tracking, with the accent over the Á drawn as a small solid plus sign '+' in electric lime #E8FF3A; an alternate stacked lockup puts 'UNA' above 'MÁS' with a thick horizontal bar between them resembling a barbell; monochrome black on off-white.",
+    "envase_en": "Rigid matte black HDPE square-shouldered tub, 300 g, 85 mm black screw lid with a thin electric lime #E8FF3A band around the base of the lid, interior lime scoop; squared silhouette with rounded corners, embossed '+1' on top of the lid.",
+    "etiqueta_en": "Black label with oversized off-white #F2F0EA 'UNA MÁS' wordmark wrapping around the tub so it reads as you rotate it, a lime tally-mark graphic (four strokes crossed by a fifth) like counting reps, 'Creatina Monohidrato Micronizada 5 g' in condensed caps, small grey #7A7A7A data grid with nutrition info; finishes: spot UV gloss on the wordmark over matte black, lime fluorescent ink, raised tactile varnish on the tally marks.",
+    "escena_en": "Campaign shot on a raw concrete gym floor with a steel Olympic plate leaning behind the tub, a pile of white micronized powder on a black rubber mat, chalk dust floating in the air, hard single spotlight from above creating dramatic contrast, lime rim light on the tub edge, dark moody background, sharp high-end sports advertising look.",
+    "lifestyle_en": "Vertical phone video frame in a Bogotá neighborhood gym at 6 a.m. with fluorescent lights and a window showing grey city sky: a man's chalky hand, with a wrist wrap, tips a scoop of creatine into a clear shaker held over the Una Más tub on a bench, a loaded barbell blurred in the background, face not visible, candid and slightly gritty."
+  },
+  {
+    "registro": "F17",
+    "candidatos": [
+      {
+        "nombre": "Sudé",
+        "por_que": "Es lo que dices al terminar el spinning, el partido o el día de calor en Cali: sudé, ahora recargo.",
+        "eslogan": "Lo que sudaste, de vuelta",
+        "tono": "fresco, deportivo y cotidiano"
+      },
+      {
+        "nombre": "Cero Sed",
+        "por_que": "Frase directa con actitud: la promesa del producto en dos palabras.",
+        "eslogan": "Ni el calor de Barranquilla",
+        "tono": "directo y playero"
+      },
+      {
+        "nombre": "Mizu",
+        "por_que": "Agua en japonés, corto y limpio, evoca pureza e hidratación.",
+        "eslogan": "Agua que sí hidrata",
+        "tono": "zen minimalista"
+      },
+      {
+        "nombre": "Salcoco",
+        "por_que": "Fusión de sal y coco: sales minerales con agua de coco.",
+        "eslogan": "Del mar y la palmera",
+        "tono": "tropical y natural"
+      },
+      {
+        "nombre": "Lytra",
+        "por_que": "Inventada desde 'electrolyte', con sonido latino y femenino.",
+        "eslogan": "Hidratación en un sobre",
+        "tono": "deportivo premium"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Sudé\" electrolitos marca: no hay marca de electrolitos, suplementos ni belleza con ese nombre.",
+    "publico": "Colombianos 20-40 años activos: corredores, ciclistas de domingo en la ciclovía, asistentes a clases de spinning y gente en ciudades calientes (Cali, Barranquilla, Cartagena) que también lo usan para el guayabo.",
+    "inspiracion": "Liquid I.V. por el formato stick y Olipop por el color y el tono divertido, con el minimalismo de On Running.",
+    "paleta": [
+      "#00B2C9",
+      "#FF6F4F",
+      "#FFF6E8",
+      "#0B2E3A"
+    ],
+    "fuente": "Syne",
+    "logo_en": "Wordmark 'sudé' in Syne ExtraBold lowercase with wide, slightly stretched letterforms; the accent over the é is a single droplet shape in coral #FF6F4F, and the counter of the 'd' is filled like a water level line; deep navy #0B2E3A on cream, with an alternate reversed version in cream on aqua.",
+    "envase_en": "Single-serve stick packs 15 cm x 3 cm in matte aluminum-laminated film with tear notch, aqua #00B2C9 with a coral #FF6F4F bottom band, packed in a rectangular retail carton box of 20 sticks with a magnetic-feel flip lid, cream #FFF6E8 interior printed with water ripples.",
+    "etiqueta_en": "Stick front: vertical 'sudé' wordmark running bottom to top in navy, a sweat-drop icon morphing into a lightning bolt near the top, flavor callout 'Coco-Limón' in a coral pill, '500 mg Sodio + Agua de coco' in small caps; carton with a big wave-pattern line illustration and a grid of icons (sodio, potasio, magnesio, coco); finishes: matte film with gloss droplets printed in spot varnish to mimic sweat beads, holographic micro-strip on the tear notch.",
+    "escena_en": "Campaign product shot of a fan of six sudé sticks and the open carton on a wet white tile surface with real water droplets, a split green coconut and lime halves, crushed ice scattered around, a glass of aqua-tinted water with condensation; bright hard midday sunlight with crisp shadows against a saturated aqua backdrop, high-speed frozen splash of water behind the sticks.",
+    "lifestyle_en": "Vertical TikTok shot on the Bogotá Sunday ciclovía along Carrera Séptima: a cyclist's gloved hand tears open a sudé stick over a clear squeeze bottle clipped to a road bike, sweat on the forearm, colorful crowd of cyclists blurred behind, face out of frame, bright morning Andean sunlight, handheld energetic feel."
+  },
+  {
+    "registro": "F68",
+    "candidatos": [
+      {
+        "nombre": "Sirtúa",
+        "por_que": "Viene de las sirtuinas, las 'proteínas de la longevidad' que el NAD+ activa, convertido en un nombre femenino y elegante.",
+        "eslogan": "La ciencia de no envejecer",
+        "tono": "lujo clínico"
+      },
+      {
+        "nombre": "Mitora",
+        "por_que": "Fusión de mitocondria y aurora: el amanecer de tus células.",
+        "eslogan": "Energía que nace adentro",
+        "tono": "luminoso y científico"
+      },
+      {
+        "nombre": "Sempre",
+        "por_que": "Siempre en italiano: la juventud que se queda.",
+        "eslogan": "Joven, hoy y siempre",
+        "tono": "elegante europeo"
+      },
+      {
+        "nombre": "Nadía",
+        "por_que": "NAD+ para cada día, con nombre de mujer cercana.",
+        "eslogan": "Tu dosis diaria de juventud",
+        "tono": "cálido y cercano"
+      },
+      {
+        "nombre": "Sin Fecha",
+        "por_que": "Frase con actitud: tu edad no tiene fecha de vencimiento.",
+        "eslogan": "Tu edad no vence",
+        "tono": "irreverente sofisticado"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Sirtua\" supplement brand NAD: no existe marca de suplementos o belleza con ese nombre (solo artículos genéricos sobre sirtuinas).",
+    "publico": "Mujeres y hombres 35-60 años de estrato 4-6 en Bogotá, Medellín y Barranquilla, ejecutivos y biohackers que siguen a Bryan Johnson y David Sinclair, gastan en estética y quieren energía y longevidad con respaldo científico.",
+    "inspiracion": "Timeline (Mitopure) y Tally Health de David Sinclair, con el lujo sobrio de Augustinus Bader.",
+    "paleta": [
+      "#0E1B2C",
+      "#C8B68A",
+      "#F5F2EC",
+      "#5E7C8A"
+    ],
+    "fuente": "Cormorant Garamond",
+    "logo_en": "Refined serif wordmark 'SIRTÚA' in Cormorant Garamond Medium, all caps with generous letter spacing (+180), the accent over the Ú rendered as a tiny champagne-gold #C8B68A circle evoking a molecule; above it a minimal symbol: a thin-line circle containing a spiral of three concentric arcs representing a cell renewing; deep midnight navy #0E1B2C.",
+    "envase_en": "Heavy amber-free frosted midnight-navy #0E1B2C glass apothecary bottle, 60 capsules, cylindrical with flat shoulders, matte brushed champagne-gold #C8B68A aluminum screw cap with fine knurling, inside a rigid two-piece navy box with a gold foil spine.",
+    "etiqueta_en": "Minimal cream #F5F2EC paper label with deckled feel wrapping the lower two-thirds of the bottle: centered SIRTÚA wordmark in navy, the cell-spiral symbol debossed and gold-foiled above it, a thin gold hairline frame, 'NMN 500 mg + Resveratrol + Quercetina' in small spaced caps, numbered batch 'Lote N°' line like a perfume; finishes: champagne-gold hot foil, blind emboss on the frame, soft-touch matte lamination.",
+    "escena_en": "Luxury campaign shot on a slab of polished travertine with a soft curved arch niche behind in warm stone, a few capsules arranged in a precise line on a small brushed-gold tray, a single halved pomegranate and a glass laboratory petri dish with water as props; soft directional morning light through a window creating long elegant shadows, muted, calm, high-end skincare aesthetic.",
+    "lifestyle_en": "Instagram vertical shot on a marble kitchen island in a modern Bogotá apartment with a view of the Andes and morning fog: a man's hand with a steel watch takes a capsule from the Sirtúa bottle next to a black coffee in a ceramic cup and an open laptop, face out of frame, soft natural daylight, quiet premium morning routine mood."
+  },
+  {
+    "registro": "F20",
+    "candidatos": [
+      {
+        "nombre": "Cobalta",
+        "por_que": "La vitamina B12 tiene un átomo de cobalto en el centro; Cobalta es esa chispa azul hecha marca.",
+        "eslogan": "Despierta tu mente azul",
+        "tono": "moderno, científico y cool"
+      },
+      {
+        "nombre": "Bebop",
+        "por_que": "El jazz más rápido y vibrante, con la B de vitamina B al frente.",
+        "eslogan": "Tu cerebro en ritmo",
+        "tono": "creativo y vibrante"
+      },
+      {
+        "nombre": "Dale B",
+        "por_que": "Frase colombiana de ánimo ('dale') unida a la vitamina B.",
+        "eslogan": "Dale, que hoy sí puedes",
+        "tono": "callejero y alegre"
+      },
+      {
+        "nombre": "Vité",
+        "por_que": "Del francés 'vite', rápido, por la absorción sublingual inmediata.",
+        "eslogan": "Energía en segundos",
+        "tono": "ágil y chic"
+      },
+      {
+        "nombre": "Metilé",
+        "por_que": "Inventada desde metilcobalamina, la forma activa de B12 de la fórmula.",
+        "eslogan": "La B12 que tu cuerpo usa",
+        "tono": "clínico amable"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Cobalta\" vitamina B12 marca: no aparece marca de suplementos o belleza con ese nombre.",
+    "publico": "Estudiantes universitarios y profesionales 20-40 años en Colombia (oficinistas, freelancers, médicos residentes) que se sienten cansados a las 3 p.m., toman mucho café y quieren energía y foco sin pastillas.",
+    "inspiracion": "Ritual por el minimalismo científico y Cure Hydration por el color, con el cool tecnológico de Apple.",
+    "paleta": [
+      "#1F4BFF",
+      "#0A0F2C",
+      "#E9EEFF",
+      "#FF8A3D"
+    ],
+    "fuente": "Montserrat",
+    "logo_en": "Geometric wordmark 'cobalta' in Montserrat SemiBold lowercase with slightly rounded terminals; the dot of an implied 'i' is replaced by a glowing cobalt-blue #1F4BFF hexagon placed above the second 'a', referencing the cobalt atom at the center of B12; navy #0A0F2C wordmark, hexagon with a subtle gradient glow.",
+    "envase_en": "30 ml cobalt-blue #1F4BFF tinted glass Boston round dropper bottle with a matte white pipette bulb and glossy navy #0A0F2C collar, graduated glass pipette with 1 ml marking, presented in a slim navy folding carton with a die-cut window showing the blue glass.",
+    "etiqueta_en": "Pale blue #E9EEFF wraparound label: small 'cobalta' wordmark top, a large central hexagon outline in cobalt with 'B12 + B6 + B1 + Folato' set inside like a periodic-table tile, 'Gotas sublinguales · Sabor naranja' with an orange #FF8A3D dot, dosage icon of a tongue with a drop; finishes: holographic silver foil on the hexagon outline, matte varnish, tactile raised dots on the dosage icon.",
+    "escena_en": "Campaign product shot with the cobalt dropper bottle standing on a reflective glossy navy acrylic surface, a single drop suspended from the pipette catching light, a sliced blood-orange and a few geometric glass prisms casting blue and orange light refractions on the backdrop; cool blue key light with a warm orange rim light, crisp, futuristic and premium.",
+    "lifestyle_en": "Vertical TikTok shot in a coworking space in Medellín with plants and a laptop showing a spreadsheet: a hand with a silver ring holds the cobalta pipette under the camera, about to put drops under the tongue, an iced coffee and notebook blurred behind, face cropped below the nose out of frame, warm afternoon light through big windows."
+  },
+  {
+    "registro": "F28",
+    "candidatos": [
+      {
+        "nombre": "Gumbell",
+        "por_que": "Fusión de gummy y dumbbell (mancuerna): la creatina del gimnasio convertida en gomita.",
+        "eslogan": "Fuerza que se mastica",
+        "tono": "divertido y deportivo"
+      },
+      {
+        "nombre": "Fierrazo",
+        "por_que": "En la jerga de gimnasio 'darle al fierro' es entrenar pesado; el fierrazo es el golpe de fuerza que dan estas gomitas.",
+        "eslogan": "Mastica, luego levanta",
+        "tono": "rudo con humor"
+      },
+      {
+        "nombre": "Krebi",
+        "por_que": "Del ciclo de Krebs, la energía celular, convertido en un nombre corto y simpático.",
+        "eslogan": "Energía celular con sabor",
+        "tono": "nerd simpático"
+      },
+      {
+        "nombre": "Muskeli",
+        "por_que": "De 'Muskel', músculo en alemán, con final latino y amigable.",
+        "eslogan": "Músculo en cada gomita",
+        "tono": "juguetón y europeo"
+      },
+      {
+        "nombre": "Bocao",
+        "por_que": "Bocado dicho como en la costa: un bocao de fuerza.",
+        "eslogan": "Un bocao de fuerza",
+        "tono": "costeño y alegre"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Gumbell\" creatine gummies brand: no existe marca de suplementos o belleza con ese nombre.",
+    "publico": "Jóvenes 18-30 años en Colombia, especialmente mujeres y principiantes de gimnasio, que quieren tomar creatina pero odian el polvo y el shaker; consumen contenido de 'gym girl' y 'what I eat in a day'.",
+    "inspiracion": "Create Wellness y Bear Balanced en el formato, con el color y el humor de Poppi y Olipop.",
+    "paleta": [
+      "#FF4F8B",
+      "#3A2CFF",
+      "#FFF1F5",
+      "#FFD23F"
+    ],
+    "fuente": "Righteous",
+    "logo_en": "Playful wordmark 'GUMBELL' in Righteous, all caps, where the two L's at the end are joined by a horizontal bar into a tiny dumbbell, and the letter 'U' is shaped like a bitten gummy with a rounded bite mark; electric indigo #3A2CFF letters with a hot-pink #FF4F8B dumbbell, slight 3D drop shadow in yellow #FFD23F.",
+    "envase_en": "Glossy translucent hot-pink #FF4F8B PET wide-mouth jar, 60 gummies, rounded cylinder shape with a chunky indigo #3A2CFF smooth screw cap shaped with two raised side bumps like dumbbell plates, induction-sealed with a printed foil; gummies visible through the jar.",
+    "etiqueta_en": "Indigo shrink-sleeve band covering the middle of the jar: big GUMBELL wordmark in pink and yellow, a cartoon dumbbell made of two gummy bears, '5 g Creatina en 4 gomitas' in a yellow starburst badge, flavor 'Fresa Ácida', three bold icons (fuerza, sin shaker, sin sabor arenoso); finishes: holographic rainbow foil on the starburst, high-gloss sleeve, matte window in the center to show the gummies.",
+    "escena_en": "Pop campaign shot on a bright pink seamless backdrop with a glossy indigo cube pedestal, the Gumbell jar open with sugar-coated pink cube gummies tumbling out toward a mini chrome dumbbell, a few gummies frozen mid-air, crisp hard flash lighting with colored gels (pink and indigo) and a playful long shadow, Olipop-style saturated advertising.",
+    "lifestyle_en": "Vertical TikTok shot in a women's locker room at a Bodytech in Bogotá: a hand with long pink nails shakes two gummies out of the Gumbell jar into the palm, a gym bag, water bottle and AirPods case on the wooden bench, pastel leggings visible, face out of frame, warm fluorescent light, casual 'gym bag essentials' vibe."
+  },
+  {
+    "registro": "F22",
+    "candidatos": [
+      {
+        "nombre": "Okto",
+        "por_que": "Ocho en griego: los ocho aminoácidos esenciales que tu cuerpo no puede fabricar.",
+        "eslogan": "Ocho piezas, músculo completo",
+        "tono": "técnico minimalista"
+      },
+      {
+        "nombre": "Octeto",
+        "por_que": "Como una banda de ocho músicos: ocho aminoácidos tocando juntos para reconstruirte.",
+        "eslogan": "Ocho que suenan en equipo",
+        "tono": "sofisticado y musical"
+      },
+      {
+        "nombre": "Leuza",
+        "por_que": "Inventada desde la leucina, el aminoácido estrella que enciende la síntesis muscular.",
+        "eslogan": "Enciende tu recuperación",
+        "tono": "deportivo moderno"
+      },
+      {
+        "nombre": "Nadie Falta",
+        "por_que": "Frase con actitud: están los ocho esenciales, completos, sin que falte ninguno.",
+        "eslogan": "Los ocho, sin excusas",
+        "tono": "seguro y directo"
+      },
+      {
+        "nombre": "Bloco",
+        "por_que": "Bloque en portugués: los ladrillos con los que se construye el músculo.",
+        "eslogan": "Construye bloque por bloque",
+        "tono": "urbano y constructivo"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Okto\" amino acids supplement brand: no existe marca de suplementos o belleza con ese nombre (Okto es una billetera cripto, otro sector).",
+    "publico": "Deportistas 22-45 años en Colombia (crossfit, running, ciclismo, pesas) que entrenan en ayunas o comen poca proteína, se preocupan por la recuperación y prefieren tabletas prácticas para llevar en la maleta.",
+    "inspiracion": "Momentous y Thorne en la sobriedad clínica-deportiva, con el diseño geométrico de Kin Euphorics.",
+    "paleta": [
+      "#F2EFE6",
+      "#1C1C1C",
+      "#FF5A1F",
+      "#9AA39A"
+    ],
+    "fuente": "Bebas Neue",
+    "logo_en": "Condensed all-caps wordmark 'OKTO' in Bebas Neue with wide letter spacing, the first O replaced by a perfect octagon outline and the second O by a solid octagon in signal orange #FF5A1F; charcoal #1C1C1C letters; an alternate icon is an octagon divided into eight triangular segments like a construction diagram.",
+    "envase_en": "Matte white HDPE pill bottle with flat octagonal cross-section, 150 tablets, octagonal charcoal #1C1C1C push-and-turn child-resistant cap, tablets are white oval tablets; bottle body in warm off-white #F2EFE6 with a sage-grey #9AA39A base band.",
+    "etiqueta_en": "Clean Swiss-grid label: the eight-segment octagon icon top left, OKTO wordmark large on the front panel, below it a numbered list 01-08 of the essential amino acids in small Bebas caps (Leucina, Isoleucina, Valina, Lisina...), '5 g EAA · 5 tabletas' in an orange bar; finishes: orange fluorescent ink, blind deboss on the octagon icon, uncoated matte paper texture, small silver foil batch number.",
+    "escena_en": "Architectural campaign shot: the octagonal bottle on a stack of raw concrete blocks and a small grey octagonal tile, five white tablets arranged in a precise row, a coiled orange jump rope as accent prop, hard raking sunlight creating geometric shadows against a warm off-white plaster wall, Bauhaus-inspired clean composition.",
+    "lifestyle_en": "Vertical Instagram shot at a crossfit box in Cali with chalk-covered rubber floor and wall balls: a sweaty hand pops tablets from the Okto bottle next to a kettlebell and a stainless water bottle, wrist with a fitness tracker, face out of frame, late afternoon golden light through a roll-up garage door."
+  },
+  {
+    "registro": "F23",
+    "candidatos": [
+      {
+        "nombre": "Ni Parece",
+        "por_que": "Es clear protein: sabe a jugo, se ve transparente y la reacción de todos es 'ni parece proteína'.",
+        "eslogan": "Es proteína, aunque ni parece",
+        "tono": "pícaro, fresco y viral"
+      },
+      {
+        "nombre": "Klar",
+        "por_que": "Claro en alemán: proteína transparente, sin turbidez ni pesadez.",
+        "eslogan": "Proteína clara como el agua",
+        "tono": "minimal nórdico"
+      },
+      {
+        "nombre": "Wheylá",
+        "por_que": "Fusión de whey y 'wey lá', algo ligero y latino.",
+        "eslogan": "Ligera como un jugo",
+        "tono": "alegre y latino"
+      },
+      {
+        "nombre": "Glasé",
+        "por_que": "De glaseado y del inglés glass: brillante y translúcida.",
+        "eslogan": "Transparente, frutal, poderosa",
+        "tono": "glossy y aesthetic"
+      },
+      {
+        "nombre": "Vitra",
+        "por_que": "Del latín vitrum, vidrio: una proteína que se ve a través.",
+        "eslogan": "Músculo que se ve claro",
+        "tono": "elegante y moderno"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Ni Parece\" proteína marca: no hay marca de suplementos o belleza con ese nombre.",
+    "publico": "Mujeres y hombres 20-35 años en Colombia que entrenan pero no soportan los batidos espesos de leche; viven en clima cálido o toman su proteína a media mañana; siguen tendencias de 'clear whey' y recetas de gelatinas proteicas en TikTok.",
+    "inspiracion": "Myprotein Clear Whey en el producto, con el branding pop y translúcido de Poppi y el humor de Liquid Death.",
+    "paleta": [
+      "#A8E6CF",
+      "#FF7AA2",
+      "#FFFFFF",
+      "#1E2A2F"
+    ],
+    "fuente": "Fredoka",
+    "logo_en": "Rounded bubbly wordmark 'ni parece' in Fredoka SemiBold lowercase, with 'ni' set smaller and tilted 8 degrees like a sly aside, and 'parece' larger; the dot of the 'i' is a transparent ice cube with a highlight; dark slate #1E2A2F letters with an outline variant in which letters look like clear glass with mint #A8E6CF and pink #FF7AA2 reflections.",
+    "envase_en": "Crystal-clear PET tub, 500 g, with a frosted-clear finish so the powder is visible, rounded square shape, 100 mm glossy watermelon-pink #FF7AA2 screw lid, inside a clear scoop; paired single-serve clear sachets for sampling.",
+    "etiqueta_en": "Transparent no-label-look clear film label printed with white ink: big 'ni parece' wordmark, beneath it a cheeky line 'pero sí es proteína' in small caps, '22 g proteína aislada + colágeno' in a mint pill, a fruit illustration (watermelon slice) in flat pink and mint, nutrition panel in white; finishes: clear film with spot gloss bubbles, iridescent holographic foil on the wordmark so it shimmers like a glass of soda.",
+    "escena_en": "Fresh campaign shot of the clear tub next to a tall glass of crystal-clear pink drink with ice cubes and a mint sprig, a watermelon wedge and splashes of clear liquid frozen mid-air, on a glossy mint acrylic surface against a soft pink backdrop; bright high-key beverage lighting with backlight making the drink and tub glow, sparkling highlights.",
+    "lifestyle_en": "Vertical TikTok reaction-style shot at a sunny rooftop terrace in Barranquilla with palm trees in the background: a hand with a gold bracelet holds a clear tumbler of pink 'ni parece' drink with ice toward the camera next to the tub on a wooden table, a friend's hand reaching for it, faces out of frame, strong Caribbean sunlight and blue sky."
+  },
+  {
+    "registro": "F69",
+    "candidatos": [
+      {
+        "nombre": "Sigo Igual",
+        "por_que": "Lo que respondes cuando te preguntan por qué no envejeces: los años pasan y tú sigues igual.",
+        "eslogan": "Pasan los años, yo no",
+        "tono": "irreverente de lujo"
+      },
+      {
+        "nombre": "Amrita",
+        "por_que": "En sánscrito, el néctar de la inmortalidad de los dioses.",
+        "eslogan": "El néctar de los que no envejecen",
+        "tono": "místico y sofisticado"
+      },
+      {
+        "nombre": "Cellora",
+        "por_que": "Fusión de célula y aurora: tus células amaneciendo otra vez.",
+        "eslogan": "Despiertan tus células",
+        "tono": "luminoso y clínico"
+      },
+      {
+        "nombre": "Elixa",
+        "por_que": "Inventada desde elixir, la poción de la eterna juventud de los alquimistas.",
+        "eslogan": "El elixir de tu mejor versión",
+        "tono": "mágico y sofisticado"
+      },
+      {
+        "nombre": "Ayerá",
+        "por_que": "Inventada desde 'ayer': volver a sentirte como antes.",
+        "eslogan": "Siéntete como ayer",
+        "tono": "nostálgico y cálido"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Sigo Igual\" suplemento NMN marca: no hay marca de suplementos o belleza con ese nombre.",
+    "publico": "Mujeres y hombres 38-60 años de alto poder adquisitivo en Colombia, que se cuidan con estética, ejercicio y suplementos, odian que les digan 'señora/señor' y les encanta que les pregunten '¿cuántos años tienes?'.",
+    "inspiracion": "Sofía Vergara con Toty en actitud ('la edad es un número') y el lujo de Dr. Barbara Sturm, con el polvo premium de AG1.",
+    "paleta": [
+      "#1A1A1A",
+      "#E7D9C4",
+      "#B08D57",
+      "#FFFFFF"
+    ],
+    "fuente": "DM Serif Display",
+    "logo_en": "Elegant serif wordmark 'Sigo Igual' in DM Serif Display, upper and lowercase, with the 'g' of 'Sigo' and the 'g' of 'Igual' perfectly identical and vertically aligned as a visual pun on staying the same; a thin equals sign '=' in antique gold #B08D57 sits between the two words in the stacked version; jet black #1A1A1A.",
+    "envase_en": "Weighty matte black glass jar, 60 g of NMN powder, short and wide with straight walls, polished antique-gold #B08D57 metal screw lid engraved with an '=' symbol, small gold measuring spoon housed inside a velvet sleeve; outer rigid sand-beige #E7D9C4 box with a magnetic flap.",
+    "etiqueta_en": "Black label printed directly on the glass with screen-printed sand-beige text: 'Sigo Igual' wordmark centered, two identical small portrait-silhouette outlines with dates '2016 — 2026' below them as a cheeky reference to the 10-year challenge, 'NMN 1.000 mg · Precursor de NAD+' in small spaced caps; finishes: antique-gold hot foil on the equals sign and dates, embossed wordmark, soft-touch black matte coating.",
+    "escena_en": "Luxury campaign shot: the black jar on a mirrored gold tray that reflects it identically (a visual 'sigo igual'), next to a vintage gold hourglass with sand stopped, a crystal glass of water and a small pile of fine white powder, set on dark walnut against a deep black velvet backdrop, single warm spotlight creating dramatic chiaroscuro, high-end jewelry ad look.",
+    "lifestyle_en": "Instagram vertical shot in an elegant Medellín apartment with a terrace overlooking the city lights at dusk: a mature woman's hand with gold rings and a classic watch stirs the gold spoon of NMN into a glass of water on a stone side table, a silk robe sleeve visible, face out of frame, warm golden-hour light mixed with soft interior lamps."
+  },
+  {
+    "registro": "F59",
+    "candidatos": [
+      {
+        "nombre": "Melao",
+        "por_que": "En la salsa caribeña 'melao' es lo dulce y sabroso que se pega; aquí es miel con shilajit que te deja con ganas de más.",
+        "eslogan": "Dulce por fuera, fiera por dentro",
+        "tono": "sensual, caribeño y pícaro"
+      },
+      {
+        "nombre": "Doble Turno",
+        "por_que": "Frase con doble sentido: energía para el trabajo de día y para la noche.",
+        "eslogan": "De día rindes, de noche también",
+        "tono": "pícaro y desenfadado"
+      },
+      {
+        "nombre": "Kailá",
+        "por_que": "Del monte Kailash del Himalaya, donde nace el shilajit, con final latino.",
+        "eslogan": "La fuerza de la montaña",
+        "tono": "místico y ancestral"
+      },
+      {
+        "nombre": "Zafrá",
+        "por_que": "Del azafrán de la fórmula, la especia más cara del mundo, dicho con picardía costeña.",
+        "eslogan": "Oro rojo para tu noche",
+        "tono": "exótico y lujoso"
+      },
+      {
+        "nombre": "Brea Dulce",
+        "por_que": "El shilajit es una resina negra como la brea, endulzada con miel.",
+        "eslogan": "Negra, espesa y poderosa",
+        "tono": "rústico y artesanal"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Melao\" shilajit marca miel: no existe marca de suplementos o belleza con ese nombre (solo productos genéricos de shilajit con miel).",
+    "publico": "Hombres 28-55 años en Colombia (y sus parejas que se lo regalan) que quieren más energía, rendimiento y deseo sexual de forma natural; costa caribe, Medellín y Bogotá; consumen humor pícaro en TikTok y Reels.",
+    "inspiracion": "Hims por el desenfado sexual premium, con la estética dorada de Mike's Hot Honey y la sensualidad latina de Bad Bunny en marcas como Adidas Ballerina.",
+    "paleta": [
+      "#1B0F0A",
+      "#E8A317",
+      "#7A1F1F",
+      "#F6E7C8"
+    ],
+    "fuente": "Pacifico",
+    "logo_en": "Script wordmark 'Melao' in Pacifico with a long fluid honey-drip tail coming off the final 'o' that turns into a single viscous drop; honey gold #E8A317 on almost-black brown #1B0F0A, with a small mountain-peak glyph hidden in the 'M' and a thin saffron-red #7A1F1F underline swash.",
+    "envase_en": "Single-dose 10 g honey sticks in glossy gold-metallic laminated film, 13 cm long with tear notch and rounded ends, packed 20 per box in a sliding drawer-style matte black rigid box with a gold honey-drip pattern on the sleeve, drawer interior in deep saffron red #7A1F1F.",
+    "etiqueta_en": "Stick: vertical 'Melao' script in black over gold film, a small black mountain silhouette at the bottom, 'Shilajit + Miel + Azafrán' in tiny cream #F6E7C8 caps; box sleeve: large gold-foil dripping wordmark, black matte background, a cream tag 'Energía y potencia natural · 20 sticks', a playful seal 'Para tomar de a dos'; finishes: gold hot-foil drips with raised embossing so they feel like real drops, soft-touch black, spot-gloss on the honey drop.",
+    "escena_en": "Sensual campaign shot: a gold Melao stick squeezed so a thick ribbon of dark amber honey-shilajit flows onto a dark slate surface, a broken honeycomb, saffron threads and a chunk of black resinous shilajit rock as props, the black box half-open behind; warm low-key lighting with honey backlight glowing amber against a deep brown backdrop, smoky dramatic mood.",
+    "lifestyle_en": "Vertical TikTok shot on a nightstand in a hotel room in Cartagena's walled city with colonial wooden shutters and warm lamp light: a man's hand tears a Melao stick while a woman's hand with red nails reaches playfully for the box, two glasses of water and a phone on the table, both faces out of frame, intimate warm evening light, suggestive but tasteful."
+  },
+  {
+    "registro": "F47",
+    "candidatos": [
+      {
+        "nombre": "Mediodía",
+        "por_que": "El sol de mediodía es el que más vitamina D produce; aquí cabe en una cápsula.",
+        "eslogan": "Tu mediodía, a cualquier hora",
+        "tono": "luminoso y sereno"
+      },
+      {
+        "nombre": "Duetto",
+        "por_que": "Dueto en italiano: la D3 y la K2 trabajan juntas, una absorbe el calcio y la otra lo lleva al hueso.",
+        "eslogan": "Dos voces, un hueso fuerte",
+        "tono": "elegante y musical"
+      },
+      {
+        "nombre": "Verano Fijo",
+        "por_que": "Frase con actitud para la Bogotá gris: verano todo el año en una cápsula.",
+        "eslogan": "Tu sol, aunque llueva",
+        "tono": "optimista y urbano"
+      },
+      {
+        "nombre": "Ossa",
+        "por_que": "Huesos en latín e italiano, con sonido tierno a osa.",
+        "eslogan": "Fuerte desde adentro",
+        "tono": "cálido y protector"
+      },
+      {
+        "nombre": "Heliá",
+        "por_que": "De Helios, el sol griego: la vitamina del sol hecha nombre femenino.",
+        "eslogan": "La luz que te sostiene",
+        "tono": "luminoso y clásico"
+      }
+    ],
+    "recomendada": 1,
+    "verificacion": "Se descartó Kadé porque WebSearch mostró 'KADE' como complejo vitamínico A-D-E-K vendido en Brasil y además ya lo usa otro grupo; WebSearch \"Duetto\" vitamina D3 K2 suplemento: sin marca de suplementos o belleza con ese nombre.",
+    "publico": "Adultos 30-60 años en Colombia, sobre todo mujeres en perimenopausia y oficinistas que pasan el día bajo techo en Bogotá y ciudades frías, con déficit de vitamina D, preocupados por huesos y defensas.",
+    "inspiracion": "Ritual (Essential for Women) por la cápsula transparente y el lenguaje de ciencia, con la elegancia italiana de Aesop.",
+    "paleta": [
+      "#FFC93C",
+      "#2E3A59",
+      "#FAF6EE",
+      "#E7743B"
+    ],
+    "fuente": "Playfair Display",
+    "logo_en": "Serif wordmark 'Duetto' in Playfair Display Bold Italic, with the two 't's ligatured into a single crossbar so they look like two figures holding hands; above the wordmark a symbol of two overlapping circles, one sun-yellow #FFC93C (D3) and one deep indigo #2E3A59 (K2), the overlap tinted orange #E7743B; indigo letters on warm cream.",
+    "envase_en": "Clear amber-free transparent PET bottle, 60 softgel-in-capsule units, rounded cylinder with a cream #FAF6EE matte smooth screw cap, capsules are transparent with a golden oil inside visible through the bottle; outer slim cream carton.",
+    "etiqueta_en": "Cream half-label leaving a clear window so the golden capsules show: the two-circle symbol large at top, Duetto wordmark in indigo, a musical stave line running across the label with two notes labeled 'D3 5.000 UI' and 'K2 MK-7 100 µg', small 'Huesos fuertes · Defensas' tagline; finishes: gold-yellow hot foil on the D3 circle, matte indigo ink, blind emboss on the stave line, uncoated paper feel.",
+    "escena_en": "Campaign shot of the bottle and three golden softgels on a warm sandstone surface, hard late-morning sunbeam slicing diagonally through a window with venetian blind shadows, a small brass tuning fork and a halved blood orange as props, cream backdrop, warm glowing light making the capsules shine like small suns.",
+    "lifestyle_en": "Vertical Instagram shot on a breakfast table by a rainy window in a Bogotá apartment (grey sky, drops on the glass, Monserrate faintly visible): a woman's hand in a knit sweater sleeve takes a golden capsule from the Duetto bottle next to an arepa, a cup of hot chocolate and a fruit bowl with granadillas, face out of frame, cozy soft natural light."
+  },
+  {
+    "registro": "F49",
+    "candidatos": [
+      {
+        "nombre": "Baila Hoy",
+        "por_que": "Frase con actitud: no esperes a mañana ni al dolor, hoy bailas.",
+        "eslogan": "Rodillas listas para la rumba",
+        "tono": "alegre y festivo"
+      },
+      {
+        "nombre": "Kinéa",
+        "por_que": "Del griego kinesis, movimiento, con final suave y femenino.",
+        "eslogan": "Movimiento sin límites",
+        "tono": "clínico moderno"
+      },
+      {
+        "nombre": "Passo",
+        "por_que": "Paso en italiano: cada paso firme y sin dolor.",
+        "eslogan": "Paso firme, vida plena",
+        "tono": "elegante y sobrio"
+      },
+      {
+        "nombre": "Sin Crujir",
+        "por_que": "Frase directa con humor: rodillas que ya no suenan al subir escaleras.",
+        "eslogan": "Que no te suene nada",
+        "tono": "jocoso y cercano"
+      },
+      {
+        "nombre": "Artiva",
+        "por_que": "Fusión de articulación y activa.",
+        "eslogan": "Articulaciones activas siempre",
+        "tono": "funcional y confiable"
+      }
+    ],
+    "recomendada": 2,
+    "verificacion": "Andante se descartó porque ya lo usa otro grupo; WebSearch \"Passo\" suplemento articulaciones glucosamina marca: no aparece marca de suplementos o belleza con ese nombre.",
+    "publico": "Adultos 45-70 años en Colombia (y sus hijos que se lo compran) con molestias de rodilla, cadera o espalda, que quieren seguir caminando, bailando, viajando y jugando con los nietos; también deportistas veteranos.",
+    "inspiracion": "Thorne y Care/of en la claridad, con la elegancia italiana de Aesop y el espíritu activo de New Balance.",
+    "paleta": [
+      "#2F5D50",
+      "#F3EBDD",
+      "#D9A441",
+      "#8C4A2F"
+    ],
+    "fuente": "Cormorant Garamond",
+    "logo_en": "Classic serif wordmark 'Passo' in Cormorant Garamond SemiBold, sentence case, with slightly widened spacing and the double 's' drawn as two interlocking strides; beneath it a minimalist line symbol of three ascending footsteps that double as musical notes on a single curved line; forest green #2F5D50 with an ochre #D9A441 accent on the notes.",
+    "envase_en": "Forest-green #2F5D50 matte PET supplement bottle, 90 capsules, classic packer shape with a wide 53 mm ochre #D9A441 ribbed screw cap, easy-grip cap for older hands, capsules are opaque cream; boxed in a textured cream carton.",
+    "etiqueta_en": "Cream #F3EBDD textured paper label with editorial layout: Passo wordmark centered in green, the footsteps-notes symbol in ochre foil, a small Italian-style subtitle 'un passo alla volta' in italics, then 'Calcio · D3 · K2 · Glucosamina · Condroitina' in spaced caps, large readable dosage text for older eyes; finishes: ochre-gold hot foil on the symbol, blind deboss on the wordmark, matte uncoated stock with a terracotta #8C4A2F thin border.",
+    "escena_en": "Campaign shot of the bottle on a weathered wooden step of a colonial staircase with terracotta tiles, a pair of classic leather loafers and a folded linen scarf beside it, a sprig of rosemary and a vintage metronome as props, soft late-afternoon golden light raking across the steps, warm Mediterranean-Colombian mood.",
+    "lifestyle_en": "Vertical Instagram shot on a cobblestone street in Villa de Leyva with whitewashed walls and green balconies: an older woman's hand with a silver ring holds the Passo bottle while walking, white sneakers and linen trousers visible mid-stride, a man's hand holding hers, faces out of frame, bright clean Andean afternoon sun."
+  },
+  {
+    "registro": "F82",
+    "candidatos": [
+      {
+        "nombre": "Sin Ay",
+        "por_que": "Frase con actitud: el 'ay' que se te sale al levantarte o al subir la escalera, eliminado.",
+        "eslogan": "Despídete del ay",
+        "tono": "jocoso, cálido y colombiano"
+      },
+      {
+        "nombre": "Kurkú",
+        "por_que": "Inventada desde cúrcuma, con sonido de canto alegre y tropical.",
+        "eslogan": "Lo dorado que desinflama",
+        "tono": "tropical y alegre"
+      },
+      {
+        "nombre": "Manjal",
+        "por_que": "Cúrcuma en tamil, la lengua del sur de India donde es ritual de bienestar.",
+        "eslogan": "El ritual dorado de la India",
+        "tono": "ancestral y exótico"
+      },
+      {
+        "nombre": "Turmí",
+        "por_que": "Fusión de turmeric y 'mí': tu dosis personal de cúrcuma.",
+        "eslogan": "Tu oro diario",
+        "tono": "suave y personal"
+      },
+      {
+        "nombre": "Oro Tibio",
+        "por_que": "La cúrcuma es oro y el jengibre da calor: alivio tibio y dorado.",
+        "eslogan": "Calor dorado que alivia",
+        "tono": "poético y reconfortante"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Sin Ay\" cúrcuma gomitas marca: no hay marca de suplementos o belleza con ese nombre.",
+    "publico": "Mujeres y hombres 35-65 años en Colombia con dolor articular, rodillas inflamadas o que pasan muchas horas de pie o sentados; mamás y tías activas en WhatsApp y Facebook que prefieren gomitas a pastillas.",
+    "inspiracion": "Goli por la gomita amigable y el frasco icónico, con el humor de Liquid Death y el calor de Golde (superfood de cúrcuma).",
+    "paleta": [
+      "#F2A900",
+      "#4A2C1A",
+      "#FFF4D6",
+      "#E4572E"
+    ],
+    "fuente": "Baloo 2",
+    "logo_en": "Chunky rounded wordmark 'sin ay' in Baloo 2 ExtraBold lowercase, the word 'ay' crossed out with a hand-drawn terracotta #E4572E strike line, as if it was deleted; dark brown #4A2C1A letters on turmeric yellow #F2A900; secondary icon is a round gummy with a small smiling curve.",
+    "envase_en": "Glossy amber-tinted PET wide jar, 60 gummies, short and squat with a rounded silhouette, turmeric-yellow #F2A900 smooth screw cap with a brown printed top, induction seal; gummies are bright golden-orange round drops coated in fine sugar visible through the amber.",
+    "etiqueta_en": "Cream #FFF4D6 wraparound label: oversized 'sin ay' wordmark with the red strike-through, playful speech-bubble 'ay, mi rodilla' crossed out, 'Cúrcuma + Jengibre + Pimienta negra' in brown small caps, three illustrated ingredients in flat line style (turmeric root, ginger, peppercorns), 'Sabor mango' tag; finishes: gold hot foil on the turmeric root illustration, glossy spot varnish on the gummy icon, tactile raised strike-through line.",
+    "escena_en": "Warm campaign shot of the jar on a turmeric-yellow ceramic tile counter with fresh turmeric roots cut open showing bright orange flesh, a knob of ginger, scattered black peppercorns and golden gummies, a dusting of turmeric powder, warm side light from a window, rich saturated yellow-orange backdrop, cozy kitchen-apothecary look.",
+    "lifestyle_en": "Vertical Facebook/TikTok-style shot in a Colombian home kitchen with a colorful plastic tablecloth and a tinto in a ceramic cup: a middle-aged woman's hand takes a golden gummy from the sin ay jar, the other hand resting on her knee wearing comfortable jeans, a small pot of agua de panela on the stove blurred behind, face out of frame, warm morning light."
+  }
+]

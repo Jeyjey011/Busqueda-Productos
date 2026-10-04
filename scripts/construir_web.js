@@ -278,6 +278,14 @@ for (const c of catalogo.productos) for (const k of [c.foto, c.foto2].filter(Boo
   if (fs.existsSync(m)) cat[k] = { src: dataUri(m), nombre: c.nombre };
   if (fs.existsSync(g)) empG['K:' + k] = dataUri(g);
 }
+// Fotos reales que mandó el cliente: se usan como portada de esos registros
+const REAL = { N5: 'magkids', N6: 'magkids' };
+for (const k of new Set(Object.values(REAL))) {
+  const m = path.join(RAIZ, 'salida', 'catalogo', `m_${k}.jpg`), g = path.join(RAIZ, 'salida', 'catalogo', `h_${k}.jpg`);
+  if (fs.existsSync(m)) cat[k] = { src: dataUri(m), nombre: 'Foto real del producto' };
+  if (fs.existsSync(g)) empG['K:' + k] = dataUri(g);
+}
+const real = Object.fromEntries(Object.entries(REAL).filter(([, k]) => cat[k]));
 // los registros propios del catálogo usan la foto real como portada
 for (const c of catalogo.productos.filter((x) => !x.registro && x.nuevo_registro)) {
   if (cat[c.foto] && !emp[c.nuevo_registro.id]) { emp[c.nuevo_registro.id] = cat[c.foto].src; if (empG['K:' + c.foto]) empG[c.nuevo_registro.id] = empG['K:' + c.foto]; }
@@ -302,7 +310,16 @@ const DATA = {
     marcas: registros.reduce((s, r) => s + r.marcas.length, 0),
     unidades: usMes.reduce((s, p) => s + p.unidades_periodo, 0) + mxMes.reduce((s, p) => s + p.unidades_periodo, 0),
   },
-  categorias, registros, productos, imgs, emp, cat, mandar,
+  categorias, registros, productos, imgs, emp, cat, mandar, real,
+  // Elegir nombres: 5 candidatos por producto (datos/marcas_v2), en el orden de prioridad de los registros
+  nombres: (() => {
+    const v2 = {};
+    for (const parte of leerCarpeta('datos/marcas_v2')) for (const x of parte) v2[x.registro] = x;
+    return registros.filter((r) => v2[r.id]).map((r) => ({
+      reg: r.id, n: r.n, cat: r.cat, pres: r.pres, ben: r.ben, rec: v2[r.id].recomendada,
+      cand: v2[r.id].candidatos.map((c) => ({ n: c.nombre, p: c.por_que, e: c.eslogan })),
+    }));
+  })(),
 };
 // Datos sin imágenes para el Excel (mismo orden y prioridad que la web)
 fs.writeFileSync(path.join(RAIZ, 'datos', 'web_datos.json'), JSON.stringify({ ...DATA, imgs: undefined, emp: undefined }, null, 1), 'utf8');

@@ -175,6 +175,30 @@ main{padding-block:28px 80px}
 .combo img{width:100%;height:100%;object-fit:cover;background:#fff}
 .prio{font:800 12px/1 var(--mono);color:var(--accent)}
 
+/* elegir nombres */
+.vprog{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:16px}
+.vbar{flex:1;min-width:200px;height:10px;border-radius:99px;background:var(--surface2);overflow:hidden}
+.vbar i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .4s}
+.vlist{display:grid;gap:14px;margin-top:18px}
+.vcard{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px;display:grid;gap:12px}
+.vcard.hecho{border-color:var(--accent)}
+.vcard .arriba{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.vcard h3{font-size:18px;margin:0;flex-basis:100%}
+.vops{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.vop{text-align:left;border:1.5px solid var(--line);background:var(--surface2);border-radius:14px;padding:12px;display:grid;gap:6px;align-content:start;position:relative;transition:border-color .2s,transform .2s,background .2s;color:var(--ink)}
+.vop:hover{transform:translateY(-2px);border-color:var(--muted)}
+.vop[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.vop[aria-pressed="true"]::after{content:"✓";position:absolute;top:8px;right:10px;font-weight:800;color:var(--accent)}
+.vop .nm{font:800 20px/1.05 var(--display);padding-right:16px;word-break:break-word}
+.vop .es{font-size:13px;font-weight:600}
+.vop small{font-size:12px;color:var(--muted)}
+.vop .rec{justify-self:start;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--accent);color:var(--accent-ink,#fff);padding:3px 8px;border-radius:99px}
+.votro{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.votro input{flex:1;min-width:180px;max-width:360px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:12px;padding:10px 12px;font:inherit}
+.votro .estado-v{font-size:13px;color:var(--muted)}
+@media (max-width:980px){.vops{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.vops{grid-template-columns:1fr}}
+
 /* marcas únicas */
 .marca.u{text-transform:none;letter-spacing:0;font-weight:400;font-size:15px;border:1px solid rgba(0,0,0,.08)}
 .panel{width:100%;aspect-ratio:341/576;border-radius:12px;background-size:300% 100%;background-repeat:no-repeat;cursor:zoom-in;background-color:var(--surface2)}
@@ -291,6 +315,7 @@ footer{border-top:1px solid var(--line);padding-block:24px;color:var(--muted);fo
       <button class="tab" role="tab" data-tab="inicio" id="t-inicio">Inicio</button>
       <button class="tab" role="tab" data-tab="mandar" id="t-mandar">Para mandar a hacer</button>
       <button class="tab" role="tab" data-tab="registros" id="t-registros">Registros</button>
+      <button class="tab" role="tab" data-tab="nombres" id="t-nombres">Elegir nombres</button>
       <button class="tab" role="tab" data-tab="marcas" id="t-marcas">Marcas</button>
       <button class="tab" role="tab" data-tab="productos" id="t-productos">Productos virales</button>
     </nav>
@@ -317,7 +342,7 @@ const prodPorId = Object.fromEntries(D.productos.map((p) => [p.id, p]));
 const regPorId = Object.fromEntries(D.registros.map((r) => [r.id, r]));
 const catNombre = (cod) => D.categorias.find((c) => c.cod === cod)?.n || cod;
 const foto = (id, alt = '', estilo = '') => (D.imgs[id] ? `<img class="foto" ${estilo ? `style="${estilo}"` : ''} src="${D.imgs[id]}" alt="${esc(alt)}" data-zoom="${id}" loading="lazy">` : '');
-const fotoEmp = (id, cls = 'foto', alt = '') => (D.emp[id] ? `<img class="${cls}" src="${D.emp[id]}" alt="${esc(alt || 'Así se verían las 3 marcas')}" data-zoom="E:${id}" loading="lazy">` : '');
+const fotoEmp = (id, cls = 'foto', alt = '') => (D.real && D.real[id] && D.cat[D.real[id]] ? `<img class="${cls}" src="${D.cat[D.real[id]].src}" alt="Foto real del producto" data-zoom="K:${D.real[id]}" loading="lazy">` : D.emp[id] ? `<img class="${cls}" src="${D.emp[id]}" alt="${esc(alt || 'Así se verían las 3 marcas')}" data-zoom="E:${id}" loading="lazy">` : '');
 const basado = (r) => `<div class="basado"><span>Basado en:</span>${r.refs.slice(0, 4).map((id) => (D.imgs[id] ? `<img src="${D.imgs[id]}" alt="${esc(prodPorId[id]?.n || '')}" data-zoom="${id}" class="foto">` : '')).join('')}</div>`;
 const estiloMarca = (b) => (b.fuente ? `background:${b.fondo};color:${b.tinta};font-family:'${b.fuente}',var(--display)` : '');
 const marcasHtml = (ms) => `<div class="marcas">${ms.map((b) => `<span class="marca u" style="${estiloMarca(b)}">${esc(b.nombre)}</span>`).join('')}</div>`;
@@ -481,6 +506,64 @@ function vistaMarcas() {
     <div id="marcas-lista">${bloques || '<p class="nota" style="margin-top:24px">No hay marcas con ese nombre.</p>'}</div>`;
 }
 
+/* ---------- ELEGIR NOMBRES ---------- */
+function listaNombres() {
+  const N = D.nombres || [];
+  const vs = estado.votos || {};
+  const ver = estado.filtroVoto === 'pend' ? N.filter((x) => !vs[x.reg]) : N;
+  if (!ver.length) return '<p class="nota" style="margin-top:20px">Ya eligieron todos. ¡Listo!</p>';
+  const catN = (c) => (D.categorias.find((k) => k.cod === c) || {}).n || '';
+  return ver.map((x, i) => {
+    const v = vs[x.reg];
+    const elegido = v ? (v.propio || (x.cand[v.i] || {}).n || '') : '';
+    return `<div class="vcard${v ? ' hecho' : ''}" style="--i:${i}" id="v-${x.reg}">
+      <div class="arriba"><span class="cod">${x.reg}</span><span class="pill">${esc(x.pres)}</span>${x.ben ? `<span class="ben">${esc(x.ben)}</span>` : ''}<small class="nota">${esc(catN(x.cat))}</small><h3>${esc(x.n)}</h3></div>
+      <div class="vops">${x.cand.map((c, j) => `<button class="vop" data-voto="${x.reg}" data-i="${j}" aria-pressed="${!!v && !v.propio && v.i === j}">${j === x.rec ? '<span class="rec">Recomendada</span>' : ''}<span class="nm">${esc(c.n)}</span><span class="es">${esc(c.e)}</span><small>${esc(c.p)}</small></button>`).join('')}</div>
+      <div class="votro"><input type="text" id="otro-${x.reg}" placeholder="¿Otro nombre? Escríbalo aquí" value="${esc(v && v.propio ? v.propio : '')}" aria-label="Otro nombre para ${esc(x.n)}"><button class="chip" data-otro="${x.reg}">Guardar mi nombre</button><span class="estado-v">${v ? 'Elegido: <b>' + esc(elegido) + '</b>' : 'Sin elegir'}</span></div>
+    </div>`;
+  }).join('');
+}
+function vistaNombres() {
+  const N = D.nombres || [];
+  const hechos = N.filter((x) => (estado.votos || {})[x.reg]).length;
+  const aviso = estado.dbOk ? 'Su elección se guarda sola y la ven todos los que abren esta página.' : 'Su elección se guarda en este navegador.';
+  return `<div class="sec-h"><div><p class="eyebrow">Una marca por producto · ${N.length} productos · 5 opciones cada uno</p><h2 style="margin-top:8px">Elijan el nombre de cada marca</h2></div></div>
+    <p class="nota" style="max-width:80ch">Para cada producto hay 5 nombres inventados que se pueden registrar, cada uno con su eslogan y por qué se llama así. La marcada como "Recomendada" es nuestra favorita. Toquen la que más les guste o escriban otro nombre. ${aviso} El magnesio para niños (gotas y gomitas) usa la marca de ustedes, Magnesium Citrate Kids.</p>
+    <div class="vprog"><b id="v-cuenta">${hechos} de ${N.length} elegidos</b><div class="vbar"><i id="v-barra" style="width:${N.length ? (hechos / N.length) * 100 : 0}%"></i></div>
+      <div class="chips" role="group" aria-label="Filtro"><button class="chip" data-fvoto="todos" aria-pressed="${estado.filtroVoto !== 'pend'}">Todos</button><button class="chip" data-fvoto="pend" aria-pressed="${estado.filtroVoto === 'pend'}">Sin elegir</button></div></div>
+    ${estado.dbError ? '<p class="nota" style="color:var(--quem,#c0392b)">No se pudo guardar en línea; quedó guardado en este navegador.</p>' : ''}
+    <div class="vlist" id="nombres-lista">${listaNombres()}</div>`;
+}
+function repintarNombres() {
+  if (estado.tab !== 'nombres') return;
+  const N = D.nombres || []; const hechos = N.filter((x) => (estado.votos || {})[x.reg]).length;
+  const c = $('#v-cuenta'), b = $('#v-barra'), l = $('#nombres-lista');
+  if (!c || !l) return pintar();
+  c.textContent = hechos + ' de ' + N.length + ' elegidos'; b.style.width = (N.length ? (hechos / N.length) * 100 : 0) + '%';
+  const foco = document.activeElement && document.activeElement.id; const pos = foco && document.activeElement.selectionStart;
+  l.innerHTML = listaNombres();
+  if (foco && foco.startsWith('otro-') && $('#' + foco)) { const el = $('#' + foco); el.focus(); try { el.setSelectionRange(pos, pos); } catch (e) {} }
+}
+let dbVotos = null;
+async function votar(reg, data) {
+  estado.votos = { ...(estado.votos || {}), [reg]: { ...data, en: new Date().toISOString() } };
+  repintarNombres();
+  if (dbVotos) { try { await dbVotos.doc('elecciones/' + reg).set(estado.votos[reg]); return; } catch (e) { estado.dbError = true; } }
+  guardar({ votos: estado.votos });
+}
+(async () => {
+  try {
+    const db = window.claude && window.claude.use ? await window.claude.use('db') : null;
+    if (!db) return;
+    dbVotos = db;
+    db.collection('elecciones').onSnapshot((s) => {
+      const v = {}; s.docs.forEach((d) => { const x = d.data(); if (x) v[d.id] = x; });
+      estado.votos = v; estado.dbOk = true;
+      if (estado.tab === 'nombres') repintarNombres();
+    }, () => { dbVotos = null; });
+  } catch (e) {}
+})();
+
 /* ---------- PRODUCTOS ---------- */
 function vistaProductos() {
   const cat = D.categorias.find((c) => c.cod === estado.catProd) || D.categorias[0];
@@ -566,7 +649,7 @@ function ampliar(clave) {
 /* ---------- navegación ---------- */
 function pintar() {
   document.querySelectorAll('.tab').forEach((t) => t.setAttribute('aria-selected', t.dataset.tab === estado.tab));
-  $('#app').innerHTML = `<div class="view">${{ inicio: vistaInicio, mandar: vistaMandar, registros: vistaRegistros, marcas: vistaMarcas, productos: vistaProductos }[estado.tab]()}</div>`;
+  $('#app').innerHTML = `<div class="view">${{ inicio: vistaInicio, mandar: vistaMandar, nombres: vistaNombres, registros: vistaRegistros, marcas: vistaMarcas, productos: vistaProductos }[estado.tab]()}</div>`;
   if (!reducido) contar();
 }
 function ir(tab, extra = {}) {
@@ -591,6 +674,9 @@ document.addEventListener('click', (e) => {
   if (t.matches('[data-cerrar-guia]')) { guardar({ guiaVista: true }); return $('#guia').close(); }
   if (t.id === 'abrir-guia' || t.hasAttribute('data-guia')) return abrirGuia();
   if (t.dataset.guiaPaso) { const n = pasoGuia + +t.dataset.guiaPaso; if (n >= PASOS.length) { guardar({ guiaVista: true }); $('#guia').close(); return ir('registros'); } pasoGuia = Math.max(0, n); return pintarGuia(); }
+  if (t.dataset.voto) return votar(t.dataset.voto, { i: +t.dataset.i, propio: '' });
+  if (t.dataset.otro) { const val = ($('#otro-' + t.dataset.otro) || {}).value || ''; if (val.trim()) votar(t.dataset.otro, { i: -1, propio: val.trim().slice(0, 60) }); return; }
+  if (t.dataset.fvoto) { estado.filtroVoto = t.dataset.fvoto; return pintar(); }
   if (t.dataset.tab) return ir(t.dataset.tab);
   if (t.dataset.ir) return ir(t.dataset.ir);
   if (t.dataset.reg) { if ($('#guia').open) $('#guia').close(); return abrirRegistro(t.dataset.reg); }
@@ -609,7 +695,8 @@ document.addEventListener('change', (e) => { if (e.target.id === 'sin-quemados')
 $('#modal').addEventListener('click', (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
 $('#guia').addEventListener('click', (e) => { if (e.target === e.currentTarget) { guardar({ guiaVista: true }); e.currentTarget.close(); } });
 const inicial = (location.hash || '').slice(1);
-if (['inicio', 'mandar', 'registros', 'marcas', 'productos'].includes(inicial)) estado.tab = inicial;
+if (['inicio', 'mandar', 'nombres', 'registros', 'marcas', 'productos'].includes(inicial)) estado.tab = inicial;
+estado.votos = estado.votos || leerG().votos || {};
 $('#pie').innerHTML = `Datos de ventas: FastMoss (TikTok Shop EE. UU. y México), ${esc(D.corte)}. Fórmulas con dosis típicas del mercado. Nombres de marca propuestos: verificar disponibilidad en la SIC antes de registrarlos.`;
 pintar();
 if (!leerG().guiaVista) setTimeout(abrirGuia, 600);

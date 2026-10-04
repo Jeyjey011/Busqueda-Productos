@@ -1,0 +1,614 @@
+[
+  {
+    "registro": "F02",
+    "candidatos": [
+      {
+        "nombre": "Pheliz",
+        "por_que": "Fusión de pH y feliz: cuando tu pH está en su punto, tú estás feliz.",
+        "eslogan": "Tu pH feliz, tú también.",
+        "tono": "pícaro, cómplice y juvenil"
+      },
+      {
+        "nombre": "Doucette",
+        "por_que": "En francés es 'dulcecita': una gomita dulce que te cuida donde más importa.",
+        "eslogan": "Dulce por dentro, segura por fuera.",
+        "tono": "coqueto parisino de lujo"
+      },
+      {
+        "nombre": "Ahí Bien",
+        "por_que": "La respuesta cómplice entre amigas cuando preguntan cómo va todo 'allá abajo'.",
+        "eslogan": "¿Y allá abajo? Ahí bien.",
+        "tono": "humor pícaro y descomplicado"
+      },
+      {
+        "nombre": "Yonelle",
+        "por_que": "Une yoni (el término sánscrito para la zona íntima) con elle (ella en francés).",
+        "eslogan": "Lo íntimo también merece lujo.",
+        "tono": "bienestar femenino sofisticado"
+      },
+      {
+        "nombre": "Momoka",
+        "por_que": "En japonés suena a 'aroma de durazno', y el durazno es el emoji de lo íntimo.",
+        "eslogan": "Huele a flor, se siente a ti.",
+        "tono": "kawaii premium"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Pheliz\" probiotic supplement brand: sin resultados de marca existente en suplementos o belleza.",
+    "publico": "Mujeres de 20 a 35 años, urbanas y activas en TikTok, que quieren sentirse frescas y seguras en su intimidad sin ir a la farmacia a pedir un óvulo; compran por estética y por recomendación de influencers.",
+    "inspiracion": "Lemme Purr de Kourtney Kardashian y Love Wellness: probiótico íntimo en gomita con estética pop y empoderada.",
+    "paleta": [
+      "#FFD9E2",
+      "#FF6F61",
+      "#FFE8A3",
+      "#3B1F4A"
+    ],
+    "fuente": "DM Serif Display",
+    "logo_en": "Wordmark 'pheliz' in lowercase DM Serif Display with high-contrast strokes; the 'p' and 'h' are slightly tighter-kerned and the 'h' carries a tiny superscript-style smile curve above it, evoking both a pH symbol and a happy face; the dot of the 'i' is a small glossy pineapple-yellow (#FFE8A3) droplet; deep plum (#3B1F4A) letters, optional coral (#FF6F61) monoline circle badge reading 'pH 3.8-4.5' as a secondary mark.",
+    "envase_en": "Wide-mouth frosted PET gummy jar, 60 gummies, soft-touch matte blush pink (#FFD9E2) body with a rounded glossy coral (#FF6F61) screw cap, slightly squat apothecary proportions, heat-sealed foil inner liner; a few heart-shaped translucent coral gummies dusted with sugar shown beside it.",
+    "etiqueta_en": "Full-wrap label: centered plum wordmark 'pheliz' large on top third, beneath it a thin coral line and the descriptor 'Probiótico íntimo en gomita' in small caps; a pastel pH scale bar (gradient from pineapple yellow to coral) with a tiny heart marker sitting at the healthy zone; '2.000 millones UFC · 4 cepas Lactobacillus' in a rounded pill-shaped badge; back panel with clean ingredient grid; finishes: soft-touch lamination, spot gloss on the wordmark, pearlescent holographic foil on the heart marker.",
+    "escena_en": "Campaign product shot on a glossy lacquered blush-pink pedestal against a seamless coral backdrop, the jar centered with heart-shaped gummies scattered in front, a halved pineapple and a few fresh pink peonies as props, soft diffused key light from the upper left with a crisp specular highlight on the cap, subtle pink reflection on the surface, editorial beauty-brand aesthetic.",
+    "lifestyle_en": "Vertical iPhone-style TikTok shot inside a sunlit modern apartment bathroom in El Poblado, Medellín: a woman's manicured hand (nude-pink nails, gold rings) unscrews the coral cap of the pheliz jar over a white marble vanity, a silk robe sleeve visible, plants and a round mirror softly blurred in the background, warm morning light through a window, no face shown, authentic casual feel."
+  },
+  {
+    "registro": "F30",
+    "candidatos": [
+      {
+        "nombre": "Mirtilla",
+        "por_que": "Viene de 'mirtillo rosso', como llaman al arándano rojo en italiano.",
+        "eslogan": "El arándano que te cuida doble.",
+        "tono": "lujo clínico femenino italiano"
+      },
+      {
+        "nombre": "Bayalú",
+        "por_que": "Palabra inventada desde 'baya' (el arándano) con remate alegre y latino.",
+        "eslogan": "Una baya al día, cero ardor.",
+        "tono": "fresco y frutal"
+      },
+      {
+        "nombre": "Ni Un Ardor",
+        "por_que": "La promesa directa de cualquier mujer cansada de las infecciones urinarias.",
+        "eslogan": "Ni un ardor, ni una excusa.",
+        "tono": "frase con actitud, empoderada"
+      },
+      {
+        "nombre": "Uriela",
+        "por_que": "Juega con 'uri' (vías urinarias) y Uriel, el ángel guardián.",
+        "eslogan": "Tu ángel guardián, de adentro hacia afuera.",
+        "tono": "protector y sereno"
+      },
+      {
+        "nombre": "Kiyomi",
+        "por_que": "Nombre japonés que significa 'pureza hermosa'.",
+        "eslogan": "Pureza que se siente todos los días.",
+        "tono": "minimalista zen"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Primera opción era Duetta, pero ya la usó otro grupo (B.json); se reemplazó. WebSearch \"Mirtilla\" supplement cranberry women brand: no aparece marca de suplementos o belleza con ese nombre.",
+    "publico": "Mujeres de 25 a 45 años con infecciones urinarias o vaginales recurrentes, profesionales que viajan y buscan una solución preventiva diaria con aire de marca dermatológica premium.",
+    "inspiracion": "Ritual (envase transparente, ciencia visible) y Uqora (prevención urinaria con estética limpia).",
+    "paleta": [
+      "#7A1E3A",
+      "#F4E6EA",
+      "#C9A86A",
+      "#FFFFFF"
+    ],
+    "fuente": "Cormorant Garamond",
+    "logo_en": "Elegant serif wordmark 'Mirtilla' in Cormorant Garamond Medium with generous letter-spacing in cranberry (#7A1E3A); the two 'l's are drawn taller and joined at the top by a delicate gold (#C9A86A) arc that forms a tiny cranberry branch with two round berries hanging from it, symbolizing double protection (intimate + urinary); refined Italian pharmacy feel.",
+    "envase_en": "Translucent cranberry-tinted (#7A1E3A at 40% opacity) PET capsule bottle, 60 capsules, cylindrical with soft shoulders, brushed gold (#C9A86A) aluminum screw cap, capsules visibly half-pink half-white inside; induction seal.",
+    "etiqueta_en": "Clear no-label-look sticker with white printing: 'Mirtilla' wordmark centered in white with the gold foil berry arc, below it 'Íntimo + Urinario' in small spaced caps separated by a thin gold rule; a minimalist line illustration of a cranberry branch wrapping around the back; key claims '32 cepas · Arándano rojo · Vitamina C' in a three-column grid; finishes: hot gold foil on the arc and rule, subtle blind emboss on the berries.",
+    "escena_en": "Campaign still life on a wet white travertine slab with shallow water reflections, the bottle standing beside a small heap of glossy fresh cranberries and a single white orchid, a soft blush (#F4E6EA) gradient backdrop, backlight making the translucent cranberry bottle glow, gentle drops of water on the cap, clinical-luxury mood.",
+    "lifestyle_en": "Instagram-style shot at a café table on a Bogotá rooftop in Chapinero on a cloudy morning: a woman's hand in a camel trench coat sleeve takes one capsule from the Mirtilla bottle next to a glass of water and a laptop, a cranberry juice glass nearby, no face, natural overcast light, realistic candid composition."
+  },
+  {
+    "registro": "F63",
+    "candidatos": [
+      {
+        "nombre": "Coquine",
+        "por_que": "En francés significa 'pícara, traviesa': así te sientes después de unas gotas.",
+        "eslogan": "Unas gotas y sale tu lado pícaro.",
+        "tono": "sensual francés, pícaro y elegante"
+      },
+      {
+        "nombre": "Hoy Quiero",
+        "por_que": "La frase que toda pareja quiere escuchar, dicha por ella.",
+        "eslogan": "Ganas que no se piden, se sienten.",
+        "tono": "frase con actitud, atrevida"
+      },
+      {
+        "nombre": "Desirée",
+        "por_que": "Nombre francés que significa literalmente 'la deseada'.",
+        "eslogan": "Siéntete deseada, empezando por ti.",
+        "tono": "romántico de lujo"
+      },
+      {
+        "nombre": "Febrila",
+        "por_que": "Palabra inventada desde 'fiebre': esa calentura buena que sube despacio.",
+        "eslogan": "La fiebre que sí quieres.",
+        "tono": "intenso y nocturno"
+      },
+      {
+        "nombre": "Calentina",
+        "por_que": "Fusión de 'calentura' y 'Valentina', como el nombre de tu alter ego.",
+        "eslogan": "Tu alter ego viene en gotero.",
+        "tono": "pícaro colombiano, juguetón"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Primera opción era Ardelia, pero WebSearch mostró 'Ardelia Beauty Skincare' (ardeliabs.com); se descartó. WebSearch \"Coquine\" supplement libido brand: sin marcas de suplementos o belleza con ese nombre.",
+    "publico": "Mujeres de 25 a 45 años, con pareja o solteras seguras, que sienten la libido baja por estrés, anticonceptivos o maternidad y quieren recuperar el deseo con algo natural, discreto y bonito para dejar en la mesa de noche.",
+    "inspiracion": "Sex Dust de Moon Juice y la estética de Maude: deseo femenino tratado como lujo, no como tabú.",
+    "paleta": [
+      "#B3123B",
+      "#1A0B12",
+      "#F2C9C0",
+      "#D4A24C"
+    ],
+    "fuente": "Playfair Display",
+    "logo_en": "Wordmark 'Coquine' in Playfair Display Italic, high-contrast and slightly condensed, rouge red (#B3123B); the tail of the 'Q' extends into a flirty winged-eyeliner flick that underlines 'uine'; a tiny gold (#D4A24C) droplet replaces the dot of the 'i'; secondary mark is a monogram 'C' with the same eyeliner flick inside a thin gold oval.",
+    "envase_en": "30 mL Boston round glass dropper bottle in deep ruby-red tinted glass with a glossy black (#1A0B12) rubber bulb and a polished gold (#D4A24C) collar, glass pipette; housed in a slim rigid nude-pink (#F2C9C0) box with a magnetic flap.",
+    "etiqueta_en": "Narrow black matte wrap label: gold foil 'Coquine' italic wordmark vertically centered, small caps 'Gotas de deseo · Maca · Tribulus · Ashwagandha' in nude pink below, a delicate gold line-art illustration of a woman's lips mid-smile on the back; '2 ml · 30 porciones'; finishes: hot gold foil, raised spot UV on the lips, soft-touch black lamination.",
+    "escena_en": "Moody campaign shot on black satin fabric with soft folds, the dropper bottle lying at a slight angle with a single glistening drop hanging from the pipette, scattered dark red rose petals and a pair of gold hoop earrings as props, low warm key light from the side with deep shadows and a red rim light, boudoir-luxury atmosphere.",
+    "lifestyle_en": "Vertical TikTok-style shot on a nightstand in a warm-lit apartment in Laureles, Medellín: a woman's hand with burgundy nails squeezes the dropper over a glass of sparkling water with a lime slice, linen bedsheets and a lit candle softly blurred behind, golden-hour lamp light, no face shown, intimate but tasteful."
+  },
+  {
+    "registro": "F45",
+    "candidatos": [
+      {
+        "nombre": "Shatara",
+        "por_que": "Inventado desde shatavari, la raíz ayurvédica 'de las cien esposas' que equilibra a la mujer.",
+        "eslogan": "Raíces antiguas para hormonas modernas.",
+        "tono": "ayurvédico de lujo, sereno"
+      },
+      {
+        "nombre": "Bien Puesta",
+        "por_que": "Así se dice en Colombia de la mujer que está completa, segura y en su sitio.",
+        "eslogan": "Hormonal sí. Bien puesta, siempre.",
+        "tono": "frase con actitud, humor femenino"
+      },
+      {
+        "nombre": "Hormoniosa",
+        "por_que": "Fusión de hormona y armoniosa: hormonas en armonía.",
+        "eslogan": "Cuando todo por dentro suena bien.",
+        "tono": "dulce y equilibrado"
+      },
+      {
+        "nombre": "Ollín",
+        "por_que": "En náhuatl significa movimiento y ciclo: el ritmo natural de tus hormonas.",
+        "eslogan": "Tu ciclo, en movimiento sereno.",
+        "tono": "ancestral y sereno"
+      },
+      {
+        "nombre": "Hygge",
+        "por_que": "Palabra danesa para esa sensación de calma y bienestar en casa: así se sienten tus días hormonales.",
+        "eslogan": "Calma danesa para tus días difíciles.",
+        "tono": "nórdico acogedor"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Primera opción era Myora, pero ya la usó otro grupo (B.json); se reemplazó. WebSearch \"Shatara\" supplement shatavari brand: solo aparecen marcas que venden shatavari (Organic India, Himalaya, Banyan), ninguna llamada Shatara.",
+    "publico": "Mujeres de 25 a 40 años con síndrome premenstrual fuerte, cambios de ánimo y antojos, que siguen a creadoras de salud hormonal y quieren un ritual diario rico que reemplace el café de la tarde.",
+    "inspiracion": "Arrae y Sakara Life por el bienestar hormonal femenino con estética editorial, con un toque ayurvédico de Rituals.",
+    "paleta": [
+      "#E9D8F4",
+      "#F6B48F",
+      "#5B3A8C",
+      "#FFF8F0"
+    ],
+    "fuente": "Syne",
+    "logo_en": "Wordmark 'Shatara' in Syne SemiBold, wide geometric letterforms in plum (#5B3A8C), lowercase except a sculpted capital 'S'; the crossbar of the 'h' grows into a fine root line that branches into a small cluster of shatavari tubers drawn as three soft teardrop shapes in apricot (#F6B48F), sitting under the word like roots under a plant; calm, balanced, symmetrical.",
+    "envase_en": "Rectangular matte lavender (#E9D8F4) paperboard box holding 30 single-serve stick packs; each stick pack is soft-touch matte apricot (#F6B48F) foil laminate with tear notch, flat sealed ends; box has a tuck-top lid and a rounded die-cut window showing the colorful sticks.",
+    "etiqueta_en": "Box front: plum 'Shatara' wordmark centered with the root symbol, under it 'Bebida hormonal · Myo-inositol + Shatavari + Rhodiola' in small spaced caps; a 28-dot circular cycle ring around the logo, dots shifting from lavender to apricot; flavor callout 'Cacao suave' in a pill badge; stick packs repeat the root symbol; finishes: iridescent holographic foil on the root cluster, blind emboss on the dot ring, soft-touch lamination.",
+    "escena_en": "Pastel campaign shot on a lavender plaster surface with a curved arch backdrop in cream (#FFF8F0), the open box with sticks fanned out like a bouquet, one stick torn open spilling cocoa-colored powder, a glass of frothy chocolate drink, dried lavender sprigs and a rose quartz stone and a few dried shatavari roots as props, soft even daylight with a gentle shadow, dreamy wellness aesthetic.",
+    "lifestyle_en": "Vertical TikTok shot in a bright home office in Cali with tropical plants: a woman's hand pours a Shatara stick into a tall glass of oat milk while the other hand stirs with a bamboo whisk, a planner open on the day's cycle tracker and a laptop blurred in the background, afternoon sun through blinds, no face shown."
+  },
+  {
+    "registro": "F44",
+    "candidatos": [
+      {
+        "nombre": "Quaranta",
+        "por_que": "Es 'cuarenta' en italiano, por la proporción clínica 40:1 de myo y D-chiro-inositol.",
+        "eslogan": "La proporción exacta para tu ciclo.",
+        "tono": "lujo clínico italiano"
+      },
+      {
+        "nombre": "Reloj Suizo",
+        "por_que": "Lo que todas quieren que sea su ciclo: puntual y preciso.",
+        "eslogan": "Tu ciclo, con precisión suiza.",
+        "tono": "frase con actitud, segura"
+      },
+      {
+        "nombre": "Ovanté",
+        "por_que": "Fusión de 'ova' (ovario) y 'avante': tus ovarios siguen adelante.",
+        "eslogan": "Tus ovarios, siempre adelante.",
+        "tono": "optimista y moderno"
+      },
+      {
+        "nombre": "Kalenda",
+        "por_que": "De las kalendas romanas, el primer día del mes: tu ciclo vuelve a tener fecha.",
+        "eslogan": "Tu ciclo vuelve a tener fecha.",
+        "tono": "clásico y preciso"
+      },
+      {
+        "nombre": "Yinova",
+        "por_que": "Fusión de yin (energía femenina) y nova (nuevo): energía femenina renovada.",
+        "eslogan": "Energía femenina, nuevo comienzo.",
+        "tono": "espiritual minimalista"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Quaranta\" supplement inositol brand: no existe marca de suplementos o belleza con ese nombre (solo Ovasitol, Optify, Wholesome Story, etc.).",
+    "publico": "Mujeres de 20 a 38 años diagnosticadas con SOP o ciclos irregulares, muchas buscando embarazo, informadas por ginecólogas en TikTok; quieren algo serio, con dosis clínica, que no se vea como medicamento.",
+    "inspiracion": "Ovasitol de Theralogix por la fórmula 40:1, con la estética de Aesop y Le Labo (farmacia de autor).",
+    "paleta": [
+      "#0F3D3E",
+      "#E7DCCB",
+      "#C46A4A",
+      "#FAF7F2"
+    ],
+    "fuente": "Montserrat",
+    "logo_en": "Uppercase wordmark 'QUARANTA' in Montserrat Medium with very wide tracking, deep teal (#0F3D3E); a small terracotta (#C46A4A) circular seal to the right containing '40:1' in thin numerals, the colon drawn as two tiny dots stacked like an apothecary measurement mark; feels like a pharmacy-of-author label.",
+    "envase_en": "Amber-free, opaque matte sand-colored (#E7DCCB) glass apothecary jar, 250 g powder, wide mouth with a heavy matte deep teal (#0F3D3E) screw lid, a small wooden scoop included; stands about 12 cm tall.",
+    "etiqueta_en": "Tall rectangular uncoated textured paper label in off-white (#FAF7F2) with typewriter-like layout: 'QUARANTA' at top, then a hairline rule, 'Myo-inositol 2.000 mg + D-chiro-inositol 50 mg' in two aligned columns, 'Proporción 40:1' highlighted in terracotta, 'Para el ciclo y los ovarios' in small italic; numbered batch line at the bottom; finishes: letterpress deboss on the wordmark, terracotta foil on the 40:1 seal.",
+    "escena_en": "Minimal campaign still life on a raw sandstone block against a warm sand backdrop, the jar beside a small ceramic dish with a mound of white powder and the wooden scoop resting on it, a single dried pampas stem and a terracotta clay sphere as props, hard late-afternoon sunlight casting a long sharp shadow, Aesop-like architectural mood.",
+    "lifestyle_en": "Instagram-style morning shot in a minimalist kitchen in a Bogotá apartment in Usaquén: a woman's hand scoops white powder from the Quaranta jar into a glass of water on a light oak counter, a menstrual cycle app open on a phone beside it and a cup of aromática, soft window light, no face shown."
+  },
+  {
+    "registro": "F64",
+    "candidatos": [
+      {
+        "nombre": "Que Se Note",
+        "por_que": "Lo que dices cuando ya no quieres esconder tus curvas ni tus ganas.",
+        "eslogan": "Curvas y ganas que se notan.",
+        "tono": "frase con actitud, segura y pícara"
+      },
+      {
+        "nombre": "Peachella",
+        "por_que": "Fusión de peach (durazno, el emoji del cuerpo) y el glamour de festival de Coachella.",
+        "eslogan": "Durazno de festival, todo el año.",
+        "tono": "glamour festivalero"
+      },
+      {
+        "nombre": "Fenómena",
+        "por_que": "Fusión de fenogreco (su ingrediente) y fenómeno: tú, convertida en una.",
+        "eslogan": "No eres curvy, eres fenómena.",
+        "tono": "divertido y empoderado"
+      },
+      {
+        "nombre": "Rondeau",
+        "por_que": "Forma poética francesa que viene de 'rond', redondo.",
+        "eslogan": "Redonda, como un poema.",
+        "tono": "chic francés sensual"
+      },
+      {
+        "nombre": "Bombom",
+        "por_que": "Como le dicen en Brasil a la mujer dulce y curvilínea.",
+        "eslogan": "Dulce por fuera, peligrosa por detrás.",
+        "tono": "brasilero coqueto"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Volupta se descartó: WebSearch mostró 'Volupta' como marca de endulzante (Costco/volupta.com). WebSearch \"Que Se Note\" marca gomitas suplemento: sin marcas existentes con ese nombre.",
+    "publico": "Mujeres de 20 a 35 años que entrenan glúteo, aman el reggaetón y la moda de shapewear, quieren más curvas y más ganas; compran por impulso en TikTok Shop y Live.",
+    "inspiracion": "SKIMS de Kim Kardashian y Toty de Sofía Vergara: cuerpo latino celebrado con estética de lujo.",
+    "paleta": [
+      "#FF3E7F",
+      "#2B0F1E",
+      "#FFB27A",
+      "#F9E5D8"
+    ],
+    "fuente": "Archivo Black",
+    "logo_en": "Stacked uppercase wordmark 'QUE SE NOTE' in Archivo Black, three lines tightly leaded, hot pink (#FF3E7F) on dark aubergine; underneath, a single fluid swoosh line that draws an hourglass hip curve and ends in a small heart, in peach (#FFB27A); the 'O' of 'NOTE' slightly wider and rounder than the others, a subtle nod to curves.",
+    "envase_en": "Hourglass-shaped glossy PET gummy jar (narrow waist, rounded hips), 60 gummies, hot pink (#FF3E7F) translucent body revealing peach-colored gummies, glossy aubergine (#2B0F1E) screw cap; gummies shaped like small peaches.",
+    "etiqueta_en": "Shrink-sleeve wrap following the hourglass silhouette: aubergine top band with the stacked pink wordmark, waist area with the peach curve swoosh, lower area reading 'Curvas + Libido · Maca + Fenogreco' in bold small caps, sticker-style badge 'Sabor durazno'; finishes: holographic pink foil on the wordmark, glossy spot UV on the curve line, metallic peach accents.",
+    "escena_en": "Bold pop campaign shot on a glossy hot pink acrylic floor with a mirrored aubergine backdrop, the hourglass jar centered, peach gummies spilling out, a fresh halved peach and a pink measuring tape coiled in an S shape as props, hard flash-style key light creating crisp shadows and reflections, Y2K luxury vibe.",
+    "lifestyle_en": "Vertical TikTok shot in a gym locker area in Barranquilla: a woman in high-waisted seamless leggings shown from the waist down, one hand holding the pink hourglass jar against her hip, a gym bag and water bottle on a bench behind, bright fluorescent and natural light mix, no face shown, energetic real vibe."
+  },
+  {
+    "registro": "F66",
+    "candidatos": [
+      {
+        "nombre": "Pa' Rato",
+        "por_que": "En Colombia 'pa' rato' es para largo, y eso promete este té.",
+        "eslogan": "Una taza hoy, aguante pa' rato.",
+        "tono": "pícaro colombiano con clase"
+      },
+      {
+        "nombre": "Emperté",
+        "por_que": "Fusión de emperador y té: la fórmula de cinco tesoros que tomaban los emperadores.",
+        "eslogan": "El té de los emperadores.",
+        "tono": "imperial y exótico"
+      },
+      {
+        "nombre": "Qilin",
+        "por_que": "El qilin es la criatura mítica china que trae fertilidad y buena fortuna.",
+        "eslogan": "Bestia mítica en cada taza.",
+        "tono": "místico oriental"
+      },
+      {
+        "nombre": "Ginsenior",
+        "por_que": "Fusión de ginseng y señor: el té del señor que sigue cumpliendo.",
+        "eslogan": "El señor no se retira.",
+        "tono": "humor maduro y elegante"
+      },
+      {
+        "nombre": "Yanzo",
+        "por_que": "Inventado desde yang, la energía masculina, con remate fuerte.",
+        "eslogan": "Energía yang, encendida.",
+        "tono": "zen masculino"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Se pensó en 'Wubao' (cinco tesoros en chino), pero WebSearch mostró que es el nombre genérico de un té vendido por varias marcas; se descartó. WebSearch \"Pa' Rato\" té marca suplemento: no hay marca de suplementos o belleza con ese nombre (solo una salsa de cocina sin relación).",
+    "publico": "Hombres de 35 a 60 años, colombianos de ciudad y de pueblo, que quieren rendir más en la cama sin pastillas y prefieren un ritual natural como el tinto o la aromática.",
+    "inspiracion": "La actitud irreverente de Liquid Death combinada con las latas de té de boticario chino tradicional.",
+    "paleta": [
+      "#7B1113",
+      "#D4A437",
+      "#111111",
+      "#F2E6D0"
+    ],
+    "fuente": "Righteous",
+    "logo_en": "Wordmark \"PA' RATO\" in Righteous, uppercase, gold (#D4A437) on imperial red; the apostrophe is drawn as a small leaf of ginseng; letters sit inside a horizontal rounded cartouche reminiscent of Chinese seal stamps, with a tiny five-dot cluster above the 'R' representing the five treasures; vintage tea-tin feel.",
+    "envase_en": "Round tin can tea caddy, 20 pyramid tea bags, imperial red (#7B1113) matte lacquer body with a gold (#D4A437) embossed friction lid, height about 13 cm; pyramid sachets in kraft envelopes showing visible goji, red dates and ginseng slices.",
+    "etiqueta_en": "Printed directly on the tin: central gold cartouche logo, below it a ring of five small line illustrations (ginseng root, goji, maca, mulberry, red date) in gold, text 'Té de los 5 tesoros · Ginseng · Goji · Maca' in cream small caps, a red Chinese-style seal stamp reading 'Pa' Rato' at the bottom corner; finishes: raised gold emboss, metallic gold ink, gloss varnish on the seal.",
+    "escena_en": "Campaign shot on a dark walnut wooden table with a black slate backdrop, the red tin with lid leaning open, a glass teapot of amber tea with floating goji berries, a dried ginseng root, red dates and a small brass bowl as props, warm low-key side lighting with steam rising, rich apothecary mood.",
+    "lifestyle_en": "Instagram-style shot on a finca balcony in the Eje Cafetero at dusk: a man's hand with a watch pours hot water from a kettle into a clay mug holding a Pa' Rato tea bag, the red tin on a wooden railing, green mountains and a hammock blurred in the background, warm golden light, no face shown."
+  },
+  {
+    "registro": "F58",
+    "candidatos": [
+      {
+        "nombre": "Kumbre",
+        "por_que": "Cumbre escrita con K: el shilajit nace en las cumbres más altas, y ahí es donde te deja.",
+        "eslogan": "Del pico de la montaña al tuyo.",
+        "tono": "aventurero, intenso y premium"
+      },
+      {
+        "nombre": "Virya",
+        "por_que": "En sánscrito significa vigor, valentía y energía masculina.",
+        "eslogan": "La energía que los yoguis guardaban.",
+        "tono": "místico masculino"
+      },
+      {
+        "nombre": "Kangri",
+        "por_que": "Significa 'montaña nevada' en tibetano, de donde viene el shilajit.",
+        "eslogan": "La fuerza de la montaña más alta.",
+        "tono": "aventurero premium"
+      },
+      {
+        "nombre": "Todo Arriba",
+        "por_que": "Testosterona, ánimo, energía... y lo demás también.",
+        "eslogan": "Testosterona arriba. Lo demás, también.",
+        "tono": "frase pícara con actitud"
+      },
+      {
+        "nombre": "Oro Negro",
+        "por_que": "Así le dicen al shilajit del Himalaya: el oro negro de las montañas.",
+        "eslogan": "El oro negro del Himalaya.",
+        "tono": "lujo oscuro"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Se descartaron Kailash (WebSearch: 'Kailash Shilajit', kailash.asia), Magmo (muy parecido a 'Magmia' de B.json) y Valkor (muy parecido a 'Valtor' de G.json). WebSearch \"Kumbre\" supplement shilajit brand: sin marca existente con ese nombre.",
+    "publico": "Hombres de 25 a 45 años que van al gimnasio, siguen podcasts de testosterona y biohacking, y quieren más energía, músculo y desempeño sexual sin hormonas sintéticas.",
+    "inspiracion": "Hims y la estética oscura de marcas de shilajit premium como Lifeforce; vibra de Joe Rogan y Andrew Huberman.",
+    "paleta": [
+      "#0B0B0B",
+      "#FF4D00",
+      "#3A2A20",
+      "#ECEAE4"
+    ],
+    "fuente": "Bebas Neue",
+    "logo_en": "Uppercase wordmark 'KUMBRE' in Bebas Neue, tall and tight, snow off-white (#ECEAE4); the 'K' is sliced so its two arms form a sharp mountain peak, with a thin ember-orange (#FF4D00) line tracing the summit ridge like sunrise on a peak; secondary symbol is a minimalist triangular summit with an orange dot at the top.",
+    "envase_en": "Heavy black (#0B0B0B) matte glass jar, 60 softgels, wide cylindrical shape with a matte black aluminum screw lid that has a thin lava-orange ring at its base; softgels are dark amber-brown (#3A2A20), visible through a small clear window on the back.",
+    "etiqueta_en": "Black-on-black label: 'KUMBRE' in raised off-white, summit ridge in glossy metallic orange foil, under it 'Shilajit + Maca + Ashwagandha + Ginseng' and '50.000 mg equivalente por softgel' in condensed caps; topographic contour lines of a mountain printed in gloss black varnish across the matte label with an altitude mark '5.000 msnm'; finishes: tactile black-on-black spot UV, orange metallic foil, deep emboss on the wordmark.",
+    "escena_en": "Dramatic campaign shot on a slab of dark volcanic rock dusted with real snow, the black jar centered with a few amber softgels and a chunk of raw shilajit resin beside it, misty mountain silhouette in the background, strong orange sunrise backlight and a cool blue top light, heroic summit mood.",
+    "lifestyle_en": "Vertical TikTok shot at the top of a páramo trail near Bogotá with frailejones and fog around: a man's gloved hand takes a softgel from the KUMBRE jar resting on a rock next to a steel thermos, hiking backpack strap visible, cold dawn light with warm orange glow, no face shown."
+  },
+  {
+    "registro": "C4",
+    "candidatos": [
+      {
+        "nombre": "Selvazo",
+        "por_que": "Como un golazo, pero de selva: trae chuchuhuasi, la corteza amazónica del aguante.",
+        "eslogan": "El aguante viene del Amazonas.",
+        "tono": "salvaje, pícaro y latino"
+      },
+      {
+        "nombre": "Ferox",
+        "por_que": "En latín significa 'feroz', como el grito de la arena del gladiador.",
+        "eslogan": "Feroz desde el primer trago.",
+        "tono": "épico romano"
+      },
+      {
+        "nombre": "Al Ángulo",
+        "por_que": "En fútbol es el gol perfecto, donde el arquero no llega; aquí es la noche perfecta.",
+        "eslogan": "Directo al ángulo, siempre.",
+        "tono": "frase futbolera con picardía"
+      },
+      {
+        "nombre": "Machuchú",
+        "por_que": "Fusión de macho y chuchuhuasi, la corteza amazónica del aguante.",
+        "eslogan": "Corteza amazónica, aguante de leyenda.",
+        "tono": "humor latino ruidoso"
+      },
+      {
+        "nombre": "Jaguaré",
+        "por_que": "Inventado desde jaguar, el rey del Amazonas que caza de noche.",
+        "eslogan": "Instinto de jaguar, toda la noche.",
+        "tono": "felino y nocturno"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Se descartaron Otro Round (muy parecido a 'Otra Ronda' de P.json), Vici (WebSearch: 'Vici Health', marca masculina de energía) y Gladius (WebSearch: 'Gladius Labz'). WebSearch \"Selvazo\" bebida marca: no existe marca con ese nombre (solo marcas con 'Selva').",
+    "publico": "Hombres de 25 a 50 años, clientes actuales de Gladiador y nuevos compradores de Dropi, que buscan efecto rápido antes de una cita o fin de semana; responden a humor de barra y a referencias de boxeo y fútbol.",
+    "inspiracion": "Liquid Death por la actitud irreverente, cruzada con la estética de expedición amazónica de Guayakí.",
+    "paleta": [
+      "#0E3B2E",
+      "#0A0A0A",
+      "#F5F0E6",
+      "#E0A526"
+    ],
+    "fuente": "Anton",
+    "logo_en": "Uppercase wordmark 'SELVAZO' in Anton, ultra-condensed, cream (#F5F0E6) on deep jungle green; the 'V' is formed by two crossing blade-like leaves, and a jaguar's claw mark (three diagonal amber #E0A526 slashes) cuts through the 'Z'; small arched caption 'AMAZONAS' above in tiny spaced caps.",
+    "envase_en": "Slim 30 mL amber-brown PET shot bottle with a broad shoulder, wrapped in a matte jungle-green (#0E3B2E) full sleeve, glossy black (#0A0A0A) tamper-evident aluminum screw cap; sold in a 6-pack kraft-and-black sleeve; liquid is deep amber.",
+    "etiqueta_en": "Full shrink sleeve: 'SELVAZO' vertical in big cream Anton, background of dense dark-green tropical leaf illustration in tone-on-tone gloss varnish, amber claw marks across, 'Shot potenciador masculino · Chuchuhuasi · Maca · L-arginina' in small condensed caps, round amber seal 'Corteza amazónica' on the side; finishes: metallic gold foil on the claw marks and seal, matte green with gloss leaf texture.",
+    "escena_en": "Campaign shot on a wet mossy river rock in a dark rainforest set, the shot bottle standing beside a piece of rough chuchuhuasi bark and a fallen monstera leaf with water droplets, mist in the air, a single hard spotlight from above cutting through the haze with amber rim light, intense jungle mood.",
+    "lifestyle_en": "Vertical TikTok shot at a rooftop bar in Cartagena's Getsemaní at night: a man's hand twists the black cap off a Selvazo shot next to a cold beer and string lights, a woman's hand in the background holding a cocktail, colorful colonial walls blurred, warm night lighting, no faces shown."
+  },
+  {
+    "registro": "F62",
+    "candidatos": [
+      {
+        "nombre": "Ritorno",
+        "por_que": "Es 'regreso' en italiano: el regreso de las noches que creías perdidas.",
+        "eslogan": "El gran regreso es tuyo.",
+        "tono": "elegancia italiana masculina"
+      },
+      {
+        "nombre": "Como Antes",
+        "por_que": "Lo que todo hombre de 45 quiere sentir de nuevo, dicho sin rodeos.",
+        "eslogan": "Como a los treinta, con más estilo.",
+        "tono": "frase nostálgica y pícara"
+      },
+      {
+        "nombre": "Gomaestro",
+        "por_que": "Fusión de goma (gomita) y maestro: el que ya domina el juego.",
+        "eslogan": "La gomita del que ya sabe.",
+        "tono": "pícaro y experimentado"
+      },
+      {
+        "nombre": "Zelvio",
+        "por_que": "Inventado desde zinc y selenio, los minerales de la próstata, con aire italiano.",
+        "eslogan": "Minerales de caballero, noches de campeón.",
+        "tono": "sobrio y premium"
+      },
+      {
+        "nombre": "Vasoro",
+        "por_que": "Fusión de vaso (la circulación del óxido nítrico) y oro.",
+        "eslogan": "Circulación de oro, noches de oro.",
+        "tono": "lujo dorado"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Se descartaron Ancora (ya usada en P.json) y Bravoni (WebSearch mostró 'Bravo', suplemento masculino con alerta de la FDA de Filipinas). WebSearch \"Ritorno\" supplement gummies men brand: no aparece marca con ese nombre.",
+    "publico": "Hombres de 40 a 65 años que empiezan a notar la próstata y erecciones menos firmes, cuidan su imagen, viajan y prefieren algo rico y discreto en vez de una pastilla azul.",
+    "inspiracion": "Hims por el enfoque discreto y moderno, con la herencia de Acqua di Parma y la sastrería italiana.",
+    "paleta": [
+      "#8E1B2C",
+      "#1F2A44",
+      "#E9E1D3",
+      "#B08D57"
+    ],
+    "fuente": "Playfair Display",
+    "logo_en": "Wordmark 'Ritorno' in Playfair Display Regular, navy (#1F2A44), with a bronze (#B08D57) circular arrow that starts at the base of the 'R' and loops back over the word like a returning orbit, ending in a small pomegranate-red (#8E1B2C) dot; enclosed in a thin oval like an Italian tailor's label.",
+    "envase_en": "Squat wide-mouth amber-free opaque navy (#1F2A44) glass gummy jar, 60 gummies, with a brushed bronze (#B08D57) metal screw lid; gummies are pomegranate-red (#8E1B2C) and shaped like small rounded diamonds.",
+    "etiqueta_en": "Ivory (#E9E1D3) cotton-paper label like a tailor's tag: centered looping-arrow symbol and 'Ritorno' wordmark, under it 'Próstata + Óxido nítrico' in small spaced caps, ingredients line 'Beta-sitosterol · Granada · Zinc · Selenio' in italic, a fine double-rule border; finishes: bronze foil on the arrow and border, blind emboss on the wordmark, uncoated tactile paper.",
+    "escena_en": "Campaign still life on a dark navy linen tablecloth with a pomegranate cut open showing glossy seeds, a vintage brass compass and a folded silk pocket square as props, the jar centered with a few red gummies in front, warm directional window light with soft shadows, Italian gentleman's study mood.",
+    "lifestyle_en": "Instagram-style shot on a sailboat deck in the Islas del Rosario: a tanned man's hand with a steel watch takes a gummy from the Ritorno jar resting on teak wood, a coiled rope and the turquoise Caribbean sea blurred behind, bright midday sun, no face shown."
+  },
+  {
+    "registro": "F61",
+    "candidatos": [
+      {
+        "nombre": "Dormí Rico",
+        "por_que": "Lo que dice un hombre cuando por fin no se levantó al baño en toda la noche.",
+        "eslogan": "Sin levantarte, sin despertar: dormí rico.",
+        "tono": "frase cómplice, cálida y colombiana"
+      },
+      {
+        "nombre": "Kabocha",
+        "por_que": "Así se llama en Japón la calabaza más dulce y nutritiva.",
+        "eslogan": "La semilla japonesa de la noche tranquila.",
+        "tono": "minimalista japonés"
+      },
+      {
+        "nombre": "Kurbo",
+        "por_que": "Inventado desde Kürbis y Cucurbita, los nombres alemán y científico de la calabaza.",
+        "eslogan": "Semilla alemana, noche completa.",
+        "tono": "técnico y robusto"
+      },
+      {
+        "nombre": "Una y Ya",
+        "por_que": "Una sola cápsula y ya; una sola ida al baño, si acaso.",
+        "eslogan": "Una al día y ya.",
+        "tono": "pícaro práctico"
+      },
+      {
+        "nombre": "Goldseed",
+        "por_que": "Fusión en inglés de oro y semilla, por el color dorado del aceite de calabaza.",
+        "eslogan": "Semilla de oro, noche tranquila.",
+        "tono": "premium internacional"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "Se descartaron De Corrido (ya usada en B.json), Zucca (WebSearch: 'Zucca Semi' de Erba Vita) y Curbita (WebSearch: 'Curbita' de Sanhelios). WebSearch \"Dormí Rico\" marca suplemento: no existe marca con ese nombre.",
+    "publico": "Hombres de 50 a 70 años que se levantan dos o tres veces a orinar en la noche y sienten la próstata inflamada; los compran también sus esposas e hijas, que ven la publicidad en Facebook y TikTok.",
+    "inspiracion": "Hims y Roman por la comunicación directa y moderna de la salud masculina, con calidez de marca familiar.",
+    "paleta": [
+      "#12263A",
+      "#E07A1F",
+      "#F4EDE1",
+      "#6B8F71"
+    ],
+    "fuente": "DM Serif Display",
+    "logo_en": "Wordmark 'Dormí Rico' in DM Serif Display, cream (#F4EDE1) on midnight blue; the accent on the 'í' is a tiny crescent moon, and a single continuous unbroken line flows under both words ending in a small pumpkin seed shape in pumpkin orange (#E07A1F), symbolizing an uninterrupted night; warm, trustworthy, slightly nostalgic.",
+    "envase_en": "Midnight blue (#12263A) matte PET softgel bottle, 60 softgels, classic pharmacy cylinder with a pumpkin-orange (#E07A1F) child-safe screw cap; softgels are translucent golden-green, like pumpkin seed oil.",
+    "etiqueta_en": "Midnight blue label with a starry pattern of tiny pumpkin seeds instead of stars, cream wordmark with the moon accent and unbroken line, text 'Próstata · Aceite de semilla de calabaza 1.000 mg + Saw palmetto' in small caps, sage (#6B8F71) badge 'Noches sin interrupciones'; finishes: copper-orange foil on the moon and seeds, soft-touch matte lamination.",
+    "escena_en": "Calm nighttime campaign shot on a wooden nightstand with a linen runner, the bottle beside a halved small pumpkin with visible seeds, a vintage brass alarm clock showing 6:00 and a glass of water, deep blue moonlight from a window plus a warm lamp glow, serene restful mood.",
+    "lifestyle_en": "Instagram-style early morning shot in a traditional house in Villa de Leyva: a mature man's hand with a wedding ring reaches for the Dormí Rico bottle on a bedside table next to reading glasses and a newspaper, white sheets and colonial wooden shutters with soft sunrise light, no face shown."
+  },
+  {
+    "registro": "F60",
+    "candidatos": [
+      {
+        "nombre": "Signore",
+        "por_que": "Es 'señor' en italiano: el hombre que se cuida con clase y sigue mandando en su casa.",
+        "eslogan": "Para el señor que se cuida.",
+        "tono": "caballero italiano de lujo"
+      },
+      {
+        "nombre": "Sin Vueltas",
+        "por_que": "Sin vueltas al baño y sin vueltas en la vida: directo al grano.",
+        "eslogan": "Sin vueltas. Sin excusas.",
+        "tono": "frase directa y masculina"
+      },
+      {
+        "nombre": "Zinvar",
+        "por_que": "Fusión de zinc y varón: el mineral clave de la próstata masculina.",
+        "eslogan": "Zinc de varón, próstata en calma.",
+        "tono": "deportivo y técnico"
+      },
+      {
+        "nombre": "Lobo Gris",
+        "por_que": "El lobo de pelo gris es el que lidera la manada: experiencia con fuerza.",
+        "eslogan": "La experiencia no se jubila.",
+        "tono": "pícaro y experimentado"
+      },
+      {
+        "nombre": "Macapal",
+        "por_que": "Fusión de maca y palmetto, sus dos ingredientes estrella.",
+        "eslogan": "Raíz andina, palma americana, próstata tranquila.",
+        "tono": "natural y técnico"
+      }
+    ],
+    "recomendada": 0,
+    "verificacion": "WebSearch \"Signore\" supplement prostate men brand: no aparece ninguna marca de suplementos o belleza con ese nombre.",
+    "publico": "Hombres de 45 a 70 años, profesionales, pensionados o empresarios, con próstata inflamada que quieren cuidarse sin sentirse viejos; valoran lo elegante y lo serio.",
+    "inspiracion": "Tom Ford y Acqua di Parma (Barbiere) llevados a la salud masculina, con la claridad de Hims.",
+    "paleta": [
+      "#1C2B24",
+      "#C9A24B",
+      "#F3EEE4",
+      "#5A1F1F"
+    ],
+    "fuente": "Cormorant Garamond",
+    "logo_en": "Wordmark 'Signore' in Cormorant Garamond SemiBold with classic proportions in gold (#C9A24B); above it a refined crest: an 'S' monogram whose upper curl subtly forms a gentleman's mustache, framed by two saw palmetto fronds in a laurel arrangement; feels like an old Milanese barbershop seal.",
+    "envase_en": "Bottle-green (#1C2B24) glass apothecary bottle, 60 capsules, tall cylindrical with a heavy polished gold (#C9A24B) metal screw cap, sitting in a rigid cream (#F3EEE4) box with an oxblood (#5A1F1F) interior; capsules are olive-gold.",
+    "etiqueta_en": "Cream textured paper label with a classic Italian layout: gold crest at top, 'Signore' wordmark, a fine oxblood rule, 'Próstata · Saw palmetto 320 mg + Maca + Zinc' in small caps, 'Fórmula del caballero' in italic script below; finishes: gold hot foil on crest and wordmark, deep blind emboss on the crest, wax-seal style oxblood sticker on the cap closing the box.",
+    "escena_en": "Luxury campaign shot on a dark green marble countertop of a classic barbershop, the green bottle next to a silver straight razor, a badger shaving brush, a leather wallet and a crystal whisky glass, warm tungsten light with soft reflections in a vintage mirror behind, refined masculine atmosphere.",
+    "lifestyle_en": "Instagram-style shot in a wood-paneled office in a Bogotá building in the Parque 93 area: a man's hand in a navy suit sleeve with a gold cufflink takes a capsule from the Signore bottle placed beside a leather agenda and a cup of tinto, city view blurred through the window, warm afternoon light, no face shown."
+  }
+]

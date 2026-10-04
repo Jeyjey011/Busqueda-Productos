@@ -1,0 +1,149 @@
+[
+  {
+    "registro": "F46",
+    "candidatos": [
+      { "nombre": "Ossolé", "por_que": "Fusión del italiano osso (hueso) y sole (sol): el sol que tus huesos no reciben, en una gota.", "eslogan": "El sol, gota a gota.", "tono": "lujo mediterráneo y cálido" },
+      { "nombre": "Lumelo", "por_que": "Palabra inventada de lumen (luz) y melo (dulce): luz suave que se toma en cuchara.", "eslogan": "Tu dosis diaria de luz.", "tono": "tierno y familiar" },
+      { "nombre": "Sin Nubes", "por_que": "Frase con actitud para quien vive bajo el cielo gris de oficina y aun así quiere su vitamina del sol.", "eslogan": "Aunque afuera esté nublado.", "tono": "pícaro y optimista" },
+      { "nombre": "Kadé", "por_que": "Se pronuncia como K y D dichas juntas: las dos vitaminas que trabajan en pareja.", "eslogan": "La pareja que te sostiene.", "tono": "moderno y minimal" },
+      { "nombre": "Mezzodì", "por_que": "Mediodía en italiano: la hora de más sol, embotellada para quien nunca sale a esa hora.", "eslogan": "El mediodía cabe en un gotero.", "tono": "sofisticado y europeo" }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web de 'Ossolé' en suplementos/belleza: sin marca existente. Solo aparece Ossola Skincare (tónico facial en EE. UU.), nombre distinto y otra categoría.",
+    "publico": "Mujeres de 28 a 45 años en ciudades como Bogotá y Medellín que trabajan en oficina, casi no toman sol y compran vitaminas para ellas y su familia; valoran lo bonito y lo limpio.",
+    "inspiracion": "Ritual (transparencia, gota suspendida) con la calidez mediterránea de Aesop y el lado familiar de Toty de Sofía Vergara.",
+    "paleta": ["#F2B33D", "#FFF6E6", "#1F3A5F", "#E9DCC6"],
+    "fuente": "Cormorant Garamond",
+    "logo_en": "Lowercase wordmark 'ossolé' set in Cormorant Garamond SemiBold with generous tracking; the acute accent over the final 'é' is replaced by a tiny solid sun disc in #F2B33D with six fine hairline rays; the two 'o's are optically perfect circles, the first one subtly filled with a soft radial gradient from #F2B33D to #FFF6E6 like a rising sun. Secondary monogram: a single round droplet whose inner negative space forms a sun. Night variant uses the same lockup in silver on #1F3A5F with a crescent moon replacing the sun disc.",
+    "envase_en": "30 ml round frosted cream glass dropper bottle (#FFF6E6 tint), Boston-round shoulders, polished gold metal collar (#F2B33D) with a white soft-touch silicone bulb and calibrated glass pipette. The 'Noche' version uses the same bottle in deep matte navy glass (#1F3A5F) with brushed silver collar and a pale chamomile-yellow bulb. Both sit in a slim rigid cream carton with a gold-foiled sun disc.",
+    "etiqueta_en": "Wrap label in uncoated cotton-textured cream paper (#FFF6E6). Top: blind-embossed sun disc with hot gold foil rim. Center: 'ossolé' wordmark in large Cormorant Garamond, below it a thin gold foil hairline and the line 'D3 + K2 + Omega 3' in small spaced caps (#1F3A5F). Lower third: three tiny icons (bone, shield, droplet) in line art, '30 ml · MCT' in micro text. Back panel: dose chart drawn as a sundial. Night version: navy label with silver foil crescent and 'con manzanilla' in italic.",
+    "escena_en": "Campaign product shot at golden hour: the cream dropper bottle on a warm travertine block, a single golden drop suspended from the pipette catching the light; long hard window shadows in diagonal stripes, a halved orange and a sprig of chamomile flowers as props, background a soft sand-beige wall (#E9DCC6) with a round sun-shaped light leak. Night version beside it in cool blue moonlight, creating a day/night split composition. Shot on 100mm macro, crisp, editorial.",
+    "lifestyle_en": "Vertical iPhone-style photo on a small apartment balcony in Bogotá at 7 a.m., overcast sky and brick buildings softly blurred behind; a woman's hand with a thin gold ring squeezes the dropper over a silver teaspoon, a cup of tinto and a kid's lunchbox on the railing table, cozy wool ruana sleeve visible; face not shown, natural cool light with a warm glow from the bottle."
+  },
+  {
+    "registro": "F74",
+    "candidatos": [
+      { "nombre": "Musgaia", "por_que": "Fusión de musgo marino y Gaia, la madre tierra: mar y monte en una sola cápsula.", "eslogan": "El mar y el monte, contigo.", "tono": "naturaleza premium y mística" },
+      { "nombre": "Yerbamar", "por_que": "Une las 20 yerbas del monte con el musgo del mar en una palabra que suena a canción.", "eslogan": "Veinte yerbas y un océano.", "tono": "fresco y tropical" },
+      { "nombre": "Ashé", "por_que": "Palabra yoruba de la cultura afrocaribeña que significa fuerza vital y buena energía.", "eslogan": "Fuerza vital, todos los días.", "tono": "espiritual y poderoso" },
+      { "nombre": "Cero Bajón", "por_que": "Frase con actitud contra el bajonazo de energía y la gripa de temporada.", "eslogan": "Ni gripa ni bajonazo.", "tono": "desparpajado y juvenil" },
+      { "nombre": "Herbanta", "por_que": "Palabra inventada de herba (hierba) y aguanta: la mezcla que te hace aguantar todo.", "eslogan": "Hierbas que aguantan contigo.", "tono": "enérgico y terroso" }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web de 'Musgaia' en suplementos/musgo marino: sin resultados de marca existente.",
+    "publico": "Hombres y mujeres de 25 a 40 años, fit y wellness, que siguen tendencias de sea moss en TikTok, se enferman cuando cambia el clima y buscan energía sin café extra.",
+    "inspiracion": "AG1 (Athletic Greens) por el ritual de superalimento, con la estética mística de Moon Juice.",
+    "paleta": ["#0F4D45", "#C9A86A", "#F3EFE4", "#7A8C3C"],
+    "fuente": "Syne",
+    "logo_en": "Wordmark 'MUSGAIA' in Syne ExtraBold, wide and slightly expanded, letterspaced; the counter of the 'G' is cut by a single wave line that flows into a leaf vein, merging ocean and forest. Emblem: a perfect circle split horizontally, bottom half three stacked wave lines, top half a sprouting leaf, drawn in a single 2pt stroke in #C9A86A. Small caption '20 + mar' under the wordmark in tiny caps.",
+    "envase_en": "150 cc wide-mouth deep green glass jar (#0F4D45), cylindrical with rounded shoulders and satin-matte finish, brushed gold aluminum screw cap (#C9A86A) with debossed circular emblem on top, 60 vegetable capsules in moss-green (#7A8C3C) visible through a clear window strip. Induction seal printed with the wave-leaf pattern.",
+    "etiqueta_en": "Full-wrap bone-white label (#F3EFE4) with fine paper texture. A large outlined numeral '20' in gold foil dominates the left side, the 'MUSGAIA' wordmark centered in deep green, below it an illustrated band of 20 tiny line-art botanicals (moringa leaf, turmeric root, oregano, black seed, ashwagandha) flowing into an engraved sea-moss frond. Tactile varnish on the wave lines, holographic micro-strip on the seal stating 'Musgo marino + 20 hierbas'.",
+    "escena_en": "Campaign still: the green jar standing on wet black volcanic rock at the edge of a tide pool, real red-gold sea moss draped beside it, fresh moringa branches, a broken turmeric root and black seeds scattered on the rock; mist and soft overcast Pacific light, droplets on the glass, deep teal water out of focus behind. Cinematic, moody, high detail.",
+    "lifestyle_en": "Vertical TikTok-style shot in a sunny Medellín apartment kitchen with plants and a window overlooking the green hills; a hand with a silver chain bracelet tips two capsules into the palm next to a glass of water with lime, a wayuu mochila bag and gym keys on the counter; face not shown, bright natural morning light, slightly handheld feel."
+  },
+  {
+    "registro": "F15",
+    "candidatos": [
+      { "nombre": "Heliora", "por_que": "De helios (sol) y hora: tu hora de sol, aunque no salgas de la oficina.", "eslogan": "Tu hora de sol, en perla.", "tono": "lujo clínico y luminoso" },
+      { "nombre": "Calcifera", "por_que": "Viene de calciferol, el nombre científico de la vitamina D, con aire de fiera que lleva el calcio a su sitio.", "eslogan": "Lleva el calcio a su lugar.", "tono": "lujo clínico con carácter" },
+      { "nombre": "Diez Mil", "por_que": "Frase que presume la dosis alta de vitamina D en una sola cápsula, sin rodeos.", "eslogan": "Dosis alta, cero rodeos.", "tono": "directo y seguro" },
+      { "nombre": "Dekei", "por_que": "Así suenan juntas la D y la K dichas en voz alta por una influencer.", "eslogan": "La D y la K, juntas.", "tono": "juvenil y pop" },
+      { "nombre": "Hora Dorada", "por_que": "La golden hour del atardecer convertida en una perla de vitamina del sol.", "eslogan": "La hora dorada en tu mesa.", "tono": "aspiracional y cálido" }
+    ],
+    "recomendada": 1,
+    "verificacion": "Primera opción 'Heliora' descartada: es casi igual a Heliocare (suplemento oral de Cantabria Labs vendido en Colombia). 'Dekei' también se descarta por parecerse a DEKAs (multivitamínico de Callion Pharma). Se elige 'Calcifera': la búsqueda no muestra ninguna marca de suplementos con ese nombre (solo Calciven y Caltrate, nombres distintos).",
+    "publico": "Adultos de 35 a 60 años, sobre todo mujeres en perimenopausia y profesionales de oficina con déficit de vitamina D, que ya toman suplementos y buscan una dosis alta, seria y bien presentada.",
+    "inspiracion": "Thorne (seriedad científica) con el minimalismo de lujo de Arrae.",
+    "paleta": ["#E8A33D", "#F7F3EC", "#2B2B2B", "#B8C4C2"],
+    "fuente": "DM Serif Display",
+    "logo_en": "Wordmark 'Calcifera' in DM Serif Display, title case, tight kerning; the dot of the 'i' is replaced by a small glossy amber softgel oval (#E8A33D) tilted 20 degrees. Secondary mark: a square periodic-table style tile with 'Cf' in large serif, the numbers 'D3' top-left and 'K2' bottom-right, thin charcoal border, used as a seal on the cap and box.",
+    "envase_en": "Round frosted ivory glass bottle (#F7F3EC) holding 60 softgels, 250 cc pharma-style with a short neck, heavy matte charcoal (#2B2B2B) child-resistant screw cap with the debossed 'Cf' tile on top; packed in a rigid two-piece ivory box with a sage-grey (#B8C4C2) inner tray.",
+    "etiqueta_en": "Clean ivory label with strict Swiss grid: 'Calcifera' large in charcoal serif at top, under it the 'Cf' element tile in gold foil. Center hero number '10.000 UI' in oversized serif with 'D3' and '200 µg K2 MK-7' as fine sans annotations. Thin gold foil hairlines frame the panel; blind emboss of a softgel oval; small sage-grey band at the bottom with 'aceite de coco · 60 cápsulas blandas'. Soft-touch matte lamination.",
+    "escena_en": "Editorial still life: the ivory bottle on a stepped travertine plinth under hard midday sun, sharp architectural shadows; a dozen amber softgels arranged like a pearl strand spilling down the steps, glowing translucent; a piece of white coral and a sprig of olive as props; background flat sage-grey (#B8C4C2). Crisp, high-key, luxury clinical.",
+    "lifestyle_en": "Vertical Instagram shot at a café terrace in Chapinero, Bogotá: a woman's hand with a classic watch and blazer cuff holds a single amber softgel between two fingers above a cup of tinto and an open agenda, the Calcifera bottle beside a croissant; overcast light with a soft warm bounce, face not shown, candid feel."
+  },
+  {
+    "registro": "F54",
+    "candidatos": [
+      { "nombre": "Ottone", "por_que": "Latón en italiano, la aleación de zinc y cobre: la misma pareja que va en cada cápsula.", "eslogan": "Zinc y cobre, aleación perfecta.", "tono": "lujo artesanal italiano" },
+      { "nombre": "Kuzén", "por_que": "Cu y Zn, los símbolos del cobre y el zinc, leídos al revés suenan a zen.", "eslogan": "Piel, pelo y defensas en calma.", "tono": "minimal y zen" },
+      { "nombre": "Brillo Propio", "por_que": "Frase con actitud: la piel y el pelo brillan desde adentro, sin filtro.", "eslogan": "Sin filtro, desde adentro.", "tono": "seguro y coqueto" },
+      { "nombre": "Kuprina", "por_que": "Palabra inventada desde cuprum, cobre en latín, con final femenino y suave.", "eslogan": "El metal que te embellece.", "tono": "elegante y femenino" },
+      { "nombre": "Dúo Metal", "por_que": "Dos metales esenciales trabajando como banda para tu piel y tus defensas.", "eslogan": "Dos metales, una sola banda.", "tono": "rockero y urbano" }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web de 'Ottone' en suplementos/zinc/belleza: sin marca existente en la categoría.",
+    "publico": "Jóvenes de 20 a 35 años, mujeres y hombres, con acné, caída de pelo o defensas bajas, que siguen rutinas de skincare en TikTok y quieren un suplemento que se vea de tocador y no de droguería.",
+    "inspiracion": "Hims & Hers (piel y pelo sin tabú) con la estética de botica de latón de Aesop y Diptyque.",
+    "paleta": ["#B5894B", "#3A2A1E", "#F4EDE3", "#D9B99B"],
+    "fuente": "Playfair Display",
+    "logo_en": "Wordmark 'OTTONE' in Playfair Display Bold small caps with wide letterspacing; the double 'TT' share a single crossbar rendered as a brushed brass bar, like a hallmark stamp. Symbol: two overlapping circles labeled with tiny 'Zn' and 'Cu' whose intersection is filled in brass (#B5894B), evoking an alloy. Small 'Milano · Bogotá' style tagline replaced by 'Zn · Cu' in micro caps.",
+    "envase_en": "Cream opaque glass apothecary bottle (#F4EDE3), 200 cc, cylindrical with a slight shoulder, topped with a heavy brushed-brass metal screw cap (#B5894B) with a stamped alloy-circle emblem; 60 capsules in soft copper-blush color (#D9B99B). Comes in a slim espresso-brown (#3A2A1E) sleeve box with brass foil.",
+    "etiqueta_en": "Textured cream cotton paper label: 'OTTONE' wordmark in espresso brown at the top, a horizontal brass foil bar beneath; centered two square element tiles in brass foil 'Zn 30' and 'Cu 2'; benefit line 'piel · cabello · defensas' in italic serif; bottom edge with a fine guilloche pattern in copper ink, blind-embossed hallmark seal with batch number. Matte varnish with spot gloss on the tiles.",
+    "escena_en": "Luxury still life: the bottle on a hammered brass tray over warm walnut wood, an antique round brass mirror reflecting it, coils of bare copper wire, a few capsules and a glass serum dropper as props; low warm side light with deep espresso shadows, rim light catching the brass cap. Rich, tactile, editorial.",
+    "lifestyle_en": "Vertical TikTok-style shot of a bathroom vanity in a Bogotá apartment with white subway tiles: a hand with neutral manicure picks one capsule from the open Ottone bottle, next to a facial serum, a claw clip and a cup of aromática; morning daylight from a small window, mirror slightly fogged, face not shown, 'get ready with me' vibe."
+  },
+  {
+    "registro": "F56",
+    "candidatos": [
+      { "nombre": "Plato Chico", "por_que": "Con Ozempic el plato se achica; esta marca se asegura de que la nutrición no.", "eslogan": "Comes menos, te nutres completo.", "tono": "pícaro y cómplice" },
+      { "nombre": "Nuvela", "por_que": "Palabra inventada de nueva y ella: la mujer que está cambiando, bien acompañada.", "eslogan": "Tu nueva versión, bien nutrida.", "tono": "aspiracional y femenino" },
+      { "nombre": "Leggera", "por_que": "Ligera en italiano: el cuerpo se aliviana, pero la energía no se va.", "eslogan": "Ligera de peso, llena de energía.", "tono": "elegante y europeo" },
+      { "nombre": "Pocomás", "por_que": "Fusión de poco y más: comes poco, recibes más.", "eslogan": "Poco en el plato, más en ti.", "tono": "ingenioso y cercano" },
+      { "nombre": "Media Porción", "por_que": "Frase de restaurante que todo usuario de GLP-1 conoce: pides la mitad, te nutres entero.", "eslogan": "La mitad del plato, todo nutriente.", "tono": "humor fino y moderno" }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web de 'Plato Chico' en suplementos/vitaminas: sin marca existente.",
+    "publico": "Adultos de 30 a 55 años en Colombia que usan Ozempic, Mounjaro o similares, comen muy poco y temen caída de pelo, cansancio y pérdida de músculo; hablan de su proceso en redes sin pena.",
+    "inspiracion": "Ritual (pack diario y transparente) con la picardía y el color de Poppi.",
+    "paleta": ["#F25C3D", "#FFF1E6", "#2E2A6B", "#F7C8B5"],
+    "fuente": "Archivo Black",
+    "logo_en": "Bold stacked wordmark 'PLATO / CHICO' in Archivo Black, all caps, set tightly inside a small circular plate outline in #2E2A6B, with the 'O' of PLATO drawn as a tiny plate seen from above and a minimal fork leaning against the 'C'. A cheeky coral (#F25C3D) dot sits in the center of the plate as if it were the only bite. Works as a round sticker-style badge.",
+    "envase_en": "Rigid matte coral (#F25C3D) carton box holding 30 daily tear-off sachets in a dispenser format; each sachet is a soft-touch cream (#FFF1E6) foil pouch containing the day's tablets (multivitamin-mineral, magnesium, B12 and calcium with D3), printed with the day number in indigo. Box has a perforated front window to pull the sachets one by one.",
+    "etiqueta_en": "Box front: oversized round plate logo in indigo on coral, a large photographic-style illustration of a very small dessert plate with one tablet on it, headline 'Para quien usa GLP-1' in white bold caps, four small pill icons labeled 'Multi · Magnesio · B12 · Calcio+D3'. Sachets: big 'DÍA 01' numerals in Archivo Black, blush (#F7C8B5) band, gloss spot UV on the plate icon. Back: weekly checklist grid.",
+    "escena_en": "Witty campaign still: a huge empty white dinner plate in the background and, in the foreground, a tiny porcelain dessert plate holding one sachet, a silver fork beside it, on a crisp cream tablecloth; coral box standing upright to the side; overhead soft daylight with a single hard shadow, indigo backdrop wall. Clean, graphic, playful.",
+    "lifestyle_en": "Vertical TikTok shot at lunch in a Bogotá corrientazo-style restaurant: a small half portion of rice, salad and chicken on the table, a hand with a smartwatch tearing open a 'DÍA 12' sachet, a glass of lulo juice and the coral box next to the plate; warm indoor light, people blurred in the background, face not shown, candid 'what I eat on Ozempic' vibe."
+  },
+  {
+    "registro": "F26",
+    "candidatos": [
+      { "nombre": "Kelor", "por_que": "Así se llama la moringa en Indonesia, donde la dan a las mamás para recuperar fuerza.", "eslogan": "La hoja que alimenta a Asia.", "tono": "exótico y sereno" },
+      { "nombre": "Cero Pereza", "por_que": "Frase con actitud contra el cansancio de la mañana, la promesa de la moringa.", "eslogan": "Arranca sin excusas, arranca verde.", "tono": "enérgico y descomplicado" },
+      { "nombre": "Sajana", "por_que": "Nombre de la moringa en Bengala, con sonido latino y dulce.", "eslogan": "La hoja dulce de la energía.", "tono": "cálido y espiritual" },
+      { "nombre": "Energreen", "por_que": "Fusión de energy y green: energía que viene de una hoja verde.", "eslogan": "Energía que nace verde.", "tono": "deportivo y moderno" },
+      { "nombre": "Arbolé", "por_que": "Tomado del verso de Lorca 'Arbolé, arbolé': la moringa es el árbol de la vida hecho canción.", "eslogan": "El árbol de la vida, cantado.", "tono": "poético y aspiracional" }
+    ],
+    "recomendada": 4,
+    "verificacion": "Primera opción 'Kelor' descartada: es el nombre común de la moringa en Indonesia y ya aparece en productos ('daun kelor'), difícil de registrar. 'Sajana' también es nombre común de la planta y existe la marca Sahajan. Se elige 'Arbolé': la búsqueda no muestra ninguna marca de suplementos ni cosmética con ese nombre.",
+    "publico": "Mujeres y hombres de 25 a 45 años que buscan energía natural sin cafeína, veganos o flexitarianos, mamás que quieren nutrirse mejor y gente que ama lo artesanal y de origen.",
+    "inspiracion": "Kuli Kuli (moringa como superalimento) con la poesía visual y el color de Olipop.",
+    "paleta": ["#4E7A3A", "#E9E4C9", "#C4622D", "#1E2B1A"],
+    "fuente": "Abril Fatface",
+    "logo_en": "Lowercase wordmark 'arbolé' in Abril Fatface with high contrast strokes; the acute accent over the 'é' is a single elongated moringa leaflet in #4E7A3A, and the ascender of the 'l' grows into three tiny paired leaflets like a moringa branch. Secondary emblem: a round seal with a stylized tree whose canopy is made of small oval moringa leaves and the line 'el árbol de la vida' set around the circle.",
+    "envase_en": "Wide cylindrical matte leaf-green glass jar (#4E7A3A), 200 cc, holding 90 capsules, closed with a natural bamboo screw lid with debossed tree seal and an inner food-grade liner; the capsules are visibly olive-green. Wrapped in a cream (#E9E4C9) paper band with a terracotta (#C4622D) wax-style seal sticker over the lid.",
+    "etiqueta_en": "Cream textured label wrapping two-thirds of the jar: 'arbolé' wordmark in deep forest (#1E2B1A), below it a hand-engraved botanical illustration of a moringa branch with seed pods; '1.200 mg hoja de moringa' in elegant small caps; terracotta stripe at the bottom with 'energía y nutrición diaria'. Debossed tree seal, matte varnish, gold-free and earthy, recycled-paper look.",
+    "escena_en": "Campaign still in a sun-dappled tropical garden: the green jar on a terracotta clay tile, fresh moringa branches with long seed pods draped behind, a carved wooden spoon with green powder, leaf shadows moving across the scene from a canopy overhead; warm late-morning light, shallow depth of field, lush and calm.",
+    "lifestyle_en": "Vertical Instagram shot on the porch of a coffee farm in the Eje Cafetero: a hand holding a capsule over a colorful hammock, the arbolé jar on a wooden railing next to a ceramic mug and a bunch of green plantains, misty mountains and coffee plants blurred behind; soft morning light, face not shown, slow-living feel."
+  },
+  {
+    "registro": "F55",
+    "candidatos": [
+      { "nombre": "Fratello", "por_que": "Hermano en italiano: el multivitamínico que se recomienda entre parceros, de hombre a hombre.", "eslogan": "Lo que te recomienda un hermano.", "tono": "masculino elegante y cercano" },
+      { "nombre": "Valtor", "por_que": "Palabra inventada de valor y torre: el hombre que se mantiene en pie.", "eslogan": "Firme por dentro y por fuera.", "tono": "épico y sobrio" },
+      { "nombre": "Sin Excusas", "por_que": "Frase con actitud para el hombre que trabaja, entrena y cría sin quejarse.", "eslogan": "Trabajo, gym y casa. Sin excusas.", "tono": "rudo y motivador" },
+      { "nombre": "Kairo", "por_que": "De kairós, el momento justo en griego: tu mejor momento es ahora.", "eslogan": "Tu mejor momento empieza hoy.", "tono": "moderno y aspiracional" },
+      { "nombre": "Varonte", "por_que": "Fusión de varón y adelante: el hombre que va pa' delante.", "eslogan": "Un hombre siempre pa' delante.", "tono": "colombiano y entrador" }
+    ],
+    "recomendada": 0,
+    "verificacion": "Búsqueda web de 'Fratello' en multivitamínicos/suplementos para hombre: sin marca existente en la categoría.",
+    "publico": "Hombres de 28 a 50 años, trabajadores, papás y aficionados al gym, que no se cuidan mucho pero quieren rendir y verse bien; compran por recomendación de amigos y creadores masculinos.",
+    "inspiracion": "Hims (cuidado masculino sin tabú) con el estilo de barbería italiana clásica y la sobriedad de Aesop.",
+    "paleta": ["#1C2B39", "#B23A2E", "#E8E1D3", "#C9A45C"],
+    "fuente": "Bebas Neue",
+    "logo_en": "Condensed all-caps wordmark 'FRATELLO' in Bebas Neue with wide tracking, set in linen on navy; above it a small crest: two mirrored capital 'F's back to back forming a shield, like a handshake, with 'EST. MMXXVI' in tiny caps and a laurel line in gold (#C9A45C). Tomato-red (#B23A2E) underline bar for the lycopene accent.",
+    "envase_en": "Matte navy (#1C2B39) HDPE pharma bottle, 250 cc, square-shouldered and solid, 60 tablets, with a glossy tomato-red (#B23A2E) child-resistant cap and a gold foil induction seal; packed in a navy carton with barbershop-stripe side panels in red, linen and navy.",
+    "etiqueta_en": "Wrap label in matte navy with soft-touch finish: gold foil crest at top, 'FRATELLO' wordmark large in linen white, a thin red barber-pole diagonal stripe band across the lower third; four small badges in line style 'Multi · Licopeno · Probióticos · Ashwagandha'; '60 tabletas · para hombre' in small caps. Raised spot UV on the wordmark, embossed crest.",
+    "escena_en": "Moody campaign still on a dark walnut barbershop counter: the navy bottle with red cap beside a straight razor, a brass shaving bowl, a double espresso and a halved ripe tomato glistening; chiaroscuro lighting from a single window, vintage barber chair blurred in the background, warm amber and deep navy tones.",
+    "lifestyle_en": "Vertical TikTok shot of a man's breakfast before work in a Medellín apartment: a hand with a steel watch and rolled-up shirt sleeve takes a tablet next to an arepa with egg, a cup of tinto and a gym bag on the chair, motorcycle helmet on the counter; early morning light through the window, face not shown, real everyday vibe."
+  }
+]
