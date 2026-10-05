@@ -187,23 +187,25 @@ const categorias = Object.keys(CATEGORIAS).map((cod) => {
   return { cod, n: CATEGORIAS[cod], total: ps.reduce((s, p) => s + (p.u || 0), 0), np: ps.length, nr: rs.length, problema: categoriaConcepto[cod]?.problema || '' };
 }).filter((c) => c.np > 0 || c.nr > 0).sort((a, b) => b.total - a.total);
 const orden = categorias.map((c) => c.cod);
-// ---------- Marcas únicas: cada producto es su propia marca, con su nombre y su diseño ----------
+// ---------- Una marca por registro (datos/marcas_v2: la recomendada de 5 candidatos, con su identidad) ----------
 const luz = (h) => { const n = parseInt(String(h).replace('#', '').slice(0, 6), 16); return isNaN(n) ? 0.5 : (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255; };
-const unicas = {};
-for (const parte of leerCarpeta('datos/marcas_unicas')) for (const x of parte) unicas[x.registro] = x.marcas;
+const sat = (h) => { const n = parseInt(String(h).slice(1, 7), 16); const c = [n >> 16, (n >> 8) & 255, n & 255]; return Math.max(...c) - Math.min(...c); };
+const colores = (paleta) => {
+  const pal = [...(paleta || ['#222222', '#f4f1ec'])].sort((a, z) => luz(a) - luz(z));
+  const acento = [...pal].sort((a, z) => sat(z) - sat(a))[0];
+  const claro = pal[pal.length - 1];
+  return { fondo: luz(claro) > 0.93 ? `color-mix(in srgb, ${acento} 16%, #fff)` : claro, tinta: luz(acento) < 0.55 ? acento : pal[0] };
+};
+const v2 = {};
+for (const parte of leerCarpeta('datos/marcas_v2')) for (const x of parte) v2[x.registro] = x;
+// el magnesio para niños usa la marca que ya venden
+const PROPIA = { nombre: 'Magnesium Citrate Kids', eslogan: 'Calma y buen sueño para los niños', por_que: 'Es la marca que ustedes ya venden en gomitas; el registro la lleva también a gotas.', publico: 'Mamás de niños de 2 años en adelante', inspiracion: 'Línea propia', paleta: ['#5B2A86', '#FF8A00', '#2BB24C', '#FFFFFF'], fuente: 'Baloo 2', otras: [] };
 for (const r of registros) {
-  const ms = unicas[r.id];
-  if (!ms || ms.length !== 3) continue;
-  r.marcas = ms.map((b) => {
-    const pal = [...(b.paleta || [])].sort((a, z) => luz(a) - luz(z));
-    const sat = (h) => { const n = parseInt(String(h).slice(1, 7), 16); const c = [n >> 16, (n >> 8) & 255, n & 255]; return Math.max(...c) - Math.min(...c); };
-    const acento = [...pal].sort((a, z) => sat(z) - sat(a))[0];
-    const claro = pal[pal.length - 1];
-    // si el color más claro es casi blanco, el fondo toma un tinte del acento para que cada marca tenga su color
-    const fondo = luz(claro) > 0.93 ? `color-mix(in srgb, ${acento} 18%, #fff)` : claro;
-    const tinta = luz(acento) < 0.55 ? acento : pal[0];
-    return { nombre: b.nombre, eslogan: b.eslogan, descriptor: b.descriptor, idea: b.idea, publico: b.publico, inspiracion: b.inspiracion, fuente: b.fuente, tinta, fondo, paleta: b.paleta };
-  });
+  const x = v2[r.id];
+  let m = null;
+  if (x) { const c = x.candidatos[x.recomendada]; m = { nombre: c.nombre, eslogan: c.eslogan, por_que: c.por_que, tono: c.tono, publico: x.publico, inspiracion: x.inspiracion, paleta: x.paleta, fuente: x.fuente, otras: x.candidatos.filter((_, i) => i !== x.recomendada).map((k) => k.nombre) }; }
+  else if (r.id === 'N5' || r.id === 'N6') m = { ...PROPIA };
+  if (m) r.marcas = [{ ...m, ...colores(m.paleta), idea: m.por_que }];
 }
 
 // ---------- Prioridad: primero lo que más podría venderse, al final quemados y lo que ya manejan ----------
@@ -291,13 +293,26 @@ for (const c of catalogo.productos.filter((x) => !x.registro && x.nuevo_registro
   if (cat[c.foto] && !emp[c.nuevo_registro.id]) { emp[c.nuevo_registro.id] = cat[c.foto].src; if (empG['K:' + c.foto]) empG[c.nuevo_registro.id] = empG['K:' + c.foto]; }
 }
 fs.writeFileSync(path.join(DIR_WEB, 'grandes_empaques.json'), JSON.stringify(empG));
+const mv2 = {}, mv2G = { logo: {}, pack: {}, life: {} };
+for (const r of registros) {
+  const t = {};
+  for (const tipo of ['logo', 'pack', 'life']) {
+    const m = path.join(RAIZ, 'salida', 'marcas_v2', `t_${r.id}_${tipo}.jpg`), g = path.join(RAIZ, 'salida', 'marcas_v2', `g_${r.id}_${tipo}.jpg`);
+    if (fs.existsSync(m)) t[tipo] = dataUri(m);
+    if (fs.existsSync(g)) mv2G[tipo][tipo[0].toUpperCase() + ':' + r.id] = dataUri(g);
+  }
+  if (Object.keys(t).length) mv2[r.id] = t;
+}
+for (const tipo of ['logo', 'pack', 'life']) fs.writeFileSync(path.join(DIR_WEB, `grandes_${tipo}.json`), JSON.stringify(mv2G[tipo]));
+fs.writeFileSync(path.join(DIR_WEB, 'marcas_mini.json'), JSON.stringify(mv2));
+if (fs.existsSync(path.join(DIR_WEB, 'grandes_marcas.json'))) fs.unlinkSync(path.join(DIR_WEB, 'grandes_marcas.json'));
 const sinEmpaque = registros.filter((r) => !emp[r.id]).map((r) => r.id);
 if (sinEmpaque.length) console.warn(`Registros sin foto de empaque (${sinEmpaque.length}):`, sinEmpaque.join(', '));
 
 // ---------- Control de calidad ----------
 const sinMarcas = registros.filter((r) => r.marcas.length !== 3).map((r) => r.id);
 const todas = registros.flatMap((r) => r.marcas.map((b) => b.nombre.toLowerCase()));
-const repetidas = [...new Set(todas.filter((n, i) => todas.indexOf(n) !== i))];
+const repetidas = [...new Set(todas.filter((n, i) => todas.indexOf(n) !== i))].filter((n) => n !== 'magnesium citrate kids');
 const magnifica = JSON.stringify({ registros, categorias }).match(/magn[ií]fic/gi);
 if (sinMarcas.length) console.warn('Registros sin 3 marcas:', sinMarcas.join(', '));
 if (repetidas.length) console.warn('Marcas repetidas:', repetidas.join(', '));
@@ -327,5 +342,5 @@ let html = fs.readFileSync(PLANTILLA, 'utf8').replace('/*__DATA__*/null', JSON.s
 fs.mkdirSync(path.dirname(SALIDA), { recursive: true });
 fs.writeFileSync(SALIDA, html, 'utf8');
 const mb = (f) => (fs.statSync(path.join(DIR_WEB, f)).size / 1048576).toFixed(1);
-console.log(`Archivos aparte: grandes_productos.json ${mb('grandes_productos.json')} MB · grandes_empaques.json ${mb('grandes_empaques.json')} MB`);
+console.log(`Archivos aparte: grandes_productos.json ${mb('grandes_productos.json')} MB · grandes_empaques.json ${mb('grandes_empaques.json')} MB · marcas_mini.json ${mb('marcas_mini.json')} MB · grandes logo/pack/life ${mb('grandes_logo.json')}/${mb('grandes_pack.json')}/${mb('grandes_life.json')} MB`);
 console.log(`Web: ${(Buffer.byteLength(html) / 1048576).toFixed(2)} MB · ${registros.length} registros · ${productos.length} productos únicos (${pub.size} publicaciones) · ${DATA.kpi.marcas} marcas · ${Object.keys(emp).length} fotos de empaque`);
